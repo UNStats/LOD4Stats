@@ -7,16 +7,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :Target a owl:Class;
-  rdfs:subClassOf owl:Thing .
+  rdfs:subClassOf skos:Concept .
 
 :Goal a owl:Class;
-  rdfs:subClassOf owl:Thing .
+  rdfs:subClassOf skos:Concept .
 
 :Series a owl:Class;
-  rdfs:subClassOf owl:Thing .
+  rdfs:subClassOf skos:Concept .
 
 :Indicator a owl:Class;
-  rdfs:subClassOf owl:Thing .
+  rdfs:subClassOf skos:Concept .
 
 :hasTarget a owl:ObjectProperty;
   dct:modified "2019-03-24T20:13:31.094Z"^^xsd:dateTime;
@@ -33,6 +33,16 @@
   rdfs:domain :Indicator;
   rdfs:range :Series .
 
+dct:subject a owl:ObjectProperty;
+  dct:modified "2019-03-24T21:48:03.248Z"^^xsd:dateTime;
+  owl:propertyChainAxiom _:node10 .
+
+_:node10 rdf:first skos:broader;
+  rdf:rest _:node11 .
+
+_:node11 rdf:first dct:subject;
+  rdf:rest rdf:nil .
+
 <http://schema.org/keywords> a owl:DatatypeProperty;
   owl:propertyChainAxiom _:node6 .
 
@@ -42,4 +52,5 @@ _:node6 rdf:first dct:subject;
 _:node7 rdf:first skos:prefLabel;
   rdf:rest rdf:nil .
 
-<http://data.un.org/ontology/sdg> a owl:Ontology .
+<http://data.un.org/ontology/sdg> a owl:Ontology ;
+  rdfs:label "Sustainable Development Goals Ontology" .
