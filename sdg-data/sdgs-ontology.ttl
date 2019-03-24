@@ -1,0 +1,45 @@
+@prefix : <http://data.un.org/ontology/sdg#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Target a owl:Class;
+  rdfs:subClassOf owl:Thing .
+
+:Goal a owl:Class;
+  rdfs:subClassOf owl:Thing .
+
+:Series a owl:Class;
+  rdfs:subClassOf owl:Thing .
+
+:Indicator a owl:Class;
+  rdfs:subClassOf owl:Thing .
+
+:hasTarget a owl:ObjectProperty;
+  dct:modified "2019-03-24T20:13:31.094Z"^^xsd:dateTime;
+  rdfs:domain :Goal;
+  rdfs:range :Target .
+
+:hasIndicator a owl:ObjectProperty;
+  dct:modified "2019-03-24T19:54:28.633Z"^^xsd:dateTime;
+  rdfs:domain :Target;
+  rdfs:range :Indicator .
+
+:hasSeries a owl:ObjectProperty;
+  dct:modified "2019-03-24T19:59:41.590Z"^^xsd:dateTime;
+  rdfs:domain :Indicator;
+  rdfs:range :Series .
+
+<http://schema.org/keywords> a owl:DatatypeProperty;
+  owl:propertyChainAxiom _:node6 .
+
+_:node6 rdf:first dct:subject;
+  rdf:rest _:node7 .
+
+_:node7 rdf:first skos:prefLabel;
+  rdf:rest rdf:nil .
+
+<http://data.un.org/ontology/sdg> a owl:Ontology .
