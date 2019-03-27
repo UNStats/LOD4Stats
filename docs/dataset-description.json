@@ -1,0 +1,48 @@
+{
+  "@context":"https://schema.org/",
+  "@type":"Dataset",
+  "name":"Series SG_HAZ_CMRMNTRL: Compliance with the Montreal Protocol on hazardous waste and other chemicals.",
+  "description":"Series SG_HAZ_CMRMNTRL (Indicator 12.4.1): Compliance with the Montreal Protocol on hazardous waste and other chemicals.",
+  "version": " 2018.Q2.G.01",
+  "url":"http://data.un.org/kos/sdg/SG_HAZ_CMRMNTRL",
+  "sameAs":"http://www.sdg.org/datasets/aa7580f18abc4ba39980a815a936040b_0",
+  "keywords":[
+     "INDUSTRY > WASTE DISPOSAL > HAZARDOUS WASTE",
+     "POLITICAL AND LEGAL QUESTIONS > INTERNATIONAL LAW > INTERNATIONAL INSTRUMENTS"
+  ],
+  "creator":{
+     "@type":"Organization",
+     "url": "https://unstats.un.org",
+     "name":"United Nations Statistics Division Statistical Services Branch",
+     "contactPoint":{
+        "@type":"ContactPoint",
+        "contactType": "customer service",
+        "telephone":"+1 (212) 963 9851",
+        "email":"statistics@un.org"
+     }
+  },
+  "includedInDataCatalog":{
+     "@type":"DataCatalog",
+     "name":"unstats-undesa.opendata.arcgis.com"
+  },
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "encodingFormat":"CSV",
+        "contentUrl":"https://opendata.arcgis.com/datasets/aa7580f18abc4ba39980a815a936040b_0.csv"
+     },
+     {
+      "@type":"DataDownload",
+      "encodingFormat":"GDB",
+      "contentUrl":"https://opendata.arcgis.com/datasets/aa7580f18abc4ba39980a815a936040b_0.gdb"
+   }
+  ],
+  "temporalCoverage":"2018-04-01/2018-06-30",
+  "spatialCoverage":{
+     "@type":"Place",
+     "geo":{
+        "@type":"GeoShape",
+        "box":"-180.0 -85.06 180.0 85.06"
+     }
+  }
+}
