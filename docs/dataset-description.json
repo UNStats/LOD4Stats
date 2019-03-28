@@ -1,5 +1,6 @@
 {
   "@context":"https://schema.org/",
+  "@id":"http://data.un.org/kos/sdg/SG_HAZ_CMRMNTRL",
   "@type":"Dataset",
   "name":"Series SG_HAZ_CMRMNTRL: Compliance with the Montreal Protocol on hazardous waste and other chemicals.",
   "description":"Series SG_HAZ_CMRMNTRL (Indicator 12.4.1): Compliance with the Montreal Protocol on hazardous waste and other chemicals.",
