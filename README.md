@@ -1,8 +1,5 @@
-Linked Open Data for Sustainable Development Goals statistics
+Linked Open Data for SDG statistics
 ======
 
-This repository contains resources related to a pilot linked data infrastructure for Sustainable Development Goals at UNSD. For detailed documentation see the Wiki pages. 
- 
-<br>
+This repository contains resources related to a pilot LOD infrastructure for Sustainable Development Goals at UNSD. For detailed documentation see the Wiki pages. 
 
-<img src="docs/overview-figure.png" alt="figure">
