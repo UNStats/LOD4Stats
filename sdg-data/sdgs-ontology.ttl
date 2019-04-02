@@ -1,37 +1,41 @@
-@prefix : <http://data.un.org/ontology/sdg#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://data.un.org/ontology/sdg#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:Target a owl:Class;
+sdgo:Target a owl:Class;
   rdfs:subClassOf skos:Concept .
 
-:Goal a owl:Class;
+sdgo:Goal a owl:Class;
   rdfs:subClassOf skos:Concept .
 
-:Series a owl:Class;
+sdgo:Series a owl:Class;
   rdfs:subClassOf skos:Concept .
 
-:Indicator a owl:Class;
+sdgo:Indicator a owl:Class;
   rdfs:subClassOf skos:Concept .
 
-:hasTarget a owl:ObjectProperty;
-  dct:modified "2019-03-24T20:13:31.094Z"^^xsd:dateTime;
-  rdfs:domain :Goal;
-  rdfs:range :Target .
+sdgo:hasTarget a owl:ObjectProperty;
+  dct:modified "2019-03-28T12:24:46.950Z"^^xsd:dateTime;
+  rdfs:domain sdgo:Goal;
+  rdfs:label "has target"@en;
+  rdfs:range sdgo:Target .
 
-:hasIndicator a owl:ObjectProperty;
-  dct:modified "2019-03-24T19:54:28.633Z"^^xsd:dateTime;
-  rdfs:domain :Target;
-  rdfs:range :Indicator .
+sdgo:hasIndicator a owl:ObjectProperty;
+  dct:modified "2019-03-28T12:47:50.305Z"^^xsd:dateTime;
+  rdfs:domain sdgo:Target;
+  rdfs:label "has indicator"@en;
+  rdfs:range sdgo:Indicator .
 
-:hasSeries a owl:ObjectProperty;
-  dct:modified "2019-03-24T19:59:41.590Z"^^xsd:dateTime;
-  rdfs:domain :Indicator;
-  rdfs:range :Series .
+sdgo:hasSeries a owl:ObjectProperty;
+  dct:modified "2019-03-28T12:38:15.459Z"^^xsd:dateTime;
+  rdfs:domain sdgo:Indicator;
+  rdfs:label "has series"@en;
+  rdfs:range sdgo:Series;
+  owl:inverseOf sdgo:isSeriesOf .
 
 dct:subject a owl:ObjectProperty;
   dct:modified "2019-03-24T21:48:03.248Z"^^xsd:dateTime;
@@ -52,5 +56,28 @@ _:node6 rdf:first dct:subject;
 _:node7 rdf:first skos:prefLabel;
   rdf:rest rdf:nil .
 
-<http://data.un.org/ontology/sdg> a owl:Ontology ;
-  rdfs:label "Sustainable Development Goals Ontology" .
+<http://data.un.org/ontology/sdg> a owl:Ontology;
+  dct:modified "2019-03-24T22:03:06.235Z"^^xsd:dateTime;
+  rdfs:label "Sustainable Development Goals Ontology"@en .
+
+sdgo:isIndicatorOf a rdf:Property;
+  dct:created "2019-03-28T12:21:52.461Z"^^xsd:dateTime;
+  dct:modified "2019-03-28T12:22:16.259Z"^^xsd:dateTime;
+  rdfs:label "is indicator of"@en .
+
+sdgo:isTargetOf a rdf:Property;
+  dct:created "2019-03-28T12:23:02.231Z"^^xsd:dateTime;
+  dct:modified "2019-03-28T13:30:39.154Z"^^xsd:dateTime;
+  rdfs:label "is target of"@en;
+  owl:inverseOf sdgo:hasTarget .
+
+sdgo:isSeriesOf a rdf:Property;
+  dct:created "2019-03-28T12:46:07.400Z"^^xsd:dateTime;
+  dct:modified "2019-03-28T13:14:48.843Z"^^xsd:dateTime;
+  rdfs:label "is series of"@en;
+  owl:inverseOf sdgo:hasSeries .
+
+sdgo:subjectOf a rdf:Property;
+  dct:created "2019-03-28T13:10:51.029Z"^^xsd:dateTime;
+  dct:modified "2019-03-28T13:13:52.945Z"^^xsd:dateTime;
+  owl:inverseOf dct:subject .

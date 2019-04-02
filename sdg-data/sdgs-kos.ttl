@@ -6664,392 +6664,389 @@ sdg:SG_SCP_MACPOL skos:prefLabel "Countries with macro policy for sustainable co
 
 sdg:SG_SCP_POLINS skos:prefLabel "Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"@en .
 
-sdg:01.01 skos:notation "01.01"^^sdg:Codes2018, "01.01", "1.1"^^sdg:Codes2018, "1.1" .
+sdg:01.01 skos:notation "01.01", "1.1" .
 
-sdg:01 skos:notation "01"^^sdg:Codes2018, "01", "1"^^sdg:Codes2018, "1" .
+sdg:01 skos:notation "01", "1" .
 
-sdg:01.02 skos:notation "01.02"^^sdg:Codes2018, "01.02", "1.2"^^sdg:Codes2018, "1.2" .
+sdg:01.02 skos:notation "01.02", "1.2" .
 
-sdg:01.03 skos:notation "01.03"^^sdg:Codes2018, "01.03", "1.3"^^sdg:Codes2018, "1.3" .
+sdg:01.03 skos:notation "01.03", "1.3" .
 
-sdg:01.04 skos:notation "01.04"^^sdg:Codes2018, "01.04", "1.4"^^sdg:Codes2018, "1.4" .
+sdg:01.04 skos:notation "01.04", "1.4" .
 
-sdg:01.05 skos:notation "01.05"^^sdg:Codes2018, "01.05", "1.5"^^sdg:Codes2018, "1.5" .
+sdg:01.05 skos:notation "01.05", "1.5" .
 
-sdg:01.0a skos:notation "01.0a"^^sdg:Codes2018, "01.0a", "1.a"^^sdg:Codes2018, "1.a" .
+sdg:01.0a skos:notation "01.0a", "1.a" .
 
-sdg:01.0b skos:notation "01.0b"^^sdg:Codes2018, "01.0b", "1.b"^^sdg:Codes2018, "1.b" .
+sdg:01.0b skos:notation "01.0b", "1.b" .
 
-sdg:02.01 skos:notation "02.01"^^sdg:Codes2018, "02.01", "2.1"^^sdg:Codes2018, "2.1" .
+sdg:02.01 skos:notation "02.01", "2.1" .
 
-sdg:02 skos:notation "02"^^sdg:Codes2018, "02", "2"^^sdg:Codes2018, "2" .
+sdg:02 skos:notation "02", "2" .
 
-sdg:02.02 skos:notation "02.02"^^sdg:Codes2018, "02.02", "2.2"^^sdg:Codes2018, "2.2" .
+sdg:02.02 skos:notation "02.02", "2.2" .
 
-sdg:02.03 skos:notation "02.03"^^sdg:Codes2018, "02.03", "2.3"^^sdg:Codes2018, "2.3" .
+sdg:02.03 skos:notation "02.03", "2.3" .
 
-sdg:02.04 skos:notation "02.04"^^sdg:Codes2018, "02.04", "2.4"^^sdg:Codes2018, "2.4" .
+sdg:02.04 skos:notation "02.04", "2.4" .
 
-sdg:02.05 skos:notation "02.05"^^sdg:Codes2018, "02.05", "2.5"^^sdg:Codes2018, "2.5" .
+sdg:02.05 skos:notation "02.05", "2.5" .
 
-sdg:02.0a skos:notation "02.0a"^^sdg:Codes2018, "02.0a", "2.a"^^sdg:Codes2018, "2.a" .
+sdg:02.0a skos:notation "02.0a", "2.a" .
 
-sdg:02.0b skos:notation "02.0b"^^sdg:Codes2018, "02.0b", "2.b"^^sdg:Codes2018, "2.b" .
+sdg:02.0b skos:notation "02.0b", "2.b" .
 
-sdg:02.0c skos:notation "02.0c"^^sdg:Codes2018, "02.0c", "2.c"^^sdg:Codes2018, "2.c" .
+sdg:02.0c skos:notation "02.0c", "2.c" .
 
-sdg:03.01 skos:notation "03.01"^^sdg:Codes2018, "03.01", "3.1"^^sdg:Codes2018, "3.1" .
+sdg:03.01 skos:notation "03.01", "3.1" .
 
-sdg:03 skos:notation "03"^^sdg:Codes2018, "03", "3"^^sdg:Codes2018, "3" .
+sdg:03 skos:notation "03", "3" .
 
-sdg:03.02 skos:notation "03.02"^^sdg:Codes2018, "03.02", "3.2"^^sdg:Codes2018, "3.2" .
+sdg:03.02 skos:notation "03.02", "3.2" .
 
-sdg:03.03 skos:notation "03.03"^^sdg:Codes2018, "03.03", "3.3"^^sdg:Codes2018, "3.3" .
+sdg:03.03 skos:notation "03.03", "3.3" .
 
-sdg:03.04 skos:notation "03.04"^^sdg:Codes2018, "03.04", "3.4"^^sdg:Codes2018, "3.4" .
+sdg:03.04 skos:notation "03.04", "3.4" .
 
-sdg:03.05 skos:notation "03.05"^^sdg:Codes2018, "03.05", "3.5"^^sdg:Codes2018, "3.5" .
+sdg:03.05 skos:notation "03.05", "3.5" .
 
-sdg:03.06 skos:notation "03.06"^^sdg:Codes2018, "03.06", "3.6"^^sdg:Codes2018, "3.6" .
+sdg:03.06 skos:notation "03.06", "3.6" .
 
-sdg:03.07 skos:notation "03.07"^^sdg:Codes2018, "03.07", "3.7"^^sdg:Codes2018, "3.7" .
+sdg:03.07 skos:notation "03.07", "3.7" .
 
-sdg:03.08 skos:notation "03.08"^^sdg:Codes2018, "03.08", "3.8"^^sdg:Codes2018, "3.8" .
+sdg:03.08 skos:notation "03.08", "3.8" .
 
-sdg:03.09 skos:notation "03.09"^^sdg:Codes2018, "03.09", "3.9"^^sdg:Codes2018, "3.9" .
+sdg:03.09 skos:notation "03.09", "3.9" .
 
-sdg:03.0a skos:notation "03.0a"^^sdg:Codes2018, "03.0a", "3.a"^^sdg:Codes2018, "3.a" .
+sdg:03.0a skos:notation "03.0a", "3.a" .
 
-sdg:03.0b skos:notation "03.0b"^^sdg:Codes2018, "03.0b", "3.b"^^sdg:Codes2018, "3.b" .
+sdg:03.0b skos:notation "03.0b", "3.b" .
 
-sdg:03.0c skos:notation "03.0c"^^sdg:Codes2018, "03.0c", "3.c"^^sdg:Codes2018, "3.c" .
+sdg:03.0c skos:notation "03.0c", "3.c" .
 
-sdg:03.0d skos:notation "03.0d"^^sdg:Codes2018, "03.0d", "3.d"^^sdg:Codes2018, "3.d" .
+sdg:03.0d skos:notation "03.0d", "3.d" .
 
-sdg:04.01 skos:notation "04.01"^^sdg:Codes2018, "04.01", "4.1"^^sdg:Codes2018, "4.1" .
+sdg:04.01 skos:notation "04.01", "4.1" .
 
-sdg:04 skos:notation "04"^^sdg:Codes2018, "04", "4"^^sdg:Codes2018, "4" .
+sdg:04 skos:notation "04", "4" .
 
-sdg:04.02 skos:notation "04.02"^^sdg:Codes2018, "04.02", "4.2"^^sdg:Codes2018, "4.2" .
+sdg:04.02 skos:notation "04.02", "4.2" .
 
-sdg:04.03 skos:notation "04.03"^^sdg:Codes2018, "04.03", "4.3"^^sdg:Codes2018, "4.3" .
+sdg:04.03 skos:notation "04.03", "4.3" .
 
-sdg:04.04 skos:notation "04.04"^^sdg:Codes2018, "04.04", "4.4"^^sdg:Codes2018, "4.4" .
+sdg:04.04 skos:notation "04.04", "4.4" .
 
-sdg:04.05 skos:notation "04.05"^^sdg:Codes2018, "04.05", "4.5"^^sdg:Codes2018, "4.5" .
+sdg:04.05 skos:notation "04.05", "4.5" .
 
-sdg:04.06 skos:notation "04.06"^^sdg:Codes2018, "04.06", "4.6"^^sdg:Codes2018, "4.6" .
+sdg:04.06 skos:notation "04.06", "4.6" .
 
-sdg:04.07 skos:notation "04.07"^^sdg:Codes2018, "04.07", "4.7"^^sdg:Codes2018, "4.7" .
+sdg:04.07 skos:notation "04.07", "4.7" .
 
-sdg:04.0a skos:notation "04.0a"^^sdg:Codes2018, "04.0a", "4.a"^^sdg:Codes2018, "4.a" .
+sdg:04.0a skos:notation "04.0a", "4.a" .
 
-sdg:04.0b skos:notation "04.0b"^^sdg:Codes2018, "04.0b", "4.b"^^sdg:Codes2018, "4.b" .
+sdg:04.0b skos:notation "04.0b", "4.b" .
 
-sdg:04.0c skos:notation "04.0c"^^sdg:Codes2018, "04.0c", "4.c"^^sdg:Codes2018, "4.c" .
+sdg:04.0c skos:notation "04.0c", "4.c" .
 
-sdg:05.01 skos:notation "05.01"^^sdg:Codes2018, "05.01", "5.1"^^sdg:Codes2018, "5.1" .
+sdg:05.01 skos:notation "05.01", "5.1" .
 
-sdg:05 skos:notation "05"^^sdg:Codes2018, "05", "5"^^sdg:Codes2018, "5" .
+sdg:05 skos:notation "05", "5" .
 
-sdg:05.02 skos:notation "05.02"^^sdg:Codes2018, "05.02", "5.2"^^sdg:Codes2018, "5.2" .
+sdg:05.02 skos:notation "05.02", "5.2" .
 
-sdg:05.03 skos:notation "05.03"^^sdg:Codes2018, "05.03", "5.3"^^sdg:Codes2018, "5.3" .
+sdg:05.03 skos:notation "05.03", "5.3" .
 
-sdg:05.04 skos:notation "05.04"^^sdg:Codes2018, "05.04", "5.4"^^sdg:Codes2018, "5.4" .
+sdg:05.04 skos:notation "05.04", "5.4" .
 
-sdg:05.05 skos:notation "05.05"^^sdg:Codes2018, "05.05", "5.5"^^sdg:Codes2018, "5.5" .
+sdg:05.05 skos:notation "05.05", "5.5" .
 
-sdg:05.06 skos:notation "05.06"^^sdg:Codes2018, "05.06", "5.6"^^sdg:Codes2018, "5.6" .
+sdg:05.06 skos:notation "05.06", "5.6" .
 
-sdg:05.0a skos:notation "05.0a"^^sdg:Codes2018, "05.0a", "5.a"^^sdg:Codes2018, "5.a" .
+sdg:05.0a skos:notation "05.0a", "5.a" .
 
-sdg:05.0b skos:notation "05.0b"^^sdg:Codes2018, "05.0b", "5.b"^^sdg:Codes2018, "5.b" .
+sdg:05.0b skos:notation "05.0b", "5.b" .
 
-sdg:05.0c skos:notation "05.0c"^^sdg:Codes2018, "05.0c", "5.c"^^sdg:Codes2018, "5.c" .
+sdg:05.0c skos:notation "05.0c", "5.c" .
 
-sdg:06.01 skos:notation "06.01"^^sdg:Codes2018, "06.01", "6.1"^^sdg:Codes2018, "6.1" .
+sdg:06.01 skos:notation "06.01", "6.1" .
 
-sdg:06 skos:notation "06"^^sdg:Codes2018, "06", "6"^^sdg:Codes2018, "6" .
+sdg:06 skos:notation "06", "6" .
 
-sdg:06.02 skos:notation "06.02"^^sdg:Codes2018, "06.02", "6.2"^^sdg:Codes2018, "6.2" .
+sdg:06.02 skos:notation "06.02", "6.2" .
 
-sdg:06.03 skos:notation "06.03"^^sdg:Codes2018, "06.03", "6.3"^^sdg:Codes2018, "6.3" .
+sdg:06.03 skos:notation "06.03", "6.3" .
 
-sdg:06.04 skos:notation "06.04"^^sdg:Codes2018, "06.04", "6.4"^^sdg:Codes2018, "6.4" .
+sdg:06.04 skos:notation "06.04", "6.4" .
 
-sdg:06.05 skos:notation "06.05"^^sdg:Codes2018, "06.05", "6.5"^^sdg:Codes2018, "6.5" .
+sdg:06.05 skos:notation "06.05", "6.5" .
 
-sdg:06.06 skos:notation "06.06"^^sdg:Codes2018, "06.06", "6.6"^^sdg:Codes2018, "6.6" .
+sdg:06.06 skos:notation "06.06", "6.6" .
 
-sdg:06.0a skos:notation "06.0a"^^sdg:Codes2018, "06.0a", "6.a"^^sdg:Codes2018, "6.a" .
+sdg:06.0a skos:notation "06.0a", "6.a" .
 
-sdg:06.0b skos:notation "06.0b"^^sdg:Codes2018, "06.0b", "6.b"^^sdg:Codes2018, "6.b" .
+sdg:06.0b skos:notation "06.0b", "6.b" .
 
-sdg:07.01 skos:notation "07.01"^^sdg:Codes2018, "07.01", "7.1"^^sdg:Codes2018, "7.1" .
+sdg:07.01 skos:notation "07.01", "7.1" .
 
-sdg:07 skos:notation "07"^^sdg:Codes2018, "07", "7"^^sdg:Codes2018, "7" .
+sdg:07 skos:notation "07", "7" .
 
-sdg:07.02 skos:notation "07.02"^^sdg:Codes2018, "07.02", "7.2"^^sdg:Codes2018, "7.2" .
+sdg:07.02 skos:notation "07.02", "7.2" .
 
-sdg:07.03 skos:notation "07.03"^^sdg:Codes2018, "07.03", "7.3"^^sdg:Codes2018, "7.3" .
+sdg:07.03 skos:notation "07.03", "7.3" .
 
-sdg:07.0a skos:notation "07.0a"^^sdg:Codes2018, "07.0a", "7.a"^^sdg:Codes2018, "7.a" .
+sdg:07.0a skos:notation "07.0a", "7.a" .
 
-sdg:07.0b skos:notation "07.0b"^^sdg:Codes2018, "07.0b", "7.b"^^sdg:Codes2018, "7.b" .
+sdg:07.0b skos:notation "07.0b", "7.b" .
 
-sdg:08.01 skos:notation "08.01"^^sdg:Codes2018, "08.01", "8.1"^^sdg:Codes2018, "8.1" .
+sdg:08.01 skos:notation "08.01", "8.1" .
 
-sdg:08 skos:notation "08"^^sdg:Codes2018, "08", "8"^^sdg:Codes2018, "8" .
+sdg:08 skos:notation "08", "8" .
 
-sdg:08.02 skos:notation "08.02"^^sdg:Codes2018, "08.02", "8.2"^^sdg:Codes2018, "8.2" .
+sdg:08.02 skos:notation "08.02", "8.2" .
 
-sdg:08.03 skos:notation "08.03"^^sdg:Codes2018, "08.03", "8.3"^^sdg:Codes2018, "8.3" .
+sdg:08.03 skos:notation "08.03", "8.3" .
 
-sdg:08.04 skos:notation "08.04"^^sdg:Codes2018, "08.04", "8.4"^^sdg:Codes2018, "8.4" .
+sdg:08.04 skos:notation "08.04", "8.4" .
 
-sdg:08.05 skos:notation "08.05"^^sdg:Codes2018, "08.05", "8.5"^^sdg:Codes2018, "8.5" .
+sdg:08.05 skos:notation "08.05", "8.5" .
 
-sdg:08.06 skos:notation "08.06"^^sdg:Codes2018, "08.06", "8.6"^^sdg:Codes2018, "8.6" .
+sdg:08.06 skos:notation "08.06", "8.6" .
 
-sdg:08.07 skos:notation "08.07"^^sdg:Codes2018, "08.07", "8.7"^^sdg:Codes2018, "8.7" .
+sdg:08.07 skos:notation "08.07", "8.7" .
 
-sdg:08.08 skos:notation "08.08"^^sdg:Codes2018, "08.08", "8.8"^^sdg:Codes2018, "8.8" .
+sdg:08.08 skos:notation "08.08", "8.8" .
 
-sdg:08.09 skos:notation "08.09"^^sdg:Codes2018, "08.09", "8.9"^^sdg:Codes2018, "8.9" .
+sdg:08.09 skos:notation "08.09", "8.9" .
 
-sdg:08.0a skos:notation "08.0a"^^sdg:Codes2018, "08.0a", "8.a"^^sdg:Codes2018, "8.a" .
+sdg:08.0a skos:notation "08.0a", "8.a" .
 
-sdg:08.0b skos:notation "08.0b"^^sdg:Codes2018, "08.0b", "8.b"^^sdg:Codes2018, "8.b" .
+sdg:08.0b skos:notation "08.0b", "8.b" .
 
-sdg:08.10 skos:notation "08.10"^^sdg:Codes2018, "08.10", "8.10"^^sdg:Codes2018, "8.10" .
+sdg:08.10 skos:notation "08.10", "8.10" .
 
-sdg:09.01 skos:notation "09.01"^^sdg:Codes2018, "09.01", "9.1"^^sdg:Codes2018, "9.1" .
+sdg:09.01 skos:notation "09.01", "9.1" .
 
-sdg:09 skos:notation "09"^^sdg:Codes2018, "09", "9"^^sdg:Codes2018, "9" .
+sdg:09 skos:notation "09", "9" .
 
-sdg:09.02 skos:notation "09.02"^^sdg:Codes2018, "09.02", "9.2"^^sdg:Codes2018, "9.2" .
+sdg:09.02 skos:notation "09.02", "9.2" .
 
-sdg:09.03 skos:notation "09.03"^^sdg:Codes2018, "09.03", "9.3"^^sdg:Codes2018, "9.3" .
+sdg:09.03 skos:notation "09.03", "9.3" .
 
-sdg:09.04 skos:notation "09.04"^^sdg:Codes2018, "09.04", "9.4"^^sdg:Codes2018, "9.4" .
+sdg:09.04 skos:notation "09.04", "9.4" .
 
-sdg:09.05 skos:notation "09.05"^^sdg:Codes2018, "09.05", "9.5"^^sdg:Codes2018, "9.5" .
+sdg:09.05 skos:notation "09.05", "9.5" .
 
-sdg:09.0a skos:notation "09.0a"^^sdg:Codes2018, "09.0a", "9.a"^^sdg:Codes2018, "9.a" .
+sdg:09.0a skos:notation "09.0a", "9.a" .
 
-sdg:09.0b skos:notation "09.0b"^^sdg:Codes2018, "09.0b", "9.b"^^sdg:Codes2018, "9.b" .
+sdg:09.0b skos:notation "09.0b", "9.b" .
 
-sdg:09.0c skos:notation "09.0c"^^sdg:Codes2018, "09.0c", "9.c"^^sdg:Codes2018, "9.c" .
+sdg:09.0c skos:notation "09.0c", "9.c" .
 
-sdg:10.01 skos:notation "10.01"^^sdg:Codes2018, "10.01", "10.1"^^sdg:Codes2018, "10.1" .
+sdg:10.01 skos:notation "10.01", "10.1" .
 
-sdg:10 skos:notation "10"^^sdg:Codes2018, "10" .
+sdg:10 skos:notation "10" .
 
-sdg:10.02 skos:notation "10.02"^^sdg:Codes2018, "10.02", "10.2"^^sdg:Codes2018, "10.2" .
+sdg:10.02 skos:notation "10.02", "10.2" .
 
-sdg:10.03 skos:notation "10.03"^^sdg:Codes2018, "10.03", "10.3"^^sdg:Codes2018, "10.3" .
+sdg:10.03 skos:notation "10.03", "10.3" .
 
-sdg:10.04 skos:notation "10.04"^^sdg:Codes2018, "10.04", "10.4"^^sdg:Codes2018, "10.4" .
+sdg:10.04 skos:notation "10.04", "10.4" .
 
-sdg:10.05 skos:notation "10.05"^^sdg:Codes2018, "10.05", "10.5"^^sdg:Codes2018, "10.5" .
+sdg:10.05 skos:notation "10.05", "10.5" .
 
-sdg:10.06 skos:notation "10.06"^^sdg:Codes2018, "10.06", "10.6"^^sdg:Codes2018, "10.6" .
+sdg:10.06 skos:notation "10.06", "10.6" .
 
-sdg:10.07 skos:notation "10.07"^^sdg:Codes2018, "10.07", "10.7"^^sdg:Codes2018, "10.7" .
+sdg:10.07 skos:notation "10.07", "10.7" .
 
-sdg:10.0a skos:notation "10.0a"^^sdg:Codes2018, "10.0a", "10.a"^^sdg:Codes2018, "10.a" .
+sdg:10.0a skos:notation "10.0a", "10.a" .
 
-sdg:10.0b skos:notation "10.0b"^^sdg:Codes2018, "10.0b", "10.b"^^sdg:Codes2018, "10.b" .
+sdg:10.0b skos:notation "10.0b", "10.b" .
 
-sdg:10.0c skos:notation "10.0c"^^sdg:Codes2018, "10.0c", "10.c"^^sdg:Codes2018, "10.c" .
+sdg:10.0c skos:notation "10.0c", "10.c" .
 
-sdg:11.01 skos:notation "11.01"^^sdg:Codes2018, "11.01", "11.1"^^sdg:Codes2018, "11.1" .
+sdg:11.01 skos:notation "11.01", "11.1" .
 
-sdg:11 skos:notation "11"^^sdg:Codes2018, "11" .
+sdg:11 skos:notation "11" .
 
-sdg:11.02 skos:notation "11.02"^^sdg:Codes2018, "11.02", "11.2"^^sdg:Codes2018, "11.2" .
+sdg:11.02 skos:notation "11.02", "11.2" .
 
-sdg:11.03 skos:notation "11.03"^^sdg:Codes2018, "11.03", "11.3"^^sdg:Codes2018, "11.3" .
+sdg:11.03 skos:notation "11.03", "11.3" .
 
-sdg:11.04 skos:notation "11.04"^^sdg:Codes2018, "11.04", "11.4"^^sdg:Codes2018, "11.4" .
+sdg:11.04 skos:notation "11.04", "11.4" .
 
-sdg:11.05 skos:notation "11.05"^^sdg:Codes2018, "11.05", "11.5"^^sdg:Codes2018, "11.5" .
+sdg:11.05 skos:notation "11.05", "11.5" .
 
-sdg:11.06 skos:notation "11.06"^^sdg:Codes2018, "11.06", "11.6"^^sdg:Codes2018, "11.6" .
+sdg:11.06 skos:notation "11.06", "11.6" .
 
-sdg:11.07 skos:notation "11.07"^^sdg:Codes2018, "11.07", "11.7"^^sdg:Codes2018, "11.7" .
+sdg:11.07 skos:notation "11.07", "11.7" .
 
-sdg:11.0a skos:notation "11.0a"^^sdg:Codes2018, "11.0a", "11.a"^^sdg:Codes2018, "11.a" .
+sdg:11.0a skos:notation "11.0a", "11.a" .
 
-sdg:11.0b skos:notation "11.0b"^^sdg:Codes2018, "11.0b", "11.b"^^sdg:Codes2018, "11.b" .
+sdg:11.0b skos:notation "11.0b", "11.b" .
 
-sdg:11.0c skos:notation "11.0c"^^sdg:Codes2018, "11.0c", "11.c"^^sdg:Codes2018, "11.c" .
+sdg:11.0c skos:notation "11.0c", "11.c" .
 
-sdg:12.01 skos:notation "12.01"^^sdg:Codes2018, "12.01", "12.1"^^sdg:Codes2018, "12.1" .
+sdg:12.01 skos:notation "12.01", "12.1" .
 
-sdg:12 skos:notation "12"^^sdg:Codes2018, "12" .
+sdg:12 skos:notation "12" .
 
-sdg:12.02 skos:notation "12.02"^^sdg:Codes2018, "12.02", "12.2"^^sdg:Codes2018, "12.2" .
+sdg:12.02 skos:notation "12.02", "12.2" .
 
-sdg:12.03 skos:notation "12.03"^^sdg:Codes2018, "12.03", "12.3"^^sdg:Codes2018, "12.3" .
+sdg:12.03 skos:notation "12.03", "12.3" .
 
-sdg:12.04 skos:notation "12.04"^^sdg:Codes2018, "12.04", "12.4"^^sdg:Codes2018, "12.4" .
+sdg:12.04 skos:notation "12.04", "12.4" .
 
-sdg:12.05 skos:notation "12.05"^^sdg:Codes2018, "12.05", "12.5"^^sdg:Codes2018, "12.5" .
+sdg:12.05 skos:notation "12.05", "12.5" .
 
-sdg:12.06 skos:notation "12.06"^^sdg:Codes2018, "12.06", "12.6"^^sdg:Codes2018, "12.6" .
+sdg:12.06 skos:notation "12.06", "12.6" .
 
-sdg:12.07 skos:notation "12.07"^^sdg:Codes2018, "12.07", "12.7"^^sdg:Codes2018, "12.7" .
+sdg:12.07 skos:notation "12.07", "12.7" .
 
-sdg:12.08 skos:notation "12.08"^^sdg:Codes2018, "12.08", "12.8"^^sdg:Codes2018, "12.8" .
+sdg:12.08 skos:notation "12.08", "12.8" .
 
-sdg:12.0a skos:notation "12.0a"^^sdg:Codes2018, "12.0a", "12.a"^^sdg:Codes2018, "12.a" .
+sdg:12.0a skos:notation "12.0a", "12.a" .
 
-sdg:12.0b skos:notation "12.0b"^^sdg:Codes2018, "12.0b", "12.b"^^sdg:Codes2018, "12.b" .
+sdg:12.0b skos:notation "12.0b", "12.b" .
 
-sdg:12.0c skos:notation "12.0c"^^sdg:Codes2018, "12.0c", "12.c"^^sdg:Codes2018, "12.c" .
+sdg:12.0c skos:notation "12.0c", "12.c" .
 
-sdg:13.01 skos:notation "13.01"^^sdg:Codes2018, "13.01", "13.1"^^sdg:Codes2018, "13.1" .
+sdg:13.01 skos:notation "13.01", "13.1" .
 
-sdg:13 skos:notation "13"^^sdg:Codes2018, "13" .
+sdg:13 skos:notation "13" .
 
-sdg:13.02 skos:notation "13.02"^^sdg:Codes2018, "13.02", "13.2"^^sdg:Codes2018, "13.2" .
+sdg:13.02 skos:notation "13.02", "13.2" .
 
-sdg:13.03 skos:notation "13.03"^^sdg:Codes2018, "13.03", "13.3"^^sdg:Codes2018, "13.3" .
+sdg:13.03 skos:notation "13.03", "13.3" .
 
-sdg:13.0a skos:notation "13.0a"^^sdg:Codes2018, "13.0a", "13.a"^^sdg:Codes2018, "13.a" .
+sdg:13.0a skos:notation "13.0a", "13.a" .
 
-sdg:13.0b skos:notation "13.0b"^^sdg:Codes2018, "13.0b", "13.b"^^sdg:Codes2018, "13.b" .
+sdg:13.0b skos:notation "13.0b", "13.b" .
 
-sdg:14.01 skos:notation "14.01"^^sdg:Codes2018, "14.01", "14.1"^^sdg:Codes2018, "14.1" .
+sdg:14.01 skos:notation "14.01", "14.1" .
 
-sdg:14 skos:notation "14"^^sdg:Codes2018, "14" .
+sdg:14 skos:notation "14" .
 
-sdg:14.02 skos:notation "14.02"^^sdg:Codes2018, "14.02", "14.2"^^sdg:Codes2018, "14.2" .
+sdg:14.02 skos:notation "14.02", "14.2" .
 
-sdg:14.03 skos:notation "14.03"^^sdg:Codes2018, "14.03", "14.3"^^sdg:Codes2018, "14.3" .
+sdg:14.03 skos:notation "14.03", "14.3" .
 
-sdg:14.04 skos:notation "14.04"^^sdg:Codes2018, "14.04", "14.4"^^sdg:Codes2018, "14.4" .
+sdg:14.04 skos:notation "14.04", "14.4" .
 
-sdg:14.05 skos:notation "14.05"^^sdg:Codes2018, "14.05", "14.5"^^sdg:Codes2018, "14.5" .
+sdg:14.05 skos:notation "14.05", "14.5" .
 
-sdg:14.06 skos:notation "14.06"^^sdg:Codes2018, "14.06", "14.6"^^sdg:Codes2018, "14.6" .
+sdg:14.06 skos:notation "14.06", "14.6" .
 
-sdg:14.07 skos:notation "14.07"^^sdg:Codes2018, "14.07", "14.7"^^sdg:Codes2018, "14.7" .
+sdg:14.07 skos:notation "14.07", "14.7" .
 
-sdg:14.0a skos:notation "14.0a"^^sdg:Codes2018, "14.0a", "14.a"^^sdg:Codes2018, "14.a" .
+sdg:14.0a skos:notation "14.0a", "14.a" .
 
-sdg:14.0b skos:notation "14.0b"^^sdg:Codes2018, "14.0b", "14.b"^^sdg:Codes2018, "14.b" .
+sdg:14.0b skos:notation "14.0b", "14.b" .
 
-sdg:14.0c skos:notation "14.0c"^^sdg:Codes2018, "14.0c", "14.c"^^sdg:Codes2018, "14.c" .
+sdg:14.0c skos:notation "14.0c", "14.c" .
 
-sdg:15.01 skos:notation "15.01"^^sdg:Codes2018, "15.01", "15.1"^^sdg:Codes2018, "15.1" .
+sdg:15.01 skos:notation "15.01", "15.1" .
 
-sdg:15 skos:notation "15"^^sdg:Codes2018, "15" .
+sdg:15 skos:notation "15" .
 
-sdg:15.02 skos:notation "15.02"^^sdg:Codes2018, "15.02", "15.2"^^sdg:Codes2018, "15.2" .
+sdg:15.02 skos:notation "15.02", "15.2" .
 
-sdg:15.03 skos:notation "15.03"^^sdg:Codes2018, "15.03", "15.3"^^sdg:Codes2018, "15.3" .
+sdg:15.03 skos:notation "15.03", "15.3" .
 
-sdg:15.04 skos:notation "15.04"^^sdg:Codes2018, "15.04", "15.4"^^sdg:Codes2018, "15.4" .
+sdg:15.04 skos:notation "15.04", "15.4" .
 
-sdg:15.05 skos:notation "15.05"^^sdg:Codes2018, "15.05", "15.5"^^sdg:Codes2018, "15.5" .
+sdg:15.05 skos:notation "15.05", "15.5" .
 
-sdg:15.06 skos:notation "15.06"^^sdg:Codes2018, "15.06", "15.6"^^sdg:Codes2018, "15.6" .
+sdg:15.06 skos:notation "15.06", "15.6" .
 
-sdg:15.07 skos:notation "15.07"^^sdg:Codes2018, "15.07", "15.7"^^sdg:Codes2018, "15.7" .
+sdg:15.07 skos:notation "15.07", "15.7" .
 
-sdg:15.08 skos:notation "15.08"^^sdg:Codes2018, "15.08", "15.8"^^sdg:Codes2018, "15.8" .
+sdg:15.08 skos:notation "15.08", "15.8" .
 
-sdg:15.09 skos:notation "15.09"^^sdg:Codes2018, "15.09", "15.9"^^sdg:Codes2018, "15.9" .
+sdg:15.09 skos:notation "15.09", "15.9" .
 
-sdg:15.0a skos:notation "15.0a"^^sdg:Codes2018, "15.0a", "15.a"^^sdg:Codes2018, "15.a" .
+sdg:15.0a skos:notation "15.0a", "15.a" .
 
-sdg:15.0b skos:notation "15.0b"^^sdg:Codes2018, "15.0b", "15.b"^^sdg:Codes2018, "15.b" .
+sdg:15.0b skos:notation "15.0b", "15.b" .
 
-sdg:15.0c skos:notation "15.0c"^^sdg:Codes2018, "15.0c", "15.c"^^sdg:Codes2018, "15.c" .
+sdg:15.0c skos:notation "15.0c", "15.c" .
 
-sdg:16.01 skos:notation "16.01"^^sdg:Codes2018, "16.01", "16.1"^^sdg:Codes2018, "16.1" .
+sdg:16.01 skos:notation "16.01", "16.1" .
 
-sdg:16 skos:notation "16"^^sdg:Codes2018, "16" .
+sdg:16 skos:notation "16" .
 
-sdg:16.02 skos:notation "16.02"^^sdg:Codes2018, "16.02", "16.2"^^sdg:Codes2018, "16.2" .
+sdg:16.02 skos:notation "16.02", "16.2" .
 
-sdg:16.03 skos:notation "16.03"^^sdg:Codes2018, "16.03", "16.3"^^sdg:Codes2018, "16.3" .
+sdg:16.03 skos:notation "16.03", "16.3" .
 
-sdg:16.04 skos:notation "16.04"^^sdg:Codes2018, "16.04", "16.4"^^sdg:Codes2018, "16.4" .
+sdg:16.04 skos:notation "16.04", "16.4" .
 
-sdg:16.05 skos:notation "16.05"^^sdg:Codes2018, "16.05", "16.5"^^sdg:Codes2018, "16.5" .
+sdg:16.05 skos:notation "16.05", "16.5" .
 
-sdg:16.06 skos:notation "16.06"^^sdg:Codes2018, "16.06", "16.6"^^sdg:Codes2018, "16.6" .
+sdg:16.06 skos:notation "16.06", "16.6" .
 
-sdg:16.07 skos:notation "16.07"^^sdg:Codes2018, "16.07", "16.7"^^sdg:Codes2018, "16.7" .
+sdg:16.07 skos:notation "16.07", "16.7" .
 
-sdg:16.08 skos:notation "16.08"^^sdg:Codes2018, "16.08", "16.8"^^sdg:Codes2018, "16.8" .
+sdg:16.08 skos:notation "16.08", "16.8" .
 
-sdg:16.09 skos:notation "16.09"^^sdg:Codes2018, "16.09", "16.9"^^sdg:Codes2018, "16.9" .
+sdg:16.09 skos:notation "16.09", "16.9" .
 
-sdg:16.0a skos:notation "16.0a"^^sdg:Codes2018, "16.0a", "16.a"^^sdg:Codes2018, "16.a" .
+sdg:16.0a skos:notation "16.0a", "16.a" .
 
-sdg:16.0b skos:notation "16.0b"^^sdg:Codes2018, "16.0b", "16.b"^^sdg:Codes2018, "16.b" .
+sdg:16.0b skos:notation "16.0b", "16.b" .
 
-sdg:16.10 skos:notation "16.10"^^sdg:Codes2018, "16.10" .
+sdg:16.10 skos:notation "16.10" .
 
-sdg:17.01 skos:notation "17.01"^^sdg:Codes2018, "17.01", "17.1"^^sdg:Codes2018, "17.1" .
+sdg:17.01 skos:notation "17.01", "17.1" .
 
-sdg:17 skos:notation "17"^^sdg:Codes2018, "17" .
+sdg:17 skos:notation "17" .
 
-sdg:17.02 skos:notation "17.02"^^sdg:Codes2018, "17.02", "17.2"^^sdg:Codes2018, "17.2" .
+sdg:17.02 skos:notation "17.02", "17.2" .
 
-sdg:17.03 skos:notation "17.03"^^sdg:Codes2018, "17.03", "17.3"^^sdg:Codes2018, "17.3" .
+sdg:17.03 skos:notation "17.03", "17.3" .
 
-sdg:17.04 skos:notation "17.04"^^sdg:Codes2018, "17.04", "17.4"^^sdg:Codes2018, "17.4" .
+sdg:17.04 skos:notation "17.04", "17.4" .
 
-sdg:17.05 skos:notation "17.05"^^sdg:Codes2018, "17.05", "17.5"^^sdg:Codes2018, "17.5" .
+sdg:17.05 skos:notation "17.05", "17.5" .
 
-sdg:17.06 skos:notation "17.06"^^sdg:Codes2018, "17.06", "17.6"^^sdg:Codes2018, "17.6" .
+sdg:17.06 skos:notation "17.06", "17.6" .
 
-sdg:17.07 skos:notation "17.07"^^sdg:Codes2018, "17.07", "17.7"^^sdg:Codes2018, "17.7" .
+sdg:17.07 skos:notation "17.07", "17.7" .
 
-sdg:17.08 skos:notation "17.08"^^sdg:Codes2018, "17.08", "17.8"^^sdg:Codes2018, "17.8" .
+sdg:17.08 skos:notation "17.08", "17.8" .
 
-sdg:17.09 skos:notation "17.09"^^sdg:Codes2018, "17.09", "17.9"^^sdg:Codes2018, "17.9" .
+sdg:17.09 skos:notation "17.09", "17.9" .
 
-sdg:17.10 skos:notation "17.10"^^sdg:Codes2018, "17.10" .
+sdg:17.10 skos:notation "17.10" .
 
-sdg:17.11 skos:notation "17.11"^^sdg:Codes2018, "17.11" .
+sdg:17.11 skos:notation "17.11" .
 
-sdg:17.12 skos:notation "17.12"^^sdg:Codes2018, "17.12" .
+sdg:17.12 skos:notation "17.12" .
 
-sdg:17.13 skos:notation "17.13"^^sdg:Codes2018, "17.13" .
+sdg:17.13 skos:notation "17.13" .
 
-sdg:17.14 skos:notation "17.14"^^sdg:Codes2018, "17.14" .
+sdg:17.14 skos:notation "17.14" .
 
-sdg:17.15 skos:notation "17.15"^^sdg:Codes2018, "17.15" .
+sdg:17.15 skos:notation "17.15" .
 
-sdg:17.16 skos:notation "17.16"^^sdg:Codes2018, "17.16" .
+sdg:17.16 skos:notation "17.16" .
 
-sdg:17.17 skos:notation "17.17"^^sdg:Codes2018, "17.17" .
+sdg:17.17 skos:notation "17.17" .
 
-sdg:17.18 skos:notation "17.18"^^sdg:Codes2018, "17.18" .
+sdg:17.18 skos:notation "17.18" .
 
-sdg:17.19 skos:notation "17.19"^^sdg:Codes2018, "17.19" .
+sdg:17.19 skos:notation "17.19" .
 
 sdg:AG_FPA_COMM skos:notation "AG_FPA_COMM" .
 
-sdg:C020c01 skos:notation "02.0c.01"^^sdg:Codes2018, "02.0c.01", "2.c.1"^^sdg:Codes2018,
-    "2.c.1" .
+sdg:C020c01 skos:notation "02.0c.01", "2.c.1" .
 
 sdg:AG_LND_FRST skos:notation "AG_LND_FRST" .
 
-sdg:C150101 skos:notation "15.01.01"^^sdg:Codes2018, "15.01.01", "15.1.1"^^sdg:Codes2018,
-    "15.1.1" .
+sdg:C150101 skos:notation "15.01.01", "15.1.1" .
 
 sdg:AG_LND_FRSTBIOM skos:notation "AG_LND_FRSTBIOM" .
 
-sdg:C150201 skos:notation "15.02.01"^^sdg:Codes2018, "15.02.01", "15.2.1"^^sdg:Codes2018,
-    "15.2.1" .
+sdg:C150201 skos:notation "15.02.01", "15.2.1" .
 
 sdg:AG_LND_FRSTBIOPHA skos:notation "AG_LND_FRSTBIOPHA" .
 
@@ -7069,8 +7066,7 @@ sdg:AG_LND_TOTL skos:notation "AG_LND_TOTL" .
 
 sdg:AG_PRD_FIESMSI skos:notation "AG_PRD_FIESMSI" .
 
-sdg:C020102 skos:notation "02.01.02"^^sdg:Codes2018, "02.01.02", "2.1.2"^^sdg:Codes2018,
-    "2.1.2" .
+sdg:C020102 skos:notation "02.01.02", "2.1.2" .
 
 sdg:AG_PRD_FIESMSIN skos:notation "AG_PRD_FIESMSIN" .
 
@@ -7084,696 +7080,465 @@ sdg:AG_PRD_FIESSITN skos:notation "AG_PRD_FIESSITN" .
 
 sdg:AG_PRD_ORTIND skos:notation "AG_PRD_ORTIND" .
 
-sdg:C020a01 skos:notation "02.0a.01"^^sdg:Codes2018, "02.0a.01", "2.a.1"^^sdg:Codes2018,
-    "2.a.1" .
+sdg:C020a01 skos:notation "02.0a.01", "2.a.1" .
 
 sdg:AG_PRD_XSUBDY skos:notation "AG_PRD_XSUBDY" .
 
-sdg:C020b02 skos:notation "02.0b.01"^^sdg:Codes2018, "02.0b.01", "2.b.1"^^sdg:Codes2018,
-    "2.b.1" .
+sdg:C020b02 skos:notation "02.0b.01", "2.b.1" .
 
 sdg:BX_TRF_PWKR skos:notation "BX_TRF_PWKR" .
 
-sdg:C170302 skos:notation "17.03.02"^^sdg:Codes2018, "17.03.02", "17.3.2"^^sdg:Codes2018,
-    "17.3.2" .
+sdg:C170302 skos:notation "17.03.02", "17.3.2" .
 
-sdg:C010101 skos:notation "01.01.01"^^sdg:Codes2018, "01.01.01", "1.1.1"^^sdg:Codes2018,
-    "1.1.1" .
+sdg:C010101 skos:notation "01.01.01", "1.1.1" .
 
-sdg:C010201 skos:notation "01.02.01"^^sdg:Codes2018, "01.02.01", "1.2.1"^^sdg:Codes2018,
-    "1.2.1" .
+sdg:C010201 skos:notation "01.02.01", "1.2.1" .
 
-sdg:C010202 skos:notation "01.02.02"^^sdg:Codes2018, "01.02.02", "1.2.2"^^sdg:Codes2018,
-    "1.2.2" .
+sdg:C010202 skos:notation "01.02.02", "1.2.2" .
 
-sdg:C010301 skos:notation "01.03.01"^^sdg:Codes2018, "01.03.01", "1.3.1"^^sdg:Codes2018,
-    "1.3.1" .
+sdg:C010301 skos:notation "01.03.01", "1.3.1" .
 
-sdg:C010401 skos:notation "01.04.01"^^sdg:Codes2018, "01.04.01", "1.4.1"^^sdg:Codes2018,
-    "1.4.1" .
+sdg:C010401 skos:notation "01.04.01", "1.4.1" .
 
-sdg:C010402 skos:notation "01.04.02"^^sdg:Codes2018, "01.04.02", "1.4.2"^^sdg:Codes2018,
-    "1.4.2" .
+sdg:C010402 skos:notation "01.04.02", "1.4.2" .
 
-sdg:C010502 skos:notation "01.05.02"^^sdg:Codes2018, "01.05.02", "1.5.2"^^sdg:Codes2018,
-    "1.5.2" .
+sdg:C010502 skos:notation "01.05.02", "1.5.2" .
 
-sdg:C010a01 skos:notation "01.0a.01"^^sdg:Codes2018, "01.0a.01", "1.a.1"^^sdg:Codes2018,
-    "1.a.1" .
+sdg:C010a01 skos:notation "01.0a.01", "1.a.1" .
 
-sdg:C010a02 skos:notation "01.0a.02"^^sdg:Codes2018, "01.0a.02", "1.a.2"^^sdg:Codes2018,
-    "1.a.2" .
+sdg:C010a02 skos:notation "01.0a.02", "1.a.2" .
 
-sdg:C010a03 skos:notation "01.0a.03"^^sdg:Codes2018, "01.0a.03", "1.a.3"^^sdg:Codes2018,
-    "1.a.3" .
+sdg:C010a03 skos:notation "01.0a.03", "1.a.3" .
 
-sdg:C010b01 skos:notation "01.0b.01"^^sdg:Codes2018, "01.0b.01", "1.b.1"^^sdg:Codes2018,
-    "1.b.1" .
+sdg:C010b01 skos:notation "01.0b.01", "1.b.1" .
 
-sdg:C020101 skos:notation "02.01.01"^^sdg:Codes2018, "02.01.01", "2.1.1"^^sdg:Codes2018,
-    "2.1.1" .
+sdg:C020101 skos:notation "02.01.01", "2.1.1" .
 
-sdg:C020201 skos:notation "02.02.01"^^sdg:Codes2018, "02.02.01", "2.2.1"^^sdg:Codes2018,
-    "2.2.1" .
+sdg:C020201 skos:notation "02.02.01", "2.2.1" .
 
-sdg:C020202 skos:notation "02.02.02"^^sdg:Codes2018, "02.02.02", "2.2.2"^^sdg:Codes2018,
-    "2.2.2" .
+sdg:C020202 skos:notation "02.02.02", "2.2.2" .
 
-sdg:C020301 skos:notation "02.03.01"^^sdg:Codes2018, "02.03.01", "2.3.1"^^sdg:Codes2018,
-    "2.3.1" .
+sdg:C020301 skos:notation "02.03.01", "2.3.1" .
 
-sdg:C020302 skos:notation "02.03.02"^^sdg:Codes2018, "02.03.02", "2.3.2"^^sdg:Codes2018,
-    "2.3.2" .
+sdg:C020302 skos:notation "02.03.02", "2.3.2" .
 
-sdg:C020401 skos:notation "02.04.01"^^sdg:Codes2018, "02.04.01", "2.4.1"^^sdg:Codes2018,
-    "2.4.1" .
+sdg:C020401 skos:notation "02.04.01", "2.4.1" .
 
-sdg:C020501 skos:notation "02.05.01"^^sdg:Codes2018, "02.05.01", "2.5.1"^^sdg:Codes2018,
-    "2.5.1" .
+sdg:C020501 skos:notation "02.05.01", "2.5.1" .
 
-sdg:C020502 skos:notation "02.05.02"^^sdg:Codes2018, "02.05.02", "2.5.2"^^sdg:Codes2018,
-    "2.5.2" .
+sdg:C020502 skos:notation "02.05.02", "2.5.2" .
 
-sdg:C020a02 skos:notation "02.0a.02"^^sdg:Codes2018, "02.0a.02", "2.a.2"^^sdg:Codes2018,
-    "2.a.2" .
+sdg:C020a02 skos:notation "02.0a.02", "2.a.2" .
 
-sdg:C030101 skos:notation "03.01.01"^^sdg:Codes2018, "03.01.01", "3.1.1"^^sdg:Codes2018,
-    "3.1.1" .
+sdg:C030101 skos:notation "03.01.01", "3.1.1" .
 
-sdg:C030102 skos:notation "03.01.02"^^sdg:Codes2018, "03.01.02", "3.1.2"^^sdg:Codes2018,
-    "3.1.2" .
+sdg:C030102 skos:notation "03.01.02", "3.1.2" .
 
-sdg:C030201 skos:notation "03.02.01"^^sdg:Codes2018, "03.02.01", "3.2.1"^^sdg:Codes2018,
-    "3.2.1" .
+sdg:C030201 skos:notation "03.02.01", "3.2.1" .
 
-sdg:C030202 skos:notation "03.02.02"^^sdg:Codes2018, "03.02.02", "3.2.2"^^sdg:Codes2018,
-    "3.2.2" .
+sdg:C030202 skos:notation "03.02.02", "3.2.2" .
 
-sdg:C030301 skos:notation "03.03.01"^^sdg:Codes2018, "03.03.01", "3.3.1"^^sdg:Codes2018,
-    "3.3.1" .
+sdg:C030301 skos:notation "03.03.01", "3.3.1" .
 
-sdg:C030302 skos:notation "03.03.02"^^sdg:Codes2018, "03.03.02", "3.3.2"^^sdg:Codes2018,
-    "3.3.2" .
+sdg:C030302 skos:notation "03.03.02", "3.3.2" .
 
-sdg:C030303 skos:notation "03.03.03"^^sdg:Codes2018, "03.03.03", "3.3.3"^^sdg:Codes2018,
-    "3.3.3" .
+sdg:C030303 skos:notation "03.03.03", "3.3.3" .
 
-sdg:C030304 skos:notation "03.03.04"^^sdg:Codes2018, "03.03.04", "3.3.4"^^sdg:Codes2018,
-    "3.3.4" .
+sdg:C030304 skos:notation "03.03.04", "3.3.4" .
 
-sdg:C030305 skos:notation "03.03.05"^^sdg:Codes2018, "03.03.05", "3.3.5"^^sdg:Codes2018,
-    "3.3.5" .
+sdg:C030305 skos:notation "03.03.05", "3.3.5" .
 
-sdg:C030401 skos:notation "03.04.01"^^sdg:Codes2018, "03.04.01", "3.4.1"^^sdg:Codes2018,
-    "3.4.1" .
+sdg:C030401 skos:notation "03.04.01", "3.4.1" .
 
-sdg:C030402 skos:notation "03.04.02"^^sdg:Codes2018, "03.04.02", "3.4.2"^^sdg:Codes2018,
-    "3.4.2" .
+sdg:C030402 skos:notation "03.04.02", "3.4.2" .
 
-sdg:C030501 skos:notation "03.05.01"^^sdg:Codes2018, "03.05.01", "3.5.1"^^sdg:Codes2018,
-    "3.5.1" .
+sdg:C030501 skos:notation "03.05.01", "3.5.1" .
 
-sdg:C030502 skos:notation "03.05.02"^^sdg:Codes2018, "03.05.02", "3.5.2"^^sdg:Codes2018,
-    "3.5.2" .
+sdg:C030502 skos:notation "03.05.02", "3.5.2" .
 
-sdg:C030601 skos:notation "03.06.01"^^sdg:Codes2018, "03.06.01", "3.6.1"^^sdg:Codes2018,
-    "3.6.1" .
+sdg:C030601 skos:notation "03.06.01", "3.6.1" .
 
-sdg:C030701 skos:notation "03.07.01"^^sdg:Codes2018, "03.07.01", "3.7.1"^^sdg:Codes2018,
-    "3.7.1" .
+sdg:C030701 skos:notation "03.07.01", "3.7.1" .
 
-sdg:C030702 skos:notation "03.07.02"^^sdg:Codes2018, "03.07.02", "3.7.2"^^sdg:Codes2018,
-    "3.7.2" .
+sdg:C030702 skos:notation "03.07.02", "3.7.2" .
 
-sdg:C030801 skos:notation "03.08.01"^^sdg:Codes2018, "03.08.01", "3.8.1"^^sdg:Codes2018,
-    "3.8.1" .
+sdg:C030801 skos:notation "03.08.01", "3.8.1" .
 
-sdg:C030802 skos:notation "03.08.02"^^sdg:Codes2018, "03.08.02", "3.8.2"^^sdg:Codes2018,
-    "3.8.2" .
+sdg:C030802 skos:notation "03.08.02", "3.8.2" .
 
-sdg:C030901 skos:notation "03.09.01"^^sdg:Codes2018, "03.09.01", "3.9.1"^^sdg:Codes2018,
-    "3.9.1" .
+sdg:C030901 skos:notation "03.09.01", "3.9.1" .
 
-sdg:C030902 skos:notation "03.09.02"^^sdg:Codes2018, "03.09.02", "3.9.2"^^sdg:Codes2018,
-    "3.9.2" .
+sdg:C030902 skos:notation "03.09.02", "3.9.2" .
 
-sdg:C030903 skos:notation "03.09.03"^^sdg:Codes2018, "03.09.03", "3.9.3"^^sdg:Codes2018,
-    "3.9.3" .
+sdg:C030903 skos:notation "03.09.03", "3.9.3" .
 
-sdg:C030a01 skos:notation "03.0a.01"^^sdg:Codes2018, "03.0a.01", "3.a.1"^^sdg:Codes2018,
-    "3.a.1" .
+sdg:C030a01 skos:notation "03.0a.01", "3.a.1" .
 
-sdg:C030b01 skos:notation "03.0b.01"^^sdg:Codes2018, "03.0b.01", "3.b.1"^^sdg:Codes2018,
-    "3.b.1" .
+sdg:C030b01 skos:notation "03.0b.01", "3.b.1" .
 
-sdg:C030b02 skos:notation "03.0b.02"^^sdg:Codes2018, "03.0b.02", "3.b.2"^^sdg:Codes2018,
-    "3.b.2" .
+sdg:C030b02 skos:notation "03.0b.02", "3.b.2" .
 
-sdg:C030b03 skos:notation "03.0b.03"^^sdg:Codes2018, "03.0b.03", "3.b.3"^^sdg:Codes2018,
-    "3.b.3" .
+sdg:C030b03 skos:notation "03.0b.03", "3.b.3" .
 
-sdg:C030c01 skos:notation "03.0c.01"^^sdg:Codes2018, "03.0c.01", "3.c.1"^^sdg:Codes2018,
-    "3.c.1" .
+sdg:C030c01 skos:notation "03.0c.01", "3.c.1" .
 
-sdg:C030d01 skos:notation "03.0d.01"^^sdg:Codes2018, "03.0d.01", "3.d.1"^^sdg:Codes2018,
-    "3.d.1" .
+sdg:C030d01 skos:notation "03.0d.01", "3.d.1" .
 
-sdg:C040101 skos:notation "04.01.01"^^sdg:Codes2018, "04.01.01", "4.1.1"^^sdg:Codes2018,
-    "4.1.1" .
+sdg:C040101 skos:notation "04.01.01", "4.1.1" .
 
-sdg:C040201 skos:notation "04.02.01"^^sdg:Codes2018, "04.02.01", "4.2.1"^^sdg:Codes2018,
-    "4.2.1" .
+sdg:C040201 skos:notation "04.02.01", "4.2.1" .
 
-sdg:C040202 skos:notation "04.02.02"^^sdg:Codes2018, "04.02.02", "4.2.2"^^sdg:Codes2018,
-    "4.2.2" .
+sdg:C040202 skos:notation "04.02.02", "4.2.2" .
 
-sdg:C040301 skos:notation "04.03.01"^^sdg:Codes2018, "04.03.01", "4.3.1"^^sdg:Codes2018,
-    "4.3.1" .
+sdg:C040301 skos:notation "04.03.01", "4.3.1" .
 
-sdg:C040401 skos:notation "04.04.01"^^sdg:Codes2018, "04.04.01", "4.4.1"^^sdg:Codes2018,
-    "4.4.1" .
+sdg:C040401 skos:notation "04.04.01", "4.4.1" .
 
-sdg:C040501 skos:notation "04.05.01"^^sdg:Codes2018, "04.05.01", "4.5.1"^^sdg:Codes2018,
-    "4.5.1" .
+sdg:C040501 skos:notation "04.05.01", "4.5.1" .
 
-sdg:C040601 skos:notation "04.06.01"^^sdg:Codes2018, "04.06.01", "4.6.1"^^sdg:Codes2018,
-    "4.6.1" .
+sdg:C040601 skos:notation "04.06.01", "4.6.1" .
 
-sdg:C040701 skos:notation "04.07.01"^^sdg:Codes2018, "04.07.01", "4.7.1"^^sdg:Codes2018,
-    "4.7.1" .
+sdg:C040701 skos:notation "04.07.01", "4.7.1" .
 
-sdg:C040a01 skos:notation "04.0a.01"^^sdg:Codes2018, "04.0a.01", "4.a.1"^^sdg:Codes2018,
-    "4.a.1" .
+sdg:C040a01 skos:notation "04.0a.01", "4.a.1" .
 
-sdg:C040b01 skos:notation "04.0b.01"^^sdg:Codes2018, "04.0b.01", "4.b.1"^^sdg:Codes2018,
-    "4.b.1" .
+sdg:C040b01 skos:notation "04.0b.01", "4.b.1" .
 
-sdg:C040c01 skos:notation "04.0c.01"^^sdg:Codes2018, "04.0c.01", "4.c.1"^^sdg:Codes2018,
-    "4.c.1" .
+sdg:C040c01 skos:notation "04.0c.01", "4.c.1" .
 
-sdg:C050101 skos:notation "05.01.01"^^sdg:Codes2018, "05.01.01", "5.1.1"^^sdg:Codes2018,
-    "5.1.1" .
+sdg:C050101 skos:notation "05.01.01", "5.1.1" .
 
-sdg:C050201 skos:notation "05.02.01"^^sdg:Codes2018, "05.02.01", "5.2.1"^^sdg:Codes2018,
-    "5.2.1" .
+sdg:C050201 skos:notation "05.02.01", "5.2.1" .
 
-sdg:C050202 skos:notation "05.02.02"^^sdg:Codes2018, "05.02.02", "5.2.2"^^sdg:Codes2018,
-    "5.2.2" .
+sdg:C050202 skos:notation "05.02.02", "5.2.2" .
 
-sdg:C050301 skos:notation "05.03.01"^^sdg:Codes2018, "05.03.01", "5.3.1"^^sdg:Codes2018,
-    "5.3.1" .
+sdg:C050301 skos:notation "05.03.01", "5.3.1" .
 
-sdg:C050302 skos:notation "05.03.02"^^sdg:Codes2018, "05.03.02", "5.3.2"^^sdg:Codes2018,
-    "5.3.2" .
+sdg:C050302 skos:notation "05.03.02", "5.3.2" .
 
-sdg:C050401 skos:notation "05.04.01"^^sdg:Codes2018, "05.04.01", "5.4.1"^^sdg:Codes2018,
-    "5.4.1" .
+sdg:C050401 skos:notation "05.04.01", "5.4.1" .
 
-sdg:C050501 skos:notation "05.05.01"^^sdg:Codes2018, "05.05.01", "5.5.1"^^sdg:Codes2018,
-    "5.5.1" .
+sdg:C050501 skos:notation "05.05.01", "5.5.1" .
 
-sdg:C050502 skos:notation "05.05.02"^^sdg:Codes2018, "05.05.02", "5.5.2"^^sdg:Codes2018,
-    "5.5.2" .
+sdg:C050502 skos:notation "05.05.02", "5.5.2" .
 
-sdg:C050601 skos:notation "05.06.01"^^sdg:Codes2018, "05.06.01", "5.6.1"^^sdg:Codes2018,
-    "5.6.1" .
+sdg:C050601 skos:notation "05.06.01", "5.6.1" .
 
-sdg:C050602 skos:notation "05.06.02"^^sdg:Codes2018, "05.06.02", "5.6.2"^^sdg:Codes2018,
-    "5.6.2" .
+sdg:C050602 skos:notation "05.06.02", "5.6.2" .
 
-sdg:C050a01 skos:notation "05.0a.01"^^sdg:Codes2018, "05.0a.01", "5.a.1"^^sdg:Codes2018,
-    "5.a.1" .
+sdg:C050a01 skos:notation "05.0a.01", "5.a.1" .
 
-sdg:C050a02 skos:notation "05.0a.02"^^sdg:Codes2018, "05.0a.02", "5.a.2"^^sdg:Codes2018,
-    "5.a.2" .
+sdg:C050a02 skos:notation "05.0a.02", "5.a.2" .
 
-sdg:C050b01 skos:notation "05.0b.01"^^sdg:Codes2018, "05.0b.01", "5.b.1"^^sdg:Codes2018,
-    "5.b.1" .
+sdg:C050b01 skos:notation "05.0b.01", "5.b.1" .
 
-sdg:C050c01 skos:notation "05.0c.01"^^sdg:Codes2018, "05.0c.01", "5.c.1"^^sdg:Codes2018,
-    "5.c.1" .
+sdg:C050c01 skos:notation "05.0c.01", "5.c.1" .
 
-sdg:C060101 skos:notation "06.01.01"^^sdg:Codes2018, "06.01.01", "6.1.1"^^sdg:Codes2018,
-    "6.1.1" .
+sdg:C060101 skos:notation "06.01.01", "6.1.1" .
 
-sdg:C060201 skos:notation "06.02.01"^^sdg:Codes2018, "06.02.01", "6.2.1"^^sdg:Codes2018,
-    "6.2.1" .
+sdg:C060201 skos:notation "06.02.01", "6.2.1" .
 
-sdg:C060301 skos:notation "06.03.01"^^sdg:Codes2018, "06.03.01", "6.3.1"^^sdg:Codes2018,
-    "6.3.1" .
+sdg:C060301 skos:notation "06.03.01", "6.3.1" .
 
-sdg:C060302 skos:notation "06.03.02"^^sdg:Codes2018, "06.03.02", "6.3.2"^^sdg:Codes2018,
-    "6.3.2" .
+sdg:C060302 skos:notation "06.03.02", "6.3.2" .
 
-sdg:C060401 skos:notation "06.04.01"^^sdg:Codes2018, "06.04.01", "6.4.1"^^sdg:Codes2018,
-    "6.4.1" .
+sdg:C060401 skos:notation "06.04.01", "6.4.1" .
 
-sdg:C060402 skos:notation "06.04.02"^^sdg:Codes2018, "06.04.02", "6.4.2"^^sdg:Codes2018,
-    "6.4.2" .
+sdg:C060402 skos:notation "06.04.02", "6.4.2" .
 
-sdg:C060501 skos:notation "06.05.01"^^sdg:Codes2018, "06.05.01", "6.5.1"^^sdg:Codes2018,
-    "6.5.1" .
+sdg:C060501 skos:notation "06.05.01", "6.5.1" .
 
-sdg:C060502 skos:notation "06.05.02"^^sdg:Codes2018, "06.05.02", "6.5.2"^^sdg:Codes2018,
-    "6.5.2" .
+sdg:C060502 skos:notation "06.05.02", "6.5.2" .
 
-sdg:C060601 skos:notation "06.06.01"^^sdg:Codes2018, "06.06.01", "6.6.1"^^sdg:Codes2018,
-    "6.6.1" .
+sdg:C060601 skos:notation "06.06.01", "6.6.1" .
 
-sdg:C060a01 skos:notation "06.0a.01"^^sdg:Codes2018, "06.0a.01", "6.a.1"^^sdg:Codes2018,
-    "6.a.1" .
+sdg:C060a01 skos:notation "06.0a.01", "6.a.1" .
 
-sdg:C060b01 skos:notation "06.0b.01"^^sdg:Codes2018, "06.0b.01", "6.b.1"^^sdg:Codes2018,
-    "6.b.1" .
+sdg:C060b01 skos:notation "06.0b.01", "6.b.1" .
 
-sdg:C070101 skos:notation "07.01.01"^^sdg:Codes2018, "07.01.01", "7.1.1"^^sdg:Codes2018,
-    "7.1.1" .
+sdg:C070101 skos:notation "07.01.01", "7.1.1" .
 
-sdg:C070102 skos:notation "07.01.02"^^sdg:Codes2018, "07.01.02", "7.1.2"^^sdg:Codes2018,
-    "7.1.2" .
+sdg:C070102 skos:notation "07.01.02", "7.1.2" .
 
-sdg:C070201 skos:notation "07.02.01"^^sdg:Codes2018, "07.02.01", "7.2.1"^^sdg:Codes2018,
-    "7.2.1" .
+sdg:C070201 skos:notation "07.02.01", "7.2.1" .
 
-sdg:C070301 skos:notation "07.03.01"^^sdg:Codes2018, "07.03.01", "7.3.1"^^sdg:Codes2018,
-    "7.3.1" .
+sdg:C070301 skos:notation "07.03.01", "7.3.1" .
 
-sdg:C070a01 skos:notation "07.0a.01"^^sdg:Codes2018, "07.0a.01", "7.a.1"^^sdg:Codes2018,
-    "7.a.1" .
+sdg:C070a01 skos:notation "07.0a.01", "7.a.1" .
 
-sdg:C070b01 skos:notation "07.0b.01"^^sdg:Codes2018, "07.0b.01", "7.b.1"^^sdg:Codes2018,
-    "7.b.1" .
+sdg:C070b01 skos:notation "07.0b.01", "7.b.1" .
 
-sdg:C080101 skos:notation "08.01.01"^^sdg:Codes2018, "08.01.01", "8.1.1"^^sdg:Codes2018,
-    "8.1.1" .
+sdg:C080101 skos:notation "08.01.01", "8.1.1" .
 
-sdg:C080201 skos:notation "08.02.01"^^sdg:Codes2018, "08.02.01", "8.2.1"^^sdg:Codes2018,
-    "8.2.1" .
+sdg:C080201 skos:notation "08.02.01", "8.2.1" .
 
-sdg:C080301 skos:notation "08.03.01"^^sdg:Codes2018, "08.03.01", "8.3.1"^^sdg:Codes2018,
-    "8.3.1" .
+sdg:C080301 skos:notation "08.03.01", "8.3.1" .
 
-sdg:C080501 skos:notation "08.05.01"^^sdg:Codes2018, "08.05.01", "8.5.1"^^sdg:Codes2018,
-    "8.5.1" .
+sdg:C080501 skos:notation "08.05.01", "8.5.1" .
 
-sdg:C080502 skos:notation "08.05.02"^^sdg:Codes2018, "08.05.02", "8.5.2"^^sdg:Codes2018,
-    "8.5.2" .
+sdg:C080502 skos:notation "08.05.02", "8.5.2" .
 
-sdg:C080601 skos:notation "08.06.01"^^sdg:Codes2018, "08.06.01", "8.6.1"^^sdg:Codes2018,
-    "8.6.1" .
+sdg:C080601 skos:notation "08.06.01", "8.6.1" .
 
-sdg:C080701 skos:notation "08.07.01"^^sdg:Codes2018, "08.07.01", "8.7.1"^^sdg:Codes2018,
-    "8.7.1" .
+sdg:C080701 skos:notation "08.07.01", "8.7.1" .
 
-sdg:C080801 skos:notation "08.08.01"^^sdg:Codes2018, "08.08.01", "8.8.1"^^sdg:Codes2018,
-    "8.8.1" .
+sdg:C080801 skos:notation "08.08.01", "8.8.1" .
 
-sdg:C080802 skos:notation "08.08.02"^^sdg:Codes2018, "08.08.02", "8.8.2"^^sdg:Codes2018,
-    "8.8.2" .
+sdg:C080802 skos:notation "08.08.02", "8.8.2" .
 
-sdg:C080901 skos:notation "08.09.01"^^sdg:Codes2018, "08.09.01", "8.9.1"^^sdg:Codes2018,
-    "8.9.1" .
+sdg:C080901 skos:notation "08.09.01", "8.9.1" .
 
-sdg:C080902 skos:notation "08.09.02"^^sdg:Codes2018, "08.09.02", "8.9.2"^^sdg:Codes2018,
-    "8.9.2" .
+sdg:C080902 skos:notation "08.09.02", "8.9.2" .
 
-sdg:C080a01 skos:notation "08.0a.01"^^sdg:Codes2018, "08.0a.01", "8.a.1"^^sdg:Codes2018,
-    "8.a.1" .
+sdg:C080a01 skos:notation "08.0a.01", "8.a.1" .
 
-sdg:C080b01 skos:notation "08.0b.01"^^sdg:Codes2018, "08.0b.01", "8.b.1"^^sdg:Codes2018,
-    "8.b.1" .
+sdg:C080b01 skos:notation "08.0b.01", "8.b.1" .
 
-sdg:C081001 skos:notation "08.10.01"^^sdg:Codes2018, "08.10.01", "8.10.1"^^sdg:Codes2018,
-    "8.10.1" .
+sdg:C081001 skos:notation "08.10.01", "8.10.1" .
 
-sdg:C081002 skos:notation "08.10.02"^^sdg:Codes2018, "08.10.02", "8.10.2"^^sdg:Codes2018,
-    "8.10.2" .
+sdg:C081002 skos:notation "08.10.02", "8.10.2" .
 
-sdg:C090101 skos:notation "09.01.01"^^sdg:Codes2018, "09.01.01", "9.1.1"^^sdg:Codes2018,
-    "9.1.1" .
+sdg:C090101 skos:notation "09.01.01", "9.1.1" .
 
-sdg:C090102 skos:notation "09.01.02"^^sdg:Codes2018, "09.01.02", "9.1.2"^^sdg:Codes2018,
-    "9.1.2" .
+sdg:C090102 skos:notation "09.01.02", "9.1.2" .
 
-sdg:C090201 skos:notation "09.02.01"^^sdg:Codes2018, "09.02.01", "9.2.1"^^sdg:Codes2018,
-    "9.2.1" .
+sdg:C090201 skos:notation "09.02.01", "9.2.1" .
 
-sdg:C090202 skos:notation "09.02.02"^^sdg:Codes2018, "09.02.02", "9.2.2"^^sdg:Codes2018,
-    "9.2.2" .
+sdg:C090202 skos:notation "09.02.02", "9.2.2" .
 
-sdg:C090301 skos:notation "09.03.01"^^sdg:Codes2018, "09.03.01", "9.3.1"^^sdg:Codes2018,
-    "9.3.1" .
+sdg:C090301 skos:notation "09.03.01", "9.3.1" .
 
-sdg:C090302 skos:notation "09.03.02"^^sdg:Codes2018, "09.03.02", "9.3.2"^^sdg:Codes2018,
-    "9.3.2" .
+sdg:C090302 skos:notation "09.03.02", "9.3.2" .
 
-sdg:C090401 skos:notation "09.04.01"^^sdg:Codes2018, "09.04.01", "9.4.1"^^sdg:Codes2018,
-    "9.4.1" .
+sdg:C090401 skos:notation "09.04.01", "9.4.1" .
 
-sdg:C090501 skos:notation "09.05.01"^^sdg:Codes2018, "09.05.01", "9.5.1"^^sdg:Codes2018,
-    "9.5.1" .
+sdg:C090501 skos:notation "09.05.01", "9.5.1" .
 
-sdg:C090502 skos:notation "09.05.02"^^sdg:Codes2018, "09.05.02", "9.5.2"^^sdg:Codes2018,
-    "9.5.2" .
+sdg:C090502 skos:notation "09.05.02", "9.5.2" .
 
-sdg:C090a01 skos:notation "09.0a.01"^^sdg:Codes2018, "09.0a.01", "9.a.1"^^sdg:Codes2018,
-    "9.a.1" .
+sdg:C090a01 skos:notation "09.0a.01", "9.a.1" .
 
-sdg:C090b01 skos:notation "09.0b.01"^^sdg:Codes2018, "09.0b.01", "9.b.1"^^sdg:Codes2018,
-    "9.b.1" .
+sdg:C090b01 skos:notation "09.0b.01", "9.b.1" .
 
-sdg:C090c01 skos:notation "09.0c.01"^^sdg:Codes2018, "09.0c.01", "9.c.1"^^sdg:Codes2018,
-    "9.c.1" .
+sdg:C090c01 skos:notation "09.0c.01", "9.c.1" .
 
-sdg:C100101 skos:notation "10.01.01"^^sdg:Codes2018, "10.01.01", "10.1.1"^^sdg:Codes2018,
-    "10.1.1" .
+sdg:C100101 skos:notation "10.01.01", "10.1.1" .
 
-sdg:C100201 skos:notation "10.02.01"^^sdg:Codes2018, "10.02.01", "10.2.1"^^sdg:Codes2018,
-    "10.2.1" .
+sdg:C100201 skos:notation "10.02.01", "10.2.1" .
 
-sdg:C100401 skos:notation "10.04.01"^^sdg:Codes2018, "10.04.01", "10.4.1"^^sdg:Codes2018,
-    "10.4.1" .
+sdg:C100401 skos:notation "10.04.01", "10.4.1" .
 
-sdg:C100501 skos:notation "10.05.01"^^sdg:Codes2018, "10.05.01", "10.5.1"^^sdg:Codes2018,
-    "10.5.1" .
+sdg:C100501 skos:notation "10.05.01", "10.5.1" .
 
-sdg:C100701 skos:notation "10.07.01"^^sdg:Codes2018, "10.07.01", "10.7.1"^^sdg:Codes2018,
-    "10.7.1" .
+sdg:C100701 skos:notation "10.07.01", "10.7.1" .
 
-sdg:C100702 skos:notation "10.07.02"^^sdg:Codes2018, "10.07.02", "10.7.2"^^sdg:Codes2018,
-    "10.7.2" .
+sdg:C100702 skos:notation "10.07.02", "10.7.2" .
 
-sdg:C100a01 skos:notation "10.0a.01"^^sdg:Codes2018, "10.0a.01", "10.a.1"^^sdg:Codes2018,
-    "10.a.1" .
+sdg:C100a01 skos:notation "10.0a.01", "10.a.1" .
 
-sdg:C100b01 skos:notation "10.0b.01"^^sdg:Codes2018, "10.0b.01", "10.b.1"^^sdg:Codes2018,
-    "10.b.1" .
+sdg:C100b01 skos:notation "10.0b.01", "10.b.1" .
 
-sdg:C100c01 skos:notation "10.0c.01"^^sdg:Codes2018, "10.0c.01", "10.c.1"^^sdg:Codes2018,
-    "10.c.1" .
+sdg:C100c01 skos:notation "10.0c.01", "10.c.1" .
 
-sdg:C110101 skos:notation "11.01.01"^^sdg:Codes2018, "11.01.01", "11.1.1"^^sdg:Codes2018,
-    "11.1.1" .
+sdg:C110101 skos:notation "11.01.01", "11.1.1" .
 
-sdg:C110201 skos:notation "11.02.01"^^sdg:Codes2018, "11.02.01", "11.2.1"^^sdg:Codes2018,
-    "11.2.1" .
+sdg:C110201 skos:notation "11.02.01", "11.2.1" .
 
-sdg:C110301 skos:notation "11.03.01"^^sdg:Codes2018, "11.03.01", "11.3.1"^^sdg:Codes2018,
-    "11.3.1" .
+sdg:C110301 skos:notation "11.03.01", "11.3.1" .
 
-sdg:C110302 skos:notation "11.03.02"^^sdg:Codes2018, "11.03.02", "11.3.2"^^sdg:Codes2018,
-    "11.3.2" .
+sdg:C110302 skos:notation "11.03.02", "11.3.2" .
 
-sdg:C110401 skos:notation "11.04.01"^^sdg:Codes2018, "11.04.01", "11.4.1"^^sdg:Codes2018,
-    "11.4.1" .
+sdg:C110401 skos:notation "11.04.01", "11.4.1" .
 
-sdg:C110502 skos:notation "11.05.02"^^sdg:Codes2018, "11.05.02", "11.5.2"^^sdg:Codes2018,
-    "11.5.2" .
+sdg:C110502 skos:notation "11.05.02", "11.5.2" .
 
-sdg:C110601 skos:notation "11.06.01"^^sdg:Codes2018, "11.06.01", "11.6.1"^^sdg:Codes2018,
-    "11.6.1" .
+sdg:C110601 skos:notation "11.06.01", "11.6.1" .
 
-sdg:C110602 skos:notation "11.06.02"^^sdg:Codes2018, "11.06.02", "11.6.2"^^sdg:Codes2018,
-    "11.6.2" .
+sdg:C110602 skos:notation "11.06.02", "11.6.2" .
 
-sdg:C110701 skos:notation "11.07.01"^^sdg:Codes2018, "11.07.01", "11.7.1"^^sdg:Codes2018,
-    "11.7.1" .
+sdg:C110701 skos:notation "11.07.01", "11.7.1" .
 
-sdg:C110702 skos:notation "11.07.02"^^sdg:Codes2018, "11.07.02", "11.7.2"^^sdg:Codes2018,
-    "11.7.2" .
+sdg:C110702 skos:notation "11.07.02", "11.7.2" .
 
-sdg:C110a01 skos:notation "11.0a.01"^^sdg:Codes2018, "11.0a.01", "11.a.1"^^sdg:Codes2018,
-    "11.a.1" .
+sdg:C110a01 skos:notation "11.0a.01", "11.a.1" .
 
-sdg:C110c01 skos:notation "11.0c.01"^^sdg:Codes2018, "11.0c.01", "11.c.1"^^sdg:Codes2018,
-    "11.c.1" .
+sdg:C110c01 skos:notation "11.0c.01", "11.c.1" .
 
-sdg:C120101 skos:notation "12.01.01"^^sdg:Codes2018, "12.01.01", "12.1.1"^^sdg:Codes2018,
-    "12.1.1" .
+sdg:C120101 skos:notation "12.01.01", "12.1.1" .
 
-sdg:C120301 skos:notation "12.03.01"^^sdg:Codes2018, "12.03.01", "12.3.1"^^sdg:Codes2018,
-    "12.3.1" .
+sdg:C120301 skos:notation "12.03.01", "12.3.1" .
 
-sdg:C120401 skos:notation "12.04.01"^^sdg:Codes2018, "12.04.01", "12.4.1"^^sdg:Codes2018,
-    "12.4.1" .
+sdg:C120401 skos:notation "12.04.01", "12.4.1" .
 
-sdg:C120402 skos:notation "12.04.02"^^sdg:Codes2018, "12.04.02", "12.4.2"^^sdg:Codes2018,
-    "12.4.2" .
+sdg:C120402 skos:notation "12.04.02", "12.4.2" .
 
-sdg:C120501 skos:notation "12.05.01"^^sdg:Codes2018, "12.05.01", "12.5.1"^^sdg:Codes2018,
-    "12.5.1" .
+sdg:C120501 skos:notation "12.05.01", "12.5.1" .
 
-sdg:C120601 skos:notation "12.06.01"^^sdg:Codes2018, "12.06.01", "12.6.1"^^sdg:Codes2018,
-    "12.6.1" .
+sdg:C120601 skos:notation "12.06.01", "12.6.1" .
 
-sdg:C120701 skos:notation "12.07.01"^^sdg:Codes2018, "12.07.01", "12.7.1"^^sdg:Codes2018,
-    "12.7.1" .
+sdg:C120701 skos:notation "12.07.01", "12.7.1" .
 
-sdg:C120801 skos:notation "12.08.01"^^sdg:Codes2018, "12.08.01", "12.8.1"^^sdg:Codes2018,
-    "12.8.1" .
+sdg:C120801 skos:notation "12.08.01", "12.8.1" .
 
-sdg:C120a01 skos:notation "12.0a.01"^^sdg:Codes2018, "12.0a.01", "12.a.1"^^sdg:Codes2018,
-    "12.a.1" .
+sdg:C120a01 skos:notation "12.0a.01", "12.a.1" .
 
-sdg:C120b01 skos:notation "12.0b.01"^^sdg:Codes2018, "12.0b.01", "12.b.1"^^sdg:Codes2018,
-    "12.b.1" .
+sdg:C120b01 skos:notation "12.0b.01", "12.b.1" .
 
-sdg:C120c01 skos:notation "12.0c.01"^^sdg:Codes2018, "12.0c.01", "12.c.1"^^sdg:Codes2018,
-    "12.c.1" .
+sdg:C120c01 skos:notation "12.0c.01", "12.c.1" .
 
-sdg:C130201 skos:notation "13.02.01"^^sdg:Codes2018, "13.02.01", "13.2.1"^^sdg:Codes2018,
-    "13.2.1" .
+sdg:C130201 skos:notation "13.02.01", "13.2.1" .
 
-sdg:C130301 skos:notation "13.03.01"^^sdg:Codes2018, "13.03.01", "13.3.1"^^sdg:Codes2018,
-    "13.3.1" .
+sdg:C130301 skos:notation "13.03.01", "13.3.1" .
 
-sdg:C130302 skos:notation "13.03.02"^^sdg:Codes2018, "13.03.02", "13.3.2"^^sdg:Codes2018,
-    "13.3.2" .
+sdg:C130302 skos:notation "13.03.02", "13.3.2" .
 
-sdg:C130a01 skos:notation "13.0a.01"^^sdg:Codes2018, "13.0a.01", "13.a.1"^^sdg:Codes2018,
-    "13.a.1" .
+sdg:C130a01 skos:notation "13.0a.01", "13.a.1" .
 
-sdg:C130b01 skos:notation "13.0b.01"^^sdg:Codes2018, "13.0b.01", "13.b.1"^^sdg:Codes2018,
-    "13.b.1" .
+sdg:C130b01 skos:notation "13.0b.01", "13.b.1" .
 
-sdg:C140101 skos:notation "14.01.01"^^sdg:Codes2018, "14.01.01", "14.1.1"^^sdg:Codes2018,
-    "14.1.1" .
+sdg:C140101 skos:notation "14.01.01", "14.1.1" .
 
-sdg:C140201 skos:notation "14.02.01"^^sdg:Codes2018, "14.02.01", "14.2.1"^^sdg:Codes2018,
-    "14.2.1" .
+sdg:C140201 skos:notation "14.02.01", "14.2.1" .
 
-sdg:C140301 skos:notation "14.03.01"^^sdg:Codes2018, "14.03.01", "14.3.1"^^sdg:Codes2018,
-    "14.3.1" .
+sdg:C140301 skos:notation "14.03.01", "14.3.1" .
 
-sdg:C140401 skos:notation "14.04.01"^^sdg:Codes2018, "14.04.01", "14.4.1"^^sdg:Codes2018,
-    "14.4.1" .
+sdg:C140401 skos:notation "14.04.01", "14.4.1" .
 
-sdg:C140501 skos:notation "14.05.01"^^sdg:Codes2018, "14.05.01", "14.5.1"^^sdg:Codes2018,
-    "14.5.1" .
+sdg:C140501 skos:notation "14.05.01", "14.5.1" .
 
-sdg:C140601 skos:notation "14.06.01"^^sdg:Codes2018, "14.06.01", "14.6.1"^^sdg:Codes2018,
-    "14.6.1" .
+sdg:C140601 skos:notation "14.06.01", "14.6.1" .
 
-sdg:C140701 skos:notation "14.07.01"^^sdg:Codes2018, "14.07.01", "14.7.1"^^sdg:Codes2018,
-    "14.7.1" .
+sdg:C140701 skos:notation "14.07.01", "14.7.1" .
 
-sdg:C140a01 skos:notation "14.0a.01"^^sdg:Codes2018, "14.0a.01", "14.a.1"^^sdg:Codes2018,
-    "14.a.1" .
+sdg:C140a01 skos:notation "14.0a.01", "14.a.1" .
 
-sdg:C140b01 skos:notation "14.0b.01"^^sdg:Codes2018, "14.0b.01", "14.b.1"^^sdg:Codes2018,
-    "14.b.1" .
+sdg:C140b01 skos:notation "14.0b.01", "14.b.1" .
 
-sdg:C140c01 skos:notation "14.0c.01"^^sdg:Codes2018, "14.0c.01", "14.c.1"^^sdg:Codes2018,
-    "14.c.1" .
+sdg:C140c01 skos:notation "14.0c.01", "14.c.1" .
 
-sdg:C150102 skos:notation "15.01.02"^^sdg:Codes2018, "15.01.02", "15.1.2"^^sdg:Codes2018,
-    "15.1.2" .
+sdg:C150102 skos:notation "15.01.02", "15.1.2" .
 
-sdg:C150301 skos:notation "15.03.01"^^sdg:Codes2018, "15.03.01", "15.3.1"^^sdg:Codes2018,
-    "15.3.1" .
+sdg:C150301 skos:notation "15.03.01", "15.3.1" .
 
-sdg:C150401 skos:notation "15.04.01"^^sdg:Codes2018, "15.04.01", "15.4.1"^^sdg:Codes2018,
-    "15.4.1" .
+sdg:C150401 skos:notation "15.04.01", "15.4.1" .
 
-sdg:C150402 skos:notation "15.04.02"^^sdg:Codes2018, "15.04.02", "15.4.2"^^sdg:Codes2018,
-    "15.4.2" .
+sdg:C150402 skos:notation "15.04.02", "15.4.2" .
 
-sdg:C150501 skos:notation "15.05.01"^^sdg:Codes2018, "15.05.01", "15.5.1"^^sdg:Codes2018,
-    "15.5.1" .
+sdg:C150501 skos:notation "15.05.01", "15.5.1" .
 
-sdg:C150601 skos:notation "15.06.01"^^sdg:Codes2018, "15.06.01", "15.6.1"^^sdg:Codes2018,
-    "15.6.1" .
+sdg:C150601 skos:notation "15.06.01", "15.6.1" .
 
-sdg:C150801 skos:notation "15.08.01"^^sdg:Codes2018, "15.08.01", "15.8.1"^^sdg:Codes2018,
-    "15.8.1" .
+sdg:C150801 skos:notation "15.08.01", "15.8.1" .
 
-sdg:C150901 skos:notation "15.09.01"^^sdg:Codes2018, "15.09.01", "15.9.1"^^sdg:Codes2018,
-    "15.9.1" .
+sdg:C150901 skos:notation "15.09.01", "15.9.1" .
 
-sdg:C160101 skos:notation "16.01.01"^^sdg:Codes2018, "16.01.01", "16.1.1"^^sdg:Codes2018,
-    "16.1.1" .
+sdg:C160101 skos:notation "16.01.01", "16.1.1" .
 
-sdg:C160102 skos:notation "16.01.02"^^sdg:Codes2018, "16.01.02", "16.1.2"^^sdg:Codes2018,
-    "16.1.2" .
+sdg:C160102 skos:notation "16.01.02", "16.1.2" .
 
-sdg:C160103 skos:notation "16.01.03"^^sdg:Codes2018, "16.01.03", "16.1.3"^^sdg:Codes2018,
-    "16.1.3" .
+sdg:C160103 skos:notation "16.01.03", "16.1.3" .
 
-sdg:C160104 skos:notation "16.01.04"^^sdg:Codes2018, "16.01.04", "16.1.4"^^sdg:Codes2018,
-    "16.1.4" .
+sdg:C160104 skos:notation "16.01.04", "16.1.4" .
 
-sdg:C160201 skos:notation "16.02.01"^^sdg:Codes2018, "16.02.01", "16.2.1"^^sdg:Codes2018,
-    "16.2.1" .
+sdg:C160201 skos:notation "16.02.01", "16.2.1" .
 
-sdg:C160202 skos:notation "16.02.02"^^sdg:Codes2018, "16.02.02", "16.2.2"^^sdg:Codes2018,
-    "16.2.2" .
+sdg:C160202 skos:notation "16.02.02", "16.2.2" .
 
-sdg:C160203 skos:notation "16.02.03"^^sdg:Codes2018, "16.02.03", "16.2.3"^^sdg:Codes2018,
-    "16.2.3" .
+sdg:C160203 skos:notation "16.02.03", "16.2.3" .
 
-sdg:C160301 skos:notation "16.03.01"^^sdg:Codes2018, "16.03.01", "16.3.1"^^sdg:Codes2018,
-    "16.3.1" .
+sdg:C160301 skos:notation "16.03.01", "16.3.1" .
 
-sdg:C160302 skos:notation "16.03.02"^^sdg:Codes2018, "16.03.02", "16.3.2"^^sdg:Codes2018,
-    "16.3.2" .
+sdg:C160302 skos:notation "16.03.02", "16.3.2" .
 
-sdg:C160401 skos:notation "16.04.01"^^sdg:Codes2018, "16.04.01", "16.4.1"^^sdg:Codes2018,
-    "16.4.1" .
+sdg:C160401 skos:notation "16.04.01", "16.4.1" .
 
-sdg:C160402 skos:notation "16.04.02"^^sdg:Codes2018, "16.04.02", "16.4.2"^^sdg:Codes2018,
-    "16.4.2" .
+sdg:C160402 skos:notation "16.04.02", "16.4.2" .
 
-sdg:C160501 skos:notation "16.05.01"^^sdg:Codes2018, "16.05.01", "16.5.1"^^sdg:Codes2018,
-    "16.5.1" .
+sdg:C160501 skos:notation "16.05.01", "16.5.1" .
 
-sdg:C160502 skos:notation "16.05.02"^^sdg:Codes2018, "16.05.02", "16.5.2"^^sdg:Codes2018,
-    "16.5.2" .
+sdg:C160502 skos:notation "16.05.02", "16.5.2" .
 
-sdg:C160601 skos:notation "16.06.01"^^sdg:Codes2018, "16.06.01", "16.6.1"^^sdg:Codes2018,
-    "16.6.1" .
+sdg:C160601 skos:notation "16.06.01", "16.6.1" .
 
-sdg:C160602 skos:notation "16.06.02"^^sdg:Codes2018, "16.06.02", "16.6.2"^^sdg:Codes2018,
-    "16.6.2" .
+sdg:C160602 skos:notation "16.06.02", "16.6.2" .
 
-sdg:C160701 skos:notation "16.07.01"^^sdg:Codes2018, "16.07.01", "16.7.1"^^sdg:Codes2018,
-    "16.7.1" .
+sdg:C160701 skos:notation "16.07.01", "16.7.1" .
 
-sdg:C160702 skos:notation "16.07.02"^^sdg:Codes2018, "16.07.02", "16.7.2"^^sdg:Codes2018,
-    "16.7.2" .
+sdg:C160702 skos:notation "16.07.02", "16.7.2" .
 
-sdg:C160901 skos:notation "16.09.01"^^sdg:Codes2018, "16.09.01", "16.9.1"^^sdg:Codes2018,
-    "16.9.1" .
+sdg:C160901 skos:notation "16.09.01", "16.9.1" .
 
-sdg:C160a01 skos:notation "16.0a.01"^^sdg:Codes2018, "16.0a.01", "16.a.1"^^sdg:Codes2018,
-    "16.a.1" .
+sdg:C160a01 skos:notation "16.0a.01", "16.a.1" .
 
-sdg:C161001 skos:notation "16.10.01"^^sdg:Codes2018, "16.10.01", "16.10.1"^^sdg:Codes2018,
-    "16.10.1" .
+sdg:C161001 skos:notation "16.10.01", "16.10.1" .
 
-sdg:C161002 skos:notation "16.10.02"^^sdg:Codes2018, "16.10.02", "16.10.2"^^sdg:Codes2018,
-    "16.10.2" .
+sdg:C161002 skos:notation "16.10.02", "16.10.2" .
 
-sdg:C170101 skos:notation "17.01.01"^^sdg:Codes2018, "17.01.01", "17.1.1"^^sdg:Codes2018,
-    "17.1.1" .
+sdg:C170101 skos:notation "17.01.01", "17.1.1" .
 
-sdg:C170102 skos:notation "17.01.02"^^sdg:Codes2018, "17.01.02", "17.1.2"^^sdg:Codes2018,
-    "17.1.2" .
+sdg:C170102 skos:notation "17.01.02", "17.1.2" .
 
-sdg:C170201 skos:notation "17.02.01"^^sdg:Codes2018, "17.02.01", "17.2.1"^^sdg:Codes2018,
-    "17.2.1" .
+sdg:C170201 skos:notation "17.02.01", "17.2.1" .
 
-sdg:C170301 skos:notation "17.03.01"^^sdg:Codes2018, "17.03.01", "17.3.1"^^sdg:Codes2018,
-    "17.3.1" .
+sdg:C170301 skos:notation "17.03.01", "17.3.1" .
 
-sdg:C170401 skos:notation "17.04.01"^^sdg:Codes2018, "17.04.01", "17.4.1"^^sdg:Codes2018,
-    "17.4.1" .
+sdg:C170401 skos:notation "17.04.01", "17.4.1" .
 
-sdg:C170501 skos:notation "17.05.01"^^sdg:Codes2018, "17.05.01", "17.5.1"^^sdg:Codes2018,
-    "17.5.1" .
+sdg:C170501 skos:notation "17.05.01", "17.5.1" .
 
-sdg:C170601 skos:notation "17.06.01"^^sdg:Codes2018, "17.06.01", "17.6.1"^^sdg:Codes2018,
-    "17.6.1" .
+sdg:C170601 skos:notation "17.06.01", "17.6.1" .
 
-sdg:C170602 skos:notation "17.06.02"^^sdg:Codes2018, "17.06.02", "17.6.2"^^sdg:Codes2018,
-    "17.6.2" .
+sdg:C170602 skos:notation "17.06.02", "17.6.2" .
 
-sdg:C170701 skos:notation "17.07.01"^^sdg:Codes2018, "17.07.01", "17.7.1"^^sdg:Codes2018,
-    "17.7.1" .
+sdg:C170701 skos:notation "17.07.01", "17.7.1" .
 
-sdg:C170801 skos:notation "17.08.01"^^sdg:Codes2018, "17.08.01", "17.8.1"^^sdg:Codes2018,
-    "17.8.1" .
+sdg:C170801 skos:notation "17.08.01", "17.8.1" .
 
-sdg:C170901 skos:notation "17.09.01"^^sdg:Codes2018, "17.09.01", "17.9.1"^^sdg:Codes2018,
-    "17.9.1" .
+sdg:C170901 skos:notation "17.09.01", "17.9.1" .
 
-sdg:C171001 skos:notation "17.10.01"^^sdg:Codes2018, "17.10.01", "17.10.1"^^sdg:Codes2018,
-    "17.10.1" .
+sdg:C171001 skos:notation "17.10.01", "17.10.1" .
 
-sdg:C171101 skos:notation "17.11.01"^^sdg:Codes2018, "17.11.01", "17.11.1"^^sdg:Codes2018,
-    "17.11.1" .
+sdg:C171101 skos:notation "17.11.01", "17.11.1" .
 
-sdg:C171201 skos:notation "17.12.01"^^sdg:Codes2018, "17.12.01", "17.12.1"^^sdg:Codes2018,
-    "17.12.1" .
+sdg:C171201 skos:notation "17.12.01", "17.12.1" .
 
-sdg:C171301 skos:notation "17.13.01"^^sdg:Codes2018, "17.13.01", "17.13.1"^^sdg:Codes2018,
-    "17.13.1" .
+sdg:C171301 skos:notation "17.13.01", "17.13.1" .
 
-sdg:C171401 skos:notation "17.14.01"^^sdg:Codes2018, "17.14.01", "17.14.1"^^sdg:Codes2018,
-    "17.14.1" .
+sdg:C171401 skos:notation "17.14.01", "17.14.1" .
 
-sdg:C171501 skos:notation "17.15.01"^^sdg:Codes2018, "17.15.01", "17.15.1"^^sdg:Codes2018,
-    "17.15.1" .
+sdg:C171501 skos:notation "17.15.01", "17.15.1" .
 
-sdg:C171601 skos:notation "17.16.01"^^sdg:Codes2018, "17.16.01", "17.16.1"^^sdg:Codes2018,
-    "17.16.1" .
+sdg:C171601 skos:notation "17.16.01", "17.16.1" .
 
-sdg:C171701 skos:notation "17.17.01"^^sdg:Codes2018, "17.17.01", "17.17.1"^^sdg:Codes2018,
-    "17.17.1" .
+sdg:C171701 skos:notation "17.17.01", "17.17.1" .
 
-sdg:C171801 skos:notation "17.18.01"^^sdg:Codes2018, "17.18.01", "17.18.1"^^sdg:Codes2018,
-    "17.18.1" .
+sdg:C171801 skos:notation "17.18.01", "17.18.1" .
 
-sdg:C171802 skos:notation "17.18.02"^^sdg:Codes2018, "17.18.02", "17.18.2"^^sdg:Codes2018,
-    "17.18.2" .
+sdg:C171802 skos:notation "17.18.02", "17.18.2" .
 
-sdg:C171803 skos:notation "17.18.03"^^sdg:Codes2018, "17.18.03", "17.18.3"^^sdg:Codes2018,
-    "17.18.3" .
+sdg:C171803 skos:notation "17.18.03", "17.18.3" .
 
-sdg:C171901 skos:notation "17.19.01"^^sdg:Codes2018, "17.19.01", "17.19.1"^^sdg:Codes2018,
-    "17.19.1" .
+sdg:C171901 skos:notation "17.19.01", "17.19.1" .
 
-sdg:C171902 skos:notation "17.19.02"^^sdg:Codes2018, "17.19.02", "17.19.2"^^sdg:Codes2018,
-    "17.19.2" .
+sdg:C171902 skos:notation "17.19.02", "17.19.2" .
 
-sdg:C200202 skos:notation "08.04.01"^^sdg:Codes2018, "08.04.01", "12.02.01"^^sdg:Codes2018,
-    "12.02.01", "12.2.1"^^sdg:Codes2018, "12.2.1", "8.4.1"^^sdg:Codes2018, "8.4.1" .
+sdg:C200202 skos:notation "08.04.01", "12.02.01", "12.2.1", "8.4.1" .
 
-sdg:C200203 skos:notation "08.04.02"^^sdg:Codes2018, "08.04.02", "12.02.02"^^sdg:Codes2018,
-    "12.02.02", "12.2.2"^^sdg:Codes2018, "12.2.2", "8.4.2"^^sdg:Codes2018, "8.4.2" .
+sdg:C200203 skos:notation "08.04.02", "12.02.02", "12.2.2", "8.4.2" .
 
-sdg:C200204 skos:notation "10.03.01"^^sdg:Codes2018, "10.03.01", "10.3.1"^^sdg:Codes2018,
-    "10.3.1", "16.0b.01"^^sdg:Codes2018, "16.0b.01", "16.b.1"^^sdg:Codes2018, "16.b.1" .
+sdg:C200204 skos:notation "10.03.01", "10.3.1", "16.0b.01", "16.b.1" .
 
-sdg:C200205 skos:notation "10.06.01"^^sdg:Codes2018, "10.06.01", "10.6.1"^^sdg:Codes2018,
-    "10.6.1", "16.08.01"^^sdg:Codes2018, "16.08.01", "16.8.1"^^sdg:Codes2018, "16.8.1" .
+sdg:C200205 skos:notation "10.06.01", "10.6.1", "16.08.01", "16.8.1" .
 
-sdg:C200206 skos:notation "15.07.01"^^sdg:Codes2018, "15.07.01", "15.0c.01"^^sdg:Codes2018,
-    "15.0c.01", "15.7.1"^^sdg:Codes2018, "15.7.1", "15.c.1"^^sdg:Codes2018, "15.c.1" .
+sdg:C200206 skos:notation "15.07.01", "15.0c.01", "15.7.1", "15.c.1" .
 
-sdg:C200207 skos:notation "15.0a.01"^^sdg:Codes2018, "15.0a.01", "15.0b.01"^^sdg:Codes2018,
-    "15.0b.01", "15.a.1"^^sdg:Codes2018, "15.a.1", "15.b.1"^^sdg:Codes2018, "15.b.1" .
+sdg:C200207 skos:notation "15.0a.01", "15.0b.01", "15.a.1", "15.b.1" .
 
-sdg:C200303 skos:notation "01.05.01"^^sdg:Codes2018, "01.05.01", "1.5.1"^^sdg:Codes2018,
-    "1.5.1", "11.05.01"^^sdg:Codes2018, "11.05.01", "11.5.1"^^sdg:Codes2018, "11.5.1",
-    "13.01.01"^^sdg:Codes2018, "13.01.01", "13.1.1"^^sdg:Codes2018, "13.1.1" .
+sdg:C200303 skos:notation "01.05.01", "1.5.1", "11.05.01", "11.5.1", "13.01.01", "13.1.1" .
 
-sdg:C200304 skos:notation "01.05.03"^^sdg:Codes2018, "01.05.03", "1.5.3"^^sdg:Codes2018,
-    "1.5.3", "11.0b.01"^^sdg:Codes2018, "11.0b.01", "11.b.1"^^sdg:Codes2018, "11.b.1",
-    "13.01.02"^^sdg:Codes2018, "13.01.02", "13.1.2"^^sdg:Codes2018, "13.1.2" .
+sdg:C200304 skos:notation "01.05.03", "1.5.3", "11.0b.01", "11.b.1", "13.01.02", "13.1.2" .
 
-sdg:C200305 skos:notation "01.05.04"^^sdg:Codes2018, "01.05.04", "1.5.4"^^sdg:Codes2018,
-    "1.5.4", "11.0b.02"^^sdg:Codes2018, "11.0b.02", "11.b.2"^^sdg:Codes2018, "11.b.2",
-    "13.01.03"^^sdg:Codes2018, "13.01.03", "13.1.3"^^sdg:Codes2018, "13.1.3" .
+sdg:C200305 skos:notation "01.05.04", "1.5.4", "11.0b.02", "11.b.2", "13.01.03", "13.1.3" .
 
 sdg:DC_FTA_TOTAL skos:notation "DC_FTA_TOTAL" .
 
@@ -10380,3 +10145,856 @@ sdg:VC_DSR_OBDN dct:subject <http://eurovoc.europa.eu/412>, <http://eurovoc.euro
     <http://metadata.un.org/thesaurus#1001693>, <http://metadata.un.org/thesaurus#1001694>,
     <http://metadata.un.org/thesaurus#1001695>, <http://metadata.un.org/thesaurus#1001696>,
     <http://metadata.un.org/thesaurus#1004334>, <http://metadata.un.org/thesaurus#1004898> .
+
+sdg:01 skos:altLabel "No Poverty"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000035>, <http://www.wikidata.org/entity/Q50214636> .
+
+sdg:02 skos:altLabel "Zero Hunger"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000036>, <http://www.wikidata.org/entity/Q50215926> .
+
+sdg:03 skos:altLabel "Good Health and Well-Being"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000037>, <http://www.wikidata.org/entity/Q50216838> .
+
+sdg:04 skos:altLabel "Quality Education"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000038>, <http://www.wikidata.org/entity/Q53581209> .
+
+sdg:05 skos:altLabel "Gender Equality"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000039>, <http://www.wikidata.org/entity/Q53581210> .
+
+sdg:06 skos:altLabel "Clean Water and Sanitation"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000040>, <http://www.wikidata.org/entity/Q48741129> .
+
+sdg:07 skos:altLabel "Affordable and Clean Energy"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000041>, <http://www.wikidata.org/entity/Q53581213> .
+
+sdg:08 skos:altLabel "Decent Work and Economic Growth"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000042>, <http://www.wikidata.org/entity/Q53581217> .
+
+sdg:09 skos:altLabel "Industry, Innovation and Infrastructure"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000043>, <http://www.wikidata.org/entity/Q53581219> .
+
+sdg:10 skos:altLabel "Reduced Inequalities"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000044>, <http://www.wikidata.org/entity/Q53581222> .
+
+sdg:11 skos:altLabel "Sustainable Cities and Communities"@en;
+  skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000045>, <http://www.wikidata.org/entity/Q53581228> .
+
+sdg:12 skos:altLabel "Responsible Consumption and Production"@en .
+
+sdg:13 skos:altLabel "Climate Action"@en .
+
+sdg:14 skos:altLabel "Life below water"@en .
+
+sdg:15 skos:altLabel "Life on Land"@en .
+
+sdg:16 skos:altLabel "Peace, Justice, and Strong Institutions"@en .
+
+sdg:17 skos:altLabel "Partnerships for the Goals"@en .
+
+sdg:01.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000057> .
+
+sdg:01.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000065> .
+
+sdg:01.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000070> .
+
+sdg:01.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000071> .
+
+sdg:01.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000075> .
+
+sdg:01.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000076> .
+
+sdg:01.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000077> .
+
+sdg:02.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000078> .
+
+sdg:02.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000079> .
+
+sdg:02.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000080> .
+
+sdg:02.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000081> .
+
+sdg:02.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000082> .
+
+sdg:02.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000083> .
+
+sdg:02.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000084> .
+
+sdg:02.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000085> .
+
+sdg:03.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000086> .
+
+sdg:03.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000087> .
+
+sdg:03.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000088> .
+
+sdg:03.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000089> .
+
+sdg:03.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000090> .
+
+sdg:03.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000091> .
+
+sdg:03.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000092> .
+
+sdg:03.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000093> .
+
+sdg:03.09 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000094> .
+
+sdg:03.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000095> .
+
+sdg:03.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000096> .
+
+sdg:03.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000097> .
+
+sdg:03.0d skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000098> .
+
+sdg:04.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000099> .
+
+sdg:04.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000100> .
+
+sdg:04.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000101> .
+
+sdg:04.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000102> .
+
+sdg:04.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000103> .
+
+sdg:04.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000104> .
+
+sdg:04.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000105> .
+
+sdg:04.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000106> .
+
+sdg:04.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000107> .
+
+sdg:04.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000108> .
+
+sdg:05.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000109> .
+
+sdg:05.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000110> .
+
+sdg:05.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000111> .
+
+sdg:05.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000112> .
+
+sdg:05.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000113> .
+
+sdg:05.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000114> .
+
+sdg:05.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000115> .
+
+sdg:05.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000116> .
+
+sdg:05.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000117> .
+
+sdg:06.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000118> .
+
+sdg:06.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000119> .
+
+sdg:06.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000120> .
+
+sdg:06.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000121> .
+
+sdg:06.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000122> .
+
+sdg:06.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000123> .
+
+sdg:06.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000124> .
+
+sdg:06.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000125> .
+
+sdg:07.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000126> .
+
+sdg:07.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000127> .
+
+sdg:07.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000128> .
+
+sdg:07.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000129> .
+
+sdg:07.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000130> .
+
+sdg:08.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000131>, <http://purl.unep.org/sdg/SDGIO_00000140> .
+
+sdg:08.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000132> .
+
+sdg:08.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000133> .
+
+sdg:08.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000134> .
+
+sdg:08.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000135> .
+
+sdg:08.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000136> .
+
+sdg:08.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000137> .
+
+sdg:08.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000138> .
+
+sdg:08.09 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000139> .
+
+sdg:08.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000141> .
+
+sdg:08.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000142> .
+
+sdg:09.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000143> .
+
+sdg:09.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000144> .
+
+sdg:09.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000145> .
+
+sdg:09.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000146> .
+
+sdg:09.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000147> .
+
+sdg:09.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000148> .
+
+sdg:09.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000149> .
+
+sdg:09.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000150> .
+
+sdg:10.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000151> .
+
+sdg:10.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000152> .
+
+sdg:10.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000153> .
+
+sdg:10.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000154> .
+
+sdg:10.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000155> .
+
+sdg:10.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000156> .
+
+sdg:10.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000157> .
+
+sdg:10.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000158> .
+
+sdg:10.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000159> .
+
+sdg:10.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000160> .
+
+sdg:11.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000161> .
+
+sdg:11.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000162> .
+
+sdg:11.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000163> .
+
+sdg:11.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000164> .
+
+sdg:11.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000165> .
+
+sdg:11.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000166> .
+
+sdg:11.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000167> .
+
+sdg:11.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000168> .
+
+sdg:11.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000169> .
+
+sdg:11.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000170> .
+
+sdg:12.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000171> .
+
+sdg:12 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000046>, <http://www.wikidata.org/entity/Q53581232> .
+
+sdg:12.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000172> .
+
+sdg:12.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000173> .
+
+sdg:12.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000174> .
+
+sdg:12.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000175> .
+
+sdg:12.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000176> .
+
+sdg:12.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000177> .
+
+sdg:12.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000178> .
+
+sdg:12.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000179> .
+
+sdg:12.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000180> .
+
+sdg:12.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000181> .
+
+sdg:13.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000182> .
+
+sdg:13 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000047>, <http://www.wikidata.org/entity/Q53581236> .
+
+sdg:13.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000183> .
+
+sdg:13.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000184> .
+
+sdg:13.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000185> .
+
+sdg:13.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000186> .
+
+sdg:14.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000187> .
+
+sdg:14 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000048>, <http://www.wikidata.org/entity/Q53581239> .
+
+sdg:14.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000188> .
+
+sdg:14.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000189> .
+
+sdg:14.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000190> .
+
+sdg:14.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000191> .
+
+sdg:14.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000192> .
+
+sdg:14.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000193> .
+
+sdg:14.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000194> .
+
+sdg:14.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000195> .
+
+sdg:14.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000196> .
+
+sdg:15.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000198> .
+
+sdg:15 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000049>, <http://www.wikidata.org/entity/Q53581245> .
+
+sdg:15.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000199> .
+
+sdg:15.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000200> .
+
+sdg:15.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000201> .
+
+sdg:15.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000202> .
+
+sdg:15.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000203> .
+
+sdg:15.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000204> .
+
+sdg:15.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000205> .
+
+sdg:15.09 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000206> .
+
+sdg:15.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000207> .
+
+sdg:15.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000208> .
+
+sdg:15.0c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000209> .
+
+sdg:16.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000210>, <http://purl.unep.org/sdg/SDGIO_00000219> .
+
+sdg:16 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000050>, <http://www.wikidata.org/entity/Q53581248> .
+
+sdg:16.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000211> .
+
+sdg:16.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000212> .
+
+sdg:16.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000213> .
+
+sdg:16.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000214> .
+
+sdg:16.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000215> .
+
+sdg:16.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000216> .
+
+sdg:16.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000217> .
+
+sdg:16.09 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000218> .
+
+sdg:16.0a skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000220> .
+
+sdg:16.0b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000221> .
+
+sdg:17.01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000222>, <http://purl.unep.org/sdg/SDGIO_00000231> .
+
+sdg:17 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000051>, <http://www.wikidata.org/entity/Q53581254> .
+
+sdg:17.02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000223> .
+
+sdg:17.03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000197> .
+
+sdg:17.04 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000224> .
+
+sdg:17.05 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000225> .
+
+sdg:17.06 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000226> .
+
+sdg:17.07 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000228> .
+
+sdg:17.08 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000229> .
+
+sdg:17.09 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000230> .
+
+sdg:17.11 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000232> .
+
+sdg:17.12 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000233> .
+
+sdg:17.13 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000234> .
+
+sdg:17.14 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000235> .
+
+sdg:17.15 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000236> .
+
+sdg:17.16 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000237> .
+
+sdg:17.17 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000238> .
+
+sdg:17.18 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000239> .
+
+sdg:17.19 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000240> .
+
+sdg:C020c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020026> .
+
+sdg:C150101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020174> .
+
+sdg:C150201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020176> .
+
+sdg:C020102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020015> .
+
+sdg:C020a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020023> .
+
+sdg:C020b02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020025> .
+
+sdg:C170302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020211> .
+
+sdg:C010101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020000> .
+
+sdg:C010201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020001> .
+
+sdg:C010202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020002> .
+
+sdg:C010301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020003> .
+
+sdg:C010401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020004> .
+
+sdg:C010402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020005> .
+
+sdg:C010502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020007> .
+
+sdg:C010a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020010> .
+
+sdg:C010a02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020011> .
+
+sdg:C010a03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020012> .
+
+sdg:C010b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020013> .
+
+sdg:C020101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020014> .
+
+sdg:C020201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020016> .
+
+sdg:C020202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020017> .
+
+sdg:C020301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020018> .
+
+sdg:C020302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020019> .
+
+sdg:C020401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020020> .
+
+sdg:C020501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020021> .
+
+sdg:C020502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020022> .
+
+sdg:C020a02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020024> .
+
+sdg:C030101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020027> .
+
+sdg:C030102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020028> .
+
+sdg:C030201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020029> .
+
+sdg:C030202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020030> .
+
+sdg:C030301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020031> .
+
+sdg:C030302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020032> .
+
+sdg:C030303 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020033> .
+
+sdg:C030304 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020034> .
+
+sdg:C030305 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020035> .
+
+sdg:C030401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020036> .
+
+sdg:C030402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020037> .
+
+sdg:C030501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020038> .
+
+sdg:C030502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020039> .
+
+sdg:C030601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020040> .
+
+sdg:C030701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020041> .
+
+sdg:C030702 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020042> .
+
+sdg:C030801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020043> .
+
+sdg:C030802 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020044> .
+
+sdg:C030901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020045> .
+
+sdg:C030902 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020046> .
+
+sdg:C030903 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020047> .
+
+sdg:C030a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020048> .
+
+sdg:C030b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020049> .
+
+sdg:C030b02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020050> .
+
+sdg:C030b03 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020051> .
+
+sdg:C030c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020052> .
+
+sdg:C030d01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020053> .
+
+sdg:C040101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020054> .
+
+sdg:C040201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020055> .
+
+sdg:C040202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020056> .
+
+sdg:C040301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020057> .
+
+sdg:C040401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020058> .
+
+sdg:C040501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020059> .
+
+sdg:C040601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020060> .
+
+sdg:C040701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020061> .
+
+sdg:C040a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020062> .
+
+sdg:C040b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020063> .
+
+sdg:C040c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020064> .
+
+sdg:C050101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020065> .
+
+sdg:C050201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020066> .
+
+sdg:C050202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020067> .
+
+sdg:C050301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020068> .
+
+sdg:C050302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020069> .
+
+sdg:C050401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020070> .
+
+sdg:C050501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020071> .
+
+sdg:C050502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020072> .
+
+sdg:C050601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020073> .
+
+sdg:C050602 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020074> .
+
+sdg:C050a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020075> .
+
+sdg:C050a02 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020076> .
+
+sdg:C050b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020077> .
+
+sdg:C050c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020078> .
+
+sdg:C060101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020079> .
+
+sdg:C060201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020080> .
+
+sdg:C060301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020081> .
+
+sdg:C060302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020082> .
+
+sdg:C060401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020083> .
+
+sdg:C060402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020084> .
+
+sdg:C060501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020085> .
+
+sdg:C060502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020086> .
+
+sdg:C060601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020087> .
+
+sdg:C060a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020088> .
+
+sdg:C060b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020089> .
+
+sdg:C070101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020090> .
+
+sdg:C070102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020091> .
+
+sdg:C070201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020092> .
+
+sdg:C070301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020093> .
+
+sdg:C070a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020094> .
+
+sdg:C070b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020095> .
+
+sdg:C080101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020096> .
+
+sdg:C080201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020097> .
+
+sdg:C080301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020098> .
+
+sdg:C080501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020101> .
+
+sdg:C080502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020102> .
+
+sdg:C080601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020103> .
+
+sdg:C080701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020104> .
+
+sdg:C080801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020105> .
+
+sdg:C080802 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020106> .
+
+sdg:C080901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020107> .
+
+sdg:C080902 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020108> .
+
+sdg:C080a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020111> .
+
+sdg:C080b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020112> .
+
+sdg:C081001 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020109> .
+
+sdg:C081002 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020110> .
+
+sdg:C090101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020113> .
+
+sdg:C090102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020114> .
+
+sdg:C090201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020115> .
+
+sdg:C090202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020116> .
+
+sdg:C090301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020117> .
+
+sdg:C090302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020118> .
+
+sdg:C090401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020119> .
+
+sdg:C090501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020120> .
+
+sdg:C090502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020121> .
+
+sdg:C090a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020122> .
+
+sdg:C090b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020123> .
+
+sdg:C090c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020124> .
+
+sdg:C100101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020125> .
+
+sdg:C100201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020126> .
+
+sdg:C100401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020128> .
+
+sdg:C100501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020129> .
+
+sdg:C100701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020131> .
+
+sdg:C100702 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020132> .
+
+sdg:C100a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020133> .
+
+sdg:C100b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020134> .
+
+sdg:C100c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020135> .
+
+sdg:C110101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020136> .
+
+sdg:C110201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020137> .
+
+sdg:C110301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020138> .
+
+sdg:C110302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020139> .
+
+sdg:C110401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020140> .
+
+sdg:C110502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020141> .
+
+sdg:C110601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020142> .
+
+sdg:C110602 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020143> .
+
+sdg:C110701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020144> .
+
+sdg:C110702 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020145> .
+
+sdg:C110a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020146> .
+
+sdg:C110c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020147> .
+
+sdg:C120101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020148> .
+
+sdg:C120301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020149> .
+
+sdg:C120401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020150> .
+
+sdg:C120402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020151> .
+
+sdg:C120501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020152> .
+
+sdg:C120601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020153> .
+
+sdg:C120701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020154> .
+
+sdg:C120801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020155> .
+
+sdg:C120a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020156> .
+
+sdg:C120b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020157> .
+
+sdg:C120c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020158> .
+
+sdg:C130201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020159> .
+
+sdg:C130301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020160> .
+
+sdg:C130302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020161> .
+
+sdg:C130a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020162> .
+
+sdg:C130b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020163> .
+
+sdg:C140101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020164> .
+
+sdg:C140201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020165> .
+
+sdg:C140301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020166> .
+
+sdg:C140401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020167> .
+
+sdg:C140501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020168> .
+
+sdg:C140601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020169> .
+
+sdg:C140701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020170> .
+
+sdg:C140a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020171> .
+
+sdg:C140b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020172> .
+
+sdg:C140c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020173> .
+
+sdg:C150102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020175> .
+
+sdg:C150301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020177> .
+
+sdg:C150401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020178> .
+
+sdg:C150402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020179> .
+
+sdg:C150501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020180> .
+
+sdg:C150601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020181> .
+
+sdg:C150801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020183> .
+
+sdg:C150901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020184> .
+
+sdg:C160101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020186> .
+
+sdg:C160102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020187> .
+
+sdg:C160103 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020188> .
+
+sdg:C160104 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020189> .
+
+sdg:C160201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020190> .
+
+sdg:C160202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020191> .
+
+sdg:C160203 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020192> .
+
+sdg:C160301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020193> .
+
+sdg:C160302 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020194> .
+
+sdg:C160401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020195> .
+
+sdg:C160402 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020196> .
+
+sdg:C160501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020197> .
+
+sdg:C160502 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020198> .
+
+sdg:C160601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020199> .
+
+sdg:C160602 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020200> .
+
+sdg:C160701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020201> .
+
+sdg:C160702 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020202> .
+
+sdg:C160901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020203> .
+
+sdg:C160a01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020206> .
+
+sdg:C161001 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020204> .
+
+sdg:C161002 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020205> .
+
+sdg:C170101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020207> .
+
+sdg:C170102 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020208> .
+
+sdg:C170201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020209> .
+
+sdg:C170301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020210> .
+
+sdg:C170401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020212> .
+
+sdg:C170501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020213> .
+
+sdg:C170601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020214> .
+
+sdg:C170602 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020215> .
+
+sdg:C170701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020216> .
+
+sdg:C170801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020217> .
+
+sdg:C170901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020218> .
+
+sdg:C171001 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020219> .
+
+sdg:C171101 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020220> .
+
+sdg:C171201 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020221> .
+
+sdg:C171301 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020222> .
+
+sdg:C171401 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020223> .
+
+sdg:C171501 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020224> .
+
+sdg:C171601 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020225> .
+
+sdg:C171701 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020226> .
+
+sdg:C171801 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020227> .
+
+sdg:C171802 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020228> .
+
+sdg:C171803 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020229> .
+
+sdg:C171901 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020230> .
+
+sdg:C171902 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020231> .
+
+sdg:C200202 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020099> .
+
+sdg:C200203 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020100> .
+
+sdg:C200204 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020127> .
+
+sdg:C200205 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020130> .
+
+sdg:C200206 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020182> .
+
+sdg:C200207 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020185> .
+
+sdg:C200303 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020006> .
+
+sdg:C200304 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020008> .
+
+sdg:C200305 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020009> .
