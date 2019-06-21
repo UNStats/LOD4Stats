@@ -1,0 +1,859 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdgo: <http://data.un.org/ontology/sdg#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.un.org/kos/sdg/01.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000057> .
+
+<http://data.un.org/kos/sdg/01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000035>,
+    <http://www.wikidata.org/entity/Q50214636> .
+
+<http://data.un.org/kos/sdg/01.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000065> .
+
+<http://data.un.org/kos/sdg/01.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000070> .
+
+<http://data.un.org/kos/sdg/01.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000071> .
+
+<http://data.un.org/kos/sdg/01.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000075> .
+
+<http://data.un.org/kos/sdg/01.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000076> .
+
+<http://data.un.org/kos/sdg/01.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000077> .
+
+<http://data.un.org/kos/sdg/02.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000078> .
+
+<http://data.un.org/kos/sdg/02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000036>,
+    <http://www.wikidata.org/entity/Q50215926> .
+
+<http://data.un.org/kos/sdg/02.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000079> .
+
+<http://data.un.org/kos/sdg/02.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000080> .
+
+<http://data.un.org/kos/sdg/02.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000081> .
+
+<http://data.un.org/kos/sdg/02.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000082> .
+
+<http://data.un.org/kos/sdg/02.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000083> .
+
+<http://data.un.org/kos/sdg/02.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000084> .
+
+<http://data.un.org/kos/sdg/02.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000085> .
+
+<http://data.un.org/kos/sdg/03.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000086> .
+
+<http://data.un.org/kos/sdg/03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000037>,
+    <http://www.wikidata.org/entity/Q50216838> .
+
+<http://data.un.org/kos/sdg/03.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000087> .
+
+<http://data.un.org/kos/sdg/03.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000088> .
+
+<http://data.un.org/kos/sdg/03.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000089> .
+
+<http://data.un.org/kos/sdg/03.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000090> .
+
+<http://data.un.org/kos/sdg/03.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000091> .
+
+<http://data.un.org/kos/sdg/03.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000092> .
+
+<http://data.un.org/kos/sdg/03.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000093> .
+
+<http://data.un.org/kos/sdg/03.09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000094> .
+
+<http://data.un.org/kos/sdg/03.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000095> .
+
+<http://data.un.org/kos/sdg/03.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000096> .
+
+<http://data.un.org/kos/sdg/03.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000097> .
+
+<http://data.un.org/kos/sdg/03.0d> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000098> .
+
+<http://data.un.org/kos/sdg/04.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000099> .
+
+<http://data.un.org/kos/sdg/04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000038>,
+    <http://www.wikidata.org/entity/Q53581209> .
+
+<http://data.un.org/kos/sdg/04.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000100> .
+
+<http://data.un.org/kos/sdg/04.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000101> .
+
+<http://data.un.org/kos/sdg/04.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000102> .
+
+<http://data.un.org/kos/sdg/04.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000103> .
+
+<http://data.un.org/kos/sdg/04.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000104> .
+
+<http://data.un.org/kos/sdg/04.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000105> .
+
+<http://data.un.org/kos/sdg/04.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000106> .
+
+<http://data.un.org/kos/sdg/04.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000107> .
+
+<http://data.un.org/kos/sdg/04.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000108> .
+
+<http://data.un.org/kos/sdg/05.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000109> .
+
+<http://data.un.org/kos/sdg/05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000039>,
+    <http://www.wikidata.org/entity/Q53581210> .
+
+<http://data.un.org/kos/sdg/05.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000110> .
+
+<http://data.un.org/kos/sdg/05.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000111> .
+
+<http://data.un.org/kos/sdg/05.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000112> .
+
+<http://data.un.org/kos/sdg/05.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000113> .
+
+<http://data.un.org/kos/sdg/05.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000114> .
+
+<http://data.un.org/kos/sdg/05.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000115> .
+
+<http://data.un.org/kos/sdg/05.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000116> .
+
+<http://data.un.org/kos/sdg/05.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000117> .
+
+<http://data.un.org/kos/sdg/06.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000118> .
+
+<http://data.un.org/kos/sdg/06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000040>,
+    <http://www.wikidata.org/entity/Q48741129> .
+
+<http://data.un.org/kos/sdg/06.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000119> .
+
+<http://data.un.org/kos/sdg/06.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000120> .
+
+<http://data.un.org/kos/sdg/06.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000121> .
+
+<http://data.un.org/kos/sdg/06.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000122> .
+
+<http://data.un.org/kos/sdg/06.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000123> .
+
+<http://data.un.org/kos/sdg/06.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000124> .
+
+<http://data.un.org/kos/sdg/06.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000125> .
+
+<http://data.un.org/kos/sdg/07.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000126> .
+
+<http://data.un.org/kos/sdg/07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000041>,
+    <http://www.wikidata.org/entity/Q53581213> .
+
+<http://data.un.org/kos/sdg/07.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000127> .
+
+<http://data.un.org/kos/sdg/07.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000128> .
+
+<http://data.un.org/kos/sdg/07.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000129> .
+
+<http://data.un.org/kos/sdg/07.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000130> .
+
+<http://data.un.org/kos/sdg/08.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000131>,
+    <http://purl.unep.org/sdg/SDGIO_00000140> .
+
+<http://data.un.org/kos/sdg/08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000042>,
+    <http://www.wikidata.org/entity/Q53581217> .
+
+<http://data.un.org/kos/sdg/08.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000132> .
+
+<http://data.un.org/kos/sdg/08.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000133> .
+
+<http://data.un.org/kos/sdg/08.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000134> .
+
+<http://data.un.org/kos/sdg/08.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000135> .
+
+<http://data.un.org/kos/sdg/08.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000136> .
+
+<http://data.un.org/kos/sdg/08.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000137> .
+
+<http://data.un.org/kos/sdg/08.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000138> .
+
+<http://data.un.org/kos/sdg/08.09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000139> .
+
+<http://data.un.org/kos/sdg/08.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000141> .
+
+<http://data.un.org/kos/sdg/08.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000142> .
+
+<http://data.un.org/kos/sdg/09.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000143> .
+
+<http://data.un.org/kos/sdg/09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000043>,
+    <http://www.wikidata.org/entity/Q53581219> .
+
+<http://data.un.org/kos/sdg/09.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000144> .
+
+<http://data.un.org/kos/sdg/09.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000145> .
+
+<http://data.un.org/kos/sdg/09.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000146> .
+
+<http://data.un.org/kos/sdg/09.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000147> .
+
+<http://data.un.org/kos/sdg/09.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000148> .
+
+<http://data.un.org/kos/sdg/09.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000149> .
+
+<http://data.un.org/kos/sdg/09.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000150> .
+
+<http://data.un.org/kos/sdg/10.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000151> .
+
+<http://data.un.org/kos/sdg/10> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000044>,
+    <http://www.wikidata.org/entity/Q53581222> .
+
+<http://data.un.org/kos/sdg/10.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000152> .
+
+<http://data.un.org/kos/sdg/10.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000153> .
+
+<http://data.un.org/kos/sdg/10.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000154> .
+
+<http://data.un.org/kos/sdg/10.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000155> .
+
+<http://data.un.org/kos/sdg/10.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000156> .
+
+<http://data.un.org/kos/sdg/10.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000157> .
+
+<http://data.un.org/kos/sdg/10.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000158> .
+
+<http://data.un.org/kos/sdg/10.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000159> .
+
+<http://data.un.org/kos/sdg/10.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000160> .
+
+<http://data.un.org/kos/sdg/11.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000161> .
+
+<http://data.un.org/kos/sdg/11> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000045>,
+    <http://www.wikidata.org/entity/Q53581228> .
+
+<http://data.un.org/kos/sdg/11.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000162> .
+
+<http://data.un.org/kos/sdg/11.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000163> .
+
+<http://data.un.org/kos/sdg/11.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000164> .
+
+<http://data.un.org/kos/sdg/11.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000165> .
+
+<http://data.un.org/kos/sdg/11.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000166> .
+
+<http://data.un.org/kos/sdg/11.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000167> .
+
+<http://data.un.org/kos/sdg/11.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000168> .
+
+<http://data.un.org/kos/sdg/11.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000169> .
+
+<http://data.un.org/kos/sdg/11.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000170> .
+
+<http://data.un.org/kos/sdg/12.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000171> .
+
+<http://data.un.org/kos/sdg/12> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000046>,
+    <http://www.wikidata.org/entity/Q53581232> .
+
+<http://data.un.org/kos/sdg/12.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000172> .
+
+<http://data.un.org/kos/sdg/12.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000173> .
+
+<http://data.un.org/kos/sdg/12.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000174> .
+
+<http://data.un.org/kos/sdg/12.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000175> .
+
+<http://data.un.org/kos/sdg/12.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000176> .
+
+<http://data.un.org/kos/sdg/12.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000177> .
+
+<http://data.un.org/kos/sdg/12.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000178> .
+
+<http://data.un.org/kos/sdg/12.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000179> .
+
+<http://data.un.org/kos/sdg/12.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000180> .
+
+<http://data.un.org/kos/sdg/12.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000181> .
+
+<http://data.un.org/kos/sdg/13.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000182> .
+
+<http://data.un.org/kos/sdg/13> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000047>,
+    <http://www.wikidata.org/entity/Q53581236> .
+
+<http://data.un.org/kos/sdg/13.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000183> .
+
+<http://data.un.org/kos/sdg/13.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000184> .
+
+<http://data.un.org/kos/sdg/13.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000185> .
+
+<http://data.un.org/kos/sdg/13.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000186> .
+
+<http://data.un.org/kos/sdg/14.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000187> .
+
+<http://data.un.org/kos/sdg/14> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000048>,
+    <http://www.wikidata.org/entity/Q53581239> .
+
+<http://data.un.org/kos/sdg/14.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000188> .
+
+<http://data.un.org/kos/sdg/14.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000189> .
+
+<http://data.un.org/kos/sdg/14.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000190> .
+
+<http://data.un.org/kos/sdg/14.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000191> .
+
+<http://data.un.org/kos/sdg/14.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000192> .
+
+<http://data.un.org/kos/sdg/14.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000193> .
+
+<http://data.un.org/kos/sdg/14.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000194> .
+
+<http://data.un.org/kos/sdg/14.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000195> .
+
+<http://data.un.org/kos/sdg/14.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000196> .
+
+<http://data.un.org/kos/sdg/15.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000198> .
+
+<http://data.un.org/kos/sdg/15> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000049>,
+    <http://www.wikidata.org/entity/Q53581245> .
+
+<http://data.un.org/kos/sdg/15.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000199> .
+
+<http://data.un.org/kos/sdg/15.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000200> .
+
+<http://data.un.org/kos/sdg/15.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000201> .
+
+<http://data.un.org/kos/sdg/15.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000202> .
+
+<http://data.un.org/kos/sdg/15.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000203> .
+
+<http://data.un.org/kos/sdg/15.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000204> .
+
+<http://data.un.org/kos/sdg/15.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000205> .
+
+<http://data.un.org/kos/sdg/15.09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000206> .
+
+<http://data.un.org/kos/sdg/15.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000207> .
+
+<http://data.un.org/kos/sdg/15.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000208> .
+
+<http://data.un.org/kos/sdg/15.0c> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000209> .
+
+<http://data.un.org/kos/sdg/16.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000210>,
+    <http://purl.unep.org/sdg/SDGIO_00000219> .
+
+<http://data.un.org/kos/sdg/16> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000050>,
+    <http://www.wikidata.org/entity/Q53581248> .
+
+<http://data.un.org/kos/sdg/16.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000211> .
+
+<http://data.un.org/kos/sdg/16.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000212> .
+
+<http://data.un.org/kos/sdg/16.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000213> .
+
+<http://data.un.org/kos/sdg/16.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000214> .
+
+<http://data.un.org/kos/sdg/16.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000215> .
+
+<http://data.un.org/kos/sdg/16.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000216> .
+
+<http://data.un.org/kos/sdg/16.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000217> .
+
+<http://data.un.org/kos/sdg/16.09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000218> .
+
+<http://data.un.org/kos/sdg/16.0a> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000220> .
+
+<http://data.un.org/kos/sdg/16.0b> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000221> .
+
+<http://data.un.org/kos/sdg/17.01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000222>,
+    <http://purl.unep.org/sdg/SDGIO_00000231> .
+
+<http://data.un.org/kos/sdg/17> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000051>,
+    <http://www.wikidata.org/entity/Q53581254> .
+
+<http://data.un.org/kos/sdg/17.02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000223> .
+
+<http://data.un.org/kos/sdg/17.03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000197> .
+
+<http://data.un.org/kos/sdg/17.04> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000224> .
+
+<http://data.un.org/kos/sdg/17.05> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000225> .
+
+<http://data.un.org/kos/sdg/17.06> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000226> .
+
+<http://data.un.org/kos/sdg/17.07> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000228> .
+
+<http://data.un.org/kos/sdg/17.08> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000229> .
+
+<http://data.un.org/kos/sdg/17.09> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000230> .
+
+<http://data.un.org/kos/sdg/17.11> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000232> .
+
+<http://data.un.org/kos/sdg/17.12> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000233> .
+
+<http://data.un.org/kos/sdg/17.13> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000234> .
+
+<http://data.un.org/kos/sdg/17.14> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000235> .
+
+<http://data.un.org/kos/sdg/17.15> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000236> .
+
+<http://data.un.org/kos/sdg/17.16> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000237> .
+
+<http://data.un.org/kos/sdg/17.17> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000238> .
+
+<http://data.un.org/kos/sdg/17.18> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000239> .
+
+<http://data.un.org/kos/sdg/17.19> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000240> .
+
+<http://data.un.org/kos/sdg/C020c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020026> .
+
+<http://data.un.org/kos/sdg/C150101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020174> .
+
+<http://data.un.org/kos/sdg/C150201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020176> .
+
+<http://data.un.org/kos/sdg/C020102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020015> .
+
+<http://data.un.org/kos/sdg/C020a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020023> .
+
+<http://data.un.org/kos/sdg/C020b02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020025> .
+
+<http://data.un.org/kos/sdg/C170302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020211> .
+
+<http://data.un.org/kos/sdg/C010101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020000> .
+
+<http://data.un.org/kos/sdg/C010201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020001> .
+
+<http://data.un.org/kos/sdg/C010202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020002> .
+
+<http://data.un.org/kos/sdg/C010301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020003> .
+
+<http://data.un.org/kos/sdg/C010401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020004> .
+
+<http://data.un.org/kos/sdg/C010402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020005> .
+
+<http://data.un.org/kos/sdg/C010502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020007> .
+
+<http://data.un.org/kos/sdg/C010a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020010> .
+
+<http://data.un.org/kos/sdg/C010a02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020011> .
+
+<http://data.un.org/kos/sdg/C010a03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020012> .
+
+<http://data.un.org/kos/sdg/C010b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020013> .
+
+<http://data.un.org/kos/sdg/C020101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020014> .
+
+<http://data.un.org/kos/sdg/C020201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020016> .
+
+<http://data.un.org/kos/sdg/C020202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020017> .
+
+<http://data.un.org/kos/sdg/C020301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020018> .
+
+<http://data.un.org/kos/sdg/C020302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020019> .
+
+<http://data.un.org/kos/sdg/C020401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020020> .
+
+<http://data.un.org/kos/sdg/C020501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020021> .
+
+<http://data.un.org/kos/sdg/C020502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020022> .
+
+<http://data.un.org/kos/sdg/C020a02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020024> .
+
+<http://data.un.org/kos/sdg/C030101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020027> .
+
+<http://data.un.org/kos/sdg/C030102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020028> .
+
+<http://data.un.org/kos/sdg/C030201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020029> .
+
+<http://data.un.org/kos/sdg/C030202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020030> .
+
+<http://data.un.org/kos/sdg/C030301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020031> .
+
+<http://data.un.org/kos/sdg/C030302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020032> .
+
+<http://data.un.org/kos/sdg/C030303> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020033> .
+
+<http://data.un.org/kos/sdg/C030304> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020034> .
+
+<http://data.un.org/kos/sdg/C030305> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020035> .
+
+<http://data.un.org/kos/sdg/C030401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020036> .
+
+<http://data.un.org/kos/sdg/C030402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020037> .
+
+<http://data.un.org/kos/sdg/C030501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020038> .
+
+<http://data.un.org/kos/sdg/C030502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020039> .
+
+<http://data.un.org/kos/sdg/C030601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020040> .
+
+<http://data.un.org/kos/sdg/C030701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020041> .
+
+<http://data.un.org/kos/sdg/C030702> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020042> .
+
+<http://data.un.org/kos/sdg/C030801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020043> .
+
+<http://data.un.org/kos/sdg/C030802> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020044> .
+
+<http://data.un.org/kos/sdg/C030901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020045> .
+
+<http://data.un.org/kos/sdg/C030902> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020046> .
+
+<http://data.un.org/kos/sdg/C030903> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020047> .
+
+<http://data.un.org/kos/sdg/C030a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020048> .
+
+<http://data.un.org/kos/sdg/C030b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020049> .
+
+<http://data.un.org/kos/sdg/C030b02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020050> .
+
+<http://data.un.org/kos/sdg/C030b03> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020051> .
+
+<http://data.un.org/kos/sdg/C030c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020052> .
+
+<http://data.un.org/kos/sdg/C030d01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020053> .
+
+<http://data.un.org/kos/sdg/C040101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020054> .
+
+<http://data.un.org/kos/sdg/C040201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020055> .
+
+<http://data.un.org/kos/sdg/C040202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020056> .
+
+<http://data.un.org/kos/sdg/C040301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020057> .
+
+<http://data.un.org/kos/sdg/C040401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020058> .
+
+<http://data.un.org/kos/sdg/C040501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020059> .
+
+<http://data.un.org/kos/sdg/C040601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020060> .
+
+<http://data.un.org/kos/sdg/C040701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020061> .
+
+<http://data.un.org/kos/sdg/C040a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020062> .
+
+<http://data.un.org/kos/sdg/C040b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020063> .
+
+<http://data.un.org/kos/sdg/C040c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020064> .
+
+<http://data.un.org/kos/sdg/C050101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020065> .
+
+<http://data.un.org/kos/sdg/C050201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020066> .
+
+<http://data.un.org/kos/sdg/C050202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020067> .
+
+<http://data.un.org/kos/sdg/C050301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020068> .
+
+<http://data.un.org/kos/sdg/C050302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020069> .
+
+<http://data.un.org/kos/sdg/C050401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020070> .
+
+<http://data.un.org/kos/sdg/C050501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020071> .
+
+<http://data.un.org/kos/sdg/C050502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020072> .
+
+<http://data.un.org/kos/sdg/C050601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020073> .
+
+<http://data.un.org/kos/sdg/C050602> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020074> .
+
+<http://data.un.org/kos/sdg/C050a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020075> .
+
+<http://data.un.org/kos/sdg/C050a02> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020076> .
+
+<http://data.un.org/kos/sdg/C050b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020077> .
+
+<http://data.un.org/kos/sdg/C050c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020078> .
+
+<http://data.un.org/kos/sdg/C060101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020079> .
+
+<http://data.un.org/kos/sdg/C060201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020080> .
+
+<http://data.un.org/kos/sdg/C060301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020081> .
+
+<http://data.un.org/kos/sdg/C060302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020082> .
+
+<http://data.un.org/kos/sdg/C060401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020083> .
+
+<http://data.un.org/kos/sdg/C060402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020084> .
+
+<http://data.un.org/kos/sdg/C060501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020085> .
+
+<http://data.un.org/kos/sdg/C060502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020086> .
+
+<http://data.un.org/kos/sdg/C060601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020087> .
+
+<http://data.un.org/kos/sdg/C060a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020088> .
+
+<http://data.un.org/kos/sdg/C060b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020089> .
+
+<http://data.un.org/kos/sdg/C070101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020090> .
+
+<http://data.un.org/kos/sdg/C070102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020091> .
+
+<http://data.un.org/kos/sdg/C070201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020092> .
+
+<http://data.un.org/kos/sdg/C070301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020093> .
+
+<http://data.un.org/kos/sdg/C070a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020094> .
+
+<http://data.un.org/kos/sdg/C070b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020095> .
+
+<http://data.un.org/kos/sdg/C080101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020096> .
+
+<http://data.un.org/kos/sdg/C080201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020097> .
+
+<http://data.un.org/kos/sdg/C080301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020098> .
+
+<http://data.un.org/kos/sdg/C080501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020101> .
+
+<http://data.un.org/kos/sdg/C080502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020102> .
+
+<http://data.un.org/kos/sdg/C080601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020103> .
+
+<http://data.un.org/kos/sdg/C080701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020104> .
+
+<http://data.un.org/kos/sdg/C080801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020105> .
+
+<http://data.un.org/kos/sdg/C080802> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020106> .
+
+<http://data.un.org/kos/sdg/C080901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020107> .
+
+<http://data.un.org/kos/sdg/C080902> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020108> .
+
+<http://data.un.org/kos/sdg/C080a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020111> .
+
+<http://data.un.org/kos/sdg/C080b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020112> .
+
+<http://data.un.org/kos/sdg/C081001> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020109> .
+
+<http://data.un.org/kos/sdg/C081002> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020110> .
+
+<http://data.un.org/kos/sdg/C090101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020113> .
+
+<http://data.un.org/kos/sdg/C090102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020114> .
+
+<http://data.un.org/kos/sdg/C090201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020115> .
+
+<http://data.un.org/kos/sdg/C090202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020116> .
+
+<http://data.un.org/kos/sdg/C090301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020117> .
+
+<http://data.un.org/kos/sdg/C090302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020118> .
+
+<http://data.un.org/kos/sdg/C090401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020119> .
+
+<http://data.un.org/kos/sdg/C090501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020120> .
+
+<http://data.un.org/kos/sdg/C090502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020121> .
+
+<http://data.un.org/kos/sdg/C090a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020122> .
+
+<http://data.un.org/kos/sdg/C090b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020123> .
+
+<http://data.un.org/kos/sdg/C090c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020124> .
+
+<http://data.un.org/kos/sdg/C100101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020125> .
+
+<http://data.un.org/kos/sdg/C100201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020126> .
+
+<http://data.un.org/kos/sdg/C100401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020128> .
+
+<http://data.un.org/kos/sdg/C100501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020129> .
+
+<http://data.un.org/kos/sdg/C100701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020131> .
+
+<http://data.un.org/kos/sdg/C100702> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020132> .
+
+<http://data.un.org/kos/sdg/C100a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020133> .
+
+<http://data.un.org/kos/sdg/C100b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020134> .
+
+<http://data.un.org/kos/sdg/C100c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020135> .
+
+<http://data.un.org/kos/sdg/C110101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020136> .
+
+<http://data.un.org/kos/sdg/C110201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020137> .
+
+<http://data.un.org/kos/sdg/C110301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020138> .
+
+<http://data.un.org/kos/sdg/C110302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020139> .
+
+<http://data.un.org/kos/sdg/C110401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020140> .
+
+<http://data.un.org/kos/sdg/C110502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020141> .
+
+<http://data.un.org/kos/sdg/C110601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020142> .
+
+<http://data.un.org/kos/sdg/C110602> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020143> .
+
+<http://data.un.org/kos/sdg/C110701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020144> .
+
+<http://data.un.org/kos/sdg/C110702> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020145> .
+
+<http://data.un.org/kos/sdg/C110a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020146> .
+
+<http://data.un.org/kos/sdg/C110c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020147> .
+
+<http://data.un.org/kos/sdg/C120101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020148> .
+
+<http://data.un.org/kos/sdg/C120301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020149> .
+
+<http://data.un.org/kos/sdg/C120401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020150> .
+
+<http://data.un.org/kos/sdg/C120402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020151> .
+
+<http://data.un.org/kos/sdg/C120501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020152> .
+
+<http://data.un.org/kos/sdg/C120601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020153> .
+
+<http://data.un.org/kos/sdg/C120701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020154> .
+
+<http://data.un.org/kos/sdg/C120801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020155> .
+
+<http://data.un.org/kos/sdg/C120a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020156> .
+
+<http://data.un.org/kos/sdg/C120b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020157> .
+
+<http://data.un.org/kos/sdg/C120c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020158> .
+
+<http://data.un.org/kos/sdg/C130201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020159> .
+
+<http://data.un.org/kos/sdg/C130301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020160> .
+
+<http://data.un.org/kos/sdg/C130302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020161> .
+
+<http://data.un.org/kos/sdg/C130a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020162> .
+
+<http://data.un.org/kos/sdg/C130b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020163> .
+
+<http://data.un.org/kos/sdg/C140101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020164> .
+
+<http://data.un.org/kos/sdg/C140201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020165> .
+
+<http://data.un.org/kos/sdg/C140301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020166> .
+
+<http://data.un.org/kos/sdg/C140401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020167> .
+
+<http://data.un.org/kos/sdg/C140501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020168> .
+
+<http://data.un.org/kos/sdg/C140601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020169> .
+
+<http://data.un.org/kos/sdg/C140701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020170> .
+
+<http://data.un.org/kos/sdg/C140a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020171> .
+
+<http://data.un.org/kos/sdg/C140b01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020172> .
+
+<http://data.un.org/kos/sdg/C140c01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020173> .
+
+<http://data.un.org/kos/sdg/C150102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020175> .
+
+<http://data.un.org/kos/sdg/C150301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020177> .
+
+<http://data.un.org/kos/sdg/C150401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020178> .
+
+<http://data.un.org/kos/sdg/C150402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020179> .
+
+<http://data.un.org/kos/sdg/C150501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020180> .
+
+<http://data.un.org/kos/sdg/C150601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020181> .
+
+<http://data.un.org/kos/sdg/C150801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020183> .
+
+<http://data.un.org/kos/sdg/C150901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020184> .
+
+<http://data.un.org/kos/sdg/C160101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020186> .
+
+<http://data.un.org/kos/sdg/C160102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020187> .
+
+<http://data.un.org/kos/sdg/C160103> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020188> .
+
+<http://data.un.org/kos/sdg/C160104> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020189> .
+
+<http://data.un.org/kos/sdg/C160201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020190> .
+
+<http://data.un.org/kos/sdg/C160202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020191> .
+
+<http://data.un.org/kos/sdg/C160203> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020192> .
+
+<http://data.un.org/kos/sdg/C160301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020193> .
+
+<http://data.un.org/kos/sdg/C160302> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020194> .
+
+<http://data.un.org/kos/sdg/C160401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020195> .
+
+<http://data.un.org/kos/sdg/C160402> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020196> .
+
+<http://data.un.org/kos/sdg/C160501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020197> .
+
+<http://data.un.org/kos/sdg/C160502> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020198> .
+
+<http://data.un.org/kos/sdg/C160601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020199> .
+
+<http://data.un.org/kos/sdg/C160602> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020200> .
+
+<http://data.un.org/kos/sdg/C160701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020201> .
+
+<http://data.un.org/kos/sdg/C160702> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020202> .
+
+<http://data.un.org/kos/sdg/C160901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020203> .
+
+<http://data.un.org/kos/sdg/C160a01> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020206> .
+
+<http://data.un.org/kos/sdg/C161001> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020204> .
+
+<http://data.un.org/kos/sdg/C161002> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020205> .
+
+<http://data.un.org/kos/sdg/C170101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020207> .
+
+<http://data.un.org/kos/sdg/C170102> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020208> .
+
+<http://data.un.org/kos/sdg/C170201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020209> .
+
+<http://data.un.org/kos/sdg/C170301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020210> .
+
+<http://data.un.org/kos/sdg/C170401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020212> .
+
+<http://data.un.org/kos/sdg/C170501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020213> .
+
+<http://data.un.org/kos/sdg/C170601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020214> .
+
+<http://data.un.org/kos/sdg/C170602> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020215> .
+
+<http://data.un.org/kos/sdg/C170701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020216> .
+
+<http://data.un.org/kos/sdg/C170801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020217> .
+
+<http://data.un.org/kos/sdg/C170901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020218> .
+
+<http://data.un.org/kos/sdg/C171001> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020219> .
+
+<http://data.un.org/kos/sdg/C171101> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020220> .
+
+<http://data.un.org/kos/sdg/C171201> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020221> .
+
+<http://data.un.org/kos/sdg/C171301> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020222> .
+
+<http://data.un.org/kos/sdg/C171401> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020223> .
+
+<http://data.un.org/kos/sdg/C171501> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020224> .
+
+<http://data.un.org/kos/sdg/C171601> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020225> .
+
+<http://data.un.org/kos/sdg/C171701> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020226> .
+
+<http://data.un.org/kos/sdg/C171801> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020227> .
+
+<http://data.un.org/kos/sdg/C171802> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020228> .
+
+<http://data.un.org/kos/sdg/C171803> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020229> .
+
+<http://data.un.org/kos/sdg/C171901> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020230> .
+
+<http://data.un.org/kos/sdg/C171902> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020231> .
+
+<http://data.un.org/kos/sdg/C200202> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020099> .
+
+<http://data.un.org/kos/sdg/C200203> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020100> .
+
+<http://data.un.org/kos/sdg/C200204> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020127> .
+
+<http://data.un.org/kos/sdg/C200205> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020130> .
+
+<http://data.un.org/kos/sdg/C200206> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020182> .
+
+<http://data.un.org/kos/sdg/C200207> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020185> .
+
+<http://data.un.org/kos/sdg/C200303> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020006> .
+
+<http://data.un.org/kos/sdg/C200304> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020008> .
+
+<http://data.un.org/kos/sdg/C200305> skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020009> .
