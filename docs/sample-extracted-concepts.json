@@ -1,0 +1,3902 @@
+[
+    {
+        "id": "http://eurovoc.europa.eu/2107",
+        "label": "OCEAN",
+        "source": "EuroVoc",
+        "weight": 26,
+        "context": [
+            {
+                "end": 53,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "seas and marine resources for [...]",
+                "label": "ocean",
+                "start": 52,
+                "context": "[...] conserve and sustainably use the oceans seas and marine resources for [...]",
+                "contextl": "[...] conserve and sustainably use the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 67,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "cover 71 of our planet´s [...]",
+                "label": "ocean",
+                "start": 66,
+                "context": "[...] frans de man retour foundation oceans cover 71 of our planet´s [...]",
+                "contextl": "[...] frans de man retour foundation",
+                "phrase": "oceans"
+            },
+            {
+                "end": 164,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "are essential to all three [...]",
+                "label": "ocean",
+                "start": 163,
+                "context": "[...] their coasts and tourism introduction oceans are essential to all three [...]",
+                "contextl": "[...] their coasts and tourism introduction",
+                "phrase": "oceans"
+            },
+            {
+                "end": 249,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "“tourism development must be [...]",
+                "label": "ocean",
+                "start": 248,
+                "context": "[...] a few of them including oceans “tourism development must be [...]",
+                "contextl": "[...] a few of them including",
+                "phrase": "oceans"
+            },
+            {
+                "end": 345,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "through climate change pollution and [...]",
+                "label": "ocean",
+                "start": 344,
+                "context": "[...] on coastal areas and the oceans through climate change pollution and [...]",
+                "contextl": "[...] on coastal areas and the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 354,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "and coasts are at the [...]",
+                "label": "ocean",
+                "start": 353,
+                "context": "[...] pollution and man made destruction oceans and coasts are at the [...]",
+                "contextl": "[...] pollution and man made destruction",
+                "phrase": "oceans"
+            },
+            {
+                "end": 400,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "lying beyond coastal waters they [...]",
+                "label": "ocean",
+                "start": 399,
+                "context": "[...] the 64 percent of the oceans lying beyond coastal waters they [...]",
+                "contextl": "[...] the 64 percent of the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 433,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "and vice versa air temperature [...]",
+                "label": "ocean",
+                "start": 432,
+                "context": "[...] seas face the atmosphere affects oceans and vice versa air temperature [...]",
+                "contextl": "[...] seas face the atmosphere affects",
+                "phrase": "oceans"
+            },
+            {
+                "end": 440,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "absorb the heat and warm [...]",
+                "label": "ocean",
+                "start": 439,
+                "context": "[...] vice versa air temperature rises oceans absorb the heat and warm [...]",
+                "contextl": "[...] vice versa air temperature rises",
+                "phrase": "oceans"
+            },
+            {
+                "end": 468,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "also regulate the climate by [...]",
+                "label": "ocean",
+                "start": 467,
+                "context": "[...] tropical storms as a result oceans also regulate the climate by [...]",
+                "contextl": "[...] tropical storms as a result",
+                "phrase": "oceans"
+            },
+            {
+                "end": 488,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "slowly suffocate which is a [...]",
+                "label": "ocean",
+                "start": 487,
+                "context": "[...] and de oxygenation thus the oceans slowly suffocate which is a [...]",
+                "contextl": "[...] and de oxygenation thus the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 507,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "generate half of the oxygen [...]",
+                "label": "ocean",
+                "start": 506,
+                "context": "[...] on the planet since the oceans generate half of the oxygen [...]",
+                "contextl": "[...] on the planet since the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 756,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "come from coastal regions the [...]",
+                "label": "ocean",
+                "start": 755,
+                "context": "[...] the commodities extracted from the ocean come from coastal regions the [...]",
+                "contextl": "[...] the commodities extracted from the",
+                "phrase": "ocean"
+            },
+            {
+                "end": 781,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "the beaches estuaries dune systems [...]",
+                "label": "ocean",
+                "start": 780,
+                "context": "[...] from the land enters the ocean the beaches estuaries dune systems [...]",
+                "contextl": "[...] from the land enters the",
+                "phrase": "ocean"
+            },
+            {
+                "end": 1332,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "grabbing is a serious human [...]",
+                "label": "ocean",
+                "start": 1331,
+                "context": "[...] coastal lands also known as ocean grabbing is a serious human [...]",
+                "contextl": "[...] coastal lands also known as",
+                "phrase": "ocean"
+            },
+            {
+                "end": 1820,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "and coasts for more than [...]",
+                "label": "ocean",
+                "start": 1819,
+                "context": "[...] the negative trends regarding the oceans and coasts for more than [...]",
+                "contextl": "[...] the negative trends regarding the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 2241,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "grabbing in sri lanka the [...]",
+                "label": "ocean",
+                "start": 2240,
+                "context": "[...] and other activities rené schärer ocean grabbing in sri lanka the [...]",
+                "contextl": "[...] and other activities rené schärer",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2270,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "grabbing in sri lanka fisher [...]",
+                "label": "ocean",
+                "start": 2269,
+                "context": "[...] taking a strong stand against ocean grabbing in sri lanka fisher [...]",
+                "contextl": "[...] taking a strong stand against",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2332,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "grabbing for tourism projects it [...]",
+                "label": "ocean",
+                "start": 2331,
+                "context": "[...] is involved in land and ocean grabbing for tourism projects it [...]",
+                "contextl": "[...] is involved in land and",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2363,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "at rio 20 how well [...]",
+                "label": "ocean",
+                "start": 2362,
+                "context": "[...] wowk and gwénaëlle hamon 2011 oceans at rio 20 how well [...]",
+                "contextl": "[...] wowk and gwénaëlle hamon 2011",
+                "phrase": "oceans"
+            },
+            {
+                "end": 2394,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "forum costal wiki n d [...]",
+                "label": "ocean",
+                "start": 2393,
+                "context": "[...] summary for decision makers global ocean forum costal wiki n d [...]",
+                "contextl": "[...] summary for decision makers global",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2485,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "sustainable tourism in the context [...]",
+                "label": "ocean",
+                "start": 2484,
+                "context": "[...] goodwin h n d sustainable oceans sustainable tourism in the context [...]",
+                "contextl": "[...] goodwin h n d sustainable",
+                "phrase": "oceans"
+            },
+            {
+                "end": 2547,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "climate platform n d the [...]",
+                "label": "ocean",
+                "start": 2546,
+                "context": "[...] cruises green 07 11 2016 ocean climate platform n d the [...]",
+                "contextl": "[...] cruises green 07 11 2016",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2555,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "and climate 6 fact sheets [...]",
+                "label": "ocean",
+                "start": 2554,
+                "context": "[...] n d the interaction between ocean and climate 6 fact sheets [...]",
+                "contextl": "[...] n d the interaction between",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2565,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "climate org accessed at http [...]",
+                "label": "ocean",
+                "start": 2564,
+                "context": "[...] sheets for the general public ocean climate org accessed at http [...]",
+                "contextl": "[...] sheets for the general public",
+                "phrase": "ocean"
+            },
+            {
+                "end": 2572,
+                "url": "http://eurovoc.europa.eu/2107",
+                "contextr": "climate org wp content uploads [...]",
+                "label": "ocean",
+                "start": 2571,
+                "context": "[...] org accessed at http www ocean climate org wp content uploads [...]",
+                "contextl": "[...] org accessed at http www",
+                "phrase": "ocean"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004576",
+        "label": "OCEANS",
+        "source": "UNBIS",
+        "weight": 20,
+        "context": [
+            {
+                "end": 53,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "seas and marine resources for [...]",
+                "label": "oceans",
+                "start": 52,
+                "context": "[...] conserve and sustainably use the oceans seas and marine resources for [...]",
+                "contextl": "[...] conserve and sustainably use the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 54,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "and marine resources for sustainable [...]",
+                "label": "seas",
+                "start": 53,
+                "context": "[...] and sustainably use the oceans seas and marine resources for sustainable [...]",
+                "contextl": "[...] and sustainably use the oceans",
+                "phrase": "seas"
+            },
+            {
+                "end": 67,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "cover 71 of our planet´s [...]",
+                "label": "oceans",
+                "start": 66,
+                "context": "[...] frans de man retour foundation oceans cover 71 of our planet´s [...]",
+                "contextl": "[...] frans de man retour foundation",
+                "phrase": "oceans"
+            },
+            {
+                "end": 164,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "are essential to all three [...]",
+                "label": "oceans",
+                "start": 163,
+                "context": "[...] their coasts and tourism introduction oceans are essential to all three [...]",
+                "contextl": "[...] their coasts and tourism introduction",
+                "phrase": "oceans"
+            },
+            {
+                "end": 249,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "“tourism development must be [...]",
+                "label": "oceans",
+                "start": 248,
+                "context": "[...] a few of them including oceans “tourism development must be [...]",
+                "contextl": "[...] a few of them including",
+                "phrase": "oceans"
+            },
+            {
+                "end": 345,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "through climate change pollution and [...]",
+                "label": "oceans",
+                "start": 344,
+                "context": "[...] on coastal areas and the oceans through climate change pollution and [...]",
+                "contextl": "[...] on coastal areas and the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 354,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "and coasts are at the [...]",
+                "label": "oceans",
+                "start": 353,
+                "context": "[...] pollution and man made destruction oceans and coasts are at the [...]",
+                "contextl": "[...] pollution and man made destruction",
+                "phrase": "oceans"
+            },
+            {
+                "end": 384,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "and coastal areas the high [...]",
+                "label": "seas",
+                "start": 383,
+                "context": "[...] responsibility to safeguard both high seas and coastal areas the high [...]",
+                "contextl": "[...] responsibility to safeguard both high",
+                "phrase": "seas"
+            },
+            {
+                "end": 390,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "the high seas are the [...]",
+                "label": "seas",
+                "start": 389,
+                "context": "[...] and coastal areas the high seas the high seas are the [...]",
+                "contextl": "[...] and coastal areas the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 393,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "are the 64 percent of [...]",
+                "label": "seas",
+                "start": 392,
+                "context": "[...] the high seas the high seas are the 64 percent of [...]",
+                "contextl": "[...] the high seas the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 400,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "lying beyond coastal waters they [...]",
+                "label": "oceans",
+                "start": 399,
+                "context": "[...] the 64 percent of the oceans lying beyond coastal waters they [...]",
+                "contextl": "[...] the 64 percent of the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 428,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "face the atmosphere affects oceans [...]",
+                "label": "seas",
+                "start": 427,
+                "context": "[...] number of threats the high seas face the atmosphere affects oceans [...]",
+                "contextl": "[...] number of threats the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 433,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "and vice versa air temperature [...]",
+                "label": "oceans",
+                "start": 432,
+                "context": "[...] seas face the atmosphere affects oceans and vice versa air temperature [...]",
+                "contextl": "[...] seas face the atmosphere affects",
+                "phrase": "oceans"
+            },
+            {
+                "end": 440,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "absorb the heat and warm [...]",
+                "label": "oceans",
+                "start": 439,
+                "context": "[...] vice versa air temperature rises oceans absorb the heat and warm [...]",
+                "contextl": "[...] vice versa air temperature rises",
+                "phrase": "oceans"
+            },
+            {
+                "end": 468,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "also regulate the climate by [...]",
+                "label": "oceans",
+                "start": 467,
+                "context": "[...] tropical storms as a result oceans also regulate the climate by [...]",
+                "contextl": "[...] tropical storms as a result",
+                "phrase": "oceans"
+            },
+            {
+                "end": 488,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "slowly suffocate which is a [...]",
+                "label": "oceans",
+                "start": 487,
+                "context": "[...] and de oxygenation thus the oceans slowly suffocate which is a [...]",
+                "contextl": "[...] and de oxygenation thus the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 507,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "generate half of the oxygen [...]",
+                "label": "oceans",
+                "start": 506,
+                "context": "[...] on the planet since the oceans generate half of the oxygen [...]",
+                "contextl": "[...] on the planet since the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 1820,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "and coasts for more than [...]",
+                "label": "oceans",
+                "start": 1819,
+                "context": "[...] the negative trends regarding the oceans and coasts for more than [...]",
+                "contextl": "[...] the negative trends regarding the",
+                "phrase": "oceans"
+            },
+            {
+                "end": 2363,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "at rio 20 how well [...]",
+                "label": "oceans",
+                "start": 2362,
+                "context": "[...] wowk and gwénaëlle hamon 2011 oceans at rio 20 how well [...]",
+                "contextl": "[...] wowk and gwénaëlle hamon 2011",
+                "phrase": "oceans"
+            },
+            {
+                "end": 2485,
+                "url": "http://metadata.un.org/thesaurus/1004576",
+                "contextr": "sustainable tourism in the context [...]",
+                "label": "oceans",
+                "start": 2484,
+                "context": "[...] goodwin h n d sustainable oceans sustainable tourism in the context [...]",
+                "contextl": "[...] goodwin h n d sustainable",
+                "phrase": "oceans"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006939",
+        "label": "WATER",
+        "source": "UNBIS",
+        "weight": 18,
+        "context": [
+            {
+                "end": 5,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "the agenda 2030 and tourism [...]",
+                "label": "water",
+                "start": 4,
+                "context": "[...] goal 14 life below water the agenda 2030 and tourism [...]",
+                "contextl": "[...] goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 47,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "conserve and sustainably use the [...]",
+                "label": "water",
+                "start": 46,
+                "context": "[...] tourism goal 14 life below water conserve and sustainably use the [...]",
+                "contextl": "[...] tourism goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 404,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "they are international waters for [...]",
+                "label": "water",
+                "start": 403,
+                "context": "[...] the oceans lying beyond coastal waters they are international waters for [...]",
+                "contextl": "[...] the oceans lying beyond coastal",
+                "phrase": "waters"
+            },
+            {
+                "end": 408,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "for which regulations exist which [...]",
+                "label": "water",
+                "start": 407,
+                "context": "[...] coastal waters they are international waters for which regulations exist which [...]",
+                "contextl": "[...] coastal waters they are international",
+                "phrase": "waters"
+            },
+            {
+                "end": 451,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "expand and ice caps melt [...]",
+                "label": "water",
+                "start": 450,
+                "context": "[...] up this higher temperature makes water expand and ice caps melt [...]",
+                "contextl": "[...] up this higher temperature makes",
+                "phrase": "water"
+            },
+            {
+                "end": 652,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "ballast water containing pathogens and [...]",
+                "label": "water",
+                "start": 651,
+                "context": "[...] garbage sewage and oil contaminated water ballast water containing pathogens and [...]",
+                "contextl": "[...] garbage sewage and oil contaminated",
+                "phrase": "water"
+            },
+            {
+                "end": 654,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "containing pathogens and invasive species [...]",
+                "label": "water",
+                "start": 653,
+                "context": "[...] and oil contaminated water ballast water containing pathogens and invasive species [...]",
+                "contextl": "[...] and oil contaminated water ballast",
+                "phrase": "water"
+            },
+            {
+                "end": 775,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "from the land enters the [...]",
+                "label": "water",
+                "start": 774,
+                "context": "[...] the land but also where water from the land enters the [...]",
+                "contextl": "[...] the land but also where",
+                "phrase": "water"
+            },
+            {
+                "end": 1118,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "they then need artificial coastal [...]",
+                "label": "water",
+                "start": 1117,
+                "context": "[...] close as possible to the water they then need artificial coastal [...]",
+                "contextl": "[...] close as possible to the",
+                "phrase": "water"
+            },
+            {
+                "end": 1188,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "the lack of water purification [...]",
+                "label": "water",
+                "start": 1187,
+                "context": "[...] the scarcity of clean drinking water the lack of water purification [...]",
+                "contextl": "[...] the scarcity of clean drinking",
+                "phrase": "water"
+            },
+            {
+                "end": 1192,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "purification systems and the relatively [...]",
+                "label": "water",
+                "start": 1191,
+                "context": "[...] drinking water the lack of water purification systems and the relatively [...]",
+                "contextl": "[...] drinking water the lack of",
+                "phrase": "water"
+            },
+            {
+                "end": 1201,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "at tourism facilities not only [...]",
+                "label": "water",
+                "start": 1200,
+                "context": "[...] the relatively high consumption of water at tourism facilities not only [...]",
+                "contextl": "[...] the relatively high consumption of",
+                "phrase": "water"
+            },
+            {
+                "end": 1583,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "quality and fishing activities with [...]",
+                "label": "water",
+                "start": 1582,
+                "context": "[...] may have negative impacts on water quality and fishing activities with [...]",
+                "contextl": "[...] may have negative impacts on",
+                "phrase": "water"
+            },
+            {
+                "end": 1895,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "sewage and waste educating tourists [...]",
+                "label": "water",
+                "start": 1894,
+                "context": "[...] happen without proper management of water sewage and waste educating tourists [...]",
+                "contextl": "[...] happen without proper management of",
+                "phrase": "water"
+            },
+            {
+                "end": 1905,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "sports may contribute to reducing [...]",
+                "label": "water",
+                "start": 1904,
+                "context": "[...] tourists and especially people doing water sports may contribute to reducing [...]",
+                "contextl": "[...] tourists and especially people doing",
+                "phrase": "water"
+            },
+            {
+                "end": 2076,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "and needs to be enhanced [...]",
+                "label": "water",
+                "start": 2075,
+                "context": "[...] beyond national jurisdiction including international waters and needs to be enhanced [...]",
+                "contextl": "[...] beyond national jurisdiction including international",
+                "phrase": "waters"
+            },
+            {
+                "end": 2711,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "and sanitation goal 7 affordable [...]",
+                "label": "water",
+                "start": 2710,
+                "context": "[...] gender equality goal 6 clean water and sanitation goal 7 affordable [...]",
+                "contextl": "[...] gender equality goal 6 clean",
+                "phrase": "water"
+            },
+            {
+                "end": 2757,
+                "url": "http://metadata.un.org/thesaurus/1006939",
+                "contextr": "goal 15 life on land [...]",
+                "label": "water",
+                "start": 2756,
+                "context": "[...] action goal 14 life below water goal 15 life on land [...]",
+                "contextl": "[...] action goal 14 life below",
+                "phrase": "water"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/030500",
+        "label": "WATER",
+        "source": "UNBIS",
+        "weight": 18,
+        "context": [
+            {
+                "end": 5,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "the agenda 2030 and tourism [...]",
+                "label": "water",
+                "start": 4,
+                "context": "[...] goal 14 life below water the agenda 2030 and tourism [...]",
+                "contextl": "[...] goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 47,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "conserve and sustainably use the [...]",
+                "label": "water",
+                "start": 46,
+                "context": "[...] tourism goal 14 life below water conserve and sustainably use the [...]",
+                "contextl": "[...] tourism goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 404,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "they are international waters for [...]",
+                "label": "water",
+                "start": 403,
+                "context": "[...] the oceans lying beyond coastal waters they are international waters for [...]",
+                "contextl": "[...] the oceans lying beyond coastal",
+                "phrase": "waters"
+            },
+            {
+                "end": 408,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "for which regulations exist which [...]",
+                "label": "water",
+                "start": 407,
+                "context": "[...] coastal waters they are international waters for which regulations exist which [...]",
+                "contextl": "[...] coastal waters they are international",
+                "phrase": "waters"
+            },
+            {
+                "end": 451,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "expand and ice caps melt [...]",
+                "label": "water",
+                "start": 450,
+                "context": "[...] up this higher temperature makes water expand and ice caps melt [...]",
+                "contextl": "[...] up this higher temperature makes",
+                "phrase": "water"
+            },
+            {
+                "end": 652,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "ballast water containing pathogens and [...]",
+                "label": "water",
+                "start": 651,
+                "context": "[...] garbage sewage and oil contaminated water ballast water containing pathogens and [...]",
+                "contextl": "[...] garbage sewage and oil contaminated",
+                "phrase": "water"
+            },
+            {
+                "end": 654,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "containing pathogens and invasive species [...]",
+                "label": "water",
+                "start": 653,
+                "context": "[...] and oil contaminated water ballast water containing pathogens and invasive species [...]",
+                "contextl": "[...] and oil contaminated water ballast",
+                "phrase": "water"
+            },
+            {
+                "end": 775,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "from the land enters the [...]",
+                "label": "water",
+                "start": 774,
+                "context": "[...] the land but also where water from the land enters the [...]",
+                "contextl": "[...] the land but also where",
+                "phrase": "water"
+            },
+            {
+                "end": 1118,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "they then need artificial coastal [...]",
+                "label": "water",
+                "start": 1117,
+                "context": "[...] close as possible to the water they then need artificial coastal [...]",
+                "contextl": "[...] close as possible to the",
+                "phrase": "water"
+            },
+            {
+                "end": 1188,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "the lack of water purification [...]",
+                "label": "water",
+                "start": 1187,
+                "context": "[...] the scarcity of clean drinking water the lack of water purification [...]",
+                "contextl": "[...] the scarcity of clean drinking",
+                "phrase": "water"
+            },
+            {
+                "end": 1192,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "purification systems and the relatively [...]",
+                "label": "water",
+                "start": 1191,
+                "context": "[...] drinking water the lack of water purification systems and the relatively [...]",
+                "contextl": "[...] drinking water the lack of",
+                "phrase": "water"
+            },
+            {
+                "end": 1201,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "at tourism facilities not only [...]",
+                "label": "water",
+                "start": 1200,
+                "context": "[...] the relatively high consumption of water at tourism facilities not only [...]",
+                "contextl": "[...] the relatively high consumption of",
+                "phrase": "water"
+            },
+            {
+                "end": 1583,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "quality and fishing activities with [...]",
+                "label": "water",
+                "start": 1582,
+                "context": "[...] may have negative impacts on water quality and fishing activities with [...]",
+                "contextl": "[...] may have negative impacts on",
+                "phrase": "water"
+            },
+            {
+                "end": 1895,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "sewage and waste educating tourists [...]",
+                "label": "water",
+                "start": 1894,
+                "context": "[...] happen without proper management of water sewage and waste educating tourists [...]",
+                "contextl": "[...] happen without proper management of",
+                "phrase": "water"
+            },
+            {
+                "end": 1905,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "sports may contribute to reducing [...]",
+                "label": "water",
+                "start": 1904,
+                "context": "[...] tourists and especially people doing water sports may contribute to reducing [...]",
+                "contextl": "[...] tourists and especially people doing",
+                "phrase": "water"
+            },
+            {
+                "end": 2076,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "and needs to be enhanced [...]",
+                "label": "water",
+                "start": 2075,
+                "context": "[...] beyond national jurisdiction including international waters and needs to be enhanced [...]",
+                "contextl": "[...] beyond national jurisdiction including international",
+                "phrase": "waters"
+            },
+            {
+                "end": 2711,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "and sanitation goal 7 affordable [...]",
+                "label": "water",
+                "start": 2710,
+                "context": "[...] gender equality goal 6 clean water and sanitation goal 7 affordable [...]",
+                "contextl": "[...] gender equality goal 6 clean",
+                "phrase": "water"
+            },
+            {
+                "end": 2757,
+                "url": "http://metadata.un.org/thesaurus/030500",
+                "contextr": "goal 15 life on land [...]",
+                "label": "water",
+                "start": 2756,
+                "context": "[...] action goal 14 life below water goal 15 life on land [...]",
+                "contextl": "[...] action goal 14 life below",
+                "phrase": "water"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/597",
+        "label": "WATER",
+        "source": "EuroVoc",
+        "weight": 18,
+        "context": [
+            {
+                "end": 5,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "the agenda 2030 and tourism [...]",
+                "label": "water",
+                "start": 4,
+                "context": "[...] goal 14 life below water the agenda 2030 and tourism [...]",
+                "contextl": "[...] goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 47,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "conserve and sustainably use the [...]",
+                "label": "water",
+                "start": 46,
+                "context": "[...] tourism goal 14 life below water conserve and sustainably use the [...]",
+                "contextl": "[...] tourism goal 14 life below",
+                "phrase": "water"
+            },
+            {
+                "end": 404,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "they are international waters for [...]",
+                "label": "water",
+                "start": 403,
+                "context": "[...] the oceans lying beyond coastal waters they are international waters for [...]",
+                "contextl": "[...] the oceans lying beyond coastal",
+                "phrase": "waters"
+            },
+            {
+                "end": 408,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "for which regulations exist which [...]",
+                "label": "water",
+                "start": 407,
+                "context": "[...] coastal waters they are international waters for which regulations exist which [...]",
+                "contextl": "[...] coastal waters they are international",
+                "phrase": "waters"
+            },
+            {
+                "end": 451,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "expand and ice caps melt [...]",
+                "label": "water",
+                "start": 450,
+                "context": "[...] up this higher temperature makes water expand and ice caps melt [...]",
+                "contextl": "[...] up this higher temperature makes",
+                "phrase": "water"
+            },
+            {
+                "end": 652,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "ballast water containing pathogens and [...]",
+                "label": "water",
+                "start": 651,
+                "context": "[...] garbage sewage and oil contaminated water ballast water containing pathogens and [...]",
+                "contextl": "[...] garbage sewage and oil contaminated",
+                "phrase": "water"
+            },
+            {
+                "end": 654,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "containing pathogens and invasive species [...]",
+                "label": "water",
+                "start": 653,
+                "context": "[...] and oil contaminated water ballast water containing pathogens and invasive species [...]",
+                "contextl": "[...] and oil contaminated water ballast",
+                "phrase": "water"
+            },
+            {
+                "end": 775,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "from the land enters the [...]",
+                "label": "water",
+                "start": 774,
+                "context": "[...] the land but also where water from the land enters the [...]",
+                "contextl": "[...] the land but also where",
+                "phrase": "water"
+            },
+            {
+                "end": 1118,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "they then need artificial coastal [...]",
+                "label": "water",
+                "start": 1117,
+                "context": "[...] close as possible to the water they then need artificial coastal [...]",
+                "contextl": "[...] close as possible to the",
+                "phrase": "water"
+            },
+            {
+                "end": 1188,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "the lack of water purification [...]",
+                "label": "water",
+                "start": 1187,
+                "context": "[...] the scarcity of clean drinking water the lack of water purification [...]",
+                "contextl": "[...] the scarcity of clean drinking",
+                "phrase": "water"
+            },
+            {
+                "end": 1192,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "purification systems and the relatively [...]",
+                "label": "water",
+                "start": 1191,
+                "context": "[...] drinking water the lack of water purification systems and the relatively [...]",
+                "contextl": "[...] drinking water the lack of",
+                "phrase": "water"
+            },
+            {
+                "end": 1201,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "at tourism facilities not only [...]",
+                "label": "water",
+                "start": 1200,
+                "context": "[...] the relatively high consumption of water at tourism facilities not only [...]",
+                "contextl": "[...] the relatively high consumption of",
+                "phrase": "water"
+            },
+            {
+                "end": 1583,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "quality and fishing activities with [...]",
+                "label": "water",
+                "start": 1582,
+                "context": "[...] may have negative impacts on water quality and fishing activities with [...]",
+                "contextl": "[...] may have negative impacts on",
+                "phrase": "water"
+            },
+            {
+                "end": 1895,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "sewage and waste educating tourists [...]",
+                "label": "water",
+                "start": 1894,
+                "context": "[...] happen without proper management of water sewage and waste educating tourists [...]",
+                "contextl": "[...] happen without proper management of",
+                "phrase": "water"
+            },
+            {
+                "end": 1905,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "sports may contribute to reducing [...]",
+                "label": "water",
+                "start": 1904,
+                "context": "[...] tourists and especially people doing water sports may contribute to reducing [...]",
+                "contextl": "[...] tourists and especially people doing",
+                "phrase": "water"
+            },
+            {
+                "end": 2076,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "and needs to be enhanced [...]",
+                "label": "water",
+                "start": 2075,
+                "context": "[...] beyond national jurisdiction including international waters and needs to be enhanced [...]",
+                "contextl": "[...] beyond national jurisdiction including international",
+                "phrase": "waters"
+            },
+            {
+                "end": 2711,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "and sanitation goal 7 affordable [...]",
+                "label": "water",
+                "start": 2710,
+                "context": "[...] gender equality goal 6 clean water and sanitation goal 7 affordable [...]",
+                "contextl": "[...] gender equality goal 6 clean",
+                "phrase": "water"
+            },
+            {
+                "end": 2757,
+                "url": "http://eurovoc.europa.eu/597",
+                "contextr": "goal 15 life on land [...]",
+                "label": "water",
+                "start": 2756,
+                "context": "[...] action goal 14 life below water goal 15 life on land [...]",
+                "contextl": "[...] action goal 14 life below",
+                "phrase": "water"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003580",
+        "label": "LAND",
+        "source": "UNBIS",
+        "weight": 16,
+        "context": [
+            {
+                "end": 771,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "but also where water from [...]",
+                "label": "land",
+                "start": 770,
+                "context": "[...] where the sea meets the land but also where water from [...]",
+                "contextl": "[...] where the sea meets the",
+                "phrase": "land"
+            },
+            {
+                "end": 778,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "enters the ocean the beaches [...]",
+                "label": "land",
+                "start": 777,
+                "context": "[...] also where water from the land enters the ocean the beaches [...]",
+                "contextl": "[...] also where water from the",
+                "phrase": "land"
+            },
+            {
+                "end": 902,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "not only touristic beaches and [...]",
+                "label": "land",
+                "start": 901,
+                "context": "[...] and threaten all lower lying land not only touristic beaches and [...]",
+                "contextl": "[...] and threaten all lower lying",
+                "phrase": "land"
+            },
+            {
+                "end": 997,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "through sewage drains and rivers [...]",
+                "label": "land",
+                "start": 996,
+                "context": "[...] of marine pollution comes from land through sewage drains and rivers [...]",
+                "contextl": "[...] of marine pollution comes from",
+                "phrase": "land"
+            },
+            {
+                "end": 1256,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "use and destruction of ecosystems [...]",
+                "label": "land",
+                "start": 1255,
+                "context": "[...] coastal communities through conversion of land use and destruction of ecosystems [...]",
+                "contextl": "[...] coastal communities through conversion of",
+                "phrase": "land"
+            },
+            {
+                "end": 1295,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "to their beaches or in [...]",
+                "label": "land",
+                "start": 1294,
+                "context": "[...] denied access to their communal lands to their beaches or in [...]",
+                "contextl": "[...] denied access to their communal",
+                "phrase": "lands"
+            },
+            {
+                "end": 1316,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "local resources and infrastructure land [...]",
+                "label": "land",
+                "start": 1315,
+                "context": "[...] put a tremendous strain on land local resources and infrastructure land [...]",
+                "contextl": "[...] put a tremendous strain on",
+                "phrase": "land"
+            },
+            {
+                "end": 1321,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "grabbing in this case of [...]",
+                "label": "land",
+                "start": 1320,
+                "context": "[...] land local resources and infrastructure land grabbing in this case of [...]",
+                "contextl": "[...] land local resources and infrastructure",
+                "phrase": "land"
+            },
+            {
+                "end": 1328,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "also known as ocean grabbing [...]",
+                "label": "land",
+                "start": 1327,
+                "context": "[...] in this case of coastal lands also known as ocean grabbing [...]",
+                "contextl": "[...] in this case of coastal",
+                "phrase": "lands"
+            },
+            {
+                "end": 1486,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "tend to go up and [...]",
+                "label": "land",
+                "start": 1485,
+                "context": "[...] strips of coastline prices of land tend to go up and [...]",
+                "contextl": "[...] strips of coastline prices of",
+                "phrase": "land"
+            },
+            {
+                "end": 2089,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "and sea in brazil extractive [...]",
+                "label": "land",
+                "start": 2088,
+                "context": "[...] areas for sustainable use of land and sea in brazil extractive [...]",
+                "contextl": "[...] areas for sustainable use of",
+                "phrase": "land"
+            },
+            {
+                "end": 2139,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "and sea and the right [...]",
+                "label": "land",
+                "start": 2138,
+                "context": "[...] use of natural resources on land and sea and the right [...]",
+                "contextl": "[...] use of natural resources on",
+                "phrase": "land"
+            },
+            {
+                "end": 2201,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "which will give them legal [...]",
+                "label": "land",
+                "start": 2200,
+                "context": "[...] for the demarcation of their land which will give them legal [...]",
+                "contextl": "[...] for the demarcation of their",
+                "phrase": "land"
+            },
+            {
+                "end": 2209,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "grabbing and the right to [...]",
+                "label": "land",
+                "start": 2208,
+                "context": "[...] give them legal protection from land grabbing and the right to [...]",
+                "contextl": "[...] give them legal protection from",
+                "phrase": "land"
+            },
+            {
+                "end": 2330,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "and ocean grabbing for tourism [...]",
+                "label": "land",
+                "start": 2329,
+                "context": "[...] business and is involved in land and ocean grabbing for tourism [...]",
+                "contextl": "[...] business and is involved in",
+                "phrase": "land"
+            },
+            {
+                "end": 2762,
+                "url": "http://metadata.un.org/thesaurus/1003580",
+                "contextr": "goal 16a good governance goal [...]",
+                "label": "land",
+                "start": 2761,
+                "context": "[...] water goal 15 life on land goal 16a good governance goal [...]",
+                "contextl": "[...] water goal 15 life on",
+                "phrase": "land"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/1870",
+        "label": "SEA",
+        "source": "EuroVoc",
+        "weight": 14,
+        "context": [
+            {
+                "end": 54,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "and marine resources for sustainable [...]",
+                "label": "sea",
+                "start": 53,
+                "context": "[...] and sustainably use the oceans seas and marine resources for sustainable [...]",
+                "contextl": "[...] and sustainably use the oceans",
+                "phrase": "seas"
+            },
+            {
+                "end": 384,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "and coastal areas the high [...]",
+                "label": "sea",
+                "start": 383,
+                "context": "[...] responsibility to safeguard both high seas and coastal areas the high [...]",
+                "contextl": "[...] responsibility to safeguard both high",
+                "phrase": "seas"
+            },
+            {
+                "end": 390,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "the high seas are the [...]",
+                "label": "sea",
+                "start": 389,
+                "context": "[...] and coastal areas the high seas the high seas are the [...]",
+                "contextl": "[...] and coastal areas the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 393,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "are the 64 percent of [...]",
+                "label": "sea",
+                "start": 392,
+                "context": "[...] the high seas the high seas are the 64 percent of [...]",
+                "contextl": "[...] the high seas the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 428,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "face the atmosphere affects oceans [...]",
+                "label": "sea",
+                "start": 427,
+                "context": "[...] number of threats the high seas face the atmosphere affects oceans [...]",
+                "contextl": "[...] number of threats the high",
+                "phrase": "seas"
+            },
+            {
+                "end": 459,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "levels and more tropical storms [...]",
+                "label": "sea",
+                "start": 458,
+                "context": "[...] ice caps melt with higher sea levels and more tropical storms [...]",
+                "contextl": "[...] ice caps melt with higher",
+                "phrase": "sea"
+            },
+            {
+                "end": 768,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "meets the land but also [...]",
+                "label": "sea",
+                "start": 767,
+                "context": "[...] are not only where the sea meets the land but also [...]",
+                "contextl": "[...] are not only where the",
+                "phrase": "sea"
+            },
+            {
+                "end": 815,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "levels and stronger storms have [...]",
+                "label": "sea",
+                "start": 814,
+                "context": "[...] areas in several ways rising sea levels and stronger storms have [...]",
+                "contextl": "[...] areas in several ways rising",
+                "phrase": "sea"
+            },
+            {
+                "end": 864,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "levels will also mean less [...]",
+                "label": "sea",
+                "start": 863,
+                "context": "[...] the 2004 tsunami showed higher sea levels will also mean less [...]",
+                "contextl": "[...] the 2004 tsunami showed higher",
+                "phrase": "sea"
+            },
+            {
+                "end": 889,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "levels increase the rate of [...]",
+                "label": "sea",
+                "start": 888,
+                "context": "[...] problems stronger storms and higher sea levels increase the rate of [...]",
+                "contextl": "[...] problems stronger storms and higher",
+                "phrase": "sea"
+            },
+            {
+                "end": 1086,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "grass meadows having been removed [...]",
+                "label": "sea",
+                "start": 1085,
+                "context": "[...] of mangroves corals marshes and sea grass meadows having been removed [...]",
+                "contextl": "[...] of mangroves corals marshes and",
+                "phrase": "sea"
+            },
+            {
+                "end": 1283,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "become impossible local communities are [...]",
+                "label": "sea",
+                "start": 1282,
+                "context": "[...] from the shoreline and the sea become impossible local communities are [...]",
+                "contextl": "[...] from the shoreline and the",
+                "phrase": "sea"
+            },
+            {
+                "end": 2091,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "in brazil extractive reserves in [...]",
+                "label": "sea",
+                "start": 2090,
+                "context": "[...] sustainable use of land and sea in brazil extractive reserves in [...]",
+                "contextl": "[...] sustainable use of land and",
+                "phrase": "sea"
+            },
+            {
+                "end": 2141,
+                "url": "http://eurovoc.europa.eu/1870",
+                "contextr": "and the right to use [...]",
+                "label": "sea",
+                "start": 2140,
+                "context": "[...] natural resources on land and sea and the right to use [...]",
+                "contextl": "[...] natural resources on land and",
+                "phrase": "sea"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003912",
+        "label": "MARINE FAUNA",
+        "source": "UNBIS",
+        "weight": 6,
+        "context": [
+            {
+                "end": 1083,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "marshes and sea grass meadows [...]",
+                "label": "corals",
+                "start": 1082,
+                "context": "[...] are numerous examples of mangroves corals marshes and sea grass meadows [...]",
+                "contextl": "[...] are numerous examples of mangroves",
+                "phrase": "corals"
+            },
+            {
+                "end": 1676,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "and by kicking up sediment [...]",
+                "label": "corals",
+                "start": 1675,
+                "context": "[...] can cause damage by breaking corals and by kicking up sediment [...]",
+                "contextl": "[...] can cause damage by breaking",
+                "phrase": "corals"
+            },
+            {
+                "end": 1690,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "lead to over exploitation in [...]",
+                "label": "corals",
+                "start": 1689,
+                "context": "[...] collecting shells lobsters conches and corals lead to over exploitation in [...]",
+                "contextl": "[...] collecting shells lobsters conches and",
+                "phrase": "corals"
+            },
+            {
+                "end": 1726,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "leading to bleaching suffocation and [...]",
+                "label": "corals",
+                "start": 1725,
+                "context": "[...] levels and increases stress on corals leading to bleaching suffocation and [...]",
+                "contextl": "[...] levels and increases stress on",
+                "phrase": "corals"
+            },
+            {
+                "end": 1758,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "in marinas we find chemical [...]",
+                "label": "corals",
+                "start": 1757,
+                "context": "[...] contains toxic substances that harm corals in marinas we find chemical [...]",
+                "contextl": "[...] contains toxic substances that harm",
+                "phrase": "corals"
+            },
+            {
+                "end": 1795,
+                "url": "http://metadata.un.org/thesaurus/1003912",
+                "contextr": "tangible ways forward the world [...]",
+                "label": "corals",
+                "start": 1794,
+                "context": "[...] algae at the expense of corals tangible ways forward the world [...]",
+                "contextl": "[...] algae at the expense of",
+                "phrase": "corals"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/030400",
+        "label": "POLLUTION",
+        "source": "UNBIS",
+        "weight": 5,
+        "context": [
+            {
+                "end": 349,
+                "url": "http://metadata.un.org/thesaurus/030400",
+                "contextr": "and man made destruction oceans [...]",
+                "label": "pollution",
+                "start": 348,
+                "context": "[...] the oceans through climate change pollution and man made destruction oceans [...]",
+                "contextl": "[...] the oceans through climate change",
+                "phrase": "pollution"
+            },
+            {
+                "end": 555,
+                "url": "http://metadata.un.org/thesaurus/030400",
+                "contextr": "cruise tourism cruises are a [...]",
+                "label": "pollution",
+                "start": 554,
+                "context": "[...] a major source of marine pollution cruise tourism cruises are a [...]",
+                "contextl": "[...] a major source of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 994,
+                "url": "http://metadata.un.org/thesaurus/030400",
+                "contextr": "comes from land through sewage [...]",
+                "label": "pollution",
+                "start": 993,
+                "context": "[...] challenges eighty percent of marine pollution comes from land through sewage [...]",
+                "contextl": "[...] challenges eighty percent of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 1744,
+                "url": "http://metadata.un.org/thesaurus/030400",
+                "contextr": "through disposal of solid waste [...]",
+                "label": "pollution",
+                "start": 1743,
+                "context": "[...] motor boats and yachts cause pollution through disposal of solid waste [...]",
+                "contextl": "[...] motor boats and yachts cause",
+                "phrase": "pollution"
+            },
+            {
+                "end": 2641,
+                "url": "http://metadata.un.org/thesaurus/030400",
+                "contextr": "07 11 2016 download complete [...]",
+                "label": "pollution",
+                "start": 2640,
+                "context": "[...] our earth blue planet problems pollution 07 11 2016 download complete [...]",
+                "contextl": "[...] our earth blue planet problems",
+                "phrase": "pollution"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/2524",
+        "label": "POLLUTION",
+        "source": "EuroVoc",
+        "weight": 5,
+        "context": [
+            {
+                "end": 349,
+                "url": "http://eurovoc.europa.eu/2524",
+                "contextr": "and man made destruction oceans [...]",
+                "label": "pollution",
+                "start": 348,
+                "context": "[...] the oceans through climate change pollution and man made destruction oceans [...]",
+                "contextl": "[...] the oceans through climate change",
+                "phrase": "pollution"
+            },
+            {
+                "end": 555,
+                "url": "http://eurovoc.europa.eu/2524",
+                "contextr": "cruise tourism cruises are a [...]",
+                "label": "pollution",
+                "start": 554,
+                "context": "[...] a major source of marine pollution cruise tourism cruises are a [...]",
+                "contextl": "[...] a major source of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 994,
+                "url": "http://eurovoc.europa.eu/2524",
+                "contextr": "comes from land through sewage [...]",
+                "label": "pollution",
+                "start": 993,
+                "context": "[...] challenges eighty percent of marine pollution comes from land through sewage [...]",
+                "contextl": "[...] challenges eighty percent of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 1744,
+                "url": "http://eurovoc.europa.eu/2524",
+                "contextr": "through disposal of solid waste [...]",
+                "label": "pollution",
+                "start": 1743,
+                "context": "[...] motor boats and yachts cause pollution through disposal of solid waste [...]",
+                "contextl": "[...] motor boats and yachts cause",
+                "phrase": "pollution"
+            },
+            {
+                "end": 2641,
+                "url": "http://eurovoc.europa.eu/2524",
+                "contextr": "07 11 2016 download complete [...]",
+                "label": "pollution",
+                "start": 2640,
+                "context": "[...] our earth blue planet problems pollution 07 11 2016 download complete [...]",
+                "contextl": "[...] our earth blue planet problems",
+                "phrase": "pollution"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005003",
+        "label": "POLLUTION",
+        "source": "UNBIS",
+        "weight": 5,
+        "context": [
+            {
+                "end": 349,
+                "url": "http://metadata.un.org/thesaurus/1005003",
+                "contextr": "and man made destruction oceans [...]",
+                "label": "pollution",
+                "start": 348,
+                "context": "[...] the oceans through climate change pollution and man made destruction oceans [...]",
+                "contextl": "[...] the oceans through climate change",
+                "phrase": "pollution"
+            },
+            {
+                "end": 555,
+                "url": "http://metadata.un.org/thesaurus/1005003",
+                "contextr": "cruise tourism cruises are a [...]",
+                "label": "pollution",
+                "start": 554,
+                "context": "[...] a major source of marine pollution cruise tourism cruises are a [...]",
+                "contextl": "[...] a major source of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 994,
+                "url": "http://metadata.un.org/thesaurus/1005003",
+                "contextr": "comes from land through sewage [...]",
+                "label": "pollution",
+                "start": 993,
+                "context": "[...] challenges eighty percent of marine pollution comes from land through sewage [...]",
+                "contextl": "[...] challenges eighty percent of marine",
+                "phrase": "pollution"
+            },
+            {
+                "end": 1744,
+                "url": "http://metadata.un.org/thesaurus/1005003",
+                "contextr": "through disposal of solid waste [...]",
+                "label": "pollution",
+                "start": 1743,
+                "context": "[...] motor boats and yachts cause pollution through disposal of solid waste [...]",
+                "contextl": "[...] motor boats and yachts cause",
+                "phrase": "pollution"
+            },
+            {
+                "end": 2641,
+                "url": "http://metadata.un.org/thesaurus/1005003",
+                "contextr": "07 11 2016 download complete [...]",
+                "label": "pollution",
+                "start": 2640,
+                "context": "[...] our earth blue planet problems pollution 07 11 2016 download complete [...]",
+                "contextl": "[...] our earth blue planet problems",
+                "phrase": "pollution"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1007000",
+        "label": "WETLANDS",
+        "source": "UNBIS",
+        "weight": 4,
+        "context": [
+            {
+                "end": 788,
+                "url": "http://metadata.un.org/thesaurus/1007000",
+                "contextr": "lagoons swamps reefs etc are [...]",
+                "label": "marshes",
+                "start": 787,
+                "context": "[...] beaches estuaries dune systems mangroves marshes lagoons swamps reefs etc are [...]",
+                "contextl": "[...] beaches estuaries dune systems mangroves",
+                "phrase": "marshes"
+            },
+            {
+                "end": 846,
+                "url": "http://metadata.un.org/thesaurus/1007000",
+                "contextr": "that protect shores from flooding [...]",
+                "label": "wetlands",
+                "start": 845,
+                "context": "[...] of protective ecosystems like coastal wetlands that protect shores from flooding [...]",
+                "contextl": "[...] of protective ecosystems like coastal",
+                "phrase": "wetlands"
+            },
+            {
+                "end": 1084,
+                "url": "http://metadata.un.org/thesaurus/1007000",
+                "contextr": "and sea grass meadows having [...]",
+                "label": "marshes",
+                "start": 1083,
+                "context": "[...] numerous examples of mangroves corals marshes and sea grass meadows having [...]",
+                "contextl": "[...] numerous examples of mangroves corals",
+                "phrase": "marshes"
+            },
+            {
+                "end": 1141,
+                "url": "http://metadata.un.org/thesaurus/1007000",
+                "contextr": "effects of activities and behaviour [...]",
+                "label": "marshes",
+                "start": 1140,
+                "context": "[...] threaten ecosystems like mangroves and marshes effects of activities and behaviour [...]",
+                "contextl": "[...] threaten ecosystems like mangroves and",
+                "phrase": "marshes"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/584",
+        "label": "HUMAN RIGHTS",
+        "source": "EuroVoc",
+        "weight": 4,
+        "context": [
+            {
+                "end": 1338,
+                "url": "http://eurovoc.europa.eu/584",
+                "contextr": "violation as it excludes communities [...]",
+                "label": "human rights",
+                "start": 1336,
+                "context": "[...] ocean grabbing is a serious human rights violation as it excludes communities [...]",
+                "contextl": "[...] ocean grabbing is a serious",
+                "phrase": "human rights"
+            },
+            {
+                "end": 1339,
+                "url": "http://eurovoc.europa.eu/584",
+                "contextr": "as it excludes communities from [...]",
+                "label": "human rights violation",
+                "start": 1336,
+                "context": "[...] ocean grabbing is a serious human rights violation as it excludes communities from [...]",
+                "contextl": "[...] ocean grabbing is a serious",
+                "phrase": "human rights violation"
+            },
+            {
+                "end": 1453,
+                "url": "http://eurovoc.europa.eu/584",
+                "contextr": "such as the right to [...]",
+                "label": "human rights",
+                "start": 1451,
+                "context": "[...] lead to serious violations of human rights such as the right to [...]",
+                "contextl": "[...] lead to serious violations of",
+                "phrase": "human rights"
+            },
+            {
+                "end": 2311,
+                "url": "http://eurovoc.europa.eu/584",
+                "contextr": "are being violated but since [...]",
+                "label": "human rights",
+                "start": 2309,
+                "context": "[...] have used for generations basic human rights are being violated but since [...]",
+                "contextl": "[...] have used for generations basic",
+                "phrase": "human rights"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002358",
+        "label": "FISH",
+        "source": "UNBIS",
+        "weight": 4,
+        "context": [
+            {
+                "end": 1162,
+                "url": "http://metadata.un.org/thesaurus/1002358",
+                "contextr": "boat and collect marine souvenirs [...]",
+                "label": "fish",
+                "start": 1161,
+                "context": "[...] arrive who bathe dive snorkel fish boat and collect marine souvenirs [...]",
+                "contextl": "[...] arrive who bathe dive snorkel",
+                "phrase": "fish"
+            },
+            {
+                "end": 1520,
+                "url": "http://metadata.un.org/thesaurus/1002358",
+                "contextr": "stocks essential for the livelihood [...]",
+                "label": "fish",
+                "start": 1519,
+                "context": "[...] sports fishing can reduce the fish stocks essential for the livelihood [...]",
+                "contextl": "[...] sports fishing can reduce the",
+                "phrase": "fish"
+            },
+            {
+                "end": 1541,
+                "url": "http://metadata.un.org/thesaurus/1002358",
+                "contextr": "the industry often relies on [...]",
+                "label": "fish",
+                "start": 1540,
+                "context": "[...] increase the demand for local fish the industry often relies on [...]",
+                "contextl": "[...] increase the demand for local",
+                "phrase": "fish"
+            },
+            {
+                "end": 2594,
+                "url": "http://metadata.un.org/thesaurus/1002358",
+                "contextr": "center grid arendal 2012 green [...]",
+                "label": "fish",
+                "start": 2593,
+                "context": "[...] fao imo undp iucn world fish center grid arendal 2012 green [...]",
+                "contextl": "[...] fao imo undp iucn world",
+                "phrase": "fish"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/5585",
+        "label": "SUSTAINABLE DEVELOPMENT",
+        "source": "EuroVoc",
+        "weight": 4,
+        "context": [
+            {
+                "end": 60,
+                "url": "http://eurovoc.europa.eu/5585",
+                "contextr": "by frans de man retour [...]",
+                "label": "sustainable development",
+                "start": 58,
+                "context": "[...] seas and marine resources for sustainable development by frans de man retour [...]",
+                "contextl": "[...] seas and marine resources for",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 173,
+                "url": "http://eurovoc.europa.eu/5585",
+                "contextr": "– economic development social development [...]",
+                "label": "sustainable development",
+                "start": 171,
+                "context": "[...] to all three pillars of sustainable development – economic development social development [...]",
+                "contextl": "[...] to all three pillars of",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 2067,
+                "url": "http://eurovoc.europa.eu/5585",
+                "contextr": "of the areas beyond national [...]",
+                "label": "sustainable development",
+                "start": 2065,
+                "context": "[...] international cooperation can help guarantee sustainable development of the areas beyond national [...]",
+                "contextl": "[...] international cooperation can help guarantee",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 2388,
+                "url": "http://eurovoc.europa.eu/5585",
+                "contextr": "summary for decision makers global [...]",
+                "label": "sustainable development",
+                "start": 2386,
+                "context": "[...] the 2002 world summit on sustainable development summary for decision makers global [...]",
+                "contextl": "[...] the 2002 world summit on",
+                "phrase": "sustainable development"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005837",
+        "label": "SEWAGE",
+        "source": "UNBIS",
+        "weight": 4,
+        "context": [
+            {
+                "end": 648,
+                "url": "http://metadata.un.org/thesaurus/1005837",
+                "contextr": "and oil contaminated water ballast [...]",
+                "label": "sewage",
+                "start": 647,
+                "context": "[...] generates large amounts of garbage sewage and oil contaminated water ballast [...]",
+                "contextl": "[...] generates large amounts of garbage",
+                "phrase": "sewage"
+            },
+            {
+                "end": 999,
+                "url": "http://metadata.un.org/thesaurus/1005837",
+                "contextr": "drains and rivers dumping of [...]",
+                "label": "sewage",
+                "start": 998,
+                "context": "[...] pollution comes from land through sewage drains and rivers dumping of [...]",
+                "contextl": "[...] pollution comes from land through",
+                "phrase": "sewage"
+            },
+            {
+                "end": 1779,
+                "url": "http://metadata.un.org/thesaurus/1005837",
+                "contextr": "disposal and fertilizer runoff contribute [...]",
+                "label": "sewage",
+                "start": 1778,
+                "context": "[...] hotels with legal and illegal sewage disposal and fertilizer runoff contribute [...]",
+                "contextl": "[...] hotels with legal and illegal",
+                "phrase": "sewage"
+            },
+            {
+                "end": 1896,
+                "url": "http://metadata.un.org/thesaurus/1005837",
+                "contextr": "and waste educating tourists and [...]",
+                "label": "sewage",
+                "start": 1895,
+                "context": "[...] without proper management of water sewage and waste educating tourists and [...]",
+                "contextl": "[...] without proper management of water",
+                "phrase": "sewage"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006319",
+        "label": "SUSTAINABLE DEVELOPMENT",
+        "source": "UNBIS",
+        "weight": 4,
+        "context": [
+            {
+                "end": 60,
+                "url": "http://metadata.un.org/thesaurus/1006319",
+                "contextr": "by frans de man retour [...]",
+                "label": "sustainable development",
+                "start": 58,
+                "context": "[...] seas and marine resources for sustainable development by frans de man retour [...]",
+                "contextl": "[...] seas and marine resources for",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 173,
+                "url": "http://metadata.un.org/thesaurus/1006319",
+                "contextr": "– economic development social development [...]",
+                "label": "sustainable development",
+                "start": 171,
+                "context": "[...] to all three pillars of sustainable development – economic development social development [...]",
+                "contextl": "[...] to all three pillars of",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 2067,
+                "url": "http://metadata.un.org/thesaurus/1006319",
+                "contextr": "of the areas beyond national [...]",
+                "label": "sustainable development",
+                "start": 2065,
+                "context": "[...] international cooperation can help guarantee sustainable development of the areas beyond national [...]",
+                "contextl": "[...] international cooperation can help guarantee",
+                "phrase": "sustainable development"
+            },
+            {
+                "end": 2388,
+                "url": "http://metadata.un.org/thesaurus/1006319",
+                "contextr": "summary for decision makers global [...]",
+                "label": "sustainable development",
+                "start": 2386,
+                "context": "[...] the 2002 world summit on sustainable development summary for decision makers global [...]",
+                "contextl": "[...] the 2002 world summit on",
+                "phrase": "sustainable development"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000952",
+        "label": "CHILDREN",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 1434,
+                "url": "http://metadata.un.org/thesaurus/1000952",
+                "contextr": "goal 16 violence against children [...]",
+                "label": "children",
+                "start": 1433,
+                "context": "[...] and invariably sexual exploitation of children goal 16 violence against children [...]",
+                "contextl": "[...] and invariably sexual exploitation of",
+                "phrase": "children"
+            },
+            {
+                "end": 1439,
+                "url": "http://metadata.un.org/thesaurus/1000952",
+                "contextr": "around cruise ports these effects [...]",
+                "label": "children",
+                "start": 1438,
+                "context": "[...] children goal 16 violence against children around cruise ports these effects [...]",
+                "contextl": "[...] children goal 16 violence against",
+                "phrase": "children"
+            },
+            {
+                "end": 2774,
+                "url": "http://metadata.un.org/thesaurus/1000952",
+                "contextr": "goal 17 partnerships for the [...]",
+                "label": "children",
+                "start": 2773,
+                "context": "[...] peace goal 16c violence against children goal 17 partnerships for the [...]",
+                "contextl": "[...] peace goal 16c violence against",
+                "phrase": "children"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/5683",
+        "label": "BAD WEATHER",
+        "source": "EuroVoc",
+        "weight": 3,
+        "context": [
+            {
+                "end": 464,
+                "url": "http://eurovoc.europa.eu/5683",
+                "contextr": "as a result oceans also [...]",
+                "label": "storm",
+                "start": 463,
+                "context": "[...] sea levels and more tropical storms as a result oceans also [...]",
+                "contextl": "[...] sea levels and more tropical",
+                "phrase": "storms"
+            },
+            {
+                "end": 819,
+                "url": "http://eurovoc.europa.eu/5683",
+                "contextr": "have irreversible effects on the [...]",
+                "label": "storm",
+                "start": 818,
+                "context": "[...] rising sea levels and stronger storms have irreversible effects on the [...]",
+                "contextl": "[...] rising sea levels and stronger",
+                "phrase": "storms"
+            },
+            {
+                "end": 886,
+                "url": "http://eurovoc.europa.eu/5683",
+                "contextr": "and higher sea levels increase [...]",
+                "label": "storm",
+                "start": 885,
+                "context": "[...] least of the problems stronger storms and higher sea levels increase [...]",
+                "contextl": "[...] least of the problems stronger",
+                "phrase": "storms"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002975",
+        "label": "HUMAN RIGHTS",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 1338,
+                "url": "http://metadata.un.org/thesaurus/1002975",
+                "contextr": "violation as it excludes communities [...]",
+                "label": "human rights",
+                "start": 1336,
+                "context": "[...] ocean grabbing is a serious human rights violation as it excludes communities [...]",
+                "contextl": "[...] ocean grabbing is a serious",
+                "phrase": "human rights"
+            },
+            {
+                "end": 1453,
+                "url": "http://metadata.un.org/thesaurus/1002975",
+                "contextr": "such as the right to [...]",
+                "label": "human rights",
+                "start": 1451,
+                "context": "[...] lead to serious violations of human rights such as the right to [...]",
+                "contextl": "[...] lead to serious violations of",
+                "phrase": "human rights"
+            },
+            {
+                "end": 2311,
+                "url": "http://metadata.un.org/thesaurus/1002975",
+                "contextr": "are being violated but since [...]",
+                "label": "human rights",
+                "start": 2309,
+                "context": "[...] have used for generations basic human rights are being violated but since [...]",
+                "contextl": "[...] have used for generations basic",
+                "phrase": "human rights"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/5482",
+        "label": "CLIMATE CHANGE",
+        "source": "EuroVoc",
+        "weight": 3,
+        "context": [
+            {
+                "end": 348,
+                "url": "http://eurovoc.europa.eu/5482",
+                "contextr": "pollution and man made destruction [...]",
+                "label": "climate change",
+                "start": 346,
+                "context": "[...] areas and the oceans through climate change pollution and man made destruction [...]",
+                "contextl": "[...] areas and the oceans through",
+                "phrase": "climate change"
+            },
+            {
+                "end": 519,
+                "url": "http://eurovoc.europa.eu/5482",
+                "contextr": "through greenhouse gas emissions produced [...]",
+                "label": "climate change",
+                "start": 517,
+                "context": "[...] on earth tourism contributes to climate change through greenhouse gas emissions produced [...]",
+                "contextl": "[...] on earth tourism contributes to",
+                "phrase": "climate change"
+            },
+            {
+                "end": 838,
+                "url": "http://eurovoc.europa.eu/5482",
+                "contextr": "causes loss of protective ecosystems [...]",
+                "label": "climate change",
+                "start": 836,
+                "context": "[...] their social and economic fabric climate change causes loss of protective ecosystems [...]",
+                "contextl": "[...] their social and economic fabric",
+                "phrase": "climate change"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/140202",
+        "label": "HUMAN RIGHTS",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 1338,
+                "url": "http://metadata.un.org/thesaurus/140202",
+                "contextr": "violation as it excludes communities [...]",
+                "label": "human rights",
+                "start": 1336,
+                "context": "[...] ocean grabbing is a serious human rights violation as it excludes communities [...]",
+                "contextl": "[...] ocean grabbing is a serious",
+                "phrase": "human rights"
+            },
+            {
+                "end": 1453,
+                "url": "http://metadata.un.org/thesaurus/140202",
+                "contextr": "such as the right to [...]",
+                "label": "human rights",
+                "start": 1451,
+                "context": "[...] lead to serious violations of human rights such as the right to [...]",
+                "contextl": "[...] lead to serious violations of",
+                "phrase": "human rights"
+            },
+            {
+                "end": 2311,
+                "url": "http://metadata.un.org/thesaurus/140202",
+                "contextr": "are being violated but since [...]",
+                "label": "human rights",
+                "start": 2309,
+                "context": "[...] have used for generations basic human rights are being violated but since [...]",
+                "contextl": "[...] have used for generations basic",
+                "phrase": "human rights"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003907",
+        "label": "MARINE ECOSYSTEMS",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 108,
+                "url": "http://metadata.un.org/thesaurus/1003907",
+                "contextr": "have an own touristic value [...]",
+                "label": "marine ecosystems",
+                "start": 106,
+                "context": "[...] coastal communities the coasts and marine ecosystems have an own touristic value [...]",
+                "contextl": "[...] coastal communities the coasts and",
+                "phrase": "marine ecosystems"
+            },
+            {
+                "end": 909,
+                "url": "http://metadata.un.org/thesaurus/1003907",
+                "contextr": "are being destroyed but entire [...]",
+                "label": "marine ecosystems",
+                "start": 907,
+                "context": "[...] not only touristic beaches and marine ecosystems are being destroyed but entire [...]",
+                "contextl": "[...] not only touristic beaches and",
+                "phrase": "marine ecosystems"
+            },
+            {
+                "end": 1076,
+                "url": "http://metadata.un.org/thesaurus/1003907",
+                "contextr": "there are numerous examples of [...]",
+                "label": "marine ecosystems",
+                "start": 1074,
+                "context": "[...] coastal tourism infrastructure threatens vulnerable marine ecosystems there are numerous examples of [...]",
+                "contextl": "[...] coastal tourism infrastructure threatens vulnerable",
+                "phrase": "marine ecosystems"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000995",
+        "label": "CITIES",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 915,
+                "url": "http://metadata.un.org/thesaurus/1000995",
+                "contextr": "come under threat barcelona new [...]",
+                "label": "cities",
+                "start": 914,
+                "context": "[...] are being destroyed but entire cities come under threat barcelona new [...]",
+                "contextl": "[...] are being destroyed but entire",
+                "phrase": "cities"
+            },
+            {
+                "end": 1391,
+                "url": "http://metadata.un.org/thesaurus/1000995",
+                "contextr": "like venice and barcelona goal [...]",
+                "label": "cities",
+                "start": 1390,
+                "context": "[...] but also in big coastal cities like venice and barcelona goal [...]",
+                "contextl": "[...] but also in big coastal",
+                "phrase": "cities"
+            },
+            {
+                "end": 2740,
+                "url": "http://metadata.un.org/thesaurus/1000995",
+                "contextr": "and communities goal 12 responsible [...]",
+                "label": "cities",
+                "start": 2739,
+                "context": "[...] reduced inequalities goal 11 sustainable cities and communities goal 12 responsible [...]",
+                "contextl": "[...] reduced inequalities goal 11 sustainable",
+                "phrase": "cities"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/2281",
+        "label": "POVERTY",
+        "source": "EuroVoc",
+        "weight": 3,
+        "context": [
+            {
+                "end": 688,
+                "url": "http://eurovoc.europa.eu/2281",
+                "contextr": "and exploitative working conditions benefits [...]",
+                "label": "poor",
+                "start": 687,
+                "context": "[...] facilities cruise workers suffer from poor and exploitative working conditions benefits [...]",
+                "contextl": "[...] facilities cruise workers suffer from",
+                "phrase": "poor"
+            },
+            {
+                "end": 2499,
+                "url": "http://eurovoc.europa.eu/2281",
+                "contextr": "accessed at www stakeholderforum org [...]",
+                "label": "poverty",
+                "start": 2498,
+                "context": "[...] economy and the eradication of poverty accessed at www stakeholderforum org [...]",
+                "contextl": "[...] economy and the eradication of",
+                "phrase": "poverty"
+            },
+            {
+                "end": 2688,
+                "url": "http://eurovoc.europa.eu/2281",
+                "contextr": "goal 2 zero hunger goal [...]",
+                "label": "poverty",
+                "start": 2687,
+                "context": "[...] of tourism goal 1 no poverty goal 2 zero hunger goal [...]",
+                "contextl": "[...] of tourism goal 1 no",
+                "phrase": "poverty"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003922",
+        "label": "MARINE RESOURCES",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 57,
+                "url": "http://metadata.un.org/thesaurus/1003922",
+                "contextr": "for sustainable development by frans [...]",
+                "label": "marine resources",
+                "start": 55,
+                "context": "[...] use the oceans seas and marine resources for sustainable development by frans [...]",
+                "contextl": "[...] use the oceans seas and",
+                "phrase": "marine resources"
+            },
+            {
+                "end": 309,
+                "url": "http://metadata.un.org/thesaurus/1003922",
+                "contextr": "including through sustainable management of [...]",
+                "label": "marine resources",
+                "start": 307,
+                "context": "[...] from the sustainable use of marine resources including through sustainable management of [...]",
+                "contextl": "[...] from the sustainable use of",
+                "phrase": "marine resources"
+            },
+            {
+                "end": 1941,
+                "url": "http://metadata.un.org/thesaurus/1003922",
+                "contextr": "including for small scale artisanal [...]",
+                "label": "marine resources",
+                "start": 1939,
+                "context": "[...] for the sustainable use of marine resources including for small scale artisanal [...]",
+                "contextl": "[...] for the sustainable use of",
+                "phrase": "marine resources"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002561",
+        "label": "FUELS",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 601,
+                "url": "http://metadata.un.org/thesaurus/1002561",
+                "contextr": "not only produce hazardous diesel [...]",
+                "label": "fuels",
+                "start": 600,
+                "context": "[...] practices cheap and dirty bunker fuels not only produce hazardous diesel [...]",
+                "contextl": "[...] practices cheap and dirty bunker",
+                "phrase": "fuels"
+            },
+            {
+                "end": 1856,
+                "url": "http://metadata.un.org/thesaurus/1002561",
+                "contextr": "in international aviation and cruises [...]",
+                "label": "fuels",
+                "start": 1855,
+                "context": "[...] needed especially related to bunker fuels in international aviation and cruises [...]",
+                "contextl": "[...] needed especially related to bunker",
+                "phrase": "fuels"
+            },
+            {
+                "end": 2004,
+                "url": "http://metadata.un.org/thesaurus/1002561",
+                "contextr": "and the most damaging modes [...]",
+                "label": "fuels",
+                "start": 2003,
+                "context": "[...] innovative solutions subsidies for bunker fuels and the most damaging modes [...]",
+                "contextl": "[...] innovative solutions subsidies for bunker",
+                "phrase": "fuels"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/030800",
+        "label": "MARINE RESOURCES",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 57,
+                "url": "http://metadata.un.org/thesaurus/030800",
+                "contextr": "for sustainable development by frans [...]",
+                "label": "marine resources",
+                "start": 55,
+                "context": "[...] use the oceans seas and marine resources for sustainable development by frans [...]",
+                "contextl": "[...] use the oceans seas and",
+                "phrase": "marine resources"
+            },
+            {
+                "end": 309,
+                "url": "http://metadata.un.org/thesaurus/030800",
+                "contextr": "including through sustainable management of [...]",
+                "label": "marine resources",
+                "start": 307,
+                "context": "[...] from the sustainable use of marine resources including through sustainable management of [...]",
+                "contextl": "[...] from the sustainable use of",
+                "phrase": "marine resources"
+            },
+            {
+                "end": 1941,
+                "url": "http://metadata.un.org/thesaurus/030800",
+                "contextr": "including for small scale artisanal [...]",
+                "label": "marine resources",
+                "start": 1939,
+                "context": "[...] for the sustainable use of marine resources including for small scale artisanal [...]",
+                "contextl": "[...] for the sustainable use of",
+                "phrase": "marine resources"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001030",
+        "label": "CLIMATE CHANGE",
+        "source": "UNBIS",
+        "weight": 3,
+        "context": [
+            {
+                "end": 348,
+                "url": "http://metadata.un.org/thesaurus/1001030",
+                "contextr": "pollution and man made destruction [...]",
+                "label": "climate change",
+                "start": 346,
+                "context": "[...] areas and the oceans through climate change pollution and man made destruction [...]",
+                "contextl": "[...] areas and the oceans through",
+                "phrase": "climate change"
+            },
+            {
+                "end": 519,
+                "url": "http://metadata.un.org/thesaurus/1001030",
+                "contextr": "through greenhouse gas emissions produced [...]",
+                "label": "climate change",
+                "start": 517,
+                "context": "[...] on earth tourism contributes to climate change through greenhouse gas emissions produced [...]",
+                "contextl": "[...] on earth tourism contributes to",
+                "phrase": "climate change"
+            },
+            {
+                "end": 838,
+                "url": "http://metadata.un.org/thesaurus/1001030",
+                "contextr": "causes loss of protective ecosystems [...]",
+                "label": "climate change",
+                "start": 836,
+                "context": "[...] their social and economic fabric climate change causes loss of protective ecosystems [...]",
+                "contextl": "[...] their social and economic fabric",
+                "phrase": "climate change"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001893",
+        "label": "EDUCATION",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1460,
+                "url": "http://metadata.un.org/thesaurus/1001893",
+                "contextr": "health services and food security [...]",
+                "label": "education",
+                "start": 1459,
+                "context": "[...] as the right to territory education health services and food security [...]",
+                "contextl": "[...] as the right to territory",
+                "phrase": "education"
+            },
+            {
+                "end": 2703,
+                "url": "http://metadata.un.org/thesaurus/1001893",
+                "contextr": "goal 5 gender equality goal [...]",
+                "label": "education",
+                "start": 2702,
+                "context": "[...] well being goal 4 quality education goal 5 gender equality goal [...]",
+                "contextl": "[...] well being goal 4 quality",
+                "phrase": "education"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4505",
+        "label": "AIR TRANSPORT",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 526,
+                "url": "http://eurovoc.europa.eu/4505",
+                "contextr": "goal 13 and cruise ships [...]",
+                "label": "aviation",
+                "start": 525,
+                "context": "[...] greenhouse gas emissions produced by aviation goal 13 and cruise ships [...]",
+                "contextl": "[...] greenhouse gas emissions produced by",
+                "phrase": "aviation"
+            },
+            {
+                "end": 1859,
+                "url": "http://eurovoc.europa.eu/4505",
+                "contextr": "and cruises when developing tourism [...]",
+                "label": "aviation",
+                "start": 1858,
+                "context": "[...] to bunker fuels in international aviation and cruises when developing tourism [...]",
+                "contextl": "[...] to bunker fuels in international",
+                "phrase": "aviation"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001056",
+        "label": "COASTAL ZONE MANAGEMENT",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 261,
+                "url": "http://metadata.un.org/thesaurus/1001056",
+                "contextr": "in order to help conserve [...]",
+                "label": "coastal zone management",
+                "start": 258,
+                "context": "[...] be a part of integrated coastal zone management in order to help conserve [...]",
+                "contextl": "[...] be a part of integrated",
+                "phrase": "coastal zone management"
+            },
+            {
+                "end": 1124,
+                "url": "http://metadata.un.org/thesaurus/1001056",
+                "contextr": "like dykes and dams which [...]",
+                "label": "coastal protection",
+                "start": 1122,
+                "context": "[...] water they then need artificial coastal protection like dykes and dams which [...]",
+                "contextl": "[...] water they then need artificial",
+                "phrase": "coastal protection"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/668",
+        "label": "EDUCATION",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1460,
+                "url": "http://eurovoc.europa.eu/668",
+                "contextr": "health services and food security [...]",
+                "label": "education",
+                "start": 1459,
+                "context": "[...] as the right to territory education health services and food security [...]",
+                "contextl": "[...] as the right to territory",
+                "phrase": "education"
+            },
+            {
+                "end": 2703,
+                "url": "http://eurovoc.europa.eu/668",
+                "contextr": "goal 5 gender equality goal [...]",
+                "label": "education",
+                "start": 2702,
+                "context": "[...] well being goal 4 quality education goal 5 gender equality goal [...]",
+                "contextl": "[...] well being goal 4 quality",
+                "phrase": "education"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006570",
+        "label": "TOXIC SUBSTANCES",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1006,
+                "url": "http://metadata.un.org/thesaurus/1006570",
+                "contextr": "like fertilizers causing eutrophication and [...]",
+                "label": "toxic chemicals",
+                "start": 1004,
+                "context": "[...] drains and rivers dumping of toxic chemicals like fertilizers causing eutrophication and [...]",
+                "contextl": "[...] drains and rivers dumping of",
+                "phrase": "toxic chemicals"
+            },
+            {
+                "end": 1755,
+                "url": "http://metadata.un.org/thesaurus/1006570",
+                "contextr": "that harm corals in marinas [...]",
+                "label": "toxic substances",
+                "start": 1753,
+                "context": "[...] waste especially plastics which contains toxic substances that harm corals in marinas [...]",
+                "contextl": "[...] waste especially plastics which contains",
+                "phrase": "toxic substances"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000928",
+        "label": "CHILD ABUSE",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1439,
+                "url": "http://metadata.un.org/thesaurus/1000928",
+                "contextr": "around cruise ports these effects [...]",
+                "label": "violence against children",
+                "start": 1436,
+                "context": "[...] exploitation of children goal 16 violence against children around cruise ports these effects [...]",
+                "contextl": "[...] exploitation of children goal 16",
+                "phrase": "violence against children"
+            },
+            {
+                "end": 2774,
+                "url": "http://metadata.un.org/thesaurus/1000928",
+                "contextr": "goal 17 partnerships for the [...]",
+                "label": "violence against children",
+                "start": 2771,
+                "context": "[...] goal 16b peace goal 16c violence against children goal 17 partnerships for the [...]",
+                "contextl": "[...] goal 16b peace goal 16c",
+                "phrase": "violence against children"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005064",
+        "label": "POVERTY",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 2499,
+                "url": "http://metadata.un.org/thesaurus/1005064",
+                "contextr": "accessed at www stakeholderforum org [...]",
+                "label": "poverty",
+                "start": 2498,
+                "context": "[...] economy and the eradication of poverty accessed at www stakeholderforum org [...]",
+                "contextl": "[...] economy and the eradication of",
+                "phrase": "poverty"
+            },
+            {
+                "end": 2688,
+                "url": "http://metadata.un.org/thesaurus/1005064",
+                "contextr": "goal 2 zero hunger goal [...]",
+                "label": "poverty",
+                "start": 2687,
+                "context": "[...] of tourism goal 1 no poverty goal 2 zero hunger goal [...]",
+                "contextl": "[...] of tourism goal 1 no",
+                "phrase": "poverty"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001264",
+        "label": "CONSUMPTION",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1199,
+                "url": "http://metadata.un.org/thesaurus/1001264",
+                "contextr": "of water at tourism facilities [...]",
+                "label": "consumption",
+                "start": 1198,
+                "context": "[...] systems and the relatively high consumption of water at tourism facilities [...]",
+                "contextl": "[...] systems and the relatively high",
+                "phrase": "consumption"
+            },
+            {
+                "end": 2746,
+                "url": "http://metadata.un.org/thesaurus/1001264",
+                "contextr": "and production goal 13 climate [...]",
+                "label": "consumption",
+                "start": 2745,
+                "context": "[...] and communities goal 12 responsible consumption and production goal 13 climate [...]",
+                "contextl": "[...] and communities goal 12 responsible",
+                "phrase": "consumption"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002035",
+        "label": "ENERGY RESOURCES",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 2015,
+                "url": "http://metadata.un.org/thesaurus/1002035",
+                "contextr": "must be abolished prices must [...]",
+                "label": "energy",
+                "start": 2014,
+                "context": "[...] of transport and sources of energy must be abolished prices must [...]",
+                "contextl": "[...] of transport and sources of",
+                "phrase": "energy"
+            },
+            {
+                "end": 2719,
+                "url": "http://metadata.un.org/thesaurus/1002035",
+                "contextr": "goal 8 decent work and [...]",
+                "label": "energy",
+                "start": 2718,
+                "context": "[...] goal 7 affordable and clean energy goal 8 decent work and [...]",
+                "contextl": "[...] goal 7 affordable and clean",
+                "phrase": "energy"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/139",
+        "label": "CONSUMPTION",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1199,
+                "url": "http://eurovoc.europa.eu/139",
+                "contextr": "of water at tourism facilities [...]",
+                "label": "consumption",
+                "start": 1198,
+                "context": "[...] systems and the relatively high consumption of water at tourism facilities [...]",
+                "contextl": "[...] systems and the relatively high",
+                "phrase": "consumption"
+            },
+            {
+                "end": 2746,
+                "url": "http://eurovoc.europa.eu/139",
+                "contextr": "and production goal 13 climate [...]",
+                "label": "consumption",
+                "start": 2745,
+                "context": "[...] and communities goal 12 responsible consumption and production goal 13 climate [...]",
+                "contextl": "[...] and communities goal 12 responsible",
+                "phrase": "consumption"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4801",
+        "label": "PROTECTED AREA",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 2084,
+                "url": "http://eurovoc.europa.eu/4801",
+                "contextr": "for sustainable use of land [...]",
+                "label": "protected area",
+                "start": 2082,
+                "context": "[...] needs to be enhanced marine protected areas for sustainable use of land [...]",
+                "contextl": "[...] needs to be enhanced marine",
+                "phrase": "protected areas"
+            },
+            {
+                "end": 2107,
+                "url": "http://eurovoc.europa.eu/4801",
+                "contextr": "defined by law in 2000 [...]",
+                "label": "protected area",
+                "start": 2105,
+                "context": "[...] types of sustainable use of protected areas defined by law in 2000 [...]",
+                "contextl": "[...] types of sustainable use of",
+                "phrase": "protected areas"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000202",
+        "label": "AIR TRANSPORT",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 526,
+                "url": "http://metadata.un.org/thesaurus/1000202",
+                "contextr": "goal 13 and cruise ships [...]",
+                "label": "aviation",
+                "start": 525,
+                "context": "[...] greenhouse gas emissions produced by aviation goal 13 and cruise ships [...]",
+                "contextl": "[...] greenhouse gas emissions produced by",
+                "phrase": "aviation"
+            },
+            {
+                "end": 1859,
+                "url": "http://metadata.un.org/thesaurus/1000202",
+                "contextr": "and cruises when developing tourism [...]",
+                "label": "aviation",
+                "start": 1858,
+                "context": "[...] to bunker fuels in international aviation and cruises when developing tourism [...]",
+                "contextl": "[...] to bunker fuels in international",
+                "phrase": "aviation"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006454",
+        "label": "TEMPERATURE",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 438,
+                "url": "http://metadata.un.org/thesaurus/1006454",
+                "contextr": "rises oceans absorb the heat [...]",
+                "label": "temperature",
+                "start": 437,
+                "context": "[...] oceans and vice versa air temperature rises oceans absorb the heat [...]",
+                "contextl": "[...] oceans and vice versa air",
+                "phrase": "temperature"
+            },
+            {
+                "end": 449,
+                "url": "http://metadata.un.org/thesaurus/1006454",
+                "contextr": "makes water expand and ice [...]",
+                "label": "temperature",
+                "start": 448,
+                "context": "[...] and warm up this higher temperature makes water expand and ice [...]",
+                "contextl": "[...] and warm up this higher",
+                "phrase": "temperature"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006882",
+        "label": "VIOLENCE",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1437,
+                "url": "http://metadata.un.org/thesaurus/1006882",
+                "contextr": "against children around cruise ports [...]",
+                "label": "violence",
+                "start": 1436,
+                "context": "[...] exploitation of children goal 16 violence against children around cruise ports [...]",
+                "contextl": "[...] exploitation of children goal 16",
+                "phrase": "violence"
+            },
+            {
+                "end": 2772,
+                "url": "http://metadata.un.org/thesaurus/1006882",
+                "contextr": "against children goal 17 partnerships [...]",
+                "label": "violence",
+                "start": 2771,
+                "context": "[...] goal 16b peace goal 16c violence against children goal 17 partnerships [...]",
+                "contextl": "[...] goal 16b peace goal 16c",
+                "phrase": "violence"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002439",
+        "label": "FOOD SECURITY",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1465,
+                "url": "http://metadata.un.org/thesaurus/1002439",
+                "contextr": "and also undermine the respective [...]",
+                "label": "food security",
+                "start": 1463,
+                "context": "[...] territory education health services and food security and also undermine the respective [...]",
+                "contextl": "[...] territory education health services and",
+                "phrase": "food security"
+            },
+            {
+                "end": 1952,
+                "url": "http://metadata.un.org/thesaurus/1002439",
+                "contextr": "and social equity meaningful linkages [...]",
+                "label": "food security",
+                "start": 1950,
+                "context": "[...] artisanal fisheries tourism should support food security and social equity meaningful linkages [...]",
+                "contextl": "[...] artisanal fisheries tourism should support",
+                "phrase": "food security"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/c_4523e1dd",
+        "label": "FOOD SECURITY",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1465,
+                "url": "http://eurovoc.europa.eu/c_4523e1dd",
+                "contextr": "and also undermine the respective [...]",
+                "label": "food security",
+                "start": 1463,
+                "context": "[...] territory education health services and food security and also undermine the respective [...]",
+                "contextl": "[...] territory education health services and",
+                "phrase": "food security"
+            },
+            {
+                "end": 1952,
+                "url": "http://eurovoc.europa.eu/c_4523e1dd",
+                "contextr": "and social equity meaningful linkages [...]",
+                "label": "food security",
+                "start": 1950,
+                "context": "[...] artisanal fisheries tourism should support food security and social equity meaningful linkages [...]",
+                "contextl": "[...] artisanal fisheries tourism should support",
+                "phrase": "food security"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003920",
+        "label": "MARINE POLLUTION",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 555,
+                "url": "http://metadata.un.org/thesaurus/1003920",
+                "contextr": "cruise tourism cruises are a [...]",
+                "label": "marine pollution",
+                "start": 553,
+                "context": "[...] also a major source of marine pollution cruise tourism cruises are a [...]",
+                "contextl": "[...] also a major source of",
+                "phrase": "marine pollution"
+            },
+            {
+                "end": 994,
+                "url": "http://metadata.un.org/thesaurus/1003920",
+                "contextr": "comes from land through sewage [...]",
+                "label": "marine pollution",
+                "start": 992,
+                "context": "[...] major challenges eighty percent of marine pollution comes from land through sewage [...]",
+                "contextl": "[...] major challenges eighty percent of",
+                "phrase": "marine pollution"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4728",
+        "label": "VIOLENCE",
+        "source": "EuroVoc",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1437,
+                "url": "http://eurovoc.europa.eu/4728",
+                "contextr": "against children around cruise ports [...]",
+                "label": "violence",
+                "start": 1436,
+                "context": "[...] exploitation of children goal 16 violence against children around cruise ports [...]",
+                "contextl": "[...] exploitation of children goal 16",
+                "phrase": "violence"
+            },
+            {
+                "end": 2772,
+                "url": "http://eurovoc.europa.eu/4728",
+                "contextr": "against children goal 17 partnerships [...]",
+                "label": "violence",
+                "start": 2771,
+                "context": "[...] goal 16b peace goal 16c violence against children goal 17 partnerships [...]",
+                "contextl": "[...] goal 16b peace goal 16c",
+                "phrase": "violence"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002824",
+        "label": "HEALTH",
+        "source": "UNBIS",
+        "weight": 2,
+        "context": [
+            {
+                "end": 1461,
+                "url": "http://metadata.un.org/thesaurus/1002824",
+                "contextr": "services and food security and [...]",
+                "label": "health",
+                "start": 1460,
+                "context": "[...] the right to territory education health services and food security and [...]",
+                "contextl": "[...] the right to territory education",
+                "phrase": "health"
+            },
+            {
+                "end": 2696,
+                "url": "http://metadata.un.org/thesaurus/1002824",
+                "contextr": "and well being goal 4 [...]",
+                "label": "health",
+                "start": 2695,
+                "context": "[...] zero hunger goal 3 good health and well being goal 4 [...]",
+                "contextl": "[...] zero hunger goal 3 good",
+                "phrase": "health"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002612",
+        "label": "GENDER EQUALITY",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2707,
+                "url": "http://metadata.un.org/thesaurus/1002612",
+                "contextr": "goal 6 clean water and [...]",
+                "label": "gender equality",
+                "start": 2705,
+                "context": "[...] 4 quality education goal 5 gender equality goal 6 clean water and [...]",
+                "contextl": "[...] 4 quality education goal 5",
+                "phrase": "gender equality"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000231",
+        "label": "ALGAE",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1790,
+                "url": "http://metadata.un.org/thesaurus/1000231",
+                "contextr": "at the expense of corals [...]",
+                "label": "algae",
+                "start": 1789,
+                "context": "[...] to nutrient enrichment which favours algae at the expense of corals [...]",
+                "contextl": "[...] to nutrient enrichment which favours",
+                "phrase": "algae"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/5291",
+        "label": "DEATH",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1732,
+                "url": "http://eurovoc.europa.eu/5291",
+                "contextr": "hotels and marinas with cruise [...]",
+                "label": "death",
+                "start": 1731,
+                "context": "[...] leading to bleaching suffocation and death hotels and marinas with cruise [...]",
+                "contextl": "[...] leading to bleaching suffocation and",
+                "phrase": "death"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004748",
+        "label": "PARTNERSHIP",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2777,
+                "url": "http://metadata.un.org/thesaurus/1004748",
+                "contextr": "for the goals © 2019 [...]",
+                "label": "partnership",
+                "start": 2776,
+                "context": "[...] violence against children goal 17 partnerships for the goals © 2019 [...]",
+                "contextl": "[...] violence against children goal 17",
+                "phrase": "partnerships"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004343",
+        "label": "NATURAL RESOURCES",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2137,
+                "url": "http://metadata.un.org/thesaurus/1004343",
+                "contextr": "on land and sea and [...]",
+                "label": "natural resources",
+                "start": 2135,
+                "context": "[...] populations ensuring sustainable use of natural resources on land and sea and [...]",
+                "contextl": "[...] populations ensuring sustainable use of",
+                "phrase": "natural resources"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/2748",
+        "label": "PRIMARY PRODUCT",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 752,
+                "url": "http://eurovoc.europa.eu/2748",
+                "contextr": "extracted from the ocean come [...]",
+                "label": "commodity",
+                "start": 751,
+                "context": "[...] communities and most of the commodities extracted from the ocean come [...]",
+                "contextl": "[...] communities and most of the",
+                "phrase": "commodities"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/516",
+        "label": "RIGHT TO JUSTICE",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2207,
+                "url": "http://eurovoc.europa.eu/516",
+                "contextr": "from land grabbing and the [...]",
+                "label": "legal protection",
+                "start": 2205,
+                "context": "[...] land which will give them legal protection from land grabbing and the [...]",
+                "contextl": "[...] land which will give them",
+                "phrase": "legal protection"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006324",
+        "label": "SWAMPS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 790,
+                "url": "http://metadata.un.org/thesaurus/1006324",
+                "contextr": "reefs etc are two way [...]",
+                "label": "swamps",
+                "start": 789,
+                "context": "[...] dune systems mangroves marshes lagoons swamps reefs etc are two way [...]",
+                "contextl": "[...] dune systems mangroves marshes lagoons",
+                "phrase": "swamps"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001756",
+        "label": "DREDGING",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1715,
+                "url": "http://metadata.un.org/thesaurus/1001756",
+                "contextr": "and infilling sedimentation reduces light [...]",
+                "label": "dredging",
+                "start": 1714,
+                "context": "[...] artificial beaches sedimentation results from dredging and infilling sedimentation reduces light [...]",
+                "contextl": "[...] artificial beaches sedimentation results from",
+                "phrase": "dredging"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005293",
+        "label": "QUANTITATIVE CRITERIA",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 645,
+                "url": "http://metadata.un.org/thesaurus/1005293",
+                "contextr": "of garbage sewage and oil [...]",
+                "label": "amount",
+                "start": 644,
+                "context": "[...] cruise a cruise generates large amounts of garbage sewage and oil [...]",
+                "contextl": "[...] cruise a cruise generates large",
+                "phrase": "amounts"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001053",
+        "label": "COASTAL EROSION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 896,
+                "url": "http://metadata.un.org/thesaurus/1001053",
+                "contextr": "and threaten all lower lying [...]",
+                "label": "coastal erosion",
+                "start": 894,
+                "context": "[...] levels increase the rate of coastal erosion and threaten all lower lying [...]",
+                "contextl": "[...] levels increase the rate of",
+                "phrase": "coastal erosion"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000817",
+        "label": "CARBON DIOXIDE",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 475,
+                "url": "http://metadata.un.org/thesaurus/1000817",
+                "contextr": "which by lowering the ph [...]",
+                "label": "co2",
+                "start": 474,
+                "context": "[...] regulate the climate by absorbing co2 which by lowering the ph [...]",
+                "contextl": "[...] regulate the climate by absorbing",
+                "phrase": "co2"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004747",
+        "label": "PARTICULATE MATTER",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 607,
+                "url": "http://metadata.un.org/thesaurus/1004747",
+                "contextr": "they create a carbon footprint [...]",
+                "label": "particles",
+                "start": 606,
+                "context": "[...] not only produce hazardous diesel particles they create a carbon footprint [...]",
+                "contextl": "[...] not only produce hazardous diesel",
+                "phrase": "particles"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/310",
+        "label": "ECONOMIC GROWTH",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2726,
+                "url": "http://eurovoc.europa.eu/310",
+                "contextr": "goal 9 industry innovation and [...]",
+                "label": "economic growth",
+                "start": 2724,
+                "context": "[...] goal 8 decent work and economic growth goal 9 industry innovation and [...]",
+                "contextl": "[...] goal 8 decent work and",
+                "phrase": "economic growth"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/1439",
+        "label": "INNOVATION",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2730,
+                "url": "http://eurovoc.europa.eu/1439",
+                "contextr": "and infrastructure goal 10 reduced [...]",
+                "label": "innovation",
+                "start": 2729,
+                "context": "[...] economic growth goal 9 industry innovation and infrastructure goal 10 reduced [...]",
+                "contextl": "[...] economic growth goal 9 industry",
+                "phrase": "innovation"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/6407",
+        "label": "ACIDIFICATION",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 482,
+                "url": "http://eurovoc.europa.eu/6407",
+                "contextr": "and de oxygenation thus the [...]",
+                "label": "acidification",
+                "start": 481,
+                "context": "[...] by lowering the ph causes acidification and de oxygenation thus the [...]",
+                "contextl": "[...] by lowering the ph causes",
+                "phrase": "acidification"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002396",
+        "label": "FLORA",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1267,
+                "url": "http://metadata.un.org/thesaurus/1002396",
+                "contextr": "and fauna traditional activities of [...]",
+                "label": "flora",
+                "start": 1266,
+                "context": "[...] habitats are lost for people flora and fauna traditional activities of [...]",
+                "contextl": "[...] habitats are lost for people",
+                "phrase": "flora"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003004",
+        "label": "HUNGER",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2692,
+                "url": "http://metadata.un.org/thesaurus/1003004",
+                "contextr": "goal 3 good health and [...]",
+                "label": "hunger",
+                "start": 2691,
+                "context": "[...] no poverty goal 2 zero hunger goal 3 good health and [...]",
+                "contextl": "[...] no poverty goal 2 zero",
+                "phrase": "hunger"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1007010",
+        "label": "WILDLIFE",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 497,
+                "url": "http://metadata.un.org/thesaurus/1007010",
+                "contextr": "and all other life on [...]",
+                "label": "wildlife",
+                "start": 496,
+                "context": "[...] is a threat to marine wildlife and all other life on [...]",
+                "contextl": "[...] is a threat to marine",
+                "phrase": "wildlife"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005581",
+        "label": "RIVERS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1002,
+                "url": "http://metadata.un.org/thesaurus/1005581",
+                "contextr": "dumping of toxic chemicals like [...]",
+                "label": "rivers",
+                "start": 1001,
+                "context": "[...] land through sewage drains and rivers dumping of toxic chemicals like [...]",
+                "contextl": "[...] land through sewage drains and",
+                "phrase": "rivers"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/3913",
+        "label": "GENDER EQUALITY",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2707,
+                "url": "http://eurovoc.europa.eu/3913",
+                "contextr": "goal 6 clean water and [...]",
+                "label": "gender equality",
+                "start": 2705,
+                "context": "[...] 4 quality education goal 5 gender equality goal 6 clean water and [...]",
+                "contextl": "[...] 4 quality education goal 5",
+                "phrase": "gender equality"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1000218",
+        "label": "AIRPORTS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1702,
+                "url": "http://metadata.un.org/thesaurus/1000218",
+                "contextr": "and in the building and [...]",
+                "label": "airports",
+                "start": 1701,
+                "context": "[...] construction of hotels marinas and airports and in the building and [...]",
+                "contextl": "[...] construction of hotels marinas and",
+                "phrase": "airports"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4485",
+        "label": "WATER TREATMENT",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1193,
+                "url": "http://eurovoc.europa.eu/4485",
+                "contextr": "systems and the relatively high [...]",
+                "label": "water purification",
+                "start": 1191,
+                "context": "[...] drinking water the lack of water purification systems and the relatively high [...]",
+                "contextl": "[...] drinking water the lack of",
+                "phrase": "water purification"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003653",
+        "label": "LAWS AND REGULATIONS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 411,
+                "url": "http://metadata.un.org/thesaurus/1003653",
+                "contextr": "exist which are hardly enforced [...]",
+                "label": "regulations",
+                "start": 410,
+                "context": "[...] are international waters for which regulations exist which are hardly enforced [...]",
+                "contextl": "[...] are international waters for which",
+                "phrase": "regulations"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006019",
+        "label": "SOIL EROSION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 896,
+                "url": "http://metadata.un.org/thesaurus/1006019",
+                "contextr": "and threaten all lower lying [...]",
+                "label": "erosion",
+                "start": 895,
+                "context": "[...] increase the rate of coastal erosion and threaten all lower lying [...]",
+                "contextl": "[...] increase the rate of coastal",
+                "phrase": "erosion"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006954",
+        "label": "WATER QUALITY",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1584,
+                "url": "http://metadata.un.org/thesaurus/1006954",
+                "contextr": "and fishing activities with the [...]",
+                "label": "water quality",
+                "start": 1582,
+                "context": "[...] may have negative impacts on water quality and fishing activities with the [...]",
+                "contextl": "[...] may have negative impacts on",
+                "phrase": "water quality"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/3149",
+        "label": "MARINE LIFE",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1017,
+                "url": "http://eurovoc.europa.eu/3149",
+                "contextr": "and dumping of garbage like [...]",
+                "label": "marine life",
+                "start": 1015,
+                "context": "[...] and algal bloom that destroy marine life and dumping of garbage like [...]",
+                "contextl": "[...] and algal bloom that destroy",
+                "phrase": "marine life"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/961",
+        "label": "HUNGER",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2692,
+                "url": "http://eurovoc.europa.eu/961",
+                "contextr": "goal 3 good health and [...]",
+                "label": "hunger",
+                "start": 2691,
+                "context": "[...] no poverty goal 2 zero hunger goal 3 good health and [...]",
+                "contextl": "[...] no poverty goal 2 zero",
+                "phrase": "hunger"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005004",
+        "label": "POLLUTION CONTROL",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1848,
+                "url": "http://metadata.un.org/thesaurus/1005004",
+                "contextr": "are urgently needed especially related [...]",
+                "label": "emissions reduction",
+                "start": 1846,
+                "context": "[...] long overdue global strategies on emissions reductions are urgently needed especially related [...]",
+                "contextl": "[...] long overdue global strategies on",
+                "phrase": "emissions reductions"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006515",
+        "label": "TIME",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 621,
+                "url": "http://metadata.un.org/thesaurus/1006515",
+                "contextr": "larger than that of a [...]",
+                "label": "time",
+                "start": 620,
+                "context": "[...] which is two to seven times larger than that of a [...]",
+                "contextl": "[...] which is two to seven",
+                "phrase": "times"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002155",
+        "label": "EUTROPHICATION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1010,
+                "url": "http://metadata.un.org/thesaurus/1002155",
+                "contextr": "and algal bloom that destroy [...]",
+                "label": "eutrophication",
+                "start": 1009,
+                "context": "[...] toxic chemicals like fertilizers causing eutrophication and algal bloom that destroy [...]",
+                "contextl": "[...] toxic chemicals like fertilizers causing",
+                "phrase": "eutrophication"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003661",
+        "label": "LEAST DEVELOPED COUNTRIES",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 302,
+                "url": "http://metadata.un.org/thesaurus/1003661",
+                "contextr": "from the sustainable use of [...]",
+                "label": "least developed countries",
+                "start": 299,
+                "context": "[...] small island developing states and least developed countries from the sustainable use of [...]",
+                "contextl": "[...] small island developing states and",
+                "phrase": "least developed countries"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001531",
+        "label": "DECENT WORK",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2723,
+                "url": "http://metadata.un.org/thesaurus/1001531",
+                "contextr": "and economic growth goal 9 [...]",
+                "label": "decent work",
+                "start": 2721,
+                "context": "[...] and clean energy goal 8 decent work and economic growth goal 9 [...]",
+                "contextl": "[...] and clean energy goal 8",
+                "phrase": "decent work"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001518",
+        "label": "DEATH",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1732,
+                "url": "http://metadata.un.org/thesaurus/1001518",
+                "contextr": "hotels and marinas with cruise [...]",
+                "label": "death",
+                "start": 1731,
+                "context": "[...] leading to bleaching suffocation and death hotels and marinas with cruise [...]",
+                "contextl": "[...] leading to bleaching suffocation and",
+                "phrase": "death"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002986",
+        "label": "HUMAN SETTLEMENTS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1262,
+                "url": "http://metadata.un.org/thesaurus/1002986",
+                "contextr": "are lost for people flora [...]",
+                "label": "habitat",
+                "start": 1261,
+                "context": "[...] use and destruction of ecosystems habitats are lost for people flora [...]",
+                "contextl": "[...] use and destruction of ecosystems",
+                "phrase": "habitats"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/3158",
+        "label": "EROSION",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 896,
+                "url": "http://eurovoc.europa.eu/3158",
+                "contextr": "and threaten all lower lying [...]",
+                "label": "erosion",
+                "start": 895,
+                "context": "[...] increase the rate of coastal erosion and threaten all lower lying [...]",
+                "contextl": "[...] increase the rate of coastal",
+                "phrase": "erosion"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/3549",
+        "label": "NATURAL RESOURCES",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2137,
+                "url": "http://eurovoc.europa.eu/3549",
+                "contextr": "on land and sea and [...]",
+                "label": "natural resources",
+                "start": 2135,
+                "context": "[...] populations ensuring sustainable use of natural resources on land and sea and [...]",
+                "contextl": "[...] populations ensuring sustainable use of",
+                "phrase": "natural resources"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001762",
+        "label": "DRINKING WATER",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1188,
+                "url": "http://metadata.un.org/thesaurus/1001762",
+                "contextr": "the lack of water purification [...]",
+                "label": "drinking water",
+                "start": 1186,
+                "context": "[...] overfishing the scarcity of clean drinking water the lack of water purification [...]",
+                "contextl": "[...] overfishing the scarcity of clean",
+                "phrase": "drinking water"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/195",
+        "label": "AIRPORT",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1702,
+                "url": "http://eurovoc.europa.eu/195",
+                "contextr": "and in the building and [...]",
+                "label": "airport",
+                "start": 1701,
+                "context": "[...] construction of hotels marinas and airports and in the building and [...]",
+                "contextl": "[...] construction of hotels marinas and",
+                "phrase": "airports"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005701",
+        "label": "SANITATION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2713,
+                "url": "http://metadata.un.org/thesaurus/1005701",
+                "contextr": "goal 7 affordable and clean [...]",
+                "label": "sanitation",
+                "start": 2712,
+                "context": "[...] goal 6 clean water and sanitation goal 7 affordable and clean [...]",
+                "contextl": "[...] goal 6 clean water and",
+                "phrase": "sanitation"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001854",
+        "label": "ECONOMIC GROWTH",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2726,
+                "url": "http://metadata.un.org/thesaurus/1001854",
+                "contextr": "goal 9 industry innovation and [...]",
+                "label": "economic growth",
+                "start": 2724,
+                "context": "[...] goal 8 decent work and economic growth goal 9 industry innovation and [...]",
+                "contextl": "[...] goal 8 decent work and",
+                "phrase": "economic growth"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005624",
+        "label": "RUNOFF",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1783,
+                "url": "http://metadata.un.org/thesaurus/1005624",
+                "contextr": "contribute to nutrient enrichment which [...]",
+                "label": "runoff",
+                "start": 1782,
+                "context": "[...] illegal sewage disposal and fertilizer runoff contribute to nutrient enrichment which [...]",
+                "contextl": "[...] illegal sewage disposal and fertilizer",
+                "phrase": "runoff"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4438",
+        "label": "AIRCRAFT",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 636,
+                "url": "http://eurovoc.europa.eu/4438",
+                "contextr": "to join a cruise a [...]",
+                "label": "plane",
+                "start": 635,
+                "context": "[...] often passengers will take a plane to join a cruise a [...]",
+                "contextl": "[...] often passengers will take a",
+                "phrase": "plane"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1006878",
+        "label": "VILLAGES",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1385,
+                "url": "http://metadata.un.org/thesaurus/1006878",
+                "contextr": "but also in big coastal [...]",
+                "label": "villages",
+                "start": 1384,
+                "context": "[...] not only in small coastal villages but also in big coastal [...]",
+                "contextl": "[...] not only in small coastal",
+                "phrase": "villages"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002848",
+        "label": "HEAT",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 443,
+                "url": "http://metadata.un.org/thesaurus/1002848",
+                "contextr": "and warm up this higher [...]",
+                "label": "heat",
+                "start": 442,
+                "context": "[...] temperature rises oceans absorb the heat and warm up this higher [...]",
+                "contextl": "[...] temperature rises oceans absorb the",
+                "phrase": "heat"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/2707",
+        "label": "PRODUCTION",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2748,
+                "url": "http://eurovoc.europa.eu/2707",
+                "contextr": "goal 13 climate action goal [...]",
+                "label": "production",
+                "start": 2747,
+                "context": "[...] goal 12 responsible consumption and production goal 13 climate action goal [...]",
+                "contextl": "[...] goal 12 responsible consumption and",
+                "phrase": "production"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/6907",
+        "label": "FORUM",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2395,
+                "url": "http://eurovoc.europa.eu/6907",
+                "contextr": "costal wiki n d impact [...]",
+                "label": "forum",
+                "start": 2394,
+                "context": "[...] for decision makers global ocean forum costal wiki n d impact [...]",
+                "contextl": "[...] for decision makers global ocean",
+                "phrase": "forum"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005146",
+        "label": "PRODUCTION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2748,
+                "url": "http://metadata.un.org/thesaurus/1005146",
+                "contextr": "goal 13 climate action goal [...]",
+                "label": "production",
+                "start": 2747,
+                "context": "[...] goal 12 responsible consumption and production goal 13 climate action goal [...]",
+                "contextl": "[...] goal 12 responsible consumption and",
+                "phrase": "production"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/607",
+        "label": "DRINKING WATER",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1188,
+                "url": "http://eurovoc.europa.eu/607",
+                "contextr": "the lack of water purification [...]",
+                "label": "drinking water",
+                "start": 1186,
+                "context": "[...] overfishing the scarcity of clean drinking water the lack of water purification [...]",
+                "contextl": "[...] overfishing the scarcity of clean",
+                "phrase": "drinking water"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/4199",
+        "label": "PARTNERSHIP",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2777,
+                "url": "http://eurovoc.europa.eu/4199",
+                "contextr": "for the goals © 2019 [...]",
+                "label": "partnership",
+                "start": 2776,
+                "context": "[...] violence against children goal 17 partnerships for the goals © 2019 [...]",
+                "contextl": "[...] violence against children goal 17",
+                "phrase": "partnerships"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004430",
+        "label": "NOISE POLLUTION",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1576,
+                "url": "http://metadata.un.org/thesaurus/1004430",
+                "contextr": "which may have negative impacts [...]",
+                "label": "noise",
+                "start": 1575,
+                "context": "[...] tourism can bring waste and noise which may have negative impacts [...]",
+                "contextl": "[...] tourism can bring waste and",
+                "phrase": "noise"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1001488",
+        "label": "DAMS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1128,
+                "url": "http://metadata.un.org/thesaurus/1001488",
+                "contextr": "which disrupt the natural coastal [...]",
+                "label": "dams",
+                "start": 1127,
+                "context": "[...] coastal protection like dykes and dams which disrupt the natural coastal [...]",
+                "contextl": "[...] coastal protection like dykes and",
+                "phrase": "dams"
+            }
+        ]
+    },
+    {
+        "id": "http://eurovoc.europa.eu/2206",
+        "label": "ENGINEERING STRUCTURE",
+        "source": "EuroVoc",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1128,
+                "url": "http://eurovoc.europa.eu/2206",
+                "contextr": "which disrupt the natural coastal [...]",
+                "label": "dam",
+                "start": 1127,
+                "context": "[...] coastal protection like dykes and dams which disrupt the natural coastal [...]",
+                "contextl": "[...] coastal protection like dykes and",
+                "phrase": "dams"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1005042",
+        "label": "PORTS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 1442,
+                "url": "http://metadata.un.org/thesaurus/1005042",
+                "contextr": "these effects combined can lead [...]",
+                "label": "ports",
+                "start": 1441,
+                "context": "[...] violence against children around cruise ports these effects combined can lead [...]",
+                "contextl": "[...] violence against children around cruise",
+                "phrase": "ports"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1004336",
+        "label": "NATURAL GAS",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 522,
+                "url": "http://metadata.un.org/thesaurus/1004336",
+                "contextr": "emissions produced by aviation goal [...]",
+                "label": "gas",
+                "start": 521,
+                "context": "[...] to climate change through greenhouse gas emissions produced by aviation goal [...]",
+                "contextl": "[...] to climate change through greenhouse",
+                "phrase": "gas"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1002102",
+        "label": "EQUALITY",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 2707,
+                "url": "http://metadata.un.org/thesaurus/1002102",
+                "contextr": "goal 6 clean water and [...]",
+                "label": "equality",
+                "start": 2706,
+                "context": "[...] quality education goal 5 gender equality goal 6 clean water and [...]",
+                "contextl": "[...] quality education goal 5 gender",
+                "phrase": "equality"
+            }
+        ]
+    },
+    {
+        "id": "http://metadata.un.org/thesaurus/1003884",
+        "label": "MANPOWER",
+        "source": "UNBIS",
+        "weight": 1,
+        "context": [
+            {
+                "end": 685,
+                "url": "http://metadata.un.org/thesaurus/1003884",
+                "contextr": "suffer from poor and exploitative [...]",
+                "label": "workers",
+                "start": 684,
+                "context": "[...] storage or processing facilities cruise workers suffer from poor and exploitative [...]",
+                "contextl": "[...] storage or processing facilities cruise",
+                "phrase": "workers"
+            }
+        ]
+    }
+]
