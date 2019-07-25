@@ -3797,7 +3797,22 @@
     "Wallis-et-Futuna"@fr, "Wallis-et-Futuna "@fr, "Уоллис и Футуна"@ru, "واليس وفوتونا"@ar,
     "瓦利斯和富图纳"@zh-cn, "瓦利斯和富圖納"@zh .
 
-<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:altLabel "SIDS"@en .
+<http://data.un.org/kos/geo/DevelopingCountry> skos:altLabel "developing countries"@en,
+    "developing country"@en, "pays en développement"@fr, "país en vías de desarrollo"@es,
+    "Развивающаяся страна"@ru, "دولة نامية"@ar, "发展中国家"@zh .
+
+<http://data.un.org/kos/geo/LeastDevelopedCountry> skos:altLabel "Least Developed Countries"@en,
+    "Pays les moins avancés"@fr, "Países menos desarrollados"@es, "least developed countries"@en,
+    "Наименее развитые страны"@ru, "البلدان الأقل نماء"@ar, "最不发达国家"@zh .
+
+<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:altLabel "Pequeños estados insulares en desarrollo"@es,
+    "Petits États insulaires en développement"@fr, "SIDS"@en, "Small Island Developing States"@en,
+    "small island developing states"@en, "Малые островные развивающиеся государства"@ru,
+    "دول جزرية صغيرة نامية"@ar, "小岛屿发展中国家"@zh .
+
+<http://data.un.org/kos/geo/DevelopedCountry> skos:altLabel "developed countries"@en,
+    "developed country"@en, "pays développé"@fr, "país desarrollado"@es, "экономически развитая страна"@ru,
+    "دولة متقدمة"@ar, "已開發國家"@zh .
 
 <http://data.un.org/kos/geo/736> skos:altLabel "Sudan"@en .
 
@@ -4546,6 +4561,14 @@
 
 <http://data.un.org/kos/geo/876> skos:exactMatch <http://www.wikidata.org/entity/Q35555>,
     <https://www.geonames.org/4034749> .
+
+<http://data.un.org/kos/geo/DevelopingCountry> skos:exactMatch <http://www.wikidata.org/entity/Q177323> .
+
+<http://data.un.org/kos/geo/LeastDevelopedCountry> skos:exactMatch <http://www.wikidata.org/entity/Q752401> .
+
+<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:exactMatch <http://www.wikidata.org/entity/Q1434887> .
+
+<http://data.un.org/kos/geo/DevelopedCountry> skos:exactMatch <http://www.wikidata.org/entity/Q132453> .
 
 <http://data.un.org/kos/geo/736> skos:exactMatch <http://www.wikidata.org/entity/Q1049> .
 
