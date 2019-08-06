@@ -2281,1538 +2281,1382 @@
 
 <http://data.un.org/kos/geo/530> skos:broader <http://data.un.org/kos/geo/29> .
 
-<http://data.un.org/kos/geo/1> skos:prefLabel "World" .
+<http://data.un.org/kos/geo/1> skos:prefLabel "World"@en .
 
-<http://data.un.org/kos/geo/2> skos:prefLabel "Africa" .
+<http://data.un.org/kos/geo/2> skos:prefLabel "Africa"@en .
 
-<http://data.un.org/kos/geo/19> skos:prefLabel "Americas" .
+<http://data.un.org/kos/geo/19> skos:prefLabel "Americas"@en .
 
-<http://data.un.org/kos/geo/142> skos:prefLabel "Asia" .
+<http://data.un.org/kos/geo/142> skos:prefLabel "Asia"@en .
 
-<http://data.un.org/kos/geo/150> skos:prefLabel "Europe" .
+<http://data.un.org/kos/geo/150> skos:prefLabel "Europe"@en .
 
-<http://data.un.org/kos/geo/9> skos:prefLabel "Oceania" .
+<http://data.un.org/kos/geo/9> skos:prefLabel "Oceania"@en .
 
-<http://data.un.org/kos/geo/14> skos:prefLabel "Eastern Africa" .
+<http://data.un.org/kos/geo/14> skos:prefLabel "Eastern Africa"@en .
 
-<http://data.un.org/kos/geo/17> skos:prefLabel "Middle Africa" .
+<http://data.un.org/kos/geo/17> skos:prefLabel "Middle Africa"@en .
 
-<http://data.un.org/kos/geo/18> skos:prefLabel "Southern Africa" .
+<http://data.un.org/kos/geo/18> skos:prefLabel "Southern Africa"@en .
 
-<http://data.un.org/kos/geo/11> skos:prefLabel "Western Africa" .
+<http://data.un.org/kos/geo/11> skos:prefLabel "Western Africa"@en .
 
-<http://data.un.org/kos/geo/29> skos:prefLabel "Caribbean" .
+<http://data.un.org/kos/geo/29> skos:prefLabel "Caribbean"@en .
 
-<http://data.un.org/kos/geo/13> skos:prefLabel "Central America" .
+<http://data.un.org/kos/geo/13> skos:prefLabel "Central America"@en .
 
-<http://data.un.org/kos/geo/5> skos:prefLabel "South America" .
+<http://data.un.org/kos/geo/5> skos:prefLabel "South America"@en .
 
-<http://data.un.org/kos/geo/830> skos:prefLabel "Channel Islands" .
+<http://data.un.org/kos/geo/830> skos:prefLabel "Channel Islands"@en .
 
-<http://data.un.org/kos/geo/86> skos:prefLabel "British Indian Ocean Territory" .
+<http://data.un.org/kos/geo/86> skos:prefLabel "British Indian Ocean Territory"@en,
+    "Indien (le Territoire britannique de l'océan)"@fr, "Territorio Británico del Océano Índico"@es,
+    "Британская территория в Индийском океане"@ru, "إقليم المحيط الهندي البريطاني"@ar,
+    "英屬印度洋領地"@zh .
 
-<http://data.un.org/kos/geo/108> skos:prefLabel "Burundi" .
+<http://data.un.org/kos/geo/108> skos:prefLabel "Burundi"@en, "Burundi"@es, "Burundi"@fr,
+    "Бурунди"@ru, "بوروندي"@ar, "蒲隆地"@zh .
 
-<http://data.un.org/kos/geo/174> skos:prefLabel "Comoros" .
+<http://data.un.org/kos/geo/174> skos:prefLabel "Comoras"@es, "Comores"@fr, "Comoros"@en,
+    "Коморы"@ru, "جزر القمر"@ar, "葛摩"@zh .
 
-<http://data.un.org/kos/geo/262> skos:prefLabel "Djibouti" .
+<http://data.un.org/kos/geo/262> skos:prefLabel "Djibouti"@en, "Djibouti"@fr, "Yibuti"@es,
+    "Джибути"@ru, "جيبوتي"@ar, "吉布提"@zh .
 
-<http://data.un.org/kos/geo/232> skos:prefLabel "Eritrea" .
+<http://data.un.org/kos/geo/232> skos:prefLabel "Eritrea"@en, "Eritrea"@es, "Érythrée"@fr,
+    "Эритрея"@ru, "إريتريا"@ar, "厄立特里亚"@zh .
 
-<http://data.un.org/kos/geo/231> skos:prefLabel "Ethiopia" .
+<http://data.un.org/kos/geo/231> skos:prefLabel "Ethiopia"@en, "Etiopía"@es, "Éthiopie"@fr,
+    "Эфиопия"@ru, "إثيوبيا"@ar, "埃塞俄比亚"@zh .
 
-<http://data.un.org/kos/geo/260> skos:prefLabel "French Southern Territories" .
+<http://data.un.org/kos/geo/260> skos:prefLabel "French Southern Territories"@en,
+    "Terres australes et antarctiques françaises"@fr, "Tierras Australes y Antárticas Francesas"@es,
+    "Французские Южные и Антарктические территории"@ru, "أراض فرنسية جنوبية وأنتارتيكية"@ar,
+    "法属南部领地"@zh .
 
-<http://data.un.org/kos/geo/404> skos:prefLabel "Kenya" .
+<http://data.un.org/kos/geo/404> skos:prefLabel "Kenia"@es, "Kenya"@en, "Kenya"@fr,
+    "Кения"@ru, "كينيا"@ar, "肯尼亚"@zh .
 
-<http://data.un.org/kos/geo/450> skos:prefLabel "Madagascar" .
+<http://data.un.org/kos/geo/450> skos:prefLabel "Madagascar"@en, "Madagascar"@es,
+    "Madagascar"@fr, "Мадагаскар"@ru, "مدغشقر"@ar, "马达加斯加"@zh .
 
-<http://data.un.org/kos/geo/454> skos:prefLabel "Malawi" .
+<http://data.un.org/kos/geo/454> skos:prefLabel "Malaui"@es, "Malawi"@en, "Malawi"@fr,
+    "Малави"@ru, "مالاوي"@ar, "马拉维"@zh .
 
-<http://data.un.org/kos/geo/480> skos:prefLabel "Mauritius" .
+<http://data.un.org/kos/geo/480> skos:prefLabel "Maurice"@fr, "Mauricio"@es, "Mauritius"@en,
+    "Маврикий"@ru, "موريشيوس"@ar, "毛里求斯"@zh .
 
-<http://data.un.org/kos/geo/175> skos:prefLabel "Mayotte" .
+<http://data.un.org/kos/geo/175> skos:prefLabel "Mayotte"@en, "Mayotte"@es, "Mayotte"@fr,
+    "Майотта"@ru, "مايوت"@ar, "马约特"@zh .
 
-<http://data.un.org/kos/geo/508> skos:prefLabel "Mozambique" .
+<http://data.un.org/kos/geo/508> skos:prefLabel "Mozambique"@en, "Mozambique"@es,
+    "Mozambique"@fr, "Мозамбик"@ru, "موزمبيق"@ar, "莫桑比克"@zh .
 
-<http://data.un.org/kos/geo/638> skos:prefLabel "Réunion" .
+<http://data.un.org/kos/geo/638> skos:prefLabel "La Réunion"@fr, "Reunión"@es, "Réunion"@en,
+    "Реюньон"@ru, "لا ريونيون"@ar, "留尼汪"@zh .
 
-<http://data.un.org/kos/geo/646> skos:prefLabel "Rwanda" .
+<http://data.un.org/kos/geo/646> skos:prefLabel "Ruanda"@es, "Rwanda"@en, "Rwanda"@fr,
+    "Руанда"@ru, "رواندا"@ar, "卢旺达"@zh .
 
-<http://data.un.org/kos/geo/690> skos:prefLabel "Seychelles" .
+<http://data.un.org/kos/geo/690> skos:prefLabel "Seychelles"@en, "Seychelles"@es,
+    "Seychelles"@fr, "Сейшельские Острова"@ru, "سيشل"@ar, "塞舌尔"@zh .
 
-<http://data.un.org/kos/geo/706> skos:prefLabel "Somalia" .
+<http://data.un.org/kos/geo/706> skos:prefLabel "Somalia"@en, "Somalia"@es, "Somalie"@fr,
+    "Сомали"@ru, "الصومال"@ar, "索马里"@zh .
 
-<http://data.un.org/kos/geo/728> skos:prefLabel "South Sudan" .
+<http://data.un.org/kos/geo/728> skos:prefLabel "Soudan du Sud"@fr, "South Sudan"@en,
+    "Sudán del Sur"@es, "Южный Судан"@ru, "جنوب السودان"@ar, "南苏丹"@zh .
 
-<http://data.un.org/kos/geo/800> skos:prefLabel "Uganda" .
+<http://data.un.org/kos/geo/800> skos:prefLabel "Ouganda"@fr, "Uganda"@en, "Uganda"@es,
+    "Уганда"@ru, "أوغندا"@ar, "乌干达"@zh .
 
-<http://data.un.org/kos/geo/834> skos:prefLabel "United Republic of Tanzania" .
+<http://data.un.org/kos/geo/834> skos:prefLabel "Tanzania"@es, "Tanzanie"@fr, "United Republic of Tanzania"@en,
+    "Танзания"@ru, "تنزانيا"@ar, "坦桑尼亚"@zh .
 
-<http://data.un.org/kos/geo/894> skos:prefLabel "Zambia" .
+<http://data.un.org/kos/geo/894> skos:prefLabel "Zambia"@en, "Zambia"@es, "Zambie"@fr,
+    "Замбия"@ru, "زامبيا"@ar, "赞比亚"@zh .
 
-<http://data.un.org/kos/geo/716> skos:prefLabel "Zimbabwe" .
+<http://data.un.org/kos/geo/716> skos:prefLabel "Zimbabue"@es, "Zimbabwe"@en, "Zimbabwe"@fr,
+    "Зимбабве"@ru, "زيمبابوي"@ar, "辛巴威"@zh .
 
-<http://data.un.org/kos/geo/24> skos:prefLabel "Angola" .
+<http://data.un.org/kos/geo/24> skos:prefLabel "Angola"@en, "Angola"@es, "Angola"@fr,
+    "Ангола"@ru, "أنغولا"@ar, "安哥拉"@zh .
 
-<http://data.un.org/kos/geo/120> skos:prefLabel "Cameroon" .
+<http://data.un.org/kos/geo/120> skos:prefLabel "Cameroon"@en, "Cameroun"@fr, "Camerún"@es,
+    "Камерун"@ru, "الكاميرون"@ar, "喀麦隆"@zh .
 
-<http://data.un.org/kos/geo/140> skos:prefLabel "Central African Republic" .
-
-<http://data.un.org/kos/geo/148> skos:prefLabel "Chad" .
-
-<http://data.un.org/kos/geo/178> skos:prefLabel "Congo" .
-
-<http://data.un.org/kos/geo/180> skos:prefLabel "Democratic Republic of the Congo" .
-
-<http://data.un.org/kos/geo/226> skos:prefLabel "Equatorial Guinea" .
-
-<http://data.un.org/kos/geo/266> skos:prefLabel "Gabon" .
-
-<http://data.un.org/kos/geo/678> skos:prefLabel "Sao Tome and Principe" .
-
-<http://data.un.org/kos/geo/72> skos:prefLabel "Botswana" .
-
-<http://data.un.org/kos/geo/748> skos:prefLabel "Eswatini" .
-
-<http://data.un.org/kos/geo/426> skos:prefLabel "Lesotho" .
-
-<http://data.un.org/kos/geo/516> skos:prefLabel "Namibia" .
-
-<http://data.un.org/kos/geo/710> skos:prefLabel "South Africa" .
-
-<http://data.un.org/kos/geo/204> skos:prefLabel "Benin" .
-
-<http://data.un.org/kos/geo/854> skos:prefLabel "Burkina Faso" .
-
-<http://data.un.org/kos/geo/132> skos:prefLabel "Cabo Verde" .
-
-<http://data.un.org/kos/geo/384> skos:prefLabel "Côte d’Ivoire" .
-
-<http://data.un.org/kos/geo/270> skos:prefLabel "Gambia" .
-
-<http://data.un.org/kos/geo/288> skos:prefLabel "Ghana" .
-
-<http://data.un.org/kos/geo/324> skos:prefLabel "Guinea" .
-
-<http://data.un.org/kos/geo/624> skos:prefLabel "Guinea-Bissau" .
-
-<http://data.un.org/kos/geo/430> skos:prefLabel "Liberia" .
-
-<http://data.un.org/kos/geo/466> skos:prefLabel "Mali" .
-
-<http://data.un.org/kos/geo/478> skos:prefLabel "Mauritania" .
-
-<http://data.un.org/kos/geo/562> skos:prefLabel "Niger" .
-
-<http://data.un.org/kos/geo/566> skos:prefLabel "Nigeria" .
-
-<http://data.un.org/kos/geo/654> skos:prefLabel "Saint Helena" .
-
-<http://data.un.org/kos/geo/686> skos:prefLabel "Senegal" .
-
-<http://data.un.org/kos/geo/694> skos:prefLabel "Sierra Leone" .
-
-<http://data.un.org/kos/geo/768> skos:prefLabel "Togo" .
-
-<http://data.un.org/kos/geo/660> skos:prefLabel "Anguilla" .
-
-<http://data.un.org/kos/geo/28> skos:prefLabel "Antigua and Barbuda" .
-
-<http://data.un.org/kos/geo/533> skos:prefLabel "Aruba" .
-
-<http://data.un.org/kos/geo/44> skos:prefLabel "Bahamas" .
-
-<http://data.un.org/kos/geo/52> skos:prefLabel "Barbados" .
-
-<http://data.un.org/kos/geo/535> skos:prefLabel "Bonaire, Sint Eustatius and Saba" .
-
-<http://data.un.org/kos/geo/92> skos:prefLabel "British Virgin Islands" .
-
-<http://data.un.org/kos/geo/136> skos:prefLabel "Cayman Islands" .
-
-<http://data.un.org/kos/geo/192> skos:prefLabel "Cuba" .
-
-<http://data.un.org/kos/geo/531> skos:prefLabel "Curaçao" .
-
-<http://data.un.org/kos/geo/212> skos:prefLabel "Dominica" .
-
-<http://data.un.org/kos/geo/214> skos:prefLabel "Dominican Republic" .
-
-<http://data.un.org/kos/geo/308> skos:prefLabel "Grenada" .
-
-<http://data.un.org/kos/geo/312> skos:prefLabel "Guadeloupe" .
-
-<http://data.un.org/kos/geo/332> skos:prefLabel "Haiti" .
-
-<http://data.un.org/kos/geo/388> skos:prefLabel "Jamaica" .
-
-<http://data.un.org/kos/geo/474> skos:prefLabel "Martinique" .
-
-<http://data.un.org/kos/geo/500> skos:prefLabel "Montserrat" .
-
-<http://data.un.org/kos/geo/630> skos:prefLabel "Puerto Rico" .
-
-<http://data.un.org/kos/geo/652> skos:prefLabel "Saint Barthélemy" .
-
-<http://data.un.org/kos/geo/659> skos:prefLabel "Saint Kitts and Nevis" .
-
-<http://data.un.org/kos/geo/662> skos:prefLabel "Saint Lucia" .
-
-<http://data.un.org/kos/geo/663> skos:prefLabel "Saint Martin (French Part)" .
-
-<http://data.un.org/kos/geo/670> skos:prefLabel "Saint Vincent and the Grenadines" .
-
-<http://data.un.org/kos/geo/534> skos:prefLabel "Sint Maarten (Dutch part)" .
-
-<http://data.un.org/kos/geo/780> skos:prefLabel "Trinidad and Tobago" .
-
-<http://data.un.org/kos/geo/796> skos:prefLabel "Turks and Caicos Islands" .
-
-<http://data.un.org/kos/geo/850> skos:prefLabel "United States Virgin Islands" .
-
-<http://data.un.org/kos/geo/84> skos:prefLabel "Belize" .
-
-<http://data.un.org/kos/geo/188> skos:prefLabel "Costa Rica" .
-
-<http://data.un.org/kos/geo/222> skos:prefLabel "El Salvador" .
-
-<http://data.un.org/kos/geo/320> skos:prefLabel "Guatemala" .
-
-<http://data.un.org/kos/geo/340> skos:prefLabel "Honduras" .
-
-<http://data.un.org/kos/geo/484> skos:prefLabel "Mexico" .
-
-<http://data.un.org/kos/geo/558> skos:prefLabel "Nicaragua" .
-
-<http://data.un.org/kos/geo/591> skos:prefLabel "Panama" .
-
-<http://data.un.org/kos/geo/32> skos:prefLabel "Argentina" .
-
-<http://data.un.org/kos/geo/68> skos:prefLabel "Bolivia (Plurinational State of)" .
-
-<http://data.un.org/kos/geo/74> skos:prefLabel "Bouvet Island" .
-
-<http://data.un.org/kos/geo/76> skos:prefLabel "Brazil" .
-
-<http://data.un.org/kos/geo/152> skos:prefLabel "Chile" .
-
-<http://data.un.org/kos/geo/170> skos:prefLabel "Colombia" .
-
-<http://data.un.org/kos/geo/218> skos:prefLabel "Ecuador" .
-
-<http://data.un.org/kos/geo/238> skos:prefLabel "Falkland Islands (Malvinas)" .
-
-<http://data.un.org/kos/geo/254> skos:prefLabel "French Guiana" .
-
-<http://data.un.org/kos/geo/328> skos:prefLabel "Guyana" .
-
-<http://data.un.org/kos/geo/600> skos:prefLabel "Paraguay" .
-
-<http://data.un.org/kos/geo/604> skos:prefLabel "Peru" .
-
-<http://data.un.org/kos/geo/239> skos:prefLabel "South Georgia and the South Sandwich Islands" .
-
-<http://data.un.org/kos/geo/740> skos:prefLabel "Suriname" .
-
-<http://data.un.org/kos/geo/858> skos:prefLabel "Uruguay" .
-
-<http://data.un.org/kos/geo/862> skos:prefLabel "Venezuela (Bolivarian Republic of)" .
-
-<http://data.un.org/kos/geo/831> skos:prefLabel "Guernsey" .
-
-<http://data.un.org/kos/geo/832> skos:prefLabel "Jersey" .
-
-<http://data.un.org/kos/geo/680> skos:prefLabel "Sark" .
-
-<http://data.un.org/kos/geo/12> skos:prefLabel "Algeria" .
-
-<http://data.un.org/kos/geo/818> skos:prefLabel "Egypt" .
-
-<http://data.un.org/kos/geo/434> skos:prefLabel "Libya" .
-
-<http://data.un.org/kos/geo/504> skos:prefLabel "Morocco" .
-
-<http://data.un.org/kos/geo/729> skos:prefLabel "Sudan" .
-
-<http://data.un.org/kos/geo/788> skos:prefLabel "Tunisia" .
-
-<http://data.un.org/kos/geo/732> skos:prefLabel "Western Sahara" .
-
-<http://data.un.org/kos/geo/60> skos:prefLabel "Bermuda" .
-
-<http://data.un.org/kos/geo/124> skos:prefLabel "Canada" .
-
-<http://data.un.org/kos/geo/304> skos:prefLabel "Greenland" .
-
-<http://data.un.org/kos/geo/666> skos:prefLabel "Saint Pierre and Miquelon" .
-
-<http://data.un.org/kos/geo/840> skos:prefLabel "United States of America" .
-
-<http://data.un.org/kos/geo/10> skos:prefLabel "Antarctica" .
-
-<http://data.un.org/kos/geo/398> skos:prefLabel "Kazakhstan" .
-
-<http://data.un.org/kos/geo/417> skos:prefLabel "Kyrgyzstan" .
-
-<http://data.un.org/kos/geo/762> skos:prefLabel "Tajikistan" .
-
-<http://data.un.org/kos/geo/795> skos:prefLabel "Turkmenistan" .
-
-<http://data.un.org/kos/geo/860> skos:prefLabel "Uzbekistan" .
-
-<http://data.un.org/kos/geo/156> skos:prefLabel "China" .
-
-<http://data.un.org/kos/geo/344> skos:prefLabel "China, Hong Kong Special Administrative Region" .
-
-<http://data.un.org/kos/geo/446> skos:prefLabel "China, Macao Special Administrative Region" .
-
-<http://data.un.org/kos/geo/408> skos:prefLabel "Democratic People's Republic of Korea" .
-
-<http://data.un.org/kos/geo/392> skos:prefLabel "Japan" .
-
-<http://data.un.org/kos/geo/496> skos:prefLabel "Mongolia" .
-
-<http://data.un.org/kos/geo/410> skos:prefLabel "Republic of Korea" .
-
-<http://data.un.org/kos/geo/96> skos:prefLabel "Brunei Darussalam" .
-
-<http://data.un.org/kos/geo/116> skos:prefLabel "Cambodia" .
-
-<http://data.un.org/kos/geo/360> skos:prefLabel "Indonesia" .
-
-<http://data.un.org/kos/geo/418> skos:prefLabel "Lao People's Democratic Republic" .
-
-<http://data.un.org/kos/geo/458> skos:prefLabel "Malaysia" .
-
-<http://data.un.org/kos/geo/104> skos:prefLabel "Myanmar" .
-
-<http://data.un.org/kos/geo/608> skos:prefLabel "Philippines" .
-
-<http://data.un.org/kos/geo/702> skos:prefLabel "Singapore" .
-
-<http://data.un.org/kos/geo/764> skos:prefLabel "Thailand" .
-
-<http://data.un.org/kos/geo/626> skos:prefLabel "Timor-Leste" .
-
-<http://data.un.org/kos/geo/704> skos:prefLabel "Viet Nam" .
-
-<http://data.un.org/kos/geo/4> skos:prefLabel "Afghanistan" .
-
-<http://data.un.org/kos/geo/50> skos:prefLabel "Bangladesh" .
-
-<http://data.un.org/kos/geo/64> skos:prefLabel "Bhutan" .
-
-<http://data.un.org/kos/geo/356> skos:prefLabel "India" .
-
-<http://data.un.org/kos/geo/364> skos:prefLabel "Iran (Islamic Republic of)" .
-
-<http://data.un.org/kos/geo/462> skos:prefLabel "Maldives" .
-
-<http://data.un.org/kos/geo/524> skos:prefLabel "Nepal" .
-
-<http://data.un.org/kos/geo/586> skos:prefLabel "Pakistan" .
-
-<http://data.un.org/kos/geo/144> skos:prefLabel "Sri Lanka" .
-
-<http://data.un.org/kos/geo/51> skos:prefLabel "Armenia" .
-
-<http://data.un.org/kos/geo/31> skos:prefLabel "Azerbaijan" .
-
-<http://data.un.org/kos/geo/48> skos:prefLabel "Bahrain" .
-
-<http://data.un.org/kos/geo/196> skos:prefLabel "Cyprus" .
-
-<http://data.un.org/kos/geo/268> skos:prefLabel "Georgia" .
-
-<http://data.un.org/kos/geo/368> skos:prefLabel "Iraq" .
-
-<http://data.un.org/kos/geo/376> skos:prefLabel "Israel" .
-
-<http://data.un.org/kos/geo/400> skos:prefLabel "Jordan" .
-
-<http://data.un.org/kos/geo/414> skos:prefLabel "Kuwait" .
-
-<http://data.un.org/kos/geo/422> skos:prefLabel "Lebanon" .
-
-<http://data.un.org/kos/geo/512> skos:prefLabel "Oman" .
-
-<http://data.un.org/kos/geo/634> skos:prefLabel "Qatar" .
-
-<http://data.un.org/kos/geo/682> skos:prefLabel "Saudi Arabia" .
-
-<http://data.un.org/kos/geo/275> skos:prefLabel "State of Palestine" .
-
-<http://data.un.org/kos/geo/760> skos:prefLabel "Syrian Arab Republic" .
-
-<http://data.un.org/kos/geo/792> skos:prefLabel "Turkey" .
-
-<http://data.un.org/kos/geo/784> skos:prefLabel "United Arab Emirates" .
-
-<http://data.un.org/kos/geo/887> skos:prefLabel "Yemen" .
-
-<http://data.un.org/kos/geo/112> skos:prefLabel "Belarus" .
-
-<http://data.un.org/kos/geo/100> skos:prefLabel "Bulgaria" .
-
-<http://data.un.org/kos/geo/203> skos:prefLabel "Czechia" .
-
-<http://data.un.org/kos/geo/348> skos:prefLabel "Hungary" .
-
-<http://data.un.org/kos/geo/616> skos:prefLabel "Poland" .
-
-<http://data.un.org/kos/geo/498> skos:prefLabel "Republic of Moldova" .
-
-<http://data.un.org/kos/geo/642> skos:prefLabel "Romania" .
-
-<http://data.un.org/kos/geo/643> skos:prefLabel "Russian Federation" .
-
-<http://data.un.org/kos/geo/703> skos:prefLabel "Slovakia" .
-
-<http://data.un.org/kos/geo/804> skos:prefLabel "Ukraine" .
-
-<http://data.un.org/kos/geo/248> skos:prefLabel "Åland Islands" .
-
-<http://data.un.org/kos/geo/208> skos:prefLabel "Denmark" .
-
-<http://data.un.org/kos/geo/233> skos:prefLabel "Estonia" .
-
-<http://data.un.org/kos/geo/234> skos:prefLabel "Faroe Islands" .
-
-<http://data.un.org/kos/geo/246> skos:prefLabel "Finland" .
-
-<http://data.un.org/kos/geo/352> skos:prefLabel "Iceland" .
-
-<http://data.un.org/kos/geo/372> skos:prefLabel "Ireland" .
-
-<http://data.un.org/kos/geo/833> skos:prefLabel "Isle of Man" .
-
-<http://data.un.org/kos/geo/428> skos:prefLabel "Latvia" .
-
-<http://data.un.org/kos/geo/440> skos:prefLabel "Lithuania" .
-
-<http://data.un.org/kos/geo/578> skos:prefLabel "Norway" .
-
-<http://data.un.org/kos/geo/744> skos:prefLabel "Svalbard and Jan Mayen Islands" .
-
-<http://data.un.org/kos/geo/752> skos:prefLabel "Sweden" .
-
-<http://data.un.org/kos/geo/826> skos:prefLabel "United Kingdom of Great Britain and Northern Ireland" .
-
-<http://data.un.org/kos/geo/8> skos:prefLabel "Albania" .
-
-<http://data.un.org/kos/geo/20> skos:prefLabel "Andorra" .
-
-<http://data.un.org/kos/geo/70> skos:prefLabel "Bosnia and Herzegovina" .
-
-<http://data.un.org/kos/geo/191> skos:prefLabel "Croatia" .
-
-<http://data.un.org/kos/geo/292> skos:prefLabel "Gibraltar" .
-
-<http://data.un.org/kos/geo/300> skos:prefLabel "Greece" .
-
-<http://data.un.org/kos/geo/336> skos:prefLabel "Holy See" .
-
-<http://data.un.org/kos/geo/380> skos:prefLabel "Italy" .
-
-<http://data.un.org/kos/geo/470> skos:prefLabel "Malta" .
-
-<http://data.un.org/kos/geo/499> skos:prefLabel "Montenegro" .
-
-<http://data.un.org/kos/geo/807> skos:prefLabel "North Macedonia" .
-
-<http://data.un.org/kos/geo/620> skos:prefLabel "Portugal" .
-
-<http://data.un.org/kos/geo/674> skos:prefLabel "San Marino" .
-
-<http://data.un.org/kos/geo/688> skos:prefLabel "Serbia" .
-
-<http://data.un.org/kos/geo/705> skos:prefLabel "Slovenia" .
-
-<http://data.un.org/kos/geo/724> skos:prefLabel "Spain" .
-
-<http://data.un.org/kos/geo/40> skos:prefLabel "Austria" .
-
-<http://data.un.org/kos/geo/56> skos:prefLabel "Belgium" .
-
-<http://data.un.org/kos/geo/250> skos:prefLabel "France" .
-
-<http://data.un.org/kos/geo/276> skos:prefLabel "Germany" .
-
-<http://data.un.org/kos/geo/438> skos:prefLabel "Liechtenstein" .
-
-<http://data.un.org/kos/geo/442> skos:prefLabel "Luxembourg" .
-
-<http://data.un.org/kos/geo/492> skos:prefLabel "Monaco" .
-
-<http://data.un.org/kos/geo/528> skos:prefLabel "Netherlands" .
-
-<http://data.un.org/kos/geo/756> skos:prefLabel "Switzerland" .
-
-<http://data.un.org/kos/geo/36> skos:prefLabel "Australia" .
-
-<http://data.un.org/kos/geo/162> skos:prefLabel "Christmas Island" .
-
-<http://data.un.org/kos/geo/166> skos:prefLabel "Cocos (Keeling) Islands" .
-
-<http://data.un.org/kos/geo/334> skos:prefLabel "Heard Island and McDonald Islands" .
-
-<http://data.un.org/kos/geo/554> skos:prefLabel "New Zealand" .
-
-<http://data.un.org/kos/geo/574> skos:prefLabel "Norfolk Island" .
-
-<http://data.un.org/kos/geo/242> skos:prefLabel "Fiji" .
-
-<http://data.un.org/kos/geo/540> skos:prefLabel "New Caledonia" .
-
-<http://data.un.org/kos/geo/598> skos:prefLabel "Papua New Guinea" .
-
-<http://data.un.org/kos/geo/90> skos:prefLabel "Solomon Islands" .
-
-<http://data.un.org/kos/geo/548> skos:prefLabel "Vanuatu" .
-
-<http://data.un.org/kos/geo/316> skos:prefLabel "Guam" .
-
-<http://data.un.org/kos/geo/296> skos:prefLabel "Kiribati" .
-
-<http://data.un.org/kos/geo/584> skos:prefLabel "Marshall Islands" .
-
-<http://data.un.org/kos/geo/583> skos:prefLabel "Micronesia (Federated States of)" .
-
-<http://data.un.org/kos/geo/520> skos:prefLabel "Nauru" .
-
-<http://data.un.org/kos/geo/580> skos:prefLabel "Northern Mariana Islands" .
-
-<http://data.un.org/kos/geo/585> skos:prefLabel "Palau" .
-
-<http://data.un.org/kos/geo/581> skos:prefLabel "United States Minor Outlying Islands" .
-
-<http://data.un.org/kos/geo/16> skos:prefLabel "American Samoa" .
-
-<http://data.un.org/kos/geo/184> skos:prefLabel "Cook Islands" .
-
-<http://data.un.org/kos/geo/258> skos:prefLabel "French Polynesia" .
-
-<http://data.un.org/kos/geo/570> skos:prefLabel "Niue" .
-
-<http://data.un.org/kos/geo/612> skos:prefLabel "Pitcairn" .
-
-<http://data.un.org/kos/geo/882> skos:prefLabel "Samoa" .
-
-<http://data.un.org/kos/geo/772> skos:prefLabel "Tokelau" .
-
-<http://data.un.org/kos/geo/776> skos:prefLabel "Tonga" .
-
-<http://data.un.org/kos/geo/798> skos:prefLabel "Tuvalu" .
-
-<http://data.un.org/kos/geo/876> skos:prefLabel "Wallis and Futuna Islands" .
-
-<http://data.un.org/kos/geo/202> skos:prefLabel "Sub-Saharan Africa" .
-
-<http://data.un.org/kos/geo/419> skos:prefLabel "Latin America and the Caribbean" .
-
-<http://data.un.org/kos/geo/154> skos:prefLabel "Northern Europe" .
-
-<http://data.un.org/kos/geo/15> skos:prefLabel "Northern Africa" .
-
-<http://data.un.org/kos/geo/21> skos:prefLabel "Northern America" .
-
-<http://data.un.org/kos/geo/143> skos:prefLabel "Central Asia" .
-
-<http://data.un.org/kos/geo/30> skos:prefLabel "Eastern Asia" .
-
-<http://data.un.org/kos/geo/35> skos:prefLabel "South-eastern Asia" .
-
-<http://data.un.org/kos/geo/34> skos:prefLabel "Southern Asia" .
-
-<http://data.un.org/kos/geo/145> skos:prefLabel "Western Asia" .
-
-<http://data.un.org/kos/geo/151> skos:prefLabel "Eastern Europe" .
-
-<http://data.un.org/kos/geo/39> skos:prefLabel "Southern Europe" .
-
-<http://data.un.org/kos/geo/155> skos:prefLabel "Western Europe" .
-
-<http://data.un.org/kos/geo/53> skos:prefLabel "Australia and New Zealand" .
-
-<http://data.un.org/kos/geo/54> skos:prefLabel "Melanesia" .
-
-<http://data.un.org/kos/geo/57> skos:prefLabel "Micronesia" .
-
-<http://data.un.org/kos/geo/61> skos:prefLabel "Polynesia" .
-
-<http://data.un.org/kos/geo/DevelopingCountry> skos:prefLabel "Developing country" .
-
-<http://data.un.org/kos/geo/LeastDevelopedCountry> skos:prefLabel "Least developed country" .
-
-<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:prefLabel "Small island developing state" .
-
-<http://data.un.org/kos/geo/DevelopedCountry> skos:prefLabel "Developed country" .
-
-<http://data.un.org/kos/geo/736> skos:prefLabel "Sudan (pre-2011)" .
-
-<http://data.un.org/kos/geo/530> skos:prefLabel "Netherlands Antilles (pre-2011)" .
-
-<http://data.un.org/kos/geo/86> skos:altLabel "British Indian Ocean Territory"@en,
-    "Indien (le Territoire britannique de l'océan)"@fr, "Territoire britannique de l'océan Indien"@fr,
-    "Territorio Británico del Océano Índico"@es, "Британская территория в Индийском океане"@ru,
-    "إقليم المحيط الهندي البريطاني"@ar, "英屬印度洋領地"@zh .
-
-<http://data.un.org/kos/geo/108> skos:altLabel "Burundi"@en, "Burundi"@en-ca, "Burundi"@en-gb,
-    "Burundi"@es, "Burundi"@fr, "Burundi (le)"@fr, "Бурунди"@ru, "بوروندي"@ar, "蒲隆地"@zh,
-    "蒲隆地"@zh-cn .
-
-<http://data.un.org/kos/geo/174> skos:altLabel "Comoras"@es, "Comores"@fr, "Comores (les)"@fr,
-    "Comoros"@en, "Comoros"@en-ca, "Comoros"@en-gb, "Коморы"@ru, "جزر القمر"@ar, "科摩罗"@zh-cn,
-    "葛摩"@zh .
-
-<http://data.un.org/kos/geo/262> skos:altLabel "Djibouti"@en, "Djibouti"@en-ca, "Djibouti"@en-gb,
-    "Djibouti"@fr, "Yibuti"@es, "Джибути"@ru, "جيبوتي"@ar, "吉布提"@zh, "吉布提"@zh-cn .
-
-<http://data.un.org/kos/geo/232> skos:altLabel "Eritrea"@en, "Eritrea"@en-ca, "Eritrea"@en-gb,
-    "Eritrea"@es, "Érythrée"@fr, "Érythrée (l')"@fr, "Эритрея"@ru, "إريتريا"@ar, "厄立特里亚"@zh,
-    "厄立特里亚"@zh-cn .
-
-<http://data.un.org/kos/geo/231> skos:altLabel "Ethiopia"@en, "Ethiopia"@en-ca, "Ethiopia"@en-gb,
-    "Etiopía"@es, "Éthiopie"@fr, "Éthiopie (l')"@fr, "Эфиопия"@ru, "إثيوبيا"@ar, "埃塞俄比亚"@zh .
-
-<http://data.un.org/kos/geo/260> skos:altLabel "French Southern and Antarctic Lands"@en,
-    "Terres australes et antarctiques françaises"@fr, "Terres australes françaises (les)"@fr,
-    "Tierras Australes y Antárticas Francesas"@es, "Французские Южные и Антарктические территории"@ru,
-    "أراض فرنسية جنوبية وأنتارتيكية"@ar, "法属南部领地"@zh, "法属南部领地"@zh-cn .
-
-<http://data.un.org/kos/geo/404> skos:altLabel "Kenia"@es, "Kenya"@en, "Kenya"@en-ca,
-    "Kenya"@en-gb, "Kenya"@fr, "Kenya (le)"@fr, "Кения"@ru, "كينيا"@ar, "肯尼亚"@zh, "肯尼亚"@zh-cn .
-
-<http://data.un.org/kos/geo/450> skos:altLabel "Madagascar"@en, "Madagascar"@en-ca,
-    "Madagascar"@en-gb, "Madagascar"@es, "Madagascar"@fr, "Мадагаскар"@ru, "مدغشقر"@ar,
-    "马达加斯加"@zh, "马达加斯加"@zh-cn .
-
-<http://data.un.org/kos/geo/454> skos:altLabel "Malaui"@es, "Malawi"@en, "Malawi"@en-ca,
-    "Malawi"@en-gb, "Malawi"@fr, "Malawi (le)"@fr, "Малави"@ru, "مالاوي"@ar, "马拉维"@zh .
-
-<http://data.un.org/kos/geo/480> skos:altLabel "Maurice"@fr, "Mauricio"@es, "Mauritius"@en,
-    "Mauritius"@en-ca, "Mauritius"@en-gb, "Маврикий"@ru, "موريشيوس"@ar, "毛里求斯"@zh, "毛里求斯"@zh-cn .
-
-<http://data.un.org/kos/geo/175> skos:altLabel "Mayotte"@en, "Mayotte"@en-ca, "Mayotte"@en-gb,
-    "Mayotte"@es, "Mayotte"@fr, "Майотта"@ru, "مايوت"@ar, "马约特"@zh, "马约特"@zh-cn .
-
-<http://data.un.org/kos/geo/508> skos:altLabel "Mozambique"@en, "Mozambique"@en-ca,
-    "Mozambique"@en-gb, "Mozambique"@es, "Mozambique"@fr, "Mozambique (le)"@fr, "Мозамбик"@ru,
-    "موزمبيق"@ar, "莫桑比克"@zh .
-
-<http://data.un.org/kos/geo/638> skos:altLabel "La Réunion"@fr, "Reunión"@es, "Réunion"@en,
-    "Réunion"@en-ca, "Réunion"@en-gb, "Réunion (La)"@fr, "Реюньон"@ru, "لا ريونيون"@ar,
-    "留尼汪"@zh, "留尼汪"@zh-cn .
-
-<http://data.un.org/kos/geo/646> skos:altLabel "Ruanda"@es, "Rwanda"@en, "Rwanda"@en-ca,
-    "Rwanda"@en-gb, "Rwanda"@fr, "Rwanda (le)"@fr, "Руанда"@ru, "رواندا"@ar, "卢旺达"@zh,
-    "卢旺达"@zh-cn .
-
-<http://data.un.org/kos/geo/690> skos:altLabel "Seychelles"@en, "Seychelles"@en-ca,
-    "Seychelles"@en-gb, "Seychelles"@es, "Seychelles"@fr, "Seychelles (les)"@fr, "Сейшельские Острова"@ru,
-    "سيشل"@ar, "塞舌尔"@zh, "塞舌尔"@zh-cn .
-
-<http://data.un.org/kos/geo/706> skos:altLabel "Somalia"@en, "Somalia"@en-ca, "Somalia"@en-gb,
-    "Somalia"@es, "Somalie"@fr, "Somalie (la)"@fr, "Сомали"@ru, "الصومال"@ar, "索马里"@zh,
-    "索马里"@zh-cn .
-
-<http://data.un.org/kos/geo/728> skos:altLabel "Soudan du Sud"@fr, "Soudan du Sud (le)"@fr,
-    "South Sudan"@en, "South Sudan"@en-ca, "South Sudan"@en-gb, "Sudán del Sur"@es, "Южный Судан"@ru,
-    "جنوب السودان"@ar, "南苏丹"@zh, "南苏丹"@zh-cn .
-
-<http://data.un.org/kos/geo/800> skos:altLabel "Ouganda"@fr, "Ouganda (l')"@fr, "Uganda"@en,
-    "Uganda"@en-ca, "Uganda"@en-gb, "Uganda"@es, "Уганда"@ru, "أوغندا"@ar, "乌干达"@zh, "乌干达"@zh-cn .
-
-<http://data.un.org/kos/geo/834> skos:altLabel "Tanzania"@en, "Tanzania"@en-ca, "Tanzania"@en-gb,
-    "Tanzania"@es, "Tanzanie"@fr, "Tanzanie, République-Unie de"@fr, "Танзания"@ru, "تنزانيا"@ar,
-    "坦桑尼亚"@zh, "坦桑尼亚"@zh-cn .
-
-<http://data.un.org/kos/geo/894> skos:altLabel "Zambia"@en, "Zambia"@en-ca, "Zambia"@en-gb,
-    "Zambia"@es, "Zambie"@fr, "Zambie (la)"@fr, "Замбия"@ru, "زامبيا"@ar, "赞比亚"@zh, "赞比亚"@zh-cn .
-
-<http://data.un.org/kos/geo/716> skos:altLabel "Zimbabue"@es, "Zimbabwe"@en, "Zimbabwe"@en-ca,
-    "Zimbabwe"@en-gb, "Zimbabwe"@fr, "Zimbabwe (le)"@fr, "Зимбабве"@ru, "زيمبابوي"@ar,
-    "辛巴威"@zh, "辛巴威"@zh-cn .
-
-<http://data.un.org/kos/geo/24> skos:altLabel "Angola"@en, "Angola"@en-ca, "Angola"@en-gb,
-    "Angola"@es, "Angola"@fr, "Angola (l')"@fr, "Ангола"@ru, "أنغولا"@ar, "安哥拉"@zh, "安哥拉"@zh-cn .
-
-<http://data.un.org/kos/geo/120> skos:altLabel "Cameroon"@en, "Cameroon"@en-ca, "Cameroon"@en-gb,
-    "Cameroun"@fr, "Cameroun (le)"@fr, "Camerún"@es, "Камерун"@ru, "الكاميرون"@ar, "喀麦隆"@zh,
-    "喀麦隆"@zh-cn .
-
-<http://data.un.org/kos/geo/140> skos:altLabel "Central African Republic"@en, "Central African Republic"@en-ca,
-    "Central African Republic"@en-gb, "República Centroafricana"@es, "République centrafricaine"@fr,
-    "République centrafricaine (la)"@fr, "Центральноафриканская Республика"@ru, "جمهورية أفريقيا الوسطى"@ar,
+<http://data.un.org/kos/geo/140> skos:prefLabel "Central African Republic"@en, "República Centroafricana"@es,
+    "République centrafricaine"@fr, "Центральноафриканская Республика"@ru, "جمهورية أفريقيا الوسطى"@ar,
     "中非共和國"@zh .
 
-<http://data.un.org/kos/geo/148> skos:altLabel "Chad"@en, "Chad"@en-ca, "Chad"@en-gb,
-    "Chad"@es, "Tchad"@fr, "Tchad (le)"@fr, "Чад"@ru, "تشاد"@ar, "乍得"@zh, "乍得"@zh-cn .
+<http://data.un.org/kos/geo/148> skos:prefLabel "Chad"@en, "Chad"@es, "Tchad"@fr,
+    "Чад"@ru, "تشاد"@ar, "乍得"@zh .
 
-<http://data.un.org/kos/geo/178> skos:altLabel "Congo (le)"@fr, "Republic of the Congo"@en,
-    "Republic of the Congo"@en-ca, "Republic of the Congo"@en-gb, "República del Congo"@es,
-    "République du Congo"@fr, "Республика Конго"@ru, "جمهورية الكونغو"@ar, "刚果共和国"@zh,
-    "刚果共和国"@zh-cn .
+<http://data.un.org/kos/geo/178> skos:prefLabel "Congo"@en, "Congo (le)"@fr, "República del Congo"@es,
+    "Республика Конго"@ru, "جمهورية الكونغو"@ar, "刚果共和国"@zh .
 
-<http://data.un.org/kos/geo/180> skos:altLabel "Congo (la République démocratique du)"@fr,
-    "Democratic Republic of the Congo"@en, "Democratic Republic of the Congo"@en-ca, "Democratic Republic of the Congo"@en-gb,
-    "República Democrática del Congo"@es, "République démocratique du Congo"@fr, "Демократическая Республика Конго"@ru,
-    "جمهورية الكونغو الديمقراطية"@ar, "刚果民主共和国"@zh, "刚果民主共和国"@zh-cn .
+<http://data.un.org/kos/geo/180> skos:prefLabel "Congo (la République démocratique du)"@fr,
+    "Democratic Republic of the Congo"@en, "República Democrática del Congo"@es, "Демократическая Республика Конго"@ru,
+    "جمهورية الكونغو الديمقراطية"@ar, "刚果民主共和国"@zh .
 
-<http://data.un.org/kos/geo/226> skos:altLabel "Equatorial Guinea"@en, "Equatorial Guinea"@en-ca,
-    "Equatorial Guinea"@en-gb, "Guinea Ecuatorial"@es, "Guinée équatoriale"@fr, "Guinée équatoriale (la)"@fr,
-    "Экваториальная Гвинея"@ru, "غينيا الاستوائية"@ar, "赤道几内亚"@zh, "赤道几内亚"@zh-cn .
+<http://data.un.org/kos/geo/226> skos:prefLabel "Equatorial Guinea"@en, "Guinea Ecuatorial"@es,
+    "Guinée équatoriale"@fr, "Экваториальная Гвинея"@ru, "غينيا الاستوائية"@ar, "赤道几内亚"@zh .
 
-<http://data.un.org/kos/geo/266> skos:altLabel "Gabon"@en, "Gabon"@en-ca, "Gabon"@en-gb,
-    "Gabon"@fr, "Gabon (le)"@fr, "Gabón"@es, "Габон"@ru, "الغابون"@ar, "加蓬"@zh, "加蓬"@zh-cn .
+<http://data.un.org/kos/geo/266> skos:prefLabel "Gabon"@en, "Gabon"@fr, "Gabón"@es,
+    "Габон"@ru, "الغابون"@ar, "加蓬"@zh .
 
-<http://data.un.org/kos/geo/678> skos:altLabel "Santo Tomé y Príncipe"@es, "Sao Tomé-et-Principe"@fr,
-    "São Tomé and Príncipe"@en, "São Tomé and Príncipe"@en-ca, "São Tomé and Príncipe"@en-gb,
-    "Сан-Томе и Принсипи"@ru, "ساو تومي وبرينسيب"@ar, "圣多美和普林西比"@zh, "圣多美和普林西比"@zh-cn .
+<http://data.un.org/kos/geo/678> skos:prefLabel "Santo Tomé y Príncipe"@es, "Sao Tome and Principe"@en,
+    "Sao Tomé-et-Principe"@fr, "Сан-Томе и Принсипи"@ru, "ساو تومي وبرينسيب"@ar, "圣多美和普林西比"@zh .
 
-<http://data.un.org/kos/geo/72> skos:altLabel "Botsuana"@es, "Botswana"@en, "Botswana"@en-ca,
-    "Botswana"@en-gb, "Botswana"@fr, "Botswana (le)"@fr, "Ботсвана"@ru, "بوتسوانا"@ar,
-    "波札那"@zh .
+<http://data.un.org/kos/geo/72> skos:prefLabel "Botsuana"@es, "Botswana"@en, "Botswana"@fr,
+    "Ботсвана"@ru, "بوتسوانا"@ar, "波札那"@zh .
 
-<http://data.un.org/kos/geo/748> skos:altLabel "Eswatini"@en, "Eswatini"@en-ca, "Eswatini"@en-gb,
-    "Eswatini"@fr, "Eswatini (l')"@fr, "Suazilandia"@es, "Эсватини"@ru, "إسواتيني"@ar,
-    "斯威士兰"@zh, "斯威士兰"@zh-cn .
+<http://data.un.org/kos/geo/748> skos:prefLabel "Eswatini"@en, "Eswatini"@fr, "Suazilandia"@es,
+    "Эсватини"@ru, "إسواتيني"@ar, "斯威士兰"@zh .
 
-<http://data.un.org/kos/geo/426> skos:altLabel "Lesotho"@en, "Lesotho"@en-ca, "Lesotho"@en-gb,
-    "Lesotho"@fr, "Lesotho (le)"@fr, "Lesoto"@es, "Лесото"@ru, "ليسوتو"@ar, "莱索托"@zh,
-    "莱索托"@zh-cn .
+<http://data.un.org/kos/geo/426> skos:prefLabel "Lesotho"@en, "Lesotho"@fr, "Lesoto"@es,
+    "Лесото"@ru, "ليسوتو"@ar, "莱索托"@zh .
 
-<http://data.un.org/kos/geo/516> skos:altLabel "Namibia"@en, "Namibia"@en-ca, "Namibia"@en-gb,
-    "Namibia"@es, "Namibie"@fr, "Namibie (la)"@fr, "Намибия"@ru, "ناميبيا"@ar, "纳米比亚"@zh,
-    "纳米比亚"@zh-cn .
+<http://data.un.org/kos/geo/516> skos:prefLabel "Namibia"@en, "Namibia"@es, "Namibie"@fr,
+    "Намибия"@ru, "ناميبيا"@ar, "纳米比亚"@zh .
 
-<http://data.un.org/kos/geo/710> skos:altLabel "Afrique du Sud"@fr, "Afrique du Sud (l')"@fr,
-    "South Africa"@en, "South Africa"@en-ca, "South Africa"@en-gb, "Sudáfrica"@es, "ЮАР"@ru,
-    "جنوب أفريقيا"@ar, "南非"@zh, "南非"@zh-cn .
+<http://data.un.org/kos/geo/710> skos:prefLabel "Afrique du Sud"@fr, "South Africa"@en,
+    "Sudáfrica"@es, "ЮАР"@ru, "جنوب أفريقيا"@ar, "南非"@zh .
 
-<http://data.un.org/kos/geo/204> skos:altLabel "Benin"@en, "Benin"@en-ca, "Benin"@en-gb,
-    "Benín"@es, "Bénin"@fr, "Bénin (le)"@fr, "Бенин"@ru, "بنين"@ar, "贝宁"@zh, "贝宁"@zh-cn .
+<http://data.un.org/kos/geo/204> skos:prefLabel "Benin"@en, "Benín"@es, "Bénin"@fr,
+    "Бенин"@ru, "بنين"@ar, "贝宁"@zh .
 
-<http://data.un.org/kos/geo/854> skos:altLabel "Burkina Faso"@en, "Burkina Faso"@en-ca,
-    "Burkina Faso"@en-gb, "Burkina Faso"@es, "Burkina Faso"@fr, "Burkina Faso (le)"@fr,
-    "Буркина-Фасо"@ru, "بوركينا فاسو"@ar, "布吉納法索"@zh, "布吉納法索"@zh-cn .
+<http://data.un.org/kos/geo/854> skos:prefLabel "Burkina Faso"@en, "Burkina Faso"@es,
+    "Burkina Faso"@fr, "Буркина-Фасо"@ru, "بوركينا فاسو"@ar, "布吉納法索"@zh .
 
-<http://data.un.org/kos/geo/132> skos:altLabel "Cabo Verde"@es, "Cabo Verde"@fr, "Cap-Vert"@fr,
-    "Cape Verde"@en, "Cape Verde"@en-ca, "Cape Verde"@en-gb, "Кабо-Верде"@ru, "الرأس الأخضر"@ar,
-    "佛得角"@zh, "佛得角"@zh-cn .
+<http://data.un.org/kos/geo/132> skos:prefLabel "Cabo Verde"@en, "Cabo Verde"@es,
+    "Cabo Verde"@fr, "Кабо-Верде"@ru, "الرأس الأخضر"@ar, "佛得角"@zh .
 
-<http://data.un.org/kos/geo/384> skos:altLabel "Costa de Marfil"@es, "Côte d'Ivoire"@fr,
-    "Côte d'Ivoire (la)"@fr, "Ivory Coast"@en, "Ivory Coast"@en-ca, "Ivory Coast"@en-gb,
-    "Кот-д’Ивуар"@ru, "ساحل العاج"@ar, "科特迪瓦"@zh .
+<http://data.un.org/kos/geo/384> skos:prefLabel "Costa de Marfil"@es, "Côte d'Ivoire"@fr,
+    "Côte d’Ivoire"@en, "Кот-д’Ивуар"@ru, "ساحل العاج"@ar, "科特迪瓦"@zh .
 
-<http://data.un.org/kos/geo/270> skos:altLabel "Gambia"@en, "Gambia"@en-ca, "Gambia"@es,
-    "Gambie"@fr, "Gambie (la)"@fr, "The Gambia"@en-gb, "Гамбия"@ru, "غامبيا"@ar, "冈比亚"@zh,
-    "冈比亚"@zh-cn .
+<http://data.un.org/kos/geo/270> skos:prefLabel "Gambia"@en, "Gambia"@es, "Gambie"@fr,
+    "Гамбия"@ru, "غامبيا"@ar, "冈比亚"@zh .
 
-<http://data.un.org/kos/geo/288> skos:altLabel "Ghana"@en, "Ghana"@en-ca, "Ghana"@en-gb,
-    "Ghana"@es, "Ghana"@fr, "Ghana (le)"@fr, "Гана"@ru, "غانا"@ar, "加纳"@zh-cn, "迦納"@zh .
+<http://data.un.org/kos/geo/288> skos:prefLabel "Ghana"@en, "Ghana"@es, "Ghana"@fr,
+    "Гана"@ru, "غانا"@ar, "迦納"@zh .
 
-<http://data.un.org/kos/geo/324> skos:altLabel "Guinea"@en, "Guinea"@en-ca, "Guinea"@en-gb,
-    "Guinea"@es, "Guinée"@fr, "Guinée (la)"@fr, "Гвинея"@ru, "غينيا"@ar, "几内亚"@zh, "几内亚"@zh-cn .
+<http://data.un.org/kos/geo/324> skos:prefLabel "Guinea"@en, "Guinea"@es, "Guinée"@fr,
+    "Гвинея"@ru, "غينيا"@ar, "几内亚"@zh .
 
-<http://data.un.org/kos/geo/624> skos:altLabel "Guinea-Bissau"@en, "Guinea-Bissau"@en-ca,
-    "Guinea-Bissau"@en-gb, "Guinea-Bisáu"@es, "Guinée-Bissau"@fr, "Guinée-Bissau (la)"@fr,
-    "Гвинея-Бисау"@ru, "غينيا بيساو"@ar, "幾內亞比索"@zh .
+<http://data.un.org/kos/geo/624> skos:prefLabel "Guinea-Bissau"@en, "Guinea-Bisáu"@es,
+    "Guinée-Bissau"@fr, "Гвинея-Бисау"@ru, "غينيا بيساو"@ar, "幾內亞比索"@zh .
 
-<http://data.un.org/kos/geo/430> skos:altLabel "Liberia"@en, "Liberia"@en-ca, "Liberia"@en-gb,
-    "Liberia"@es, "Liberia"@fr, "Libéria (le)"@fr, "Либерия"@ru, "ليبيريا"@ar, "利比里亚"@zh,
-    "利比里亚"@zh-cn .
+<http://data.un.org/kos/geo/430> skos:prefLabel "Liberia"@en, "Liberia"@es, "Liberia"@fr,
+    "Либерия"@ru, "ليبيريا"@ar, "利比里亚"@zh .
 
-<http://data.un.org/kos/geo/466> skos:altLabel "Mali"@en, "Mali"@en-ca, "Mali"@en-gb,
-    "Mali"@fr, "Mali (le)"@fr, "Malí"@es, "Мали"@ru, "مالي"@ar, "马里共和国"@zh, "马里共和国"@zh-cn .
+<http://data.un.org/kos/geo/466> skos:prefLabel "Mali"@en, "Mali"@fr, "Malí"@es, "Мали"@ru,
+    "مالي"@ar, "马里共和国"@zh .
 
-<http://data.un.org/kos/geo/478> skos:altLabel "Mauritania"@en, "Mauritania"@en-ca,
-    "Mauritania"@en-gb, "Mauritania"@es, "Mauritanie"@fr, "Mauritanie (la)"@fr, "Мавритания"@ru,
-    "موريتانيا"@ar, "毛里塔尼亚"@zh, "毛里塔尼亚"@zh-cn .
+<http://data.un.org/kos/geo/478> skos:prefLabel "Mauritania"@en, "Mauritania"@es,
+    "Mauritanie"@fr, "Мавритания"@ru, "موريتانيا"@ar, "毛里塔尼亚"@zh .
 
-<http://data.un.org/kos/geo/562> skos:altLabel "Niger"@en, "Niger"@en-ca, "Niger"@en-gb,
-    "Niger"@fr, "Niger (le)"@fr, "Níger"@es, "Нигер"@ru, "النيجر"@ar, "尼日尔"@zh, "尼日尔"@zh-cn .
+<http://data.un.org/kos/geo/562> skos:prefLabel "Niger"@en, "Niger"@fr, "Níger"@es,
+    "Нигер"@ru, "النيجر"@ar, "尼日尔"@zh .
 
-<http://data.un.org/kos/geo/566> skos:altLabel "Nigeria"@en, "Nigeria"@en-ca, "Nigeria"@en-gb,
-    "Nigeria"@es, "Nigeria"@fr, "Nigéria (le)"@fr, "Нигерия"@ru, "نيجيريا"@ar, "奈及利亞"@zh,
-    "尼日利亚"@zh-cn .
+<http://data.un.org/kos/geo/566> skos:prefLabel "Nigeria"@en, "Nigeria"@es, "Nigeria"@fr,
+    "Нигерия"@ru, "نيجيريا"@ar, "奈及利亞"@zh .
 
-<http://data.un.org/kos/geo/654> skos:altLabel "Saint Helena, Ascension and Tristan da Cunha"@en,
-    "Sainte-Hélène, Ascension et Tristan da Cunha"@fr, "Santa Elena, Ascensión y Tristán de Acuña"@es,
-    "St Helena, Ascension and Tristan da Cunha"@en-ca, "St Helena, Ascension and Tristan da Cunha"@en-gb,
-    "Острова Святой Елены, Вознесения и Тристан-да-Кунья"@ru, "سانت هيلانة وأسينشين وتريستان دا كونا"@ar,
-    "圣赫勒拿、阿森松与特里斯坦达库尼亚"@zh, "圣赫勒拿、阿森松与特里斯坦达库尼亚"@zh-cn .
+<http://data.un.org/kos/geo/654> skos:prefLabel "Saint Helena"@en, "Sainte-Hélène, Ascension et Tristan da Cunha"@fr,
+    "Santa Elena, Ascensión y Tristán de Acuña"@es, "Острова Святой Елены, Вознесения и Тристан-да-Кунья"@ru,
+    "سانت هيلانة وأسينشين وتريستان دا كونا"@ar, "圣赫勒拿、阿森松与特里斯坦达库尼亚"@zh .
 
-<http://data.un.org/kos/geo/686> skos:altLabel "Senegal"@en, "Senegal"@en-ca, "Senegal"@en-gb,
-    "Senegal"@es, "Sénégal"@fr, "Sénégal (le)"@fr, "Сенегал"@ru, "السنغال"@ar, "塞内加尔"@zh,
-    "塞内加尔"@zh-cn .
+<http://data.un.org/kos/geo/686> skos:prefLabel "Senegal"@en, "Senegal"@es, "Sénégal"@fr,
+    "Сенегал"@ru, "السنغال"@ar, "塞内加尔"@zh .
 
-<http://data.un.org/kos/geo/694> skos:altLabel "Sierra Leona"@es, "Sierra Leone"@en,
-    "Sierra Leone"@en-ca, "Sierra Leone"@en-gb, "Sierra Leone"@fr, "Sierra Leone (la)"@fr,
-    "Сьерра-Леоне"@ru, "سيراليون"@ar, "塞拉利昂"@zh, "塞拉利昂"@zh-cn .
+<http://data.un.org/kos/geo/694> skos:prefLabel "Sierra Leona"@es, "Sierra Leone"@en,
+    "Sierra Leone"@fr, "Сьерра-Леоне"@ru, "سيراليون"@ar, "塞拉利昂"@zh .
 
-<http://data.un.org/kos/geo/768> skos:altLabel "Togo"@en, "Togo"@en-ca, "Togo"@en-gb,
-    "Togo"@es, "Togo"@fr, "Togo (le)"@fr, "Того"@ru, "توغو"@ar, "多哥"@zh .
+<http://data.un.org/kos/geo/768> skos:prefLabel "Togo"@en, "Togo"@es, "Togo"@fr, "Того"@ru,
+    "توغو"@ar, "多哥"@zh .
 
-<http://data.un.org/kos/geo/660> skos:altLabel "Anguila"@es, "Anguilla"@en, "Anguilla"@en-ca,
-    "Anguilla"@en-gb, "Anguilla"@fr, "Ангилья"@ru, "أنغويلا"@ar, "安圭拉"@zh .
+<http://data.un.org/kos/geo/660> skos:prefLabel "Anguila"@es, "Anguilla"@en, "Anguilla"@fr,
+    "Ангилья"@ru, "أنغويلا"@ar, "安圭拉"@zh .
 
-<http://data.un.org/kos/geo/28> skos:altLabel "Antigua and Barbuda"@en, "Antigua and Barbuda"@en-ca,
-    "Antigua and Barbuda"@en-gb, "Antigua y Barbuda"@es, "Antigua-et-Barbuda"@fr, "Антигуа и Барбуда"@ru,
-    "أنتيغوا وباربودا"@ar, "安提瓜和巴布达"@zh, "安提瓜和巴布达"@zh-cn .
+<http://data.un.org/kos/geo/28> skos:prefLabel "Antigua and Barbuda"@en, "Antigua y Barbuda"@es,
+    "Antigua-et-Barbuda"@fr, "Антигуа и Барбуда"@ru, "أنتيغوا وباربودا"@ar, "安提瓜和巴布达"@zh .
 
-<http://data.un.org/kos/geo/533> skos:altLabel "Aruba"@en, "Aruba"@en-ca, "Aruba"@en-gb,
-    "Aruba"@es, "Aruba"@fr, "Аруба"@ru, "أروبا"@ar, "阿魯巴"@zh .
+<http://data.un.org/kos/geo/533> skos:prefLabel "Aruba"@en, "Aruba"@es, "Aruba"@fr,
+    "Аруба"@ru, "أروبا"@ar, "阿魯巴"@zh .
 
-<http://data.un.org/kos/geo/44> skos:altLabel "Bahamas"@en, "Bahamas"@es, "Bahamas"@fr,
-    "Bahamas (les)"@fr, "The Bahamas"@en-ca, "The Bahamas"@en-gb, "Багамские Острова"@ru,
-    "باهاماس"@ar, "巴哈马"@zh, "巴哈马"@zh-cn .
+<http://data.un.org/kos/geo/44> skos:prefLabel "Bahamas"@en, "Bahamas"@es, "Bahamas"@fr,
+    "Багамские Острова"@ru, "باهاماس"@ar, "巴哈马"@zh .
 
-<http://data.un.org/kos/geo/52> skos:altLabel "Barbade"@fr, "Barbade (la)"@fr, "Barbados"@en,
-    "Barbados"@en-ca, "Barbados"@en-gb, "Barbados"@es, "Барбадос"@ru, "باربادوس"@ar, "巴巴多斯"@zh,
-    "巴巴多斯"@zh-cn .
+<http://data.un.org/kos/geo/52> skos:prefLabel "Barbade"@fr, "Barbados"@en, "Barbados"@es,
+    "Барбадос"@ru, "باربادوس"@ar, "巴巴多斯"@zh .
 
-<http://data.un.org/kos/geo/535> skos:altLabel "Bonaire, Saint-Eustache et Saba"@fr,
-    "Caribbean Netherlands"@en, "Caribbean Netherlands"@en-gb, "Caribe neerlandés"@es,
-    "Pays-Bas caribéens"@fr, "Бонэйр, Синт-Эстатиус и Саба"@ru, "الجزر الكاريبية الهولندية"@ar,
-    "荷蘭加勒比區"@zh .
+<http://data.un.org/kos/geo/535> skos:prefLabel "Bonaire, Saint-Eustache et Saba"@fr,
+    "Bonaire, Sint Eustatius and Saba"@en, "Caribe neerlandés"@es, "Бонэйр, Синт-Эстатиус и Саба"@ru,
+    "الجزر الكاريبية الهولندية"@ar, "荷蘭加勒比區"@zh .
 
-<http://data.un.org/kos/geo/92> skos:altLabel "British Virgin Islands"@en, "British Virgin Islands"@en-ca,
-    "British Virgin Islands"@en-gb, "Islas Vírgenes Británicas"@es, "Vierges britanniques (les Îles)"@fr,
-    "îles Vierges britanniques"@fr, "Британские Виргинские острова"@ru, "جزر العذراء البريطانية"@ar,
+<http://data.un.org/kos/geo/92> skos:prefLabel "British Virgin Islands"@en, "Islas Vírgenes Británicas"@es,
+    "Vierges britanniques (les Îles)"@fr, "Британские Виргинские острова"@ru, "جزر العذراء البريطانية"@ar,
     "英屬維爾京群島"@zh .
 
-<http://data.un.org/kos/geo/136> skos:altLabel "Cayman Islands"@en, "Cayman Islands"@en-ca,
-    "Cayman Islands"@en-gb, "Caïmans (les Îles)"@fr, "Islas Caimán"@es, "îles Caïmans"@fr,
-    "острова Кайман"@ru, "جزر كايمان"@ar, "開曼群島"@zh .
+<http://data.un.org/kos/geo/136> skos:prefLabel "Cayman Islands"@en, "Caïmans (les Îles)"@fr,
+    "Islas Caimán"@es, "острова Кайман"@ru, "جزر كايمان"@ar, "開曼群島"@zh .
 
-<http://data.un.org/kos/geo/192> skos:altLabel "Cuba"@en, "Cuba"@en-ca, "Cuba"@en-gb,
-    "Cuba"@es, "Cuba"@fr, "Куба"@ru, "كوبا"@ar, "古巴"@zh, "古巴"@zh-cn .
+<http://data.un.org/kos/geo/192> skos:prefLabel "Cuba"@en, "Cuba"@es, "Cuba"@fr, "Куба"@ru,
+    "كوبا"@ar, "古巴"@zh .
 
-<http://data.un.org/kos/geo/531> skos:altLabel "Curazao"@es, "Curaçao"@en, "Curaçao"@fr,
+<http://data.un.org/kos/geo/531> skos:prefLabel "Curazao"@es, "Curaçao"@en, "Curaçao"@fr,
     "Кюрасао"@ru, "كوراساو"@ar, "库拉索"@zh .
 
-<http://data.un.org/kos/geo/212> skos:altLabel "Dominica"@en, "Dominica"@en-ca, "Dominica"@en-gb,
-    "Dominica"@es, "Dominique"@fr, "Dominique (la)"@fr, "Доминика"@ru, "دومينيكا"@ar,
-    "多米尼克"@zh, "多米尼克"@zh-cn .
+<http://data.un.org/kos/geo/212> skos:prefLabel "Dominica"@en, "Dominica"@es, "Dominique"@fr,
+    "Доминика"@ru, "دومينيكا"@ar, "多米尼克"@zh .
 
-<http://data.un.org/kos/geo/214> skos:altLabel "Dominican Republic"@en, "Dominican Republic"@en-ca,
-    "Dominican Republic"@en-gb, "República Dominicana"@es, "République dominicaine"@fr,
-    "dominicaine (la République)"@fr, "Доминиканская Республика"@ru, "جمهورية الدومينيكان"@ar,
-    "多明尼加"@zh, "多米尼加"@zh-cn .
+<http://data.un.org/kos/geo/214> skos:prefLabel "Dominican Republic"@en, "República Dominicana"@es,
+    "République dominicaine"@fr, "Доминиканская Республика"@ru, "جمهورية الدومينيكان"@ar,
+    "多明尼加"@zh .
 
-<http://data.un.org/kos/geo/308> skos:altLabel "Granada"@es, "Grenada"@en, "Grenada"@en-ca,
-    "Grenada"@en-gb, "Grenade"@fr, "Grenade (la)"@fr, "Гренада"@ru, "غرينادا"@ar, "格林纳达"@zh,
-    "格林纳达"@zh-cn .
+<http://data.un.org/kos/geo/308> skos:prefLabel "Granada"@es, "Grenada"@en, "Grenade"@fr,
+    "Гренада"@ru, "غرينادا"@ar, "格林纳达"@zh .
 
-<http://data.un.org/kos/geo/312> skos:altLabel "Guadalupe"@es, "Guadeloupe"@en, "Guadeloupe"@en-ca,
-    "Guadeloupe"@en-gb, "Guadeloupe"@fr, "Guadeloupe (la)"@fr, "Гваделупа"@ru, "غوادلوب"@ar,
-    "瓜德罗普"@zh .
+<http://data.un.org/kos/geo/312> skos:prefLabel "Guadalupe"@es, "Guadeloupe"@en, "Guadeloupe"@fr,
+    "Гваделупа"@ru, "غوادلوب"@ar, "瓜德罗普"@zh .
 
-<http://data.un.org/kos/geo/332> skos:altLabel "Haiti"@en, "Haiti"@en-ca, "Haiti"@en-gb,
-    "Haití"@es, "Haïti"@fr, "Республика Гаити"@ru, "هايتي"@ar, "海地"@zh, "海地"@zh-cn .
+<http://data.un.org/kos/geo/332> skos:prefLabel "Haiti"@en, "Haití"@es, "Haïti"@fr,
+    "Республика Гаити"@ru, "هايتي"@ar, "海地"@zh .
 
-<http://data.un.org/kos/geo/388> skos:altLabel "Jamaica"@en, "Jamaica"@en-ca, "Jamaica"@en-gb,
-    "Jamaica"@es, "Jamaïque"@fr, "Jamaïque (la)"@fr, "Ямайка"@ru, "جامايكا"@ar, "牙买加"@zh,
-    "牙买加"@zh-cn .
+<http://data.un.org/kos/geo/388> skos:prefLabel "Jamaica"@en, "Jamaica"@es, "Jamaïque"@fr,
+    "Ямайка"@ru, "جامايكا"@ar, "牙买加"@zh .
 
-<http://data.un.org/kos/geo/474> skos:altLabel "Martinica"@es, "Martinique"@en, "Martinique"@en-ca,
-    "Martinique"@en-gb, "Martinique"@fr, "Martinique (la)"@fr, "Мартиника"@ru, "مارتينيك"@ar,
-    "馬提尼克"@zh, "马提尼克"@zh-cn .
+<http://data.un.org/kos/geo/474> skos:prefLabel "Martinica"@es, "Martinique"@en, "Martinique"@fr,
+    "Мартиника"@ru, "مارتينيك"@ar, "馬提尼克"@zh .
 
-<http://data.un.org/kos/geo/500> skos:altLabel "Montserrat"@en, "Montserrat"@en-ca,
-    "Montserrat"@en-gb, "Montserrat"@es, "Montserrat"@fr, "Монтсеррат"@ru, "مونتسرات"@ar,
-    "蒙塞拉特島"@zh .
+<http://data.un.org/kos/geo/500> skos:prefLabel "Montserrat"@en, "Montserrat"@es,
+    "Montserrat"@fr, "Монтсеррат"@ru, "مونتسرات"@ar, "蒙塞拉特島"@zh .
 
-<http://data.un.org/kos/geo/630> skos:altLabel "Porto Rico"@fr, "Puerto Rico"@en,
-    "Puerto Rico"@en-ca, "Puerto Rico"@en-gb, "Puerto Rico"@es, "Пуэрто-Рико"@ru, "بورتوريكو"@ar,
-    "波多黎各"@zh .
+<http://data.un.org/kos/geo/630> skos:prefLabel "Porto Rico"@fr, "Puerto Rico"@en,
+    "Puerto Rico"@es, "Пуэрто-Рико"@ru, "بورتوريكو"@ar, "波多黎各"@zh .
 
-<http://data.un.org/kos/geo/652> skos:altLabel "Saint Barthélemy"@en, "Saint-Barthélemy"@fr,
+<http://data.un.org/kos/geo/652> skos:prefLabel "Saint Barthélemy"@en, "Saint-Barthélemy"@fr,
     "San Bartolomé"@es, "Сен-Бартелеми"@ru, "سان بارتيلمي"@ar, "聖巴泰勒米島"@zh .
 
-<http://data.un.org/kos/geo/659> skos:altLabel "Saint Kitts and Nevis"@en, "Saint Kitts and Nevis"@en-ca,
-    "Saint Kitts and Nevis"@en-gb, "Saint-Christophe-et-Niévès"@fr, "Saint-Kitts-et-Nevis"@fr,
-    "San Cristóbal y Nieves"@es, "Сент-Китс и Невис"@ru, "سانت كيتس ونيفيس"@ar, "圣基茨和尼维斯"@zh-cn,
-    "聖克里斯多福與尼維斯"@zh .
+<http://data.un.org/kos/geo/659> skos:prefLabel "Saint Kitts and Nevis"@en, "Saint-Christophe-et-Niévès"@fr,
+    "San Cristóbal y Nieves"@es, "Сент-Китс и Невис"@ru, "سانت كيتس ونيفيس"@ar, "聖克里斯多福與尼維斯"@zh .
 
-<http://data.un.org/kos/geo/662> skos:altLabel "Saint Lucia"@en, "Saint Lucia"@en-ca,
-    "Saint Lucia"@en-gb, "Sainte-Lucie"@fr, "Santa Lucía"@es, "Сент-Люсия"@ru, "سانت لوسيا"@ar,
-    "圣卢西亚"@zh, "圣卢西亚"@zh-cn .
+<http://data.un.org/kos/geo/662> skos:prefLabel "Saint Lucia"@en, "Sainte-Lucie"@fr,
+    "Santa Lucía"@es, "Сент-Люсия"@ru, "سانت لوسيا"@ar, "圣卢西亚"@zh .
 
-<http://data.un.org/kos/geo/663> skos:altLabel "Saint Martin"@en, "Saint-Martin"@fr,
-    "Saint-Martin (partie française)"@fr, "San Martín"@es, "Сен-Мартен"@ru, "تجمع سان مارتين"@ar,
-    "法属圣马丁"@zh-cn, "法屬聖馬丁"@zh .
+<http://data.un.org/kos/geo/663> skos:prefLabel "Saint Martin (French Part)"@en, "Saint-Martin"@fr,
+    "San Martín"@es, "Сен-Мартен"@ru, "تجمع سان مارتين"@ar, "法屬聖馬丁"@zh .
 
-<http://data.un.org/kos/geo/670> skos:altLabel "Saint Vincent and the Grenadines"@en,
-    "Saint Vincent and the Grenadines"@en-ca, "Saint Vincent and the Grenadines"@en-gb,
-    "Saint-Vincent-et-les Grenadines"@fr, "Saint-Vincent-et-les-Grenadines"@fr, "San Vicente y las Granadinas"@es,
-    "Сент-Винсент и Гренадины"@ru, "سانت فينسنت والغرينادين"@ar, "圣文森特和格林纳丁斯"@zh, "圣文森特和格林纳丁斯"@zh-cn .
+<http://data.un.org/kos/geo/670> skos:prefLabel "Saint Vincent and the Grenadines"@en,
+    "Saint-Vincent-et-les Grenadines"@fr, "San Vicente y las Granadinas"@es, "Сент-Винсент и Гренадины"@ru,
+    "سانت فينسنت والغرينادين"@ar, "圣文森特和格林纳丁斯"@zh .
 
-<http://data.un.org/kos/geo/534> skos:altLabel "Saint-Martin"@fr, "Saint-Martin (partie néerlandaise)"@fr,
-    "Sint Maarten"@en, "Sint Maarten"@es, "Синт-Мартен"@ru, "سينت مارتن"@ar, "荷屬聖馬丁"@zh .
+<http://data.un.org/kos/geo/534> skos:prefLabel "Saint-Martin"@fr, "Sint Maarten"@es,
+    "Sint Maarten (Dutch part)"@en, "Синт-Мартен"@ru, "سينت مارتن"@ar, "荷屬聖馬丁"@zh .
 
-<http://data.un.org/kos/geo/780> skos:altLabel "Trinidad and Tobago"@en, "Trinidad and Tobago"@en-ca,
-    "Trinidad and Tobago"@en-gb, "Trinidad y Tobago"@es, "Trinité-et-Tobago"@fr, "Trinité-et-Tobago (la)"@fr,
-    "Тринидад и Тобаго"@ru, "ترينيداد وتوباغو"@ar, "千里達及托巴哥"@zh, "特立尼达和多巴哥"@zh-cn .
+<http://data.un.org/kos/geo/780> skos:prefLabel "Trinidad and Tobago"@en, "Trinidad y Tobago"@es,
+    "Trinité-et-Tobago"@fr, "Тринидад и Тобаго"@ru, "ترينيداد وتوباغو"@ar, "千里達及托巴哥"@zh .
 
-<http://data.un.org/kos/geo/796> skos:altLabel "Islas Turcas y Caicos"@es, "Turks and Caicos Islands"@en,
-    "Turks and Caicos Islands"@en-ca, "Turks and Caicos Islands"@en-gb, "Turks-et-Caïcos (les Îles)"@fr,
-    "îles Turques-et-Caïques"@fr, "Тёркс и Кайкос"@ru, "جزر توركس وكايكوس"@ar, "特克斯和凯科斯群岛"@zh,
-    "特克斯和凯科斯群岛"@zh-cn .
+<http://data.un.org/kos/geo/796> skos:prefLabel "Islas Turcas y Caicos"@es, "Turks and Caicos Islands"@en,
+    "Turks-et-Caïcos (les Îles)"@fr, "Тёркс и Кайкос"@ru, "جزر توركس وكايكوس"@ar, "特克斯和凯科斯群岛"@zh .
 
-<http://data.un.org/kos/geo/850> skos:altLabel "Islas Vírgenes de los Estados Unidos"@es,
-    "United States Virgin Islands"@en, "United States Virgin Islands"@en-ca, "United States Virgin Islands"@en-gb,
-    "Vierges des États-Unis (les Îles)"@fr, "îles Vierges des États-Unis"@fr, "Американские Виргинские острова"@ru,
+<http://data.un.org/kos/geo/850> skos:prefLabel "Islas Vírgenes de los Estados Unidos"@es,
+    "United States Virgin Islands"@en, "Vierges des États-Unis (les Îles)"@fr, "Американские Виргинские острова"@ru,
     "جزر العذراء الأمريكية"@ar, "美屬維爾京群島"@zh .
 
-<http://data.un.org/kos/geo/84> skos:altLabel "Belice"@es, "Belize"@en, "Belize"@en-ca,
-    "Belize"@en-gb, "Belize"@fr, "Belize (le)"@fr, "Белиз"@ru, "بليز"@ar, "伯利兹"@zh, "伯利兹"@zh-cn .
+<http://data.un.org/kos/geo/84> skos:prefLabel "Belice"@es, "Belize"@en, "Belize"@fr,
+    "Белиз"@ru, "بليز"@ar, "伯利兹"@zh .
 
-<http://data.un.org/kos/geo/188> skos:altLabel "Costa Rica"@en, "Costa Rica"@en-ca,
-    "Costa Rica"@en-gb, "Costa Rica"@es, "Costa Rica"@fr, "Costa Rica (le)"@fr, "Коста-Рика"@ru,
-    "كوستاريكا"@ar, "哥斯达黎加"@zh, "哥斯达黎加"@zh-cn .
+<http://data.un.org/kos/geo/188> skos:prefLabel "Costa Rica"@en, "Costa Rica"@es,
+    "Costa Rica"@fr, "Коста-Рика"@ru, "كوستاريكا"@ar, "哥斯达黎加"@zh .
 
-<http://data.un.org/kos/geo/222> skos:altLabel "El Salvador"@en, "El Salvador"@en-ca,
-    "El Salvador"@en-gb, "El Salvador"@es, "El Salvador"@fr, "Salvador"@fr, "Сальвадор"@ru,
-    "السلفادور"@ar, "萨尔瓦多"@zh, "萨尔瓦多"@zh-cn .
+<http://data.un.org/kos/geo/222> skos:prefLabel "El Salvador"@en, "El Salvador"@es,
+    "El Salvador"@fr, "Сальвадор"@ru, "السلفادور"@ar, "萨尔瓦多"@zh .
 
-<http://data.un.org/kos/geo/320> skos:altLabel "Guatemala"@en, "Guatemala"@en-ca,
-    "Guatemala"@en-gb, "Guatemala"@es, "Guatemala"@fr, "Guatemala (le)"@fr, "Гватемала"@ru,
-    "غواتيمالا"@ar, "危地马拉"@zh .
+<http://data.un.org/kos/geo/320> skos:prefLabel "Guatemala"@en, "Guatemala"@es, "Guatemala"@fr,
+    "Гватемала"@ru, "غواتيمالا"@ar, "危地马拉"@zh .
 
-<http://data.un.org/kos/geo/340> skos:altLabel "Honduras"@en, "Honduras"@en-ca, "Honduras"@en-gb,
-    "Honduras"@es, "Honduras"@fr, "Honduras (le)"@fr, "Гондурас"@ru, "هندوراس"@ar, "洪都拉斯"@zh,
-    "洪都拉斯"@zh-cn .
+<http://data.un.org/kos/geo/340> skos:prefLabel "Honduras"@en, "Honduras"@es, "Honduras"@fr,
+    "Гондурас"@ru, "هندوراس"@ar, "洪都拉斯"@zh .
 
-<http://data.un.org/kos/geo/484> skos:altLabel "Mexico"@en, "Mexico"@en-ca, "Mexico"@en-gb,
-    "Mexique"@fr, "Mexique (le)"@fr, "México"@es, "Мексика"@ru, "المكسيك"@ar, "墨西哥"@zh,
-    "墨西哥"@zh-cn .
+<http://data.un.org/kos/geo/484> skos:prefLabel "Mexico"@en, "Mexique"@fr, "México"@es,
+    "Мексика"@ru, "المكسيك"@ar, "墨西哥"@zh .
 
-<http://data.un.org/kos/geo/558> skos:altLabel "Nicaragua"@en, "Nicaragua"@en-ca,
-    "Nicaragua"@en-gb, "Nicaragua"@es, "Nicaragua"@fr, "Nicaragua (le)"@fr, "Никарагуа"@ru,
-    "نيكاراغوا"@ar, "尼加拉瓜"@zh, "尼加拉瓜"@zh-cn .
+<http://data.un.org/kos/geo/558> skos:prefLabel "Nicaragua"@en, "Nicaragua"@es, "Nicaragua"@fr,
+    "Никарагуа"@ru, "نيكاراغوا"@ar, "尼加拉瓜"@zh .
 
-<http://data.un.org/kos/geo/591> skos:altLabel "Panama"@en, "Panama"@en-ca, "Panama"@en-gb,
-    "Panama"@fr, "Panama (le)"@fr, "Panamá"@es, "Панама"@ru, "بنما"@ar, "巴拿马"@zh, "巴拿马"@zh-cn .
+<http://data.un.org/kos/geo/591> skos:prefLabel "Panama"@en, "Panama"@fr, "Panamá"@es,
+    "Панама"@ru, "بنما"@ar, "巴拿马"@zh .
 
-<http://data.un.org/kos/geo/32> skos:altLabel "Argentina"@en, "Argentina"@en-ca, "Argentina"@en-gb,
-    "Argentina"@es, "Argentine"@fr, "Argentine (l')"@fr, "Аргентина"@ru, "الأرجنتين"@ar,
-    "阿根廷"@zh, "阿根廷"@zh-cn .
+<http://data.un.org/kos/geo/32> skos:prefLabel "Argentina"@en, "Argentina"@es, "Argentine"@fr,
+    "Аргентина"@ru, "الأرجنتين"@ar, "阿根廷"@zh .
 
-<http://data.un.org/kos/geo/68> skos:altLabel "Bolivia"@en, "Bolivia"@en-ca, "Bolivia"@en-gb,
-    "Bolivia"@es, "Bolivie"@fr, "Bolivie (État plurinational de)"@fr, "Боливия"@ru, "بوليفيا"@ar,
-    "玻利維亞"@zh, "玻利维亚"@zh-cn .
+<http://data.un.org/kos/geo/68> skos:prefLabel "Bolivia"@es, "Bolivia (Plurinational State of)"@en,
+    "Bolivie"@fr, "Боливия"@ru, "بوليفيا"@ar, "玻利維亞"@zh .
 
-<http://data.un.org/kos/geo/74> skos:altLabel "Bouvet (l'Île)"@fr, "Bouvet Island"@en,
-    "Bouvet Island"@en-ca, "Bouvet Island"@en-gb, "Isla Bouvet"@es, "île Bouvet"@fr, "Остров Буве"@ru,
-    "جزيرة بوفيه"@ar, "布韦岛"@zh, "布韦岛"@zh-cn .
+<http://data.un.org/kos/geo/74> skos:prefLabel "Bouvet (l'Île)"@fr, "Bouvet Island"@en,
+    "Isla Bouvet"@es, "Остров Буве"@ru, "جزيرة بوفيه"@ar, "布韦岛"@zh .
 
-<http://data.un.org/kos/geo/76> skos:altLabel "Brasil"@es, "Brazil"@en, "Brazil"@en-ca,
-    "Brazil"@en-gb, "Brésil"@fr, "Brésil (le)"@fr, "Бразилия"@ru, "البرازيل"@ar, "巴西"@zh,
-    "巴西"@zh-cn .
+<http://data.un.org/kos/geo/76> skos:prefLabel "Brasil"@es, "Brazil"@en, "Brésil"@fr,
+    "Бразилия"@ru, "البرازيل"@ar, "巴西"@zh .
 
-<http://data.un.org/kos/geo/152> skos:altLabel "Chile"@en, "Chile"@en-ca, "Chile"@en-gb,
-    "Chile"@es, "Chili"@fr, "Chili (le)"@fr, "Чили"@ru, "تشيلي"@ar, "智利"@zh, "智利"@zh-cn .
+<http://data.un.org/kos/geo/152> skos:prefLabel "Chile"@en, "Chile"@es, "Chili"@fr,
+    "Чили"@ru, "تشيلي"@ar, "智利"@zh .
 
-<http://data.un.org/kos/geo/170> skos:altLabel "Colombia"@en, "Colombia"@en-ca, "Colombia"@en-gb,
-    "Colombia"@es, "Colombie"@fr, "Colombie (la)"@fr, "Колумбия"@ru, "كولومبيا"@ar, "哥伦比亚"@zh,
-    "哥伦比亚"@zh-cn .
+<http://data.un.org/kos/geo/170> skos:prefLabel "Colombia"@en, "Colombia"@es, "Colombie"@fr,
+    "Колумбия"@ru, "كولومبيا"@ar, "哥伦比亚"@zh .
 
-<http://data.un.org/kos/geo/218> skos:altLabel "Ecuador"@en, "Ecuador"@en-ca, "Ecuador"@en-gb,
-    "Ecuador"@es, "Équateur"@fr, "Équateur (l')"@fr, "Эквадор"@ru, "الإكوادور"@ar, "厄瓜多尔"@zh,
-    "厄瓜多尔"@zh-cn .
+<http://data.un.org/kos/geo/218> skos:prefLabel "Ecuador"@en, "Ecuador"@es, "Équateur"@fr,
+    "Эквадор"@ru, "الإكوادور"@ar, "厄瓜多尔"@zh .
 
-<http://data.un.org/kos/geo/238> skos:altLabel "Falkland (les Îles)/Malouines (les Îles)"@fr,
-    "Falkland Islands"@en, "Falkland Islands"@en-ca, "Falkland Islands"@en-gb, "Islas Malvinas"@es,
-    "îles Malouines"@fr, "Фолклендские острова"@ru, "جزر فوكلاند"@ar, "福克兰群岛"@zh .
+<http://data.un.org/kos/geo/238> skos:prefLabel "Falkland (les Îles)/Malouines (les Îles)"@fr,
+    "Falkland Islands (Malvinas)"@en, "Islas Malvinas"@es, "Фолклендские острова"@ru,
+    "جزر فوكلاند"@ar, "福克兰群岛"@zh .
 
-<http://data.un.org/kos/geo/254> skos:altLabel "French Guiana"@en, "French Guiana"@en-ca,
-    "French Guiana"@en-gb, "Guayana Francesa"@es, "Guyane"@fr, "Guyane française (la )"@fr,
-    "Французская Гвиана"@ru, "غويانا الفرنسية"@ar, "法屬圭亞那"@zh .
+<http://data.un.org/kos/geo/254> skos:prefLabel "French Guiana"@en, "Guayana Francesa"@es,
+    "Guyane"@fr, "Французская Гвиана"@ru, "غويانا الفرنسية"@ar, "法屬圭亞那"@zh .
 
-<http://data.un.org/kos/geo/328> skos:altLabel "Guyana"@en, "Guyana"@en-ca, "Guyana"@en-gb,
-    "Guyana"@es, "Guyana"@fr, "Guyana (le)"@fr, "Гайана"@ru, "غيانا"@ar, "圭亚那"@zh, "圭亚那"@zh-cn .
+<http://data.un.org/kos/geo/328> skos:prefLabel "Guyana"@en, "Guyana"@es, "Guyana"@fr,
+    "Гайана"@ru, "غيانا"@ar, "圭亚那"@zh .
 
-<http://data.un.org/kos/geo/600> skos:altLabel "Paraguay"@en, "Paraguay"@en-ca, "Paraguay"@en-gb,
-    "Paraguay"@es, "Paraguay"@fr, "Paraguay (le)"@fr, "Парагвай"@ru, "باراغواي"@ar, "巴拉圭"@zh,
-    "巴拉圭"@zh-cn .
+<http://data.un.org/kos/geo/600> skos:prefLabel "Paraguay"@en, "Paraguay"@es, "Paraguay"@fr,
+    "Парагвай"@ru, "باراغواي"@ar, "巴拉圭"@zh .
 
-<http://data.un.org/kos/geo/604> skos:altLabel "Peru"@en, "Peru"@en-ca, "Peru"@en-gb,
-    "Perú"@es, "Pérou"@fr, "Pérou (le)"@fr, "Перу"@ru, "بيرو"@ar, "秘鲁"@zh, "秘鲁"@zh-cn .
+<http://data.un.org/kos/geo/604> skos:prefLabel "Peru"@en, "Perú"@es, "Pérou"@fr,
+    "Перу"@ru, "بيرو"@ar, "秘鲁"@zh .
 
-<http://data.un.org/kos/geo/239> skos:altLabel "Géorgie du Sud-et-les Îles Sandwich du Sud"@fr,
-    "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"@fr, "Islas Georgias del Sur y Sándwich del Sur"@es,
-    "South Georgia and the South Sandwich Islands"@en, "South Georgia and the South Sandwich Islands"@en-ca,
-    "South Georgia and the South Sandwich Islands"@en-gb, "Южная Георгия и Южные Сандвичевы острова"@ru,
-    "جورجيا الجنوبية وجزر ساندويتش الجنوبية"@ar, "南乔治亚和南桑威奇群岛"@zh-cn, "南喬治亞島與南桑威奇群島"@zh .
+<http://data.un.org/kos/geo/239> skos:prefLabel "Géorgie du Sud-et-les Îles Sandwich du Sud"@fr,
+    "Islas Georgias del Sur y Sándwich del Sur"@es, "South Georgia and the South Sandwich Islands"@en,
+    "Южная Георгия и Южные Сандвичевы острова"@ru, "جورجيا الجنوبية وجزر ساندويتش الجنوبية"@ar,
+    "南喬治亞島與南桑威奇群島"@zh .
 
-<http://data.un.org/kos/geo/740> skos:altLabel "Surinam"@es, "Suriname"@en, "Suriname"@en-ca,
-    "Suriname"@en-gb, "Suriname"@fr, "Suriname (le)"@fr, "Суринам"@ru, "سورينام"@ar, "蘇利南"@zh .
+<http://data.un.org/kos/geo/740> skos:prefLabel "Surinam"@es, "Suriname"@en, "Suriname"@fr,
+    "Суринам"@ru, "سورينام"@ar, "蘇利南"@zh .
 
-<http://data.un.org/kos/geo/858> skos:altLabel "Uruguay"@en, "Uruguay"@en-ca, "Uruguay"@en-gb,
-    "Uruguay"@es, "Uruguay"@fr, "Uruguay (l')"@fr, "Уругвай"@ru, "الأوروغواي"@ar, "乌拉圭"@zh,
-    "乌拉圭"@zh-cn .
+<http://data.un.org/kos/geo/858> skos:prefLabel "Uruguay"@en, "Uruguay"@es, "Uruguay"@fr,
+    "Уругвай"@ru, "الأوروغواي"@ar, "乌拉圭"@zh .
 
-<http://data.un.org/kos/geo/862> skos:altLabel "Venezuela"@en, "Venezuela"@en-ca,
-    "Venezuela"@en-gb, "Venezuela"@es, "Venezuela"@fr, "Venezuela (République bolivarienne du)"@fr,
-    "Венесуэла"@ru, "فنزويلا"@ar, "委內瑞拉"@zh, "委內瑞拉"@zh-cn .
+<http://data.un.org/kos/geo/862> skos:prefLabel "Venezuela"@es, "Venezuela"@fr, "Venezuela (Bolivarian Republic of)"@en,
+    "Венесуэла"@ru, "فنزويلا"@ar, "委內瑞拉"@zh .
 
-<http://data.un.org/kos/geo/831> skos:altLabel "Guernesey"@fr, "Guernsey"@en, "Guernsey"@en-ca,
-    "Guernsey"@en-gb, "Guernsey"@es, "Гернси"@ru, "غيرنزي"@ar, "根西"@zh, "根西"@zh-cn .
+<http://data.un.org/kos/geo/831> skos:prefLabel "Guernesey"@fr, "Guernsey"@en, "Guernsey"@es,
+    "Гернси"@ru, "غيرنزي"@ar, "根西"@zh .
 
-<http://data.un.org/kos/geo/832> skos:altLabel "Jersey"@en, "Jersey"@en-ca, "Jersey"@en-gb,
-    "Jersey"@es, "Jersey"@fr, "Джерси"@ru, "جيرزي"@ar, "泽西岛"@zh-cn, "澤西島"@zh .
+<http://data.un.org/kos/geo/832> skos:prefLabel "Jersey"@en, "Jersey"@es, "Jersey"@fr,
+    "Джерси"@ru, "جيرزي"@ar, "澤西島"@zh .
 
-<http://data.un.org/kos/geo/12> skos:altLabel "Algeria"@en, "Algeria"@en-ca, "Algeria"@en-gb,
-    "Algérie"@fr, "Algérie (l')"@fr, "Argelia"@es, "Алжир"@ru, "الجزائر"@ar, "阿尔及利亚"@zh,
-    "阿尔及利亚"@zh-cn .
+<http://data.un.org/kos/geo/680> skos:prefLabel "Sark"@en .
 
-<http://data.un.org/kos/geo/818> skos:altLabel "Egipto"@es, "Egypt"@en, "Egypt"@en-ca,
-    "Egypt"@en-gb, "Égypte"@fr, "Égypte (l')"@fr, "Египет"@ru, "مصر"@ar, "埃及"@zh, "埃及"@zh-cn .
+<http://data.un.org/kos/geo/12> skos:prefLabel "Algeria"@en, "Algérie"@fr, "Argelia"@es,
+    "Алжир"@ru, "الجزائر"@ar, "阿尔及利亚"@zh .
 
-<http://data.un.org/kos/geo/434> skos:altLabel "Libia"@es, "Libya"@en, "Libya"@en-ca,
-    "Libya"@en-gb, "Libye"@fr, "Libye (la)"@fr, "Ливия"@ru, "ليبيا"@ar, "利比亚"@zh, "利比亚"@zh-cn .
+<http://data.un.org/kos/geo/818> skos:prefLabel "Egipto"@es, "Egypt"@en, "Égypte"@fr,
+    "Египет"@ru, "مصر"@ar, "埃及"@zh .
 
-<http://data.un.org/kos/geo/504> skos:altLabel "Maroc"@fr, "Maroc (le)"@fr, "Marruecos"@es,
-    "Morocco"@en, "Morocco"@en-ca, "Morocco"@en-gb, "Марокко"@ru, "المغرب"@ar, "摩洛哥"@zh .
+<http://data.un.org/kos/geo/434> skos:prefLabel "Libia"@es, "Libya"@en, "Libye"@fr,
+    "Ливия"@ru, "ليبيا"@ar, "利比亚"@zh .
 
-<http://data.un.org/kos/geo/729> skos:altLabel "Soudan"@fr, "Soudan (le)"@fr, "Sudan"@en,
-    "Sudan"@en-ca, "Sudan"@en-gb, "Sudán"@es, "Судан"@ru, "السودان"@ar, "苏丹"@zh, "苏丹"@zh-cn .
+<http://data.un.org/kos/geo/504> skos:prefLabel "Maroc"@fr, "Marruecos"@es, "Morocco"@en,
+    "Марокко"@ru, "المغرب"@ar, "摩洛哥"@zh .
 
-<http://data.un.org/kos/geo/788> skos:altLabel "Tunisia"@en, "Tunisia"@en-ca, "Tunisia"@en-gb,
-    "Tunisie"@fr, "Tunisie (la)"@fr, "Túnez"@es, "Тунис"@ru, "تونس"@ar, "突尼斯"@zh-cn, "突尼西亞"@zh .
+<http://data.un.org/kos/geo/729> skos:prefLabel "Soudan"@fr, "Sudan"@en, "Sudán"@es,
+    "Судан"@ru, "السودان"@ar, "苏丹"@zh .
 
-<http://data.un.org/kos/geo/732> skos:altLabel "República Árabe Saharaui Democrática"@es,
-    "République sahraouie"@fr, "Sahara Occidental"@es, "Sahara occidental"@fr, "Sahara occidental (le)*"@fr,
-    "Sahrawi Arab Democratic Republic"@en, "Sahrawi Arab Democratic Republic"@en-ca, "Sahrawi Arab Democratic Republic"@en-gb,
-    "Western Sahara"@en, "Western Sahara"@en-ca, "Western Sahara"@en-gb, "Западная Сахара"@ru,
-    "Сахарская Арабская Демократическая Республика"@ru, "الجمهورية العربية الصحراوية الديمقراطية"@ar,
-    "الصحراء الغربية"@ar, "撒拉威阿拉伯民主共和國"@zh, "西撒哈拉"@zh, "阿拉伯撒哈拉民主共和国"@zh-cn .
+<http://data.un.org/kos/geo/788> skos:prefLabel "Tunisia"@en, "Tunisie"@fr, "Túnez"@es,
+    "Тунис"@ru, "تونس"@ar, "突尼西亞"@zh .
 
-<http://data.un.org/kos/geo/60> skos:altLabel "Bermuda"@en, "Bermudas"@es, "Bermudes"@fr,
-    "Bermudes (les)"@fr, "Бермудские Острова"@ru, "برمودا"@ar, "百慕大"@zh .
+<http://data.un.org/kos/geo/732> skos:prefLabel "República Árabe Saharaui Democrática"@es,
+    "République sahraouie"@fr, "Western Sahara"@en, "Западная Сахара"@ru, "الجمهورية العربية الصحراوية الديمقراطية"@ar,
+    "撒拉威阿拉伯民主共和國"@zh .
 
-<http://data.un.org/kos/geo/124> skos:altLabel "Canada"@en, "Canada"@en-ca, "Canada"@en-gb,
-    "Canada"@fr, "Canada (le)"@fr, "Canadá"@es, "Канада"@ru, "كندا"@ar, "加拿大"@zh, "加拿大"@zh-cn .
+<http://data.un.org/kos/geo/60> skos:prefLabel "Bermuda"@en, "Bermudas"@es, "Bermudes"@fr,
+    "Бермудские Острова"@ru, "برمودا"@ar, "百慕大"@zh .
 
-<http://data.un.org/kos/geo/304> skos:altLabel "Greenland"@en, "Greenland"@en-ca,
-    "Greenland"@en-gb, "Groenland"@fr, "Groenland (le)"@fr, "Groenlandia"@es, "Гренландия"@ru,
-    "جرينلاند"@ar, "格陵兰"@zh .
+<http://data.un.org/kos/geo/124> skos:prefLabel "Canada"@en, "Canada"@fr, "Canadá"@es,
+    "Канада"@ru, "كندا"@ar, "加拿大"@zh .
 
-<http://data.un.org/kos/geo/666> skos:altLabel "Saint Pierre and Miquelon"@en, "Saint Pierre and Miquelon"@en-ca,
-    "Saint-Pierre-et-Miquelon"@fr, "San Pedro y Miquelón"@es, "Сен-Пьер и Микелон"@ru,
-    "سان بيير وميكلون"@ar, "圣皮埃尔和密克隆"@zh, "圣皮埃尔和密克隆"@zh-cn .
+<http://data.un.org/kos/geo/304> skos:prefLabel "Greenland"@en, "Groenland"@fr, "Groenlandia"@es,
+    "Гренландия"@ru, "جرينلاند"@ar, "格陵兰"@zh .
 
-<http://data.un.org/kos/geo/840> skos:altLabel "Estados Unidos"@es, "United States"@en-ca,
-    "United States of America"@en, "United States of America"@en-gb, "États-Unis"@fr,
-    "États-Unis d'Amérique (les)"@fr, "США"@ru, "الولايات المتحدة"@ar, "美国"@zh, "美国"@zh-cn .
+<http://data.un.org/kos/geo/666> skos:prefLabel "Saint Pierre and Miquelon"@en, "Saint-Pierre-et-Miquelon"@fr,
+    "San Pedro y Miquelón"@es, "Сен-Пьер и Микелон"@ru, "سان بيير وميكلون"@ar, "圣皮埃尔和密克隆"@zh .
 
-<http://data.un.org/kos/geo/10> skos:altLabel "Antarctic Treaty area"@en, "Antarctique (l')"@fr,
-    "Región del Tratado Antártico"@es, "région du Traité sur l'Antarctique"@fr, "Территория Антарктического договора"@ru,
-    "منطقة معاهدة القطب الجنوبي"@ar .
+<http://data.un.org/kos/geo/840> skos:prefLabel "Estados Unidos"@es, "United States of America"@en,
+    "États-Unis"@fr, "США"@ru, "الولايات المتحدة"@ar, "美国"@zh .
 
-<http://data.un.org/kos/geo/398> skos:altLabel "Kazajistán"@es, "Kazakhstan"@en, "Kazakhstan"@en-ca,
-    "Kazakhstan"@en-gb, "Kazakhstan"@fr, "Kazakhstan (le)"@fr, "Казахстан"@ru, "كازاخستان"@ar,
-    "哈萨克斯坦"@zh, "哈萨克斯坦"@zh-cn .
+<http://data.un.org/kos/geo/10> skos:prefLabel "Antarctica"@en, "Antarctique (l')"@fr,
+    "Región del Tratado Antártico"@es, "Территория Антарктического договора"@ru, "منطقة معاهدة القطب الجنوبي"@ar .
 
-<http://data.un.org/kos/geo/417> skos:altLabel "Kirghizistan"@fr, "Kirghizistan (le)"@fr,
-    "Kirguistán"@es, "Kyrgyzstan"@en, "Kyrgyzstan"@en-ca, "Kyrgyzstan"@en-gb, "Киргизия"@ru,
-    "قيرغيزستان"@ar, "吉尔吉斯斯坦"@zh, "吉尔吉斯斯坦"@zh-cn .
+<http://data.un.org/kos/geo/398> skos:prefLabel "Kazajistán"@es, "Kazakhstan"@en,
+    "Kazakhstan"@fr, "Казахстан"@ru, "كازاخستان"@ar, "哈萨克斯坦"@zh .
 
-<http://data.un.org/kos/geo/762> skos:altLabel "Tadjikistan"@fr, "Tadjikistan (le)"@fr,
-    "Tajikistan"@en, "Tajikistan"@en-ca, "Tajikistan"@en-gb, "Tayikistán"@es, "Таджикистан"@ru,
-    "طاجيكستان"@ar, "塔吉克斯坦"@zh, "塔吉克斯坦"@zh-cn .
+<http://data.un.org/kos/geo/417> skos:prefLabel "Kirghizistan"@fr, "Kirguistán"@es,
+    "Kyrgyzstan"@en, "Киргизия"@ru, "قيرغيزستان"@ar, "吉尔吉斯斯坦"@zh .
 
-<http://data.un.org/kos/geo/795> skos:altLabel "Turkmenistan"@en, "Turkmenistan"@en-ca,
-    "Turkmenistan"@en-gb, "Turkmenistán"@es, "Turkménistan"@fr, "Turkménistan (le)"@fr,
-    "Туркмения"@ru, "تركمانستان"@ar, "土库曼斯坦"@zh, "土库曼斯坦"@zh-cn .
+<http://data.un.org/kos/geo/762> skos:prefLabel "Tadjikistan"@fr, "Tajikistan"@en,
+    "Tayikistán"@es, "Таджикистан"@ru, "طاجيكستان"@ar, "塔吉克斯坦"@zh .
 
-<http://data.un.org/kos/geo/860> skos:altLabel "Ouzbékistan"@fr, "Ouzbékistan (l')"@fr,
-    "Uzbekistan"@en, "Uzbekistan"@en-ca, "Uzbekistan"@en-gb, "Uzbekistán"@es, "Узбекистан"@ru,
-    "أوزبكستان"@ar, "乌兹别克斯坦"@zh, "乌兹别克斯坦"@zh-cn .
+<http://data.un.org/kos/geo/795> skos:prefLabel "Turkmenistan"@en, "Turkmenistán"@es,
+    "Turkménistan"@fr, "Туркмения"@ru, "تركمانستان"@ar, "土库曼斯坦"@zh .
 
-<http://data.un.org/kos/geo/156> skos:altLabel "China"@en-ca, "Chine"@fr, "Chine (la)"@fr,
-    "People's Republic of China"@en, "People's Republic of China"@en-gb, "República Popular China"@es,
-    "Китайская Народная Республика"@ru, "الصين"@ar, "中华人民共和国"@zh, "中华人民共和国"@zh-cn .
+<http://data.un.org/kos/geo/860> skos:prefLabel "Ouzbékistan"@fr, "Uzbekistan"@en,
+    "Uzbekistán"@es, "Узбекистан"@ru, "أوزبكستان"@ar, "乌兹别克斯坦"@zh .
 
-<http://data.un.org/kos/geo/344> skos:altLabel "Hong Kong"@en, "Hong Kong"@en-ca,
-    "Hong Kong"@en-gb, "Hong Kong"@es, "Hong Kong"@fr, "Гонконг"@ru, "هونغ كونغ"@ar, "香港"@zh,
-    "香港"@zh-cn .
+<http://data.un.org/kos/geo/156> skos:prefLabel "China"@en, "Chine"@fr, "República Popular China"@es,
+    "Китайская Народная Республика"@ru, "الصين"@ar, "中华人民共和国"@zh .
 
-<http://data.un.org/kos/geo/446> skos:altLabel "Macao"@es, "Macao"@fr, "Macau"@en,
-    "Macau"@en-ca, "Macau"@en-gb, "Макао"@ru, "ماكاو"@ar, "澳門"@zh, "澳门"@zh-cn .
+<http://data.un.org/kos/geo/344> skos:prefLabel "China, Hong Kong Special Administrative Region"@en,
+    "Hong Kong"@es, "Hong Kong"@fr, "Гонконг"@ru, "هونغ كونغ"@ar, "香港"@zh .
 
-<http://data.un.org/kos/geo/408> skos:altLabel "Corea del Norte"@es, "Corée (la République populaire démocratique de)"@fr,
-    "Corée du Nord"@fr, "North Korea"@en, "North Korea"@en-ca, "North Korea"@en-gb, "КНДР"@ru,
-    "كوريا الشمالية"@ar, "朝鲜民主主义人民共和国"@zh, "朝鲜民主主义人民共和国"@zh-cn .
+<http://data.un.org/kos/geo/446> skos:prefLabel "China, Macao Special Administrative Region"@en,
+    "Macao"@es, "Macao"@fr, "Макао"@ru, "ماكاو"@ar, "澳門"@zh .
 
-<http://data.un.org/kos/geo/392> skos:altLabel "Japan"@en, "Japan"@en-ca, "Japan"@en-gb,
-    "Japon"@fr, "Japon (le)"@fr, "Japón"@es, "Япония"@ru, "اليابان"@ar, "日本"@zh, "日本"@zh-cn .
+<http://data.un.org/kos/geo/408> skos:prefLabel "Corea del Norte"@es, "Corée (la République populaire démocratique de)"@fr,
+    "Democratic People's Republic of Korea"@en, "КНДР"@ru, "كوريا الشمالية"@ar, "朝鲜民主主义人民共和国"@zh .
 
-<http://data.un.org/kos/geo/496> skos:altLabel "Mongolia"@en, "Mongolia"@en-ca, "Mongolia"@en-gb,
-    "Mongolia"@es, "Mongolie"@fr, "Mongolie (la)"@fr, "Монголия"@ru, "منغوليا"@ar, "蒙古国"@zh,
-    "蒙古国"@zh-cn .
+<http://data.un.org/kos/geo/392> skos:prefLabel "Japan"@en, "Japon"@fr, "Japón"@es,
+    "Япония"@ru, "اليابان"@ar, "日本"@zh .
 
-<http://data.un.org/kos/geo/410> skos:altLabel "Corea del Sur"@es, "Corée (la République de)"@fr,
-    "Corée du Sud"@fr, "South Korea"@en, "South Korea"@en-ca, "South Korea"@en-gb, "Республика Корея"@ru,
-    "كوريا الجنوبية"@ar, "大韩民国"@zh, "大韩民国"@zh-cn .
+<http://data.un.org/kos/geo/496> skos:prefLabel "Mongolia"@en, "Mongolia"@es, "Mongolie"@fr,
+    "Монголия"@ru, "منغوليا"@ar, "蒙古国"@zh .
 
-<http://data.un.org/kos/geo/96> skos:altLabel "Brunei"@en, "Brunei"@en-ca, "Brunei"@en-gb,
-    "Brunei"@fr, "Brunéi"@es, "Brunéi Darussalam (le)"@fr, "Бруней"@ru, "بروناي"@ar, "文莱"@zh,
-    "文莱"@zh-cn .
+<http://data.un.org/kos/geo/410> skos:prefLabel "Corea del Sur"@es, "Corée (la République de)"@fr,
+    "Republic of Korea"@en, "Республика Корея"@ru, "كوريا الجنوبية"@ar, "大韩民国"@zh .
 
-<http://data.un.org/kos/geo/116> skos:altLabel "Cambodge"@fr, "Cambodge (le)"@fr,
-    "Cambodia"@en, "Cambodia"@en-ca, "Cambodia"@en-gb, "Camboya"@es, "Камбоджа"@ru, "كمبوديا"@ar,
-    "柬埔寨"@zh, "柬埔寨"@zh-cn .
+<http://data.un.org/kos/geo/96> skos:prefLabel "Brunei"@fr, "Brunei Darussalam"@en,
+    "Brunéi"@es, "Бруней"@ru, "بروناي"@ar, "文莱"@zh .
 
-<http://data.un.org/kos/geo/360> skos:altLabel "Indonesia"@en, "Indonesia"@en-ca,
-    "Indonesia"@en-gb, "Indonesia"@es, "Indonésie"@fr, "Indonésie (l')"@fr, "Индонезия"@ru,
-    "إندونيسيا"@ar, "印度尼西亚"@zh, "印度尼西亚"@zh-cn .
+<http://data.un.org/kos/geo/116> skos:prefLabel "Cambodge"@fr, "Cambodia"@en, "Camboya"@es,
+    "Камбоджа"@ru, "كمبوديا"@ar, "柬埔寨"@zh .
 
-<http://data.un.org/kos/geo/418> skos:altLabel "Lao, République démocratique populaire"@fr,
-    "Laos"@en, "Laos"@en-ca, "Laos"@en-gb, "Laos"@es, "Laos"@fr, "Лаос"@ru, "لاوس"@ar,
-    "老挝"@zh, "老挝"@zh-cn .
+<http://data.un.org/kos/geo/360> skos:prefLabel "Indonesia"@en, "Indonesia"@es, "Indonésie"@fr,
+    "Индонезия"@ru, "إندونيسيا"@ar, "印度尼西亚"@zh .
 
-<http://data.un.org/kos/geo/458> skos:altLabel "Malaisie"@fr, "Malaisie (la)"@fr,
-    "Malasia"@es, "Malaysia"@en, "Malaysia"@en-ca, "Malaysia"@en-gb, "Малайзия"@ru, "ماليزيا"@ar,
-    "马来西亚"@zh, "马来西亚"@zh-cn .
+<http://data.un.org/kos/geo/418> skos:prefLabel "Lao People's Democratic Republic"@en,
+    "Lao, République démocratique populaire"@fr, "Laos"@es, "Лаос"@ru, "لاوس"@ar, "老挝"@zh .
 
-<http://data.un.org/kos/geo/104> skos:altLabel "Birmania"@es, "Birmanie"@fr, "Burma"@en-ca,
-    "Myanmar"@en, "Myanmar"@en-gb, "Myanmar (le)"@fr, "Мьянма"@ru, "ميانمار"@ar, "缅甸"@zh,
-    "缅甸"@zh-cn .
+<http://data.un.org/kos/geo/458> skos:prefLabel "Malaisie"@fr, "Malasia"@es, "Malaysia"@en,
+    "Малайзия"@ru, "ماليزيا"@ar, "马来西亚"@zh .
 
-<http://data.un.org/kos/geo/608> skos:altLabel "Filipinas"@es, "Philippines"@en, "Philippines"@en-ca,
-    "Philippines"@en-gb, "Philippines"@fr, "Philippines (les)"@fr, "Филиппины"@ru, "الفلبين"@ar,
-    "菲律宾"@zh, "菲律宾"@zh-cn .
+<http://data.un.org/kos/geo/104> skos:prefLabel "Birmania"@es, "Birmanie"@fr, "Myanmar"@en,
+    "Мьянма"@ru, "ميانمار"@ar, "缅甸"@zh .
 
-<http://data.un.org/kos/geo/702> skos:altLabel "Singapore"@en, "Singapore"@en-ca,
-    "Singapore"@en-gb, "Singapour"@fr, "Singapur"@es, "Сингапур"@ru, "سنغافورة"@ar, "新加坡"@zh,
-    "新加坡"@zh-cn .
+<http://data.un.org/kos/geo/608> skos:prefLabel "Filipinas"@es, "Philippines"@en,
+    "Philippines"@fr, "Филиппины"@ru, "الفلبين"@ar, "菲律宾"@zh .
 
-<http://data.un.org/kos/geo/764> skos:altLabel "Tailandia"@es, "Thailand"@en, "Thailand"@en-ca,
-    "Thailand"@en-gb, "Thaïlande"@fr, "Thaïlande (la)"@fr, "Таиланд"@ru, "تايلاند"@ar,
-    "泰国"@zh, "泰国"@zh-cn .
+<http://data.un.org/kos/geo/702> skos:prefLabel "Singapore"@en, "Singapour"@fr, "Singapur"@es,
+    "Сингапур"@ru, "سنغافورة"@ar, "新加坡"@zh .
 
-<http://data.un.org/kos/geo/626> skos:altLabel "East Timor"@en, "East Timor"@en-ca,
-    "East Timor"@en-gb, "Timor Oriental"@es, "Timor oriental"@fr, "Timor-Leste (le)"@fr,
-    "Восточный Тимор"@ru, "تيمور الشرقية"@ar, "东帝汶"@zh, "东帝汶"@zh-cn .
+<http://data.un.org/kos/geo/764> skos:prefLabel "Tailandia"@es, "Thailand"@en, "Thaïlande"@fr,
+    "Таиланд"@ru, "تايلاند"@ar, "泰国"@zh .
 
-<http://data.un.org/kos/geo/704> skos:altLabel "Viet Nam (le)"@fr, "Vietnam"@en, "Vietnam"@en-ca,
-    "Vietnam"@en-gb, "Vietnam"@es, "Viêt Nam"@fr, "Вьетнам"@ru, "فيتنام"@ar, "越南"@zh,
-    "越南"@zh-cn .
+<http://data.un.org/kos/geo/626> skos:prefLabel "Timor Oriental"@es, "Timor oriental"@fr,
+    "Timor-Leste"@en, "Восточный Тимор"@ru, "تيمور الشرقية"@ar, "东帝汶"@zh .
 
-<http://data.un.org/kos/geo/4> skos:altLabel "Afganistán"@es, "Afghanistan"@en, "Afghanistan"@en-ca,
-    "Afghanistan"@en-gb, "Afghanistan"@fr, "Afghanistan (l')"@fr, "Афганистан"@ru, "أفغانستان"@ar,
-    "阿富汗"@zh, "阿富汗"@zh-cn .
+<http://data.un.org/kos/geo/704> skos:prefLabel "Viet Nam"@en, "Viet Nam (le)"@fr,
+    "Vietnam"@es, "Вьетнам"@ru, "فيتنام"@ar, "越南"@zh .
 
-<http://data.un.org/kos/geo/50> skos:altLabel "Bangladesh"@en, "Bangladesh"@en-ca,
-    "Bangladesh"@en-gb, "Bangladesh"@fr, "Bangladesh (le)"@fr, "Bangladés"@es, "Бангладеш"@ru,
-    "بنغلاديش"@ar, "孟加拉国"@zh, "孟加拉国"@zh-cn .
+<http://data.un.org/kos/geo/4> skos:prefLabel "Afganistán"@es, "Afghanistan"@en, "Afghanistan"@fr,
+    "Афганистан"@ru, "أفغانستان"@ar, "阿富汗"@zh .
 
-<http://data.un.org/kos/geo/64> skos:altLabel "Bhoutan"@fr, "Bhoutan (le)"@fr, "Bhutan"@en,
-    "Bhutan"@en-ca, "Bhutan"@en-gb, "Bután"@es, "Бутан"@ru, "بوتان"@ar, "不丹"@zh, "不丹"@zh-cn .
+<http://data.un.org/kos/geo/50> skos:prefLabel "Bangladesh"@en, "Bangladesh"@fr, "Bangladés"@es,
+    "Бангладеш"@ru, "بنغلاديش"@ar, "孟加拉国"@zh .
 
-<http://data.un.org/kos/geo/356> skos:altLabel "Inde"@fr, "Inde (l')"@fr, "India"@en,
-    "India"@en-ca, "India"@en-gb, "India"@es, "Индия"@ru, "الهند"@ar, "印度"@zh, "印度"@zh-cn .
+<http://data.un.org/kos/geo/64> skos:prefLabel "Bhoutan"@fr, "Bhutan"@en, "Bután"@es,
+    "Бутан"@ru, "بوتان"@ar, "不丹"@zh .
 
-<http://data.un.org/kos/geo/364> skos:altLabel "Iran"@en, "Iran"@en-ca, "Iran"@en-gb,
-    "Iran"@fr, "Iran (République Islamique d')"@fr, "Irán"@es, "Иран"@ru, "إيران"@ar,
-    "伊朗"@zh, "伊朗"@zh-cn .
+<http://data.un.org/kos/geo/356> skos:prefLabel "Inde"@fr, "India"@en, "India"@es,
+    "Индия"@ru, "الهند"@ar, "印度"@zh .
 
-<http://data.un.org/kos/geo/462> skos:altLabel "Maldivas"@es, "Maldives"@en, "Maldives"@en-ca,
-    "Maldives"@en-gb, "Maldives"@fr, "Maldives (les)"@fr, "Мальдивы"@ru, "المالديف"@ar,
-    "马尔代夫"@zh, "马尔代夫"@zh-cn .
+<http://data.un.org/kos/geo/364> skos:prefLabel "Iran"@fr, "Iran (Islamic Republic of)"@en,
+    "Irán"@es, "Иран"@ru, "إيران"@ar, "伊朗"@zh .
 
-<http://data.un.org/kos/geo/524> skos:altLabel "Nepal"@en, "Nepal"@en-ca, "Nepal"@en-gb,
-    "Nepal"@es, "Népal"@fr, "Népal (le)"@fr, "Непал"@ru, "نيبال"@ar, "尼泊尔"@zh, "尼泊尔"@zh-cn .
+<http://data.un.org/kos/geo/462> skos:prefLabel "Maldivas"@es, "Maldives"@en, "Maldives"@fr,
+    "Мальдивы"@ru, "المالديف"@ar, "马尔代夫"@zh .
 
-<http://data.un.org/kos/geo/586> skos:altLabel "Pakistan"@en, "Pakistan"@en-ca, "Pakistan"@en-gb,
-    "Pakistan"@fr, "Pakistan (le)"@fr, "Pakistán"@es, "Пакистан"@ru, "باكستان"@ar, "巴基斯坦"@zh,
-    "巴基斯坦"@zh-cn .
+<http://data.un.org/kos/geo/524> skos:prefLabel "Nepal"@en, "Nepal"@es, "Népal"@fr,
+    "Непал"@ru, "نيبال"@ar, "尼泊尔"@zh .
 
-<http://data.un.org/kos/geo/144> skos:altLabel "Sri Lanka"@en, "Sri Lanka"@en-ca,
-    "Sri Lanka"@en-gb, "Sri Lanka"@es, "Sri Lanka"@fr, "Шри-Ланка"@ru, "سريلانكا"@ar,
-    "斯里兰卡"@zh-cn, "斯里蘭卡"@zh .
+<http://data.un.org/kos/geo/586> skos:prefLabel "Pakistan"@en, "Pakistan"@fr, "Pakistán"@es,
+    "Пакистан"@ru, "باكستان"@ar, "巴基斯坦"@zh .
 
-<http://data.un.org/kos/geo/51> skos:altLabel "Armenia"@en, "Armenia"@en-ca, "Armenia"@en-gb,
-    "Armenia"@es, "Arménie"@fr, "Arménie (l')"@fr, "Армения"@ru, "أرمينيا"@ar, "亚美尼亚"@zh-cn,
-    "亞美尼亞"@zh .
+<http://data.un.org/kos/geo/144> skos:prefLabel "Sri Lanka"@en, "Sri Lanka"@es, "Sri Lanka"@fr,
+    "Шри-Ланка"@ru, "سريلانكا"@ar, "斯里蘭卡"@zh .
 
-<http://data.un.org/kos/geo/31> skos:altLabel "Azerbaijan"@en, "Azerbaijan"@en-ca,
-    "Azerbaijan"@en-gb, "Azerbaiyán"@es, "Azerbaïdjan"@fr, "Azerbaïdjan (l')"@fr, "Азербайджан"@ru,
-    "أذربيجان"@ar, "阿塞拜疆"@zh, "阿塞拜疆"@zh-cn .
+<http://data.un.org/kos/geo/51> skos:prefLabel "Armenia"@en, "Armenia"@es, "Arménie"@fr,
+    "Армения"@ru, "أرمينيا"@ar, "亞美尼亞"@zh .
 
-<http://data.un.org/kos/geo/48> skos:altLabel "Bahrain"@en, "Bahrain"@en-ca, "Bahrain"@en-gb,
-    "Bahreïn"@fr, "Baréin"@es, "Бахрейн"@ru, "البحرين"@ar, "巴林"@zh, "巴林"@zh-cn .
+<http://data.un.org/kos/geo/31> skos:prefLabel "Azerbaijan"@en, "Azerbaiyán"@es, "Azerbaïdjan"@fr,
+    "Азербайджан"@ru, "أذربيجان"@ar, "阿塞拜疆"@zh .
 
-<http://data.un.org/kos/geo/196> skos:altLabel "Chipre"@es, "Chypre"@fr, "Cyprus"@en,
-    "Cyprus"@en-ca, "Cyprus"@en-gb, "Кипр"@ru, "قبرص"@ar, "塞浦路斯"@zh-cn, "賽普勒斯"@zh .
+<http://data.un.org/kos/geo/48> skos:prefLabel "Bahrain"@en, "Bahreïn"@fr, "Baréin"@es,
+    "Бахрейн"@ru, "البحرين"@ar, "巴林"@zh .
 
-<http://data.un.org/kos/geo/268> skos:altLabel "Georgia"@en, "Georgia"@en-ca, "Georgia"@en-gb,
-    "Georgia"@es, "Géorgie"@fr, "Géorgie (la)"@fr, "Грузия"@ru, "جورجيا"@ar, "格鲁吉亚"@zh,
-    "格鲁吉亚"@zh-cn .
+<http://data.un.org/kos/geo/196> skos:prefLabel "Chipre"@es, "Chypre"@fr, "Cyprus"@en,
+    "Кипр"@ru, "قبرص"@ar, "賽普勒斯"@zh .
 
-<http://data.un.org/kos/geo/368> skos:altLabel "Irak"@es, "Irak"@fr, "Iraq"@en, "Iraq"@en-ca,
-    "Iraq"@en-gb, "Iraq (l')"@fr, "Ирак"@ru, "العراق"@ar, "伊拉克"@zh, "伊拉克"@zh-cn .
+<http://data.un.org/kos/geo/268> skos:prefLabel "Georgia"@en, "Georgia"@es, "Géorgie"@fr,
+    "Грузия"@ru, "جورجيا"@ar, "格鲁吉亚"@zh .
 
-<http://data.un.org/kos/geo/376> skos:altLabel "Israel"@en, "Israel"@en-ca, "Israel"@en-gb,
-    "Israel"@es, "Israël"@fr, "Израиль"@ru, "إسرائيل"@ar, "以色列"@zh, "以色列"@zh-cn .
+<http://data.un.org/kos/geo/368> skos:prefLabel "Irak"@es, "Irak"@fr, "Iraq"@en, "Ирак"@ru,
+    "العراق"@ar, "伊拉克"@zh .
 
-<http://data.un.org/kos/geo/400> skos:altLabel "Jordan"@en, "Jordan"@en-ca, "Jordan"@en-gb,
-    "Jordania"@es, "Jordanie"@fr, "Jordanie (la)"@fr, "Иордания"@ru, "الأردن"@ar, "约旦"@zh,
-    "约旦"@zh-cn .
+<http://data.un.org/kos/geo/376> skos:prefLabel "Israel"@en, "Israel"@es, "Israël"@fr,
+    "Израиль"@ru, "إسرائيل"@ar, "以色列"@zh .
 
-<http://data.un.org/kos/geo/414> skos:altLabel "Koweït"@fr, "Koweït (le)"@fr, "Kuwait"@en,
-    "Kuwait"@en-ca, "Kuwait"@en-gb, "Kuwait"@es, "Кувейт"@ru, "الكويت"@ar, "科威特"@zh, "科威特"@zh-cn .
+<http://data.un.org/kos/geo/400> skos:prefLabel "Jordan"@en, "Jordania"@es, "Jordanie"@fr,
+    "Иордания"@ru, "الأردن"@ar, "约旦"@zh .
 
-<http://data.un.org/kos/geo/422> skos:altLabel "Lebanon"@en, "Lebanon"@en-ca, "Lebanon"@en-gb,
-    "Liban"@fr, "Liban (le)"@fr, "Líbano"@es, "Ливан"@ru, "لبنان"@ar, "黎巴嫩"@zh, "黎巴嫩"@zh-cn .
+<http://data.un.org/kos/geo/414> skos:prefLabel "Koweït"@fr, "Kuwait"@en, "Kuwait"@es,
+    "Кувейт"@ru, "الكويت"@ar, "科威特"@zh .
 
-<http://data.un.org/kos/geo/512> skos:altLabel "Oman"@en, "Oman"@en-ca, "Oman"@en-gb,
-    "Oman"@fr, "Omán"@es, "Оман"@ru, "سلطنة عمان"@ar, "阿曼"@zh, "阿曼"@zh-cn .
+<http://data.un.org/kos/geo/422> skos:prefLabel "Lebanon"@en, "Liban"@fr, "Líbano"@es,
+    "Ливан"@ru, "لبنان"@ar, "黎巴嫩"@zh .
 
-<http://data.un.org/kos/geo/634> skos:altLabel "Catar"@es, "Qatar"@en, "Qatar"@en-ca,
-    "Qatar"@en-gb, "Qatar"@fr, "Qatar (le)"@fr, "Катар"@ru, "قطر"@ar, "卡塔尔"@zh, "卡塔尔"@zh-cn .
+<http://data.un.org/kos/geo/512> skos:prefLabel "Oman"@en, "Oman"@fr, "Omán"@es, "Оман"@ru,
+    "سلطنة عمان"@ar, "阿曼"@zh .
 
-<http://data.un.org/kos/geo/682> skos:altLabel "Arabia Saudita"@es, "Arabie saoudite"@fr,
-    "Arabie saoudite (l')"@fr, "Saudi Arabia"@en, "Saudi Arabia"@en-ca, "Saudi Arabia"@en-gb,
-    "Саудовская Аравия"@ru, "السعودية"@ar, "沙特阿拉伯"@zh, "沙特阿拉伯"@zh-cn .
+<http://data.un.org/kos/geo/634> skos:prefLabel "Catar"@es, "Qatar"@en, "Qatar"@fr,
+    "Катар"@ru, "قطر"@ar, "卡塔尔"@zh .
 
-<http://data.un.org/kos/geo/275> skos:altLabel "Palestina"@es, "Palestine"@fr, "Palestine, État de"@fr,
-    "Palestinian territories"@en, "Palestinian territories"@en-ca, "Palestinian territories"@en-gb,
-    "State of Palestine"@en, "State of Palestine"@en-ca, "State of Palestine"@en-gb, "Territoires palestiniens occupés"@fr,
-    "Territorios Palestinos"@es, "Государство Палестина"@ru, "Палестинские территории"@ru,
-    "الضفة الغربية وقطاع غزة"@ar, "فلسطين"@ar, "巴勒斯坦"@zh, "巴勒斯坦"@zh-cn, "巴勒斯坦领土"@zh .
+<http://data.un.org/kos/geo/682> skos:prefLabel "Arabia Saudita"@es, "Arabie saoudite"@fr,
+    "Saudi Arabia"@en, "Саудовская Аравия"@ru, "السعودية"@ar, "沙特阿拉伯"@zh .
 
-<http://data.un.org/kos/geo/760> skos:altLabel "République arabe syrienne (la)"@fr,
-    "Siria"@es, "Syria"@en, "Syria"@en-ca, "Syria"@en-gb, "Syrie"@fr, "Сирия"@ru, "سوريا"@ar,
-    "叙利亚"@zh, "叙利亚"@zh-cn .
+<http://data.un.org/kos/geo/275> skos:prefLabel "Palestina"@es, "Palestine"@fr, "State of Palestine"@en,
+    "Государство Палестина"@ru, "الضفة الغربية وقطاع غزة"@ar, "巴勒斯坦"@zh .
 
-<http://data.un.org/kos/geo/792> skos:altLabel "Turkey"@en, "Turkey"@en-ca, "Turkey"@en-gb,
-    "Turquie"@fr, "Turquie (la)"@fr, "Turquía"@es, "Турция"@ru, "تركيا"@ar, "土耳其"@zh,
-    "土耳其"@zh-cn .
+<http://data.un.org/kos/geo/760> skos:prefLabel "République arabe syrienne (la)"@fr,
+    "Siria"@es, "Syrian Arab Republic"@en, "Сирия"@ru, "سوريا"@ar, "叙利亚"@zh .
 
-<http://data.un.org/kos/geo/784> skos:altLabel "Emiratos Árabes Unidos"@es, "United Arab Emirates"@en,
-    "United Arab Emirates"@en-ca, "United Arab Emirates"@en-gb, "Émirats arabes unis"@fr,
-    "Émirats arabes unis (les)"@fr, "Объединённые Арабские Эмираты"@ru, "الإمارات العربية المتحدة"@ar,
-    "阿拉伯联合酋长国"@zh, "阿拉伯联合酋长国"@zh-cn .
+<http://data.un.org/kos/geo/792> skos:prefLabel "Turkey"@en, "Turquie"@fr, "Turquía"@es,
+    "Турция"@ru, "تركيا"@ar, "土耳其"@zh .
 
-<http://data.un.org/kos/geo/887> skos:altLabel "Yemen"@en, "Yemen"@en-ca, "Yemen"@en-gb,
-    "Yemen"@es, "Yémen"@fr, "Yémen (le)"@fr, "Йемен"@ru, "اليمن"@ar, "也门"@zh, "也门"@zh-cn .
+<http://data.un.org/kos/geo/784> skos:prefLabel "Emiratos Árabes Unidos"@es, "United Arab Emirates"@en,
+    "Émirats arabes unis"@fr, "Объединённые Арабские Эмираты"@ru, "الإمارات العربية المتحدة"@ar,
+    "阿拉伯联合酋长国"@zh .
 
-<http://data.un.org/kos/geo/112> skos:altLabel "Belarus"@en, "Belarus"@en-ca, "Belarus"@en-gb,
-    "Bielorrusia"@es, "Biélorussie"@fr, "Bélarus (le)"@fr, "Белоруссия"@ru, "روسيا البيضاء"@ar,
-    "白罗斯"@zh, "白罗斯"@zh-cn .
+<http://data.un.org/kos/geo/887> skos:prefLabel "Yemen"@en, "Yemen"@es, "Yémen"@fr,
+    "Йемен"@ru, "اليمن"@ar, "也门"@zh .
 
-<http://data.un.org/kos/geo/100> skos:altLabel "Bulgaria"@en, "Bulgaria"@en-ca, "Bulgaria"@en-gb,
-    "Bulgaria"@es, "Bulgarie"@fr, "Bulgarie (la)"@fr, "Болгария"@ru, "بلغاريا"@ar, "保加利亚"@zh .
+<http://data.un.org/kos/geo/112> skos:prefLabel "Belarus"@en, "Bielorrusia"@es, "Biélorussie"@fr,
+    "Белоруссия"@ru, "روسيا البيضاء"@ar, "白罗斯"@zh .
 
-<http://data.un.org/kos/geo/203> skos:altLabel "Czech Republic"@en, "Czech Republic"@en-gb,
-    "Czechia"@en-ca, "República Checa"@es, "République tchèque"@fr, "Tchéquie (la)"@fr,
-    "Чехия"@ru, "التشيك"@ar, "捷克"@zh .
+<http://data.un.org/kos/geo/100> skos:prefLabel "Bulgaria"@en, "Bulgaria"@es, "Bulgarie"@fr,
+    "Болгария"@ru, "بلغاريا"@ar, "保加利亚"@zh .
 
-<http://data.un.org/kos/geo/348> skos:altLabel "Hongrie"@fr, "Hongrie (la)"@fr, "Hungary"@en,
-    "Hungary"@en-ca, "Hungary"@en-gb, "Hungría"@es, "Венгрия"@ru, "المجر"@ar, "匈牙利"@zh,
-    "匈牙利"@zh-cn .
+<http://data.un.org/kos/geo/203> skos:prefLabel "Czechia"@en, "República Checa"@es,
+    "République tchèque"@fr, "Чехия"@ru, "التشيك"@ar, "捷克"@zh .
 
-<http://data.un.org/kos/geo/616> skos:altLabel "Poland"@en, "Poland"@en-ca, "Poland"@en-gb,
-    "Pologne"@fr, "Pologne (la)"@fr, "Polonia"@es, "Польша"@ru, "بولندا"@ar, "波兰"@zh,
-    "波兰"@zh-cn .
+<http://data.un.org/kos/geo/348> skos:prefLabel "Hongrie"@fr, "Hungary"@en, "Hungría"@es,
+    "Венгрия"@ru, "المجر"@ar, "匈牙利"@zh .
 
-<http://data.un.org/kos/geo/498> skos:altLabel "Moldavia"@es, "Moldavie"@fr, "Moldova"@en,
-    "Moldova"@en-ca, "Moldova"@en-gb, "Moldova, République de"@fr, "Молдавия"@ru, "مولدوفا"@ar,
-    "摩尔多瓦"@zh .
+<http://data.un.org/kos/geo/616> skos:prefLabel "Poland"@en, "Pologne"@fr, "Polonia"@es,
+    "Польша"@ru, "بولندا"@ar, "波兰"@zh .
 
-<http://data.un.org/kos/geo/642> skos:altLabel "Romania"@en, "Romania"@en-ca, "Romania"@en-gb,
-    "Roumanie"@fr, "Roumanie (la)"@fr, "Rumania"@es, "Румыния"@ru, "رومانيا"@ar, "羅馬尼亞"@zh .
+<http://data.un.org/kos/geo/498> skos:prefLabel "Moldavia"@es, "Moldavie"@fr, "Republic of Moldova"@en,
+    "Молдавия"@ru, "مولدوفا"@ar, "摩尔多瓦"@zh .
 
-<http://data.un.org/kos/geo/643> skos:altLabel "Rusia"@es, "Russia"@en, "Russia"@en-ca,
-    "Russia"@en-gb, "Russie"@fr, "Russie (la Fédération de)"@fr, "Россия"@ru, "روسيا"@ar,
-    "俄罗斯"@zh, "俄罗斯"@zh-cn .
+<http://data.un.org/kos/geo/642> skos:prefLabel "Romania"@en, "Roumanie"@fr, "Rumania"@es,
+    "Румыния"@ru, "رومانيا"@ar, "羅馬尼亞"@zh .
 
-<http://data.un.org/kos/geo/703> skos:altLabel "Eslovaquia"@es, "Slovakia"@en, "Slovakia"@en-ca,
-    "Slovakia"@en-gb, "Slovaquie"@fr, "Slovaquie (la)"@fr, "Словакия"@ru, "سلوفاكيا"@ar,
-    "斯洛伐克"@zh, "斯洛伐克"@zh-cn .
+<http://data.un.org/kos/geo/643> skos:prefLabel "Rusia"@es, "Russian Federation"@en,
+    "Russie"@fr, "Россия"@ru, "روسيا"@ar, "俄罗斯"@zh .
 
-<http://data.un.org/kos/geo/804> skos:altLabel "Ucrania"@es, "Ukraine"@en, "Ukraine"@en-ca,
-    "Ukraine"@en-gb, "Ukraine"@fr, "Ukraine (l')"@fr, "Украина"@ru, "أوكرانيا"@ar, "乌克兰"@zh,
-    "乌克兰"@zh-cn .
+<http://data.un.org/kos/geo/703> skos:prefLabel "Eslovaquia"@es, "Slovakia"@en, "Slovaquie"@fr,
+    "Словакия"@ru, "سلوفاكيا"@ar, "斯洛伐克"@zh .
 
-<http://data.un.org/kos/geo/248> skos:altLabel "Åland"@es, "Åland"@fr, "Åland Islands"@en,
-    "Åland Islands"@en-ca, "Åland Islands"@en-gb, "Åland(les Îles)"@fr, "Аландские острова"@ru,
-    "جزر أولاند"@ar, "奥兰群岛"@zh .
+<http://data.un.org/kos/geo/804> skos:prefLabel "Ucrania"@es, "Ukraine"@en, "Ukraine"@fr,
+    "Украина"@ru, "أوكرانيا"@ar, "乌克兰"@zh .
 
-<http://data.un.org/kos/geo/208> skos:altLabel "Danemark"@fr, "Danemark (le)"@fr,
-    "Denmark"@en, "Denmark"@en-ca, "Denmark"@en-gb, "Dinamarca"@es, "Дания"@ru, "الدنمارك"@ar,
-    "丹麦"@zh, "丹麦"@zh-cn .
+<http://data.un.org/kos/geo/248> skos:prefLabel "Åland"@es, "Åland"@fr, "Åland Islands"@en,
+    "Аландские острова"@ru, "جزر أولاند"@ar, "奥兰群岛"@zh .
 
-<http://data.un.org/kos/geo/233> skos:altLabel "Estonia"@en, "Estonia"@en-ca, "Estonia"@en-gb,
-    "Estonia"@es, "Estonie"@fr, "Estonie (l')"@fr, "Эстония"@ru, "إستونيا"@ar, "爱沙尼亚"@zh,
-    "爱沙尼亚"@zh-cn .
+<http://data.un.org/kos/geo/208> skos:prefLabel "Danemark"@fr, "Denmark"@en, "Dinamarca"@es,
+    "Дания"@ru, "الدنمارك"@ar, "丹麦"@zh .
 
-<http://data.un.org/kos/geo/234> skos:altLabel "Faroe Islands"@en, "Faroe Islands"@en-ca,
-    "Faroe Islands"@en-gb, "Féroé (les Îles)"@fr, "Islas Feroe"@es, "îles Féroé"@fr, "Фарерские острова"@ru,
-    "جزر فارو"@ar, "法罗群岛"@zh .
+<http://data.un.org/kos/geo/233> skos:prefLabel "Estonia"@en, "Estonia"@es, "Estonie"@fr,
+    "Эстония"@ru, "إستونيا"@ar, "爱沙尼亚"@zh .
 
-<http://data.un.org/kos/geo/246> skos:altLabel "Finland"@en, "Finland"@en-ca, "Finland"@en-gb,
-    "Finlande"@fr, "Finlande (la)"@fr, "Finlandia"@es, "Финляндия"@ru, "فنلندا"@ar, "芬兰"@zh,
-    "芬兰"@zh-cn .
+<http://data.un.org/kos/geo/234> skos:prefLabel "Faroe Islands"@en, "Féroé (les Îles)"@fr,
+    "Islas Feroe"@es, "Фарерские острова"@ru, "جزر فارو"@ar, "法罗群岛"@zh .
 
-<http://data.un.org/kos/geo/352> skos:altLabel "Iceland"@en, "Iceland"@en-ca, "Iceland"@en-gb,
-    "Islande"@fr, "Islande (l')"@fr, "Islandia"@es, "Исландия"@ru, "آيسلندا"@ar, "冰岛"@zh .
+<http://data.un.org/kos/geo/246> skos:prefLabel "Finland"@en, "Finlande"@fr, "Finlandia"@es,
+    "Финляндия"@ru, "فنلندا"@ar, "芬兰"@zh .
 
-<http://data.un.org/kos/geo/372> skos:altLabel "Ireland"@en, "Ireland"@en-gb, "Irlanda"@es,
-    "Irlande"@fr, "Irlande (l')"@fr, "Republic of Ireland"@en-ca, "Ирландия"@ru, "جمهورية أيرلندا"@ar,
-    "爱尔兰"@zh-cn, "爱尔兰共和国"@zh .
+<http://data.un.org/kos/geo/352> skos:prefLabel "Iceland"@en, "Islande"@fr, "Islandia"@es,
+    "Исландия"@ru, "آيسلندا"@ar, "冰岛"@zh .
 
-<http://data.un.org/kos/geo/833> skos:altLabel "Isla de Man"@es, "Isle of Man"@en,
-    "Isle of Man"@en-ca, "Isle of Man"@en-gb, "Île de Man"@fr, "île de Man"@fr, "остров Мэн"@ru,
-    "جزيرة مان"@ar, "马恩岛"@zh, "马恩岛"@zh-cn .
+<http://data.un.org/kos/geo/372> skos:prefLabel "Ireland"@en, "Irlanda"@es, "Irlande"@fr,
+    "Ирландия"@ru, "جمهورية أيرلندا"@ar, "爱尔兰共和国"@zh .
 
-<http://data.un.org/kos/geo/428> skos:altLabel "Latvia"@en, "Latvia"@en-ca, "Latvia"@en-gb,
-    "Letonia"@es, "Lettonie"@fr, "Lettonie (la)"@fr, "Латвия"@ru, "لاتفيا"@ar, "拉脫維亞"@zh .
+<http://data.un.org/kos/geo/833> skos:prefLabel "Isla de Man"@es, "Isle of Man"@en,
+    "Île de Man"@fr, "остров Мэн"@ru, "جزيرة مان"@ar, "马恩岛"@zh .
 
-<http://data.un.org/kos/geo/440> skos:altLabel "Lithuania"@en, "Lithuania"@en-ca,
-    "Lithuania"@en-gb, "Lituania"@es, "Lituanie"@fr, "Lituanie (la)"@fr, "Литва"@ru, "ليتوانيا"@ar,
-    "立陶宛"@zh, "立陶宛"@zh-cn .
+<http://data.un.org/kos/geo/428> skos:prefLabel "Latvia"@en, "Letonia"@es, "Lettonie"@fr,
+    "Латвия"@ru, "لاتفيا"@ar, "拉脫維亞"@zh .
 
-<http://data.un.org/kos/geo/578> skos:altLabel "Noruega"@es, "Norvège"@fr, "Norvège (la)"@fr,
-    "Norway"@en, "Norway"@en-ca, "Norway"@en-gb, "Норвегия"@ru, "النرويج"@ar, "挪威"@zh,
-    "挪威"@zh-cn .
+<http://data.un.org/kos/geo/440> skos:prefLabel "Lithuania"@en, "Lituania"@es, "Lituanie"@fr,
+    "Литва"@ru, "ليتوانيا"@ar, "立陶宛"@zh .
 
-<http://data.un.org/kos/geo/744> skos:altLabel "Svalbard and Jan Mayen"@en, "Svalbard et Jan Mayen"@fr,
-    "Svalbard et l'Île Jan Mayen (le)"@fr, "Svalbard y Jan Mayen"@es, "Шпицберген и Ян-Майен"@ru,
+<http://data.un.org/kos/geo/578> skos:prefLabel "Noruega"@es, "Norvège"@fr, "Norway"@en,
+    "Норвегия"@ru, "النرويج"@ar, "挪威"@zh .
+
+<http://data.un.org/kos/geo/744> skos:prefLabel "Svalbard and Jan Mayen Islands"@en,
+    "Svalbard et Jan Mayen"@fr, "Svalbard y Jan Mayen"@es, "Шпицберген и Ян-Майен"@ru,
     "سفالبارد ويان ماين"@ar, "斯瓦尔巴和扬马延"@zh .
 
-<http://data.un.org/kos/geo/752> skos:altLabel "Suecia"@es, "Suède"@fr, "Suède (la)"@fr,
-    "Sweden"@en, "Sweden"@en-ca, "Sweden"@en-gb, "Швеция"@ru, "السويد"@ar, "瑞典"@zh, "瑞典"@zh-cn .
+<http://data.un.org/kos/geo/752> skos:prefLabel "Suecia"@es, "Suède"@fr, "Sweden"@en,
+    "Швеция"@ru, "السويد"@ar, "瑞典"@zh .
 
-<http://data.un.org/kos/geo/826> skos:altLabel "Reino Unido"@es, "Royaume-Uni"@fr,
-    "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"@fr, "United Kingdom"@en,
-    "United Kingdom"@en-ca, "United Kingdom"@en-gb, "Великобритания"@ru, "المملكة المتحدة"@ar,
-    "英国"@zh, "英国"@zh-cn .
+<http://data.un.org/kos/geo/826> skos:prefLabel "Reino Unido"@es, "Royaume-Uni"@fr,
+    "United Kingdom of Great Britain and Northern Ireland"@en, "Великобритания"@ru, "المملكة المتحدة"@ar,
+    "英国"@zh .
 
-<http://data.un.org/kos/geo/8> skos:altLabel "Albania"@en, "Albania"@en-ca, "Albania"@en-gb,
-    "Albania"@es, "Albanie"@fr, "Albanie (l')"@fr, "Албания"@ru, "ألبانيا"@ar, "阿尔巴尼亚"@zh,
-    "阿尔巴尼亚"@zh-cn .
+<http://data.un.org/kos/geo/8> skos:prefLabel "Albania"@en, "Albania"@es, "Albanie"@fr,
+    "Албания"@ru, "ألبانيا"@ar, "阿尔巴尼亚"@zh .
 
-<http://data.un.org/kos/geo/20> skos:altLabel "Andorra"@en, "Andorra"@en-ca, "Andorra"@en-gb,
-    "Andorra"@es, "Andorre"@fr, "Andorre (l')"@fr, "Андорра"@ru, "أندورا"@ar, "安道尔"@zh,
-    "安道尔"@zh-cn .
+<http://data.un.org/kos/geo/20> skos:prefLabel "Andorra"@en, "Andorra"@es, "Andorre"@fr,
+    "Андорра"@ru, "أندورا"@ar, "安道尔"@zh .
 
-<http://data.un.org/kos/geo/70> skos:altLabel "Bosnia and Herzegovina"@en, "Bosnia and Herzegovina"@en-ca,
-    "Bosnia and Herzegovina"@en-gb, "Bosnia y Herzegovina"@es, "Bosnie-Herzégovine"@fr,
-    "Bosnie-Herzégovine (la)"@fr, "Босния и Герцеговина"@ru, "البوسنة والهرسك"@ar, "波斯尼亚和黑塞哥维那"@zh,
-    "波斯尼亚和黑塞哥维那"@zh-cn .
+<http://data.un.org/kos/geo/70> skos:prefLabel "Bosnia and Herzegovina"@en, "Bosnia y Herzegovina"@es,
+    "Bosnie-Herzégovine"@fr, "Босния и Герцеговина"@ru, "البوسنة والهرسك"@ar, "波斯尼亚和黑塞哥维那"@zh .
 
-<http://data.un.org/kos/geo/191> skos:altLabel "Croacia"@es, "Croatia"@en, "Croatia"@en-ca,
-    "Croatia"@en-gb, "Croatie"@fr, "Croatie (la)"@fr, "Хорватия"@ru, "كرواتيا"@ar, "克罗地亚"@zh,
-    "克罗地亚"@zh-cn .
+<http://data.un.org/kos/geo/191> skos:prefLabel "Croacia"@es, "Croatia"@en, "Croatie"@fr,
+    "Хорватия"@ru, "كرواتيا"@ar, "克罗地亚"@zh .
 
-<http://data.un.org/kos/geo/292> skos:altLabel "Gibraltar"@en, "Gibraltar"@en-ca,
-    "Gibraltar"@en-gb, "Gibraltar"@es, "Gibraltar"@fr, "Гибралтар"@ru, "جبل طارق"@ar,
-    "直布罗陀"@zh, "直布罗陀"@zh-cn .
+<http://data.un.org/kos/geo/292> skos:prefLabel "Gibraltar"@en, "Gibraltar"@es, "Gibraltar"@fr,
+    "Гибралтар"@ru, "جبل طارق"@ar, "直布罗陀"@zh .
 
-<http://data.un.org/kos/geo/300> skos:altLabel "Grecia"@es, "Greece"@en, "Greece"@en-ca,
-    "Greece"@en-gb, "Grèce"@fr, "Grèce (la)"@fr, "Греция"@ru, "اليونان"@ar, "希腊"@zh, "希腊"@zh-cn .
+<http://data.un.org/kos/geo/300> skos:prefLabel "Grecia"@es, "Greece"@en, "Grèce"@fr,
+    "Греция"@ru, "اليونان"@ar, "希腊"@zh .
 
-<http://data.un.org/kos/geo/336> skos:altLabel "Ciudad del Vaticano"@es, "Saint-Siège (le)"@fr,
-    "Vatican"@fr, "Vatican City"@en, "Vatican City"@en-ca, "Vatican City"@en-gb, "Ватикан"@ru,
-    "الفاتيكان"@ar, "梵蒂冈"@zh .
+<http://data.un.org/kos/geo/336> skos:prefLabel "Ciudad del Vaticano"@es, "Holy See"@en,
+    "Saint-Siège (le)"@fr, "Ватикан"@ru, "الفاتيكان"@ar, "梵蒂冈"@zh .
 
-<http://data.un.org/kos/geo/380> skos:altLabel "Italia"@es, "Italie"@fr, "Italie (l')"@fr,
-    "Italy"@en, "Italy"@en-ca, "Italy"@en-gb, "Италия"@ru, "إيطاليا"@ar, "意大利"@zh, "意大利"@zh-cn .
+<http://data.un.org/kos/geo/380> skos:prefLabel "Italia"@es, "Italie"@fr, "Italy"@en,
+    "Италия"@ru, "إيطاليا"@ar, "意大利"@zh .
 
-<http://data.un.org/kos/geo/470> skos:altLabel "Malta"@en, "Malta"@en-ca, "Malta"@en-gb,
-    "Malta"@es, "Malte"@fr, "Мальта"@ru, "مالطا"@ar, "马耳他"@zh, "马耳他"@zh-cn .
+<http://data.un.org/kos/geo/470> skos:prefLabel "Malta"@en, "Malta"@es, "Malte"@fr,
+    "Мальта"@ru, "مالطا"@ar, "马耳他"@zh .
 
-<http://data.un.org/kos/geo/499> skos:altLabel "Montenegro"@en, "Montenegro"@en-ca,
-    "Montenegro"@en-gb, "Montenegro"@es, "Monténégro"@fr, "Monténégro (le)"@fr, "Черногория"@ru,
-    "الجبل الأسود"@ar, "蒙特內哥羅"@zh .
+<http://data.un.org/kos/geo/499> skos:prefLabel "Montenegro"@en, "Montenegro"@es,
+    "Monténégro"@fr, "Черногория"@ru, "الجبل الأسود"@ar, "蒙特內哥羅"@zh .
 
-<http://data.un.org/kos/geo/807> skos:altLabel "Macedonia del Norte"@es, "Macédoine (l'ex‑République yougoslave de)"@fr,
-    "Macédoine du Nord"@fr, "North Macedonia"@en, "North Macedonia"@en-ca, "North Macedonia"@en-gb,
-    "Северная Македония"@ru, "مقدونيا الشمالية"@ar, "北马其顿"@zh, "北马其顿"@zh-cn .
+<http://data.un.org/kos/geo/807> skos:prefLabel "Macedonia del Norte"@es, "Macédoine (l'ex‑République yougoslave de)"@fr,
+    "North Macedonia"@en, "Северная Македония"@ru, "مقدونيا الشمالية"@ar, "北马其顿"@zh .
 
-<http://data.un.org/kos/geo/620> skos:altLabel "Portugal"@en, "Portugal"@en-ca, "Portugal"@en-gb,
-    "Portugal"@es, "Portugal"@fr, "Portugal (le)"@fr, "Португалия"@ru, "البرتغال"@ar,
-    "葡萄牙"@zh, "葡萄牙"@zh-cn .
+<http://data.un.org/kos/geo/620> skos:prefLabel "Portugal"@en, "Portugal"@es, "Portugal"@fr,
+    "Португалия"@ru, "البرتغال"@ar, "葡萄牙"@zh .
 
-<http://data.un.org/kos/geo/674> skos:altLabel "Saint-Marin"@fr, "San Marino"@en,
-    "San Marino"@en-ca, "San Marino"@en-gb, "San Marino"@es, "Сан-Марино"@ru, "سان مارينو"@ar,
-    "圣马力诺"@zh .
+<http://data.un.org/kos/geo/674> skos:prefLabel "Saint-Marin"@fr, "San Marino"@en,
+    "San Marino"@es, "Сан-Марино"@ru, "سان مارينو"@ar, "圣马力诺"@zh .
 
-<http://data.un.org/kos/geo/688> skos:altLabel "Serbia"@en, "Serbia"@en-ca, "Serbia"@en-gb,
-    "Serbia"@es, "Serbie"@fr, "Serbie (la)"@fr, "Сербия"@ru, "صربيا"@ar, "塞尔维亚"@zh, "塞尔维亚"@zh-cn .
+<http://data.un.org/kos/geo/688> skos:prefLabel "Serbia"@en, "Serbia"@es, "Serbie"@fr,
+    "Сербия"@ru, "صربيا"@ar, "塞尔维亚"@zh .
 
-<http://data.un.org/kos/geo/705> skos:altLabel "Eslovenia"@es, "Slovenia"@en, "Slovenia"@en-ca,
-    "Slovenia"@en-gb, "Slovénie"@fr, "Slovénie (la)"@fr, "Словения"@ru, "سلوفينيا"@ar,
-    "斯洛文尼亚"@zh, "斯洛文尼亚"@zh-cn .
+<http://data.un.org/kos/geo/705> skos:prefLabel "Eslovenia"@es, "Slovenia"@en, "Slovénie"@fr,
+    "Словения"@ru, "سلوفينيا"@ar, "斯洛文尼亚"@zh .
 
-<http://data.un.org/kos/geo/724> skos:altLabel "Espagne"@fr, "Espagne (l')"@fr, "España"@es,
-    "Spain"@en, "Spain"@en-ca, "Spain"@en-gb, "Испания"@ru, "إسبانيا"@ar, "西班牙"@zh, "西班牙"@zh-cn .
+<http://data.un.org/kos/geo/724> skos:prefLabel "Espagne"@fr, "España"@es, "Spain"@en,
+    "Испания"@ru, "إسبانيا"@ar, "西班牙"@zh .
 
-<http://data.un.org/kos/geo/40> skos:altLabel "Austria"@en, "Austria"@en-ca, "Austria"@en-gb,
-    "Austria"@es, "Autriche"@fr, "Autriche (l')"@fr, "Австрия"@ru, "النمسا"@ar, "奥地利"@zh,
-    "奥地利"@zh-cn .
+<http://data.un.org/kos/geo/40> skos:prefLabel "Austria"@en, "Austria"@es, "Autriche"@fr,
+    "Австрия"@ru, "النمسا"@ar, "奥地利"@zh .
 
-<http://data.un.org/kos/geo/56> skos:altLabel "Belgique"@fr, "Belgique (la)"@fr, "Belgium"@en,
-    "Belgium"@en-ca, "Belgium"@en-gb, "Bélgica"@es, "Бельгия"@ru, "بلجيكا"@ar, "比利时"@zh,
-    "比利时"@zh-cn .
+<http://data.un.org/kos/geo/56> skos:prefLabel "Belgique"@fr, "Belgium"@en, "Bélgica"@es,
+    "Бельгия"@ru, "بلجيكا"@ar, "比利时"@zh .
 
-<http://data.un.org/kos/geo/250> skos:altLabel "France"@en, "France"@en-ca, "France"@en-gb,
-    "France"@fr, "France (la)"@fr, "Francia"@es, "Франция"@ru, "فرنسا"@ar, "法国"@zh, "法国"@zh-cn .
+<http://data.un.org/kos/geo/250> skos:prefLabel "France"@en, "France"@fr, "Francia"@es,
+    "Франция"@ru, "فرنسا"@ar, "法国"@zh .
 
-<http://data.un.org/kos/geo/276> skos:altLabel "Alemania"@es, "Allemagne"@fr, "Allemagne (l')"@fr,
-    "Germany"@en, "Germany"@en-ca, "Germany"@en-gb, "Германия"@ru, "ألمانيا"@ar, "德国"@zh,
-    "德国"@zh-cn .
+<http://data.un.org/kos/geo/276> skos:prefLabel "Alemania"@es, "Allemagne"@fr, "Germany"@en,
+    "Германия"@ru, "ألمانيا"@ar, "德国"@zh .
 
-<http://data.un.org/kos/geo/438> skos:altLabel "Liechtenstein"@en, "Liechtenstein"@en-ca,
-    "Liechtenstein"@en-gb, "Liechtenstein"@es, "Liechtenstein"@fr, "Liechtenstein (le)"@fr,
-    "Лихтенштейн"@ru, "ليختنشتاين"@ar, "列支敦斯登"@zh, "列支敦斯登"@zh-cn .
+<http://data.un.org/kos/geo/438> skos:prefLabel "Liechtenstein"@en, "Liechtenstein"@es,
+    "Liechtenstein"@fr, "Лихтенштейн"@ru, "ليختنشتاين"@ar, "列支敦斯登"@zh .
 
-<http://data.un.org/kos/geo/442> skos:altLabel "Luxembourg"@en, "Luxembourg"@en-ca,
-    "Luxembourg"@en-gb, "Luxembourg"@fr, "Luxembourg (le)"@fr, "Luxemburgo"@es, "Люксембург"@ru,
-    "لوكسمبورغ"@ar, "卢森堡"@zh, "卢森堡"@zh-cn .
+<http://data.un.org/kos/geo/442> skos:prefLabel "Luxembourg"@en, "Luxembourg"@fr,
+    "Luxemburgo"@es, "Люксембург"@ru, "لوكسمبورغ"@ar, "卢森堡"@zh .
 
-<http://data.un.org/kos/geo/492> skos:altLabel "Monaco"@en, "Monaco"@en-ca, "Monaco"@en-gb,
-    "Monaco"@fr, "Mónaco"@es, "Монако"@ru, "موناكو"@ar, "摩纳哥"@zh .
+<http://data.un.org/kos/geo/492> skos:prefLabel "Monaco"@en, "Monaco"@fr, "Mónaco"@es,
+    "Монако"@ru, "موناكو"@ar, "摩纳哥"@zh .
 
-<http://data.un.org/kos/geo/528> skos:altLabel "Kingdom of the Netherlands"@en, "Kingdom of the Netherlands"@en-gb,
-    "Netherlands"@en, "Netherlands"@en-ca, "Netherlands"@en-gb, "Pays-Bas"@fr, "Pays-Bas (les)"@fr,
-    "Países Bajos"@es, "Reino de los Países Bajos"@es, "Королевство Нидерландов"@ru, "Нидерланды"@ru,
-    "مملكة هولندا"@ar, "هولندا"@ar, "荷兰"@zh-cn, "荷兰王国"@zh, "荷蘭"@zh .
+<http://data.un.org/kos/geo/528> skos:prefLabel "Netherlands"@en, "Pays-Bas"@fr, "Países Bajos"@es,
+    "Королевство Нидерландов"@ru, "مملكة هولندا"@ar, "荷兰王国"@zh .
 
-<http://data.un.org/kos/geo/756> skos:altLabel "Suisse"@fr, "Suisse (la)"@fr, "Suiza"@es,
-    "Switzerland"@en, "Switzerland"@en-ca, "Switzerland"@en-gb, "Швейцария"@ru, "سويسرا"@ar,
-    "瑞士"@zh, "瑞士"@zh-cn .
+<http://data.un.org/kos/geo/756> skos:prefLabel "Suisse"@fr, "Suiza"@es, "Switzerland"@en,
+    "Швейцария"@ru, "سويسرا"@ar, "瑞士"@zh .
 
-<http://data.un.org/kos/geo/36> skos:altLabel "Australia"@en, "Australia"@en-ca, "Australia"@en-gb,
-    "Australia"@es, "Australie"@fr, "Australie (l')"@fr, "Австралия"@ru, "أستراليا"@ar,
-    "澳大利亚"@zh .
+<http://data.un.org/kos/geo/36> skos:prefLabel "Australia"@en, "Australia"@es, "Australie"@fr,
+    "Австралия"@ru, "أستراليا"@ar, "澳大利亚"@zh .
 
-<http://data.un.org/kos/geo/162> skos:altLabel "Christmas (l'Île)"@fr, "Christmas Island"@en,
-    "Isla de Navidad"@es, "île Christmas"@fr, "Остров Рождества"@ru, "جزيرة عيد الميلاد"@ar,
-    "圣诞岛"@zh .
+<http://data.un.org/kos/geo/162> skos:prefLabel "Christmas (l'Île)"@fr, "Christmas Island"@en,
+    "Isla de Navidad"@es, "Остров Рождества"@ru, "جزيرة عيد الميلاد"@ar, "圣诞岛"@zh .
 
-<http://data.un.org/kos/geo/166> skos:altLabel "Cocos (Keeling) Islands"@en, "Cocos (les Îles)/ Keeling (les Îles)"@fr,
-    "islas Cocos"@es, "îles Cocos"@fr, "Кокосовые острова"@ru, "جزر كوكوس"@ar, "科科斯（基林）群島"@zh .
+<http://data.un.org/kos/geo/166> skos:prefLabel "Cocos (Keeling) Islands"@en, "Cocos (les Îles)/ Keeling (les Îles)"@fr,
+    "islas Cocos"@es, "Кокосовые острова"@ru, "جزر كوكوس"@ar, "科科斯（基林）群島"@zh .
 
-<http://data.un.org/kos/geo/334> skos:altLabel "Heard Island and McDonald Islands"@en,
-    "Heard Island and McDonald Islands"@en-ca, "Heard Island and McDonald Islands"@en-gb,
-    "Heard-et-Îles MacDonald (l'Île)"@fr, "Islas Heard y McDonald"@es, "îles Heard-et-MacDonald"@fr,
-    "Остров Херд и острова Макдональд"@ru, "جزيرة هيرد وجزر ماكدونالد"@ar, "赫德岛和麦克唐纳群岛"@zh-cn,
-    "赫德島和麥克唐納群島"@zh .
+<http://data.un.org/kos/geo/334> skos:prefLabel "Heard Island and McDonald Islands"@en,
+    "Heard-et-Îles MacDonald (l'Île)"@fr, "Islas Heard y McDonald"@es, "Остров Херд и острова Макдональд"@ru,
+    "جزيرة هيرد وجزر ماكدونالد"@ar, "赫德島和麥克唐納群島"@zh .
 
-<http://data.un.org/kos/geo/554> skos:altLabel "New Zealand"@en, "New Zealand"@en-ca,
-    "New Zealand"@en-gb, "Nouvelle-Zélande"@fr, "Nouvelle-Zélande (la)"@fr, "Nueva Zelanda"@es,
-    "Новая Зеландия"@ru, "نيوزيلندا"@ar, "新西兰"@zh, "新西兰"@zh-cn .
+<http://data.un.org/kos/geo/554> skos:prefLabel "New Zealand"@en, "Nouvelle-Zélande"@fr,
+    "Nueva Zelanda"@es, "Новая Зеландия"@ru, "نيوزيلندا"@ar, "新西兰"@zh .
 
-<http://data.un.org/kos/geo/574> skos:altLabel "Isla Norfolk"@es, "Norfolk (l'Île)"@fr,
-    "Norfolk Island"@en, "Norfolk Island"@en-ca, "Norfolk Island"@en-gb, "île Norfolk"@fr,
-    "Норфолк"@ru, "جزيرة نورفولك"@ar, "诺福克岛"@zh .
+<http://data.un.org/kos/geo/574> skos:prefLabel "Isla Norfolk"@es, "Norfolk (l'Île)"@fr,
+    "Norfolk Island"@en, "Норфолк"@ru, "جزيرة نورفولك"@ar, "诺福克岛"@zh .
 
-<http://data.un.org/kos/geo/242> skos:altLabel "Fidji"@fr, "Fidji (les)"@fr, "Fiji"@en,
-    "Fiji"@en-ca, "Fiji"@en-gb, "Fiyi"@es, "Фиджи"@ru, "فيجي"@ar, "斐济"@zh-cn, "斐濟"@zh .
+<http://data.un.org/kos/geo/242> skos:prefLabel "Fidji"@fr, "Fiji"@en, "Fiyi"@es,
+    "Фиджи"@ru, "فيجي"@ar, "斐濟"@zh .
 
-<http://data.un.org/kos/geo/540> skos:altLabel "New Caledonia"@en, "New Caledonia"@en-ca,
-    "New Caledonia"@en-gb, "Nouvelle-Calédonie"@fr, "Nouvelle-Calédonie (la)"@fr, "Nueva Caledonia"@es,
-    "Новая Каледония"@ru, "كاليدونيا الجديدة"@ar, "新喀里多尼亚"@zh-cn, "新喀里多尼亞"@zh .
+<http://data.un.org/kos/geo/540> skos:prefLabel "New Caledonia"@en, "Nouvelle-Calédonie"@fr,
+    "Nueva Caledonia"@es, "Новая Каледония"@ru, "كاليدونيا الجديدة"@ar, "新喀里多尼亞"@zh .
 
-<http://data.un.org/kos/geo/598> skos:altLabel "Papouasie-Nouvelle-Guinée"@fr, "Papouasie-Nouvelle-Guinée (la)"@fr,
-    "Papua New Guinea"@en, "Papua New Guinea"@en-ca, "Papua New Guinea"@en-gb, "Papúa Nueva Guinea"@es,
-    "Папуа — Новая Гвинея"@ru, "بابوا غينيا الجديدة"@ar, "巴布亚新几内亚"@zh .
+<http://data.un.org/kos/geo/598> skos:prefLabel "Papouasie-Nouvelle-Guinée"@fr, "Papua New Guinea"@en,
+    "Papúa Nueva Guinea"@es, "Папуа — Новая Гвинея"@ru, "بابوا غينيا الجديدة"@ar, "巴布亚新几内亚"@zh .
 
-<http://data.un.org/kos/geo/90> skos:altLabel "Islas Salomón"@es, "Salomon (Îles)"@fr,
-    "Solomon Islands"@en, "Solomon Islands"@en-ca, "Solomon Islands"@en-gb, "Îles Salomon"@fr,
-    "Соломоновы Острова"@ru, "جزر سليمان"@ar, "所罗门群岛"@zh-cn, "索羅門群島"@zh .
+<http://data.un.org/kos/geo/90> skos:prefLabel "Islas Salomón"@es, "Salomon (Îles)"@fr,
+    "Solomon Islands"@en, "Соломоновы Острова"@ru, "جزر سليمان"@ar, "索羅門群島"@zh .
 
-<http://data.un.org/kos/geo/548> skos:altLabel "Vanuatu"@en, "Vanuatu"@en-ca, "Vanuatu"@en-gb,
-    "Vanuatu"@es, "Vanuatu"@fr, "Vanuatu (le)"@fr, "Вануату"@ru, "فانواتو"@ar, "瓦努阿图"@zh-cn,
-    "萬那杜"@zh .
+<http://data.un.org/kos/geo/548> skos:prefLabel "Vanuatu"@en, "Vanuatu"@es, "Vanuatu"@fr,
+    "Вануату"@ru, "فانواتو"@ar, "萬那杜"@zh .
 
-<http://data.un.org/kos/geo/316> skos:altLabel "Guam"@en, "Guam"@es, "Guam"@fr, "Гуам"@ru,
+<http://data.un.org/kos/geo/316> skos:prefLabel "Guam"@en, "Guam"@es, "Guam"@fr, "Гуам"@ru,
     "غوام"@ar, "關島"@zh .
 
-<http://data.un.org/kos/geo/296> skos:altLabel "Kiribati"@en, "Kiribati"@en-ca, "Kiribati"@en-gb,
-    "Kiribati"@es, "Kiribati"@fr, "Кирибати"@ru, "كيريباتي"@ar, "吉里巴斯"@zh, "基里巴斯"@zh-cn .
+<http://data.un.org/kos/geo/296> skos:prefLabel "Kiribati"@en, "Kiribati"@es, "Kiribati"@fr,
+    "Кирибати"@ru, "كيريباتي"@ar, "吉里巴斯"@zh .
 
-<http://data.un.org/kos/geo/584> skos:altLabel "Islas Marshall"@es, "Marshall (Îles)"@fr,
-    "Marshall Islands"@en, "Marshall Islands"@en-ca, "Marshall Islands"@en-gb, "Îles Marshall"@fr,
-    "Маршалловы Острова"@ru, "جزر مارشال"@ar, "馬紹爾群島"@zh, "马绍尔群岛"@zh-cn .
+<http://data.un.org/kos/geo/584> skos:prefLabel "Islas Marshall"@es, "Marshall (Îles)"@fr,
+    "Marshall Islands"@en, "Маршалловы Острова"@ru, "جزر مارشال"@ar, "馬紹爾群島"@zh .
 
-<http://data.un.org/kos/geo/583> skos:altLabel "Federated States of Micronesia"@en,
-    "Federated States of Micronesia"@en-ca, "Federated States of Micronesia"@en-gb, "Micronesia"@es,
-    "Micronésie (États fédérés de)"@fr, "États fédérés de Micronésie"@fr, "Микронезия"@ru,
-    "ولايات ميكرونيسيا المتحدة"@ar, "密克罗尼西亚联邦"@zh, "密克罗尼西亚联邦"@zh-cn .
+<http://data.un.org/kos/geo/583> skos:prefLabel "Micronesia"@es, "Micronesia (Federated States of)"@en,
+    "Micronésie (États fédérés de)"@fr, "Микронезия"@ru, "ولايات ميكرونيسيا المتحدة"@ar,
+    "密克罗尼西亚联邦"@zh .
 
-<http://data.un.org/kos/geo/520> skos:altLabel "Nauru"@en, "Nauru"@en-ca, "Nauru"@en-gb,
-    "Nauru"@es, "Nauru"@fr, "Науру"@ru, "ناورو"@ar, "瑙鲁"@zh-cn, "諾魯"@zh .
+<http://data.un.org/kos/geo/520> skos:prefLabel "Nauru"@en, "Nauru"@es, "Nauru"@fr,
+    "Науру"@ru, "ناورو"@ar, "諾魯"@zh .
 
-<http://data.un.org/kos/geo/580> skos:altLabel "Islas Marianas del Norte"@es, "Mariannes du Nord (les Îles)"@fr,
-    "Northern Mariana Islands"@en, "Northern Mariana Islands"@en-gb, "îles Mariannes du Nord"@fr,
-    "Северные Марианские острова"@ru, "جزر ماريانا الشمالية"@ar, "北马里亚纳群岛"@zh .
+<http://data.un.org/kos/geo/580> skos:prefLabel "Islas Marianas del Norte"@es, "Mariannes du Nord (les Îles)"@fr,
+    "Northern Mariana Islands"@en, "Северные Марианские острова"@ru, "جزر ماريانا الشمالية"@ar,
+    "北马里亚纳群岛"@zh .
 
-<http://data.un.org/kos/geo/585> skos:altLabel "Palaos"@es, "Palaos"@fr, "Palaos (les)"@fr,
-    "Palau"@en, "Palau"@en-ca, "Palau"@en-gb, "Палау"@ru, "بالاو"@ar, "帕劳"@zh-cn, "帛琉"@zh .
+<http://data.un.org/kos/geo/585> skos:prefLabel "Palaos"@es, "Palaos"@fr, "Palau"@en,
+    "Палау"@ru, "بالاو"@ar, "帛琉"@zh .
 
-<http://data.un.org/kos/geo/581> skos:altLabel "Islas ultramarinas de Estados Unidos"@es,
+<http://data.un.org/kos/geo/581> skos:prefLabel "Islas ultramarinas de Estados Unidos"@es,
     "United States Minor Outlying Islands"@en, "Îles mineures éloignées des États-Unis"@fr,
-    "Îles mineures éloignées des États-Unis (les)"@fr, "Внешние малые острова США"@ru,
-    "جزر الولايات المتحدة الصغيرة النائية"@ar, "美国本土外小岛屿"@zh .
+    "Внешние малые острова США"@ru, "جزر الولايات المتحدة الصغيرة النائية"@ar, "美国本土外小岛屿"@zh .
 
-<http://data.un.org/kos/geo/16> skos:altLabel "American Samoa"@en, "American Samoa"@en-ca,
-    "American Samoa"@en-gb, "Samoa Estadounidense"@es, "Samoa américaines"@fr, "Samoa américaines (les)"@fr,
-    "Американское Самоа"@ru, "ساموا الأمريكية"@ar, "美屬薩摩亞"@zh .
+<http://data.un.org/kos/geo/16> skos:prefLabel "American Samoa"@en, "Samoa Estadounidense"@es,
+    "Samoa américaines"@fr, "Американское Самоа"@ru, "ساموا الأمريكية"@ar, "美屬薩摩亞"@zh .
 
-<http://data.un.org/kos/geo/184> skos:altLabel "Cook (les Îles)"@fr, "Cook Islands"@en,
-    "Islas Cook"@es, "Îles Cook"@fr, "Острова Кука"@ru, "جزر كوك"@ar, "库克群岛"@zh .
+<http://data.un.org/kos/geo/184> skos:prefLabel "Cook (les Îles)"@fr, "Cook Islands"@en,
+    "Islas Cook"@es, "Острова Кука"@ru, "جزر كوك"@ar, "库克群岛"@zh .
 
-<http://data.un.org/kos/geo/258> skos:altLabel "French Polynesia"@en, "Polinesia Francesa"@es,
-    "Polynésie française"@fr, "Polynésie française (la)"@fr, "Французская Полинезия"@ru,
-    "بولينزيا الفرنسية"@ar, "法屬玻里尼西亞"@zh .
+<http://data.un.org/kos/geo/258> skos:prefLabel "French Polynesia"@en, "Polinesia Francesa"@es,
+    "Polynésie française"@fr, "Французская Полинезия"@ru, "بولينزيا الفرنسية"@ar, "法屬玻里尼西亞"@zh .
 
-<http://data.un.org/kos/geo/570> skos:altLabel "Niue"@en, "Niue"@es, "Niue"@fr, "Ниуэ"@ru,
+<http://data.un.org/kos/geo/570> skos:prefLabel "Niue"@en, "Niue"@es, "Niue"@fr, "Ниуэ"@ru,
     "نييوي"@ar, "紐埃"@zh .
 
-<http://data.un.org/kos/geo/612> skos:altLabel "Islas Pitcairn"@es, "Pitcairn"@fr,
-    "Pitcairn Islands"@en, "Pitcairn Islands"@en-ca, "Pitcairn Islands"@en-gb, "Îles Pitcairn"@fr,
-    "Острова Питкэрн"@ru, "جزر بيتكيرن"@ar, "皮特凯恩群岛"@zh .
+<http://data.un.org/kos/geo/612> skos:prefLabel "Islas Pitcairn"@es, "Pitcairn"@en,
+    "Pitcairn"@fr, "Острова Питкэрн"@ru, "جزر بيتكيرن"@ar, "皮特凯恩群岛"@zh .
 
-<http://data.un.org/kos/geo/882> skos:altLabel "Samoa"@en, "Samoa"@en-ca, "Samoa"@en-gb,
-    "Samoa"@es, "Samoa"@fr, "Samoa (le)"@fr, "Самоа"@ru, "ساموا"@ar, "萨摩亚"@zh, "萨摩亚"@zh-cn .
+<http://data.un.org/kos/geo/882> skos:prefLabel "Samoa"@en, "Samoa"@es, "Samoa"@fr,
+    "Самоа"@ru, "ساموا"@ar, "萨摩亚"@zh .
 
-<http://data.un.org/kos/geo/772> skos:altLabel "Tokelau"@en, "Tokelau"@es, "Tokelau"@fr,
-    "Tokelau (les)"@fr, "Токелау"@ru, "توكيلاو"@ar, "托克劳群岛"@zh .
+<http://data.un.org/kos/geo/772> skos:prefLabel "Tokelau"@en, "Tokelau"@es, "Tokelau"@fr,
+    "Токелау"@ru, "توكيلاو"@ar, "托克劳群岛"@zh .
 
-<http://data.un.org/kos/geo/776> skos:altLabel "Tonga"@en, "Tonga"@en-gb, "Tonga"@es,
-    "Tonga"@fr, "Tonga (les)"@fr, "Тонга"@ru, "تونغا"@ar, "東加"@zh, "汤加"@zh-cn .
+<http://data.un.org/kos/geo/776> skos:prefLabel "Tonga"@en, "Tonga"@es, "Tonga"@fr,
+    "Тонга"@ru, "تونغا"@ar, "東加"@zh .
 
-<http://data.un.org/kos/geo/798> skos:altLabel "Tuvalu"@en, "Tuvalu"@en-ca, "Tuvalu"@en-gb,
-    "Tuvalu"@es, "Tuvalu"@fr, "Tuvalu (les)"@fr, "Тувалу"@ru, "توفالو"@ar, "吐瓦魯"@zh, "图瓦卢"@zh-cn .
+<http://data.un.org/kos/geo/798> skos:prefLabel "Tuvalu"@en, "Tuvalu"@es, "Tuvalu"@fr,
+    "Тувалу"@ru, "توفالو"@ar, "吐瓦魯"@zh .
 
-<http://data.un.org/kos/geo/876> skos:altLabel "Wallis and Futuna"@en, "Wallis y Futuna"@es,
-    "Wallis-et-Futuna"@fr, "Wallis-et-Futuna "@fr, "Уоллис и Футуна"@ru, "واليس وفوتونا"@ar,
-    "瓦利斯和富图纳"@zh-cn, "瓦利斯和富圖納"@zh .
+<http://data.un.org/kos/geo/876> skos:prefLabel "Wallis and Futuna Islands"@en, "Wallis y Futuna"@es,
+    "Wallis-et-Futuna"@fr, "Уоллис и Футуна"@ru, "واليس وفوتونا"@ar, "瓦利斯和富圖納"@zh .
+
+<http://data.un.org/kos/geo/202> skos:prefLabel "Sub-Saharan Africa"@en .
+
+<http://data.un.org/kos/geo/419> skos:prefLabel "Latin America and the Caribbean"@en .
+
+<http://data.un.org/kos/geo/154> skos:prefLabel "Northern Europe"@en .
+
+<http://data.un.org/kos/geo/15> skos:prefLabel "Northern Africa"@en .
+
+<http://data.un.org/kos/geo/21> skos:prefLabel "Northern America"@en .
+
+<http://data.un.org/kos/geo/143> skos:prefLabel "Central Asia"@en .
+
+<http://data.un.org/kos/geo/30> skos:prefLabel "Eastern Asia"@en .
+
+<http://data.un.org/kos/geo/35> skos:prefLabel "South-eastern Asia"@en .
+
+<http://data.un.org/kos/geo/34> skos:prefLabel "Southern Asia"@en .
+
+<http://data.un.org/kos/geo/145> skos:prefLabel "Western Asia"@en .
+
+<http://data.un.org/kos/geo/151> skos:prefLabel "Eastern Europe"@en .
+
+<http://data.un.org/kos/geo/39> skos:prefLabel "Southern Europe"@en .
+
+<http://data.un.org/kos/geo/155> skos:prefLabel "Western Europe"@en .
+
+<http://data.un.org/kos/geo/53> skos:prefLabel "Australia and New Zealand"@en .
+
+<http://data.un.org/kos/geo/54> skos:prefLabel "Melanesia"@en .
+
+<http://data.un.org/kos/geo/57> skos:prefLabel "Micronesia"@en .
+
+<http://data.un.org/kos/geo/61> skos:prefLabel "Polynesia"@en .
+
+<http://data.un.org/kos/geo/DevelopingCountry> skos:prefLabel "Developing country"@en,
+    "pays en développement"@fr, "país en vías de desarrollo"@es, "Развивающаяся страна"@ru,
+    "دولة نامية"@ar, "发展中国家"@zh .
+
+<http://data.un.org/kos/geo/LeastDevelopedCountry> skos:prefLabel "Least developed country"@en,
+    "Pays les moins avancés"@fr, "Países menos desarrollados"@es, "Наименее развитые страны"@ru,
+    "البلدان الأقل نماء"@ar, "最不发达国家"@zh .
+
+<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:prefLabel "Pequeños estados insulares en desarrollo"@es,
+    "Petits États insulaires en développement"@fr, "Small island developing state"@en,
+    "Малые островные развивающиеся государства"@ru, "دول جزرية صغيرة نامية"@ar, "小岛屿发展中国家"@zh .
+
+<http://data.un.org/kos/geo/DevelopedCountry> skos:prefLabel "Developed country"@en,
+    "pays développé"@fr, "país desarrollado"@es, "экономически развитая страна"@ru, "دولة متقدمة"@ar,
+    "已開發國家"@zh .
+
+<http://data.un.org/kos/geo/736> skos:prefLabel "Sudan (pre-2011)"@en .
+
+<http://data.un.org/kos/geo/530> skos:prefLabel "Netherlands Antilles (pre-2011)"@en .
+
+<http://data.un.org/kos/geo/86> skos:altLabel "British Indian Ocean Territory"@en,
+    "Territoire britannique de l'océan Indien"@fr .
+
+<http://data.un.org/kos/geo/108> skos:altLabel "Burundi"@en, "Burundi (le)"@fr .
+
+<http://data.un.org/kos/geo/174> skos:altLabel "Comores (les)"@fr, "Comoros"@en .
+
+<http://data.un.org/kos/geo/262> skos:altLabel "Djibouti"@en .
+
+<http://data.un.org/kos/geo/232> skos:altLabel "Eritrea"@en, "Érythrée (l')"@fr .
+
+<http://data.un.org/kos/geo/231> skos:altLabel "Ethiopia"@en, "Éthiopie (l')"@fr .
+
+<http://data.un.org/kos/geo/260> skos:altLabel "French Southern and Antarctic Lands"@en,
+    "Terres australes françaises (les)"@fr .
+
+<http://data.un.org/kos/geo/404> skos:altLabel "Kenya"@en, "Kenya (le)"@fr .
+
+<http://data.un.org/kos/geo/450> skos:altLabel "Madagascar"@en .
+
+<http://data.un.org/kos/geo/454> skos:altLabel "Malawi"@en, "Malawi (le)"@fr .
+
+<http://data.un.org/kos/geo/480> skos:altLabel "Mauritius"@en .
+
+<http://data.un.org/kos/geo/175> skos:altLabel "Mayotte"@en .
+
+<http://data.un.org/kos/geo/508> skos:altLabel "Mozambique"@en, "Mozambique (le)"@fr .
+
+<http://data.un.org/kos/geo/638> skos:altLabel "Réunion"@en, "Réunion (La)"@fr .
+
+<http://data.un.org/kos/geo/646> skos:altLabel "Rwanda"@en, "Rwanda (le)"@fr .
+
+<http://data.un.org/kos/geo/690> skos:altLabel "Seychelles"@en, "Seychelles (les)"@fr .
+
+<http://data.un.org/kos/geo/706> skos:altLabel "Somalia"@en, "Somalie (la)"@fr .
+
+<http://data.un.org/kos/geo/728> skos:altLabel "Soudan du Sud (le)"@fr, "South Sudan"@en .
+
+<http://data.un.org/kos/geo/800> skos:altLabel "Ouganda (l')"@fr, "Uganda"@en .
+
+<http://data.un.org/kos/geo/834> skos:altLabel "Tanzania"@en, "Tanzanie, République-Unie de"@fr .
+
+<http://data.un.org/kos/geo/894> skos:altLabel "Zambia"@en, "Zambie (la)"@fr .
+
+<http://data.un.org/kos/geo/716> skos:altLabel "Zimbabwe"@en, "Zimbabwe (le)"@fr .
+
+<http://data.un.org/kos/geo/24> skos:altLabel "Angola"@en, "Angola (l')"@fr .
+
+<http://data.un.org/kos/geo/120> skos:altLabel "Cameroon"@en, "Cameroun (le)"@fr .
+
+<http://data.un.org/kos/geo/140> skos:altLabel "Central African Republic"@en, "République centrafricaine (la)"@fr .
+
+<http://data.un.org/kos/geo/148> skos:altLabel "Chad"@en, "Tchad (le)"@fr .
+
+<http://data.un.org/kos/geo/178> skos:altLabel "Republic of the Congo"@en, "République du Congo"@fr .
+
+<http://data.un.org/kos/geo/180> skos:altLabel "Democratic Republic of the Congo"@en,
+    "République démocratique du Congo"@fr .
+
+<http://data.un.org/kos/geo/226> skos:altLabel "Equatorial Guinea"@en, "Guinée équatoriale (la)"@fr .
+
+<http://data.un.org/kos/geo/266> skos:altLabel "Gabon"@en, "Gabon (le)"@fr .
+
+<http://data.un.org/kos/geo/678> skos:altLabel "São Tomé and Príncipe"@en .
+
+<http://data.un.org/kos/geo/72> skos:altLabel "Botswana"@en, "Botswana (le)"@fr .
+
+<http://data.un.org/kos/geo/748> skos:altLabel "Eswatini"@en, "Eswatini (l')"@fr .
+
+<http://data.un.org/kos/geo/426> skos:altLabel "Lesotho"@en, "Lesotho (le)"@fr .
+
+<http://data.un.org/kos/geo/516> skos:altLabel "Namibia"@en, "Namibie (la)"@fr .
+
+<http://data.un.org/kos/geo/710> skos:altLabel "Afrique du Sud (l')"@fr, "South Africa"@en .
+
+<http://data.un.org/kos/geo/204> skos:altLabel "Benin"@en, "Bénin (le)"@fr .
+
+<http://data.un.org/kos/geo/854> skos:altLabel "Burkina Faso"@en, "Burkina Faso (le)"@fr .
+
+<http://data.un.org/kos/geo/132> skos:altLabel "Cap-Vert"@fr, "Cape Verde"@en .
+
+<http://data.un.org/kos/geo/384> skos:altLabel "Côte d'Ivoire (la)"@fr, "Ivory Coast"@en .
+
+<http://data.un.org/kos/geo/270> skos:altLabel "Gambia"@en, "Gambie (la)"@fr .
+
+<http://data.un.org/kos/geo/288> skos:altLabel "Ghana"@en, "Ghana (le)"@fr .
+
+<http://data.un.org/kos/geo/324> skos:altLabel "Guinea"@en, "Guinée (la)"@fr .
+
+<http://data.un.org/kos/geo/624> skos:altLabel "Guinea-Bissau"@en, "Guinée-Bissau (la)"@fr .
+
+<http://data.un.org/kos/geo/430> skos:altLabel "Liberia"@en, "Libéria (le)"@fr .
+
+<http://data.un.org/kos/geo/466> skos:altLabel "Mali"@en, "Mali (le)"@fr .
+
+<http://data.un.org/kos/geo/478> skos:altLabel "Mauritania"@en, "Mauritanie (la)"@fr .
+
+<http://data.un.org/kos/geo/562> skos:altLabel "Niger"@en, "Niger (le)"@fr .
+
+<http://data.un.org/kos/geo/566> skos:altLabel "Nigeria"@en, "Nigéria (le)"@fr .
+
+<http://data.un.org/kos/geo/654> skos:altLabel "Saint Helena, Ascension and Tristan da Cunha"@en .
+
+<http://data.un.org/kos/geo/686> skos:altLabel "Senegal"@en, "Sénégal (le)"@fr .
+
+<http://data.un.org/kos/geo/694> skos:altLabel "Sierra Leone"@en, "Sierra Leone (la)"@fr .
+
+<http://data.un.org/kos/geo/768> skos:altLabel "Togo"@en, "Togo (le)"@fr .
+
+<http://data.un.org/kos/geo/660> skos:altLabel "Anguilla"@en .
+
+<http://data.un.org/kos/geo/28> skos:altLabel "Antigua and Barbuda"@en .
+
+<http://data.un.org/kos/geo/533> skos:altLabel "Aruba"@en .
+
+<http://data.un.org/kos/geo/44> skos:altLabel "Bahamas"@en, "Bahamas (les)"@fr .
+
+<http://data.un.org/kos/geo/52> skos:altLabel "Barbade (la)"@fr, "Barbados"@en .
+
+<http://data.un.org/kos/geo/535> skos:altLabel "Caribbean Netherlands"@en, "Pays-Bas caribéens"@fr .
+
+<http://data.un.org/kos/geo/92> skos:altLabel "British Virgin Islands"@en, "îles Vierges britanniques"@fr .
+
+<http://data.un.org/kos/geo/136> skos:altLabel "Cayman Islands"@en, "îles Caïmans"@fr .
+
+<http://data.un.org/kos/geo/192> skos:altLabel "Cuba"@en .
+
+<http://data.un.org/kos/geo/531> skos:altLabel "Curaçao"@en .
+
+<http://data.un.org/kos/geo/212> skos:altLabel "Dominica"@en, "Dominique (la)"@fr .
+
+<http://data.un.org/kos/geo/214> skos:altLabel "Dominican Republic"@en, "dominicaine (la République)"@fr .
+
+<http://data.un.org/kos/geo/308> skos:altLabel "Grenada"@en, "Grenade (la)"@fr .
+
+<http://data.un.org/kos/geo/312> skos:altLabel "Guadeloupe"@en, "Guadeloupe (la)"@fr .
+
+<http://data.un.org/kos/geo/332> skos:altLabel "Haiti"@en .
+
+<http://data.un.org/kos/geo/388> skos:altLabel "Jamaica"@en, "Jamaïque (la)"@fr .
+
+<http://data.un.org/kos/geo/474> skos:altLabel "Martinique"@en, "Martinique (la)"@fr .
+
+<http://data.un.org/kos/geo/500> skos:altLabel "Montserrat"@en .
+
+<http://data.un.org/kos/geo/630> skos:altLabel "Puerto Rico"@en .
+
+<http://data.un.org/kos/geo/652> skos:altLabel "Saint Barthélemy"@en .
+
+<http://data.un.org/kos/geo/659> skos:altLabel "Saint Kitts and Nevis"@en, "Saint-Kitts-et-Nevis"@fr .
+
+<http://data.un.org/kos/geo/662> skos:altLabel "Saint Lucia"@en .
+
+<http://data.un.org/kos/geo/663> skos:altLabel "Saint Martin"@en, "Saint-Martin (partie française)"@fr .
+
+<http://data.un.org/kos/geo/670> skos:altLabel "Saint Vincent and the Grenadines"@en,
+    "Saint-Vincent-et-les-Grenadines"@fr .
+
+<http://data.un.org/kos/geo/534> skos:altLabel "Saint-Martin (partie néerlandaise)"@fr,
+    "Sint Maarten"@en .
+
+<http://data.un.org/kos/geo/780> skos:altLabel "Trinidad and Tobago"@en, "Trinité-et-Tobago (la)"@fr .
+
+<http://data.un.org/kos/geo/796> skos:altLabel "Turks and Caicos Islands"@en, "îles Turques-et-Caïques"@fr .
+
+<http://data.un.org/kos/geo/850> skos:altLabel "United States Virgin Islands"@en,
+    "îles Vierges des États-Unis"@fr .
+
+<http://data.un.org/kos/geo/84> skos:altLabel "Belize"@en, "Belize (le)"@fr .
+
+<http://data.un.org/kos/geo/188> skos:altLabel "Costa Rica"@en, "Costa Rica (le)"@fr .
+
+<http://data.un.org/kos/geo/222> skos:altLabel "El Salvador"@en, "Salvador"@fr .
+
+<http://data.un.org/kos/geo/320> skos:altLabel "Guatemala"@en, "Guatemala (le)"@fr .
+
+<http://data.un.org/kos/geo/340> skos:altLabel "Honduras"@en, "Honduras (le)"@fr .
+
+<http://data.un.org/kos/geo/484> skos:altLabel "Mexico"@en, "Mexique (le)"@fr .
+
+<http://data.un.org/kos/geo/558> skos:altLabel "Nicaragua"@en, "Nicaragua (le)"@fr .
+
+<http://data.un.org/kos/geo/591> skos:altLabel "Panama"@en, "Panama (le)"@fr .
+
+<http://data.un.org/kos/geo/32> skos:altLabel "Argentina"@en, "Argentine (l')"@fr .
+
+<http://data.un.org/kos/geo/68> skos:altLabel "Bolivia"@en, "Bolivie (État plurinational de)"@fr .
+
+<http://data.un.org/kos/geo/74> skos:altLabel "Bouvet Island"@en, "île Bouvet"@fr .
+
+<http://data.un.org/kos/geo/76> skos:altLabel "Brazil"@en, "Brésil (le)"@fr .
+
+<http://data.un.org/kos/geo/152> skos:altLabel "Chile"@en, "Chili (le)"@fr .
+
+<http://data.un.org/kos/geo/170> skos:altLabel "Colombia"@en, "Colombie (la)"@fr .
+
+<http://data.un.org/kos/geo/218> skos:altLabel "Ecuador"@en, "Équateur (l')"@fr .
+
+<http://data.un.org/kos/geo/238> skos:altLabel "Falkland Islands"@en, "îles Malouines"@fr .
+
+<http://data.un.org/kos/geo/254> skos:altLabel "French Guiana"@en, "Guyane française (la )"@fr .
+
+<http://data.un.org/kos/geo/328> skos:altLabel "Guyana"@en, "Guyana (le)"@fr .
+
+<http://data.un.org/kos/geo/600> skos:altLabel "Paraguay"@en, "Paraguay (le)"@fr .
+
+<http://data.un.org/kos/geo/604> skos:altLabel "Peru"@en, "Pérou (le)"@fr .
+
+<http://data.un.org/kos/geo/239> skos:altLabel "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"@fr,
+    "South Georgia and the South Sandwich Islands"@en .
+
+<http://data.un.org/kos/geo/740> skos:altLabel "Suriname"@en, "Suriname (le)"@fr .
+
+<http://data.un.org/kos/geo/858> skos:altLabel "Uruguay"@en, "Uruguay (l')"@fr .
+
+<http://data.un.org/kos/geo/862> skos:altLabel "Venezuela"@en, "Venezuela (République bolivarienne du)"@fr .
+
+<http://data.un.org/kos/geo/831> skos:altLabel "Guernsey"@en .
+
+<http://data.un.org/kos/geo/832> skos:altLabel "Jersey"@en .
+
+<http://data.un.org/kos/geo/12> skos:altLabel "Algeria"@en, "Algérie (l')"@fr .
+
+<http://data.un.org/kos/geo/818> skos:altLabel "Egypt"@en, "Égypte (l')"@fr .
+
+<http://data.un.org/kos/geo/434> skos:altLabel "Libya"@en, "Libye (la)"@fr .
+
+<http://data.un.org/kos/geo/504> skos:altLabel "Maroc (le)"@fr, "Morocco"@en .
+
+<http://data.un.org/kos/geo/729> skos:altLabel "Soudan (le)"@fr, "Sudan"@en .
+
+<http://data.un.org/kos/geo/788> skos:altLabel "Tunisia"@en, "Tunisie (la)"@fr .
+
+<http://data.un.org/kos/geo/732> skos:altLabel "Sahara Occidental"@es, "Sahara occidental"@fr,
+    "Sahara occidental (le)*"@fr, "Sahrawi Arab Democratic Republic"@en, "Western Sahara"@en,
+    "Сахарская Арабская Демократическая Республика"@ru, "الصحراء الغربية"@ar, "西撒哈拉"@zh .
+
+<http://data.un.org/kos/geo/60> skos:altLabel "Bermuda"@en, "Bermudes (les)"@fr .
+
+<http://data.un.org/kos/geo/124> skos:altLabel "Canada"@en, "Canada (le)"@fr .
+
+<http://data.un.org/kos/geo/304> skos:altLabel "Greenland"@en, "Groenland (le)"@fr .
+
+<http://data.un.org/kos/geo/666> skos:altLabel "Saint Pierre and Miquelon"@en .
+
+<http://data.un.org/kos/geo/840> skos:altLabel "United States of America"@en, "États-Unis d'Amérique (les)"@fr .
+
+<http://data.un.org/kos/geo/10> skos:altLabel "Antarctic Treaty area"@en, "région du Traité sur l'Antarctique"@fr .
+
+<http://data.un.org/kos/geo/398> skos:altLabel "Kazakhstan"@en, "Kazakhstan (le)"@fr .
+
+<http://data.un.org/kos/geo/417> skos:altLabel "Kirghizistan (le)"@fr, "Kyrgyzstan"@en .
+
+<http://data.un.org/kos/geo/762> skos:altLabel "Tadjikistan (le)"@fr, "Tajikistan"@en .
+
+<http://data.un.org/kos/geo/795> skos:altLabel "Turkmenistan"@en, "Turkménistan (le)"@fr .
+
+<http://data.un.org/kos/geo/860> skos:altLabel "Ouzbékistan (l')"@fr, "Uzbekistan"@en .
+
+<http://data.un.org/kos/geo/156> skos:altLabel "Chine (la)"@fr, "People's Republic of China"@en .
+
+<http://data.un.org/kos/geo/344> skos:altLabel "Hong Kong"@en .
+
+<http://data.un.org/kos/geo/446> skos:altLabel "Macau"@en .
+
+<http://data.un.org/kos/geo/408> skos:altLabel "Corée du Nord"@fr, "North Korea"@en .
+
+<http://data.un.org/kos/geo/392> skos:altLabel "Japan"@en, "Japon (le)"@fr .
+
+<http://data.un.org/kos/geo/496> skos:altLabel "Mongolia"@en, "Mongolie (la)"@fr .
+
+<http://data.un.org/kos/geo/410> skos:altLabel "Corée du Sud"@fr, "South Korea"@en .
+
+<http://data.un.org/kos/geo/96> skos:altLabel "Brunei"@en, "Brunéi Darussalam (le)"@fr .
+
+<http://data.un.org/kos/geo/116> skos:altLabel "Cambodge (le)"@fr, "Cambodia"@en .
+
+<http://data.un.org/kos/geo/360> skos:altLabel "Indonesia"@en, "Indonésie (l')"@fr .
+
+<http://data.un.org/kos/geo/418> skos:altLabel "Laos"@en, "Laos"@fr .
+
+<http://data.un.org/kos/geo/458> skos:altLabel "Malaisie (la)"@fr, "Malaysia"@en .
+
+<http://data.un.org/kos/geo/104> skos:altLabel "Myanmar"@en, "Myanmar (le)"@fr .
+
+<http://data.un.org/kos/geo/608> skos:altLabel "Philippines"@en, "Philippines (les)"@fr .
+
+<http://data.un.org/kos/geo/702> skos:altLabel "Singapore"@en .
+
+<http://data.un.org/kos/geo/764> skos:altLabel "Thailand"@en, "Thaïlande (la)"@fr .
+
+<http://data.un.org/kos/geo/626> skos:altLabel "East Timor"@en, "Timor-Leste (le)"@fr .
+
+<http://data.un.org/kos/geo/704> skos:altLabel "Vietnam"@en, "Viêt Nam"@fr .
+
+<http://data.un.org/kos/geo/4> skos:altLabel "Afghanistan"@en, "Afghanistan (l')"@fr .
+
+<http://data.un.org/kos/geo/50> skos:altLabel "Bangladesh"@en, "Bangladesh (le)"@fr .
+
+<http://data.un.org/kos/geo/64> skos:altLabel "Bhoutan (le)"@fr, "Bhutan"@en .
+
+<http://data.un.org/kos/geo/356> skos:altLabel "Inde (l')"@fr, "India"@en .
+
+<http://data.un.org/kos/geo/364> skos:altLabel "Iran"@en, "Iran (République Islamique d')"@fr .
+
+<http://data.un.org/kos/geo/462> skos:altLabel "Maldives"@en, "Maldives (les)"@fr .
+
+<http://data.un.org/kos/geo/524> skos:altLabel "Nepal"@en, "Népal (le)"@fr .
+
+<http://data.un.org/kos/geo/586> skos:altLabel "Pakistan"@en, "Pakistan (le)"@fr .
+
+<http://data.un.org/kos/geo/144> skos:altLabel "Sri Lanka"@en .
+
+<http://data.un.org/kos/geo/51> skos:altLabel "Armenia"@en, "Arménie (l')"@fr .
+
+<http://data.un.org/kos/geo/31> skos:altLabel "Azerbaijan"@en, "Azerbaïdjan (l')"@fr .
+
+<http://data.un.org/kos/geo/48> skos:altLabel "Bahrain"@en .
+
+<http://data.un.org/kos/geo/196> skos:altLabel "Cyprus"@en .
+
+<http://data.un.org/kos/geo/268> skos:altLabel "Georgia"@en, "Géorgie (la)"@fr .
+
+<http://data.un.org/kos/geo/368> skos:altLabel "Iraq"@en, "Iraq (l')"@fr .
+
+<http://data.un.org/kos/geo/376> skos:altLabel "Israel"@en .
+
+<http://data.un.org/kos/geo/400> skos:altLabel "Jordan"@en, "Jordanie (la)"@fr .
+
+<http://data.un.org/kos/geo/414> skos:altLabel "Koweït (le)"@fr, "Kuwait"@en .
+
+<http://data.un.org/kos/geo/422> skos:altLabel "Lebanon"@en, "Liban (le)"@fr .
+
+<http://data.un.org/kos/geo/512> skos:altLabel "Oman"@en .
+
+<http://data.un.org/kos/geo/634> skos:altLabel "Qatar"@en, "Qatar (le)"@fr .
+
+<http://data.un.org/kos/geo/682> skos:altLabel "Arabie saoudite (l')"@fr, "Saudi Arabia"@en .
+
+<http://data.un.org/kos/geo/275> skos:altLabel "Palestine, État de"@fr, "Palestinian territories"@en,
+    "State of Palestine"@en, "Territoires palestiniens occupés"@fr, "Territorios Palestinos"@es,
+    "Палестинские территории"@ru, "فلسطين"@ar, "巴勒斯坦领土"@zh .
+
+<http://data.un.org/kos/geo/760> skos:altLabel "Syria"@en, "Syrie"@fr .
+
+<http://data.un.org/kos/geo/792> skos:altLabel "Turkey"@en, "Turquie (la)"@fr .
+
+<http://data.un.org/kos/geo/784> skos:altLabel "United Arab Emirates"@en, "Émirats arabes unis (les)"@fr .
+
+<http://data.un.org/kos/geo/887> skos:altLabel "Yemen"@en, "Yémen (le)"@fr .
+
+<http://data.un.org/kos/geo/112> skos:altLabel "Belarus"@en, "Bélarus (le)"@fr .
+
+<http://data.un.org/kos/geo/100> skos:altLabel "Bulgaria"@en, "Bulgarie (la)"@fr .
+
+<http://data.un.org/kos/geo/203> skos:altLabel "Czech Republic"@en, "Tchéquie (la)"@fr .
+
+<http://data.un.org/kos/geo/348> skos:altLabel "Hongrie (la)"@fr, "Hungary"@en .
+
+<http://data.un.org/kos/geo/616> skos:altLabel "Poland"@en, "Pologne (la)"@fr .
+
+<http://data.un.org/kos/geo/498> skos:altLabel "Moldova"@en, "Moldova, République de"@fr .
+
+<http://data.un.org/kos/geo/642> skos:altLabel "Romania"@en, "Roumanie (la)"@fr .
+
+<http://data.un.org/kos/geo/643> skos:altLabel "Russia"@en, "Russie (la Fédération de)"@fr .
+
+<http://data.un.org/kos/geo/703> skos:altLabel "Slovakia"@en, "Slovaquie (la)"@fr .
+
+<http://data.un.org/kos/geo/804> skos:altLabel "Ukraine"@en, "Ukraine (l')"@fr .
+
+<http://data.un.org/kos/geo/248> skos:altLabel "Åland Islands"@en, "Åland(les Îles)"@fr .
+
+<http://data.un.org/kos/geo/208> skos:altLabel "Danemark (le)"@fr, "Denmark"@en .
+
+<http://data.un.org/kos/geo/233> skos:altLabel "Estonia"@en, "Estonie (l')"@fr .
+
+<http://data.un.org/kos/geo/234> skos:altLabel "Faroe Islands"@en, "îles Féroé"@fr .
+
+<http://data.un.org/kos/geo/246> skos:altLabel "Finland"@en, "Finlande (la)"@fr .
+
+<http://data.un.org/kos/geo/352> skos:altLabel "Iceland"@en, "Islande (l')"@fr .
+
+<http://data.un.org/kos/geo/372> skos:altLabel "Ireland"@en, "Irlande (l')"@fr .
+
+<http://data.un.org/kos/geo/833> skos:altLabel "Isle of Man"@en, "île de Man"@fr .
+
+<http://data.un.org/kos/geo/428> skos:altLabel "Latvia"@en, "Lettonie (la)"@fr .
+
+<http://data.un.org/kos/geo/440> skos:altLabel "Lithuania"@en, "Lituanie (la)"@fr .
+
+<http://data.un.org/kos/geo/578> skos:altLabel "Norvège (la)"@fr, "Norway"@en .
+
+<http://data.un.org/kos/geo/744> skos:altLabel "Svalbard and Jan Mayen"@en, "Svalbard et l'Île Jan Mayen (le)"@fr .
+
+<http://data.un.org/kos/geo/752> skos:altLabel "Suède (la)"@fr, "Sweden"@en .
+
+<http://data.un.org/kos/geo/826> skos:altLabel "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"@fr,
+    "United Kingdom"@en .
+
+<http://data.un.org/kos/geo/8> skos:altLabel "Albania"@en, "Albanie (l')"@fr .
+
+<http://data.un.org/kos/geo/20> skos:altLabel "Andorra"@en, "Andorre (l')"@fr .
+
+<http://data.un.org/kos/geo/70> skos:altLabel "Bosnia and Herzegovina"@en, "Bosnie-Herzégovine (la)"@fr .
+
+<http://data.un.org/kos/geo/191> skos:altLabel "Croatia"@en, "Croatie (la)"@fr .
+
+<http://data.un.org/kos/geo/292> skos:altLabel "Gibraltar"@en .
+
+<http://data.un.org/kos/geo/300> skos:altLabel "Greece"@en, "Grèce (la)"@fr .
+
+<http://data.un.org/kos/geo/336> skos:altLabel "Vatican"@fr, "Vatican City"@en .
+
+<http://data.un.org/kos/geo/380> skos:altLabel "Italie (l')"@fr, "Italy"@en .
+
+<http://data.un.org/kos/geo/470> skos:altLabel "Malta"@en .
+
+<http://data.un.org/kos/geo/499> skos:altLabel "Montenegro"@en, "Monténégro (le)"@fr .
+
+<http://data.un.org/kos/geo/807> skos:altLabel "Macédoine du Nord"@fr, "North Macedonia"@en .
+
+<http://data.un.org/kos/geo/620> skos:altLabel "Portugal"@en, "Portugal (le)"@fr .
+
+<http://data.un.org/kos/geo/674> skos:altLabel "San Marino"@en .
+
+<http://data.un.org/kos/geo/688> skos:altLabel "Serbia"@en, "Serbie (la)"@fr .
+
+<http://data.un.org/kos/geo/705> skos:altLabel "Slovenia"@en, "Slovénie (la)"@fr .
+
+<http://data.un.org/kos/geo/724> skos:altLabel "Espagne (l')"@fr, "Spain"@en .
+
+<http://data.un.org/kos/geo/40> skos:altLabel "Austria"@en, "Autriche (l')"@fr .
+
+<http://data.un.org/kos/geo/56> skos:altLabel "Belgique (la)"@fr, "Belgium"@en .
+
+<http://data.un.org/kos/geo/250> skos:altLabel "France"@en, "France (la)"@fr .
+
+<http://data.un.org/kos/geo/276> skos:altLabel "Allemagne (l')"@fr, "Germany"@en .
+
+<http://data.un.org/kos/geo/438> skos:altLabel "Liechtenstein"@en, "Liechtenstein (le)"@fr .
+
+<http://data.un.org/kos/geo/442> skos:altLabel "Luxembourg"@en, "Luxembourg (le)"@fr .
+
+<http://data.un.org/kos/geo/492> skos:altLabel "Monaco"@en .
+
+<http://data.un.org/kos/geo/528> skos:altLabel "Kingdom of the Netherlands"@en, "Netherlands"@en,
+    "Pays-Bas (les)"@fr, "Reino de los Países Bajos"@es, "Нидерланды"@ru, "هولندا"@ar,
+    "荷蘭"@zh .
+
+<http://data.un.org/kos/geo/756> skos:altLabel "Suisse (la)"@fr, "Switzerland"@en .
+
+<http://data.un.org/kos/geo/36> skos:altLabel "Australia"@en, "Australie (l')"@fr .
+
+<http://data.un.org/kos/geo/162> skos:altLabel "Christmas Island"@en, "île Christmas"@fr .
+
+<http://data.un.org/kos/geo/166> skos:altLabel "Cocos (Keeling) Islands"@en, "îles Cocos"@fr .
+
+<http://data.un.org/kos/geo/334> skos:altLabel "Heard Island and McDonald Islands"@en,
+    "îles Heard-et-MacDonald"@fr .
+
+<http://data.un.org/kos/geo/554> skos:altLabel "New Zealand"@en, "Nouvelle-Zélande (la)"@fr .
+
+<http://data.un.org/kos/geo/574> skos:altLabel "Norfolk Island"@en, "île Norfolk"@fr .
+
+<http://data.un.org/kos/geo/242> skos:altLabel "Fidji (les)"@fr, "Fiji"@en .
+
+<http://data.un.org/kos/geo/540> skos:altLabel "New Caledonia"@en, "Nouvelle-Calédonie (la)"@fr .
+
+<http://data.un.org/kos/geo/598> skos:altLabel "Papouasie-Nouvelle-Guinée (la)"@fr,
+    "Papua New Guinea"@en .
+
+<http://data.un.org/kos/geo/90> skos:altLabel "Solomon Islands"@en, "Îles Salomon"@fr .
+
+<http://data.un.org/kos/geo/548> skos:altLabel "Vanuatu"@en, "Vanuatu (le)"@fr .
+
+<http://data.un.org/kos/geo/316> skos:altLabel "Guam"@en .
+
+<http://data.un.org/kos/geo/296> skos:altLabel "Kiribati"@en .
+
+<http://data.un.org/kos/geo/584> skos:altLabel "Marshall Islands"@en, "Îles Marshall"@fr .
+
+<http://data.un.org/kos/geo/583> skos:altLabel "Federated States of Micronesia"@en,
+    "États fédérés de Micronésie"@fr .
+
+<http://data.un.org/kos/geo/520> skos:altLabel "Nauru"@en .
+
+<http://data.un.org/kos/geo/580> skos:altLabel "Northern Mariana Islands"@en, "îles Mariannes du Nord"@fr .
+
+<http://data.un.org/kos/geo/585> skos:altLabel "Palaos (les)"@fr, "Palau"@en .
+
+<http://data.un.org/kos/geo/581> skos:altLabel "United States Minor Outlying Islands"@en,
+    "Îles mineures éloignées des États-Unis (les)"@fr .
+
+<http://data.un.org/kos/geo/16> skos:altLabel "American Samoa"@en, "Samoa américaines (les)"@fr .
+
+<http://data.un.org/kos/geo/184> skos:altLabel "Cook Islands"@en, "Îles Cook"@fr .
+
+<http://data.un.org/kos/geo/258> skos:altLabel "French Polynesia"@en, "Polynésie française (la)"@fr .
+
+<http://data.un.org/kos/geo/570> skos:altLabel "Niue"@en .
+
+<http://data.un.org/kos/geo/612> skos:altLabel "Pitcairn Islands"@en, "Îles Pitcairn"@fr .
+
+<http://data.un.org/kos/geo/882> skos:altLabel "Samoa"@en, "Samoa (le)"@fr .
+
+<http://data.un.org/kos/geo/772> skos:altLabel "Tokelau"@en, "Tokelau (les)"@fr .
+
+<http://data.un.org/kos/geo/776> skos:altLabel "Tonga"@en, "Tonga (les)"@fr .
+
+<http://data.un.org/kos/geo/798> skos:altLabel "Tuvalu"@en, "Tuvalu (les)"@fr .
+
+<http://data.un.org/kos/geo/876> skos:altLabel "Wallis and Futuna"@en, "Wallis-et-Futuna "@fr .
 
 <http://data.un.org/kos/geo/DevelopingCountry> skos:altLabel "developing countries"@en,
-    "developing country"@en, "pays en développement"@fr, "país en vías de desarrollo"@es,
-    "Развивающаяся страна"@ru, "دولة نامية"@ar, "发展中国家"@zh .
+    "developing country"@en .
 
 <http://data.un.org/kos/geo/LeastDevelopedCountry> skos:altLabel "Least Developed Countries"@en,
-    "Pays les moins avancés"@fr, "Países menos desarrollados"@es, "least developed countries"@en,
-    "Наименее развитые страны"@ru, "البلدان الأقل نماء"@ar, "最不发达国家"@zh .
+    "least developed countries"@en .
 
-<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:altLabel "Pequeños estados insulares en desarrollo"@es,
-    "Petits États insulaires en développement"@fr, "SIDS"@en, "Small Island Developing States"@en,
-    "small island developing states"@en, "Малые островные развивающиеся государства"@ru,
-    "دول جزرية صغيرة نامية"@ar, "小岛屿发展中国家"@zh .
+<http://data.un.org/kos/geo/SmallIslandDevelopingState> skos:altLabel "SIDS"@en, "Small Island Developing States"@en,
+    "small island developing states"@en .
 
 <http://data.un.org/kos/geo/DevelopedCountry> skos:altLabel "developed countries"@en,
-    "developed country"@en, "pays développé"@fr, "país desarrollado"@es, "экономически развитая страна"@ru,
-    "دولة متقدمة"@ar, "已開發國家"@zh .
+    "developed country"@en .
 
 <http://data.un.org/kos/geo/736> skos:altLabel "Sudan"@en .
 
