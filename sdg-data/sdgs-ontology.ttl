@@ -1,89 +1,113 @@
+@prefix : <http://data.un.org/ontology/sdg#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
-@prefix sdgo: <http://data.un.org/ontology/sdg#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-sdgo:Target a owl:Class;
+<http://data.un.org/ontology/sdg#> a owl:Ontology .
+
+:Target a owl:Class;
+  dct:modified "2019-08-26T08:26:00.420Z"^^xsd:dateTime;
+  rdfs:label "Cible"@fr, "Meta"@es, "Target"@en;
   rdfs:subClassOf skos:Concept .
 
-sdgo:Goal a owl:Class;
+:Goal a owl:Class;
+  dct:modified "2019-08-26T08:25:26.197Z"^^xsd:dateTime;
+  rdfs:label "Goal"@en, "Objectif"@fr, "Objetivo"@es;
   rdfs:subClassOf skos:Concept .
 
-sdgo:Series a owl:Class;
+:Series a owl:Class;
+  dct:modified "2019-05-21T14:31:06.016Z"^^xsd:dateTime;
+  rdfs:label "Series"@en;
   rdfs:subClassOf schema:Dataset, skos:Concept .
 
-sdgo:Indicator a owl:Class;
+:Indicator a owl:Class;
+  dct:modified "2019-08-26T08:26:34.074Z"^^xsd:dateTime;
+  rdfs:label "Indicador"@es, "Indicateur"@fr, "Indicator"@en;
   rdfs:subClassOf skos:Concept .
 
-sdgo:hasTarget a owl:ObjectProperty;
+:hasTarget a owl:ObjectProperty;
   dct:modified "2019-03-28T12:24:46.950Z"^^xsd:dateTime;
-  rdfs:domain sdgo:Goal;
+  rdfs:domain :Goal;
   rdfs:label "has target"@en;
-  rdfs:range sdgo:Target .
+  rdfs:range :Target .
 
-sdgo:hasIndicator a owl:ObjectProperty;
+:hasIndicator a owl:ObjectProperty;
   dct:modified "2019-03-28T12:47:50.305Z"^^xsd:dateTime;
-  rdfs:domain sdgo:Target;
+  rdfs:domain :Target;
   rdfs:label "has indicator"@en;
-  rdfs:range sdgo:Indicator;
-  owl:inverseOf sdgo:isIndicatorOf .
+  rdfs:range :Indicator;
+  owl:inverseOf :isIndicatorOf .
 
-sdgo:hasSeries a owl:ObjectProperty;
+:hasSeries a owl:ObjectProperty;
   dct:modified "2019-03-28T12:38:15.459Z"^^xsd:dateTime;
-  rdfs:domain sdgo:Indicator;
+  rdfs:domain :Indicator;
   rdfs:label "has series"@en;
-  rdfs:range sdgo:Series;
-  owl:inverseOf sdgo:isSeriesOf .
+  rdfs:range :Series;
+  owl:inverseOf :isSeriesOf .
 
 dct:subject a owl:ObjectProperty;
   dct:modified "2019-03-24T21:48:03.248Z"^^xsd:dateTime;
-  owl:propertyChainAxiom _:node10 .
+  owl:propertyChainAxiom _:node1dck7boeix1 .
 
-_:node10 rdf:first skos:broader;
-  rdf:rest _:node11 .
+_:node1dck7boeix1 rdf:first skos:broader;
+  rdf:rest _:node1dck7boeix2 .
 
-_:node11 rdf:first dct:subject;
+_:node1dck7boeix2 rdf:first dct:subject;
   rdf:rest rdf:nil .
 
 schema:keywords a owl:DatatypeProperty;
-  owl:propertyChainAxiom _:node6 .
+  owl:propertyChainAxiom _:node1dck7boeix3 .
 
-_:node6 rdf:first dct:subject;
-  rdf:rest _:node7 .
+_:node1dck7boeix3 rdf:first dct:subject;
+  rdf:rest _:node1dck7boeix4 .
 
-_:node7 rdf:first skos:prefLabel;
+_:node1dck7boeix4 rdf:first skos:prefLabel;
   rdf:rest rdf:nil .
 
 <http://data.un.org/ontology/sdg> a owl:Ontology;
   dct:modified "2019-03-24T22:03:06.235Z"^^xsd:dateTime;
   rdfs:label "Sustainable Development Goals Ontology"@en .
 
-sdgo:isIndicatorOf a rdf:Property;
+:isIndicatorOf a rdf:Property;
   dct:created "2019-03-28T12:21:52.461Z"^^xsd:dateTime;
   dct:modified "2019-03-28T12:22:16.259Z"^^xsd:dateTime;
   rdfs:label "is indicator of"@en .
 
-sdgo:isTargetOf a rdf:Property;
+:isTargetOf a rdf:Property;
   dct:created "2019-03-28T12:23:02.231Z"^^xsd:dateTime;
   dct:modified "2019-03-28T13:30:39.154Z"^^xsd:dateTime;
   rdfs:label "is target of"@en;
-  owl:inverseOf sdgo:hasTarget .
+  owl:inverseOf :hasTarget .
 
-sdgo:isSeriesOf a rdf:Property;
+:isSeriesOf a rdf:Property;
   dct:created "2019-03-28T12:46:07.400Z"^^xsd:dateTime;
   dct:modified "2019-03-28T13:14:48.843Z"^^xsd:dateTime;
   rdfs:label "is series of"@en;
-  owl:inverseOf sdgo:hasSeries .
+  owl:inverseOf :hasSeries .
 
-sdgo:subjectOf a rdf:Property;
+:subjectOf a rdf:Property;
   dct:created "2019-03-28T13:10:51.029Z"^^xsd:dateTime;
-  dct:modified "2019-03-28T13:13:52.945Z"^^xsd:dateTime;
+  dct:modified "2019-08-26T14:57:56.220Z"^^xsd:dateTime;
+  rdfs:label "subject of"@en;
   owl:inverseOf dct:subject .
 
 skos:prefLabel rdfs:subPropertyOf schema:name .
 
 skos:notation rdfs:subPropertyOf schema:identifier .
+
+:custodianAgency a owl:DatatypeProperty;
+  dct:created "2019-08-26T14:56:45.129Z"^^xsd:dateTime;
+  dct:modified "2019-08-26T14:58:46.285Z"^^xsd:dateTime;
+  rdfs:domain :Indicator;
+  rdfs:label "has custodian agency"@en;
+  rdfs:range xsd:string .
+
+:tier a owl:DatatypeProperty;
+  dct:created "2019-08-26T14:59:01.791Z"^^xsd:dateTime;
+  dct:modified "2019-08-26T15:04:33.872Z"^^xsd:dateTime;
+  rdfs:domain :Indicator;
+  rdfs:label "tier"@en .
