@@ -5471,7 +5471,7 @@
 <http://data.un.org/codes/sdg/geoArea/004> skos:prefLabel "Afganistán"@es, "Afghanistan"@en,
     "Afghanistan"@fr, "Афганистан"@ru, "أفغانستان"@ar, "阿富汗"@zh .
 
-<http://data.un.org/codes/sdg/units> skos:prefLabel "units"@en .
+<http://data.un.org/codes/sdg/units> skos:prefLabel "unit of measurement"@en .
 
 <http://data.un.org/codes/sdg/units/PERCENT> skos:prefLabel "Percentage"@en .
 
@@ -6251,7 +6251,7 @@
 <http://data.un.org/codes/sdg/geoArea/894> skos:prefLabel "Zambia"@en, "Zambia"@es,
     "Zambie"@fr, "Замбия"@ru, "زامبيا"@ar, "赞比亚"@zh .
 
-<http://data.un.org/codes/sdg> skos:prefLabel "UN SDG Data Dimensions Scheme"@en .
+<http://data.un.org/codes/sdg> skos:prefLabel "UN SDG Data Series Attributes Scheme"@en .
 
 <http://data.un.org/codes/sdg/age/Y2T14> skos:prefLabel "2 to 14 years old"@en .
 
@@ -7482,50 +7482,50 @@
 
 <http://data.un.org/codes/sdg/units/CON_USD_M> skos:prefLabel "Millions of constant 2015 United States dollars"@en .
 
-<http://data.un.org/codes/sdg/ageCodes> skos:prefLabel "Coding scheme for property: age"@en .
+<http://data.un.org/codes/sdg/ageCodes> skos:prefLabel "Coding scheme for attribute: age"@en .
 
-<http://data.un.org/codes/sdg/sexCodes> skos:prefLabel "Coding scheme for property: sex"@en .
+<http://data.un.org/codes/sdg/sexCodes> skos:prefLabel "Coding scheme for attribute: sex"@en .
 
-<http://data.un.org/codes/sdg/locationCodes> skos:prefLabel "Coding scheme for property: location"@en .
+<http://data.un.org/codes/sdg/locationCodes> skos:prefLabel "Coding scheme for attribute: location"@en .
 
 <http://data.un.org/codes/sdg/nameOfInternationalInstitutionCodes> skos:prefLabel
-    "Coding scheme for property: name of international institution"@en .
+    "Coding scheme for attribute: name of international institution"@en .
 
-<http://data.un.org/codes/sdg/citiesCodes> skos:prefLabel "Coding scheme for property: cities"@en .
+<http://data.un.org/codes/sdg/citiesCodes> skos:prefLabel "Coding scheme for attribute: cities"@en .
 
-<http://data.un.org/codes/sdg/typeOfProductCodes> skos:prefLabel "Coding scheme for property: type of product"@en .
+<http://data.un.org/codes/sdg/typeOfProductCodes> skos:prefLabel "Coding scheme for attribute: type of product"@en .
 
-<http://data.un.org/codes/sdg/boundCodes> skos:prefLabel "Coding scheme for property: bound"@en .
+<http://data.un.org/codes/sdg/boundCodes> skos:prefLabel "Coding scheme for attribute: bound"@en .
 
-<http://data.un.org/codes/sdg/freqCodes> skos:prefLabel "Coding scheme for property: freq"@en .
+<http://data.un.org/codes/sdg/freqCodes> skos:prefLabel "Coding scheme for attribute: freq"@en .
 
-<http://data.un.org/codes/sdg/typeOfSpeedCodes> skos:prefLabel "Coding scheme for property: type of speed"@en .
+<http://data.un.org/codes/sdg/typeOfSpeedCodes> skos:prefLabel "Coding scheme for attribute: type of speed"@en .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDiseaseCodes> skos:prefLabel "Coding scheme for property: name of non-communicable disease"@en .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDiseaseCodes> skos:prefLabel "Coding scheme for attribute: name of non-communicable disease"@en .
 
-<http://data.un.org/codes/sdg/typeOfOccupationCodes> skos:prefLabel "Coding scheme for property: type of occupation"@en .
+<http://data.un.org/codes/sdg/typeOfOccupationCodes> skos:prefLabel "Coding scheme for attribute: type of occupation"@en .
 
-<http://data.un.org/codes/sdg/ihrCapacityCodes> skos:prefLabel "Coding scheme for property: IHR capacity"@en .
+<http://data.un.org/codes/sdg/ihrCapacityCodes> skos:prefLabel "Coding scheme for attribute: IHR capacity"@en .
 
-<http://data.un.org/codes/sdg/educationLevelCodes> skos:prefLabel "Coding scheme for property: education level"@en .
+<http://data.un.org/codes/sdg/educationLevelCodes> skos:prefLabel "Coding scheme for attribute: education level"@en .
 
-<http://data.un.org/codes/sdg/typeOfSkillCodes> skos:prefLabel "Coding scheme for property: type of skill"@en .
+<http://data.un.org/codes/sdg/typeOfSkillCodes> skos:prefLabel "Coding scheme for attribute: type of skill"@en .
 
-<http://data.un.org/codes/sdg/levelStatusCodes> skos:prefLabel "Coding scheme for property: level status"@en .
+<http://data.un.org/codes/sdg/levelStatusCodes> skos:prefLabel "Coding scheme for attribute: level status"@en .
 
-<http://data.un.org/codes/sdg/disabilityStatusCodes> skos:prefLabel "Coding scheme for property: disability status"@en .
+<http://data.un.org/codes/sdg/disabilityStatusCodes> skos:prefLabel "Coding scheme for attribute: disability status"@en .
 
-<http://data.un.org/codes/sdg/migratoryStatusCodes> skos:prefLabel "Coding scheme for property: migratory status"@en .
+<http://data.un.org/codes/sdg/migratoryStatusCodes> skos:prefLabel "Coding scheme for attribute: migratory status"@en .
 
-<http://data.un.org/codes/sdg/modeOfTransportationCodes> skos:prefLabel "Coding scheme for property: mode of transportation"@en .
+<http://data.un.org/codes/sdg/modeOfTransportationCodes> skos:prefLabel "Coding scheme for attribute: mode of transportation"@en .
 
-<http://data.un.org/codes/sdg/typeOfMobileTechnologyCodes> skos:prefLabel "Coding scheme for property: type of mobile technology"@en .
+<http://data.un.org/codes/sdg/typeOfMobileTechnologyCodes> skos:prefLabel "Coding scheme for attribute: type of mobile technology"@en .
 
-<http://data.un.org/codes/sdg/geoAreaCodes> skos:prefLabel "Coding scheme for property: geographic area (UN M49 standard)"@en .
+<http://data.un.org/codes/sdg/geoAreaCodes> skos:prefLabel "Coding scheme for attribute: geographic area (UN M49 standard)"@en .
 
-<http://data.un.org/codes/sdg/unitsCodes> skos:prefLabel "Coding scheme for units"@en .
+<http://data.un.org/codes/sdg/unitsCodes> skos:prefLabel "Units of measurement coding scheme"@en .
 
-<http://data.un.org/codes/sdg/hazardTypeCodes> skos:prefLabel "Coding scheme for property: hazard type"@en .
+<http://data.un.org/codes/sdg/hazardTypeCodes> skos:prefLabel "Coding scheme for attribute: hazard type"@en .
 
 <http://data.un.org/codes/sdg/geoArea> skos:notation "geoAreaCode" .
 
