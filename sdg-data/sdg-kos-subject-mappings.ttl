@@ -1,0 +1,423 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://data.un.org/kos/sdg/SI_POV_EMP1> dct:subject <http://metadata.un.org/thesaurus/1001531> .
+<http://data.un.org/kos/sdg/SI_COV_CHLD> dct:subject <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1000949> .
+<http://data.un.org/kos/sdg/SI_COV_DISAB> dct:subject <http://metadata.un.org/thesaurus/1001680>, <http://metadata.un.org/thesaurus/1004831>, <http://metadata.un.org/thesaurus/100500> .
+<http://data.un.org/kos/sdg/SI_COV_MATNL> dct:subject <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1004247>, <http://metadata.un.org/thesaurus/1000949>, <http://metadata.un.org/thesaurus/1002257>, <http://metadata.un.org/thesaurus/1003984> .
+<http://data.un.org/kos/sdg/SI_COV_PENSN> dct:subject <http://metadata.un.org/thesaurus/1000115>, <http://metadata.un.org/thesaurus/1004610> .
+<http://data.un.org/kos/sdg/SI_COV_POOR> dct:subject <http://eurovoc.europa.eu/3151>, <http://metadata.un.org/thesaurus/050800>, <http://metadata.un.org/thesaurus/1003238> .
+<http://data.un.org/kos/sdg/SI_COV_SOCINS> dct:subject <http://eurovoc.europa.eu/3151>, <http://metadata.un.org/thesaurus/050800>, <http://metadata.un.org/thesaurus/1003238> .
+<http://data.un.org/kos/sdg/SI_COV_SOCINSPQ> dct:subject <http://eurovoc.europa.eu/3151>, <http://metadata.un.org/thesaurus/050800>, <http://metadata.un.org/thesaurus/1003238> .
+<http://data.un.org/kos/sdg/SI_COV_UEMP> dct:subject <http://eurovoc.europa.eu/5974>, <http://eurovoc.europa.eu/3151>, <http://eurovoc.europa.eu/3332>, <http://metadata.un.org/thesaurus/1006773>, <http://metadata.un.org/thesaurus/050800>, <http://metadata.un.org/thesaurus/1003238>, <http://metadata.un.org/thesaurus/1006774> .
+<http://data.un.org/kos/sdg/SI_COV_WKINJRY> dct:subject <http://eurovoc.europa.eu/4039>, <http://eurovoc.europa.eu/3151>, <http://eurovoc.europa.eu/825>, <http://metadata.un.org/thesaurus/1004552>, <http://metadata.un.org/thesaurus/1004561>, <http://metadata.un.org/thesaurus/050800>, <http://metadata.un.org/thesaurus/1003238> .
+<http://data.un.org/kos/sdg/VC_DSR_DDHN> dct:subject <http://eurovoc.europa.eu/1690>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/090200>, <http://metadata.un.org/thesaurus/1002940> .
+<http://data.un.org/kos/sdg/VC_DSR_DYHN> dct:subject <http://eurovoc.europa.eu/1690>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/090200>, <http://metadata.un.org/thesaurus/1002940> .
+<http://data.un.org/kos/sdg/VC_DSR_AGLH> dct:subject <http://eurovoc.europa.eu/6308>, <http://metadata.un.org/thesaurus/1006317>, <http://metadata.un.org/thesaurus/1000171> .
+<http://data.un.org/kos/sdg/VC_DSR_AGLN> dct:subject <http://eurovoc.europa.eu/6308>, <http://metadata.un.org/thesaurus/1006317>, <http://metadata.un.org/thesaurus/1000171> .
+<http://data.un.org/kos/sdg/VC_DSR_CHLN> dct:subject <http://eurovoc.europa.eu/2278>, <http://metadata.un.org/thesaurus/1001428> .
+<http://data.un.org/kos/sdg/VC_DSR_CILN> dct:subject <http://metadata.un.org/thesaurus/1004898> .
+<http://data.un.org/kos/sdg/VC_DSR_HOLH> dct:subject <http://eurovoc.europa.eu/1690>, <http://metadata.un.org/thesaurus/090200>, <http://metadata.un.org/thesaurus/1002940> .
+<http://data.un.org/kos/sdg/VC_DSR_HOLN> dct:subject <http://eurovoc.europa.eu/1690>, <http://metadata.un.org/thesaurus/090200>, <http://metadata.un.org/thesaurus/1002940> .
+<http://data.un.org/kos/sdg/SG_DSR_SILN> dct:subject <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/SG_DSR_SILS> dct:subject <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/SL_EMP_GTOTL> dct:subject <http://eurovoc.europa.eu/3843> .
+<http://data.un.org/kos/sdg/FI_FSI_FSANL> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/FI_FSI_FSERA> dct:subject <http://metadata.un.org/thesaurus/1003385>, <http://metadata.un.org/thesaurus/1002326> .
+<http://data.un.org/kos/sdg/FI_FSI_FSKA> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/FI_FSI_FSKNL> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/FI_FSI_FSKRTC> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/FI_FSI_FSLS> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/FI_FSI_FSSNO> dct:subject <http://eurovoc.europa.eu/c_406ad4cc>, <http://metadata.un.org/thesaurus/1002326>, <http://metadata.un.org/thesaurus/1005578> .
+<http://data.un.org/kos/sdg/EN_LND_SLUM> dct:subject <http://eurovoc.europa.eu/2281>, <http://eurovoc.europa.eu/4874>, <http://metadata.un.org/thesaurus/1005064>, <http://metadata.un.org/thesaurus/1005933>, <http://metadata.un.org/thesaurus/1006824> .
+<http://data.un.org/kos/sdg/VC_DSR_BSDN> dct:subject <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/VC_DSR_CDAN> dct:subject <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/VC_DSR_CDYN> dct:subject <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/VC_DSR_EFDN> dct:subject <http://eurovoc.europa.eu/668>, <http://metadata.un.org/thesaurus/1001893>, <http://metadata.un.org/thesaurus/1001902>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/VC_DSR_ESDN> dct:subject <http://eurovoc.europa.eu/668>, <http://metadata.un.org/thesaurus/1001893>, <http://metadata.un.org/thesaurus/1001902>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/VC_DSR_HFDN> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/VC_DSR_HSDN> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/VC_DSR_OBDN> dct:subject <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1001694> .
+<http://data.un.org/kos/sdg/EN_ATM_PM25> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SG_SCP_CNTRY> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_SCP_CORMEC> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_SCP_MACPOL> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_SCP_POLINS> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/EN_MAT_DOMCMPC> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/EN_MAT_DOMCMPG> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/EN_MAT_DOMCMPT> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/SG_HAZ_CMRBASEL> dct:subject <http://eurovoc.europa.eu/3467>, <http://eurovoc.europa.eu/6103> .
+<http://data.un.org/kos/sdg/SG_HAZ_CMRMNTRL> dct:subject <http://eurovoc.europa.eu/3467>, <http://eurovoc.europa.eu/6103> .
+<http://data.un.org/kos/sdg/SG_HAZ_CMRROTDAM> dct:subject <http://eurovoc.europa.eu/3467>, <http://eurovoc.europa.eu/6103> .
+<http://data.un.org/kos/sdg/SG_HAZ_CMRSTHOLM> dct:subject <http://eurovoc.europa.eu/3467>, <http://eurovoc.europa.eu/6103> .
+<http://data.un.org/kos/sdg/ER_FFS_PRTSPC> dct:subject <http://eurovoc.europa.eu/6045>, <http://metadata.un.org/thesaurus/1002507>, <http://metadata.un.org/thesaurus/1006261> .
+<http://data.un.org/kos/sdg/ER_FFS_PRTSPR> dct:subject <http://eurovoc.europa.eu/6045>, <http://metadata.un.org/thesaurus/1002507>, <http://metadata.un.org/thesaurus/1006261> .
+<http://data.un.org/kos/sdg/ER_FFS_PRTSST> dct:subject <http://eurovoc.europa.eu/6045>, <http://metadata.un.org/thesaurus/1002507>, <http://metadata.un.org/thesaurus/1006261> .
+<http://data.un.org/kos/sdg/ER_MRN_MARIN> dct:subject <http://eurovoc.europa.eu/3531>, <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1003783>, <http://metadata.un.org/thesaurus/1004576> .
+<http://data.un.org/kos/sdg/ER_MRN_MARINT> dct:subject <http://eurovoc.europa.eu/3531>, <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1003783>, <http://metadata.un.org/thesaurus/1004576> .
+<http://data.un.org/kos/sdg/ER_MRN_MPA> dct:subject <http://eurovoc.europa.eu/3531>, <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1003783>, <http://metadata.un.org/thesaurus/1004576> .
+<http://data.un.org/kos/sdg/ER_REG_UNFCIM> dct:subject <http://eurovoc.europa.eu/1372>, <http://eurovoc.europa.eu/3531>, <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1003310>, <http://metadata.un.org/thesaurus/1002377> .
+<http://data.un.org/kos/sdg/ER_RDE_OSEX> dct:subject <http://eurovoc.europa.eu/5237>, <http://eurovoc.europa.eu/3531>, <http://metadata.un.org/thesaurus/1005499> .
+<http://data.un.org/kos/sdg/ER_REG_SSFRAR> dct:subject <http://eurovoc.europa.eu/1372>, <http://eurovoc.europa.eu/3531>, <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1002377> .
+<http://data.un.org/kos/sdg/AG_LND_FRST> dct:subject <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTN> dct:subject <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/AG_LND_TOTL> dct:subject <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/ER_PTD_FRWRT> dct:subject <http://eurovoc.europa.eu/c_3897ba70> .
+<http://data.un.org/kos/sdg/ER_PTD_TERRS> dct:subject <http://eurovoc.europa.eu/c_3897ba70> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTBIOPHA> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/6405>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTCERT> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/6405>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499>, <http://metadata.un.org/thesaurus/1002485>, <http://metadata.un.org/thesaurus/1005907> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTCHG> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/6405>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTMGT> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/6405>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499>, <http://metadata.un.org/thesaurus/1002485>, <http://metadata.un.org/thesaurus/1005907> .
+<http://data.un.org/kos/sdg/AG_LND_FRSTPRCT> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/1063>, <http://eurovoc.europa.eu/4352>, <http://eurovoc.europa.eu/6405>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499>, <http://metadata.un.org/thesaurus/1002485>, <http://metadata.un.org/thesaurus/1005907> .
+<http://data.un.org/kos/sdg/ER_PTD_MOTN> dct:subject <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/ER_MTN_GRNCOV> dct:subject <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/ER_MTN_GRNCVI> dct:subject <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/ER_MTN_TOTL> dct:subject <http://eurovoc.europa.eu/6405> .
+<http://data.un.org/kos/sdg/ER_RSK_LSTI> dct:subject <http://eurovoc.europa.eu/865> .
+<http://data.un.org/kos/sdg/ER_CBD_ABSCLRHS> dct:subject <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1003310>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/ER_CBD_NAGOYA> dct:subject <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1003310> .
+<http://data.un.org/kos/sdg/ER_CBD_ORSPGRFA> dct:subject <http://eurovoc.europa.eu/6308>, <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1006317>, <http://metadata.un.org/thesaurus/1003310>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/ER_CBD_PTYPGRFA> dct:subject <http://eurovoc.europa.eu/6308>, <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1006317>, <http://metadata.un.org/thesaurus/1003310> .
+<http://data.un.org/kos/sdg/VC_IHR_PSRC> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375>, <http://metadata.un.org/thesaurus/1006884> .
+<http://data.un.org/kos/sdg/VC_IHR_PSRCN> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375>, <http://metadata.un.org/thesaurus/1006884> .
+<http://data.un.org/kos/sdg/VC_VAW_PHYPYV> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/3919> .
+<http://data.un.org/kos/sdg/VC_VAW_SXVLN> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/1528>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1005842> .
+<http://data.un.org/kos/sdg/IC_FRM_BRIB> dct:subject <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/GF_XPD_GBPC> dct:subject <http://eurovoc.europa.eu/2497>, <http://eurovoc.europa.eu/403>, <http://metadata.un.org/thesaurus/1001863>, <http://metadata.un.org/thesaurus/1005247> .
+<http://data.un.org/kos/sdg/SG_NHR_IMPLN> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/SG_NHR_INTEXSTN> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/SG_NHR_NOAPPLN> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/SG_NHR_NOSTUSN> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/SG_PLN_PRPOLRES> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_PLN_PRVNDI> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_PLN_PRVRICTRY> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_PLN_RECNDI> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_PLN_RECRICTRY> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_PLN_REPOLRES> dct:subject <http://metadata.un.org/thesaurus/1005527> .
+<http://data.un.org/kos/sdg/SG_STT_FPOS> dct:subject <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/SG_STT_NSDSFDDNR> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_STT_NSDSFDGVT> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1005171>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_STT_NSDSFDOTHR> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_STT_NSDSFND> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_STT_NSDSIMPL> dct:subject <http://eurovoc.europa.eu/2393>, <http://metadata.un.org/thesaurus/1001628>, <http://metadata.un.org/thesaurus/1001629> .
+<http://data.un.org/kos/sdg/SG_REG_BRTH90N> dct:subject <http://metadata.un.org/thesaurus/1001008> .
+<http://data.un.org/kos/sdg/SG_REG_CENSUSN> dct:subject <http://metadata.un.org/thesaurus/1000878> .
+<http://data.un.org/kos/sdg/SG_REG_DETH75N> dct:subject <http://metadata.un.org/thesaurus/1001008> .
+<http://data.un.org/kos/sdg/DC_ODA_LDCG> dct:subject <http://metadata.un.org/thesaurus/1003661> .
+<http://data.un.org/kos/sdg/DC_ODA_LDCS> dct:subject <http://metadata.un.org/thesaurus/1003661> .
+<http://data.un.org/kos/sdg/DC_ODA_LLDC> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1003606> .
+<http://data.un.org/kos/sdg/DC_ODA_LLDCG> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1003606> .
+<http://data.un.org/kos/sdg/DC_ODA_SIDS> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613> .
+<http://data.un.org/kos/sdg/DC_ODA_SIDSG> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613> .
+<http://data.un.org/kos/sdg/SN_ITK_DEFC> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SN_ITK_DEFCN> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/AG_PRD_FIESSI> dct:subject <http://eurovoc.europa.eu/961> .
+<http://data.un.org/kos/sdg/AG_PRD_FIESSIN> dct:subject <http://eurovoc.europa.eu/961> .
+<http://data.un.org/kos/sdg/SH_STA_STUNT> dct:subject <http://eurovoc.europa.eu/961>, <http://eurovoc.europa.eu/1770>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_OVRWGT> dct:subject <http://eurovoc.europa.eu/1770>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/5715>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939>, <http://metadata.un.org/thesaurus/1004544>, <http://metadata.un.org/thesaurus/1004539>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_WASTE> dct:subject <http://eurovoc.europa.eu/961>, <http://eurovoc.europa.eu/1770>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/ER_GRF_ANIMRCNT> dct:subject <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/ER_GRF_PLNTSTOR> dct:subject <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/AG_PRD_AGVAS> dct:subject <http://eurovoc.europa.eu/2761>, <http://metadata.un.org/thesaurus/1002764> .
+<http://data.un.org/kos/sdg/AG_FPA_CFPI> dct:subject <http://eurovoc.europa.eu/2640> .
+<http://data.un.org/kos/sdg/AG_FPA_COMM> dct:subject <http://eurovoc.europa.eu/2640> .
+<http://data.un.org/kos/sdg/SH_STA_MMR> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_BRTC> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_IMRT> dct:subject <http://eurovoc.europa.eu/1992>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1003182>, <http://metadata.un.org/thesaurus/1003180>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_IMRTN> dct:subject <http://eurovoc.europa.eu/1992>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1003182>, <http://metadata.un.org/thesaurus/1003180>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_MORT> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_MORTN> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_NMRT> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DYN_NMRTN> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_HIV_INCD> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_TBS_INCID> dct:subject <http://eurovoc.europa.eu/1759>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_MALR> dct:subject <http://eurovoc.europa.eu/1759>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_HAP_HBSAG> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_TRP_INTVN> dct:subject <http://eurovoc.europa.eu/1762>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DTH_NCOM> dct:subject <http://eurovoc.europa.eu/434>, <http://eurovoc.europa.eu/5104>, <http://eurovoc.europa.eu/1756>, <http://eurovoc.europa.eu/1757>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1000793>, <http://metadata.un.org/thesaurus/1000825>, <http://metadata.un.org/thesaurus/1005519>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_DTH_RNCOM> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_SCIDE> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_SCIDEN> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_ALC_CONSPT> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_TRAF> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_FPL_MTMM> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SP_DYN_ADKL> dct:subject <http://eurovoc.europa.eu/1528>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_ACS_UNHC> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_XPD_EARN10> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_XPD_EARN25> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_AAP_ASMORT> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_AAP_MORT> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_HAP_ASMORT> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_HAP_MORT> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_AIRP> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_ASAIRP> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2527>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_WASH> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_STA_POISN> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/3135>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_PRV_SMOK> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_ACS_DTP3> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_ACS_MCV2> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_ACS_PCV3> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/DC_TOF_HLTHL> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/DC_TOF_HLTHNT> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_MED_HEAWOR> dct:subject <http://eurovoc.europa.eu/2479>, <http://eurovoc.europa.eu/2342>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_IHR_CAPS> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SE_MAT_PROF> dct:subject <http://eurovoc.europa.eu/758> .
+<http://data.un.org/kos/sdg/SE_REA_PROF> dct:subject <http://eurovoc.europa.eu/758> .
+<http://data.un.org/kos/sdg/SE_DEV_ONTRK> dct:subject <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1005087>, <http://metadata.un.org/thesaurus/1000931> .
+<http://data.un.org/kos/sdg/SE_ADT_EDUCTRN> dct:subject <http://eurovoc.europa.eu/1528> .
+<http://data.un.org/kos/sdg/SE_ADT_ACTS> dct:subject <http://eurovoc.europa.eu/1528>, <http://eurovoc.europa.eu/437655> .
+<http://data.un.org/kos/sdg/SE_GPI_FUNPROF> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_GPI_ICTS> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/1528>, <http://eurovoc.europa.eu/437655>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1001190>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_GPI_MATACH> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_GPI_PART> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_GPI_REAACH> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_GPI_TRATEA> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/1071>, <http://eurovoc.europa.eu/777>, <http://eurovoc.europa.eu/2342>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002974>, <http://metadata.un.org/thesaurus/1006404>, <http://metadata.un.org/thesaurus/1006405>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_IMP_FPOF> dct:subject <http://eurovoc.europa.eu/3320>, <http://metadata.un.org/thesaurus/1004110> .
+<http://data.un.org/kos/sdg/SE_PRE_GPIPARTN> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/758>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684>, <http://metadata.un.org/thesaurus/1005087>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SE_ACC_COMP> dct:subject <http://eurovoc.europa.eu/2157>, <http://eurovoc.europa.eu/437655>, <http://metadata.un.org/thesaurus/1001190>, <http://metadata.un.org/thesaurus/1001203> .
+<http://data.un.org/kos/sdg/SE_ACC_DWAT> dct:subject <http://eurovoc.europa.eu/597>, <http://eurovoc.europa.eu/607>, <http://metadata.un.org/thesaurus/030500>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939> .
+<http://data.un.org/kos/sdg/SE_ACC_ELEC> dct:subject <http://metadata.un.org/thesaurus/1001957> .
+<http://data.un.org/kos/sdg/SE_ACC_HNWA> dct:subject <http://metadata.un.org/thesaurus/1005701>, <http://metadata.un.org/thesaurus/1005699> .
+<http://data.un.org/kos/sdg/SE_ACC_INTN> dct:subject <http://eurovoc.europa.eu/6088>, <http://eurovoc.europa.eu/437655>, <http://metadata.un.org/thesaurus/1001190>, <http://metadata.un.org/thesaurus/1003348> .
+<http://data.un.org/kos/sdg/SE_ACC_SANI> dct:subject <http://eurovoc.europa.eu/3913>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1005701>, <http://metadata.un.org/thesaurus/1005699> .
+<http://data.un.org/kos/sdg/SE_INF_DSBL> dct:subject <http://metadata.un.org/thesaurus/1004831>, <http://metadata.un.org/thesaurus/100500> .
+<http://data.un.org/kos/sdg/SE_TRA_GRDL> dct:subject <http://eurovoc.europa.eu/777>, <http://eurovoc.europa.eu/2342> .
+<http://data.un.org/kos/sdg/VC_VAW_MARR> dct:subject <http://eurovoc.europa.eu/1528>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SP_DYN_MRBF15> dct:subject <http://eurovoc.europa.eu/1528>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SP_DYN_MRBF18> dct:subject <http://eurovoc.europa.eu/1528>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SH_STA_FGMS> dct:subject <http://eurovoc.europa.eu/3353>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SL_DOM_TSPD> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SL_DOM_TSPDCW> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SL_DOM_TSPDDC> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_GEN_PARL> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_GEN_PARLN> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_GEN_PARLNT> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/IC_GEN_MGTL> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/IC_GEN_MGTN> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SH_FPL_INFM> dct:subject <http://eurovoc.europa.eu/7135>, <http://eurovoc.europa.eu/2398>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005493>, <http://metadata.un.org/thesaurus/080200>, <http://metadata.un.org/thesaurus/1002244>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_FPL_INFMCU> dct:subject <http://eurovoc.europa.eu/7135>, <http://eurovoc.europa.eu/2398>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005493>, <http://metadata.un.org/thesaurus/080200>, <http://metadata.un.org/thesaurus/1002244>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_FPL_INFMRH> dct:subject <http://eurovoc.europa.eu/7135>, <http://eurovoc.europa.eu/2398>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005493>, <http://metadata.un.org/thesaurus/080200>, <http://metadata.un.org/thesaurus/1002244>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_FPL_INFMSR> dct:subject <http://eurovoc.europa.eu/7135>, <http://eurovoc.europa.eu/2398>, <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005493>, <http://metadata.un.org/thesaurus/080200>, <http://metadata.un.org/thesaurus/1002244>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_SAN_DEFECT> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005699>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/SH_SAN_HNDWSH> dct:subject <http://metadata.un.org/thesaurus/1005699> .
+<http://data.un.org/kos/sdg/SH_SAN_SAFE> dct:subject <http://eurovoc.europa.eu/2479>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1002838> .
+<http://data.un.org/kos/sdg/EN_WWT_WWDS> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://eurovoc.europa.eu/1158>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006935>, <http://metadata.un.org/thesaurus/1006934> .
+<http://data.un.org/kos/sdg/ER_H2O_WUEYST> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/141>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1006944> .
+<http://data.un.org/kos/sdg/ER_H2O_IWRMD> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343> .
+<http://data.un.org/kos/sdg/EG_TBA_H2CO> dct:subject <http://eurovoc.europa.eu/3467> .
+<http://data.un.org/kos/sdg/EG_TBA_H2COAQ> dct:subject <http://eurovoc.europa.eu/3467> .
+<http://data.un.org/kos/sdg/EG_TBA_H2CORL> dct:subject <http://eurovoc.europa.eu/3467> .
+<http://data.un.org/kos/sdg/ER_H2O_PRDU> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_H2O_RURP> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_WAT_PART> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_WAT_PRDU> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/EG_EGY_CLEAN> dct:subject <http://eurovoc.europa.eu/6043>, <http://eurovoc.europa.eu/3638> .
+<http://data.un.org/kos/sdg/SL_ISV_IFRM> dct:subject <http://metadata.un.org/thesaurus/1003186> .
+<http://data.un.org/kos/sdg/SL_EMP_AEARN> dct:subject <http://eurovoc.europa.eu/3843> .
+<http://data.un.org/kos/sdg/SL_TLF_NEET> dct:subject <http://eurovoc.europa.eu/1528> .
+<http://data.un.org/kos/sdg/SL_TLF_CHLDEA> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/4552>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1000935> .
+<http://data.un.org/kos/sdg/SL_TLF_CHLDEC> dct:subject <http://eurovoc.europa.eu/758>, <http://eurovoc.europa.eu/4552>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1000935> .
+<http://data.un.org/kos/sdg/SL_EMP_FTLINJUR> dct:subject <http://eurovoc.europa.eu/1993>, <http://eurovoc.europa.eu/825>, <http://metadata.un.org/thesaurus/1004558> .
+<http://data.un.org/kos/sdg/SL_EMP_INJUR> dct:subject <http://eurovoc.europa.eu/825> .
+<http://data.un.org/kos/sdg/IS_RDP_FRGVOL> dct:subject <http://eurovoc.europa.eu/1433>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1002712>, <http://metadata.un.org/thesaurus/1006657> .
+<http://data.un.org/kos/sdg/IS_RDP_PFVOL> dct:subject <http://eurovoc.europa.eu/1433>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1006657>, <http://metadata.un.org/thesaurus/1004750> .
+<http://data.un.org/kos/sdg/NV_IND_MANF> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/NV_IND_MANFPC> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/SL_TLF_MANF> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/NV_IND_SSIS> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/FC_ACC_SSID> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/EN_ATM_CO2> dct:subject <http://eurovoc.europa.eu/5482>, <http://eurovoc.europa.eu/2524>, <http://eurovoc.europa.eu/433963>, <http://eurovoc.europa.eu/2527>, <http://eurovoc.europa.eu/3638>, <http://eurovoc.europa.eu/5650>, <http://metadata.un.org/thesaurus/1001030>, <http://metadata.un.org/thesaurus/030400>, <http://metadata.un.org/thesaurus/1000196>, <http://metadata.un.org/thesaurus/1005003>, <http://metadata.un.org/thesaurus/1002093>, <http://metadata.un.org/thesaurus/1000817>, <http://metadata.un.org/thesaurus/1002692>, <http://metadata.un.org/thesaurus/1002757> .
+<http://data.un.org/kos/sdg/EN_ATM_CO2GDP> dct:subject <http://eurovoc.europa.eu/5482>, <http://eurovoc.europa.eu/2524>, <http://eurovoc.europa.eu/433963>, <http://eurovoc.europa.eu/2527>, <http://eurovoc.europa.eu/3638>, <http://eurovoc.europa.eu/5650>, <http://metadata.un.org/thesaurus/1001030>, <http://metadata.un.org/thesaurus/030400>, <http://metadata.un.org/thesaurus/1000196>, <http://metadata.un.org/thesaurus/1005003>, <http://metadata.un.org/thesaurus/1002093>, <http://metadata.un.org/thesaurus/1000817>, <http://metadata.un.org/thesaurus/1002692>, <http://metadata.un.org/thesaurus/1002757> .
+<http://data.un.org/kos/sdg/EN_ATM_CO2MVA> dct:subject <http://eurovoc.europa.eu/5482>, <http://eurovoc.europa.eu/2524>, <http://eurovoc.europa.eu/433963>, <http://eurovoc.europa.eu/2527>, <http://eurovoc.europa.eu/3638>, <http://eurovoc.europa.eu/5650>, <http://metadata.un.org/thesaurus/1001030>, <http://metadata.un.org/thesaurus/030400>, <http://metadata.un.org/thesaurus/1000196>, <http://metadata.un.org/thesaurus/1005003>, <http://metadata.un.org/thesaurus/1002093>, <http://metadata.un.org/thesaurus/1000817>, <http://metadata.un.org/thesaurus/1002692>, <http://metadata.un.org/thesaurus/1002757> .
+<http://data.un.org/kos/sdg/GB_POP_SCIERD> dct:subject <http://eurovoc.europa.eu/2342> .
+<http://data.un.org/kos/sdg/NV_IND_TECH> dct:subject <http://eurovoc.europa.eu/1356> .
+<http://data.un.org/kos/sdg/AG_LND_DGRD> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1003586> .
+<http://data.un.org/kos/sdg/AG_PRD_XSUBDY> dct:subject <http://eurovoc.europa.eu/2442>, <http://eurovoc.europa.eu/2497>, <http://eurovoc.europa.eu/4310>, <http://metadata.un.org/thesaurus/1000150>, <http://metadata.un.org/thesaurus/1001863>, <http://metadata.un.org/thesaurus/1002209> .
+<http://data.un.org/kos/sdg/SP_ACS_BSRVH2O> dct:subject <http://eurovoc.europa.eu/597>, <http://eurovoc.europa.eu/607>, <http://metadata.un.org/thesaurus/030500>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939> .
+<http://data.un.org/kos/sdg/SP_ACS_BSRVSAN> dct:subject <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1005701> .
+<http://data.un.org/kos/sdg/SH_STA_STUNTN> dct:subject <http://eurovoc.europa.eu/961>, <http://eurovoc.europa.eu/1770>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939> .
+<http://data.un.org/kos/sdg/SH_STA_OVRWGTN> dct:subject <http://eurovoc.europa.eu/1770>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939>, <http://metadata.un.org/thesaurus/1004544> .
+<http://data.un.org/kos/sdg/SH_STA_WASTEN> dct:subject <http://eurovoc.europa.eu/961>, <http://eurovoc.europa.eu/1770>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1003859>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1000931>, <http://metadata.un.org/thesaurus/1000939> .
+<http://data.un.org/kos/sdg/PD_AGR_SSFP> dct:subject <http://eurovoc.europa.eu/2710>, <http://metadata.un.org/thesaurus/1005941> .
+<http://data.un.org/kos/sdg/SI_AGR_SSFP> dct:subject <http://eurovoc.europa.eu/2710>, <http://eurovoc.europa.eu/3682>, <http://metadata.un.org/thesaurus/1002259>, <http://metadata.un.org/thesaurus/1005941> .
+<http://data.un.org/kos/sdg/SG_LGL_GENEQEMP> dct:subject <http://metadata.un.org/thesaurus/1002007>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1001871> .
+<http://data.un.org/kos/sdg/SG_LGL_GENEQLFP> dct:subject <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_LGL_GENEQMAR> dct:subject <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_LGL_GENEQVAW> dct:subject <http://eurovoc.europa.eu/4728>, <http://metadata.un.org/thesaurus/1002609>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_GEN_LOCGELS> dct:subject <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/SG_GEN_EQPWN> dct:subject <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/140100> .
+<http://data.un.org/kos/sdg/ER_H2O_IWRMP> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343> .
+<http://data.un.org/kos/sdg/ER_H2O_PARTIC> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_H2O_PROCED> dct:subject <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_WAT_PARTIC> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/ER_WAT_PROCED> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1003653>, <http://metadata.un.org/thesaurus/1001150> .
+<http://data.un.org/kos/sdg/EG_IFF_RANDN> dct:subject <http://eurovoc.europa.eu/3538>, <http://eurovoc.europa.eu/5237>, <http://eurovoc.europa.eu/6043>, <http://metadata.un.org/thesaurus/031000>, <http://metadata.un.org/thesaurus/1002035>, <http://metadata.un.org/thesaurus/1005477>, <http://metadata.un.org/thesaurus/1005499>, <http://metadata.un.org/thesaurus/1002561> .
+<http://data.un.org/kos/sdg/TM_TRF_ZERO> dct:subject <http://eurovoc.europa.eu/11>, <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1003340>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1003661> .
+<http://data.un.org/kos/sdg/ER_H2O_FWTL> dct:subject <http://metadata.un.org/thesaurus/1003907>, <http://metadata.un.org/thesaurus/1003783>, <http://metadata.un.org/thesaurus/1004576>, <http://metadata.un.org/thesaurus/040400>, <http://metadata.un.org/thesaurus/1002363> .
+<http://data.un.org/kos/sdg/ER_CBD_SMTA> dct:subject <http://eurovoc.europa.eu/3467>, <http://metadata.un.org/thesaurus/1003310> .
+<http://data.un.org/kos/sdg/VC_VOV_PHYL> dct:subject <http://eurovoc.europa.eu/4728>, <http://metadata.un.org/thesaurus/1006882> .
+<http://data.un.org/kos/sdg/VC_VOV_ROBB> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/VC_VOV_SEXL> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/4728>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/140100>, <http://metadata.un.org/thesaurus/1005842> .
+<http://data.un.org/kos/sdg/VC_SNS_WALN> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/VC_HTF_DETV> dct:subject <http://metadata.un.org/thesaurus/1006622> .
+<http://data.un.org/kos/sdg/VC_HTF_DETVFL> dct:subject <http://eurovoc.europa.eu/857>, <http://metadata.un.org/thesaurus/1006622>, <http://metadata.un.org/thesaurus/1002452>, <http://metadata.un.org/thesaurus/1005924> .
+<http://data.un.org/kos/sdg/VC_HTF_DETVOG> dct:subject <http://metadata.un.org/thesaurus/1006622> .
+<http://data.un.org/kos/sdg/VC_HTF_DETVOP> dct:subject <http://metadata.un.org/thesaurus/1006622> .
+<http://data.un.org/kos/sdg/VC_HTF_DETVSX> dct:subject <http://metadata.un.org/thesaurus/1006622>, <http://metadata.un.org/thesaurus/1005842> .
+<http://data.un.org/kos/sdg/VC_PRR_PHYV> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/VC_PRR_ROBB> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/VC_PRR_SEXV> dct:subject <http://eurovoc.europa.eu/4728>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1005842> .
+<http://data.un.org/kos/sdg/IU_COR_BRIB> dct:subject <http://eurovoc.europa.eu/5622>, <http://eurovoc.europa.eu/245>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1005619>, <http://metadata.un.org/thesaurus/1000693>, <http://metadata.un.org/thesaurus/1001328>, <http://metadata.un.org/thesaurus/1001375> .
+<http://data.un.org/kos/sdg/SG_NHR_IMPL> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/SG_NHR_INTEXST> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202>, <http://metadata.un.org/thesaurus/1002981> .
+<http://data.un.org/kos/sdg/VC_VAW_MTUHRA> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/453>, <http://eurovoc.europa.eu/3348>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1000018>, <http://metadata.un.org/thesaurus/1001375>, <http://metadata.un.org/thesaurus/1006884>, <http://metadata.un.org/thesaurus/1003475> .
+<http://data.un.org/kos/sdg/GR_G14_GDP> dct:subject <http://eurovoc.europa.eu/1018>, <http://metadata.un.org/thesaurus/020601>, <http://metadata.un.org/thesaurus/1005248> .
+<http://data.un.org/kos/sdg/GC_GOB_TAXD> dct:subject <http://eurovoc.europa.eu/1018>, <http://metadata.un.org/thesaurus/020601>, <http://metadata.un.org/thesaurus/1006398>, <http://metadata.un.org/thesaurus/1005248> .
+<http://data.un.org/kos/sdg/TM_TAX_WWTAV> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340>, <http://metadata.un.org/thesaurus/1006376> .
+<http://data.un.org/kos/sdg/TX_EXP_GBMRCH> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340> .
+<http://data.un.org/kos/sdg/TX_EXP_GBSVR> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340> .
+<http://data.un.org/kos/sdg/TX_IMP_GBMRCH> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340> .
+<http://data.un.org/kos/sdg/TX_IMP_GBSVR> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340> .
+<http://data.un.org/kos/sdg/TM_TAX_ATRFD> dct:subject <http://eurovoc.europa.eu/11>, <http://metadata.un.org/thesaurus/1003340>, <http://metadata.un.org/thesaurus/1006376> .
+<http://data.un.org/kos/sdg/SG_REG_BRTH90> dct:subject <http://metadata.un.org/thesaurus/1001008> .
+<http://data.un.org/kos/sdg/SG_REG_CENSUS> dct:subject <http://metadata.un.org/thesaurus/1000878> .
+<http://data.un.org/kos/sdg/SG_REG_DETH75> dct:subject <http://metadata.un.org/thesaurus/1001008> .
+<http://data.un.org/kos/sdg/EN_MAT_FTPRPC> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/EN_MAT_FTPRPG> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/EN_MAT_FTPRTN> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1005378> .
+<http://data.un.org/kos/sdg/1.1> dct:subject <http://eurovoc.europa.eu/2062>, <http://eurovoc.europa.eu/6781>, <http://metadata.un.org/thesaurus/1000544>, <http://metadata.un.org/thesaurus/1006166> .
+<http://data.un.org/kos/sdg/C010201> dct:subject <http://eurovoc.europa.eu/2062>, <http://eurovoc.europa.eu/6781>, <http://metadata.un.org/thesaurus/1000544>, <http://metadata.un.org/thesaurus/1006166> .
+<http://data.un.org/kos/sdg/1.3> dct:subject <http://eurovoc.europa.eu/2062>, <http://eurovoc.europa.eu/6781>, <http://metadata.un.org/thesaurus/1000544>, <http://metadata.un.org/thesaurus/1006166>, <http://metadata.un.org/thesaurus/1005995> .
+<http://data.un.org/kos/sdg/C010502> dct:subject <http://eurovoc.europa.eu/412>, <http://eurovoc.europa.eu/413>, <http://metadata.un.org/thesaurus/1001693>, <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1001695>, <http://metadata.un.org/thesaurus/1001696>, <http://metadata.un.org/thesaurus/1004334> .
+<http://data.un.org/kos/sdg/C200303> dct:subject <http://eurovoc.europa.eu/412>, <http://eurovoc.europa.eu/413>, <http://metadata.un.org/thesaurus/1001693>, <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1001695>, <http://metadata.un.org/thesaurus/1001696>, <http://metadata.un.org/thesaurus/1004334> .
+<http://data.un.org/kos/sdg/C200304> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1001693>, <http://metadata.un.org/thesaurus/1001694>, <http://metadata.un.org/thesaurus/1001695>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/C200305> dct:subject <http://eurovoc.europa.eu/68>, <http://metadata.un.org/thesaurus/1003791> .
+<http://data.un.org/kos/sdg/C010a02> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/68>, <http://metadata.un.org/thesaurus/1003791> .
+<http://data.un.org/kos/sdg/10.1> dct:subject <http://metadata.un.org/thesaurus/1003084> .
+<http://data.un.org/kos/sdg/10.4> dct:subject <http://eurovoc.europa.eu/4050>, <http://metadata.un.org/thesaurus/1003084>, <http://metadata.un.org/thesaurus/1005985>, <http://metadata.un.org/thesaurus/1006915> .
+<http://data.un.org/kos/sdg/10.6> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1002104>, <http://metadata.un.org/thesaurus/1003263> .
+<http://data.un.org/kos/sdg/10.b> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001619> .
+<http://data.un.org/kos/sdg/10.c> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1005471> .
+<http://data.un.org/kos/sdg/10> dct:subject <http://eurovoc.europa.eu/1420>, <http://metadata.un.org/thesaurus/1002102> .
+<http://data.un.org/kos/sdg/C110601> dct:subject <http://metadata.un.org/thesaurus/1005701> .
+<http://data.un.org/kos/sdg/C110602> dct:subject <http://eurovoc.europa.eu/2524>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/030400>, <http://metadata.un.org/thesaurus/1000196>, <http://metadata.un.org/thesaurus/1005003> .
+<http://data.un.org/kos/sdg/11> dct:subject <http://eurovoc.europa.eu/4809>, <http://metadata.un.org/thesaurus/1000995>, <http://metadata.un.org/thesaurus/1002986> .
+<http://data.un.org/kos/sdg/12.1> dct:subject <http://metadata.un.org/thesaurus/1001025> .
+<http://data.un.org/kos/sdg/C120401> dct:subject <http://metadata.un.org/thesaurus/1003310>, <http://metadata.un.org/thesaurus/1002820> .
+<http://data.un.org/kos/sdg/12> dct:subject <http://eurovoc.europa.eu/139>, <http://eurovoc.europa.eu/2707>, <http://metadata.un.org/thesaurus/1006318>, <http://metadata.un.org/thesaurus/1001264>, <http://metadata.un.org/thesaurus/1005146> .
+<http://data.un.org/kos/sdg/13> dct:subject <http://eurovoc.europa.eu/5482>, <http://metadata.un.org/thesaurus/1001030> .
+<http://data.un.org/kos/sdg/14.a> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1003907> .
+<http://data.un.org/kos/sdg/14> dct:subject <http://eurovoc.europa.eu/3149>, <http://eurovoc.europa.eu/5742>, <http://eurovoc.europa.eu/2107>, <http://eurovoc.europa.eu/1870>, <http://metadata.un.org/thesaurus/030800>, <http://metadata.un.org/thesaurus/1003922>, <http://metadata.un.org/thesaurus/170600> .
+<http://data.un.org/kos/sdg/15.1> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/2235>, <http://eurovoc.europa.eu/4801>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1004326> .
+<http://data.un.org/kos/sdg/C150101> dct:subject <http://metadata.un.org/thesaurus/1006465>, <http://metadata.un.org/thesaurus/1002481>, <http://metadata.un.org/thesaurus/1002499> .
+<http://data.un.org/kos/sdg/C150102> dct:subject <http://eurovoc.europa.eu/597>, <http://eurovoc.europa.eu/602>, <http://metadata.un.org/thesaurus/030500>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1002542>, <http://metadata.un.org/thesaurus/1002544> .
+<http://data.un.org/kos/sdg/15.4> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1004263>, <http://metadata.un.org/thesaurus/1006465> .
+<http://data.un.org/kos/sdg/C150401> dct:subject <http://eurovoc.europa.eu/2235>, <http://eurovoc.europa.eu/4801>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1004326> .
+<http://data.un.org/kos/sdg/15.5> dct:subject <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1002018>, <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/15.6> dct:subject <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/15.a> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001619>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/15.b> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001619>, <http://metadata.un.org/thesaurus/1000612>, <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/15> dct:subject <http://eurovoc.europa.eu/339>, <http://eurovoc.europa.eu/416>, <http://eurovoc.europa.eu/5463>, <http://metadata.un.org/thesaurus/030600>, <http://metadata.un.org/thesaurus/1001550> .
+<http://data.un.org/kos/sdg/C161002> dct:subject <http://eurovoc.europa.eu/453>, <http://metadata.un.org/thesaurus/1000018>, <http://metadata.un.org/thesaurus/1003653> .
+<http://data.un.org/kos/sdg/C160201> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/6557>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1001744>, <http://metadata.un.org/thesaurus/1006882>, <http://metadata.un.org/thesaurus/1000928> .
+<http://data.un.org/kos/sdg/C160302> dct:subject <http://eurovoc.europa.eu/5622>, <http://metadata.un.org/thesaurus/1000049>, <http://metadata.un.org/thesaurus/1001603>, <http://metadata.un.org/thesaurus/1005619> .
+<http://data.un.org/kos/sdg/C160502> dct:subject <http://eurovoc.europa.eu/5622>, <http://eurovoc.europa.eu/245>, <http://metadata.un.org/thesaurus/1005619>, <http://metadata.un.org/thesaurus/1000693>, <http://metadata.un.org/thesaurus/1001328> .
+<http://data.un.org/kos/sdg/16.8> dct:subject <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1002104>, <http://metadata.un.org/thesaurus/1003263> .
+<http://data.un.org/kos/sdg/16.9> dct:subject <http://eurovoc.europa.eu/584>, <http://metadata.un.org/thesaurus/1000633>, <http://metadata.un.org/thesaurus/1001008>, <http://metadata.un.org/thesaurus/1002975>, <http://metadata.un.org/thesaurus/140202> .
+<http://data.un.org/kos/sdg/16> dct:subject <http://eurovoc.europa.eu/516>, <http://eurovoc.europa.eu/5585>, <http://metadata.un.org/thesaurus/1001012>, <http://metadata.un.org/thesaurus/1003500>, <http://metadata.un.org/thesaurus/1004777>, <http://metadata.un.org/thesaurus/1005254>, <http://metadata.un.org/thesaurus/1005970>, <http://metadata.un.org/thesaurus/1006319> .
+<http://data.un.org/kos/sdg/17.15> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1005167>, <http://metadata.un.org/thesaurus/1005171> .
+<http://data.un.org/kos/sdg/17.16> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1005167> .
+<http://data.un.org/kos/sdg/C171901> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001613> .
+<http://data.un.org/kos/sdg/17.1> dct:subject <http://eurovoc.europa.eu/2295>, <http://eurovoc.europa.eu/712>, <http://metadata.un.org/thesaurus/1001613>, <http://metadata.un.org/thesaurus/1005517> .
+<http://data.un.org/kos/sdg/C170102> dct:subject <http://eurovoc.europa.eu/5052> .
+<http://data.un.org/kos/sdg/17.2> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1001619> .
+<http://data.un.org/kos/sdg/C170302> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1005471> .
+<http://data.un.org/kos/sdg/17.4> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/11>, <http://eurovoc.europa.eu/423>, <http://metadata.un.org/thesaurus/1003340>, <http://metadata.un.org/thesaurus/1001530>, <http://metadata.un.org/thesaurus/1002215> .
+<http://data.un.org/kos/sdg/C170602> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/5188>, <http://eurovoc.europa.eu/6088>, <http://metadata.un.org/thesaurus/1001133>, <http://metadata.un.org/thesaurus/1003205>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1003348> .
+<http://data.un.org/kos/sdg/17.8> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/5188>, <http://eurovoc.europa.eu/6088>, <http://metadata.un.org/thesaurus/1001133>, <http://metadata.un.org/thesaurus/1003205>, <http://metadata.un.org/thesaurus/1004898>, <http://metadata.un.org/thesaurus/1003348> .
+<http://data.un.org/kos/sdg/17.9> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/2295>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001613> .
+<http://data.un.org/kos/sdg/17> dct:subject <http://eurovoc.europa.eu/5585>, <http://eurovoc.europa.eu/4199>, <http://metadata.un.org/thesaurus/1006319>, <http://metadata.un.org/thesaurus/1004748> .
+<http://data.un.org/kos/sdg/1> dct:subject <http://eurovoc.europa.eu/2281>, <http://metadata.un.org/thesaurus/1005064>, <http://metadata.un.org/thesaurus/1005065> .
+<http://data.un.org/kos/sdg/C020101> dct:subject <http://eurovoc.europa.eu/961>, <http://eurovoc.europa.eu/1770>, <http://metadata.un.org/thesaurus/1002824>, <http://metadata.un.org/thesaurus/1003859> .
+<http://data.un.org/kos/sdg/2.3> dct:subject <http://metadata.un.org/thesaurus/1002434> .
+<http://data.un.org/kos/sdg/C020502> dct:subject <http://metadata.un.org/thesaurus/1002625> .
+<http://data.un.org/kos/sdg/2.a> dct:subject <http://eurovoc.europa.eu/2442>, <http://eurovoc.europa.eu/2497>, <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1000150>, <http://metadata.un.org/thesaurus/1001863> .
+<http://data.un.org/kos/sdg/C020a02> dct:subject <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623> .
+<http://data.un.org/kos/sdg/2.c> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1002431> .
+<http://data.un.org/kos/sdg/2> dct:subject <http://eurovoc.europa.eu/2318>, <http://eurovoc.europa.eu/6308>, <http://eurovoc.europa.eu/c_4523e1dd>, <http://metadata.un.org/thesaurus/1002439>, <http://metadata.un.org/thesaurus/1002440>, <http://metadata.un.org/thesaurus/1003004>, <http://metadata.un.org/thesaurus/1006317> .
+<http://data.un.org/kos/sdg/3.1> dct:subject <http://metadata.un.org/thesaurus/1000950>, <http://metadata.un.org/thesaurus/1003981>, <http://metadata.un.org/thesaurus/1007029> .
+<http://data.un.org/kos/sdg/C030101> dct:subject <http://eurovoc.europa.eu/5291>, <http://metadata.un.org/thesaurus/1001518>, <http://metadata.un.org/thesaurus/1007033>, <http://metadata.un.org/thesaurus/1007030>, <http://metadata.un.org/thesaurus/1003983>, <http://metadata.un.org/thesaurus/1004247> .
+<http://data.un.org/kos/sdg/C030102> dct:subject <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1000934>, <http://metadata.un.org/thesaurus/1003182> .
+<http://data.un.org/kos/sdg/3.2> dct:subject <http://eurovoc.europa.eu/1991>, <http://eurovoc.europa.eu/5291>, <http://metadata.un.org/thesaurus/1000937>, <http://metadata.un.org/thesaurus/1000952>, <http://metadata.un.org/thesaurus/1001518>, <http://metadata.un.org/thesaurus/1004239> .
+<http://data.un.org/kos/sdg/C030202> dct:subject <http://eurovoc.europa.eu/1992>, <http://metadata.un.org/thesaurus/1003182>, <http://metadata.un.org/thesaurus/1003180> .
+<http://data.un.org/kos/sdg/3.3> dct:subject <http://metadata.un.org/thesaurus/1001123>, <http://metadata.un.org/thesaurus/1001705> .
+<http://data.un.org/kos/sdg/C030301> dct:subject <http://eurovoc.europa.eu/5172>, <http://metadata.un.org/thesaurus/1000181> .
+<http://data.un.org/kos/sdg/C030302> dct:subject <http://metadata.un.org/thesaurus/1006731> .
+<http://data.un.org/kos/sdg/C030303> dct:subject <http://metadata.un.org/thesaurus/1003845> .
+<http://data.un.org/kos/sdg/C030305> dct:subject <http://metadata.un.org/thesaurus/1006709> .
+<http://data.un.org/kos/sdg/3.4> dct:subject <http://eurovoc.europa.eu/1991>, <http://eurovoc.europa.eu/5291>, <http://metadata.un.org/thesaurus/1001518>, <http://metadata.un.org/thesaurus/1004239> .
+<http://data.un.org/kos/sdg/C030401> dct:subject <http://metadata.un.org/thesaurus/1001705>, <http://metadata.un.org/thesaurus/1004436> .
+<http://data.un.org/kos/sdg/C030402> dct:subject <http://eurovoc.europa.eu/4323>, <http://eurovoc.europa.eu/5878>, <http://metadata.un.org/thesaurus/1004041>, <http://metadata.un.org/thesaurus/1006282> .
+<http://data.un.org/kos/sdg/C030502> dct:subject <http://eurovoc.europa.eu/1162>, <http://metadata.un.org/thesaurus/1002831>, <http://metadata.un.org/thesaurus/1000229>, <http://metadata.un.org/thesaurus/1004312>, <http://metadata.un.org/thesaurus/140401> .
+<http://data.un.org/kos/sdg/3.6> dct:subject <http://eurovoc.europa.eu/1991>, <http://eurovoc.europa.eu/5291>, <http://eurovoc.europa.eu/3127>, <http://metadata.un.org/thesaurus/1001518>, <http://metadata.un.org/thesaurus/1004239>, <http://metadata.un.org/thesaurus/1005589>, <http://metadata.un.org/thesaurus/1006615>, <http://metadata.un.org/thesaurus/1006619> .
+<http://data.un.org/kos/sdg/3.7> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/7135>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1005493>, <http://metadata.un.org/thesaurus/1007033> .
+<http://data.un.org/kos/sdg/C030701> dct:subject <http://eurovoc.europa.eu/2398>, <http://metadata.un.org/thesaurus/1007030>, <http://metadata.un.org/thesaurus/080200>, <http://metadata.un.org/thesaurus/1002244> .
+<http://data.un.org/kos/sdg/C030702> dct:subject <http://eurovoc.europa.eu/681>, <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1000066>, <http://metadata.un.org/thesaurus/1005845>, <http://metadata.un.org/thesaurus/1007110> .
+<http://data.un.org/kos/sdg/3.8> dct:subject <http://eurovoc.europa.eu/6781>, <http://metadata.un.org/thesaurus/1000544>, <http://metadata.un.org/thesaurus/1005995> .
+<http://data.un.org/kos/sdg/3.9> dct:subject <http://eurovoc.europa.eu/1991>, <http://eurovoc.europa.eu/5291>, <http://metadata.un.org/thesaurus/1001518>, <http://metadata.un.org/thesaurus/1004239> .
+<http://data.un.org/kos/sdg/C030901> dct:subject <http://eurovoc.europa.eu/2524>, <http://metadata.un.org/thesaurus/030400>, <http://metadata.un.org/thesaurus/1000196>, <http://metadata.un.org/thesaurus/1005003> .
+<http://data.un.org/kos/sdg/C030902> dct:subject <http://eurovoc.europa.eu/597>, <http://eurovoc.europa.eu/607>, <http://eurovoc.europa.eu/3371>, <http://eurovoc.europa.eu/1279>, <http://metadata.un.org/thesaurus/030500>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1005701>, <http://metadata.un.org/thesaurus/1002422>, <http://metadata.un.org/thesaurus/1006940> .
+<http://data.un.org/kos/sdg/C030903> dct:subject <http://metadata.un.org/thesaurus/1002831>, <http://metadata.un.org/thesaurus/1006570> .
+<http://data.un.org/kos/sdg/3.a> dct:subject <http://eurovoc.europa.eu/4373>, <http://eurovoc.europa.eu/4374>, <http://metadata.un.org/thesaurus/1002831>, <http://metadata.un.org/thesaurus/1005946>, <http://metadata.un.org/thesaurus/1006533> .
+<http://data.un.org/kos/sdg/C030b01> dct:subject <http://eurovoc.europa.eu/4636>, <http://metadata.un.org/thesaurus/1006844> .
+<http://data.un.org/kos/sdg/C030b02> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/2923>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1004017> .
+<http://data.un.org/kos/sdg/3.c> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1002836>, <http://metadata.un.org/thesaurus/1002974>, <http://metadata.un.org/thesaurus/1004903> .
+<http://data.un.org/kos/sdg/3.d> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1003308> .
+<http://data.un.org/kos/sdg/3> dct:subject <http://eurovoc.europa.eu/3885>, <http://metadata.un.org/thesaurus/1002824> .
+<http://data.un.org/kos/sdg/4.1> dct:subject <http://metadata.un.org/thesaurus/1000952> .
+<http://data.un.org/kos/sdg/C040202> dct:subject <http://metadata.un.org/thesaurus/1005087> .
+<http://data.un.org/kos/sdg/4.3> dct:subject <http://metadata.un.org/thesaurus/1007107> .
+<http://data.un.org/kos/sdg/4.4> dct:subject <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1001190> .
+<http://data.un.org/kos/sdg/4.a> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1001902> .
+<http://data.un.org/kos/sdg/4.b> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1001904>, <http://metadata.un.org/thesaurus/1005722> .
+<http://data.un.org/kos/sdg/4.c> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/1071>, <http://metadata.un.org/thesaurus/1002974>, <http://metadata.un.org/thesaurus/1006404>, <http://metadata.un.org/thesaurus/1006405> .
+<http://data.un.org/kos/sdg/4> dct:subject <http://eurovoc.europa.eu/668>, <http://eurovoc.europa.eu/512>, <http://metadata.un.org/thesaurus/1001893> .
+<http://data.un.org/kos/sdg/C050201> dct:subject <http://eurovoc.europa.eu/4728>, <http://eurovoc.europa.eu/6557>, <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1007030>, <http://metadata.un.org/thesaurus/1000066>, <http://metadata.un.org/thesaurus/1001744>, <http://metadata.un.org/thesaurus/1002609>, <http://metadata.un.org/thesaurus/1006882> .
+<http://data.un.org/kos/sdg/5.3> dct:subject <http://metadata.un.org/thesaurus/1002819>, <http://metadata.un.org/thesaurus/1007030> .
+<http://data.un.org/kos/sdg/C050301> dct:subject <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1000066> .
+<http://data.un.org/kos/sdg/C050302> dct:subject <http://metadata.un.org/thesaurus/1002285> .
+<http://data.un.org/kos/sdg/5.4> dct:subject <http://eurovoc.europa.eu/3525>, <http://metadata.un.org/thesaurus/1007030>, <http://metadata.un.org/thesaurus/1006799> .
+<http://data.un.org/kos/sdg/5.5> dct:subject <http://metadata.un.org/thesaurus/1007030> .
+<http://data.un.org/kos/sdg/C050501> dct:subject <http://metadata.un.org/thesaurus/1004982> .
+<http://data.un.org/kos/sdg/C050502> dct:subject <http://metadata.un.org/thesaurus/1007043> .
+<http://data.un.org/kos/sdg/5.b> dct:subject <http://eurovoc.europa.eu/5188>, <http://metadata.un.org/thesaurus/1001133>, <http://metadata.un.org/thesaurus/1003205>, <http://metadata.un.org/thesaurus/1004189> .
+<http://data.un.org/kos/sdg/5> dct:subject <http://eurovoc.europa.eu/3913>, <http://eurovoc.europa.eu/2265>, <http://eurovoc.europa.eu/585>, <http://eurovoc.europa.eu/81>, <http://metadata.un.org/thesaurus/1007029>, <http://metadata.un.org/thesaurus/1002612>, <http://metadata.un.org/thesaurus/1002684> .
+<http://data.un.org/kos/sdg/6.1> dct:subject <http://eurovoc.europa.eu/607>, <http://metadata.un.org/thesaurus/1001762>, <http://metadata.un.org/thesaurus/1006939> .
+<http://data.un.org/kos/sdg/C060302> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343> .
+<http://data.un.org/kos/sdg/C060402> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/602>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1002542> .
+<http://data.un.org/kos/sdg/C060502> dct:subject <http://eurovoc.europa.eu/3549>, <http://eurovoc.europa.eu/3144>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343>, <http://metadata.un.org/thesaurus/1003310> .
+<http://data.un.org/kos/sdg/6.6> dct:subject <http://eurovoc.europa.eu/3549>, <http://metadata.un.org/thesaurus/1006939>, <http://metadata.un.org/thesaurus/1004343> .
+<http://data.un.org/kos/sdg/6.a> dct:subject <http://metadata.un.org/thesaurus/1006939> .
+<http://data.un.org/kos/sdg/6> dct:subject <http://eurovoc.europa.eu/597>, <http://eurovoc.europa.eu/3371>, <http://eurovoc.europa.eu/4628>, <http://metadata.un.org/thesaurus/030500>, <http://metadata.un.org/thesaurus/1005701>, <http://metadata.un.org/thesaurus/1006948> .
+<http://data.un.org/kos/sdg/7.1> dct:subject <http://eurovoc.europa.eu/3538>, <http://metadata.un.org/thesaurus/031000>, <http://metadata.un.org/thesaurus/1002035> .
+<http://data.un.org/kos/sdg/C070101> dct:subject <http://metadata.un.org/thesaurus/1001957> .
+<http://data.un.org/kos/sdg/C070102> dct:subject <http://metadata.un.org/thesaurus/1002093>, <http://metadata.un.org/thesaurus/1002561> .
+<http://data.un.org/kos/sdg/7.2> dct:subject <http://eurovoc.europa.eu/3538>, <http://metadata.un.org/thesaurus/031000>, <http://metadata.un.org/thesaurus/1002035>, <http://metadata.un.org/thesaurus/1005477> .
+<http://data.un.org/kos/sdg/7.3> dct:subject <http://eurovoc.europa.eu/3538>, <http://eurovoc.europa.eu/6700>, <http://metadata.un.org/thesaurus/031000>, <http://metadata.un.org/thesaurus/1002035>, <http://metadata.un.org/thesaurus/1002028> .
+<http://data.un.org/kos/sdg/7> dct:subject <http://eurovoc.europa.eu/100159>, <http://eurovoc.europa.eu/4886>, <http://metadata.un.org/thesaurus/1006320> .
+<http://data.un.org/kos/sdg/8.10> dct:subject <http://eurovoc.europa.eu/8469>, <http://metadata.un.org/thesaurus/1002340> .
+<http://data.un.org/kos/sdg/8.2> dct:subject <http://metadata.un.org/thesaurus/1003566> .
+<http://data.un.org/kos/sdg/C080501> dct:subject <http://metadata.un.org/thesaurus/1006915>, <http://metadata.un.org/thesaurus/1001531> .
+<http://data.un.org/kos/sdg/8.6> dct:subject <http://eurovoc.europa.eu/668>, <http://eurovoc.europa.eu/3529>, <http://metadata.un.org/thesaurus/1001893>, <http://metadata.un.org/thesaurus/1007107>, <http://metadata.un.org/thesaurus/1007108> .
+<http://data.un.org/kos/sdg/C080801> dct:subject <http://eurovoc.europa.eu/4039>, <http://metadata.un.org/thesaurus/1001531>, <http://metadata.un.org/thesaurus/1004552>, <http://metadata.un.org/thesaurus/1004561> .
+<http://data.un.org/kos/sdg/8.a> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/11>, <http://eurovoc.europa.eu/2804>, <http://metadata.un.org/thesaurus/021000>, <http://metadata.un.org/thesaurus/1001623>, <http://metadata.un.org/thesaurus/1003340>, <http://metadata.un.org/thesaurus/1006588>, <http://metadata.un.org/thesaurus/1006599> .
+<http://data.un.org/kos/sdg/8> dct:subject <http://eurovoc.europa.eu/310>, <http://eurovoc.europa.eu/2427>, <http://eurovoc.europa.eu/5974>, <http://metadata.un.org/thesaurus/1001854>, <http://metadata.un.org/thesaurus/1002007>, <http://metadata.un.org/thesaurus/1002563>, <http://metadata.un.org/thesaurus/1006773> .
+<http://data.un.org/kos/sdg/9.2> dct:subject <http://eurovoc.europa.eu/310>, <http://metadata.un.org/thesaurus/1001854> .
+<http://data.un.org/kos/sdg/C090202> dct:subject <http://metadata.un.org/thesaurus/1002007> .
+<http://data.un.org/kos/sdg/9.3> dct:subject <http://eurovoc.europa.eu/310>, <http://metadata.un.org/thesaurus/1001854> .
+<http://data.un.org/kos/sdg/9.5> dct:subject <http://eurovoc.europa.eu/5237>, <http://metadata.un.org/thesaurus/1005499> .
+<http://data.un.org/kos/sdg/C090501> dct:subject <http://eurovoc.europa.eu/310>, <http://metadata.un.org/thesaurus/1001854> .
+<http://data.un.org/kos/sdg/C090502> dct:subject <http://metadata.un.org/thesaurus/1002974>, <http://metadata.un.org/thesaurus/1005751> .
+<http://data.un.org/kos/sdg/9.a> dct:subject <http://eurovoc.europa.eu/2577>, <http://metadata.un.org/thesaurus/1004898> .
+<http://data.un.org/kos/sdg/9.b> dct:subject <http://eurovoc.europa.eu/2577>, <http://eurovoc.europa.eu/4415>, <http://metadata.un.org/thesaurus/1006426>, <http://metadata.un.org/thesaurus/1006429> .
+<http://data.un.org/kos/sdg/9.c> dct:subject <http://eurovoc.europa.eu/5188>, <http://metadata.un.org/thesaurus/1001133>, <http://metadata.un.org/thesaurus/1003205>, <http://metadata.un.org/thesaurus/1004189> .
+<http://data.un.org/kos/sdg/9> dct:subject <http://eurovoc.europa.eu/1434>, <http://eurovoc.europa.eu/1439>, <http://metadata.un.org/thesaurus/1003177>, <http://metadata.un.org/thesaurus/1003223> .
