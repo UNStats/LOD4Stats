@@ -11,6 +11,8 @@
 <http://data.un.org/ontology/sdg> a owl:Ontology;
   rdfs:label "Sustainable Development Goals Ontology"@en .
 
+## Classes ##
+
 :Target a owl:Class;
   rdfs:label "Cible"@fr, "Meta"@es, "Target"@en;
   rdfs:subClassOf skos:Concept .
@@ -26,6 +28,9 @@
 :Indicator a owl:Class;
   rdfs:label "Indicador"@es, "Indicateur"@fr, "Indicator"@en;
   rdfs:subClassOf skos:Concept .
+
+
+## Properties ##
 
 :hasTarget a owl:ObjectProperty;
   rdfs:domain :Goal;
@@ -54,6 +59,9 @@
   rdfs:domain :Indicator;
   rdfs:label "tier"@en ;
   rdfs:range xsd:string .
+
+
+## Mappings and constraints on imported vocabulary items ##
 
 skos:prefLabel rdfs:subPropertyOf schema:name .
 
