@@ -1,59 +1,68 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix unit: <http://qudt.org/vocab/unit/> .
+@prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
 
-<http://data.un.org/codes/sdg/geoArea> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/geoArea> a rdfs:Class, rdf:Property,  skos:Concept ;
+rdfs:subPropertyOf sdmx-dimension:refArea .
 
-<http://data.un.org/codes/sdg/disabilityStatus> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/disabilityStatus> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/bound> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/bound> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/modeOfTransportation> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/modeOfTransportation> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/hazardType> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/hazardType> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/typeOfOccupation> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/typeOfOccupation> a rdfs:Class, rdf:Property,  skos:Concept ;
+    rdfs:subPropertyOf sdmx-dimension:occupation .
 
-<http://data.un.org/codes/sdg/year> a skos:Concept .
+<http://data.un.org/codes/sdg/year> a skos:Concept, rdf:Property ; 
+    rdfs:subPropertyOf sdmx-dimension:refPeriod .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/educationLevel> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/educationLevel> a rdfs:Class, rdf:Property,  skos:Concept ;
+rdfs:subPropertyOf sdmx-dimension:educationLev .
 
-<http://data.un.org/codes/sdg/location> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/location> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/ihrCapacity> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/ihrCapacity> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/typeOfSkill> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/typeOfSkill> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/cities> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/cities> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/freq> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/freq> a rdfs:Class, rdf:Property,  skos:Concept ;
+rdfs:subPropertyOf sdmx-dimension:freq .
 
-<http://data.un.org/codes/sdg/sex> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/sex> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/typeOfMobileTechnology> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/typeOfMobileTechnology> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/levelStatus> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/levelStatus> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/age> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/age> a rdfs:Class, rdf:Property,  skos:Concept ;
+rdfs:subPropertyOf sdmx-dimension:age .
 
-<http://data.un.org/codes/sdg/typeOfProduct> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/typeOfProduct> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/migratoryStatus> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/migratoryStatus> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/typeOfSpeed> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/typeOfSpeed> a rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/004> a <http://data.un.org/codes/sdg/geoArea>,
     <http://data.un.org/codes/sdg/geoArea/co>, <http://data.un.org/codes/sdg/geoArea/dc>,
     <http://data.un.org/codes/sdg/geoArea/ldc>, skos:Concept .
 
-<http://data.un.org/codes/sdg/units> a rdfs:Class, skos:Concept .
+<http://data.un.org/codes/sdg/units> a rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/units/PERCENT> a <http://data.un.org/codes/sdg/units>,
-    skos:Concept .
+    skos:Concept ;
+    skos:exactMatch unit:PERCENT .
 
 <http://data.un.org/codes/sdg/geoArea/008> a <http://data.un.org/codes/sdg/geoArea>,
     <http://data.un.org/codes/sdg/geoArea/co>, <http://data.un.org/codes/sdg/geoArea/ddc>,
@@ -2208,30 +2217,33 @@
     skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/co> a <http://data.un.org/codes/sdg/geoArea>,
-    rdfs:Class, skos:Concept .
+    rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/dc> a <http://data.un.org/codes/sdg/geoArea>,
-    rdfs:Class, skos:Concept .
+    rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/ldc> a <http://data.un.org/codes/sdg/geoArea>,
-    rdfs:Class, skos:Concept .
+    rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/ddc> a <http://data.un.org/codes/sdg/geoArea>,
-    rdfs:Class, skos:Concept .
+    rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/geoArea/sids> a <http://data.un.org/codes/sdg/geoArea>,
-    rdfs:Class, skos:Concept .
+    rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/units/NUMBER> a <http://data.un.org/codes/sdg/units>,
-    skos:Concept .
+    skos:Concept ;
+    skos:exactMatch unit:NUM .
 
 <http://data.un.org/codes/sdg/units/TONNES> a <http://data.un.org/codes/sdg/units>,
-    skos:Concept .
+    skos:Concept ;
+    skos:exactMatch unit:TON_M .
 
 <http://data.un.org/codes/sdg/units/KG_PER_CON_USD> a <http://data.un.org/codes/sdg/units>,
     skos:Concept .
 
-<http://data.un.org/codes/sdg/units/USD> a <http://data.un.org/codes/sdg/units>, skos:Concept .
+<http://data.un.org/codes/sdg/units/USD> a <http://data.un.org/codes/sdg/units>, skos:Concept ;
+    skos:exactMatch unit:USDollar .
 
 <http://data.un.org/codes/sdg/units/CU_USD_B> a <http://data.un.org/codes/sdg/units>,
     skos:Concept .
@@ -2256,7 +2268,8 @@
 <http://data.un.org/codes/sdg/units/NA> a <http://data.un.org/codes/sdg/units>, skos:Concept .
 
 <http://data.un.org/codes/sdg/units/CU_USD_M> a <http://data.un.org/codes/sdg/units>,
-    skos:Concept .
+    skos:Concept ;
+    skos:exactMatch unit:MillionUSD .
 
 <http://data.un.org/codes/sdg/units/GPERM3> a <http://data.un.org/codes/sdg/units>,
     skos:Concept .
