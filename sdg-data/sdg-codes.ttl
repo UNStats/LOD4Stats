@@ -6265,7 +6265,7 @@ rdfs:subPropertyOf sdmx-dimension:age .
 <http://data.un.org/codes/sdg/geoArea/894> skos:prefLabel "Zambia"@en, "Zambia"@es,
     "Zambie"@fr, "Замбия"@ru, "زامبيا"@ar, "赞比亚"@zh .
 
-<http://data.un.org/codes/sdg> skos:prefLabel "UN SDG Data Series Attributes Scheme"@en .
+<http://data.un.org/codes/sdg> skos:prefLabel "UN SDG Data Series Property Scheme"@en .
 
 <http://data.un.org/codes/sdg/age/Y2T14> skos:prefLabel "2 to 14 years old"@en .
 
