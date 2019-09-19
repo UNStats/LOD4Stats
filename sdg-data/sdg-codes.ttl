@@ -39,7 +39,8 @@ rdfs:subPropertyOf sdmx-dimension:educationLev .
 <http://data.un.org/codes/sdg/freq> a rdfs:Class, rdf:Property,  skos:Concept ;
 rdfs:subPropertyOf sdmx-dimension:freq .
 
-<http://data.un.org/codes/sdg/sex> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/sex> a rdfs:Class, rdf:Property,  skos:Concept ;
+rdfs:subPropertyOf sdmx-dimension:sex .
 
 <http://data.un.org/codes/sdg/typeOfMobileTechnology> a rdfs:Class, rdf:Property,  skos:Concept .
 
