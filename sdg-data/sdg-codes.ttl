@@ -6988,11 +6988,14 @@
 
 <http://data.un.org/codes/sdg/typeOfSpeed/ANYS> skos:prefLabel "Any speed"@en .
 
-<http://data.un.org/codes/sdg/typeOfSpeed/256KT2MBPS> skos:prefLabel "Between 256 kbps and 2 mbps"@en .
+<http://data.un.org/codes/sdg/typeOfSpeed/256KT2MBPS> skos:prefLabel "Between 256 kbps and 2 mbps"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IS_256KT2M".
 
-<http://data.un.org/codes/sdg/typeOfSpeed/2MT10MBPS> skos:prefLabel "Between 2 mbps and 10 mbps"@en .
+<http://data.un.org/codes/sdg/typeOfSpeed/2MT10MBPS> skos:prefLabel "Between 2 mbps and 10 mbps"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IS_2MT10M".
 
-<http://data.un.org/codes/sdg/typeOfSpeed/10MBPS> skos:prefLabel "10 mbps and over"@en .
+<http://data.un.org/codes/sdg/typeOfSpeed/10MBPS> skos:prefLabel "10 mbps and over"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IS_GE10M".
 
 <http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/RES> skos:prefLabel "Chronic respiratory disease"@en .
 
@@ -7084,43 +7087,62 @@
 <http://data.un.org/codes/sdg/typeOfOccupation/isco88-0> skos:prefLabel "Armed forces (isco-88)"@en ;
     <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-0" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR11> skos:prefLabel "Food safety"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR11> skos:prefLabel "Food safety"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_11" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR07> skos:prefLabel "Human resources"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR07> skos:prefLabel "Human resources"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_07".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR10> skos:prefLabel " Zoonotic events"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR10> skos:prefLabel " Zoonotic events"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_10".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR12> skos:prefLabel "Chemical events"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR12> skos:prefLabel "Chemical events"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_12".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR06> skos:prefLabel "Risk communication"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR06> skos:prefLabel "Risk communication"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_06".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR04> skos:prefLabel "Response"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR04> skos:prefLabel "Response"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_04".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR01> skos:prefLabel "National legislation, policy and financing"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR01> skos:prefLabel "National legislation, policy and financing"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_01".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR13> skos:prefLabel "Radionuclear emergencies"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR13> skos:prefLabel "Radionuclear emergencies"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_13".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR05> skos:prefLabel "Preparedness"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR05> skos:prefLabel "Preparedness"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_05".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR09> skos:prefLabel "Points of entry"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR09> skos:prefLabel "Points of entry"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_09".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR02> skos:prefLabel "Coordination and National Focal Point communications"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR02> skos:prefLabel "Coordination and National Focal Point communications"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_02".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR03> skos:prefLabel "Surveillance"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR03> skos:prefLabel "Surveillance"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_03".
 
-<http://data.un.org/codes/sdg/ihrCapacity/IHR08> skos:prefLabel "Laboratory"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/IHR08> skos:prefLabel "Laboratory"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_08".
 
-<http://data.un.org/codes/sdg/educationLevel/PRIMAR> skos:prefLabel "Primary"@en .
+<http://data.un.org/codes/sdg/educationLevel/PRIMAR> skos:prefLabel "Primary"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCED11_1" .
 
-<http://data.un.org/codes/sdg/educationLevel/GRAD23> skos:prefLabel "Grades 2/3"@en .
+<http://data.un.org/codes/sdg/educationLevel/GRAD23> skos:prefLabel "Grades 2/3"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCED11A_0_G23".
 
-<http://data.un.org/codes/sdg/educationLevel/LOWSEC> skos:prefLabel "Lower secondary"@en .
+<http://data.un.org/codes/sdg/educationLevel/LOWSEC> skos:prefLabel "Lower secondary"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCED11_2".
 
-<http://data.un.org/codes/sdg/educationLevel/PREPRI> skos:prefLabel "Pre-primary"@en .
+<http://data.un.org/codes/sdg/educationLevel/PREPRI> skos:prefLabel "Pre-primary"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PREPRI".
 
-<http://data.un.org/codes/sdg/educationLevel/SECOND> skos:prefLabel "Secondary"@en .
+<http://data.un.org/codes/sdg/educationLevel/SECOND> skos:prefLabel "Secondary"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SECOND".
 
-<http://data.un.org/codes/sdg/educationLevel/UPPSEC> skos:prefLabel "Upper secondary"@en .
+<http://data.un.org/codes/sdg/educationLevel/UPPSEC> skos:prefLabel "Upper secondary"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "UPPSEC".
 
 <http://data.un.org/codes/sdg/typeOfSkill/CMFL> skos:prefLabel "Copying or moving a file or folder"@en ;
     <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTCMFL".
@@ -7189,13 +7211,17 @@
 
 <http://data.un.org/codes/sdg/migratoryStatus/_T> skos:prefLabel "No breakdown"@en .
 
-<http://data.un.org/codes/sdg/migratoryStatus/NONMIG> skos:prefLabel "Non-migrant"@en .
+<http://data.un.org/codes/sdg/migratoryStatus/NONMIG> skos:prefLabel "Non-migrant"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MS_NOMIGRANT" .
 
-<http://data.un.org/codes/sdg/migratoryStatus/MIGPER> skos:prefLabel "Migrants"@en .
+<http://data.un.org/codes/sdg/migratoryStatus/MIGPER> skos:prefLabel "Migrants"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MS_MIGRANT" .
 
-<http://data.un.org/codes/sdg/migratoryStatus/MS_EUMIGRANT> skos:prefLabel "EU Migrants"@en .
+<http://data.un.org/codes/sdg/migratoryStatus/MS_EUMIGRANT> skos:prefLabel "EU Migrants"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MS_EUMIGRANT" .
 
-<http://data.un.org/codes/sdg/migratoryStatus/MS_NONEUMIGRANT> skos:prefLabel "Non-EU Migrants"@en .
+<http://data.un.org/codes/sdg/migratoryStatus/MS_NONEUMIGRANT> skos:prefLabel "Non-EU Migrants"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MS_NONEUMIGRANT" .
 
 <http://data.un.org/codes/sdg/modeOfTransportation/AIR> skos:prefLabel "Air transport"@en .
 
@@ -7443,6 +7469,185 @@
 
 <http://data.un.org/codes/sdg/hazardType/ACIDR> skos:prefLabel "Acid rain"@en .
 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.un.org/codes/sdg/hazardType/ACIDR> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ACIDR" .
+
+<http://data.un.org/codes/sdg/hazardType/ACIDT> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ACIDT" .
+
+<http://data.un.org/codes/sdg/hazardType/ALLUV> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ALLUV" .
+
+<http://data.un.org/codes/sdg/hazardType/ANIAK> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ANIAK" .
+
+<http://data.un.org/codes/sdg/hazardType/AVALE> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_AVALE" .
+
+<http://data.un.org/codes/sdg/hazardType/BIOGL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_BIOGL" .
+
+<http://data.un.org/codes/sdg/hazardType/CHESP> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_CHESP" .
+
+<http://data.un.org/codes/sdg/hazardType/COLDW> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_COLDW" .
+
+<http://data.un.org/codes/sdg/hazardType/CONTM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_CONTM" .
+
+<http://data.un.org/codes/sdg/hazardType/COSER> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_COSER" .
+
+<http://data.un.org/codes/sdg/hazardType/COSFL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_COSFL" .
+
+<http://data.un.org/codes/sdg/hazardType/CSOLD> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_CSOLD" .
+
+<http://data.un.org/codes/sdg/hazardType/CYCLN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_CYCLN" .
+
+<http://data.un.org/codes/sdg/hazardType/DFRST> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_DFRST" .
+
+<http://data.un.org/codes/sdg/hazardType/DROUG> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_DROUG" .
+
+<http://data.un.org/codes/sdg/hazardType/DZUD> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_DZUD" .
+
+<http://data.un.org/codes/sdg/hazardType/ELEST> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ELEST" .
+
+<http://data.un.org/codes/sdg/hazardType/EPIDM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_EPIDM" .
+
+<http://data.un.org/codes/sdg/hazardType/EPIZT> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_EPIZT" .
+
+<http://data.un.org/codes/sdg/hazardType/EROSN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_EROSN" .
+
+<http://data.un.org/codes/sdg/hazardType/ERQAK> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_ERQAK" .
+
+<http://data.un.org/codes/sdg/hazardType/EXPLN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_EXPLN" .
+
+<http://data.un.org/codes/sdg/hazardType/EXTEM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_EXTEM" .
+
+<http://data.un.org/codes/sdg/hazardType/FIREX> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FIREX" .
+
+<http://data.un.org/codes/sdg/hazardType/FLOOD> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FLOOD" .
+
+<http://data.un.org/codes/sdg/hazardType/FLSFL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FLSFL" .
+
+<http://data.un.org/codes/sdg/hazardType/FOGXX> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FOGXX" .
+
+<http://data.un.org/codes/sdg/hazardType/FROST> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FROST" .
+
+<http://data.un.org/codes/sdg/hazardType/FRZRN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_FRZRN" .
+
+<http://data.un.org/codes/sdg/hazardType/GLCFL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_GLCFL" .
+
+<http://data.un.org/codes/sdg/hazardType/HAILS> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_HAILS" .
+
+<http://data.un.org/codes/sdg/hazardType/HETWA> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_HETWA" .
+
+<http://data.un.org/codes/sdg/hazardType/HEVRN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_HEVRN" .
+
+<http://data.un.org/codes/sdg/hazardType/INFET> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_INFET" .
+
+<http://data.un.org/codes/sdg/hazardType/INTOX> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_INTOX" .
+
+<http://data.un.org/codes/sdg/hazardType/LAHAR> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_LAHAR" .
+
+<http://data.un.org/codes/sdg/hazardType/LIQFN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_LIQFN" .
+
+<http://data.un.org/codes/sdg/hazardType/LNDRG> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_LNDRG" .
+
+<http://data.un.org/codes/sdg/hazardType/LNDSL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_LNDSL" .
+
+<http://data.un.org/codes/sdg/hazardType/NUCIN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_NUCIN" .
+
+<http://data.un.org/codes/sdg/hazardType/OTHER> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_OTHER" .
+
+<http://data.un.org/codes/sdg/hazardType/PANIC> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_PANIC" .
+
+<http://data.un.org/codes/sdg/hazardType/PEATX> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_PEATX" .
+
+<http://data.un.org/codes/sdg/hazardType/PESTX> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_PESTX" .
+
+<http://data.un.org/codes/sdg/hazardType/PLGUE> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_PLGUE" .
+
+<http://data.un.org/codes/sdg/hazardType/POLUT> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_POLUT" .
+
+<http://data.un.org/codes/sdg/hazardType/SANDS> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_SANDS" .
+
+<http://data.un.org/codes/sdg/hazardType/SEDMN> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_SEDMN" .
+
+<http://data.un.org/codes/sdg/hazardType/SNSTM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_SNSTM" .
+
+<http://data.un.org/codes/sdg/hazardType/STCOL> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_STCOL" .
+
+<http://data.un.org/codes/sdg/hazardType/STORM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_STORM" .
+
+<http://data.un.org/codes/sdg/hazardType/STUCK> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_STUCK" .
+
+<http://data.un.org/codes/sdg/hazardType/SUBSD> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_SUBSD" .
+
+<http://data.un.org/codes/sdg/hazardType/TECHH> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_TECHH" .
+
+<http://data.un.org/codes/sdg/hazardType/TORND> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_TORND" .
+
+<http://data.un.org/codes/sdg/hazardType/TSUNM> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_TSUNM" .
+
+<http://data.un.org/codes/sdg/hazardType/VOLER> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_VOLER" .
+
+<http://data.un.org/codes/sdg/hazardType/WLDFR> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_WLDFR" .
+
+<http://data.un.org/codes/sdg/hazardType/WNDST> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "HZT_WNDST" .
+
 <http://data.un.org/codes/sdg/geoArea/001> skos:prefLabel "World"@en .
 
 <http://data.un.org/codes/sdg/geoArea/002> skos:prefLabel "Africa"@en .
@@ -7604,31 +7809,44 @@
 
 <http://data.un.org/codes/sdg/units/NUM_U5_M> skos:prefLabel "Millions of children aged 0-59 months"@en .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR07> skos:prefLabel "Human resources"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR07> skos:prefLabel "Human resources"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_07" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR06> skos:prefLabel "Surveillance"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR06> skos:prefLabel "Surveillance"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_06" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR05> skos:prefLabel "Laboratory"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR05> skos:prefLabel "Laboratory"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_05" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR04> skos:prefLabel "Food safety"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR04> skos:prefLabel "Food safety"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_04" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR03> skos:prefLabel "Zoonotic events and the human–animal interface"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR03> skos:prefLabel "Zoonotic events and the human–animal interface"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_03" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR02> skos:prefLabel "IHR Coordination and National IHR Focal Point Functions"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR02> skos:prefLabel "IHR Coordination and National IHR Focal Point Functions"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_02" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR01> skos:prefLabel "Legislation and Financing"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR01> skos:prefLabel "Legislation and Financing"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_01" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR09> skos:prefLabel "Health Service Provision"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR09> skos:prefLabel "Health Service Provision"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_09" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR11> skos:prefLabel "Points of entry"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR11> skos:prefLabel "Points of entry"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_11" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR13> skos:prefLabel "Radiation emergencies"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR13> skos:prefLabel "Radiation emergencies"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_13" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR12> skos:prefLabel "Chemical events"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR12> skos:prefLabel "Chemical events"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_12" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR10> skos:prefLabel "Risk Communication"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR10> skos:prefLabel "Risk Communication"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_10" .
 
-<http://data.un.org/codes/sdg/ihrCapacity/SPAR08> skos:prefLabel "National Health Emergency Framework"@en .
+<http://data.un.org/codes/sdg/ihrCapacity/SPAR08> skos:prefLabel "National Health Emergency Framework"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IHR_08" .
 
 <http://data.un.org/codes/sdg/age/Y65T74> skos:prefLabel "65 to 74 years old"@en .
 
@@ -8601,28 +8819,38 @@
 
 <http://data.un.org/codes/sdg/location/R> skos:notation "R" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IFC> skos:notation "IFC" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IFC> skos:notation "IFC" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_IFC" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/ADB> skos:notation "ADB" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/ADB> skos:notation "ADB" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_ADB" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IBRD> skos:notation "IBRD" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IBRD> skos:notation "IBRD" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_IBRD" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IMF> skos:notation "IMF" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IMF> skos:notation "IMF" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_IMF" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/UNGA> skos:notation "UNGA" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/UNGA> skos:notation "UNGA" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_UNGA" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/ECOSOC> skos:notation
-    "ECOSOC" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/ECOSOC> skos:notation "ECOSOC" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_ECOSOC" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/WTO> skos:notation "WTO" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/WTO> skos:notation "WTO" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_WTO" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/AFDB> skos:notation "AFDB" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/AFDB> skos:notation "AFDB" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_AFDB" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/UNSC> skos:notation "UNSC" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/UNSC> skos:notation "UNSC" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_UNSC" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IABD> skos:notation "IABD" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/IABD> skos:notation "IABD" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_IADB" .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution/FSB> skos:notation "FSB" .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution/FSB> skos:notation "FSB" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IO_FSB" .
 
 <http://data.un.org/codes/sdg/cities/TIRANA> skos:notation "TIRANA" .
 
@@ -9101,13 +9329,17 @@
 
 <http://data.un.org/codes/sdg/typeOfSpeed/10MBPS> skos:notation "10MBPS" .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/RES> skos:notation "RES" .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/RES> skos:notation "RES" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "NCD_CRESPD" .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/CAN> skos:notation "CAN" .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/CAN> skos:notation "CAN" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "NCD_CNCR" .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/CAR> skos:notation "CAR" .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/CAR> skos:notation "CAR" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "NCD_CARDIO" .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/DIA> skos:notation "DIA" .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/DIA> skos:notation "DIA" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "NCD_DIABTS" .
 
 <http://data.un.org/codes/sdg/typeOfOccupation/PHAR> skos:notation "PHAR" .
 
@@ -9225,19 +9457,25 @@
 
 <http://data.un.org/codes/sdg/typeOfSkill/NUME> skos:notation "NUME" .
 
-<http://data.un.org/codes/sdg/levelStatus/LOWIMP> skos:notation "LOWIMP" .
+<http://data.un.org/codes/sdg/levelStatus/LOWIMP> skos:notation "LOWIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_LOW" .
 
-<http://data.un.org/codes/sdg/levelStatus/MLOWIMP> skos:notation "MLOWIMP" .
+<http://data.un.org/codes/sdg/levelStatus/MLOWIMP> skos:notation "MLOWIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_MLOW" .
 
-<http://data.un.org/codes/sdg/levelStatus/MHIGIMP> skos:notation "MHIGIMP" .
+<http://data.un.org/codes/sdg/levelStatus/MHIGIMP> skos:notation "MHIGIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_MHIG" .
 
-<http://data.un.org/codes/sdg/levelStatus/HIGIMP> skos:notation "HIGIMP" .
+<http://data.un.org/codes/sdg/levelStatus/HIGIMP> skos:notation "HIGIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_HIG" .
 
-<http://data.un.org/codes/sdg/levelStatus/VHIGIMP> skos:notation "VHIGIMP" .
+<http://data.un.org/codes/sdg/levelStatus/VHIGIMP> skos:notation "VHIGIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_VHIG" .
 
 <http://data.un.org/codes/sdg/levelStatus/NODATA> skos:notation "NODATA" .
 
-<http://data.un.org/codes/sdg/levelStatus/VLOWIMP> skos:notation "VLOWIMP" .
+<http://data.un.org/codes/sdg/levelStatus/VLOWIMP> skos:notation "VLOWIMP" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_VLOW" .
 
 <http://data.un.org/codes/sdg/levelStatus/CLDPR> skos:notation "CLDPR" .
 
@@ -9247,9 +9485,11 @@
 
 <http://data.un.org/codes/sdg/levelStatus/MOPAR> skos:notation "MOPAR" .
 
-<http://data.un.org/codes/sdg/levelStatus/LOPAR> skos:notation "LOPAR" .
+<http://data.un.org/codes/sdg/levelStatus/LOPAR> skos:notation "LOPAR" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_LOW" .
 
-<http://data.un.org/codes/sdg/levelStatus/HIPAR> skos:notation "HIPAR" .
+<http://data.un.org/codes/sdg/levelStatus/HIPAR> skos:notation "HIPAR" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DEG_HIG" .
 
 <http://data.un.org/codes/sdg/disabilityStatus/_T> skos:notation "_T" ;
     <http://data.un.org/codes/sdg#sdmxDSDcode> "_T".
@@ -9270,11 +9510,14 @@
 
 <http://data.un.org/codes/sdg/migratoryStatus/MS_NONEUMIGRANT> skos:notation "MS_NONEUMIGRANT" .
 
-<http://data.un.org/codes/sdg/modeOfTransportation/AIR> skos:notation "AIR" .
+<http://data.un.org/codes/sdg/modeOfTransportation/AIR> skos:notation "AIR" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MOT_AIR" .
 
-<http://data.un.org/codes/sdg/modeOfTransportation/RAI> skos:notation "RAI" .
+<http://data.un.org/codes/sdg/modeOfTransportation/RAI> skos:notation "RAI" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MOT_RAI" .
 
-<http://data.un.org/codes/sdg/modeOfTransportation/ROA> skos:notation "ROA" .
+<http://data.un.org/codes/sdg/modeOfTransportation/ROA> skos:notation "ROA" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MOT_ROA" .
 
 <http://data.un.org/codes/sdg/typeOfMobileTechnology/AL2G> skos:notation "AL2G" .
 
