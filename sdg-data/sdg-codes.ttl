@@ -5,62 +5,85 @@
 @prefix sdmx-dimension:  <http://purl.org/linked-data/sdmx/2009/dimension#> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
-<http://data.un.org/codes/sdg/geoArea> a rdfs:Class, rdf:Property,  skos:Concept ;
-rdfs:subPropertyOf sdmx-dimension:refArea .
 
-<http://data.un.org/codes/sdg/disabilityStatus> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg#sdmxDSDcode> a rdf:Property ;
+    rdfs:label "SDMX SDG DSD Code" ;
+    rdfs:comment "As defined by https://unstats.un.org/sdgs/iaeg-sdgs/sdmx-working-group/" ;
+    rdfs:range xsd:string .
+
+<http://data.un.org/codes/sdg/geoArea> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "REF_AREA" ;
+    rdfs:subPropertyOf sdmx-dimension:refArea .
+
+<http://data.un.org/codes/sdg/disabilityStatus> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "DISABILITY_STATUS" .
 
 <http://data.un.org/codes/sdg/bound> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/modeOfTransportation> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/modeOfTransportation> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
-<http://data.un.org/codes/sdg/hazardType> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/hazardType> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://data.un.org/codes/sdg/typeOfOccupation> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "OCCUPATION" ;
     rdfs:subPropertyOf sdmx-dimension:occupation .
 
 <http://data.un.org/codes/sdg/year> a skos:Concept, rdf:Property ; 
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "TIME_PERIOD" ;
     rdfs:subPropertyOf sdmx-dimension:refPeriod .
 
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://data.un.org/codes/sdg/educationLevel> a rdfs:Class, rdf:Property,  skos:Concept ;
-rdfs:subPropertyOf sdmx-dimension:educationLev .
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "EDUCATION_LEV" ;
+    rdfs:subPropertyOf sdmx-dimension:educationLev .
 
-<http://data.un.org/codes/sdg/location> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/location> a rdfs:Class, rdf:Property, skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "URBANISATION" .
 
-<http://data.un.org/codes/sdg/ihrCapacity> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/ihrCapacity> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
-<http://data.un.org/codes/sdg/typeOfSkill> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/typeOfSkill> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://data.un.org/codes/sdg/cities> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://data.un.org/codes/sdg/freq> a rdfs:Class, rdf:Property,  skos:Concept ;
-rdfs:subPropertyOf sdmx-dimension:freq .
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "FREQ" ;
+    rdfs:subPropertyOf sdmx-dimension:freq .
 
 <http://data.un.org/codes/sdg/sex> a rdfs:Class, rdf:Property,  skos:Concept ;
-rdfs:subPropertyOf sdmx-dimension:sex .
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SEX" ;
+    rdfs:subPropertyOf sdmx-dimension:sex .
 
 <http://data.un.org/codes/sdg/typeOfMobileTechnology> a rdfs:Class, rdf:Property,  skos:Concept .
 
-<http://data.un.org/codes/sdg/levelStatus> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/levelStatus> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://data.un.org/codes/sdg/age> a rdfs:Class, rdf:Property,  skos:Concept ;
-rdfs:subPropertyOf sdmx-dimension:age .
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SEX" ;
+    rdfs:subPropertyOf sdmx-dimension:age .
 
-<http://data.un.org/codes/sdg/typeOfProduct> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/typeOfProduct> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PRODUCT" .
 
-<http://data.un.org/codes/sdg/migratoryStatus> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/migratoryStatus> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
-<http://data.un.org/codes/sdg/typeOfSpeed> a rdfs:Class, rdf:Property,  skos:Concept .
+<http://data.un.org/codes/sdg/typeOfSpeed> a rdfs:Class, rdf:Property,  skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
-<http://data.un.org/codes/sdg/geoArea/004> a <http://data.un.org/codes/sdg/geoArea>,
-    <http://data.un.org/codes/sdg/geoArea/co>, <http://data.un.org/codes/sdg/geoArea/dc>,
-    <http://data.un.org/codes/sdg/geoArea/ldc>, skos:Concept .
+<http://data.un.org/codes/sdg/units> a rdfs:Class, rdf:Property, skos:Concept ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "UNIT_MEASURE" .
 
-<http://data.un.org/codes/sdg/units> a rdfs:Class, rdf:Property,  skos:Concept .
 
 <http://data.un.org/codes/sdg/age> rdfs:range skos:Concept .
 <http://data.un.org/codes/sdg/sex> rdfs:range skos:Concept .
@@ -85,6 +108,12 @@ rdfs:subPropertyOf sdmx-dimension:age .
 <http://data.un.org/codes/sdg/hazardType> rdfs:range skos:Concept .
 <http://data.un.org/codes/sdg/year> rdfs:range xsd:gYear .
 <http://data.un.org/codes/sdg/units> rdfs:range skos:Concept .
+
+
+<http://data.un.org/codes/sdg/geoArea/004> a <http://data.un.org/codes/sdg/geoArea>,
+    <http://data.un.org/codes/sdg/geoArea/co>, <http://data.un.org/codes/sdg/geoArea/dc>,
+    <http://data.un.org/codes/sdg/geoArea/ldc>, skos:Concept .
+
 
 <http://data.un.org/codes/sdg/units/PERCENT> a <http://data.un.org/codes/sdg/units>,
     skos:Concept ;
@@ -2646,11 +2675,11 @@ rdfs:subPropertyOf sdmx-dimension:age .
 <http://data.un.org/codes/sdg/geoArea/736> a <http://data.un.org/codes/sdg/geoArea>,
     <http://data.un.org/codes/sdg/geoArea/co>, skos:Concept .
 
-<http://data.un.org/codes/sdg/geoArea/iso3code> a rdf:Property .
+<http://data.un.org/codes/sdg/geoArea#iso3code> a rdf:Property .
 
-<http://data.un.org/codes/sdg/geoArea/iso2code> a rdf:Property .
+<http://data.un.org/codes/sdg/geoArea#iso2code> a rdf:Property .
 
-<http://data.un.org/codes/sdg/geoArea/m49code> a rdf:Property .
+<http://data.un.org/codes/sdg/geoArea#m49code> a rdf:Property .
 
 <http://data.un.org/codes/sdg/typeOfProduct/AGR> a <http://data.un.org/codes/sdg/typeOfProduct>,
     skos:Concept .
@@ -2873,11 +2902,11 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/hazardTypeCodes> a skos:ConceptScheme .
 
-<http://data.un.org/codes/sdg/geoArea/iso3code> rdfs:label "ISO-3 code"@en .
+<http://data.un.org/codes/sdg/geoArea#iso3code> rdfs:label "ISO-3 code"@en .
 
-<http://data.un.org/codes/sdg/geoArea/iso2code> rdfs:label "ISO-2 code"@en .
+<http://data.un.org/codes/sdg/geoArea#iso2code> rdfs:label "ISO-2 code"@en .
 
-<http://data.un.org/codes/sdg/geoArea/m49code> rdfs:label "M49 standard code"@en .
+<http://data.un.org/codes/sdg/geoArea#m49code> rdfs:label "M49 standard code"@en .
 
 <http://data.un.org/codes/sdg/geoArea/004> skos:broader <http://data.un.org/codes/sdg/geoArea/034>,
     <http://data.un.org/codes/sdg/geoArea/dc>, <http://data.un.org/codes/sdg/geoArea/ldc> .
@@ -5512,7 +5541,8 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/units> skos:prefLabel "unit of measurement"@en .
 
-<http://data.un.org/codes/sdg/units/PERCENT> skos:prefLabel "Percentage"@en .
+<http://data.un.org/codes/sdg/units/PERCENT> skos:prefLabel "Percentage"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PT" .
 
 <http://data.un.org/codes/sdg/geoArea/008> skos:prefLabel "Albania"@en, "Albania"@es,
     "Albanie"@fr, "Албания"@ru, "ألبانيا"@ar, "阿尔巴尼亚"@zh .
@@ -6880,51 +6910,73 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/cities/LUSAKA> skos:prefLabel "Lusaka"@en .
 
-<http://data.un.org/codes/sdg/typeOfProduct/NMC> skos:prefLabel "Non-metallic minerals - construction dominant"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/NMC> skos:prefLabel "Non-metallic minerals - construction dominant"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF_AGG3A".
 
 <http://data.un.org/codes/sdg/typeOfProduct/RAW> skos:prefLabel "All raw materials"@en .
 
-<http://data.un.org/codes/sdg/typeOfProduct/FOF> skos:prefLabel "Fossil fuels"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/FOF> skos:prefLabel "Fossil fuels"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF4" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/NMA> skos:prefLabel "Non-metallic minerals - industrial or agricultural dominant"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/NMA> skos:prefLabel "Non-metallic minerals - industrial or agricultural dominant"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF_AGG3B".
 
-<http://data.un.org/codes/sdg/typeOfProduct/GBO> skos:prefLabel "Grazed biomass and fodder crops"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/GBO> skos:prefLabel "Grazed biomass and fodder crops"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF122" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/WOD> skos:prefLabel "Wood"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/WOD> skos:prefLabel "Wood"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF13" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/NMM> skos:prefLabel "Non-metallic minerals"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/NMM> skos:prefLabel "Non-metallic minerals"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF3" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/COL> skos:prefLabel "Coal"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/COL> skos:prefLabel "Coal"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF41" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/CRO> skos:prefLabel "Crops"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/CRO> skos:prefLabel "Crops"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF11" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/CPR> skos:prefLabel "Crop residues"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/CPR> skos:prefLabel "Crop residues"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF121" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/BIM> skos:prefLabel "Biomass"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/BIM> skos:prefLabel "Biomass"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF1" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/GAS> skos:prefLabel "Natural gas"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/GAS> skos:prefLabel "Natural gas"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF422" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/MEO> skos:prefLabel "Metal ores"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/MEO> skos:prefLabel "Metal ores"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF2" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/NFO> skos:prefLabel "Non-ferrous ores"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/NFO> skos:prefLabel "Non-ferrous ores"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF22" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/FEO> skos:prefLabel "Ferrous ores"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/FEO> skos:prefLabel "Ferrous ores"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF21" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/WCH> skos:prefLabel "Wild catch and harvest"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/WCH> skos:prefLabel "Wild catch and harvest"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF14" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/PET> skos:prefLabel "Petroleum"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/PET> skos:prefLabel "Petroleum"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF421" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/ONT> skos:prefLabel "Oil shale and tar sands"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/ONT> skos:prefLabel "Oil shale and tar sands"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MF413" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/MAZ> skos:prefLabel "Maize"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/MAZ> skos:prefLabel "Maize"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CPC2_1_112" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/WHE> skos:prefLabel "Wheat"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/WHE> skos:prefLabel "Wheat"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CPC2_1_111" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/SOR> skos:prefLabel "Sorghum"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/SOR> skos:prefLabel "Sorghum"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CPC2_1_114" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/RIC> skos:prefLabel "Rice"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/RIC> skos:prefLabel "Rice"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CPC2_1_113" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/MIL> skos:prefLabel "Millet"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/MIL> skos:prefLabel "Millet"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CPC2_1_118" .
 
 <http://data.un.org/codes/sdg/bound/_T> skos:prefLabel "Mid-point"@en .
 
@@ -6950,61 +7002,87 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/nameOfNonCommunicableDisease/DIA> skos:prefLabel "Diabetes"@en .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/PHAR> skos:prefLabel "Pharmacists"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/PHAR> skos:prefLabel "Pharmacists"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08_2262", "ISCO88_2224" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/PHYS> skos:prefLabel "Medical doctors"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/PHYS> skos:prefLabel "Medical doctors"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08_221", "ISCO88_2221" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/NURS> skos:prefLabel "Nursing and midwifery personnel"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/NURS> skos:prefLabel "Nursing and midwifery personnel"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08_222_322" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/DENT> skos:prefLabel "Dentists"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/DENT> skos:prefLabel "Dentists"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88_2222", "ISCO08_2261" .
 
 <http://data.un.org/codes/sdg/typeOfOccupation/isco08> skos:prefLabel "All occupations (isco-08)"@en .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-9> skos:prefLabel "Elementary occupations (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-9> skos:prefLabel "Elementary occupations (isco-88)"@en  ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-9" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-7> skos:prefLabel "Craft and related trades workers (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-7> skos:prefLabel "Craft and related trades workers (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-7" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88> skos:prefLabel "All occupations (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88> skos:prefLabel "All occupations (isco-88)"@en  .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-8> skos:prefLabel "Plant and machine operators and assemblers (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-8> skos:prefLabel "Plant and machine operators and assemblers (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-8" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-5> skos:prefLabel "Service workers and shop and market sales workers (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-5> skos:prefLabel "Service workers and shop and market sales workers (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-5" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-4> skos:prefLabel "Clerks (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-4> skos:prefLabel "Clerks (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-4" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-3> skos:prefLabel "Technicians and associate professionals (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-3> skos:prefLabel "Technicians and associate professionals (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-3" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-2> skos:prefLabel "Professionals (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-2> skos:prefLabel "Professionals (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-2" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-1> skos:prefLabel "Legislators, senior officials and managers (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-1> skos:prefLabel "Legislators, senior officials and managers (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-1" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-7> skos:prefLabel "Craft and related trades workers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-7> skos:prefLabel "Craft and related trades workers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-7" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-5> skos:prefLabel "Service and sales workers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-5> skos:prefLabel "Service and sales workers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-5" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-4> skos:prefLabel "Clerical support workers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-4> skos:prefLabel "Clerical support workers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-4" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-3> skos:prefLabel "Technicians and associate professionals (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-3> skos:prefLabel "Technicians and associate professionals (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-3" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-2> skos:prefLabel "Professionals (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-2> skos:prefLabel "Professionals (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-2" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-1> skos:prefLabel "Managers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-1> skos:prefLabel "Managers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-1" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-8> skos:prefLabel "Plant and machine operators, and assemblers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-8> skos:prefLabel "Plant and machine operators, and assemblers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-8" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-9> skos:prefLabel "Elementary occupations (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-9> skos:prefLabel "Elementary occupations (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-9" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-X> skos:prefLabel "Not elsewhere classified (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-X> skos:prefLabel "Not elsewhere classified (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-X" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-X> skos:prefLabel "Not elsewhere classified (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-X> skos:prefLabel "Not elsewhere classified (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-X" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-0> skos:prefLabel "Armed forces occupations (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-0> skos:prefLabel "Armed forces occupations (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-0" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco08-6> skos:prefLabel "Skilled agricultural, forestry and fishery workers (isco-08)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco08-6> skos:prefLabel "Skilled agricultural, forestry and fishery workers (isco-08)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO08-6" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-6> skos:prefLabel "Skilled agricultural and fishery workers (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-6> skos:prefLabel "Skilled agricultural and fishery workers (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-6" .
 
-<http://data.un.org/codes/sdg/typeOfOccupation/isco88-0> skos:prefLabel "Armed forces (isco-88)"@en .
+<http://data.un.org/codes/sdg/typeOfOccupation/isco88-0> skos:prefLabel "Armed forces (isco-88)"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "ISCO88-0" .
 
 <http://data.un.org/codes/sdg/ihrCapacity/IHR11> skos:prefLabel "Food safety"@en .
 
@@ -7044,27 +7122,38 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/educationLevel/UPPSEC> skos:prefLabel "Upper secondary"@en .
 
-<http://data.un.org/codes/sdg/typeOfSkill/CMFL> skos:prefLabel "Copying or moving a file or folder"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/CMFL> skos:prefLabel "Copying or moving a file or folder"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTCMFL".
 
-<http://data.un.org/codes/sdg/typeOfSkill/EMAIL> skos:prefLabel "Sending e-mails with attached files"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/EMAIL> skos:prefLabel "Sending e-mails with attached files"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTATCH" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/TRAF> skos:prefLabel "Transferring files between a computer and other devices"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/TRAF> skos:prefLabel "Transferring files between a computer and other devices"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTTRFF".
 
-<http://data.un.org/codes/sdg/typeOfSkill/PCPR> skos:prefLabel "Writing a computer program using a specialized programming language"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/PCPR> skos:prefLabel "Writing a computer program using a specialized programming language"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTPRGM" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/SOFT> skos:prefLabel "Finding, downloading, installing and configuring software"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/SOFT> skos:prefLabel "Finding, downloading, installing and configuring software"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTSFWR" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/EPRS> skos:prefLabel "Creating electronic presentations with presentation software"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/EPRS> skos:prefLabel "Creating electronic presentations with presentation software"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTPST" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/COPA> skos:prefLabel "Using copy and paste tools to duplicate or move information within a document"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/COPA> skos:prefLabel "Using copy and paste tools to duplicate or move information within a document"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTCPT" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/ARSP> skos:prefLabel "Using basic arithmetic formula in a spreadsheet"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/ARSP> skos:prefLabel "Using basic arithmetic formula in a spreadsheet"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTSSHT" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/INST> skos:prefLabel "Connecting and installing new devices"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/INST> skos:prefLabel "Connecting and installing new devices"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_ICTCDV" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/LITE> skos:prefLabel "Literacy"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/LITE> skos:prefLabel "Literacy"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_LTRCY" .
 
-<http://data.un.org/codes/sdg/typeOfSkill/NUME> skos:prefLabel "Numeracy"@en .
+<http://data.un.org/codes/sdg/typeOfSkill/NUME> skos:prefLabel "Numeracy"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "SKILL_NMRCY" .
 
 <http://data.un.org/codes/sdg/levelStatus/LOWIMP> skos:prefLabel "Low level of implementation"@en .
 
@@ -7139,35 +7228,46 @@ rdfs:subPropertyOf sdmx-dimension:age .
     "Petits États insulaires en développement"@fr, "Small island developing state"@en,
     "Малые островные развивающиеся государства"@ru, "دول جزرية صغيرة نامية"@ar, "小岛屿发展中国家"@zh .
 
-<http://data.un.org/codes/sdg/units/NUMBER> skos:prefLabel "Number"@en .
+<http://data.un.org/codes/sdg/units/NUMBER> skos:prefLabel "Number"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "NUMBER" .
 
-<http://data.un.org/codes/sdg/units/TONNES> skos:prefLabel "Tonnes"@en .
+<http://data.un.org/codes/sdg/units/TONNES> skos:prefLabel "Tonnes"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "T" .
 
-<http://data.un.org/codes/sdg/units/KG_PER_CON_USD> skos:prefLabel "Kilograms per constant USD"@en .
+<http://data.un.org/codes/sdg/units/KG_PER_CON_USD> skos:prefLabel "Kilograms per constant USD"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "KG_PER_CON_USD" .
 
-<http://data.un.org/codes/sdg/units/USD> skos:prefLabel "USD"@en .
+<http://data.un.org/codes/sdg/units/USD> skos:prefLabel "USD"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "USD".
 
 <http://data.un.org/codes/sdg/units/CU_USD_B> skos:prefLabel "Billions of current United States dollars"@en .
 
-<http://data.un.org/codes/sdg/units/PER_100000_POP> skos:prefLabel "Per 100,000 population"@en .
+<http://data.un.org/codes/sdg/units/PER_100000_POP> skos:prefLabel "Per 100,000 population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_100000_POP" .
 
-<http://data.un.org/codes/sdg/units/INDEX> skos:prefLabel "Index"@en .
+<http://data.un.org/codes/sdg/units/INDEX> skos:prefLabel "Index"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "IX" .
 
-<http://data.un.org/codes/sdg/units/KM2> skos:prefLabel "Square kilometers"@en .
+<http://data.un.org/codes/sdg/units/KM2> skos:prefLabel "Square kilometers"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "KM2" .
 
 <http://data.un.org/codes/sdg/units/HA_TH> skos:prefLabel "Thousands of hectares"@en .
 
-<http://data.un.org/codes/sdg/units/T_PER_HA> skos:prefLabel "Tonnes per hectare"@en .
+<http://data.un.org/codes/sdg/units/T_PER_HA> skos:prefLabel "Tonnes per hectare"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "T_PER_HA" .
 
-<http://data.un.org/codes/sdg/units/CON_USD> skos:prefLabel "Constant USD"@en .
+<http://data.un.org/codes/sdg/units/CON_USD> skos:prefLabel "Constant USD"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CON_USD" .
 
 <http://data.un.org/codes/sdg/units/NA> skos:prefLabel "Not applicable"@en .
 
 <http://data.un.org/codes/sdg/units/CU_USD_M> skos:prefLabel "Millions of current United States dollars"@en .
 
-<http://data.un.org/codes/sdg/units/GPERM3> skos:prefLabel "Micrograms per cubic meter"@en .
+<http://data.un.org/codes/sdg/units/GPERM3> skos:prefLabel "Micrograms per cubic meter"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "GPERM3" .
 
-<http://data.un.org/codes/sdg/units/PER_100_POP> skos:prefLabel "Per 100 population"@en .
+<http://data.un.org/codes/sdg/units/PER_100_POP> skos:prefLabel "Per 100 population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_100_POP".
 
 <http://data.un.org/codes/sdg/units/NUM_M> skos:prefLabel "Millions"@en .
 
@@ -7175,41 +7275,55 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/units/PER_POP_U5> skos:prefLabel "% of children aged 0-59 months"@en .
 
-<http://data.un.org/codes/sdg/units/PER_100000_LIVE_BIRTHS> skos:prefLabel "Per 100,000 live births"@en .
+<http://data.un.org/codes/sdg/units/PER_100000_LIVE_BIRTHS> skos:prefLabel "Per 100,000 live births"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_100000_LIVE_BIRTHS" .
 
-<http://data.un.org/codes/sdg/units/PER_1000_LIVE_BIRTHS> skos:prefLabel "Per 1,000 live births"@en .
+<http://data.un.org/codes/sdg/units/PER_1000_LIVE_BIRTHS> skos:prefLabel "Per 1,000 live births"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_100_LIVE_BIRTHS".
 
-<http://data.un.org/codes/sdg/units/PER_1000_UNINFECTED_POP> skos:prefLabel "Per 1,000 uninfected population"@en .
+<http://data.un.org/codes/sdg/units/PER_1000_UNINFECTED_POP> skos:prefLabel "Per 1,000 uninfected population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_1000_UNINFECTED_POP".
 
-<http://data.un.org/codes/sdg/units/PER_1000_POP> skos:prefLabel "Per 1,000 population"@en .
+<http://data.un.org/codes/sdg/units/PER_1000_POP> skos:prefLabel "Per 1,000 population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_1000_POP".
 
-<http://data.un.org/codes/sdg/units/LITRES_PURE_ALCOHOL> skos:prefLabel "Litres pure alcohol"@en .
+<http://data.un.org/codes/sdg/units/LITRES_PURE_ALCOHOL> skos:prefLabel "Litres pure alcohol"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "LITRES_PURE_ALCOHOL" .
 
-<http://data.un.org/codes/sdg/units/PER_10000_POP> skos:prefLabel "Per 10,000 population"@en .
+<http://data.un.org/codes/sdg/units/PER_10000_POP> skos:prefLabel "Per 10,000 population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_10000_POP" .
 
-<http://data.un.org/codes/sdg/units/RATIO> skos:prefLabel "Ratio"@en .
+<http://data.un.org/codes/sdg/units/RATIO> skos:prefLabel "Ratio"@en  ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "RO".
 
 <http://data.un.org/codes/sdg/units/PER_MARW_20T24Y> skos:prefLabel "% of married women aged 20-24 years"@en .
 
-<http://data.un.org/codes/sdg/units/USD_PER_M3> skos:prefLabel "United States dollars per cubic metre"@en .
+<http://data.un.org/codes/sdg/units/USD_PER_M3> skos:prefLabel "United States dollars per cubic metre"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "USD_PER_M3".
 
-<http://data.un.org/codes/sdg/units/M_M3_PER_YR> skos:prefLabel "Million of cubic metres per annum"@en .
+<http://data.un.org/codes/sdg/units/M_M3_PER_YR> skos:prefLabel "Million of cubic metres per annum"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "M_M3_PER_YR" .
 
-<http://data.un.org/codes/sdg/units/MJ_PER_GDP_CON_PPP_USD> skos:prefLabel "Megajoules per USD constant 2011 PPP GDP"@en .
+<http://data.un.org/codes/sdg/units/MJ_PER_GDP_CON_PPP_USD> skos:prefLabel "Megajoules per USD constant 2011 PPP GDP"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "MJ_PER_GDP_CON_PPP_USD".
 
-<http://data.un.org/codes/sdg/units/CUR_LCU> skos:prefLabel "Current local currency"@en .
+<http://data.un.org/codes/sdg/units/CUR_LCU> skos:prefLabel "Current local currency"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "CUR_LCU".
 
-<http://data.un.org/codes/sdg/units/PER_100000_EMP> skos:prefLabel "Per 100,000 employees"@en .
+<http://data.un.org/codes/sdg/units/PER_100000_EMP> skos:prefLabel "Per 100,000 employees"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_100000_EMP".
 
-<http://data.un.org/codes/sdg/units/T_KM> skos:prefLabel "Tonne kilometres"@en .
+<http://data.un.org/codes/sdg/units/T_KM> skos:prefLabel "Tonne kilometres"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "T_KM".
 
-<http://data.un.org/codes/sdg/units/P_KM> skos:prefLabel "Passenger kilometres"@en .
+<http://data.un.org/codes/sdg/units/P_KM> skos:prefLabel "Passenger kilometres"@en  .
 
 <http://data.un.org/codes/sdg/units/CON_10USD> skos:prefLabel "Constant 2010 United States dollars"@en .
 
 <http://data.un.org/codes/sdg/units/TONNES_M> skos:prefLabel "Millions of tonnes"@en .
 
-<http://data.un.org/codes/sdg/units/PER_1000000_POP> skos:prefLabel "Per million population"@en .
+<http://data.un.org/codes/sdg/units/PER_1000000_POP> skos:prefLabel "Per million population"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PER_1000000_POP".
 
 <http://data.un.org/codes/sdg/hazardType/WNDST> skos:prefLabel "Windstorm"@en .
 
@@ -7399,19 +7513,26 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/geoArea/736> skos:prefLabel "Sudan (pre-2011)"@en .
 
-<http://data.un.org/codes/sdg/typeOfProduct/AGR> skos:prefLabel "Agricultural products"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/AGR> skos:prefLabel "Agricultural products"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_AGR" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/ALP> skos:prefLabel "All products"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/ALP> skos:prefLabel "All products"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "_T" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/CLO> skos:prefLabel "Clothing"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/CLO> skos:prefLabel "Clothing"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_CLTH" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/IND> skos:prefLabel "Industrial products"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/IND> skos:prefLabel "Industrial products"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_IND" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/TEX> skos:prefLabel "Textiles"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/TEX> skos:prefLabel "Textiles"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_TXT" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/ARM> skos:prefLabel "Arms"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/ARM> skos:prefLabel "Arms"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_ARMS" .
 
-<http://data.un.org/codes/sdg/typeOfProduct/OIL> skos:prefLabel "Oil"@en .
+<http://data.un.org/codes/sdg/typeOfProduct/OIL> skos:prefLabel "Oil"@en ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "AGG_OIL" .
 
 <http://data.un.org/codes/sdg/cities/DHAKA> skos:prefLabel "Dhaka"@en .
 
@@ -8246,11 +8367,233 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/age/Y6T17> skos:notation "Y6T17" .
 
-<http://data.un.org/codes/sdg/sex/F> skos:notation "F" .
+<http://data.un.org/codes/sdg/age/M0> <http://data.un.org/codes/sdg#sdmxDSDcode> "M0" .
 
-<http://data.un.org/codes/sdg/sex/M> skos:notation "M" .
+<http://data.un.org/codes/sdg/age/M36T47> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "M36T47" .
 
-<http://data.un.org/codes/sdg/sex/_T> skos:notation "_T" .
+<http://data.un.org/codes/sdg/age/M36T59> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "M36T59" .
+
+<http://data.un.org/codes/sdg/age/M6T59> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "M6T59" .
+
+<http://data.un.org/codes/sdg/age/T6T65> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "T6T65" .
+
+<http://data.un.org/codes/sdg/age/Y0> <http://data.un.org/codes/sdg#sdmxDSDcode> "Y0" .
+
+<http://data.un.org/codes/sdg/age/Y0T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y0T14" .
+
+<http://data.un.org/codes/sdg/age/Y0T17> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y0T17" .
+
+<http://data.un.org/codes/sdg/age/Y0T4> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y0T4" .
+
+<http://data.un.org/codes/sdg/age/Y0T5> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y0T5" .
+
+<http://data.un.org/codes/sdg/age/Y0T7> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y0T7" .
+
+<http://data.un.org/codes/sdg/age/Y10T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y10T14" .
+
+<http://data.un.org/codes/sdg/age/Y10T17> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y10T17" .
+
+<http://data.un.org/codes/sdg/age/Y12T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y12T14" .
+
+<http://data.un.org/codes/sdg/age/Y12T24> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y12T24" .
+
+<http://data.un.org/codes/sdg/age/Y14T28> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y14T28" .
+
+<http://data.un.org/codes/sdg/age/Y15T19> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T19" .
+
+<http://data.un.org/codes/sdg/age/Y15T24> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T24" .
+
+<http://data.un.org/codes/sdg/age/Y15T28> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T28" .
+
+<http://data.un.org/codes/sdg/age/Y15T29> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T29" .
+
+<http://data.un.org/codes/sdg/age/Y15T44> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T44" .
+
+<http://data.un.org/codes/sdg/age/Y15T49> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T49" .
+
+<http://data.un.org/codes/sdg/age/Y15T64> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y15T64" .
+
+<http://data.un.org/codes/sdg/age/Y16T24> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y16T24" .
+
+<http://data.un.org/codes/sdg/age/Y16T65> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y16T65" .
+
+<http://data.un.org/codes/sdg/age/Y18T19> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T19" .
+
+<http://data.un.org/codes/sdg/age/Y18T24> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T24" .
+
+<http://data.un.org/codes/sdg/age/Y18T29> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T29" .
+
+<http://data.un.org/codes/sdg/age/Y18T49> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T49" .
+
+<http://data.un.org/codes/sdg/age/Y18T50> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T50" .
+
+<http://data.un.org/codes/sdg/age/Y18T74> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y18T74" .
+
+<http://data.un.org/codes/sdg/age/Y1T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y1T14" .
+
+<http://data.un.org/codes/sdg/age/Y1T4> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y1T4" .
+
+<http://data.un.org/codes/sdg/age/Y20T24> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y20T24" .
+
+<http://data.un.org/codes/sdg/age/Y20T29> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y20T29" .
+
+<http://data.un.org/codes/sdg/age/Y20T64> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y20T64" .
+
+<http://data.un.org/codes/sdg/age/Y20T74> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y20T74" .
+
+<http://data.un.org/codes/sdg/age/Y25T29> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y25T29" .
+
+<http://data.un.org/codes/sdg/age/Y25T34> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y25T34" .
+
+<http://data.un.org/codes/sdg/age/Y25T44> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y25T44" .
+
+<http://data.un.org/codes/sdg/age/Y2T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y2T14" .
+
+<http://data.un.org/codes/sdg/age/Y30T34> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y30T34" .
+
+<http://data.un.org/codes/sdg/age/Y30T35> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y30T35" .
+
+<http://data.un.org/codes/sdg/age/Y30T39> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y30T39" .
+
+<http://data.un.org/codes/sdg/age/Y30T70> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y30T70" .
+
+<http://data.un.org/codes/sdg/age/Y35T39> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y35T39" .
+
+<http://data.un.org/codes/sdg/age/Y35T44> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y35T44" .
+
+<http://data.un.org/codes/sdg/age/Y40T44> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y40T44" .
+
+<http://data.un.org/codes/sdg/age/Y40T49> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y40T49" .
+
+<http://data.un.org/codes/sdg/age/Y45T49> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y45T49" .
+
+<http://data.un.org/codes/sdg/age/Y45T54> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y45T54" .
+
+<http://data.un.org/codes/sdg/age/Y45T59> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y45T59" .
+
+<http://data.un.org/codes/sdg/age/Y45T64> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y45T64" .
+
+<http://data.un.org/codes/sdg/age/Y55T64> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y55T64" .
+
+<http://data.un.org/codes/sdg/age/Y5T14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y5T14" .
+
+<http://data.un.org/codes/sdg/age/Y5T17> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y5T17" .
+
+<http://data.un.org/codes/sdg/age/Y65T74> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y65T74" .
+
+<http://data.un.org/codes/sdg/age/Y6T17> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y6T17" .
+
+<http://data.un.org/codes/sdg/age/Y75T84> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y75T84" .
+
+<http://data.un.org/codes/sdg/age/Y7T17> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y7T17" .
+
+<http://data.un.org/codes/sdg/age/Y_GE10> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE10" .
+
+<http://data.un.org/codes/sdg/age/Y_GE12> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE12" .
+
+<http://data.un.org/codes/sdg/age/Y_GE14> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE14" .
+
+<http://data.un.org/codes/sdg/age/Y_GE15> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE15" .
+
+<http://data.un.org/codes/sdg/age/Y_GE16> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE16" .
+
+<http://data.un.org/codes/sdg/age/Y_GE18> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE18" .
+
+<http://data.un.org/codes/sdg/age/Y_GE20> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE20" .
+
+<http://data.un.org/codes/sdg/age/Y_GE25> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE25" .
+
+<http://data.un.org/codes/sdg/age/Y_GE5> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE5" .
+
+<http://data.un.org/codes/sdg/age/Y_GE50> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE50" .
+
+<http://data.un.org/codes/sdg/age/Y_GE6> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE6" .
+
+<http://data.un.org/codes/sdg/age/Y_GE65> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE65" .
+
+<http://data.un.org/codes/sdg/age/Y_GE85> <http://data.un.org/codes/sdg#sdmxDSDcode>
+    "Y_GE85" .
+
+<http://data.un.org/codes/sdg/age/_T> <http://data.un.org/codes/sdg#sdmxDSDcode> "_T" .
+
+<http://data.un.org/codes/sdg/sex/F> skos:notation "F" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "F" .
+
+<http://data.un.org/codes/sdg/sex/M> skos:notation "M" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "M" .
+
+<http://data.un.org/codes/sdg/sex/_T> skos:notation "_T" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "_T" .
 
 <http://data.un.org/codes/sdg/location/_T> skos:notation "_T" .
 
@@ -8741,11 +9084,14 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/bound/_T> skos:notation "_T" .
 
-<http://data.un.org/codes/sdg/bound/LB> skos:notation "LB" .
+<http://data.un.org/codes/sdg/bound/LB> skos:notation "LB" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "LOWER_BOUND" .
 
-<http://data.un.org/codes/sdg/bound/UB> skos:notation "UB" .
+<http://data.un.org/codes/sdg/bound/UB> skos:notation "UB" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "UPPER_BOUND" .
 
-<http://data.un.org/codes/sdg/freq/A> skos:notation "A", "ANNUAL" .
+<http://data.un.org/codes/sdg/freq/A> skos:notation "A", "ANNUAL" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "A" .
 
 <http://data.un.org/codes/sdg/typeOfSpeed/ANYS> skos:notation "ANYS" .
 
@@ -8905,11 +9251,14 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/levelStatus/HIPAR> skos:notation "HIPAR" .
 
-<http://data.un.org/codes/sdg/disabilityStatus/_T> skos:notation "_T" .
+<http://data.un.org/codes/sdg/disabilityStatus/_T> skos:notation "_T" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "_T".
 
-<http://data.un.org/codes/sdg/disabilityStatus/PWD> skos:notation "PWD" .
+<http://data.un.org/codes/sdg/disabilityStatus/PWD> skos:notation "PWD" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PWD".
 
-<http://data.un.org/codes/sdg/disabilityStatus/PD> skos:notation "PD" .
+<http://data.un.org/codes/sdg/disabilityStatus/PD> skos:notation "PD" ;
+    <http://data.un.org/codes/sdg#sdmxDSDcode> "PD".
 
 <http://data.un.org/codes/sdg/migratoryStatus/_T> skos:notation "_T" .
 
@@ -11795,2306 +12144,2306 @@ rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://data.un.org/codes/sdg/geoArea/736> skos:exactMatch <http://www.wikidata.org/entity/Q1049> .
 
-<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AFG" .
 
-<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ALB" .
 
-<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ATA" .
 
-<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DZA" .
 
-<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ASM" .
 
-<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AND" .
 
-<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AGO" .
 
-<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ATG" .
 
-<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AZE" .
 
-<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ARG" .
 
-<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AUS" .
 
-<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AUT" .
 
-<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BHS" .
 
-<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BHR" .
 
-<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BGD" .
 
-<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ARM" .
 
-<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BRB" .
 
-<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BEL" .
 
-<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BMU" .
 
-<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BTN" .
 
-<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BOL" .
 
-<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BIH" .
 
-<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BWA" .
 
-<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BVT" .
 
-<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BRA" .
 
-<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BLZ" .
 
-<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IOT" .
 
-<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SLB" .
 
-<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VGB" .
 
-<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BRN" .
 
-<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BGR" .
 
-<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MMR" .
 
-<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BDI" .
 
-<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BLR" .
 
-<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KHM" .
 
-<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CMR" .
 
-<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CAN" .
 
-<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CPV" .
 
-<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CYM" .
 
-<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CAF" .
 
-<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LKA" .
 
-<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TCD" .
 
-<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CHL" .
 
-<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CHN" .
 
-<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CXR" .
 
-<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CCK" .
 
-<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "COL" .
 
-<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "COM" .
 
-<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MYT" .
 
-<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "COG" .
 
-<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "COD" .
 
-<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "COK" .
 
-<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CRI" .
 
-<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HRV" .
 
-<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CUB" .
 
-<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CYP" .
 
-<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CZE" .
 
-<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BEN" .
 
-<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DNK" .
 
-<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DMA" .
 
-<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DOM" .
 
-<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ECU" .
 
-<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SLV" .
 
-<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GNQ" .
 
-<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ETH" .
 
-<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ERI" .
 
-<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "EST" .
 
-<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FRO" .
 
-<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FLK" .
 
-<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SGS" .
 
-<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FJI" .
 
-<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FIN" .
 
-<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ALA" .
 
-<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FRA" .
 
-<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GUF" .
 
-<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PYF" .
 
-<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ATF" .
 
-<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DJI" .
 
-<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GAB" .
 
-<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GEO" .
 
-<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GMB" .
 
-<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PSE" .
 
-<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "DEU" .
 
-<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GHA" .
 
-<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GIB" .
 
-<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KIR" .
 
-<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GRC" .
 
-<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GRL" .
 
-<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GRD" .
 
-<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GLP" .
 
-<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GUM" .
 
-<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GTM" .
 
-<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GIN" .
 
-<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GUY" .
 
-<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HTI" .
 
-<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HMD" .
 
-<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VAT" .
 
-<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HND" .
 
-<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HKG" .
 
-<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "HUN" .
 
-<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ISL" .
 
-<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IND" .
 
-<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IDN" .
 
-<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IRN" .
 
-<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IRQ" .
 
-<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IRL" .
 
-<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ISR" .
 
-<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ITA" .
 
-<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CIV" .
 
-<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "JAM" .
 
-<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "JPN" .
 
-<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KAZ" .
 
-<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "JOR" .
 
-<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KEN" .
 
-<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PRK" .
 
-<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KOR" .
 
-<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KWT" .
 
-<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KGZ" .
 
-<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LAO" .
 
-<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LBN" .
 
-<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LSO" .
 
-<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LVA" .
 
-<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LBR" .
 
-<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LBY" .
 
-<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LIE" .
 
-<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LTU" .
 
-<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LUX" .
 
-<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MAC" .
 
-<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MDG" .
 
-<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MWI" .
 
-<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MYS" .
 
-<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MDV" .
 
-<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MLI" .
 
-<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MLT" .
 
-<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MTQ" .
 
-<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MRT" .
 
-<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MUS" .
 
-<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MEX" .
 
-<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MCO" .
 
-<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MNG" .
 
-<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MDA" .
 
-<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MNE" .
 
-<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MSR" .
 
-<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MAR" .
 
-<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MOZ" .
 
-<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "OMN" .
 
-<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NAM" .
 
-<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NRU" .
 
-<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NPL" .
 
-<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NLD" .
 
-<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ANT" .
 
-<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CUW" .
 
-<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ABW" .
 
-<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SXM" .
 
-<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NCL" .
 
-<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VUT" .
 
-<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NZL" .
 
-<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NIC" .
 
-<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NER" .
 
-<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NGA" .
 
-<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NIU" .
 
-<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NFK" .
 
-<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "NOR" .
 
-<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MNP" .
 
-<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "UMI" .
 
-<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "FSM" .
 
-<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MHL" .
 
-<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PLW" .
 
-<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PAK" .
 
-<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PAN" .
 
-<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PNG" .
 
-<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PRY" .
 
-<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PER" .
 
-<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PHL" .
 
-<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PCN" .
 
-<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "POL" .
 
-<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PRT" .
 
-<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GNB" .
 
-<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TLS" .
 
-<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "PRI" .
 
-<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "QAT" .
 
-<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "REU" .
 
-<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ROU" .
 
-<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "RUS" .
 
-<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "RWA" .
 
-<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BLM" .
 
-<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SHN" .
 
-<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "KNA" .
 
-<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "AIA" .
 
-<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "LCA" .
 
-<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MAF" .
 
-<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SPM" .
 
-<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VCT" .
 
-<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SMR" .
 
-<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "STP" .
 
-<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SAU" .
 
-<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SEN" .
 
-<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SRB" .
 
-<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SYC" .
 
-<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SLE" .
 
-<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SGP" .
 
-<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SVK" .
 
-<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VNM" .
 
-<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SVN" .
 
-<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SOM" .
 
-<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ZAF" .
 
-<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ZWE" .
 
-<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ESP" .
 
-<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SSD" .
 
-<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SDN" .
 
-<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ESH" .
 
-<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SUR" .
 
-<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SJM" .
 
-<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SWZ" .
 
-<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SWE" .
 
-<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "CHE" .
 
-<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SYR" .
 
-<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TJK" .
 
-<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "THA" .
 
-<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TGO" .
 
-<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TKL" .
 
-<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TON" .
 
-<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TTO" .
 
-<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ARE" .
 
-<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TUN" .
 
-<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TUR" .
 
-<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TKM" .
 
-<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TCA" .
 
-<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TUV" .
 
-<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "UGA" .
 
-<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "UKR" .
 
-<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "MKD" .
 
-<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "EGY" .
 
-<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GBR" .
 
-<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "GGY" .
 
-<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "JEY" .
 
-<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "IMN" .
 
-<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "TZA" .
 
-<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "USA" .
 
-<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VIR" .
 
-<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BFA" .
 
-<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "URY" .
 
-<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "UZB" .
 
-<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "VEN" .
 
-<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "WLF" .
 
-<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "WSM" .
 
-<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "YEM" .
 
-<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "ZMB" .
 
-<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "BES" .
 
-<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea/iso3code>
+<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea#iso3code>
     "SDN" .
 
-<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AF" .
 
-<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AL" .
 
-<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AQ" .
 
-<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DZ" .
 
-<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AS" .
 
-<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AD" .
 
-<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AO" .
 
-<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AG" .
 
-<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AZ" .
 
-<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AR" .
 
-<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AU" .
 
-<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AT" .
 
-<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BS" .
 
-<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BH" .
 
-<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BD" .
 
-<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AM" .
 
-<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BB" .
 
-<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BE" .
 
-<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BM" .
 
-<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BT" .
 
-<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BO" .
 
-<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BA" .
 
-<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BW" .
 
-<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BV" .
 
-<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BR" .
 
-<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BZ" .
 
-<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IO" .
 
-<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SB" .
 
-<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VG" .
 
-<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BN" .
 
-<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BG" .
 
-<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MM" .
 
-<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BI" .
 
-<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BY" .
 
-<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KH" .
 
-<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CM" .
 
-<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CA" .
 
-<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CV" .
 
-<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KY" .
 
-<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CF" .
 
-<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LK" .
 
-<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TD" .
 
-<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CL" .
 
-<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CN" .
 
-<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CX" .
 
-<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CC" .
 
-<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CO" .
 
-<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KM" .
 
-<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "YT" .
 
-<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CG" .
 
-<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CD" .
 
-<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CK" .
 
-<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CR" .
 
-<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HR" .
 
-<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CU" .
 
-<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CY" .
 
-<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CZ" .
 
-<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BJ" .
 
-<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DK" .
 
-<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DM" .
 
-<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DO" .
 
-<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "EC" .
 
-<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SV" .
 
-<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GQ" .
 
-<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ET" .
 
-<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ER" .
 
-<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "EE" .
 
-<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FO" .
 
-<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FK" .
 
-<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GS" .
 
-<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FJ" .
 
-<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FI" .
 
-<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AX" .
 
-<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FR" .
 
-<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GF" .
 
-<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PF" .
 
-<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TF" .
 
-<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DJ" .
 
-<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GA" .
 
-<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GE" .
 
-<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GM" .
 
-<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PS" .
 
-<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "DE" .
 
-<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GH" .
 
-<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GI" .
 
-<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KI" .
 
-<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GR" .
 
-<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GL" .
 
-<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GD" .
 
-<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GP" .
 
-<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GU" .
 
-<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GT" .
 
-<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GN" .
 
-<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GY" .
 
-<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HT" .
 
-<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HM" .
 
-<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VA" .
 
-<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HN" .
 
-<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HK" .
 
-<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "HU" .
 
-<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IS" .
 
-<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IN" .
 
-<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ID" .
 
-<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IR" .
 
-<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IQ" .
 
-<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IE" .
 
-<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IL" .
 
-<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IT" .
 
-<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CI" .
 
-<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "JM" .
 
-<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "JP" .
 
-<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KZ" .
 
-<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "JO" .
 
-<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KE" .
 
-<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KP" .
 
-<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KR" .
 
-<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KW" .
 
-<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KG" .
 
-<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LA" .
 
-<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LB" .
 
-<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LS" .
 
-<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LV" .
 
-<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LR" .
 
-<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LY" .
 
-<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LI" .
 
-<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LT" .
 
-<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LU" .
 
-<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MO" .
 
-<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MG" .
 
-<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MW" .
 
-<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MY" .
 
-<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MV" .
 
-<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ML" .
 
-<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MT" .
 
-<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MQ" .
 
-<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MR" .
 
-<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MU" .
 
-<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MX" .
 
-<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MC" .
 
-<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MN" .
 
-<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MD" .
 
-<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ME" .
 
-<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MS" .
 
-<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MA" .
 
-<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MZ" .
 
-<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "OM" .
 
-<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NA" .
 
-<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NR" .
 
-<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NP" .
 
-<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NL" .
 
-<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AN" .
 
-<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CW" .
 
-<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AW" .
 
-<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SX" .
 
-<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NC" .
 
-<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VU" .
 
-<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NZ" .
 
-<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NI" .
 
-<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NE" .
 
-<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NG" .
 
-<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NU" .
 
-<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NF" .
 
-<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "NO" .
 
-<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MP" .
 
-<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "UM" .
 
-<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "FM" .
 
-<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MH" .
 
-<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PW" .
 
-<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PK" .
 
-<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PA" .
 
-<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PG" .
 
-<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PY" .
 
-<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PE" .
 
-<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PH" .
 
-<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PN" .
 
-<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PL" .
 
-<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PT" .
 
-<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GW" .
 
-<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TL" .
 
-<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PR" .
 
-<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "QA" .
 
-<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "RE" .
 
-<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "RO" .
 
-<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "RU" .
 
-<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "RW" .
 
-<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BL" .
 
-<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SH" .
 
-<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "KN" .
 
-<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AI" .
 
-<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "LC" .
 
-<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MF" .
 
-<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "PM" .
 
-<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VC" .
 
-<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SM" .
 
-<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ST" .
 
-<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SA" .
 
-<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SN" .
 
-<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "RS" .
 
-<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SC" .
 
-<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SL" .
 
-<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SG" .
 
-<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SK" .
 
-<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VN" .
 
-<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SI" .
 
-<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SO" .
 
-<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ZA" .
 
-<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ZW" .
 
-<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ES" .
 
-<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SS" .
 
-<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SD" .
 
-<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "EH" .
 
-<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SR" .
 
-<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SJ" .
 
-<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SZ" .
 
-<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SE" .
 
-<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "CH" .
 
-<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SY" .
 
-<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TJ" .
 
-<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TH" .
 
-<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TG" .
 
-<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TK" .
 
-<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TO" .
 
-<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TT" .
 
-<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "AE" .
 
-<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TN" .
 
-<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TR" .
 
-<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TM" .
 
-<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TC" .
 
-<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TV" .
 
-<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "UG" .
 
-<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "UA" .
 
-<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "MK" .
 
-<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "EG" .
 
-<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GB" .
 
-<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "GG" .
 
-<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "JE" .
 
-<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "IM" .
 
-<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "TZ" .
 
-<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "US" .
 
-<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VI" .
 
-<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BF" .
 
-<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "UY" .
 
-<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "UZ" .
 
-<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "VE" .
 
-<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "WF" .
 
-<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "WS" .
 
-<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "YE" .
 
-<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "ZM" .
 
-<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "BQ" .
 
-<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea/iso2code>
+<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea#iso2code>
     "SD" .
 
-<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/004> <http://data.un.org/codes/sdg/geoArea#m49code>
     "4" .
 
-<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/008> <http://data.un.org/codes/sdg/geoArea#m49code>
     "8" .
 
-<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/010> <http://data.un.org/codes/sdg/geoArea#m49code>
     "10" .
 
-<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/012> <http://data.un.org/codes/sdg/geoArea#m49code>
     "12" .
 
-<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/016> <http://data.un.org/codes/sdg/geoArea#m49code>
     "16" .
 
-<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/020> <http://data.un.org/codes/sdg/geoArea#m49code>
     "20" .
 
-<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/024> <http://data.un.org/codes/sdg/geoArea#m49code>
     "24" .
 
-<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/028> <http://data.un.org/codes/sdg/geoArea#m49code>
     "28" .
 
-<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/031> <http://data.un.org/codes/sdg/geoArea#m49code>
     "31" .
 
-<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/032> <http://data.un.org/codes/sdg/geoArea#m49code>
     "32" .
 
-<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/036> <http://data.un.org/codes/sdg/geoArea#m49code>
     "36" .
 
-<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/040> <http://data.un.org/codes/sdg/geoArea#m49code>
     "40" .
 
-<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/044> <http://data.un.org/codes/sdg/geoArea#m49code>
     "44" .
 
-<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/048> <http://data.un.org/codes/sdg/geoArea#m49code>
     "48" .
 
-<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/050> <http://data.un.org/codes/sdg/geoArea#m49code>
     "50" .
 
-<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/051> <http://data.un.org/codes/sdg/geoArea#m49code>
     "51" .
 
-<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/052> <http://data.un.org/codes/sdg/geoArea#m49code>
     "52" .
 
-<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/056> <http://data.un.org/codes/sdg/geoArea#m49code>
     "56" .
 
-<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/060> <http://data.un.org/codes/sdg/geoArea#m49code>
     "60" .
 
-<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/064> <http://data.un.org/codes/sdg/geoArea#m49code>
     "64" .
 
-<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/068> <http://data.un.org/codes/sdg/geoArea#m49code>
     "68" .
 
-<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/070> <http://data.un.org/codes/sdg/geoArea#m49code>
     "70" .
 
-<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/072> <http://data.un.org/codes/sdg/geoArea#m49code>
     "72" .
 
-<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/074> <http://data.un.org/codes/sdg/geoArea#m49code>
     "74" .
 
-<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/076> <http://data.un.org/codes/sdg/geoArea#m49code>
     "76" .
 
-<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/084> <http://data.un.org/codes/sdg/geoArea#m49code>
     "84" .
 
-<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/086> <http://data.un.org/codes/sdg/geoArea#m49code>
     "86" .
 
-<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/090> <http://data.un.org/codes/sdg/geoArea#m49code>
     "90" .
 
-<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/092> <http://data.un.org/codes/sdg/geoArea#m49code>
     "92" .
 
-<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/096> <http://data.un.org/codes/sdg/geoArea#m49code>
     "96" .
 
-<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/100> <http://data.un.org/codes/sdg/geoArea#m49code>
     "100" .
 
-<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/104> <http://data.un.org/codes/sdg/geoArea#m49code>
     "104" .
 
-<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/108> <http://data.un.org/codes/sdg/geoArea#m49code>
     "108" .
 
-<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/112> <http://data.un.org/codes/sdg/geoArea#m49code>
     "112" .
 
-<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/116> <http://data.un.org/codes/sdg/geoArea#m49code>
     "116" .
 
-<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/120> <http://data.un.org/codes/sdg/geoArea#m49code>
     "120" .
 
-<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/124> <http://data.un.org/codes/sdg/geoArea#m49code>
     "124" .
 
-<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/132> <http://data.un.org/codes/sdg/geoArea#m49code>
     "132" .
 
-<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/136> <http://data.un.org/codes/sdg/geoArea#m49code>
     "136" .
 
-<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/140> <http://data.un.org/codes/sdg/geoArea#m49code>
     "140" .
 
-<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/144> <http://data.un.org/codes/sdg/geoArea#m49code>
     "144" .
 
-<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/148> <http://data.un.org/codes/sdg/geoArea#m49code>
     "148" .
 
-<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/152> <http://data.un.org/codes/sdg/geoArea#m49code>
     "152" .
 
-<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/156> <http://data.un.org/codes/sdg/geoArea#m49code>
     "156" .
 
-<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/162> <http://data.un.org/codes/sdg/geoArea#m49code>
     "162" .
 
-<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/166> <http://data.un.org/codes/sdg/geoArea#m49code>
     "166" .
 
-<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/170> <http://data.un.org/codes/sdg/geoArea#m49code>
     "170" .
 
-<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/174> <http://data.un.org/codes/sdg/geoArea#m49code>
     "174" .
 
-<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/175> <http://data.un.org/codes/sdg/geoArea#m49code>
     "175" .
 
-<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/178> <http://data.un.org/codes/sdg/geoArea#m49code>
     "178" .
 
-<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/180> <http://data.un.org/codes/sdg/geoArea#m49code>
     "180" .
 
-<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/184> <http://data.un.org/codes/sdg/geoArea#m49code>
     "184" .
 
-<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/188> <http://data.un.org/codes/sdg/geoArea#m49code>
     "188" .
 
-<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/191> <http://data.un.org/codes/sdg/geoArea#m49code>
     "191" .
 
-<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/192> <http://data.un.org/codes/sdg/geoArea#m49code>
     "192" .
 
-<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/196> <http://data.un.org/codes/sdg/geoArea#m49code>
     "196" .
 
-<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/203> <http://data.un.org/codes/sdg/geoArea#m49code>
     "203" .
 
-<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/204> <http://data.un.org/codes/sdg/geoArea#m49code>
     "204" .
 
-<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/208> <http://data.un.org/codes/sdg/geoArea#m49code>
     "208" .
 
-<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/212> <http://data.un.org/codes/sdg/geoArea#m49code>
     "212" .
 
-<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/214> <http://data.un.org/codes/sdg/geoArea#m49code>
     "214" .
 
-<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/218> <http://data.un.org/codes/sdg/geoArea#m49code>
     "218" .
 
-<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/222> <http://data.un.org/codes/sdg/geoArea#m49code>
     "222" .
 
-<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/226> <http://data.un.org/codes/sdg/geoArea#m49code>
     "226" .
 
-<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/231> <http://data.un.org/codes/sdg/geoArea#m49code>
     "231" .
 
-<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/232> <http://data.un.org/codes/sdg/geoArea#m49code>
     "232" .
 
-<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/233> <http://data.un.org/codes/sdg/geoArea#m49code>
     "233" .
 
-<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/234> <http://data.un.org/codes/sdg/geoArea#m49code>
     "234" .
 
-<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/238> <http://data.un.org/codes/sdg/geoArea#m49code>
     "238" .
 
-<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/239> <http://data.un.org/codes/sdg/geoArea#m49code>
     "239" .
 
-<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/242> <http://data.un.org/codes/sdg/geoArea#m49code>
     "242" .
 
-<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/246> <http://data.un.org/codes/sdg/geoArea#m49code>
     "246" .
 
-<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/248> <http://data.un.org/codes/sdg/geoArea#m49code>
     "248" .
 
-<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/250> <http://data.un.org/codes/sdg/geoArea#m49code>
     "250" .
 
-<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/254> <http://data.un.org/codes/sdg/geoArea#m49code>
     "254" .
 
-<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/258> <http://data.un.org/codes/sdg/geoArea#m49code>
     "258" .
 
-<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/260> <http://data.un.org/codes/sdg/geoArea#m49code>
     "260" .
 
-<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/262> <http://data.un.org/codes/sdg/geoArea#m49code>
     "262" .
 
-<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/266> <http://data.un.org/codes/sdg/geoArea#m49code>
     "266" .
 
-<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/268> <http://data.un.org/codes/sdg/geoArea#m49code>
     "268" .
 
-<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/270> <http://data.un.org/codes/sdg/geoArea#m49code>
     "270" .
 
-<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/275> <http://data.un.org/codes/sdg/geoArea#m49code>
     "275" .
 
-<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/276> <http://data.un.org/codes/sdg/geoArea#m49code>
     "276" .
 
-<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/288> <http://data.un.org/codes/sdg/geoArea#m49code>
     "288" .
 
-<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/292> <http://data.un.org/codes/sdg/geoArea#m49code>
     "292" .
 
-<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/296> <http://data.un.org/codes/sdg/geoArea#m49code>
     "296" .
 
-<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/300> <http://data.un.org/codes/sdg/geoArea#m49code>
     "300" .
 
-<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/304> <http://data.un.org/codes/sdg/geoArea#m49code>
     "304" .
 
-<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/308> <http://data.un.org/codes/sdg/geoArea#m49code>
     "308" .
 
-<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/312> <http://data.un.org/codes/sdg/geoArea#m49code>
     "312" .
 
-<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/316> <http://data.un.org/codes/sdg/geoArea#m49code>
     "316" .
 
-<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/320> <http://data.un.org/codes/sdg/geoArea#m49code>
     "320" .
 
-<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/324> <http://data.un.org/codes/sdg/geoArea#m49code>
     "324" .
 
-<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/328> <http://data.un.org/codes/sdg/geoArea#m49code>
     "328" .
 
-<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/332> <http://data.un.org/codes/sdg/geoArea#m49code>
     "332" .
 
-<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/334> <http://data.un.org/codes/sdg/geoArea#m49code>
     "334" .
 
-<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/336> <http://data.un.org/codes/sdg/geoArea#m49code>
     "336" .
 
-<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/340> <http://data.un.org/codes/sdg/geoArea#m49code>
     "340" .
 
-<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/344> <http://data.un.org/codes/sdg/geoArea#m49code>
     "344" .
 
-<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/348> <http://data.un.org/codes/sdg/geoArea#m49code>
     "348" .
 
-<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/352> <http://data.un.org/codes/sdg/geoArea#m49code>
     "352" .
 
-<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/356> <http://data.un.org/codes/sdg/geoArea#m49code>
     "356" .
 
-<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/360> <http://data.un.org/codes/sdg/geoArea#m49code>
     "360" .
 
-<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/364> <http://data.un.org/codes/sdg/geoArea#m49code>
     "364" .
 
-<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/368> <http://data.un.org/codes/sdg/geoArea#m49code>
     "368" .
 
-<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/372> <http://data.un.org/codes/sdg/geoArea#m49code>
     "372" .
 
-<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/376> <http://data.un.org/codes/sdg/geoArea#m49code>
     "376" .
 
-<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/380> <http://data.un.org/codes/sdg/geoArea#m49code>
     "380" .
 
-<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/384> <http://data.un.org/codes/sdg/geoArea#m49code>
     "384" .
 
-<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/388> <http://data.un.org/codes/sdg/geoArea#m49code>
     "388" .
 
-<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/392> <http://data.un.org/codes/sdg/geoArea#m49code>
     "392" .
 
-<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/398> <http://data.un.org/codes/sdg/geoArea#m49code>
     "398" .
 
-<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/400> <http://data.un.org/codes/sdg/geoArea#m49code>
     "400" .
 
-<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/404> <http://data.un.org/codes/sdg/geoArea#m49code>
     "404" .
 
-<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/408> <http://data.un.org/codes/sdg/geoArea#m49code>
     "408" .
 
-<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/410> <http://data.un.org/codes/sdg/geoArea#m49code>
     "410" .
 
-<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/414> <http://data.un.org/codes/sdg/geoArea#m49code>
     "414" .
 
-<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/417> <http://data.un.org/codes/sdg/geoArea#m49code>
     "417" .
 
-<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/418> <http://data.un.org/codes/sdg/geoArea#m49code>
     "418" .
 
-<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/422> <http://data.un.org/codes/sdg/geoArea#m49code>
     "422" .
 
-<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/426> <http://data.un.org/codes/sdg/geoArea#m49code>
     "426" .
 
-<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/428> <http://data.un.org/codes/sdg/geoArea#m49code>
     "428" .
 
-<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/430> <http://data.un.org/codes/sdg/geoArea#m49code>
     "430" .
 
-<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/434> <http://data.un.org/codes/sdg/geoArea#m49code>
     "434" .
 
-<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/438> <http://data.un.org/codes/sdg/geoArea#m49code>
     "438" .
 
-<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/440> <http://data.un.org/codes/sdg/geoArea#m49code>
     "440" .
 
-<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/442> <http://data.un.org/codes/sdg/geoArea#m49code>
     "442" .
 
-<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/446> <http://data.un.org/codes/sdg/geoArea#m49code>
     "446" .
 
-<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/450> <http://data.un.org/codes/sdg/geoArea#m49code>
     "450" .
 
-<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/454> <http://data.un.org/codes/sdg/geoArea#m49code>
     "454" .
 
-<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/458> <http://data.un.org/codes/sdg/geoArea#m49code>
     "458" .
 
-<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/462> <http://data.un.org/codes/sdg/geoArea#m49code>
     "462" .
 
-<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/466> <http://data.un.org/codes/sdg/geoArea#m49code>
     "466" .
 
-<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/470> <http://data.un.org/codes/sdg/geoArea#m49code>
     "470" .
 
-<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/474> <http://data.un.org/codes/sdg/geoArea#m49code>
     "474" .
 
-<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/478> <http://data.un.org/codes/sdg/geoArea#m49code>
     "478" .
 
-<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/480> <http://data.un.org/codes/sdg/geoArea#m49code>
     "480" .
 
-<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/484> <http://data.un.org/codes/sdg/geoArea#m49code>
     "484" .
 
-<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/492> <http://data.un.org/codes/sdg/geoArea#m49code>
     "492" .
 
-<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/496> <http://data.un.org/codes/sdg/geoArea#m49code>
     "496" .
 
-<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/498> <http://data.un.org/codes/sdg/geoArea#m49code>
     "498" .
 
-<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/499> <http://data.un.org/codes/sdg/geoArea#m49code>
     "499" .
 
-<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/500> <http://data.un.org/codes/sdg/geoArea#m49code>
     "500" .
 
-<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/504> <http://data.un.org/codes/sdg/geoArea#m49code>
     "504" .
 
-<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/508> <http://data.un.org/codes/sdg/geoArea#m49code>
     "508" .
 
-<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/512> <http://data.un.org/codes/sdg/geoArea#m49code>
     "512" .
 
-<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/516> <http://data.un.org/codes/sdg/geoArea#m49code>
     "516" .
 
-<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/520> <http://data.un.org/codes/sdg/geoArea#m49code>
     "520" .
 
-<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/524> <http://data.un.org/codes/sdg/geoArea#m49code>
     "524" .
 
-<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/528> <http://data.un.org/codes/sdg/geoArea#m49code>
     "528" .
 
-<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/530> <http://data.un.org/codes/sdg/geoArea#m49code>
     "530" .
 
-<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/531> <http://data.un.org/codes/sdg/geoArea#m49code>
     "531" .
 
-<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/533> <http://data.un.org/codes/sdg/geoArea#m49code>
     "533" .
 
-<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/534> <http://data.un.org/codes/sdg/geoArea#m49code>
     "534" .
 
-<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/540> <http://data.un.org/codes/sdg/geoArea#m49code>
     "540" .
 
-<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/548> <http://data.un.org/codes/sdg/geoArea#m49code>
     "548" .
 
-<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/554> <http://data.un.org/codes/sdg/geoArea#m49code>
     "554" .
 
-<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/558> <http://data.un.org/codes/sdg/geoArea#m49code>
     "558" .
 
-<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/562> <http://data.un.org/codes/sdg/geoArea#m49code>
     "562" .
 
-<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/566> <http://data.un.org/codes/sdg/geoArea#m49code>
     "566" .
 
-<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/570> <http://data.un.org/codes/sdg/geoArea#m49code>
     "570" .
 
-<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/574> <http://data.un.org/codes/sdg/geoArea#m49code>
     "574" .
 
-<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/578> <http://data.un.org/codes/sdg/geoArea#m49code>
     "578" .
 
-<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/580> <http://data.un.org/codes/sdg/geoArea#m49code>
     "580" .
 
-<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/581> <http://data.un.org/codes/sdg/geoArea#m49code>
     "581" .
 
-<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/583> <http://data.un.org/codes/sdg/geoArea#m49code>
     "583" .
 
-<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/584> <http://data.un.org/codes/sdg/geoArea#m49code>
     "584" .
 
-<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/585> <http://data.un.org/codes/sdg/geoArea#m49code>
     "585" .
 
-<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/586> <http://data.un.org/codes/sdg/geoArea#m49code>
     "586" .
 
-<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/591> <http://data.un.org/codes/sdg/geoArea#m49code>
     "591" .
 
-<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/598> <http://data.un.org/codes/sdg/geoArea#m49code>
     "598" .
 
-<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/600> <http://data.un.org/codes/sdg/geoArea#m49code>
     "600" .
 
-<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/604> <http://data.un.org/codes/sdg/geoArea#m49code>
     "604" .
 
-<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/608> <http://data.un.org/codes/sdg/geoArea#m49code>
     "608" .
 
-<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/612> <http://data.un.org/codes/sdg/geoArea#m49code>
     "612" .
 
-<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/616> <http://data.un.org/codes/sdg/geoArea#m49code>
     "616" .
 
-<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/620> <http://data.un.org/codes/sdg/geoArea#m49code>
     "620" .
 
-<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/624> <http://data.un.org/codes/sdg/geoArea#m49code>
     "624" .
 
-<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/626> <http://data.un.org/codes/sdg/geoArea#m49code>
     "626" .
 
-<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/630> <http://data.un.org/codes/sdg/geoArea#m49code>
     "630" .
 
-<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/634> <http://data.un.org/codes/sdg/geoArea#m49code>
     "634" .
 
-<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/638> <http://data.un.org/codes/sdg/geoArea#m49code>
     "638" .
 
-<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/642> <http://data.un.org/codes/sdg/geoArea#m49code>
     "642" .
 
-<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/643> <http://data.un.org/codes/sdg/geoArea#m49code>
     "643" .
 
-<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/646> <http://data.un.org/codes/sdg/geoArea#m49code>
     "646" .
 
-<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/652> <http://data.un.org/codes/sdg/geoArea#m49code>
     "652" .
 
-<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/654> <http://data.un.org/codes/sdg/geoArea#m49code>
     "654" .
 
-<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/659> <http://data.un.org/codes/sdg/geoArea#m49code>
     "659" .
 
-<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/660> <http://data.un.org/codes/sdg/geoArea#m49code>
     "660" .
 
-<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/662> <http://data.un.org/codes/sdg/geoArea#m49code>
     "662" .
 
-<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/663> <http://data.un.org/codes/sdg/geoArea#m49code>
     "663" .
 
-<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/666> <http://data.un.org/codes/sdg/geoArea#m49code>
     "666" .
 
-<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/670> <http://data.un.org/codes/sdg/geoArea#m49code>
     "670" .
 
-<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/674> <http://data.un.org/codes/sdg/geoArea#m49code>
     "674" .
 
-<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/678> <http://data.un.org/codes/sdg/geoArea#m49code>
     "678" .
 
-<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/682> <http://data.un.org/codes/sdg/geoArea#m49code>
     "682" .
 
-<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/686> <http://data.un.org/codes/sdg/geoArea#m49code>
     "686" .
 
-<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/688> <http://data.un.org/codes/sdg/geoArea#m49code>
     "688" .
 
-<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/690> <http://data.un.org/codes/sdg/geoArea#m49code>
     "690" .
 
-<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/694> <http://data.un.org/codes/sdg/geoArea#m49code>
     "694" .
 
-<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/702> <http://data.un.org/codes/sdg/geoArea#m49code>
     "702" .
 
-<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/703> <http://data.un.org/codes/sdg/geoArea#m49code>
     "703" .
 
-<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/704> <http://data.un.org/codes/sdg/geoArea#m49code>
     "704" .
 
-<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/705> <http://data.un.org/codes/sdg/geoArea#m49code>
     "705" .
 
-<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/706> <http://data.un.org/codes/sdg/geoArea#m49code>
     "706" .
 
-<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/710> <http://data.un.org/codes/sdg/geoArea#m49code>
     "710" .
 
-<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/716> <http://data.un.org/codes/sdg/geoArea#m49code>
     "716" .
 
-<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/724> <http://data.un.org/codes/sdg/geoArea#m49code>
     "724" .
 
-<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/728> <http://data.un.org/codes/sdg/geoArea#m49code>
     "728" .
 
-<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/729> <http://data.un.org/codes/sdg/geoArea#m49code>
     "729" .
 
-<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/732> <http://data.un.org/codes/sdg/geoArea#m49code>
     "732" .
 
-<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/740> <http://data.un.org/codes/sdg/geoArea#m49code>
     "740" .
 
-<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/744> <http://data.un.org/codes/sdg/geoArea#m49code>
     "744" .
 
-<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/748> <http://data.un.org/codes/sdg/geoArea#m49code>
     "748" .
 
-<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/752> <http://data.un.org/codes/sdg/geoArea#m49code>
     "752" .
 
-<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/756> <http://data.un.org/codes/sdg/geoArea#m49code>
     "756" .
 
-<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/760> <http://data.un.org/codes/sdg/geoArea#m49code>
     "760" .
 
-<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/762> <http://data.un.org/codes/sdg/geoArea#m49code>
     "762" .
 
-<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/764> <http://data.un.org/codes/sdg/geoArea#m49code>
     "764" .
 
-<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/768> <http://data.un.org/codes/sdg/geoArea#m49code>
     "768" .
 
-<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/772> <http://data.un.org/codes/sdg/geoArea#m49code>
     "772" .
 
-<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/776> <http://data.un.org/codes/sdg/geoArea#m49code>
     "776" .
 
-<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/780> <http://data.un.org/codes/sdg/geoArea#m49code>
     "780" .
 
-<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/784> <http://data.un.org/codes/sdg/geoArea#m49code>
     "784" .
 
-<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/788> <http://data.un.org/codes/sdg/geoArea#m49code>
     "788" .
 
-<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/792> <http://data.un.org/codes/sdg/geoArea#m49code>
     "792" .
 
-<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/795> <http://data.un.org/codes/sdg/geoArea#m49code>
     "795" .
 
-<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/796> <http://data.un.org/codes/sdg/geoArea#m49code>
     "796" .
 
-<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/798> <http://data.un.org/codes/sdg/geoArea#m49code>
     "798" .
 
-<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/800> <http://data.un.org/codes/sdg/geoArea#m49code>
     "800" .
 
-<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/804> <http://data.un.org/codes/sdg/geoArea#m49code>
     "804" .
 
-<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/807> <http://data.un.org/codes/sdg/geoArea#m49code>
     "807" .
 
-<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/818> <http://data.un.org/codes/sdg/geoArea#m49code>
     "818" .
 
-<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/826> <http://data.un.org/codes/sdg/geoArea#m49code>
     "826" .
 
-<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/831> <http://data.un.org/codes/sdg/geoArea#m49code>
     "831" .
 
-<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/832> <http://data.un.org/codes/sdg/geoArea#m49code>
     "832" .
 
-<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/833> <http://data.un.org/codes/sdg/geoArea#m49code>
     "833" .
 
-<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/834> <http://data.un.org/codes/sdg/geoArea#m49code>
     "834" .
 
-<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/840> <http://data.un.org/codes/sdg/geoArea#m49code>
     "840" .
 
-<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/850> <http://data.un.org/codes/sdg/geoArea#m49code>
     "850" .
 
-<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/854> <http://data.un.org/codes/sdg/geoArea#m49code>
     "854" .
 
-<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/858> <http://data.un.org/codes/sdg/geoArea#m49code>
     "858" .
 
-<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/860> <http://data.un.org/codes/sdg/geoArea#m49code>
     "860" .
 
-<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/862> <http://data.un.org/codes/sdg/geoArea#m49code>
     "862" .
 
-<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/876> <http://data.un.org/codes/sdg/geoArea#m49code>
     "876" .
 
-<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/882> <http://data.un.org/codes/sdg/geoArea#m49code>
     "882" .
 
-<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/887> <http://data.un.org/codes/sdg/geoArea#m49code>
     "887" .
 
-<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/894> <http://data.un.org/codes/sdg/geoArea#m49code>
     "894" .
 
-<http://data.un.org/codes/sdg/geoArea/001> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/001> <http://data.un.org/codes/sdg/geoArea#m49code>
     "1" .
 
-<http://data.un.org/codes/sdg/geoArea/002> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/002> <http://data.un.org/codes/sdg/geoArea#m49code>
     "2" .
 
-<http://data.un.org/codes/sdg/geoArea/019> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/019> <http://data.un.org/codes/sdg/geoArea#m49code>
     "19" .
 
-<http://data.un.org/codes/sdg/geoArea/142> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/142> <http://data.un.org/codes/sdg/geoArea#m49code>
     "142" .
 
-<http://data.un.org/codes/sdg/geoArea/150> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/150> <http://data.un.org/codes/sdg/geoArea#m49code>
     "150" .
 
-<http://data.un.org/codes/sdg/geoArea/009> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/009> <http://data.un.org/codes/sdg/geoArea#m49code>
     "9" .
 
-<http://data.un.org/codes/sdg/geoArea/014> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/014> <http://data.un.org/codes/sdg/geoArea#m49code>
     "14" .
 
-<http://data.un.org/codes/sdg/geoArea/017> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/017> <http://data.un.org/codes/sdg/geoArea#m49code>
     "17" .
 
-<http://data.un.org/codes/sdg/geoArea/018> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/018> <http://data.un.org/codes/sdg/geoArea#m49code>
     "18" .
 
-<http://data.un.org/codes/sdg/geoArea/011> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/011> <http://data.un.org/codes/sdg/geoArea#m49code>
     "11" .
 
-<http://data.un.org/codes/sdg/geoArea/029> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/029> <http://data.un.org/codes/sdg/geoArea#m49code>
     "29" .
 
-<http://data.un.org/codes/sdg/geoArea/013> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/013> <http://data.un.org/codes/sdg/geoArea#m49code>
     "13" .
 
-<http://data.un.org/codes/sdg/geoArea/005> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/005> <http://data.un.org/codes/sdg/geoArea#m49code>
     "5" .
 
-<http://data.un.org/codes/sdg/geoArea/830> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/830> <http://data.un.org/codes/sdg/geoArea#m49code>
     "830" .
 
-<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/535> <http://data.un.org/codes/sdg/geoArea#m49code>
     "535" .
 
-<http://data.un.org/codes/sdg/geoArea/680> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/680> <http://data.un.org/codes/sdg/geoArea#m49code>
     "680" .
 
-<http://data.un.org/codes/sdg/geoArea/202> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/202> <http://data.un.org/codes/sdg/geoArea#m49code>
     "202" .
 
-<http://data.un.org/codes/sdg/geoArea/419> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/419> <http://data.un.org/codes/sdg/geoArea#m49code>
     "419" .
 
-<http://data.un.org/codes/sdg/geoArea/154> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/154> <http://data.un.org/codes/sdg/geoArea#m49code>
     "154" .
 
-<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea/m49code>
+<http://data.un.org/codes/sdg/geoArea/736> <http://data.un.org/codes/sdg/geoArea#m49code>
     "736" .
