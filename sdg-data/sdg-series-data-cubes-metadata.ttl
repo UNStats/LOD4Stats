@@ -1,6 +1,4 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>
 
 <http://data.un.org/codes/sdg/age> a qb:DimensionProperty .
@@ -26,30 +24,6 @@
 <http://data.un.org/codes/sdg/hazardType> a qb:DimensionProperty .
 <http://data.un.org/codes/sdg/year> a qb:DimensionProperty .
 <http://data.un.org/codes/sdg/units> rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> .
-
-<http://data.un.org/codes/sdg/age> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/sex> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/location> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/cities> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfProduct> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/bound> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/freq> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfSpeed> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfOccupation> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/ihrCapacity> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/educationLevel> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfSkill> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/levelStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/disabilityStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/migratoryStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/modeOfTransportation> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfMobileTechnology> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/geoArea> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/hazardType> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/year> rdfs:range xsd:gYear .
-<http://data.un.org/codes/sdg/units> rdfs:range skos:Concept .
 
 <http://data.un.org/codes/sdg/age> qb:codeList <http://data.un.org/codes/sdg/ageCodes> .
 <http://data.un.org/codes/sdg/sex> qb:codeList <http://data.un.org/codes/sdg/sexCodes> .
