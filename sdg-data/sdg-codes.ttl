@@ -85,29 +85,29 @@
     <http://data.un.org/codes/sdg#sdmxDSDcode> "UNIT_MEASURE" .
 
 
-<http://data.un.org/codes/sdg/age> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/sex> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/location> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/cities> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfProduct> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/bound> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/freq> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfSpeed> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfOccupation> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/ihrCapacity> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/educationLevel> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfSkill> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/levelStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/disabilityStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/migratoryStatus> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/modeOfTransportation> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/typeOfMobileTechnology> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/geoArea> rdfs:range skos:Concept .
-<http://data.un.org/codes/sdg/hazardType> rdfs:range skos:Concept .
+<http://data.un.org/codes/sdg/age> rdfs:range <http://data.un.org/codes/sdg/age> .
+<http://data.un.org/codes/sdg/sex> rdfs:range <http://data.un.org/codes/sdg/sex> .
+<http://data.un.org/codes/sdg/location> rdfs:range <http://data.un.org/codes/sdg/location> .
+<http://data.un.org/codes/sdg/nameOfInternationalInstitution> rdfs:range <http://data.un.org/codes/sdg/nameOfInternationalInstitution> .
+<http://data.un.org/codes/sdg/cities> rdfs:range <http://data.un.org/codes/sdg/cities> .
+<http://data.un.org/codes/sdg/typeOfProduct> rdfs:range <http://data.un.org/codes/sdg/typeOfProduct> .
+<http://data.un.org/codes/sdg/bound> rdfs:range <http://data.un.org/codes/sdg/bound> .
+<http://data.un.org/codes/sdg/freq> rdfs:range <http://data.un.org/codes/sdg/freq> .
+<http://data.un.org/codes/sdg/typeOfSpeed> rdfs:range <http://data.un.org/codes/sdg/typeOfSpeed> .
+<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> rdfs:range <http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> .
+<http://data.un.org/codes/sdg/typeOfOccupation> rdfs:range <http://data.un.org/codes/sdg/typeOfOccupation> .
+<http://data.un.org/codes/sdg/ihrCapacity> rdfs:range <http://data.un.org/codes/sdg/ihrCapacity> .
+<http://data.un.org/codes/sdg/educationLevel> rdfs:range <http://data.un.org/codes/sdg/educationLevel> .
+<http://data.un.org/codes/sdg/typeOfSkill> rdfs:range <http://data.un.org/codes/sdg/typeOfSkill> .
+<http://data.un.org/codes/sdg/levelStatus> rdfs:range <http://data.un.org/codes/sdg/levelStatus> .
+<http://data.un.org/codes/sdg/disabilityStatus> rdfs:range <http://data.un.org/codes/sdg/disabilityStatus> .
+<http://data.un.org/codes/sdg/migratoryStatus> rdfs:range <http://data.un.org/codes/sdg/migratoryStatus> .
+<http://data.un.org/codes/sdg/modeOfTransportation> rdfs:range <http://data.un.org/codes/sdg/modeOfTransportation> .
+<http://data.un.org/codes/sdg/typeOfMobileTechnology> rdfs:range <http://data.un.org/codes/sdg/typeOfMobileTechnology> .
+<http://data.un.org/codes/sdg/geoArea> rdfs:range <http://data.un.org/codes/sdg/geoArea> .
+<http://data.un.org/codes/sdg/hazardType> rdfs:range <http://data.un.org/codes/sdg/hazardType> .
 <http://data.un.org/codes/sdg/year> rdfs:range xsd:gYear .
-<http://data.un.org/codes/sdg/units> rdfs:range skos:Concept .
+<http://data.un.org/codes/sdg/units> rdfs:range <http://data.un.org/codes/sdg/units> .
 
 
 <http://data.un.org/codes/sdg/geoArea/004> a <http://data.un.org/codes/sdg/geoArea>,
