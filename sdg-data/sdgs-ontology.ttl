@@ -29,6 +29,9 @@
   rdfs:label "Indicador"@es, "Indicateur"@fr, "Indicator"@en;
   rdfs:subClassOf skos:Concept .
 
+:Tier a owl:Class;
+  rdfs:label "Tier Classification for Global SDG Indicators"@en  .
+
 
 ## Properties ##
 
@@ -55,10 +58,10 @@
   rdfs:label "has custodian agency"@en;
   rdfs:range xsd:string .
 
-:tier a owl:DatatypeProperty;
+:tier a owl:ObjectProperty;
   rdfs:domain :Indicator;
   rdfs:label "tier"@en ;
-  rdfs:range xsd:string .
+  rdfs:range :Tier .
 
 
 ## Mappings and constraints on imported vocabulary items ##
@@ -81,3 +84,20 @@ _:node1dck7boeix3 rdf:first dct:subject;
 
 _:node1dck7boeix4 rdf:first skos:prefLabel;
   rdf:rest rdf:nil .
+
+## Instances 
+
+:tier_I a :Tier ;
+  rdfs:label "Tier I"@en ;
+  rdfs:isDefinedBy <https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification> ;
+  rdfs:comment "Indicator is conceptually clear, has an internationally established methodology and standards are available, and data are regularly produced by countries for at least 50 per cent of countries and of the population in every region where the indicator is relevant."@en .
+
+:tier_II a :Tier ;
+  rdfs:label "Tier II"@en ;
+  rdfs:isDefinedBy <https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification> ;
+  rdfs:comment "Indicator is conceptually clear, has an internationally established methodology and standards are available, but data are not regularly produced by countries."@en .
+
+:tier_III a :Tier ;
+  rdfs:label "Tier III"@en ;
+  rdfs:isDefinedBy <https://unstats.un.org/sdgs/iaeg-sdgs/tier-classification> ;
+  rdfs:comment "No internationally established methodology or standards are yet available for the indicator, but methodology/standards are being (or will be) developed or tested."@en .

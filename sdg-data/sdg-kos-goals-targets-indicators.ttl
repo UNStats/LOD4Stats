@@ -7490,466 +7490,466 @@ sdg:C090b01 sdgo:custodianAgency "UNIDO" .
 
 sdg:C090c01 sdgo:custodianAgency "ITU" .
 
-sdg:C010101 sdgo:tier "I" .
+sdg:C010101 sdgo:tier sdgo:tier_I .
 
-sdg:C010201 sdgo:tier "I" .
+sdg:C010201 sdgo:tier sdgo:tier_I .
 
-sdg:C010202 sdgo:tier "II" .
+sdg:C010202 sdgo:tier sdgo:tier_II .
 
-sdg:C010301 sdgo:tier "II" .
+sdg:C010301 sdgo:tier sdgo:tier_II .
 
-sdg:C010401 sdgo:tier "II" .
+sdg:C010401 sdgo:tier sdgo:tier_II .
 
-sdg:C010402 sdgo:tier "II" .
+sdg:C010402 sdgo:tier sdgo:tier_II .
 
-sdg:C010502 sdgo:tier "II" .
+sdg:C010502 sdgo:tier sdgo:tier_II .
 
-sdg:C200303 sdgo:tier "II" .
+sdg:C200303 sdgo:tier sdgo:tier_II .
 
-sdg:C200304 sdgo:tier "I" .
+sdg:C200304 sdgo:tier sdgo:tier_I .
 
-sdg:C200305 sdgo:tier "II" .
+sdg:C200305 sdgo:tier sdgo:tier_II .
 
-sdg:C010a01 sdgo:tier "III" .
+sdg:C010a01 sdgo:tier sdgo:tier_III .
 
-sdg:C010a02 sdgo:tier "II" .
+sdg:C010a02 sdgo:tier sdgo:tier_II .
 
-sdg:C010a03 sdgo:tier "III" .
+sdg:C010a03 sdgo:tier sdgo:tier_III .
 
-sdg:C010b01 sdgo:tier "III" .
+sdg:C010b01 sdgo:tier sdgo:tier_III .
 
-sdg:C100101 sdgo:tier "II" .
+sdg:C100101 sdgo:tier sdgo:tier_II .
 
-sdg:C100201 sdgo:tier "II" .
+sdg:C100201 sdgo:tier sdgo:tier_II .
 
-sdg:C200204 sdgo:tier "II" .
+sdg:C200204 sdgo:tier sdgo:tier_II .
 
-sdg:C100401 sdgo:tier "II" .
+sdg:C100401 sdgo:tier sdgo:tier_II .
 
-sdg:C100501 sdgo:tier "I" .
+sdg:C100501 sdgo:tier sdgo:tier_I .
 
-sdg:C200205 sdgo:tier "I" .
+sdg:C200205 sdgo:tier sdgo:tier_I .
 
-sdg:C100701 sdgo:tier "II" .
+sdg:C100701 sdgo:tier sdgo:tier_II .
 
-sdg:C100702 sdgo:tier "II" .
+sdg:C100702 sdgo:tier sdgo:tier_II .
 
-sdg:C100a01 sdgo:tier "I" .
+sdg:C100a01 sdgo:tier sdgo:tier_I .
 
-sdg:C100b01 sdgo:tier "I/II" .
+sdg:C100b01 sdgo:tier sdgo:tier_I, sdgo:tier_II .
 
-sdg:C100c01 sdgo:tier "II" .
+sdg:C100c01 sdgo:tier sdgo:tier_II .
 
-sdg:C110101 sdgo:tier "I" .
+sdg:C110101 sdgo:tier sdgo:tier_I .
 
-sdg:C110201 sdgo:tier "II" .
+sdg:C110201 sdgo:tier sdgo:tier_II .
 
-sdg:C110301 sdgo:tier "II" .
+sdg:C110301 sdgo:tier sdgo:tier_II .
 
-sdg:C110302 sdgo:tier "II" .
+sdg:C110302 sdgo:tier sdgo:tier_II .
 
-sdg:C110401 sdgo:tier "III" .
+sdg:C110401 sdgo:tier sdgo:tier_III .
 
-sdg:C110502 sdgo:tier "II" .
+sdg:C110502 sdgo:tier sdgo:tier_II .
 
-sdg:C110601 sdgo:tier "II" .
+sdg:C110601 sdgo:tier sdgo:tier_II .
 
-sdg:C110602 sdgo:tier "I" .
+sdg:C110602 sdgo:tier sdgo:tier_I .
 
-sdg:C110701 sdgo:tier "II" .
+sdg:C110701 sdgo:tier sdgo:tier_II .
 
-sdg:C110702 sdgo:tier "III" .
+sdg:C110702 sdgo:tier sdgo:tier_III .
 
-sdg:C110a01 sdgo:tier "III" .
+sdg:C110a01 sdgo:tier sdgo:tier_III .
 
-sdg:C110c01 sdgo:tier "III" .
+sdg:C110c01 sdgo:tier sdgo:tier_III .
 
-sdg:C120101 sdgo:tier "II" .
+sdg:C120101 sdgo:tier sdgo:tier_II .
 
-sdg:C200202 sdgo:tier "II" .
+sdg:C200202 sdgo:tier sdgo:tier_II .
 
-sdg:C200203 sdgo:tier "I" .
+sdg:C200203 sdgo:tier sdgo:tier_I .
 
-sdg:C120301 sdgo:tier "II/III" .
+sdg:C120301 sdgo:tier sdgo:tier_II, sdgo:tier_III .
 
-sdg:C120401 sdgo:tier "I" .
+sdg:C120401 sdgo:tier sdgo:tier_I .
 
-sdg:C120402 sdgo:tier "III" .
+sdg:C120402 sdgo:tier sdgo:tier_III .
 
-sdg:C120501 sdgo:tier "III" .
+sdg:C120501 sdgo:tier sdgo:tier_III .
 
-sdg:C120601 sdgo:tier "III" .
+sdg:C120601 sdgo:tier sdgo:tier_III .
 
-sdg:C120701 sdgo:tier "III" .
+sdg:C120701 sdgo:tier sdgo:tier_III .
 
-sdg:C120801 sdgo:tier "III" .
+sdg:C120801 sdgo:tier sdgo:tier_III .
 
-sdg:C120a01 sdgo:tier "III" .
+sdg:C120a01 sdgo:tier sdgo:tier_III .
 
-sdg:C120b01 sdgo:tier "III" .
+sdg:C120b01 sdgo:tier sdgo:tier_III .
 
-sdg:C120c01 sdgo:tier "II" .
+sdg:C120c01 sdgo:tier sdgo:tier_II .
 
-sdg:C130201 sdgo:tier "III" .
+sdg:C130201 sdgo:tier sdgo:tier_III .
 
-sdg:C130301 sdgo:tier "III" .
+sdg:C130301 sdgo:tier sdgo:tier_III .
 
-sdg:C130302 sdgo:tier "III" .
+sdg:C130302 sdgo:tier sdgo:tier_III .
 
-sdg:C130a01 sdgo:tier "III" .
+sdg:C130a01 sdgo:tier sdgo:tier_III .
 
-sdg:C130b01 sdgo:tier "III" .
+sdg:C130b01 sdgo:tier sdgo:tier_III .
 
-sdg:C140101 sdgo:tier "III" .
+sdg:C140101 sdgo:tier sdgo:tier_III .
 
-sdg:C140201 sdgo:tier "III" .
+sdg:C140201 sdgo:tier sdgo:tier_III .
 
-sdg:C140301 sdgo:tier "II" .
+sdg:C140301 sdgo:tier sdgo:tier_II .
 
-sdg:C140401 sdgo:tier "I" .
+sdg:C140401 sdgo:tier sdgo:tier_I .
 
-sdg:C140501 sdgo:tier "I" .
+sdg:C140501 sdgo:tier sdgo:tier_I .
 
-sdg:C140601 sdgo:tier "II" .
+sdg:C140601 sdgo:tier sdgo:tier_II .
 
-sdg:C140701 sdgo:tier "I" .
+sdg:C140701 sdgo:tier sdgo:tier_I .
 
-sdg:C140a01 sdgo:tier "II" .
+sdg:C140a01 sdgo:tier sdgo:tier_II .
 
-sdg:C140b01 sdgo:tier "II" .
+sdg:C140b01 sdgo:tier sdgo:tier_II .
 
-sdg:C140c01 sdgo:tier "III" .
+sdg:C140c01 sdgo:tier sdgo:tier_III .
 
-sdg:C150101 sdgo:tier "I" .
+sdg:C150101 sdgo:tier sdgo:tier_I .
 
-sdg:C150102 sdgo:tier "I" .
+sdg:C150102 sdgo:tier sdgo:tier_I .
 
-sdg:C150201 sdgo:tier "I" .
+sdg:C150201 sdgo:tier sdgo:tier_I .
 
-sdg:C150301 sdgo:tier "II" .
+sdg:C150301 sdgo:tier sdgo:tier_II .
 
-sdg:C150401 sdgo:tier "I" .
+sdg:C150401 sdgo:tier sdgo:tier_I .
 
-sdg:C150402 sdgo:tier "I" .
+sdg:C150402 sdgo:tier sdgo:tier_I .
 
-sdg:C150501 sdgo:tier "I" .
+sdg:C150501 sdgo:tier sdgo:tier_I .
 
-sdg:C150601 sdgo:tier "I" .
+sdg:C150601 sdgo:tier sdgo:tier_I .
 
-sdg:C200206 sdgo:tier "II" .
+sdg:C200206 sdgo:tier sdgo:tier_II .
 
-sdg:C150801 sdgo:tier "II" .
+sdg:C150801 sdgo:tier sdgo:tier_II .
 
-sdg:C150901 sdgo:tier "III" .
+sdg:C150901 sdgo:tier sdgo:tier_III .
 
-sdg:C200207 sdgo:tier "I/III" .
+sdg:C200207 sdgo:tier sdgo:tier_I, sdgo:tier_III .
 
-sdg:C161001 sdgo:tier "II" .
+sdg:C161001 sdgo:tier sdgo:tier_II .
 
-sdg:C161002 sdgo:tier "II" .
+sdg:C161002 sdgo:tier sdgo:tier_II .
 
-sdg:C160101 sdgo:tier "I" .
+sdg:C160101 sdgo:tier sdgo:tier_I .
 
-sdg:C160102 sdgo:tier "II" .
+sdg:C160102 sdgo:tier sdgo:tier_II .
 
-sdg:C160103 sdgo:tier "II" .
+sdg:C160103 sdgo:tier sdgo:tier_II .
 
-sdg:C160104 sdgo:tier "II" .
+sdg:C160104 sdgo:tier sdgo:tier_II .
 
-sdg:C160201 sdgo:tier "II" .
+sdg:C160201 sdgo:tier sdgo:tier_II .
 
-sdg:C160202 sdgo:tier "II" .
+sdg:C160202 sdgo:tier sdgo:tier_II .
 
-sdg:C160203 sdgo:tier "II" .
+sdg:C160203 sdgo:tier sdgo:tier_II .
 
-sdg:C160301 sdgo:tier "II" .
+sdg:C160301 sdgo:tier sdgo:tier_II .
 
-sdg:C160302 sdgo:tier "I" .
+sdg:C160302 sdgo:tier sdgo:tier_I .
 
-sdg:C160401 sdgo:tier "III" .
+sdg:C160401 sdgo:tier sdgo:tier_III .
 
-sdg:C160402 sdgo:tier "II" .
+sdg:C160402 sdgo:tier sdgo:tier_II .
 
-sdg:C160501 sdgo:tier "II" .
+sdg:C160501 sdgo:tier sdgo:tier_II .
 
-sdg:C160502 sdgo:tier "II" .
+sdg:C160502 sdgo:tier sdgo:tier_II .
 
-sdg:C160601 sdgo:tier "I" .
+sdg:C160601 sdgo:tier sdgo:tier_I .
 
-sdg:C160602 sdgo:tier "II" .
+sdg:C160602 sdgo:tier sdgo:tier_II .
 
-sdg:C160701 sdgo:tier "II" .
+sdg:C160701 sdgo:tier sdgo:tier_II .
 
-sdg:C160702 sdgo:tier "II" .
+sdg:C160702 sdgo:tier sdgo:tier_II .
 
-sdg:C160901 sdgo:tier "I" .
+sdg:C160901 sdgo:tier sdgo:tier_I .
 
-sdg:C160a01 sdgo:tier "I" .
+sdg:C160a01 sdgo:tier sdgo:tier_I .
 
-sdg:C171001 sdgo:tier "I" .
+sdg:C171001 sdgo:tier sdgo:tier_I .
 
-sdg:C171101 sdgo:tier "I" .
+sdg:C171101 sdgo:tier sdgo:tier_I .
 
-sdg:C171201 sdgo:tier "I" .
+sdg:C171201 sdgo:tier sdgo:tier_I .
 
-sdg:C171301 sdgo:tier "II" .
+sdg:C171301 sdgo:tier sdgo:tier_II .
 
-sdg:C171401 sdgo:tier "III" .
+sdg:C171401 sdgo:tier sdgo:tier_III .
 
-sdg:C171501 sdgo:tier "II" .
+sdg:C171501 sdgo:tier sdgo:tier_II .
 
-sdg:C171601 sdgo:tier "II" .
+sdg:C171601 sdgo:tier sdgo:tier_II .
 
-sdg:C171701 sdgo:tier "III" .
+sdg:C171701 sdgo:tier sdgo:tier_III .
 
-sdg:C171801 sdgo:tier "III" .
+sdg:C171801 sdgo:tier sdgo:tier_III .
 
-sdg:C171802 sdgo:tier "II" .
+sdg:C171802 sdgo:tier sdgo:tier_II .
 
-sdg:C171803 sdgo:tier "I" .
+sdg:C171803 sdgo:tier sdgo:tier_I .
 
-sdg:C171901 sdgo:tier "I" .
+sdg:C171901 sdgo:tier sdgo:tier_I .
 
-sdg:C171902 sdgo:tier "I" .
+sdg:C171902 sdgo:tier sdgo:tier_I .
 
-sdg:C170101 sdgo:tier "I" .
+sdg:C170101 sdgo:tier sdgo:tier_I .
 
-sdg:C170102 sdgo:tier "I" .
+sdg:C170102 sdgo:tier sdgo:tier_I .
 
-sdg:C170201 sdgo:tier "I" .
+sdg:C170201 sdgo:tier sdgo:tier_I .
 
-sdg:C170301 sdgo:tier "I" .
+sdg:C170301 sdgo:tier sdgo:tier_I .
 
-sdg:C170302 sdgo:tier "I" .
+sdg:C170302 sdgo:tier sdgo:tier_I .
 
-sdg:C170401 sdgo:tier "I" .
+sdg:C170401 sdgo:tier sdgo:tier_I .
 
-sdg:C170501 sdgo:tier "III" .
+sdg:C170501 sdgo:tier sdgo:tier_III .
 
-sdg:C170601 sdgo:tier "III" .
+sdg:C170601 sdgo:tier sdgo:tier_III .
 
-sdg:C170602 sdgo:tier "I" .
+sdg:C170602 sdgo:tier sdgo:tier_I .
 
-sdg:C170701 sdgo:tier "III" .
+sdg:C170701 sdgo:tier sdgo:tier_III .
 
-sdg:C170801 sdgo:tier "I" .
+sdg:C170801 sdgo:tier sdgo:tier_I .
 
-sdg:C170901 sdgo:tier "I" .
+sdg:C170901 sdgo:tier sdgo:tier_I .
 
-sdg:C020101 sdgo:tier "I" .
+sdg:C020101 sdgo:tier sdgo:tier_I .
 
-sdg:C020102 sdgo:tier "II" .
+sdg:C020102 sdgo:tier sdgo:tier_II .
 
-sdg:C020201 sdgo:tier "I" .
+sdg:C020201 sdgo:tier sdgo:tier_I .
 
-sdg:C020202 sdgo:tier "I" .
+sdg:C020202 sdgo:tier sdgo:tier_I .
 
-sdg:C020301 sdgo:tier "II" .
+sdg:C020301 sdgo:tier sdgo:tier_II .
 
-sdg:C020302 sdgo:tier "II" .
+sdg:C020302 sdgo:tier sdgo:tier_II .
 
-sdg:C020401 sdgo:tier "II" .
+sdg:C020401 sdgo:tier sdgo:tier_II .
 
-sdg:C020501 sdgo:tier "I" .
+sdg:C020501 sdgo:tier sdgo:tier_I .
 
-sdg:C020502 sdgo:tier "I" .
+sdg:C020502 sdgo:tier sdgo:tier_I .
 
-sdg:C020a01 sdgo:tier "I" .
+sdg:C020a01 sdgo:tier sdgo:tier_I .
 
-sdg:C020a02 sdgo:tier "I" .
+sdg:C020a02 sdgo:tier sdgo:tier_I .
 
-sdg:C020b02 sdgo:tier "I" .
+sdg:C020b02 sdgo:tier sdgo:tier_I .
 
-sdg:C020c01 sdgo:tier "II" .
+sdg:C020c01 sdgo:tier sdgo:tier_II .
 
-sdg:C030101 sdgo:tier "I" .
+sdg:C030101 sdgo:tier sdgo:tier_I .
 
-sdg:C030102 sdgo:tier "I" .
+sdg:C030102 sdgo:tier sdgo:tier_I .
 
-sdg:C030201 sdgo:tier "I" .
+sdg:C030201 sdgo:tier sdgo:tier_I .
 
-sdg:C030202 sdgo:tier "I" .
+sdg:C030202 sdgo:tier sdgo:tier_I .
 
-sdg:C030301 sdgo:tier "I" .
+sdg:C030301 sdgo:tier sdgo:tier_I .
 
-sdg:C030302 sdgo:tier "I" .
+sdg:C030302 sdgo:tier sdgo:tier_I .
 
-sdg:C030303 sdgo:tier "I" .
+sdg:C030303 sdgo:tier sdgo:tier_I .
 
-sdg:C030304 sdgo:tier "I" .
+sdg:C030304 sdgo:tier sdgo:tier_I .
 
-sdg:C030305 sdgo:tier "I" .
+sdg:C030305 sdgo:tier sdgo:tier_I .
 
-sdg:C030401 sdgo:tier "I" .
+sdg:C030401 sdgo:tier sdgo:tier_I .
 
-sdg:C030402 sdgo:tier "I" .
+sdg:C030402 sdgo:tier sdgo:tier_I .
 
-sdg:C030501 sdgo:tier "III" .
+sdg:C030501 sdgo:tier sdgo:tier_III .
 
-sdg:C030502 sdgo:tier "I" .
+sdg:C030502 sdgo:tier sdgo:tier_I .
 
-sdg:C030601 sdgo:tier "I" .
+sdg:C030601 sdgo:tier sdgo:tier_I .
 
-sdg:C030701 sdgo:tier "I" .
+sdg:C030701 sdgo:tier sdgo:tier_I .
 
-sdg:C030702 sdgo:tier "I" .
+sdg:C030702 sdgo:tier sdgo:tier_I .
 
-sdg:C030801 sdgo:tier "I" .
+sdg:C030801 sdgo:tier sdgo:tier_I .
 
-sdg:C030802 sdgo:tier "I" .
+sdg:C030802 sdgo:tier sdgo:tier_I .
 
-sdg:C030901 sdgo:tier "I" .
+sdg:C030901 sdgo:tier sdgo:tier_I .
 
-sdg:C030902 sdgo:tier "I" .
+sdg:C030902 sdgo:tier sdgo:tier_I .
 
-sdg:C030903 sdgo:tier "I" .
+sdg:C030903 sdgo:tier sdgo:tier_I .
 
-sdg:C030a01 sdgo:tier "I" .
+sdg:C030a01 sdgo:tier sdgo:tier_I .
 
-sdg:C030b01 sdgo:tier "I" .
+sdg:C030b01 sdgo:tier sdgo:tier_I .
 
-sdg:C030b02 sdgo:tier "I" .
+sdg:C030b02 sdgo:tier sdgo:tier_I .
 
-sdg:C030b03 sdgo:tier "II" .
+sdg:C030b03 sdgo:tier sdgo:tier_II .
 
-sdg:C030c01 sdgo:tier "I" .
+sdg:C030c01 sdgo:tier sdgo:tier_I .
 
-sdg:C030d01 sdgo:tier "I" .
+sdg:C030d01 sdgo:tier sdgo:tier_I .
 
-sdg:C040101 sdgo:tier "II" .
+sdg:C040101 sdgo:tier sdgo:tier_II .
 
-sdg:C040201 sdgo:tier "II/III" .
+sdg:C040201 sdgo:tier sdgo:tier_II, sdgo:tier_III .
 
-sdg:C040202 sdgo:tier "I" .
+sdg:C040202 sdgo:tier sdgo:tier_I .
 
-sdg:C040301 sdgo:tier "II" .
+sdg:C040301 sdgo:tier sdgo:tier_II .
 
-sdg:C040401 sdgo:tier "II" .
+sdg:C040401 sdgo:tier sdgo:tier_II .
 
-sdg:C040501 sdgo:tier "I/II/III" .
+sdg:C040501 sdgo:tier sdgo:tier_I, sdgo:tier_II, sdgo:tier_III .
 
-sdg:C040601 sdgo:tier "II" .
+sdg:C040601 sdgo:tier sdgo:tier_II .
 
-sdg:C040701 sdgo:tier "III" .
+sdg:C040701 sdgo:tier sdgo:tier_III .
 
-sdg:C040a01 sdgo:tier "II" .
+sdg:C040a01 sdgo:tier sdgo:tier_II .
 
-sdg:C040b01 sdgo:tier "I" .
+sdg:C040b01 sdgo:tier sdgo:tier_I .
 
-sdg:C040c01 sdgo:tier "II" .
+sdg:C040c01 sdgo:tier sdgo:tier_II .
 
-sdg:C050101 sdgo:tier "II" .
+sdg:C050101 sdgo:tier sdgo:tier_II .
 
-sdg:C050201 sdgo:tier "II" .
+sdg:C050201 sdgo:tier sdgo:tier_II .
 
-sdg:C050202 sdgo:tier "II" .
+sdg:C050202 sdgo:tier sdgo:tier_II .
 
-sdg:C050301 sdgo:tier "I" .
+sdg:C050301 sdgo:tier sdgo:tier_I .
 
-sdg:C050302 sdgo:tier "I" .
+sdg:C050302 sdgo:tier sdgo:tier_I .
 
-sdg:C050401 sdgo:tier "II" .
+sdg:C050401 sdgo:tier sdgo:tier_II .
 
-sdg:C050501 sdgo:tier "I/II" .
+sdg:C050501 sdgo:tier sdgo:tier_I, sdgo:tier_II .
 
-sdg:C050502 sdgo:tier "I" .
+sdg:C050502 sdgo:tier sdgo:tier_I .
 
-sdg:C050601 sdgo:tier "II" .
+sdg:C050601 sdgo:tier sdgo:tier_II .
 
-sdg:C050602 sdgo:tier "II" .
+sdg:C050602 sdgo:tier sdgo:tier_II .
 
-sdg:C050a01 sdgo:tier "II" .
+sdg:C050a01 sdgo:tier sdgo:tier_II .
 
-sdg:C050a02 sdgo:tier "II" .
+sdg:C050a02 sdgo:tier sdgo:tier_II .
 
-sdg:C050b01 sdgo:tier "II" .
+sdg:C050b01 sdgo:tier sdgo:tier_II .
 
-sdg:C050c01 sdgo:tier "II" .
+sdg:C050c01 sdgo:tier sdgo:tier_II .
 
-sdg:C060101 sdgo:tier "II" .
+sdg:C060101 sdgo:tier sdgo:tier_II .
 
-sdg:C060201 sdgo:tier "II" .
+sdg:C060201 sdgo:tier sdgo:tier_II .
 
-sdg:C060301 sdgo:tier "II" .
+sdg:C060301 sdgo:tier sdgo:tier_II .
 
-sdg:C060302 sdgo:tier "II" .
+sdg:C060302 sdgo:tier sdgo:tier_II .
 
-sdg:C060401 sdgo:tier "II" .
+sdg:C060401 sdgo:tier sdgo:tier_II .
 
-sdg:C060402 sdgo:tier "I" .
+sdg:C060402 sdgo:tier sdgo:tier_I .
 
-sdg:C060501 sdgo:tier "I" .
+sdg:C060501 sdgo:tier sdgo:tier_I .
 
-sdg:C060502 sdgo:tier "I" .
+sdg:C060502 sdgo:tier sdgo:tier_I .
 
-sdg:C060601 sdgo:tier "I" .
+sdg:C060601 sdgo:tier sdgo:tier_I .
 
-sdg:C060a01 sdgo:tier "I" .
+sdg:C060a01 sdgo:tier sdgo:tier_I .
 
-sdg:C060b01 sdgo:tier "I" .
+sdg:C060b01 sdgo:tier sdgo:tier_I .
 
-sdg:C070101 sdgo:tier "I" .
+sdg:C070101 sdgo:tier sdgo:tier_I .
 
-sdg:C070102 sdgo:tier "I" .
+sdg:C070102 sdgo:tier sdgo:tier_I .
 
-sdg:C070201 sdgo:tier "I" .
+sdg:C070201 sdgo:tier sdgo:tier_I .
 
-sdg:C070301 sdgo:tier "I" .
+sdg:C070301 sdgo:tier sdgo:tier_I .
 
-sdg:C070a01 sdgo:tier "II" .
+sdg:C070a01 sdgo:tier sdgo:tier_II .
 
-sdg:C070b01 sdgo:tier "III" .
+sdg:C070b01 sdgo:tier sdgo:tier_III .
 
-sdg:C081001 sdgo:tier "I" .
+sdg:C081001 sdgo:tier sdgo:tier_I .
 
-sdg:C081002 sdgo:tier "I" .
+sdg:C081002 sdgo:tier sdgo:tier_I .
 
-sdg:C080101 sdgo:tier "I" .
+sdg:C080101 sdgo:tier sdgo:tier_I .
 
-sdg:C080201 sdgo:tier "I" .
+sdg:C080201 sdgo:tier sdgo:tier_I .
 
-sdg:C080301 sdgo:tier "II" .
+sdg:C080301 sdgo:tier sdgo:tier_II .
 
-sdg:C080501 sdgo:tier "II" .
+sdg:C080501 sdgo:tier sdgo:tier_II .
 
-sdg:C080502 sdgo:tier "I" .
+sdg:C080502 sdgo:tier sdgo:tier_I .
 
-sdg:C080601 sdgo:tier "I" .
+sdg:C080601 sdgo:tier sdgo:tier_I .
 
-sdg:C080701 sdgo:tier "II" .
+sdg:C080701 sdgo:tier sdgo:tier_II .
 
-sdg:C080801 sdgo:tier "II" .
+sdg:C080801 sdgo:tier sdgo:tier_II .
 
-sdg:C080802 sdgo:tier "II" .
+sdg:C080802 sdgo:tier sdgo:tier_II .
 
-sdg:C080901 sdgo:tier "II" .
+sdg:C080901 sdgo:tier sdgo:tier_II .
 
-sdg:C080902 sdgo:tier "III" .
+sdg:C080902 sdgo:tier sdgo:tier_III .
 
-sdg:C080a01 sdgo:tier "I" .
+sdg:C080a01 sdgo:tier sdgo:tier_I .
 
-sdg:C080b01 sdgo:tier "II" .
+sdg:C080b01 sdgo:tier sdgo:tier_II .
 
-sdg:C090101 sdgo:tier "II" .
+sdg:C090101 sdgo:tier sdgo:tier_II .
 
-sdg:C090102 sdgo:tier "I" .
+sdg:C090102 sdgo:tier sdgo:tier_I .
 
-sdg:C090201 sdgo:tier "I" .
+sdg:C090201 sdgo:tier sdgo:tier_I .
 
-sdg:C090202 sdgo:tier "I" .
+sdg:C090202 sdgo:tier sdgo:tier_I .
 
-sdg:C090301 sdgo:tier "II" .
+sdg:C090301 sdgo:tier sdgo:tier_II .
 
-sdg:C090302 sdgo:tier "II" .
+sdg:C090302 sdgo:tier sdgo:tier_II .
 
-sdg:C090401 sdgo:tier "I" .
+sdg:C090401 sdgo:tier sdgo:tier_I .
 
-sdg:C090501 sdgo:tier "I" .
+sdg:C090501 sdgo:tier sdgo:tier_I .
 
-sdg:C090502 sdgo:tier "I" .
+sdg:C090502 sdgo:tier sdgo:tier_I .
 
-sdg:C090a01 sdgo:tier "I" .
+sdg:C090a01 sdgo:tier sdgo:tier_I .
 
-sdg:C090b01 sdgo:tier "I" .
+sdg:C090b01 sdgo:tier sdgo:tier_I .
 
-sdg:C090c01 sdgo:tier "I" .
+sdg:C090c01 sdgo:tier sdgo:tier_I .
