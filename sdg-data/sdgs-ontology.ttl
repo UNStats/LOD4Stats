@@ -1,4 +1,4 @@
-@prefix : <http://data.un.org/ontology/sdg#> .
+@prefix : <http://metadata.un.org/sdg/ontology#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -8,7 +8,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-<http://data.un.org/ontology/sdg> a owl:Ontology;
+<http://metadata.un.org/sdg/ontology> a owl:Ontology;
   rdfs:label "Sustainable Development Goals Ontology"@en .
 
 ## Classes ##

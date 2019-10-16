@@ -1,7 +1,12 @@
-@prefix sdg: <http://data.un.org/kos/sdg/> .
-@prefix sdgo: <http://data.un.org/ontology/sdg#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdg: <http://metadata.un.org/sdg/> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
+#List all goals in the same order as identified in GA resolution
+sdg:Goals a skos:OrderedCollection ;
+    skos:memberList ( sdg:1 sdg:2 sdg:3 sdg:4 sdg:5 sdg:6 sdg:7 sdg:8 sdg:9 sdg:10 sdg:11 sdg:12 sdg:12 sdg:13 sdg:14 sdg:15 sdg:16 sdg:17).
 sdg:1.1 a sdgo:Target, skos:Concept .
 
 sdg:C010101 a sdgo:Indicator, skos:Concept .
@@ -838,7 +843,7 @@ sdg:C090c01 a sdgo:Indicator, skos:Concept .
 
 sdg:9 a sdgo:Goal, skos:Concept .
 
-<http://data.un.org/kos/sdg> a owl:Ontology, skos:ConceptScheme .
+<http://metadata.un.org/sdg> a owl:Ontology, skos:ConceptScheme .
 
 sdg:1.1 skos:prefLabel "By 2030, eradicate extreme poverty for all people everywhere, currently measured as people living on less than $1.25 a day"@en,
     "De aquí a 2030, erradicar para todas las personas y en todo el mundo la pobreza extrema (actualmente se considera que sufren pobreza extrema las personas que viven con menos de 1,25 dólares de los Estados Unidos al día)"@es,
@@ -1122,9 +1127,9 @@ sdg:C200202 skos:prefLabel "Empreinte matérielle, empreinte matérielle par hab
 
 sdg:C200203 skos:prefLabel "Consommation matérielle nationale, consommation matérielle nationale par habitant et consommation matérielle nationale par unité de PIB "@fr,
     "Consumo material interno en términos absolutos, consumo material interno per cápita y consumo material interno por PIB"@es,
-    "Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP"@en .
+    "Domestic material consumption, domestic material consumption per capita,  and domestic material consumption per GDP"@en .
 
-sdg:12.3 skos:prefLabel "By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses"@en,
+sdg:12.3 skos:prefLabel "By 2030,halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses"@en,
     "De aquí a 2030, reducir a la mitad el desperdicio de alimentos per cápita mundial en la venta al por menor y a nivel de los consumidores y reducir las pérdidas de alimentos en las cadenas de producción y suministro, incluidas las pérdidas posteriores a la cosecha"@es,
     "D’ici à 2030, réduire de moitié à l’échelle mondiale le volume de déchets alimentaires par habitant, au niveau de la distribution comme de la consommation, et diminuer les pertes de produits alimentaires tout au long des chaînes de production et d’approvisionnement, y compris les pertes après récolte"@fr .
 
@@ -1578,9 +1583,9 @@ sdg:C171201 skos:prefLabel "Average tariffs faced by developing countries, least
 
 sdg:17.13 skos:prefLabel "Aumentar la estabilidad macroeconómica mundial, incluso mediante la coordinación y coherencia de las políticas"@es,
     "Enhance global macroeconomic stability, including through policy coordination and policy coherence"@en,
-    "Renforcer la stabilité macroéconomique mondiale, notamment en favorisant la coordination et la cohérence des politiques"@fr .
+    "Renforcer la stabilité macroéconomique mondiale, notamment en favorisant la coordination et la  and domestic material consumption per GDP"@en .
 
-sdg:C171301 skos:prefLabel "Macroeconomic Dashboard"@en, "Tableau de bord macroéconomique"@fr,
+sdg:12.3 skos:prefLabel "By 2030,d"@en, "Tableau de bord macroéconomique"@fr,
     "Tablero macroeconómico"@es .
 
 sdg:17.14 skos:prefLabel "Enhance policy coherence for sustainable development"@en,
@@ -2453,843 +2458,845 @@ sdg:9 skos:prefLabel "Build resilient infrastructure, promote inclusive and sust
     "Bâtir une infrastructure résiliente, promouvoir une industrialisation durable qui profite à tous et encourager l’innovation"@fr,
     "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación"@es .
 
-<http://data.un.org/kos/sdg> skos:prefLabel "Sustainable Development Goals Taxonomy"@en .
+<http://metadata.un.org/sdg> skos:prefLabel "Sustainable Development Goals Taxonomy"@en .
 
-sdg:1.1 skos:inScheme <http://data.un.org/kos/sdg> .
+<http://metadata.un.org/sdg> skos:hasTopConcept sdg:1, sdg:2, sdg:3, sdg:4, sdg:5, sdg:6, sdg:7, sdg:8, sdg:9, sdg:10, sdg:11, sdg:12, sdg:12, sdg:13, sdg:14, sdg:15, sdg:16, sdg:17 .
 
-sdg:C010101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200303 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200304 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200303 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200305 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200304 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200305 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010a02 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010a03 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010a02 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010a03 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C010b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C010b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200204 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200204 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200205 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200205 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100702 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100702 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C100c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:10 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C100c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:10 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110602 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110602 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110702 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110702 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C110c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:11 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C110c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:11 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200203 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200203 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C120c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:12 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C120c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:12 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C130201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C130201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C130301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C130302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C130301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C130302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C130a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C130a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C130b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:13 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C130b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:13 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C140c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:14 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C140c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:14 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200206 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200206 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C150901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.9 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C150901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C200207 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C200207 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:15 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.10 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:15 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C161001 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.10 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C161002 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C161001 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C161002 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160103 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160104 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160103 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160104 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160203 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160203 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160602 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160602 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160702 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160702 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.9 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C160a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C160a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:16 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.10 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:16 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171001 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.10 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.11 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171001 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.11 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.12 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.12 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.13 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.13 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.14 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.14 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.15 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.15 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.16 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.16 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.17 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.17 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.18 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.18 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171802 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171803 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171802 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.19 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171803 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.19 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C171902 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C171902 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170602 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170602 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17.9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C170901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17.9 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:17 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C170901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:17 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020a02 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020a02 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020b02 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020b02 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C020c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C020c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030303 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030304 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030303 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030305 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030304 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030305 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030702 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030702 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030802 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030802 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.9 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030902 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030903 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030902 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030903 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030b02 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030b03 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030b02 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030b03 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3.d skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C030d01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3.d skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C030d01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C040c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C040c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050602 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050602 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050a02 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050a02 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C050c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C050c01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060402 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060402 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C060b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C060b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C070b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C070b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.10 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C081001 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.10 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C081002 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C081001 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C081002 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.6 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080601 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.6 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.7 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080601 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080701 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.7 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080701 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080801 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080802 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080801 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080802 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080901 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.9 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080902 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080901 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080902 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C080b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:8 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C080b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.1 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:8 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090101 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.1 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090102 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090101 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.2 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090102 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090201 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.2 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090202 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090201 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.3 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090202 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090301 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.3 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090302 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090301 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.4 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090302 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090401 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.4 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.5 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090401 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090501 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.5 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090502 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090501 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.a skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090502 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090a01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.a skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.b skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090a01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090b01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.b skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9.c skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090b01 skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:C090c01 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:9.c skos:inScheme <http://metadata.un.org/sdg> .
 
-sdg:9 skos:inScheme <http://data.un.org/kos/sdg> .
+sdg:C090c01 skos:inScheme <http://metadata.un.org/sdg> .
+
+sdg:9 skos:inScheme <http://metadata.un.org/sdg> .
 
 sdg:1.1 skos:notation "01.01", "1.1" .
 
@@ -4932,858 +4939,892 @@ sdg:9.c skos:broader sdg:9 .
 
 sdg:C090c01 skos:broader sdg:9.c .
 
-sdg:1.1 skos:altLabel "Cible 1.1"@fr, "Meta 1.1"@es, "Target 1.1"@en .
+sdg:1.1 skos:note "Cible 1.1"@fr, "Meta 1.1"@es, "Target 1.1"@en .
 
-sdg:C010101 skos:altLabel "Indicador 1.1.1"@es, "Indicateur 1.1.1"@fr, "Indicator 1.1.1"@en .
+sdg:C010101 skos:note "Indicador 1.1.1"@es, "Indicateur 1.1.1"@fr, "Indicator 1.1.1"@en .
 
-sdg:1.2 skos:altLabel "Cible 1.2"@fr, "Meta 1.2"@es, "Target 1.2"@en .
+sdg:1.2 skos:note "Cible 1.2"@fr, "Meta 1.2"@es, "Target 1.2"@en .
 
-sdg:C010201 skos:altLabel "Indicador 1.2.1"@es, "Indicateur 1.2.1"@fr, "Indicator 1.2.1"@en .
+sdg:C010201 skos:note "Indicador 1.2.1"@es, "Indicateur 1.2.1"@fr, "Indicator 1.2.1"@en .
 
-sdg:C010202 skos:altLabel "Indicador 1.2.2"@es, "Indicateur 1.2.2"@fr, "Indicator 1.2.2"@en .
+sdg:C010202 skos:note "Indicador 1.2.2"@es, "Indicateur 1.2.2"@fr, "Indicator 1.2.2"@en .
 
-sdg:1.3 skos:altLabel "Cible 1.3"@fr, "Meta 1.3"@es, "Target 1.3"@en .
+sdg:1.3 skos:note "Cible 1.3"@fr, "Meta 1.3"@es, "Target 1.3"@en .
 
-sdg:C010301 skos:altLabel "Indicador 1.3.1"@es, "Indicateur 1.3.1"@fr, "Indicator 1.3.1"@en .
+sdg:C010301 skos:note "Indicador 1.3.1"@es, "Indicateur 1.3.1"@fr, "Indicator 1.3.1"@en .
 
-sdg:1.4 skos:altLabel "Cible 1.4"@fr, "Meta 1.4"@es, "Target 1.4"@en .
+sdg:1.4 skos:note "Cible 1.4"@fr, "Meta 1.4"@es, "Target 1.4"@en .
 
-sdg:C010401 skos:altLabel "Indicador 1.4.1"@es, "Indicateur 1.4.1"@fr, "Indicator 1.4.1"@en .
+sdg:C010401 skos:note "Indicador 1.4.1"@es, "Indicateur 1.4.1"@fr, "Indicator 1.4.1"@en .
 
-sdg:C010402 skos:altLabel "Indicador 1.4.2"@es, "Indicateur 1.4.2"@fr, "Indicator 1.4.2"@en .
+sdg:C010402 skos:note "Indicador 1.4.2"@es, "Indicateur 1.4.2"@fr, "Indicator 1.4.2"@en .
 
-sdg:1.5 skos:altLabel "Cible 1.5"@fr, "Meta 1.5"@es, "Target 1.5"@en .
+sdg:1.5 skos:note "Cible 1.5"@fr, "Meta 1.5"@es, "Target 1.5"@en .
 
-sdg:C010502 skos:altLabel "Indicador 1.5.2"@es, "Indicateur 1.5.2"@fr, "Indicator 1.5.2"@en .
+sdg:C010502 skos:note "Indicador 1.5.2"@es, "Indicateur 1.5.2"@fr, "Indicator 1.5.2"@en .
 
-sdg:C200303 skos:altLabel "Indicador 1.5.1"@es, "Indicador 11.5.1"@es, "Indicador 13.1.1"@es,
+sdg:C200303 skos:note "Indicador 1.5.1"@es, "Indicador 11.5.1"@es, "Indicador 13.1.1"@es,
     "Indicateur 1.5.1"@fr, "Indicateur 11.5.1"@fr, "Indicateur 13.1.1"@fr, "Indicator 1.5.1"@en,
     "Indicator 11.5.1"@en, "Indicator 13.1.1"@en .
 
-sdg:C200304 skos:altLabel "Indicador 1.5.3"@es, "Indicador 11.b.1"@es, "Indicador 13.1.2"@es,
+sdg:C200304 skos:note "Indicador 1.5.3"@es, "Indicador 11.b.1"@es, "Indicador 13.1.2"@es,
     "Indicateur 1.5.3"@fr, "Indicateur 11.b.1"@fr, "Indicateur 13.1.2"@fr, "Indicator 1.5.3"@en,
     "Indicator 11.b.1"@en, "Indicator 13.1.2"@en .
 
-sdg:C200305 skos:altLabel "Indicador 1.5.4"@es, "Indicador 11.b.2"@es, "Indicador 13.1.3"@es,
+sdg:C200305 skos:note "Indicador 1.5.4"@es, "Indicador 11.b.2"@es, "Indicador 13.1.3"@es,
     "Indicateur 1.5.4"@fr, "Indicateur 11.b.2"@fr, "Indicateur 13.1.3"@fr, "Indicator 1.5.4"@en,
     "Indicator 11.b.2"@en, "Indicator 13.1.3"@en .
 
-sdg:1.a skos:altLabel "Cible 1.a"@fr, "Meta 1.a"@es, "Target 1.a"@en .
+sdg:1.a skos:note "Cible 1.a"@fr, "Meta 1.a"@es, "Target 1.a"@en .
 
-sdg:C010a01 skos:altLabel "Indicador 1.a.1"@es, "Indicateur 1.a.1"@fr, "Indicator 1.a.1"@en .
+sdg:C010a01 skos:note "Indicador 1.a.1"@es, "Indicateur 1.a.1"@fr, "Indicator 1.a.1"@en .
 
-sdg:C010a02 skos:altLabel "Indicador 1.a.2"@es, "Indicateur 1.a.2"@fr, "Indicator 1.a.2"@en .
+sdg:C010a02 skos:note "Indicador 1.a.2"@es, "Indicateur 1.a.2"@fr, "Indicator 1.a.2"@en .
 
-sdg:C010a03 skos:altLabel "Indicador 1.a.3"@es, "Indicateur 1.a.3"@fr, "Indicator 1.a.3"@en .
+sdg:C010a03 skos:note "Indicador 1.a.3"@es, "Indicateur 1.a.3"@fr, "Indicator 1.a.3"@en .
 
-sdg:1.b skos:altLabel "Cible 1.b"@fr, "Meta 1.b"@es, "Target 1.b"@en .
+sdg:1.b skos:note "Cible 1.b"@fr, "Meta 1.b"@es, "Target 1.b"@en .
 
-sdg:C010b01 skos:altLabel "Indicador 1.b.1"@es, "Indicateur 1.b.1"@fr, "Indicator 1.b.1"@en .
+sdg:C010b01 skos:note "Indicador 1.b.1"@es, "Indicateur 1.b.1"@fr, "Indicator 1.b.1"@en .
 
-sdg:10.1 skos:altLabel "Cible 10.1"@fr, "Meta 10.1"@es, "Target 10.1"@en .
+sdg:10.1 skos:note "Cible 10.1"@fr, "Meta 10.1"@es, "Target 10.1"@en .
 
-sdg:C100101 skos:altLabel "Indicador 10.1.1"@es, "Indicateur 10.1.1"@fr, "Indicator 10.1.1"@en .
+sdg:C100101 skos:note "Indicador 10.1.1"@es, "Indicateur 10.1.1"@fr, "Indicator 10.1.1"@en .
 
-sdg:10.2 skos:altLabel "Cible 10.2"@fr, "Meta 10.2"@es, "Target 10.2"@en .
+sdg:10.2 skos:note "Cible 10.2"@fr, "Meta 10.2"@es, "Target 10.2"@en .
 
-sdg:C100201 skos:altLabel "Indicador 10.2.1"@es, "Indicateur 10.2.1"@fr, "Indicator 10.2.1"@en .
+sdg:C100201 skos:note "Indicador 10.2.1"@es, "Indicateur 10.2.1"@fr, "Indicator 10.2.1"@en .
 
-sdg:10.3 skos:altLabel "Cible 10.3"@fr, "Meta 10.3"@es, "Target 10.3"@en .
+sdg:10.3 skos:note "Cible 10.3"@fr, "Meta 10.3"@es, "Target 10.3"@en .
 
-sdg:C200204 skos:altLabel "Indicador 10.3.1"@es, "Indicador 16.b.1"@es, "Indicateur 10.3.1"@fr,
+sdg:C200204 skos:note "Indicador 10.3.1"@es, "Indicador 16.b.1"@es, "Indicateur 10.3.1"@fr,
     "Indicateur 16.b.1"@fr, "Indicator 10.3.1"@en, "Indicator 16.b.1"@en .
 
-sdg:10.4 skos:altLabel "Cible 10.4"@fr, "Meta 10.4"@es, "Target 10.4"@en .
+sdg:10.4 skos:note "Cible 10.4"@fr, "Meta 10.4"@es, "Target 10.4"@en .
 
-sdg:C100401 skos:altLabel "Indicador 10.4.1"@es, "Indicateur 10.4.1"@fr, "Indicator 10.4.1"@en .
+sdg:C100401 skos:note "Indicador 10.4.1"@es, "Indicateur 10.4.1"@fr, "Indicator 10.4.1"@en .
 
-sdg:10.5 skos:altLabel "Cible 10.5"@fr, "Meta 10.5"@es, "Target 10.5"@en .
+sdg:10.5 skos:note "Cible 10.5"@fr, "Meta 10.5"@es, "Target 10.5"@en .
 
-sdg:C100501 skos:altLabel "Indicador 10.5.1"@es, "Indicateur 10.5.1"@fr, "Indicator 10.5.1"@en .
+sdg:C100501 skos:note "Indicador 10.5.1"@es, "Indicateur 10.5.1"@fr, "Indicator 10.5.1"@en .
 
-sdg:10.6 skos:altLabel "Cible 10.6"@fr, "Meta 10.6"@es, "Target 10.6"@en .
+sdg:10.6 skos:note "Cible 10.6"@fr, "Meta 10.6"@es, "Target 10.6"@en .
 
-sdg:C200205 skos:altLabel "Indicador 10.6.1"@es, "Indicador 16.8.1"@es, "Indicateur 10.6.1"@fr,
+sdg:C200205 skos:note "Indicador 10.6.1"@es, "Indicador 16.8.1"@es, "Indicateur 10.6.1"@fr,
     "Indicateur 16.8.1"@fr, "Indicator 10.6.1"@en, "Indicator 16.8.1"@en .
 
-sdg:10.7 skos:altLabel "Cible 10.7"@fr, "Meta 10.7"@es, "Target 10.7"@en .
+sdg:10.7 skos:note "Cible 10.7"@fr, "Meta 10.7"@es, "Target 10.7"@en .
 
-sdg:C100701 skos:altLabel "Indicador 10.7.1"@es, "Indicateur 10.7.1"@fr, "Indicator 10.7.1"@en .
+sdg:C100701 skos:note "Indicador 10.7.1"@es, "Indicateur 10.7.1"@fr, "Indicator 10.7.1"@en .
 
-sdg:C100702 skos:altLabel "Indicador 10.7.2"@es, "Indicateur 10.7.2"@fr, "Indicator 10.7.2"@en .
+sdg:C100702 skos:note "Indicador 10.7.2"@es, "Indicateur 10.7.2"@fr, "Indicator 10.7.2"@en .
 
-sdg:10.a skos:altLabel "Cible 10.a"@fr, "Meta 10.a"@es, "Target 10.a"@en .
+sdg:10.a skos:note "Cible 10.a"@fr, "Meta 10.a"@es, "Target 10.a"@en .
 
-sdg:C100a01 skos:altLabel "Indicador 10.a.1"@es, "Indicateur 10.a.1"@fr, "Indicator 10.a.1"@en .
+sdg:C100a01 skos:note "Indicador 10.a.1"@es, "Indicateur 10.a.1"@fr, "Indicator 10.a.1"@en .
 
-sdg:10.b skos:altLabel "Cible 10.b"@fr, "Meta 10.b"@es, "Target 10.b"@en .
+sdg:10.b skos:note "Cible 10.b"@fr, "Meta 10.b"@es, "Target 10.b"@en .
 
-sdg:C100b01 skos:altLabel "Indicador 10.b.1"@es, "Indicateur 10.b.1"@fr, "Indicator 10.b.1"@en .
+sdg:C100b01 skos:note "Indicador 10.b.1"@es, "Indicateur 10.b.1"@fr, "Indicator 10.b.1"@en .
 
-sdg:10.c skos:altLabel "Cible 10.c"@fr, "Meta 10.c"@es, "Target 10.c"@en .
+sdg:10.c skos:note "Cible 10.c"@fr, "Meta 10.c"@es, "Target 10.c"@en .
 
-sdg:C100c01 skos:altLabel "Indicador 10.c.1"@es, "Indicateur 10.c.1"@fr, "Indicator 10.c.1"@en .
+sdg:C100c01 skos:note "Indicador 10.c.1"@es, "Indicateur 10.c.1"@fr, "Indicator 10.c.1"@en .
 
-sdg:10 skos:altLabel "Goal 10"@en, "Objectif 10"@fr, "Objetivo 10"@es, "Reduced inequalities"@en .
+sdg:10 skos:note "Goal 10"@en, "Objectif 10"@fr, "Objetivo 10"@es .
 
-sdg:11.1 skos:altLabel "Cible 11.1"@fr, "Meta 11.1"@es, "Target 11.1"@en .
+sdg:10 skos:altLabel "Reduced inequalities"@en .
 
-sdg:C110101 skos:altLabel "Indicador 11.1.1"@es, "Indicateur 11.1.1"@fr, "Indicator 11.1.1"@en .
+sdg:11.1 skos:note "Cible 11.1"@fr, "Meta 11.1"@es, "Target 11.1"@en .
 
-sdg:11.2 skos:altLabel "Cible 11.2"@fr, "Meta 11.2"@es, "Target 11.2"@en .
+sdg:C110101 skos:note "Indicador 11.1.1"@es, "Indicateur 11.1.1"@fr, "Indicator 11.1.1"@en .
 
-sdg:C110201 skos:altLabel "Indicador 11.2.1"@es, "Indicateur 11.2.1"@fr, "Indicator 11.2.1"@en .
+sdg:11.2 skos:note "Cible 11.2"@fr, "Meta 11.2"@es, "Target 11.2"@en .
 
-sdg:11.3 skos:altLabel "Cible 11.3"@fr, "Meta 11.3"@es, "Target 11.3"@en .
+sdg:C110201 skos:note "Indicador 11.2.1"@es, "Indicateur 11.2.1"@fr, "Indicator 11.2.1"@en .
 
-sdg:C110301 skos:altLabel "Indicador 11.3.1"@es, "Indicateur 11.3.1"@fr, "Indicator 11.3.1"@en .
+sdg:11.3 skos:note "Cible 11.3"@fr, "Meta 11.3"@es, "Target 11.3"@en .
 
-sdg:C110302 skos:altLabel "Indicador 11.3.2"@es, "Indicateur 11.3.2"@fr, "Indicator 11.3.2"@en .
+sdg:C110301 skos:note "Indicador 11.3.1"@es, "Indicateur 11.3.1"@fr, "Indicator 11.3.1"@en .
 
-sdg:11.4 skos:altLabel "Cible 11.4"@fr, "Meta 11.4"@es, "Target 11.4"@en .
+sdg:C110302 skos:note "Indicador 11.3.2"@es, "Indicateur 11.3.2"@fr, "Indicator 11.3.2"@en .
 
-sdg:C110401 skos:altLabel "Indicador 11.4.1"@es, "Indicateur 11.4.1"@fr, "Indicator 11.4.1"@en .
+sdg:11.4 skos:note "Cible 11.4"@fr, "Meta 11.4"@es, "Target 11.4"@en .
 
-sdg:11.5 skos:altLabel "Cible 11.5"@fr, "Meta 11.5"@es, "Target 11.5"@en .
+sdg:C110401 skos:note "Indicador 11.4.1"@es, "Indicateur 11.4.1"@fr, "Indicator 11.4.1"@en .
 
-sdg:C110502 skos:altLabel "Indicador 11.5.2"@es, "Indicateur 11.5.2"@fr, "Indicator 11.5.2"@en .
+sdg:11.5 skos:note "Cible 11.5"@fr, "Meta 11.5"@es, "Target 11.5"@en .
 
-sdg:11.6 skos:altLabel "Cible 11.6"@fr, "Meta 11.6"@es, "Target 11.6"@en .
+sdg:C110502 skos:note "Indicador 11.5.2"@es, "Indicateur 11.5.2"@fr, "Indicator 11.5.2"@en .
 
-sdg:C110601 skos:altLabel "Indicador 11.6.1"@es, "Indicateur 11.6.1"@fr, "Indicator 11.6.1"@en .
+sdg:11.6 skos:note "Cible 11.6"@fr, "Meta 11.6"@es, "Target 11.6"@en .
 
-sdg:C110602 skos:altLabel "Indicador 11.6.2"@es, "Indicateur 11.6.2"@fr, "Indicator 11.6.2"@en .
+sdg:C110601 skos:note "Indicador 11.6.1"@es, "Indicateur 11.6.1"@fr, "Indicator 11.6.1"@en .
 
-sdg:11.7 skos:altLabel "Cible 11.7"@fr, "Meta 11.7"@es, "Target 11.7"@en .
+sdg:C110602 skos:note "Indicador 11.6.2"@es, "Indicateur 11.6.2"@fr, "Indicator 11.6.2"@en .
 
-sdg:C110701 skos:altLabel "Indicador 11.7.1"@es, "Indicateur 11.7.1"@fr, "Indicator 11.7.1"@en .
+sdg:11.7 skos:note "Cible 11.7"@fr, "Meta 11.7"@es, "Target 11.7"@en .
 
-sdg:C110702 skos:altLabel "Indicador 11.7.2"@es, "Indicateur 11.7.2"@fr, "Indicator 11.7.2"@en .
+sdg:C110701 skos:note "Indicador 11.7.1"@es, "Indicateur 11.7.1"@fr, "Indicator 11.7.1"@en .
 
-sdg:11.a skos:altLabel "Cible 11.a"@fr, "Meta 11.a"@es, "Target 11.a"@en .
+sdg:C110702 skos:note "Indicador 11.7.2"@es, "Indicateur 11.7.2"@fr, "Indicator 11.7.2"@en .
 
-sdg:C110a01 skos:altLabel "Indicador 11.a.1"@es, "Indicateur 11.a.1"@fr, "Indicator 11.a.1"@en .
+sdg:11.a skos:note "Cible 11.a"@fr, "Meta 11.a"@es, "Target 11.a"@en .
 
-sdg:11.b skos:altLabel "Cible 11.b"@fr, "Meta 11.b"@es, "Target 11.b"@en .
+sdg:C110a01 skos:note "Indicador 11.a.1"@es, "Indicateur 11.a.1"@fr, "Indicator 11.a.1"@en .
 
-sdg:11.c skos:altLabel "Cible 11.c"@fr, "Meta 11.c"@es, "Target 11.c"@en .
+sdg:11.b skos:note "Cible 11.b"@fr, "Meta 11.b"@es, "Target 11.b"@en .
 
-sdg:C110c01 skos:altLabel "Indicador 11.c.1"@es, "Indicateur 11.c.1"@fr, "Indicator 11.c.1"@en .
+sdg:11.c skos:note "Cible 11.c"@fr, "Meta 11.c"@es, "Target 11.c"@en .
 
-sdg:11 skos:altLabel "Goal 11"@en, "Objectif 11"@fr, "Objetivo 11"@es, "Sustainable cities and communities"@en .
+sdg:C110c01 skos:note "Indicador 11.c.1"@es, "Indicateur 11.c.1"@fr, "Indicator 11.c.1"@en .
 
-sdg:12.1 skos:altLabel "Cible 12.1"@fr, "Meta 12.1"@es, "Target 12.1"@en .
+sdg:11 skos:note "Goal 11"@en, "Objectif 11"@fr, "Objetivo 11"@es .
 
-sdg:C120101 skos:altLabel "Indicador 12.1.1"@es, "Indicateur 12.1.1"@fr, "Indicator 12.1.1"@en .
+sdg:11 skos:altLabel "Sustainable cities and communities"@en .
 
-sdg:12.2 skos:altLabel "Cible 12.2"@fr, "Meta 12.2"@es, "Target 12.2"@en .
+sdg:12.1 skos:note "Cible 12.1"@fr, "Meta 12.1"@es, "Target 12.1"@en .
 
-sdg:C200202 skos:altLabel "Indicador 12.2.1"@es, "Indicador 8.4.1"@es, "Indicateur 12.2.1"@fr,
+sdg:C120101 skos:note "Indicador 12.1.1"@es, "Indicateur 12.1.1"@fr, "Indicator 12.1.1"@en .
+
+sdg:12.2 skos:note "Cible 12.2"@fr, "Meta 12.2"@es, "Target 12.2"@en .
+
+sdg:C200202 skos:note "Indicador 12.2.1"@es, "Indicador 8.4.1"@es, "Indicateur 12.2.1"@fr,
     "Indicateur 8.4.1"@fr, "Indicator 12.2.1"@en, "Indicator 8.4.1"@en .
 
-sdg:C200203 skos:altLabel "Indicador 12.2.2"@es, "Indicador 8.4.2"@es, "Indicateur 12.2.2"@fr,
+sdg:C200203 skos:note "Indicador 12.2.2"@es, "Indicador 8.4.2"@es, "Indicateur 12.2.2"@fr,
     "Indicateur 8.4.2"@fr, "Indicator 12.2.2"@en, "Indicator 8.4.2"@en .
 
-sdg:12.3 skos:altLabel "Cible 12.3"@fr, "Meta 12.3"@es, "Target 12.3"@en .
+sdg:12.3 skos:note "Cible 12.3"@fr, "Meta 12.3"@es, "Target 12.3"@en .
 
-sdg:C120301 skos:altLabel "Indicador 12.3.1"@es, "Indicateur 12.3.1"@fr, "Indicator 12.3.1"@en .
+sdg:C120301 skos:note "Indicador 12.3.1"@es, "Indicateur 12.3.1"@fr, "Indicator 12.3.1"@en .
 
-sdg:12.4 skos:altLabel "Cible 12.4"@fr, "Meta 12.4"@es, "Target 12.4"@en .
+sdg:12.4 skos:note "Cible 12.4"@fr, "Meta 12.4"@es, "Target 12.4"@en .
 
-sdg:C120401 skos:altLabel "Indicador 12.4.1"@es, "Indicateur 12.4.1"@fr, "Indicator 12.4.1"@en .
+sdg:C120401 skos:note "Indicador 12.4.1"@es, "Indicateur 12.4.1"@fr, "Indicator 12.4.1"@en .
 
-sdg:C120402 skos:altLabel "Indicador 12.4.2"@es, "Indicateur 12.4.2"@fr, "Indicator 12.4.2"@en .
+sdg:C120402 skos:note "Indicador 12.4.2"@es, "Indicateur 12.4.2"@fr, "Indicator 12.4.2"@en .
 
-sdg:12.5 skos:altLabel "Cible 12.5"@fr, "Meta 12.5"@es, "Target 12.5"@en .
+sdg:12.5 skos:note "Cible 12.5"@fr, "Meta 12.5"@es, "Target 12.5"@en .
 
-sdg:C120501 skos:altLabel "Indicador 12.5.1"@es, "Indicateur 12.5.1"@fr, "Indicator 12.5.1"@en .
+sdg:C120501 skos:note "Indicador 12.5.1"@es, "Indicateur 12.5.1"@fr, "Indicator 12.5.1"@en .
 
-sdg:12.6 skos:altLabel "Cible 12.6"@fr, "Meta 12.6"@es, "Target 12.6"@en .
+sdg:12.6 skos:note "Cible 12.6"@fr, "Meta 12.6"@es, "Target 12.6"@en .
 
-sdg:C120601 skos:altLabel "Indicador 12.6.1"@es, "Indicateur 12.6.1"@fr, "Indicator 12.6.1"@en .
+sdg:C120601 skos:note "Indicador 12.6.1"@es, "Indicateur 12.6.1"@fr, "Indicator 12.6.1"@en .
 
-sdg:12.7 skos:altLabel "Cible 12.7"@fr, "Meta 12.7"@es, "Target 12.7"@en .
+sdg:12.7 skos:note "Cible 12.7"@fr, "Meta 12.7"@es, "Target 12.7"@en .
 
-sdg:C120701 skos:altLabel "Indicador 12.7.1"@es, "Indicateur 12.7.1"@fr, "Indicator 12.7.1"@en .
+sdg:C120701 skos:note "Indicador 12.7.1"@es, "Indicateur 12.7.1"@fr, "Indicator 12.7.1"@en .
 
-sdg:12.8 skos:altLabel "Cible 12.8"@fr, "Meta 12.8"@es, "Target 12.8"@en .
+sdg:12.8 skos:note "Cible 12.8"@fr, "Meta 12.8"@es, "Target 12.8"@en .
 
-sdg:C120801 skos:altLabel "Indicador 12.8.1"@es, "Indicateur 12.8.1"@fr, "Indicator 12.8.1"@en .
+sdg:C120801 skos:note "Indicador 12.8.1"@es, "Indicateur 12.8.1"@fr, "Indicator 12.8.1"@en .
 
-sdg:12.a skos:altLabel "Cible 12.a"@fr, "Meta 12.a"@es, "Target 12.a"@en .
+sdg:12.a skos:note "Cible 12.a"@fr, "Meta 12.a"@es, "Target 12.a"@en .
 
-sdg:C120a01 skos:altLabel "Indicador 12.a.1"@es, "Indicateur 12.a.1"@fr, "Indicator 12.a.1"@en .
+sdg:C120a01 skos:note "Indicador 12.a.1"@es, "Indicateur 12.a.1"@fr, "Indicator 12.a.1"@en .
 
-sdg:12.b skos:altLabel "Cible 12.b"@fr, "Meta 12.b"@es, "Target 12.b"@en .
+sdg:12.b skos:note "Cible 12.b"@fr, "Meta 12.b"@es, "Target 12.b"@en .
 
-sdg:C120b01 skos:altLabel "Indicador 12.b.1"@es, "Indicateur 12.b.1"@fr, "Indicator 12.b.1"@en .
+sdg:C120b01 skos:note "Indicador 12.b.1"@es, "Indicateur 12.b.1"@fr, "Indicator 12.b.1"@en .
 
-sdg:12.c skos:altLabel "Cible 12.c"@fr, "Meta 12.c"@es, "Target 12.c"@en .
+sdg:12.c skos:note "Cible 12.c"@fr, "Meta 12.c"@es, "Target 12.c"@en .
 
-sdg:C120c01 skos:altLabel "Indicador 12.c.1"@es, "Indicateur 12.c.1"@fr, "Indicator 12.c.1"@en .
+sdg:C120c01 skos:note "Indicador 12.c.1"@es, "Indicateur 12.c.1"@fr, "Indicator 12.c.1"@en .
 
-sdg:12 skos:altLabel "Goal 12"@en, "Objectif 12"@fr, "Objetivo 12"@es, "Responsible consumption and production"@en .
+sdg:12 skos:note "Goal 12"@en, "Objectif 12"@fr, "Objetivo 12"@es .
 
-sdg:13.1 skos:altLabel "Cible 13.1"@fr, "Meta 13.1"@es, "Target 13.1"@en .
+sdg:12 skos:altLabel "Responsible consumption and production"@en .
 
-sdg:13.2 skos:altLabel "Cible 13.2"@fr, "Meta 13.2"@es, "Target 13.2"@en .
+sdg:13.1 skos:note "Cible 13.1"@fr, "Meta 13.1"@es, "Target 13.1"@en .
 
-sdg:C130201 skos:altLabel "Indicador 13.2.1"@es, "Indicateur 13.2.1"@fr, "Indicator 13.2.1"@en .
+sdg:13.2 skos:note "Cible 13.2"@fr, "Meta 13.2"@es, "Target 13.2"@en .
 
-sdg:13.3 skos:altLabel "Cible 13.3"@fr, "Meta 13.3"@es, "Target 13.3"@en .
+sdg:C130201 skos:note "Indicador 13.2.1"@es, "Indicateur 13.2.1"@fr, "Indicator 13.2.1"@en .
 
-sdg:C130301 skos:altLabel "Indicador 13.3.1"@es, "Indicateur 13.3.1"@fr, "Indicator 13.3.1"@en .
+sdg:13.3 skos:note "Cible 13.3"@fr, "Meta 13.3"@es, "Target 13.3"@en .
 
-sdg:C130302 skos:altLabel "Indicador 13.3.2"@es, "Indicateur 13.3.2"@fr, "Indicator 13.3.2"@en .
+sdg:C130301 skos:note "Indicador 13.3.1"@es, "Indicateur 13.3.1"@fr, "Indicator 13.3.1"@en .
 
-sdg:13.a skos:altLabel "Cible 13.a"@fr, "Meta 13.a"@es, "Target 13.a"@en .
+sdg:C130302 skos:note "Indicador 13.3.2"@es, "Indicateur 13.3.2"@fr, "Indicator 13.3.2"@en .
 
-sdg:C130a01 skos:altLabel "Indicador 13.a.1"@es, "Indicateur 13.a.1"@fr, "Indicator 13.a.1"@en .
+sdg:13.a skos:note "Cible 13.a"@fr, "Meta 13.a"@es, "Target 13.a"@en .
 
-sdg:13.b skos:altLabel "Cible 13.b"@fr, "Meta 13.b"@es, "Target 13.b"@en .
+sdg:C130a01 skos:note "Indicador 13.a.1"@es, "Indicateur 13.a.1"@fr, "Indicator 13.a.1"@en .
 
-sdg:C130b01 skos:altLabel "Indicador 13.b.1"@es, "Indicateur 13.b.1"@fr, "Indicator 13.b.1"@en .
+sdg:13.b skos:note "Cible 13.b"@fr, "Meta 13.b"@es, "Target 13.b"@en .
 
-sdg:13 skos:altLabel "Climate action"@en, "Goal 13"@en, "Objectif 13"@fr, "Objetivo 13"@es .
+sdg:C130b01 skos:note "Indicador 13.b.1"@es, "Indicateur 13.b.1"@fr, "Indicator 13.b.1"@en .
 
-sdg:14.1 skos:altLabel "Cible 14.1"@fr, "Meta 14.1"@es, "Target 14.1"@en .
+sdg:13 skos:note "Goal 13"@en, "Objectif 13"@fr, "Objetivo 13"@es .
 
-sdg:C140101 skos:altLabel "Indicador 14.1.1"@es, "Indicateur 14.1.1"@fr, "Indicator 14.1.1"@en .
+sdg:13 skos:altLabel "Climate action"@en .
 
-sdg:14.2 skos:altLabel "Cible 14.2"@fr, "Meta 14.2"@es, "Target 14.2"@en .
+sdg:14.1 skos:note "Cible 14.1"@fr, "Meta 14.1"@es, "Target 14.1"@en .
 
-sdg:C140201 skos:altLabel "Indicador 14.2.1"@es, "Indicateur 14.2.1"@fr, "Indicator 14.2.1"@en .
+sdg:C140101 skos:note "Indicador 14.1.1"@es, "Indicateur 14.1.1"@fr, "Indicator 14.1.1"@en .
 
-sdg:14.3 skos:altLabel "Cible 14.3"@fr, "Meta 14.3"@es, "Target 14.3"@en .
+sdg:14.2 skos:note "Cible 14.2"@fr, "Meta 14.2"@es, "Target 14.2"@en .
 
-sdg:C140301 skos:altLabel "Indicador 14.3.1"@es, "Indicateur 14.3.1"@fr, "Indicator 14.3.1"@en .
+sdg:C140201 skos:note "Indicador 14.2.1"@es, "Indicateur 14.2.1"@fr, "Indicator 14.2.1"@en .
 
-sdg:14.4 skos:altLabel "Cible 14.4"@fr, "Meta 14.4"@es, "Target 14.4"@en .
+sdg:14.3 skos:note "Cible 14.3"@fr, "Meta 14.3"@es, "Target 14.3"@en .
 
-sdg:C140401 skos:altLabel "Indicador 14.4.1"@es, "Indicateur 14.4.1"@fr, "Indicator 14.4.1"@en .
+sdg:C140301 skos:note "Indicador 14.3.1"@es, "Indicateur 14.3.1"@fr, "Indicator 14.3.1"@en .
 
-sdg:14.5 skos:altLabel "Cible 14.5"@fr, "Meta 14.5"@es, "Target 14.5"@en .
+sdg:14.4 skos:note "Cible 14.4"@fr, "Meta 14.4"@es, "Target 14.4"@en .
 
-sdg:C140501 skos:altLabel "Indicador 14.5.1"@es, "Indicateur 14.5.1"@fr, "Indicator 14.5.1"@en .
+sdg:C140401 skos:note "Indicador 14.4.1"@es, "Indicateur 14.4.1"@fr, "Indicator 14.4.1"@en .
 
-sdg:14.6 skos:altLabel "Cible 14.6"@fr, "Meta 14.6"@es, "Target 14.6"@en .
+sdg:14.5 skos:note "Cible 14.5"@fr, "Meta 14.5"@es, "Target 14.5"@en .
 
-sdg:C140601 skos:altLabel "Indicador 14.6.1"@es, "Indicateur 14.6.1"@fr, "Indicator 14.6.1"@en .
+sdg:C140501 skos:note "Indicador 14.5.1"@es, "Indicateur 14.5.1"@fr, "Indicator 14.5.1"@en .
 
-sdg:14.7 skos:altLabel "Cible 14.7"@fr, "Meta 14.7"@es, "Target 14.7"@en .
+sdg:14.6 skos:note "Cible 14.6"@fr, "Meta 14.6"@es, "Target 14.6"@en .
 
-sdg:C140701 skos:altLabel "Indicador 14.7.1"@es, "Indicateur 14.7.1"@fr, "Indicator 14.7.1"@en .
+sdg:C140601 skos:note "Indicador 14.6.1"@es, "Indicateur 14.6.1"@fr, "Indicator 14.6.1"@en .
 
-sdg:14.a skos:altLabel "Cible 14.a"@fr, "Meta 14.a"@es, "Target 14.a"@en .
+sdg:14.7 skos:note "Cible 14.7"@fr, "Meta 14.7"@es, "Target 14.7"@en .
 
-sdg:C140a01 skos:altLabel "Indicador 14.a.1"@es, "Indicateur 14.a.1"@fr, "Indicator 14.a.1"@en .
+sdg:C140701 skos:note "Indicador 14.7.1"@es, "Indicateur 14.7.1"@fr, "Indicator 14.7.1"@en .
 
-sdg:14.b skos:altLabel "Cible 14.b"@fr, "Meta 14.b"@es, "Target 14.b"@en .
+sdg:14.a skos:note "Cible 14.a"@fr, "Meta 14.a"@es, "Target 14.a"@en .
 
-sdg:C140b01 skos:altLabel "Indicador 14.b.1"@es, "Indicateur 14.b.1"@fr, "Indicator 14.b.1"@en .
+sdg:C140a01 skos:note "Indicador 14.a.1"@es, "Indicateur 14.a.1"@fr, "Indicator 14.a.1"@en .
 
-sdg:14.c skos:altLabel "Cible 14.c"@fr, "Meta 14.c"@es, "Target 14.c"@en .
+sdg:14.b skos:note "Cible 14.b"@fr, "Meta 14.b"@es, "Target 14.b"@en .
 
-sdg:C140c01 skos:altLabel "Indicador 14.c.1"@es, "Indicateur 14.c.1"@fr, "Indicator 14.c.1"@en .
+sdg:C140b01 skos:note "Indicador 14.b.1"@es, "Indicateur 14.b.1"@fr, "Indicator 14.b.1"@en .
 
-sdg:14 skos:altLabel "Goal 14"@en, "Life below water"@en, "Objectif 14"@fr, "Objetivo 14"@es .
+sdg:14.c skos:note "Cible 14.c"@fr, "Meta 14.c"@es, "Target 14.c"@en .
 
-sdg:15.1 skos:altLabel "Cible 15.1"@fr, "Meta 15.1"@es, "Target 15.1"@en .
+sdg:C140c01 skos:note "Indicador 14.c.1"@es, "Indicateur 14.c.1"@fr, "Indicator 14.c.1"@en .
 
-sdg:C150101 skos:altLabel "Indicador 15.1.1"@es, "Indicateur 15.1.1"@fr, "Indicator 15.1.1"@en .
+sdg:14 skos:note "Goal 14"@en, "Objectif 14"@fr, "Objetivo 14"@es .
 
-sdg:C150102 skos:altLabel "Indicador 15.1.2"@es, "Indicateur 15.1.2"@fr, "Indicator 15.1.2"@en .
+sdg:14 skos:altLabel "Life below water"@en .
 
-sdg:15.2 skos:altLabel "Cible 15.2"@fr, "Meta 15.2"@es, "Target 15.2"@en .
+sdg:15.1 skos:note "Cible 15.1"@fr, "Meta 15.1"@es, "Target 15.1"@en .
 
-sdg:C150201 skos:altLabel "Indicador 15.2.1"@es, "Indicateur 15.2.1"@fr, "Indicator 15.2.1"@en .
+sdg:C150101 skos:note "Indicador 15.1.1"@es, "Indicateur 15.1.1"@fr, "Indicator 15.1.1"@en .
 
-sdg:15.3 skos:altLabel "Cible 15.3"@fr, "Meta 15.3"@es, "Target 15.3"@en .
+sdg:C150102 skos:note "Indicador 15.1.2"@es, "Indicateur 15.1.2"@fr, "Indicator 15.1.2"@en .
 
-sdg:C150301 skos:altLabel "Indicador 15.3.1"@es, "Indicateur 15.3.1"@fr, "Indicator 15.3.1"@en .
+sdg:15.2 skos:note "Cible 15.2"@fr, "Meta 15.2"@es, "Target 15.2"@en .
 
-sdg:15.4 skos:altLabel "Cible 15.4"@fr, "Meta 15.4"@es, "Target 15.4"@en .
+sdg:C150201 skos:note "Indicador 15.2.1"@es, "Indicateur 15.2.1"@fr, "Indicator 15.2.1"@en .
 
-sdg:C150401 skos:altLabel "Indicador 15.4.1"@es, "Indicateur 15.4.1"@fr, "Indicator 15.4.1"@en .
+sdg:15.3 skos:note "Cible 15.3"@fr, "Meta 15.3"@es, "Target 15.3"@en .
 
-sdg:C150402 skos:altLabel "Indicador 15.4.2"@es, "Indicateur 15.4.2"@fr, "Indicator 15.4.2"@en .
+sdg:C150301 skos:note "Indicador 15.3.1"@es, "Indicateur 15.3.1"@fr, "Indicator 15.3.1"@en .
 
-sdg:15.5 skos:altLabel "Cible 15.5"@fr, "Meta 15.5"@es, "Target 15.5"@en .
+sdg:15.4 skos:note "Cible 15.4"@fr, "Meta 15.4"@es, "Target 15.4"@en .
 
-sdg:C150501 skos:altLabel "Indicador 15.5.1"@es, "Indicateur 15.5.1"@fr, "Indicator 15.5.1"@en .
+sdg:C150401 skos:note "Indicador 15.4.1"@es, "Indicateur 15.4.1"@fr, "Indicator 15.4.1"@en .
 
-sdg:15.6 skos:altLabel "Cible 15.6"@fr, "Meta 15.6"@es, "Target 15.6"@en .
+sdg:C150402 skos:note "Indicador 15.4.2"@es, "Indicateur 15.4.2"@fr, "Indicator 15.4.2"@en .
 
-sdg:C150601 skos:altLabel "Indicador 15.6.1"@es, "Indicateur 15.6.1"@fr, "Indicator 15.6.1"@en .
+sdg:15.5 skos:note "Cible 15.5"@fr, "Meta 15.5"@es, "Target 15.5"@en .
 
-sdg:15.7 skos:altLabel "Cible 15.7"@fr, "Meta 15.7"@es, "Target 15.7"@en .
+sdg:C150501 skos:note "Indicador 15.5.1"@es, "Indicateur 15.5.1"@fr, "Indicator 15.5.1"@en .
 
-sdg:C200206 skos:altLabel "Indicador 15.7.1"@es, "Indicador 15.c.1"@es, "Indicateur 15.7.1"@fr,
+sdg:15.6 skos:note "Cible 15.6"@fr, "Meta 15.6"@es, "Target 15.6"@en .
+
+sdg:C150601 skos:note "Indicador 15.6.1"@es, "Indicateur 15.6.1"@fr, "Indicator 15.6.1"@en .
+
+sdg:15.7 skos:note "Cible 15.7"@fr, "Meta 15.7"@es, "Target 15.7"@en .
+
+sdg:C200206 skos:note "Indicador 15.7.1"@es, "Indicador 15.c.1"@es, "Indicateur 15.7.1"@fr,
     "Indicateur 15.c.1"@fr, "Indicator 15.7.1"@en, "Indicator 15.c.1"@en .
 
-sdg:15.8 skos:altLabel "Cible 15.8"@fr, "Meta 15.8"@es, "Target 15.8"@en .
+sdg:15.8 skos:note "Cible 15.8"@fr, "Meta 15.8"@es, "Target 15.8"@en .
 
-sdg:C150801 skos:altLabel "Indicador 15.8.1"@es, "Indicateur 15.8.1"@fr, "Indicator 15.8.1"@en .
+sdg:C150801 skos:note "Indicador 15.8.1"@es, "Indicateur 15.8.1"@fr, "Indicator 15.8.1"@en .
 
-sdg:15.9 skos:altLabel "Cible 15.9"@fr, "Meta 15.9"@es, "Target 15.9"@en .
+sdg:15.9 skos:note "Cible 15.9"@fr, "Meta 15.9"@es, "Target 15.9"@en .
 
-sdg:C150901 skos:altLabel "Indicador 15.9.1"@es, "Indicateur 15.9.1"@fr, "Indicator 15.9.1"@en .
+sdg:C150901 skos:note "Indicador 15.9.1"@es, "Indicateur 15.9.1"@fr, "Indicator 15.9.1"@en .
 
-sdg:15.a skos:altLabel "Cible 15.a"@fr, "Meta 15.a"@es, "Target 15.a"@en .
+sdg:15.a skos:note "Cible 15.a"@fr, "Meta 15.a"@es, "Target 15.a"@en .
 
-sdg:C200207 skos:altLabel "Indicador 15.a.1"@es, "Indicador 15.b.1"@es, "Indicateur 15.a.1"@fr,
+sdg:C200207 skos:note "Indicador 15.a.1"@es, "Indicador 15.b.1"@es, "Indicateur 15.a.1"@fr,
     "Indicateur 15.b.1"@fr, "Indicator 15.a.1"@en, "Indicator 15.b.1"@en .
 
-sdg:15.b skos:altLabel "Cible 15.b"@fr, "Meta 15.b"@es, "Target 15.b"@en .
+sdg:15.b skos:note "Cible 15.b"@fr, "Meta 15.b"@es, "Target 15.b"@en .
 
-sdg:15.c skos:altLabel "Cible 15.c"@fr, "Meta 15.c"@es, "Target 15.c"@en .
+sdg:15.c skos:note "Cible 15.c"@fr, "Meta 15.c"@es, "Target 15.c"@en .
 
-sdg:15 skos:altLabel "Goal 15"@en, "Life on land"@en, "Objectif 15"@fr, "Objetivo 15"@es .
+sdg:15 skos:note "Goal 15"@en, "Objectif 15"@fr, "Objetivo 15"@es .
 
-sdg:16.10 skos:altLabel "Cible 16.10"@fr, "Meta 16.10"@es, "Target 16.10"@en .
+sdg:15 skos:altLabel "Life on land"@en .
 
-sdg:C161001 skos:altLabel "Indicador 16.10.1"@es, "Indicateur 16.10.1"@fr, "Indicator 16.10.1"@en .
+sdg:16.10 skos:note "Cible 16.10"@fr, "Meta 16.10"@es, "Target 16.10"@en .
 
-sdg:C161002 skos:altLabel "Indicador 16.10.2"@es, "Indicateur 16.10.2"@fr, "Indicator 16.10.2"@en .
+sdg:C161001 skos:note "Indicador 16.10.1"@es, "Indicateur 16.10.1"@fr, "Indicator 16.10.1"@en .
 
-sdg:16.1 skos:altLabel "Cible 16.1"@fr, "Meta 16.1"@es, "Target 16.1"@en .
+sdg:C161002 skos:note "Indicador 16.10.2"@es, "Indicateur 16.10.2"@fr, "Indicator 16.10.2"@en .
 
-sdg:C160101 skos:altLabel "Indicador 16.1.1"@es, "Indicateur 16.1.1"@fr, "Indicator 16.1.1"@en .
+sdg:16.1 skos:note "Cible 16.1"@fr, "Meta 16.1"@es, "Target 16.1"@en .
 
-sdg:C160102 skos:altLabel "Indicador 16.1.2"@es, "Indicateur 16.1.2"@fr, "Indicator 16.1.2"@en .
+sdg:C160101 skos:note "Indicador 16.1.1"@es, "Indicateur 16.1.1"@fr, "Indicator 16.1.1"@en .
 
-sdg:C160103 skos:altLabel "Indicador 16.1.3"@es, "Indicateur 16.1.3"@fr, "Indicator 16.1.3"@en .
+sdg:C160102 skos:note "Indicador 16.1.2"@es, "Indicateur 16.1.2"@fr, "Indicator 16.1.2"@en .
 
-sdg:C160104 skos:altLabel "Indicador 16.1.4"@es, "Indicateur 16.1.4"@fr, "Indicator 16.1.4"@en .
+sdg:C160103 skos:note "Indicador 16.1.3"@es, "Indicateur 16.1.3"@fr, "Indicator 16.1.3"@en .
 
-sdg:16.2 skos:altLabel "Cible 16.2"@fr, "Meta 16.2"@es, "Target 16.2"@en .
+sdg:C160104 skos:note "Indicador 16.1.4"@es, "Indicateur 16.1.4"@fr, "Indicator 16.1.4"@en .
 
-sdg:C160201 skos:altLabel "Indicador 16.2.1"@es, "Indicateur 16.2.1"@fr, "Indicator 16.2.1"@en .
+sdg:16.2 skos:note "Cible 16.2"@fr, "Meta 16.2"@es, "Target 16.2"@en .
 
-sdg:C160202 skos:altLabel "Indicador 16.2.2"@es, "Indicateur 16.2.2"@fr, "Indicator 16.2.2"@en .
+sdg:C160201 skos:note "Indicador 16.2.1"@es, "Indicateur 16.2.1"@fr, "Indicator 16.2.1"@en .
 
-sdg:C160203 skos:altLabel "Indicador 16.2.3"@es, "Indicateur 16.2.3"@fr, "Indicator 16.2.3"@en .
+sdg:C160202 skos:note "Indicador 16.2.2"@es, "Indicateur 16.2.2"@fr, "Indicator 16.2.2"@en .
 
-sdg:16.3 skos:altLabel "Cible 16.3"@fr, "Meta 16.3"@es, "Target 16.3"@en .
+sdg:C160203 skos:note "Indicador 16.2.3"@es, "Indicateur 16.2.3"@fr, "Indicator 16.2.3"@en .
 
-sdg:C160301 skos:altLabel "Indicador 16.3.1"@es, "Indicateur 16.3.1"@fr, "Indicator 16.3.1"@en .
+sdg:16.3 skos:note "Cible 16.3"@fr, "Meta 16.3"@es, "Target 16.3"@en .
 
-sdg:C160302 skos:altLabel "Indicador 16.3.2"@es, "Indicateur 16.3.2"@fr, "Indicator 16.3.2"@en .
+sdg:C160301 skos:note "Indicador 16.3.1"@es, "Indicateur 16.3.1"@fr, "Indicator 16.3.1"@en .
 
-sdg:16.4 skos:altLabel "Cible 16.4"@fr, "Meta 16.4"@es, "Target 16.4"@en .
+sdg:C160302 skos:note "Indicador 16.3.2"@es, "Indicateur 16.3.2"@fr, "Indicator 16.3.2"@en .
 
-sdg:C160401 skos:altLabel "Indicador 16.4.1"@es, "Indicateur 16.4.1"@fr, "Indicator 16.4.1"@en .
+sdg:16.4 skos:note "Cible 16.4"@fr, "Meta 16.4"@es, "Target 16.4"@en .
 
-sdg:C160402 skos:altLabel "Indicador 16.4.2"@es, "Indicateur 16.4.2"@fr, "Indicator 16.4.2"@en .
+sdg:C160401 skos:note "Indicador 16.4.1"@es, "Indicateur 16.4.1"@fr, "Indicator 16.4.1"@en .
 
-sdg:16.5 skos:altLabel "Cible 16.5"@fr, "Meta 16.5"@es, "Target 16.5"@en .
+sdg:C160402 skos:note "Indicador 16.4.2"@es, "Indicateur 16.4.2"@fr, "Indicator 16.4.2"@en .
 
-sdg:C160501 skos:altLabel "Indicador 16.5.1"@es, "Indicateur 16.5.1"@fr, "Indicator 16.5.1"@en .
+sdg:16.5 skos:note "Cible 16.5"@fr, "Meta 16.5"@es, "Target 16.5"@en .
 
-sdg:C160502 skos:altLabel "Indicador 16.5.2"@es, "Indicateur 16.5.2"@fr, "Indicator 16.5.2"@en .
+sdg:C160501 skos:note "Indicador 16.5.1"@es, "Indicateur 16.5.1"@fr, "Indicator 16.5.1"@en .
 
-sdg:16.6 skos:altLabel "Cible 16.6"@fr, "Meta 16.6"@es, "Target 16.6"@en .
+sdg:C160502 skos:note "Indicador 16.5.2"@es, "Indicateur 16.5.2"@fr, "Indicator 16.5.2"@en .
 
-sdg:C160601 skos:altLabel "Indicador 16.6.1"@es, "Indicateur 16.6.1"@fr, "Indicator 16.6.1"@en .
+sdg:16.6 skos:note "Cible 16.6"@fr, "Meta 16.6"@es, "Target 16.6"@en .
 
-sdg:C160602 skos:altLabel "Indicador 16.6.2"@es, "Indicateur 16.6.2"@fr, "Indicator 16.6.2"@en .
+sdg:C160601 skos:note "Indicador 16.6.1"@es, "Indicateur 16.6.1"@fr, "Indicator 16.6.1"@en .
 
-sdg:16.7 skos:altLabel "Cible 16.7"@fr, "Meta 16.7"@es, "Target 16.7"@en .
+sdg:C160602 skos:note "Indicador 16.6.2"@es, "Indicateur 16.6.2"@fr, "Indicator 16.6.2"@en .
 
-sdg:C160701 skos:altLabel "Indicador 16.7.1"@es, "Indicateur 16.7.1"@fr, "Indicator 16.7.1"@en .
+sdg:16.7 skos:note "Cible 16.7"@fr, "Meta 16.7"@es, "Target 16.7"@en .
 
-sdg:C160702 skos:altLabel "Indicador 16.7.2"@es, "Indicateur 16.7.2"@fr, "Indicator 16.7.2"@en .
+sdg:C160701 skos:note "Indicador 16.7.1"@es, "Indicateur 16.7.1"@fr, "Indicator 16.7.1"@en .
 
-sdg:16.8 skos:altLabel "Cible 16.8"@fr, "Meta 16.8"@es, "Target 16.8"@en .
+sdg:C160702 skos:note "Indicador 16.7.2"@es, "Indicateur 16.7.2"@fr, "Indicator 16.7.2"@en .
 
-sdg:16.9 skos:altLabel "Cible 16.9"@fr, "Meta 16.9"@es, "Target 16.9"@en .
+sdg:16.8 skos:note "Cible 16.8"@fr, "Meta 16.8"@es, "Target 16.8"@en .
 
-sdg:C160901 skos:altLabel "Indicador 16.9.1"@es, "Indicateur 16.9.1"@fr, "Indicator 16.9.1"@en .
+sdg:16.9 skos:note "Cible 16.9"@fr, "Meta 16.9"@es, "Target 16.9"@en .
 
-sdg:16.a skos:altLabel "Cible 16.a"@fr, "Meta 16.a"@es, "Target 16.a"@en .
+sdg:C160901 skos:note "Indicador 16.9.1"@es, "Indicateur 16.9.1"@fr, "Indicator 16.9.1"@en .
 
-sdg:C160a01 skos:altLabel "Indicador 16.a.1"@es, "Indicateur 16.a.1"@fr, "Indicator 16.a.1"@en .
+sdg:16.a skos:note "Cible 16.a"@fr, "Meta 16.a"@es, "Target 16.a"@en .
 
-sdg:16.b skos:altLabel "Cible 16.b"@fr, "Meta 16.b"@es, "Target 16.b"@en .
+sdg:C160a01 skos:note "Indicador 16.a.1"@es, "Indicateur 16.a.1"@fr, "Indicator 16.a.1"@en .
 
-sdg:16 skos:altLabel "Goal 16"@en, "Objectif 16"@fr, "Objetivo 16"@es, "Peace, justice and strong institutions"@en .
+sdg:16.b skos:note "Cible 16.b"@fr, "Meta 16.b"@es, "Target 16.b"@en .
 
-sdg:17.10 skos:altLabel "Cible 17.10"@fr, "Meta 17.10"@es, "Target 17.10"@en .
+sdg:16 skos:note "Goal 16"@en, "Objectif 16"@fr, "Objetivo 16"@es .
 
-sdg:C171001 skos:altLabel "Indicador 17.10.1"@es, "Indicateur 17.10.1"@fr, "Indicator 17.10.1"@en .
+sdg:16 skos:altLabel "Peace, justice and strong institutions"@en .
 
-sdg:17.11 skos:altLabel "Cible 17.11"@fr, "Meta 17.11"@es, "Target 17.11"@en .
+sdg:17.10 skos:note "Cible 17.10"@fr, "Meta 17.10"@es, "Target 17.10"@en .
 
-sdg:C171101 skos:altLabel "Indicador 17.11.1"@es, "Indicateur 17.11.1"@fr, "Indicator 17.11.1"@en .
+sdg:C171001 skos:note "Indicador 17.10.1"@es, "Indicateur 17.10.1"@fr, "Indicator 17.10.1"@en .
 
-sdg:17.12 skos:altLabel "Cible 17.12"@fr, "Meta 17.12"@es, "Target 17.12"@en .
+sdg:17.11 skos:note "Cible 17.11"@fr, "Meta 17.11"@es, "Target 17.11"@en .
 
-sdg:C171201 skos:altLabel "Indicador 17.12.1"@es, "Indicateur 17.12.1"@fr, "Indicator 17.12.1"@en .
+sdg:C171101 skos:note "Indicador 17.11.1"@es, "Indicateur 17.11.1"@fr, "Indicator 17.11.1"@en .
 
-sdg:17.13 skos:altLabel "Cible 17.13"@fr, "Meta 17.13"@es, "Target 17.13"@en .
+sdg:17.12 skos:note "Cible 17.12"@fr, "Meta 17.12"@es, "Target 17.12"@en .
 
-sdg:C171301 skos:altLabel "Indicador 17.13.1"@es, "Indicateur 17.13.1"@fr, "Indicator 17.13.1"@en .
+sdg:C171201 skos:note "Indicador 17.12.1"@es, "Indicateur 17.12.1"@fr, "Indicator 17.12.1"@en .
 
-sdg:17.14 skos:altLabel "Cible 17.14"@fr, "Meta 17.14"@es, "Target 17.14"@en .
+sdg:17.13 skos:note "Cible 17.13"@fr, "Meta 17.13"@es, "Target 17.13"@en .
 
-sdg:C171401 skos:altLabel "Indicador 17.14.1"@es, "Indicateur 17.14.1"@fr, "Indicator 17.14.1"@en .
+sdg:C171301 skos:note "Indicador 17.13.1"@es, "Indicateur 17.13.1"@fr, "Indicator 17.13.1"@en .
 
-sdg:17.15 skos:altLabel "Cible 17.15"@fr, "Meta 17.15"@es, "Target 17.15"@en .
+sdg:17.14 skos:note "Cible 17.14"@fr, "Meta 17.14"@es, "Target 17.14"@en .
 
-sdg:C171501 skos:altLabel "Indicador 17.15.1"@es, "Indicateur 17.15.1"@fr, "Indicator 17.15.1"@en .
+sdg:C171401 skos:note "Indicador 17.14.1"@es, "Indicateur 17.14.1"@fr, "Indicator 17.14.1"@en .
 
-sdg:17.16 skos:altLabel "Cible 17.16"@fr, "Meta 17.16"@es, "Target 17.16"@en .
+sdg:17.15 skos:note "Cible 17.15"@fr, "Meta 17.15"@es, "Target 17.15"@en .
 
-sdg:C171601 skos:altLabel "Indicador 17.16.1"@es, "Indicateur 17.16.1"@fr, "Indicator 17.16.1"@en .
+sdg:C171501 skos:note "Indicador 17.15.1"@es, "Indicateur 17.15.1"@fr, "Indicator 17.15.1"@en .
 
-sdg:17.17 skos:altLabel "Cible 17.17"@fr, "Meta 17.17"@es, "Target 17.17"@en .
+sdg:17.16 skos:note "Cible 17.16"@fr, "Meta 17.16"@es, "Target 17.16"@en .
 
-sdg:C171701 skos:altLabel "Indicador 17.17.1"@es, "Indicateur 17.17.1"@fr, "Indicator 17.17.1"@en .
+sdg:C171601 skos:note "Indicador 17.16.1"@es, "Indicateur 17.16.1"@fr, "Indicator 17.16.1"@en .
 
-sdg:17.18 skos:altLabel "Cible 17.18"@fr, "Meta 17.18"@es, "Target 17.18"@en .
+sdg:17.17 skos:note "Cible 17.17"@fr, "Meta 17.17"@es, "Target 17.17"@en .
 
-sdg:C171801 skos:altLabel "Indicador 17.18.1"@es, "Indicateur 17.18.1"@fr, "Indicator 17.18.1"@en .
+sdg:C171701 skos:note "Indicador 17.17.1"@es, "Indicateur 17.17.1"@fr, "Indicator 17.17.1"@en .
 
-sdg:C171802 skos:altLabel "Indicador 17.18.2"@es, "Indicateur 17.18.2"@fr, "Indicator 17.18.2"@en .
+sdg:17.18 skos:note "Cible 17.18"@fr, "Meta 17.18"@es, "Target 17.18"@en .
 
-sdg:C171803 skos:altLabel "Indicador 17.18.3"@es, "Indicateur 17.18.3"@fr, "Indicator 17.18.3"@en .
+sdg:C171801 skos:note "Indicador 17.18.1"@es, "Indicateur 17.18.1"@fr, "Indicator 17.18.1"@en .
 
-sdg:17.19 skos:altLabel "Cible 17.19"@fr, "Meta 17.19"@es, "Target 17.19"@en .
+sdg:C171802 skos:note "Indicador 17.18.2"@es, "Indicateur 17.18.2"@fr, "Indicator 17.18.2"@en .
 
-sdg:C171901 skos:altLabel "Indicador 17.19.1"@es, "Indicateur 17.19.1"@fr, "Indicator 17.19.1"@en .
+sdg:C171803 skos:note "Indicador 17.18.3"@es, "Indicateur 17.18.3"@fr, "Indicator 17.18.3"@en .
 
-sdg:C171902 skos:altLabel "Indicador 17.19.2"@es, "Indicateur 17.19.2"@fr, "Indicator 17.19.2"@en .
+sdg:17.19 skos:note "Cible 17.19"@fr, "Meta 17.19"@es, "Target 17.19"@en .
 
-sdg:17.1 skos:altLabel "Cible 17.1"@fr, "Meta 17.1"@es, "Target 17.1"@en .
+sdg:C171901 skos:note "Indicador 17.19.1"@es, "Indicateur 17.19.1"@fr, "Indicator 17.19.1"@en .
 
-sdg:C170101 skos:altLabel "Indicador 17.1.1"@es, "Indicateur 17.1.1"@fr, "Indicator 17.1.1"@en .
+sdg:C171902 skos:note "Indicador 17.19.2"@es, "Indicateur 17.19.2"@fr, "Indicator 17.19.2"@en .
 
-sdg:C170102 skos:altLabel "Indicador 17.1.2"@es, "Indicateur 17.1.2"@fr, "Indicator 17.1.2"@en .
+sdg:17.1 skos:note "Cible 17.1"@fr, "Meta 17.1"@es, "Target 17.1"@en .
 
-sdg:17.2 skos:altLabel "Cible 17.2"@fr, "Meta 17.2"@es, "Target 17.2"@en .
+sdg:C170101 skos:note "Indicador 17.1.1"@es, "Indicateur 17.1.1"@fr, "Indicator 17.1.1"@en .
 
-sdg:C170201 skos:altLabel "Indicador 17.2.1"@es, "Indicateur 17.2.1"@fr, "Indicator 17.2.1"@en .
+sdg:C170102 skos:note "Indicador 17.1.2"@es, "Indicateur 17.1.2"@fr, "Indicator 17.1.2"@en .
 
-sdg:17.3 skos:altLabel "Cible 17.3"@fr, "Meta 17.3"@es, "Target 17.3"@en .
+sdg:17.2 skos:note "Cible 17.2"@fr, "Meta 17.2"@es, "Target 17.2"@en .
 
-sdg:C170301 skos:altLabel "Indicador 17.3.1"@es, "Indicateur 17.3.1"@fr, "Indicator 17.3.1"@en .
+sdg:C170201 skos:note "Indicador 17.2.1"@es, "Indicateur 17.2.1"@fr, "Indicator 17.2.1"@en .
 
-sdg:C170302 skos:altLabel "Indicador 17.3.2"@es, "Indicateur 17.3.2"@fr, "Indicator 17.3.2"@en .
+sdg:17.3 skos:note "Cible 17.3"@fr, "Meta 17.3"@es, "Target 17.3"@en .
 
-sdg:17.4 skos:altLabel "Cible 17.4"@fr, "Meta 17.4"@es, "Target 17.4"@en .
+sdg:C170301 skos:note "Indicador 17.3.1"@es, "Indicateur 17.3.1"@fr, "Indicator 17.3.1"@en .
 
-sdg:C170401 skos:altLabel "Indicador 17.4.1"@es, "Indicateur 17.4.1"@fr, "Indicator 17.4.1"@en .
+sdg:C170302 skos:note "Indicador 17.3.2"@es, "Indicateur 17.3.2"@fr, "Indicator 17.3.2"@en .
 
-sdg:17.5 skos:altLabel "Cible 17.5"@fr, "Meta 17.5"@es, "Target 17.5"@en .
+sdg:17.4 skos:note "Cible 17.4"@fr, "Meta 17.4"@es, "Target 17.4"@en .
 
-sdg:C170501 skos:altLabel "Indicador 17.5.1"@es, "Indicateur 17.5.1"@fr, "Indicator 17.5.1"@en .
+sdg:C170401 skos:note "Indicador 17.4.1"@es, "Indicateur 17.4.1"@fr, "Indicator 17.4.1"@en .
 
-sdg:17.6 skos:altLabel "Cible 17.6"@fr, "Meta 17.6"@es, "Target 17.6"@en .
+sdg:17.5 skos:note "Cible 17.5"@fr, "Meta 17.5"@es, "Target 17.5"@en .
 
-sdg:C170601 skos:altLabel "Indicador 17.6.1"@es, "Indicateur 17.6.1"@fr, "Indicator 17.6.1"@en .
+sdg:C170501 skos:note "Indicador 17.5.1"@es, "Indicateur 17.5.1"@fr, "Indicator 17.5.1"@en .
 
-sdg:C170602 skos:altLabel "Indicador 17.6.2"@es, "Indicateur 17.6.2"@fr, "Indicator 17.6.2"@en .
+sdg:17.6 skos:note "Cible 17.6"@fr, "Meta 17.6"@es, "Target 17.6"@en .
 
-sdg:17.7 skos:altLabel "Cible 17.7"@fr, "Meta 17.7"@es, "Target 17.7"@en .
+sdg:C170601 skos:note "Indicador 17.6.1"@es, "Indicateur 17.6.1"@fr, "Indicator 17.6.1"@en .
 
-sdg:C170701 skos:altLabel "Indicador 17.7.1"@es, "Indicateur 17.7.1"@fr, "Indicator 17.7.1"@en .
+sdg:C170602 skos:note "Indicador 17.6.2"@es, "Indicateur 17.6.2"@fr, "Indicator 17.6.2"@en .
 
-sdg:17.8 skos:altLabel "Cible 17.8"@fr, "Meta 17.8"@es, "Target 17.8"@en .
+sdg:17.7 skos:note "Cible 17.7"@fr, "Meta 17.7"@es, "Target 17.7"@en .
 
-sdg:C170801 skos:altLabel "Indicador 17.8.1"@es, "Indicateur 17.8.1"@fr, "Indicator 17.8.1"@en .
+sdg:C170701 skos:note "Indicador 17.7.1"@es, "Indicateur 17.7.1"@fr, "Indicator 17.7.1"@en .
 
-sdg:17.9 skos:altLabel "Cible 17.9"@fr, "Meta 17.9"@es, "Target 17.9"@en .
+sdg:17.8 skos:note "Cible 17.8"@fr, "Meta 17.8"@es, "Target 17.8"@en .
 
-sdg:C170901 skos:altLabel "Indicador 17.9.1"@es, "Indicateur 17.9.1"@fr, "Indicator 17.9.1"@en .
+sdg:C170801 skos:note "Indicador 17.8.1"@es, "Indicateur 17.8.1"@fr, "Indicator 17.8.1"@en .
 
-sdg:17 skos:altLabel "Goal 17"@en, "Objectif 17"@fr, "Objetivo 17"@es, "Partnerships for the goals"@en .
+sdg:17.9 skos:note "Cible 17.9"@fr, "Meta 17.9"@es, "Target 17.9"@en .
 
-sdg:1 skos:altLabel "Goal 1"@en, "No poverty"@en, "Objectif 1"@fr, "Objetivo 1"@es .
+sdg:C170901 skos:note "Indicador 17.9.1"@es, "Indicateur 17.9.1"@fr, "Indicator 17.9.1"@en .
 
-sdg:2.1 skos:altLabel "Cible 2.1"@fr, "Meta 2.1"@es, "Target 2.1"@en .
+sdg:17 skos:note "Goal 17"@en, "Objectif 17"@fr, "Objetivo 17"@es .
 
-sdg:C020101 skos:altLabel "Indicador 2.1.1"@es, "Indicateur 2.1.1"@fr, "Indicator 2.1.1"@en .
+sdg:17 skos:altLabel "Partnerships for the goals"@en .
 
-sdg:C020102 skos:altLabel "Indicador 2.1.2"@es, "Indicateur 2.1.2"@fr, "Indicator 2.1.2"@en .
+sdg:1 skos:note "Goal 1"@en, "Objectif 1"@fr, "Objetivo 1"@es .
 
-sdg:2.2 skos:altLabel "Cible 2.2"@fr, "Meta 2.2"@es, "Target 2.2"@en .
+sdg:1 skos:altLabel "No poverty"@en .
 
-sdg:C020201 skos:altLabel "Indicador 2.2.1"@es, "Indicateur 2.2.1"@fr, "Indicator 2.2.1"@en .
+sdg:2.1 skos:note "Cible 2.1"@fr, "Meta 2.1"@es, "Target 2.1"@en .
 
-sdg:C020202 skos:altLabel "Indicador 2.2.2"@es, "Indicateur 2.2.2"@fr, "Indicator 2.2.2"@en .
+sdg:C020101 skos:note "Indicador 2.1.1"@es, "Indicateur 2.1.1"@fr, "Indicator 2.1.1"@en .
 
-sdg:2.3 skos:altLabel "Cible 2.3"@fr, "Meta 2.3"@es, "Target 2.3"@en .
+sdg:C020102 skos:note "Indicador 2.1.2"@es, "Indicateur 2.1.2"@fr, "Indicator 2.1.2"@en .
 
-sdg:C020301 skos:altLabel "Indicador 2.3.1"@es, "Indicateur 2.3.1"@fr, "Indicator 2.3.1"@en .
+sdg:2.2 skos:note "Cible 2.2"@fr, "Meta 2.2"@es, "Target 2.2"@en .
 
-sdg:C020302 skos:altLabel "Indicador 2.3.2"@es, "Indicateur 2.3.2"@fr, "Indicator 2.3.2"@en .
+sdg:C020201 skos:note "Indicador 2.2.1"@es, "Indicateur 2.2.1"@fr, "Indicator 2.2.1"@en .
 
-sdg:2.4 skos:altLabel "Cible 2.4"@fr, "Meta 2.4"@es, "Target 2.4"@en .
+sdg:C020202 skos:note "Indicador 2.2.2"@es, "Indicateur 2.2.2"@fr, "Indicator 2.2.2"@en .
 
-sdg:C020401 skos:altLabel "Indicador 2.4.1"@es, "Indicateur 2.4.1"@fr, "Indicator 2.4.1"@en .
+sdg:2.3 skos:note "Cible 2.3"@fr, "Meta 2.3"@es, "Target 2.3"@en .
 
-sdg:2.5 skos:altLabel "Cible 2.5"@fr, "Meta 2.5"@es, "Target 2.5"@en .
+sdg:C020301 skos:note "Indicador 2.3.1"@es, "Indicateur 2.3.1"@fr, "Indicator 2.3.1"@en .
 
-sdg:C020501 skos:altLabel "Indicador 2.5.1"@es, "Indicateur 2.5.1"@fr, "Indicator 2.5.1"@en .
+sdg:C020302 skos:note "Indicador 2.3.2"@es, "Indicateur 2.3.2"@fr, "Indicator 2.3.2"@en .
 
-sdg:C020502 skos:altLabel "Indicador 2.5.2"@es, "Indicateur 2.5.2"@fr, "Indicator 2.5.2"@en .
+sdg:2.4 skos:note "Cible 2.4"@fr, "Meta 2.4"@es, "Target 2.4"@en .
 
-sdg:2.a skos:altLabel "Cible 2.a"@fr, "Meta 2.a"@es, "Target 2.a"@en .
+sdg:C020401 skos:note "Indicador 2.4.1"@es, "Indicateur 2.4.1"@fr, "Indicator 2.4.1"@en .
 
-sdg:C020a01 skos:altLabel "Indicador 2.a.1"@es, "Indicateur 2.a.1"@fr, "Indicator 2.a.1"@en .
+sdg:2.5 skos:note "Cible 2.5"@fr, "Meta 2.5"@es, "Target 2.5"@en .
 
-sdg:C020a02 skos:altLabel "Indicador 2.a.2"@es, "Indicateur 2.a.2"@fr, "Indicator 2.a.2"@en .
+sdg:C020501 skos:note "Indicador 2.5.1"@es, "Indicateur 2.5.1"@fr, "Indicator 2.5.1"@en .
 
-sdg:2.b skos:altLabel "Cible 2.b"@fr, "Meta 2.b"@es, "Target 2.b"@en .
+sdg:C020502 skos:note "Indicador 2.5.2"@es, "Indicateur 2.5.2"@fr, "Indicator 2.5.2"@en .
 
-sdg:C020b02 skos:altLabel "Indicador 2.b.1"@es, "Indicateur 2.b.1"@fr, "Indicator 2.b.1"@en .
+sdg:2.a skos:note "Cible 2.a"@fr, "Meta 2.a"@es, "Target 2.a"@en .
 
-sdg:2.c skos:altLabel "Cible 2.c"@fr, "Meta 2.c"@es, "Target 2.c"@en .
+sdg:C020a01 skos:note "Indicador 2.a.1"@es, "Indicateur 2.a.1"@fr, "Indicator 2.a.1"@en .
 
-sdg:C020c01 skos:altLabel "Indicador 2.c.1"@es, "Indicateur 2.c.1"@fr, "Indicator 2.c.1"@en .
+sdg:C020a02 skos:note "Indicador 2.a.2"@es, "Indicateur 2.a.2"@fr, "Indicator 2.a.2"@en .
 
-sdg:2 skos:altLabel "Goal 2"@en, "Objectif 2"@fr, "Objetivo 2"@es, "Zero hunger"@en .
+sdg:2.b skos:note "Cible 2.b"@fr, "Meta 2.b"@es, "Target 2.b"@en .
 
-sdg:3.1 skos:altLabel "Cible 3.1"@fr, "Meta 3.1"@es, "Target 3.1"@en .
+sdg:C020b02 skos:note "Indicador 2.b.1"@es, "Indicateur 2.b.1"@fr, "Indicator 2.b.1"@en .
 
-sdg:C030101 skos:altLabel "Indicador 3.1.1"@es, "Indicateur 3.1.1"@fr, "Indicator 3.1.1"@en .
+sdg:2.c skos:note "Cible 2.c"@fr, "Meta 2.c"@es, "Target 2.c"@en .
 
-sdg:C030102 skos:altLabel "Indicador 3.1.2"@es, "Indicateur 3.1.2"@fr, "Indicator 3.1.2"@en .
+sdg:C020c01 skos:note "Indicador 2.c.1"@es, "Indicateur 2.c.1"@fr, "Indicator 2.c.1"@en .
 
-sdg:3.2 skos:altLabel "Cible 3.2"@fr, "Meta 3.2"@es, "Target 3.2"@en .
+sdg:2 skos:note "Goal 2"@en, "Objectif 2"@fr, "Objetivo 2"@es .
 
-sdg:C030201 skos:altLabel "Indicador 3.2.1"@es, "Indicateur 3.2.1"@fr, "Indicator 3.2.1"@en .
+sdg:2 skos:altLabel "Zero hunger"@en .
 
-sdg:C030202 skos:altLabel "Indicador 3.2.2"@es, "Indicateur 3.2.2"@fr, "Indicator 3.2.2"@en .
+sdg:3.1 skos:note "Cible 3.1"@fr, "Meta 3.1"@es, "Target 3.1"@en .
 
-sdg:3.3 skos:altLabel "Cible 3.3"@fr, "Meta 3.3"@es, "Target 3.3"@en .
+sdg:C030101 skos:note "Indicador 3.1.1"@es, "Indicateur 3.1.1"@fr, "Indicator 3.1.1"@en .
 
-sdg:C030301 skos:altLabel "Indicador 3.3.1"@es, "Indicateur 3.3.1"@fr, "Indicator 3.3.1"@en .
+sdg:C030102 skos:note "Indicador 3.1.2"@es, "Indicateur 3.1.2"@fr, "Indicator 3.1.2"@en .
 
-sdg:C030302 skos:altLabel "Indicador 3.3.2"@es, "Indicateur 3.3.2"@fr, "Indicator 3.3.2"@en .
+sdg:3.2 skos:note "Cible 3.2"@fr, "Meta 3.2"@es, "Target 3.2"@en .
 
-sdg:C030303 skos:altLabel "Indicador 3.3.3"@es, "Indicateur 3.3.3"@fr, "Indicator 3.3.3"@en .
+sdg:C030201 skos:note "Indicador 3.2.1"@es, "Indicateur 3.2.1"@fr, "Indicator 3.2.1"@en .
 
-sdg:C030304 skos:altLabel "Indicador 3.3.4"@es, "Indicateur 3.3.4"@fr, "Indicator 3.3.4"@en .
+sdg:C030202 skos:note "Indicador 3.2.2"@es, "Indicateur 3.2.2"@fr, "Indicator 3.2.2"@en .
 
-sdg:C030305 skos:altLabel "Indicador 3.3.5"@es, "Indicateur 3.3.5"@fr, "Indicator 3.3.5"@en .
+sdg:3.3 skos:note "Cible 3.3"@fr, "Meta 3.3"@es, "Target 3.3"@en .
 
-sdg:3.4 skos:altLabel "Cible 3.4"@fr, "Meta 3.4"@es, "Target 3.4"@en .
+sdg:C030301 skos:note "Indicador 3.3.1"@es, "Indicateur 3.3.1"@fr, "Indicator 3.3.1"@en .
 
-sdg:C030401 skos:altLabel "Indicador 3.4.1"@es, "Indicateur 3.4.1"@fr, "Indicator 3.4.1"@en .
+sdg:C030302 skos:note "Indicador 3.3.2"@es, "Indicateur 3.3.2"@fr, "Indicator 3.3.2"@en .
 
-sdg:C030402 skos:altLabel "Indicador 3.4.2"@es, "Indicateur 3.4.2"@fr, "Indicator 3.4.2"@en .
+sdg:C030303 skos:note "Indicador 3.3.3"@es, "Indicateur 3.3.3"@fr, "Indicator 3.3.3"@en .
 
-sdg:3.5 skos:altLabel "Cible 3.5"@fr, "Meta 3.5"@es, "Target 3.5"@en .
+sdg:C030304 skos:note "Indicador 3.3.4"@es, "Indicateur 3.3.4"@fr, "Indicator 3.3.4"@en .
 
-sdg:C030501 skos:altLabel "Indicador 3.5.1"@es, "Indicateur 3.5.1"@fr, "Indicator 3.5.1"@en .
+sdg:C030305 skos:note "Indicador 3.3.5"@es, "Indicateur 3.3.5"@fr, "Indicator 3.3.5"@en .
 
-sdg:C030502 skos:altLabel "Indicador 3.5.2"@es, "Indicateur 3.5.2"@fr, "Indicator 3.5.2"@en .
+sdg:3.4 skos:note "Cible 3.4"@fr, "Meta 3.4"@es, "Target 3.4"@en .
 
-sdg:3.6 skos:altLabel "Cible 3.6"@fr, "Meta 3.6"@es, "Target 3.6"@en .
+sdg:C030401 skos:note "Indicador 3.4.1"@es, "Indicateur 3.4.1"@fr, "Indicator 3.4.1"@en .
 
-sdg:C030601 skos:altLabel "Indicador 3.6.1"@es, "Indicateur 3.6.1"@fr, "Indicator 3.6.1"@en .
+sdg:C030402 skos:note "Indicador 3.4.2"@es, "Indicateur 3.4.2"@fr, "Indicator 3.4.2"@en .
 
-sdg:3.7 skos:altLabel "Cible 3.7"@fr, "Meta 3.7"@es, "Target 3.7"@en .
+sdg:3.5 skos:note "Cible 3.5"@fr, "Meta 3.5"@es, "Target 3.5"@en .
 
-sdg:C030701 skos:altLabel "Indicador 3.7.1"@es, "Indicateur 3.7.1"@fr, "Indicator 3.7.1"@en .
+sdg:C030501 skos:note "Indicador 3.5.1"@es, "Indicateur 3.5.1"@fr, "Indicator 3.5.1"@en .
 
-sdg:C030702 skos:altLabel "Indicador 3.7.2"@es, "Indicateur 3.7.2"@fr, "Indicator 3.7.2"@en .
+sdg:C030502 skos:note "Indicador 3.5.2"@es, "Indicateur 3.5.2"@fr, "Indicator 3.5.2"@en .
 
-sdg:3.8 skos:altLabel "Cible 3.8"@fr, "Meta 3.8"@es, "Target 3.8"@en .
+sdg:3.6 skos:note "Cible 3.6"@fr, "Meta 3.6"@es, "Target 3.6"@en .
 
-sdg:C030801 skos:altLabel "Indicador 3.8.1"@es, "Indicateur 3.8.1"@fr, "Indicator 3.8.1"@en .
+sdg:C030601 skos:note "Indicador 3.6.1"@es, "Indicateur 3.6.1"@fr, "Indicator 3.6.1"@en .
 
-sdg:C030802 skos:altLabel "Indicador 3.8.2"@es, "Indicateur 3.8.2"@fr, "Indicator 3.8.2"@en .
+sdg:3.7 skos:note "Cible 3.7"@fr, "Meta 3.7"@es, "Target 3.7"@en .
 
-sdg:3.9 skos:altLabel "Cible 3.9"@fr, "Meta 3.9"@es, "Target 3.9"@en .
+sdg:C030701 skos:note "Indicador 3.7.1"@es, "Indicateur 3.7.1"@fr, "Indicator 3.7.1"@en .
 
-sdg:C030901 skos:altLabel "Indicador 3.9.1"@es, "Indicateur 3.9.1"@fr, "Indicator 3.9.1"@en .
+sdg:C030702 skos:note "Indicador 3.7.2"@es, "Indicateur 3.7.2"@fr, "Indicator 3.7.2"@en .
 
-sdg:C030902 skos:altLabel "Indicador 3.9.2"@es, "Indicateur 3.9.2"@fr, "Indicator 3.9.2"@en .
+sdg:3.8 skos:note "Cible 3.8"@fr, "Meta 3.8"@es, "Target 3.8"@en .
 
-sdg:C030903 skos:altLabel "Indicador 3.9.3"@es, "Indicateur 3.9.3"@fr, "Indicator 3.9.3"@en .
+sdg:C030801 skos:note "Indicador 3.8.1"@es, "Indicateur 3.8.1"@fr, "Indicator 3.8.1"@en .
 
-sdg:3.a skos:altLabel "Cible 3.a"@fr, "Meta 3.a"@es, "Target 3.a"@en .
+sdg:C030802 skos:note "Indicador 3.8.2"@es, "Indicateur 3.8.2"@fr, "Indicator 3.8.2"@en .
 
-sdg:C030a01 skos:altLabel "Indicador 3.a.1"@es, "Indicateur 3.a.1"@fr, "Indicator 3.a.1"@en .
+sdg:3.9 skos:note "Cible 3.9"@fr, "Meta 3.9"@es, "Target 3.9"@en .
 
-sdg:3.b skos:altLabel "Cible 3.b"@fr, "Meta 3.b"@es, "Target 3.b"@en .
+sdg:C030901 skos:note "Indicador 3.9.1"@es, "Indicateur 3.9.1"@fr, "Indicator 3.9.1"@en .
 
-sdg:C030b01 skos:altLabel "Indicador 3.b.1"@es, "Indicateur 3.b.1"@fr, "Indicator 3.b.1"@en .
+sdg:C030902 skos:note "Indicador 3.9.2"@es, "Indicateur 3.9.2"@fr, "Indicator 3.9.2"@en .
 
-sdg:C030b02 skos:altLabel "Indicador 3.b.2"@es, "Indicateur 3.b.2"@fr, "Indicator 3.b.2"@en .
+sdg:C030903 skos:note "Indicador 3.9.3"@es, "Indicateur 3.9.3"@fr, "Indicator 3.9.3"@en .
 
-sdg:C030b03 skos:altLabel "Indicador 3.b.3"@es, "Indicateur 3.b.3"@fr, "Indicator 3.b.3"@en .
+sdg:3.a skos:note "Cible 3.a"@fr, "Meta 3.a"@es, "Target 3.a"@en .
 
-sdg:3.c skos:altLabel "Cible 3.c"@fr, "Meta 3.c"@es, "Target 3.c"@en .
+sdg:C030a01 skos:note "Indicador 3.a.1"@es, "Indicateur 3.a.1"@fr, "Indicator 3.a.1"@en .
 
-sdg:C030c01 skos:altLabel "Indicador 3.c.1"@es, "Indicateur 3.c.1"@fr, "Indicator 3.c.1"@en .
+sdg:3.b skos:note "Cible 3.b"@fr, "Meta 3.b"@es, "Target 3.b"@en .
 
-sdg:3.d skos:altLabel "Cible 3.d"@fr, "Meta 3.d"@es, "Target 3.d"@en .
+sdg:C030b01 skos:note "Indicador 3.b.1"@es, "Indicateur 3.b.1"@fr, "Indicator 3.b.1"@en .
 
-sdg:C030d01 skos:altLabel "Indicador 3.d.1"@es, "Indicateur 3.d.1"@fr, "Indicator 3.d.1"@en .
+sdg:C030b02 skos:note "Indicador 3.b.2"@es, "Indicateur 3.b.2"@fr, "Indicator 3.b.2"@en .
 
-sdg:3 skos:altLabel "Goal 3"@en, "Good health and well-being"@en, "Objectif 3"@fr,
+sdg:C030b03 skos:note "Indicador 3.b.3"@es, "Indicateur 3.b.3"@fr, "Indicator 3.b.3"@en .
+
+sdg:3.c skos:note "Cible 3.c"@fr, "Meta 3.c"@es, "Target 3.c"@en .
+
+sdg:C030c01 skos:note "Indicador 3.c.1"@es, "Indicateur 3.c.1"@fr, "Indicator 3.c.1"@en .
+
+sdg:3.d skos:note "Cible 3.d"@fr, "Meta 3.d"@es, "Target 3.d"@en .
+
+sdg:C030d01 skos:note "Indicador 3.d.1"@es, "Indicateur 3.d.1"@fr, "Indicator 3.d.1"@en .
+
+sdg:3 skos:note "Goal 3"@en, "Objectif 3"@fr,
     "Objetivo 3"@es .
 
-sdg:4.1 skos:altLabel "Cible 4.1"@fr, "Meta 4.1"@es, "Target 4.1"@en .
+sdg:3 skos:altLabel "Good health and well-being"@en .
 
-sdg:C040101 skos:altLabel "Indicador 4.1.1"@es, "Indicateur 4.1.1"@fr, "Indicator 4.1.1"@en .
+sdg:4.1 skos:note "Cible 4.1"@fr, "Meta 4.1"@es, "Target 4.1"@en .
 
-sdg:4.2 skos:altLabel "Cible 4.2"@fr, "Meta 4.2"@es, "Target 4.2"@en .
+sdg:C040101 skos:note "Indicador 4.1.1"@es, "Indicateur 4.1.1"@fr, "Indicator 4.1.1"@en .
 
-sdg:C040201 skos:altLabel "Indicador 4.2.1"@es, "Indicateur 4.2.1"@fr, "Indicator 4.2.1"@en .
+sdg:4.2 skos:note "Cible 4.2"@fr, "Meta 4.2"@es, "Target 4.2"@en .
 
-sdg:C040202 skos:altLabel "Indicador 4.2.2"@es, "Indicateur 4.2.2"@fr, "Indicator 4.2.2"@en .
+sdg:C040201 skos:note "Indicador 4.2.1"@es, "Indicateur 4.2.1"@fr, "Indicator 4.2.1"@en .
 
-sdg:4.3 skos:altLabel "Cible 4.3"@fr, "Meta 4.3"@es, "Target 4.3"@en .
+sdg:C040202 skos:note "Indicador 4.2.2"@es, "Indicateur 4.2.2"@fr, "Indicator 4.2.2"@en .
 
-sdg:C040301 skos:altLabel "Indicador 4.3.1"@es, "Indicateur 4.3.1"@fr, "Indicator 4.3.1"@en .
+sdg:4.3 skos:note "Cible 4.3"@fr, "Meta 4.3"@es, "Target 4.3"@en .
 
-sdg:4.4 skos:altLabel "Cible 4.4"@fr, "Meta 4.4"@es, "Target 4.4"@en .
+sdg:C040301 skos:note "Indicador 4.3.1"@es, "Indicateur 4.3.1"@fr, "Indicator 4.3.1"@en .
 
-sdg:C040401 skos:altLabel "Indicador 4.4.1"@es, "Indicateur 4.4.1"@fr, "Indicator 4.4.1"@en .
+sdg:4.4 skos:note "Cible 4.4"@fr, "Meta 4.4"@es, "Target 4.4"@en .
 
-sdg:4.5 skos:altLabel "Cible 4.5"@fr, "Meta 4.5"@es, "Target 4.5"@en .
+sdg:C040401 skos:note "Indicador 4.4.1"@es, "Indicateur 4.4.1"@fr, "Indicator 4.4.1"@en .
 
-sdg:C040501 skos:altLabel "Indicador 4.5.1"@es, "Indicateur 4.5.1"@fr, "Indicator 4.5.1"@en .
+sdg:4.5 skos:note "Cible 4.5"@fr, "Meta 4.5"@es, "Target 4.5"@en .
 
-sdg:4.6 skos:altLabel "Cible 4.6"@fr, "Meta 4.6"@es, "Target 4.6"@en .
+sdg:C040501 skos:note "Indicador 4.5.1"@es, "Indicateur 4.5.1"@fr, "Indicator 4.5.1"@en .
 
-sdg:C040601 skos:altLabel "Indicador 4.6.1"@es, "Indicateur 4.6.1"@fr, "Indicator 4.6.1"@en .
+sdg:4.6 skos:note "Cible 4.6"@fr, "Meta 4.6"@es, "Target 4.6"@en .
 
-sdg:4.7 skos:altLabel "Cible 4.7"@fr, "Meta 4.7"@es, "Target 4.7"@en .
+sdg:C040601 skos:note "Indicador 4.6.1"@es, "Indicateur 4.6.1"@fr, "Indicator 4.6.1"@en .
 
-sdg:C040701 skos:altLabel "Indicador 4.7.1"@es, "Indicateur 4.7.1"@fr, "Indicator 4.7.1"@en .
+sdg:4.7 skos:note "Cible 4.7"@fr, "Meta 4.7"@es, "Target 4.7"@en .
 
-sdg:4.a skos:altLabel "Cible 4.a"@fr, "Meta 4.a"@es, "Target 4.a"@en .
+sdg:C040701 skos:note "Indicador 4.7.1"@es, "Indicateur 4.7.1"@fr, "Indicator 4.7.1"@en .
 
-sdg:C040a01 skos:altLabel "Indicador 4.a.1"@es, "Indicateur 4.a.1"@fr, "Indicator 4.a.1"@en .
+sdg:4.a skos:note "Cible 4.a"@fr, "Meta 4.a"@es, "Target 4.a"@en .
 
-sdg:4.b skos:altLabel "Cible 4.b"@fr, "Meta 4.b"@es, "Target 4.b"@en .
+sdg:C040a01 skos:note "Indicador 4.a.1"@es, "Indicateur 4.a.1"@fr, "Indicator 4.a.1"@en .
 
-sdg:C040b01 skos:altLabel "Indicador 4.b.1"@es, "Indicateur 4.b.1"@fr, "Indicator 4.b.1"@en .
+sdg:4.b skos:note "Cible 4.b"@fr, "Meta 4.b"@es, "Target 4.b"@en .
 
-sdg:4.c skos:altLabel "Cible 4.c"@fr, "Meta 4.c"@es, "Target 4.c"@en .
+sdg:C040b01 skos:note "Indicador 4.b.1"@es, "Indicateur 4.b.1"@fr, "Indicator 4.b.1"@en .
 
-sdg:C040c01 skos:altLabel "Indicador 4.c.1"@es, "Indicateur 4.c.1"@fr, "Indicator 4.c.1"@en .
+sdg:4.c skos:note "Cible 4.c"@fr, "Meta 4.c"@es, "Target 4.c"@en .
 
-sdg:4 skos:altLabel "Goal 4"@en, "Objectif 4"@fr, "Objetivo 4"@es, "Quality education"@en .
+sdg:C040c01 skos:note "Indicador 4.c.1"@es, "Indicateur 4.c.1"@fr, "Indicator 4.c.1"@en .
 
-sdg:5.1 skos:altLabel "Cible 5.1"@fr, "Meta 5.1"@es, "Target 5.1"@en .
+sdg:4 skos:note "Goal 4"@en, "Objectif 4"@fr, "Objetivo 4"@es .
 
-sdg:C050101 skos:altLabel "Indicador 5.1.1"@es, "Indicateur 5.1.1"@fr, "Indicator 5.1.1"@en .
+sdg:4 skos:altLabel "Quality education"@en .
 
-sdg:5.2 skos:altLabel "Cible 5.2"@fr, "Meta 5.2"@es, "Target 5.2"@en .
+sdg:5.1 skos:note "Cible 5.1"@fr, "Meta 5.1"@es, "Target 5.1"@en .
 
-sdg:C050201 skos:altLabel "Indicador 5.2.1"@es, "Indicateur 5.2.1"@fr, "Indicator 5.2.1"@en .
+sdg:C050101 skos:note "Indicador 5.1.1"@es, "Indicateur 5.1.1"@fr, "Indicator 5.1.1"@en .
 
-sdg:C050202 skos:altLabel "Indicador 5.2.2"@es, "Indicateur 5.2.2"@fr, "Indicator 5.2.2"@en .
+sdg:5.2 skos:note "Cible 5.2"@fr, "Meta 5.2"@es, "Target 5.2"@en .
 
-sdg:5.3 skos:altLabel "Cible 5.3"@fr, "Meta 5.3"@es, "Target 5.3"@en .
+sdg:C050201 skos:note "Indicador 5.2.1"@es, "Indicateur 5.2.1"@fr, "Indicator 5.2.1"@en .
 
-sdg:C050301 skos:altLabel "Indicador 5.3.1"@es, "Indicateur 5.3.1"@fr, "Indicator 5.3.1"@en .
+sdg:C050202 skos:note "Indicador 5.2.2"@es, "Indicateur 5.2.2"@fr, "Indicator 5.2.2"@en .
 
-sdg:C050302 skos:altLabel "Indicador 5.3.2"@es, "Indicateur 5.3.2"@fr, "Indicator 5.3.2"@en .
+sdg:5.3 skos:note "Cible 5.3"@fr, "Meta 5.3"@es, "Target 5.3"@en .
 
-sdg:5.4 skos:altLabel "Cible 5.4"@fr, "Meta 5.4"@es, "Target 5.4"@en .
+sdg:C050301 skos:note "Indicador 5.3.1"@es, "Indicateur 5.3.1"@fr, "Indicator 5.3.1"@en .
 
-sdg:C050401 skos:altLabel "Indicador 5.4.1"@es, "Indicateur 5.4.1"@fr, "Indicator 5.4.1"@en .
+sdg:C050302 skos:note "Indicador 5.3.2"@es, "Indicateur 5.3.2"@fr, "Indicator 5.3.2"@en .
 
-sdg:5.5 skos:altLabel "Cible 5.5"@fr, "Meta 5.5"@es, "Target 5.5"@en .
+sdg:5.4 skos:note "Cible 5.4"@fr, "Meta 5.4"@es, "Target 5.4"@en .
 
-sdg:C050501 skos:altLabel "Indicador 5.5.1"@es, "Indicateur 5.5.1"@fr, "Indicator 5.5.1"@en .
+sdg:C050401 skos:note "Indicador 5.4.1"@es, "Indicateur 5.4.1"@fr, "Indicator 5.4.1"@en .
 
-sdg:C050502 skos:altLabel "Indicador 5.5.2"@es, "Indicateur 5.5.2"@fr, "Indicator 5.5.2"@en .
+sdg:5.5 skos:note "Cible 5.5"@fr, "Meta 5.5"@es, "Target 5.5"@en .
 
-sdg:5.6 skos:altLabel "Cible 5.6"@fr, "Meta 5.6"@es, "Target 5.6"@en .
+sdg:C050501 skos:note "Indicador 5.5.1"@es, "Indicateur 5.5.1"@fr, "Indicator 5.5.1"@en .
 
-sdg:C050601 skos:altLabel "Indicador 5.6.1"@es, "Indicateur 5.6.1"@fr, "Indicator 5.6.1"@en .
+sdg:C050502 skos:note "Indicador 5.5.2"@es, "Indicateur 5.5.2"@fr, "Indicator 5.5.2"@en .
 
-sdg:C050602 skos:altLabel "Indicador 5.6.2"@es, "Indicateur 5.6.2"@fr, "Indicator 5.6.2"@en .
+sdg:5.6 skos:note "Cible 5.6"@fr, "Meta 5.6"@es, "Target 5.6"@en .
 
-sdg:5.a skos:altLabel "Cible 5.a"@fr, "Meta 5.a"@es, "Target 5.a"@en .
+sdg:C050601 skos:note "Indicador 5.6.1"@es, "Indicateur 5.6.1"@fr, "Indicator 5.6.1"@en .
 
-sdg:C050a01 skos:altLabel "Indicador 5.a.1"@es, "Indicateur 5.a.1"@fr, "Indicator 5.a.1"@en .
+sdg:C050602 skos:note "Indicador 5.6.2"@es, "Indicateur 5.6.2"@fr, "Indicator 5.6.2"@en .
 
-sdg:C050a02 skos:altLabel "Indicador 5.a.2"@es, "Indicateur 5.a.2"@fr, "Indicator 5.a.2"@en .
+sdg:5.a skos:note "Cible 5.a"@fr, "Meta 5.a"@es, "Target 5.a"@en .
 
-sdg:5.b skos:altLabel "Cible 5.b"@fr, "Meta 5.b"@es, "Target 5.b"@en .
+sdg:C050a01 skos:note "Indicador 5.a.1"@es, "Indicateur 5.a.1"@fr, "Indicator 5.a.1"@en .
 
-sdg:C050b01 skos:altLabel "Indicador 5.b.1"@es, "Indicateur 5.b.1"@fr, "Indicator 5.b.1"@en .
+sdg:C050a02 skos:note "Indicador 5.a.2"@es, "Indicateur 5.a.2"@fr, "Indicator 5.a.2"@en .
 
-sdg:5.c skos:altLabel "Cible 5.c"@fr, "Meta 5.c"@es, "Target 5.c"@en .
+sdg:5.b skos:note "Cible 5.b"@fr, "Meta 5.b"@es, "Target 5.b"@en .
 
-sdg:C050c01 skos:altLabel "Indicador 5.c.1"@es, "Indicateur 5.c.1"@fr, "Indicator 5.c.1"@en .
+sdg:C050b01 skos:note "Indicador 5.b.1"@es, "Indicateur 5.b.1"@fr, "Indicator 5.b.1"@en .
 
-sdg:5 skos:altLabel "Gender equality"@en, "Goal 5"@en, "Objectif 5"@fr, "Objetivo 5"@es .
+sdg:5.c skos:note "Cible 5.c"@fr, "Meta 5.c"@es, "Target 5.c"@en .
 
-sdg:6.1 skos:altLabel "Cible 6.1"@fr, "Meta 6.1"@es, "Target 6.1"@en .
+sdg:C050c01 skos:note "Indicador 5.c.1"@es, "Indicateur 5.c.1"@fr, "Indicator 5.c.1"@en .
 
-sdg:C060101 skos:altLabel "Indicador 6.1.1"@es, "Indicateur 6.1.1"@fr, "Indicator 6.1.1"@en .
+sdg:5 skos:note "Goal 5"@en, "Objectif 5"@fr, "Objetivo 5"@es .
 
-sdg:6.2 skos:altLabel "Cible 6.2"@fr, "Meta 6.2"@es, "Target 6.2"@en .
+sdg:5 skos:altLabel "Gender equality"@en .
 
-sdg:C060201 skos:altLabel "Indicador 6.2.1"@es, "Indicateur 6.2.1"@fr, "Indicator 6.2.1"@en .
+sdg:6.1 skos:note "Cible 6.1"@fr, "Meta 6.1"@es, "Target 6.1"@en .
 
-sdg:6.3 skos:altLabel "Cible 6.3"@fr, "Meta 6.3"@es, "Target 6.3"@en .
+sdg:C060101 skos:note "Indicador 6.1.1"@es, "Indicateur 6.1.1"@fr, "Indicator 6.1.1"@en .
 
-sdg:C060301 skos:altLabel "Indicador 6.3.1"@es, "Indicateur 6.3.1"@fr, "Indicator 6.3.1"@en .
+sdg:6.2 skos:note "Cible 6.2"@fr, "Meta 6.2"@es, "Target 6.2"@en .
 
-sdg:C060302 skos:altLabel "Indicador 6.3.2"@es, "Indicateur 6.3.2"@fr, "Indicator 6.3.2"@en .
+sdg:C060201 skos:note "Indicador 6.2.1"@es, "Indicateur 6.2.1"@fr, "Indicator 6.2.1"@en .
 
-sdg:6.4 skos:altLabel "Cible 6.4"@fr, "Meta 6.4"@es, "Target 6.4"@en .
+sdg:6.3 skos:note "Cible 6.3"@fr, "Meta 6.3"@es, "Target 6.3"@en .
 
-sdg:C060401 skos:altLabel "Indicador 6.4.1"@es, "Indicateur 6.4.1"@fr, "Indicator 6.4.1"@en .
+sdg:C060301 skos:note "Indicador 6.3.1"@es, "Indicateur 6.3.1"@fr, "Indicator 6.3.1"@en .
 
-sdg:C060402 skos:altLabel "Indicador 6.4.2"@es, "Indicateur 6.4.2"@fr, "Indicator 6.4.2"@en .
+sdg:C060302 skos:note "Indicador 6.3.2"@es, "Indicateur 6.3.2"@fr, "Indicator 6.3.2"@en .
 
-sdg:6.5 skos:altLabel "Cible 6.5"@fr, "Meta 6.5"@es, "Target 6.5"@en .
+sdg:6.4 skos:note "Cible 6.4"@fr, "Meta 6.4"@es, "Target 6.4"@en .
 
-sdg:C060501 skos:altLabel "Indicador 6.5.1"@es, "Indicateur 6.5.1"@fr, "Indicator 6.5.1"@en .
+sdg:C060401 skos:note "Indicador 6.4.1"@es, "Indicateur 6.4.1"@fr, "Indicator 6.4.1"@en .
 
-sdg:C060502 skos:altLabel "Indicador 6.5.2"@es, "Indicateur 6.5.2"@fr, "Indicator 6.5.2"@en .
+sdg:C060402 skos:note "Indicador 6.4.2"@es, "Indicateur 6.4.2"@fr, "Indicator 6.4.2"@en .
 
-sdg:6.6 skos:altLabel "Cible 6.6"@fr, "Meta 6.6"@es, "Target 6.6"@en .
+sdg:6.5 skos:note "Cible 6.5"@fr, "Meta 6.5"@es, "Target 6.5"@en .
 
-sdg:C060601 skos:altLabel "Indicador 6.6.1"@es, "Indicateur 6.6.1"@fr, "Indicator 6.6.1"@en .
+sdg:C060501 skos:note "Indicador 6.5.1"@es, "Indicateur 6.5.1"@fr, "Indicator 6.5.1"@en .
 
-sdg:6.a skos:altLabel "Cible 6.a"@fr, "Meta 6.a"@es, "Target 6.a"@en .
+sdg:C060502 skos:note "Indicador 6.5.2"@es, "Indicateur 6.5.2"@fr, "Indicator 6.5.2"@en .
 
-sdg:C060a01 skos:altLabel "Indicador 6.a.1"@es, "Indicateur 6.a.1"@fr, "Indicator 6.a.1"@en .
+sdg:6.6 skos:note "Cible 6.6"@fr, "Meta 6.6"@es, "Target 6.6"@en .
 
-sdg:6.b skos:altLabel "Cible 6.b"@fr, "Meta 6.b"@es, "Target 6.b"@en .
+sdg:C060601 skos:note "Indicador 6.6.1"@es, "Indicateur 6.6.1"@fr, "Indicator 6.6.1"@en .
 
-sdg:C060b01 skos:altLabel "Indicador 6.b.1"@es, "Indicateur 6.b.1"@fr, "Indicator 6.b.1"@en .
+sdg:6.a skos:note "Cible 6.a"@fr, "Meta 6.a"@es, "Target 6.a"@en .
 
-sdg:6 skos:altLabel "Clean water and sanitation"@en, "Goal 6"@en, "Objectif 6"@fr,
+sdg:C060a01 skos:note "Indicador 6.a.1"@es, "Indicateur 6.a.1"@fr, "Indicator 6.a.1"@en .
+
+sdg:6.b skos:note "Cible 6.b"@fr, "Meta 6.b"@es, "Target 6.b"@en .
+
+sdg:C060b01 skos:note "Indicador 6.b.1"@es, "Indicateur 6.b.1"@fr, "Indicator 6.b.1"@en .
+
+sdg:6 skos:note "Goal 6"@en, "Objectif 6"@fr,
     "Objetivo 6"@es .
 
-sdg:7.1 skos:altLabel "Cible 7.1"@fr, "Meta 7.1"@es, "Target 7.1"@en .
+sdg:6 skos:altLabel "Clean water and sanitation"@en .
 
-sdg:C070101 skos:altLabel "Indicador 7.1.1"@es, "Indicateur 7.1.1"@fr, "Indicator 7.1.1"@en .
+sdg:7.1 skos:note "Cible 7.1"@fr, "Meta 7.1"@es, "Target 7.1"@en .
 
-sdg:C070102 skos:altLabel "Indicador 7.1.2"@es, "Indicateur 7.1.2"@fr, "Indicator 7.1.2"@en .
+sdg:C070101 skos:note "Indicador 7.1.1"@es, "Indicateur 7.1.1"@fr, "Indicator 7.1.1"@en .
 
-sdg:7.2 skos:altLabel "Cible 7.2"@fr, "Meta 7.2"@es, "Target 7.2"@en .
+sdg:C070102 skos:note "Indicador 7.1.2"@es, "Indicateur 7.1.2"@fr, "Indicator 7.1.2"@en .
 
-sdg:C070201 skos:altLabel "Indicador 7.2.1"@es, "Indicateur 7.2.1"@fr, "Indicator 7.2.1"@en .
+sdg:7.2 skos:note "Cible 7.2"@fr, "Meta 7.2"@es, "Target 7.2"@en .
 
-sdg:7.3 skos:altLabel "Cible 7.3"@fr, "Meta 7.3"@es, "Target 7.3"@en .
+sdg:C070201 skos:note "Indicador 7.2.1"@es, "Indicateur 7.2.1"@fr, "Indicator 7.2.1"@en .
 
-sdg:C070301 skos:altLabel "Indicador 7.3.1"@es, "Indicateur 7.3.1"@fr, "Indicator 7.3.1"@en .
+sdg:7.3 skos:note "Cible 7.3"@fr, "Meta 7.3"@es, "Target 7.3"@en .
 
-sdg:7.a skos:altLabel "Cible 7.a"@fr, "Meta 7.a"@es, "Target 7.a"@en .
+sdg:C070301 skos:note "Indicador 7.3.1"@es, "Indicateur 7.3.1"@fr, "Indicator 7.3.1"@en .
 
-sdg:C070a01 skos:altLabel "Indicador 7.a.1"@es, "Indicateur 7.a.1"@fr, "Indicator 7.a.1"@en .
+sdg:7.a skos:note "Cible 7.a"@fr, "Meta 7.a"@es, "Target 7.a"@en .
 
-sdg:7.b skos:altLabel "Cible 7.b"@fr, "Meta 7.b"@es, "Target 7.b"@en .
+sdg:C070a01 skos:note "Indicador 7.a.1"@es, "Indicateur 7.a.1"@fr, "Indicator 7.a.1"@en .
 
-sdg:C070b01 skos:altLabel "Indicador 7.b.1"@es, "Indicateur 7.b.1"@fr, "Indicator 7.b.1"@en .
+sdg:7.b skos:note "Cible 7.b"@fr, "Meta 7.b"@es, "Target 7.b"@en .
 
-sdg:7 skos:altLabel "Affordable and clean energy"@en, "Goal 7"@en, "Objectif 7"@fr,
+sdg:C070b01 skos:note "Indicador 7.b.1"@es, "Indicateur 7.b.1"@fr, "Indicator 7.b.1"@en .
+
+sdg:7 skos:note "Goal 7"@en, "Objectif 7"@fr,
     "Objetivo 7"@es .
 
-sdg:8.10 skos:altLabel "Cible 8.10"@fr, "Meta 8.10"@es, "Target 8.10"@en .
+sdg:7 skos:altLabel "Affordable and clean energy"@en .
 
-sdg:C081001 skos:altLabel "Indicador 8.10.1"@es, "Indicateur 8.10.1"@fr, "Indicator 8.10.1"@en .
+sdg:8.10 skos:note "Cible 8.10"@fr, "Meta 8.10"@es, "Target 8.10"@en .
 
-sdg:C081002 skos:altLabel "Indicador 8.10.2"@es, "Indicateur 8.10.2"@fr, "Indicator 8.10.2"@en .
+sdg:C081001 skos:note "Indicador 8.10.1"@es, "Indicateur 8.10.1"@fr, "Indicator 8.10.1"@en .
 
-sdg:8.1 skos:altLabel "Cible 8.1"@fr, "Meta 8.1"@es, "Target 8.1"@en .
+sdg:C081002 skos:note "Indicador 8.10.2"@es, "Indicateur 8.10.2"@fr, "Indicator 8.10.2"@en .
 
-sdg:C080101 skos:altLabel "Indicador 8.1.1"@es, "Indicateur 8.1.1"@fr, "Indicator 8.1.1"@en .
+sdg:8.1 skos:note "Cible 8.1"@fr, "Meta 8.1"@es, "Target 8.1"@en .
 
-sdg:8.2 skos:altLabel "Cible 8.2"@fr, "Meta 8.2"@es, "Target 8.2"@en .
+sdg:C080101 skos:note "Indicador 8.1.1"@es, "Indicateur 8.1.1"@fr, "Indicator 8.1.1"@en .
 
-sdg:C080201 skos:altLabel "Indicador 8.2.1"@es, "Indicateur 8.2.1"@fr, "Indicator 8.2.1"@en .
+sdg:8.2 skos:note "Cible 8.2"@fr, "Meta 8.2"@es, "Target 8.2"@en .
 
-sdg:8.3 skos:altLabel "Cible 8.3"@fr, "Meta 8.3"@es, "Target 8.3"@en .
+sdg:C080201 skos:note "Indicador 8.2.1"@es, "Indicateur 8.2.1"@fr, "Indicator 8.2.1"@en .
 
-sdg:C080301 skos:altLabel "Indicador 8.3.1"@es, "Indicateur 8.3.1"@fr, "Indicator 8.3.1"@en .
+sdg:8.3 skos:note "Cible 8.3"@fr, "Meta 8.3"@es, "Target 8.3"@en .
 
-sdg:8.4 skos:altLabel "Cible 8.4"@fr, "Meta 8.4"@es, "Target 8.4"@en .
+sdg:C080301 skos:note "Indicador 8.3.1"@es, "Indicateur 8.3.1"@fr, "Indicator 8.3.1"@en .
 
-sdg:8.5 skos:altLabel "Cible 8.5"@fr, "Meta 8.5"@es, "Target 8.5"@en .
+sdg:8.4 skos:note "Cible 8.4"@fr, "Meta 8.4"@es, "Target 8.4"@en .
 
-sdg:C080501 skos:altLabel "Indicador 8.5.1"@es, "Indicateur 8.5.1"@fr, "Indicator 8.5.1"@en .
+sdg:8.5 skos:note "Cible 8.5"@fr, "Meta 8.5"@es, "Target 8.5"@en .
 
-sdg:C080502 skos:altLabel "Indicador 8.5.2"@es, "Indicateur 8.5.2"@fr, "Indicator 8.5.2"@en .
+sdg:C080501 skos:note "Indicador 8.5.1"@es, "Indicateur 8.5.1"@fr, "Indicator 8.5.1"@en .
 
-sdg:8.6 skos:altLabel "Cible 8.6"@fr, "Meta 8.6"@es, "Target 8.6"@en .
+sdg:C080502 skos:note "Indicador 8.5.2"@es, "Indicateur 8.5.2"@fr, "Indicator 8.5.2"@en .
 
-sdg:C080601 skos:altLabel "Indicador 8.6.1"@es, "Indicateur 8.6.1"@fr, "Indicator 8.6.1"@en .
+sdg:8.6 skos:note "Cible 8.6"@fr, "Meta 8.6"@es, "Target 8.6"@en .
 
-sdg:8.7 skos:altLabel "Cible 8.7"@fr, "Meta 8.7"@es, "Target 8.7"@en .
+sdg:C080601 skos:note "Indicador 8.6.1"@es, "Indicateur 8.6.1"@fr, "Indicator 8.6.1"@en .
 
-sdg:C080701 skos:altLabel "Indicador 8.7.1"@es, "Indicateur 8.7.1"@fr, "Indicator 8.7.1"@en .
+sdg:8.7 skos:note "Cible 8.7"@fr, "Meta 8.7"@es, "Target 8.7"@en .
 
-sdg:8.8 skos:altLabel "Cible 8.8"@fr, "Meta 8.8"@es, "Target 8.8"@en .
+sdg:C080701 skos:note "Indicador 8.7.1"@es, "Indicateur 8.7.1"@fr, "Indicator 8.7.1"@en .
 
-sdg:C080801 skos:altLabel "Indicador 8.8.1"@es, "Indicateur 8.8.1"@fr, "Indicator 8.8.1"@en .
+sdg:8.8 skos:note "Cible 8.8"@fr, "Meta 8.8"@es, "Target 8.8"@en .
 
-sdg:C080802 skos:altLabel "Indicador 8.8.2"@es, "Indicateur 8.8.2"@fr, "Indicator 8.8.2"@en .
+sdg:C080801 skos:note "Indicador 8.8.1"@es, "Indicateur 8.8.1"@fr, "Indicator 8.8.1"@en .
 
-sdg:8.9 skos:altLabel "Cible 8.9"@fr, "Meta 8.9"@es, "Target 8.9"@en .
+sdg:C080802 skos:note "Indicador 8.8.2"@es, "Indicateur 8.8.2"@fr, "Indicator 8.8.2"@en .
 
-sdg:C080901 skos:altLabel "Indicador 8.9.1"@es, "Indicateur 8.9.1"@fr, "Indicator 8.9.1"@en .
+sdg:8.9 skos:note "Cible 8.9"@fr, "Meta 8.9"@es, "Target 8.9"@en .
 
-sdg:C080902 skos:altLabel "Indicador 8.9.2"@es, "Indicateur 8.9.2"@fr, "Indicator 8.9.2"@en .
+sdg:C080901 skos:note "Indicador 8.9.1"@es, "Indicateur 8.9.1"@fr, "Indicator 8.9.1"@en .
 
-sdg:8.a skos:altLabel "Cible 8.a"@fr, "Meta 8.a"@es, "Target 8.a"@en .
+sdg:C080902 skos:note "Indicador 8.9.2"@es, "Indicateur 8.9.2"@fr, "Indicator 8.9.2"@en .
 
-sdg:C080a01 skos:altLabel "Indicador 8.a.1"@es, "Indicateur 8.a.1"@fr, "Indicator 8.a.1"@en .
+sdg:8.a skos:note "Cible 8.a"@fr, "Meta 8.a"@es, "Target 8.a"@en .
 
-sdg:8.b skos:altLabel "Cible 8.b"@fr, "Meta 8.b"@es, "Target 8.b"@en .
+sdg:C080a01 skos:note "Indicador 8.a.1"@es, "Indicateur 8.a.1"@fr, "Indicator 8.a.1"@en .
 
-sdg:C080b01 skos:altLabel "Indicador 8.b.1"@es, "Indicateur 8.b.1"@fr, "Indicator 8.b.1"@en .
+sdg:8.b skos:note "Cible 8.b"@fr, "Meta 8.b"@es, "Target 8.b"@en .
 
-sdg:8 skos:altLabel "Decent work and economic growth"@en, "Goal 8"@en, "Objectif 8"@fr,
+sdg:C080b01 skos:note "Indicador 8.b.1"@es, "Indicateur 8.b.1"@fr, "Indicator 8.b.1"@en .
+
+sdg:8 skos:note "Goal 8"@en, "Objectif 8"@fr,
     "Objetivo 8"@es .
 
-sdg:9.1 skos:altLabel "Cible 9.1"@fr, "Meta 9.1"@es, "Target 9.1"@en .
+sdg:8 skos:altLabel "Decent work and economic growth"@en .
 
-sdg:C090101 skos:altLabel "Indicador 9.1.1"@es, "Indicateur 9.1.1"@fr, "Indicator 9.1.1"@en .
+sdg:9.1 skos:note "Cible 9.1"@fr, "Meta 9.1"@es, "Target 9.1"@en .
 
-sdg:C090102 skos:altLabel "Indicador 9.1.2"@es, "Indicateur 9.1.2"@fr, "Indicator 9.1.2"@en .
+sdg:C090101 skos:note "Indicador 9.1.1"@es, "Indicateur 9.1.1"@fr, "Indicator 9.1.1"@en .
 
-sdg:9.2 skos:altLabel "Cible 9.2"@fr, "Meta 9.2"@es, "Target 9.2"@en .
+sdg:C090102 skos:note "Indicador 9.1.2"@es, "Indicateur 9.1.2"@fr, "Indicator 9.1.2"@en .
 
-sdg:C090201 skos:altLabel "Indicador 9.2.1"@es, "Indicateur 9.2.1"@fr, "Indicator 9.2.1"@en .
+sdg:9.2 skos:note "Cible 9.2"@fr, "Meta 9.2"@es, "Target 9.2"@en .
 
-sdg:C090202 skos:altLabel "Indicador 9.2.2"@es, "Indicateur 9.2.2"@fr, "Indicator 9.2.2"@en .
+sdg:C090201 skos:note "Indicador 9.2.1"@es, "Indicateur 9.2.1"@fr, "Indicator 9.2.1"@en .
 
-sdg:9.3 skos:altLabel "Cible 9.3"@fr, "Meta 9.3"@es, "Target 9.3"@en .
+sdg:C090202 skos:note "Indicador 9.2.2"@es, "Indicateur 9.2.2"@fr, "Indicator 9.2.2"@en .
 
-sdg:C090301 skos:altLabel "Indicador 9.3.1"@es, "Indicateur 9.3.1"@fr, "Indicator 9.3.1"@en .
+sdg:9.3 skos:note "Cible 9.3"@fr, "Meta 9.3"@es, "Target 9.3"@en .
 
-sdg:C090302 skos:altLabel "Indicador 9.3.2"@es, "Indicateur 9.3.2"@fr, "Indicator 9.3.2"@en .
+sdg:C090301 skos:note "Indicador 9.3.1"@es, "Indicateur 9.3.1"@fr, "Indicator 9.3.1"@en .
 
-sdg:9.4 skos:altLabel "Cible 9.4"@fr, "Meta 9.4"@es, "Target 9.4"@en .
+sdg:C090302 skos:note "Indicador 9.3.2"@es, "Indicateur 9.3.2"@fr, "Indicator 9.3.2"@en .
 
-sdg:C090401 skos:altLabel "Indicador 9.4.1"@es, "Indicateur 9.4.1"@fr, "Indicator 9.4.1"@en .
+sdg:9.4 skos:note "Cible 9.4"@fr, "Meta 9.4"@es, "Target 9.4"@en .
 
-sdg:9.5 skos:altLabel "Cible 9.5"@fr, "Meta 9.5"@es, "Target 9.5"@en .
+sdg:C090401 skos:note "Indicador 9.4.1"@es, "Indicateur 9.4.1"@fr, "Indicator 9.4.1"@en .
 
-sdg:C090501 skos:altLabel "Indicador 9.5.1"@es, "Indicateur 9.5.1"@fr, "Indicator 9.5.1"@en .
+sdg:9.5 skos:note "Cible 9.5"@fr, "Meta 9.5"@es, "Target 9.5"@en .
 
-sdg:C090502 skos:altLabel "Indicador 9.5.2"@es, "Indicateur 9.5.2"@fr, "Indicator 9.5.2"@en .
+sdg:C090501 skos:note "Indicador 9.5.1"@es, "Indicateur 9.5.1"@fr, "Indicator 9.5.1"@en .
 
-sdg:9.a skos:altLabel "Cible 9.a"@fr, "Meta 9.a"@es, "Target 9.a"@en .
+sdg:C090502 skos:note "Indicador 9.5.2"@es, "Indicateur 9.5.2"@fr, "Indicator 9.5.2"@en .
 
-sdg:C090a01 skos:altLabel "Indicador 9.a.1"@es, "Indicateur 9.a.1"@fr, "Indicator 9.a.1"@en .
+sdg:9.a skos:note "Cible 9.a"@fr, "Meta 9.a"@es, "Target 9.a"@en .
 
-sdg:9.b skos:altLabel "Cible 9.b"@fr, "Meta 9.b"@es, "Target 9.b"@en .
+sdg:C090a01 skos:note "Indicador 9.a.1"@es, "Indicateur 9.a.1"@fr, "Indicator 9.a.1"@en .
 
-sdg:C090b01 skos:altLabel "Indicador 9.b.1"@es, "Indicateur 9.b.1"@fr, "Indicator 9.b.1"@en .
+sdg:9.b skos:note "Cible 9.b"@fr, "Meta 9.b"@es, "Target 9.b"@en .
 
-sdg:9.c skos:altLabel "Cible 9.c"@fr, "Meta 9.c"@es, "Target 9.c"@en .
+sdg:C090b01 skos:note "Indicador 9.b.1"@es, "Indicateur 9.b.1"@fr, "Indicator 9.b.1"@en .
 
-sdg:C090c01 skos:altLabel "Indicador 9.c.1"@es, "Indicateur 9.c.1"@fr, "Indicator 9.c.1"@en .
+sdg:9.c skos:note "Cible 9.c"@fr, "Meta 9.c"@es, "Target 9.c"@en .
 
-sdg:9 skos:altLabel "Goal 9"@en, "Industry, innovation and infrastructure"@en, "Objectif 9"@fr,
+sdg:C090c01 skos:note "Indicador 9.c.1"@es, "Indicateur 9.c.1"@fr, "Indicator 9.c.1"@en .
+
+sdg:9 skos:note "Goal 9"@en, "Objectif 9"@fr,
     "Objetivo 9"@es .
+
+sdg:9 skos:altLabel "Industry, innovation and infrastructure"@en .
 
 sdg:1.1 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000057> .
 
@@ -6454,7 +6495,7 @@ sdg:5.c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000117> .
 sdg:C050c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020078> .
 
 sdg:5 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000039>, <http://www.wikidata.org/entity/Q53581210>;
-  skos:topConceptOf <http://data.un.org/kos/sdg> .
+  skos:topConceptOf <http://metadata.un.org/sdg> .
 
 sdg:6.1 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000118> .
 
@@ -6495,7 +6536,7 @@ sdg:6.b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000125> .
 sdg:C060b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020089> .
 
 sdg:6 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000040>, <http://www.wikidata.org/entity/Q48741129>;
-  skos:topConceptOf <http://data.un.org/kos/sdg> .
+  skos:topConceptOf <http://metadata.un.org/sdg> .
 
 sdg:7.1 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000126> .
 
@@ -6520,7 +6561,7 @@ sdg:7.b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000130> .
 sdg:C070b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020095> .
 
 sdg:7 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000041>, <http://www.wikidata.org/entity/Q53581213>;
-  skos:topConceptOf <http://data.un.org/kos/sdg> .
+  skos:topConceptOf <http://metadata.un.org/sdg> .
 
 sdg:C081001 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020109> .
 
@@ -6575,7 +6616,7 @@ sdg:8.b skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000142> .
 sdg:C080b01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020112> .
 
 sdg:8 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000042>, <http://www.wikidata.org/entity/Q53581217>;
-  skos:topConceptOf <http://data.un.org/kos/sdg> .
+  skos:topConceptOf <http://metadata.un.org/sdg> .
 
 sdg:9.1 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000143> .
 
@@ -6618,31 +6659,31 @@ sdg:9.c skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000150> .
 sdg:C090c01 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00020124> .
 
 sdg:9 skos:exactMatch <http://purl.unep.org/sdg/SDGIO_00000043>, <http://www.wikidata.org/entity/Q53581219>;
-  skos:topConceptOf <http://data.un.org/kos/sdg> .
+  skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:10 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:10 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:11 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:11 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:12 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:12 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:13 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:13 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:14 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:14 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:15 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:15 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:16 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:16 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:17 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:17 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:1 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:1 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:2 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:2 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:3 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:3 skos:topConceptOf <http://metadata.un.org/sdg> .
 
-sdg:4 skos:topConceptOf <http://data.un.org/kos/sdg> .
+sdg:4 skos:topConceptOf <http://metadata.un.org/sdg> .
 
 sdg:1.1 sdgo:hasIndicator sdg:C010101 .
 
