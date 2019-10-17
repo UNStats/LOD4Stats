@@ -1,795 +1,795 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix qb: <http://purl.org/linked-data/cube#>
 
-<http://data.un.org/codes/sdg/age> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/sex> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/location> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/cities> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/typeOfProduct> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/bound> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/freq> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/typeOfSpeed> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/typeOfOccupation> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/ihrCapacity> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/educationLevel> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/typeOfSkill> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/levelStatus> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/disabilityStatus> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/migratoryStatus> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/modeOfTransportation> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/typeOfMobileTechnology> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/geoArea> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/hazardType> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/year> a qb:DimensionProperty .
-<http://data.un.org/codes/sdg/units> rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> .
+<http://metadata.un.org/sdg/codes/age> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/sex> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/location> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/nameOfInternationalInstitution> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/cities> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/typeOfProduct> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/bound> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/freq> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/typeOfSpeed> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/typeOfOccupation> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/ihrCapacity> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/educationLevel> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/typeOfSkill> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/levelStatus> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/disabilityStatus> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/migratoryStatus> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/modeOfTransportation> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/typeOfMobileTechnology> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/geoArea> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/hazardType> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/year> a qb:DimensionProperty .
+<http://metadata.un.org/sdg/codes/units> rdfs:subPropertyOf <http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> .
 
-<http://data.un.org/codes/sdg/age> qb:codeList <http://data.un.org/codes/sdg/ageCodes> .
-<http://data.un.org/codes/sdg/sex> qb:codeList <http://data.un.org/codes/sdg/sexCodes> .
-<http://data.un.org/codes/sdg/location> qb:codeList <http://data.un.org/codes/sdg/locationCodes> .
-<http://data.un.org/codes/sdg/nameOfInternationalInstitution> qb:codeList <http://data.un.org/codes/sdg/nameOfInternationalInstitutionCodes> .
-<http://data.un.org/codes/sdg/cities> qb:codeList <http://data.un.org/codes/sdg/citiesCodes> .
-<http://data.un.org/codes/sdg/typeOfProduct> qb:codeList <http://data.un.org/codes/sdg/typeOfProductCodes> .
-<http://data.un.org/codes/sdg/bound> qb:codeList <http://data.un.org/codes/sdg/boundCodes> .
-<http://data.un.org/codes/sdg/freq> qb:codeList <http://data.un.org/codes/sdg/freqCodes> .
-<http://data.un.org/codes/sdg/typeOfSpeed> qb:codeList <http://data.un.org/codes/sdg/typeOfSpeedCodes> .
-<http://data.un.org/codes/sdg/nameOfNonCommunicableDisease> qb:codeList <http://data.un.org/codes/sdg/nameOfNonCommunicableDiseaseCodes> .
-<http://data.un.org/codes/sdg/typeOfOccupation> qb:codeList <http://data.un.org/codes/sdg/typeOfOccupationCodes> .
-<http://data.un.org/codes/sdg/ihrCapacity> qb:codeList <http://data.un.org/codes/sdg/ihrCapacityCodes> .
-<http://data.un.org/codes/sdg/educationLevel> qb:codeList <http://data.un.org/codes/sdg/educationLevelCodes> .
-<http://data.un.org/codes/sdg/typeOfSkill> qb:codeList <http://data.un.org/codes/sdg/typeOfSkillCodes> .
-<http://data.un.org/codes/sdg/levelStatus> qb:codeList <http://data.un.org/codes/sdg/levelStatusCodes> .
-<http://data.un.org/codes/sdg/disabilityStatus> qb:codeList <http://data.un.org/codes/sdg/disabilityStatusCodes> .
-<http://data.un.org/codes/sdg/migratoryStatus> qb:codeList <http://data.un.org/codes/sdg/migratoryStatusCodes> .
-<http://data.un.org/codes/sdg/modeOfTransportation> qb:codeList <http://data.un.org/codes/sdg/modeOfTransportationCodes> .
-<http://data.un.org/codes/sdg/typeOfMobileTechnology> qb:codeList <http://data.un.org/codes/sdg/typeOfMobileTechnologyCodes> .
-<http://data.un.org/codes/sdg/geoArea> qb:codeList <http://data.un.org/codes/sdg/geoAreaCodes> .
-<http://data.un.org/codes/sdg/hazardType> qb:codeList <http://data.un.org/codes/sdg/hazardTypeCodes> .
-<http://data.un.org/codes/sdg/units> qb:codeList <http://data.un.org/codes/sdg/unitsCodes> .
+<http://metadata.un.org/sdg/codes/age> qb:codeList <http://metadata.un.org/sdg/codes/ageCodes> .
+<http://metadata.un.org/sdg/codes/sex> qb:codeList <http://metadata.un.org/sdg/codes/sexCodes> .
+<http://metadata.un.org/sdg/codes/location> qb:codeList <http://metadata.un.org/sdg/codes/locationCodes> .
+<http://metadata.un.org/sdg/codes/nameOfInternationalInstitution> qb:codeList <http://metadata.un.org/sdg/codes/nameOfInternationalInstitutionCodes> .
+<http://metadata.un.org/sdg/codes/cities> qb:codeList <http://metadata.un.org/sdg/codes/citiesCodes> .
+<http://metadata.un.org/sdg/codes/typeOfProduct> qb:codeList <http://metadata.un.org/sdg/codes/typeOfProductCodes> .
+<http://metadata.un.org/sdg/codes/bound> qb:codeList <http://metadata.un.org/sdg/codes/boundCodes> .
+<http://metadata.un.org/sdg/codes/freq> qb:codeList <http://metadata.un.org/sdg/codes/freqCodes> .
+<http://metadata.un.org/sdg/codes/typeOfSpeed> qb:codeList <http://metadata.un.org/sdg/codes/typeOfSpeedCodes> .
+<http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease> qb:codeList <http://metadata.un.org/sdg/codes/nameOfNonCommunicableDiseaseCodes> .
+<http://metadata.un.org/sdg/codes/typeOfOccupation> qb:codeList <http://metadata.un.org/sdg/codes/typeOfOccupationCodes> .
+<http://metadata.un.org/sdg/codes/ihrCapacity> qb:codeList <http://metadata.un.org/sdg/codes/ihrCapacityCodes> .
+<http://metadata.un.org/sdg/codes/educationLevel> qb:codeList <http://metadata.un.org/sdg/codes/educationLevelCodes> .
+<http://metadata.un.org/sdg/codes/typeOfSkill> qb:codeList <http://metadata.un.org/sdg/codes/typeOfSkillCodes> .
+<http://metadata.un.org/sdg/codes/levelStatus> qb:codeList <http://metadata.un.org/sdg/codes/levelStatusCodes> .
+<http://metadata.un.org/sdg/codes/disabilityStatus> qb:codeList <http://metadata.un.org/sdg/codes/disabilityStatusCodes> .
+<http://metadata.un.org/sdg/codes/migratoryStatus> qb:codeList <http://metadata.un.org/sdg/codes/migratoryStatusCodes> .
+<http://metadata.un.org/sdg/codes/modeOfTransportation> qb:codeList <http://metadata.un.org/sdg/codes/modeOfTransportationCodes> .
+<http://metadata.un.org/sdg/codes/typeOfMobileTechnology> qb:codeList <http://metadata.un.org/sdg/codes/typeOfMobileTechnologyCodes> .
+<http://metadata.un.org/sdg/codes/geoArea> qb:codeList <http://metadata.un.org/sdg/codes/geoAreaCodes> .
+<http://metadata.un.org/sdg/codes/hazardType> qb:codeList <http://metadata.un.org/sdg/codes/hazardTypeCodes> .
+<http://metadata.un.org/sdg/codes/units> qb:codeList <http://metadata.un.org/sdg/codes/unitsCodes> .
 
 
-<http://data.un.org/kos/sdg/SI_POV_DAY1/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_POV_DAY1/measure> rdfs:label "Proportion of population below international poverty line (%)"@en .
-<http://data.un.org/kos/sdg/SI_POV_EMP1/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_POV_EMP1/measure> rdfs:label "Employed population below international poverty line, by sex and age (%)"@en .
-<http://data.un.org/kos/sdg/SI_POV_NAHC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_POV_NAHC/measure> rdfs:label "Proportion of population living below the national poverty line (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_BENFTS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_BENFTS/measure> rdfs:label "[ILO] Proportion of population covered by at least one social protection benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_CHLD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_CHLD/measure> rdfs:label "[ILO] Proportion of children/households receiving child/family cash benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_DISAB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_DISAB/measure> rdfs:label "[ILO] Proportion of population with severe disabilities receiving disability cash benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_LMKT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_LMKT/measure> rdfs:label "[World Bank] Proportion of population covered by labour market programs (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_LMKTPQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_LMKTPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by labour market programs (%) "@en .
-<http://data.un.org/kos/sdg/SI_COV_MATNL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_MATNL/measure> rdfs:label "[ILO] Proportion of mothers with newborns receiving maternity cash benefit (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_PENSN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_PENSN/measure> rdfs:label "[ILO] Proportion of population above statutory pensionable age receiving a pension, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_POOR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_POOR/measure> rdfs:label "[ILO] Proportion of poor population receiving social assistance cash benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_SOCAST/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_SOCAST/measure> rdfs:label "[World Bank] Proportion of population covered by social assistance programs (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_SOCASTPQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_SOCASTPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by social assistance programs (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_SOCINS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_SOCINS/measure> rdfs:label "[World Bank] Proportion of population covered by social insurance programs (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_SOCINSPQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_SOCINSPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by social insurance programs (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_UEMP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_UEMP/measure> rdfs:label "[ILO] Proportion of unemployed persons receiving unemployment cash benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_VULN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_VULN/measure> rdfs:label "[ILO] Proportion of vulnerable population receiving social assistance cash benefit, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SI_COV_WKINJRY/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_COV_WKINJRY/measure> rdfs:label "[ILO] Proportion of employed population covered in the event of work injury, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SP_ACS_BSRVH2O/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SP_ACS_BSRVH2O/measure> rdfs:label "Proportion of population using basic drinking water services, by location (%)"@en .
-<http://data.un.org/kos/sdg/SP_ACS_BSRVSAN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SP_ACS_BSRVSAN/measure> rdfs:label "Proportion of population using basic sanitation services, by location (%)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_AFFCT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_AFFCT/measure> rdfs:label "Number of people affected by disaster (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_DAFF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_DAFF/measure> rdfs:label "Number of directly affected persons attributed to disasters per 100,000 population (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_DDHN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_DDHN/measure> rdfs:label "Number damaged dwellings attributed to disasters, by hazard type (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_DYHN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_DYHN/measure> rdfs:label "Number destroyed dwellings attributed to disasters, by hazard type (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_IJILN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_IJILN/measure> rdfs:label "Number of injured or ill people attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_MISS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_MISS/measure> rdfs:label "Number of missing persons due to disaster (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_MMHN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_MMHN/measure> rdfs:label "Number of deaths and missing persons attributed to disasters, by hazard type (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_MORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_MORT/measure> rdfs:label "Number of deaths due to disaster (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_MTMN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_MTMN/measure> rdfs:label "Number of deaths and missing persons attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_MTMP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_MTMP/measure> rdfs:label "Number of deaths and missing persons attributed to disasters per 100,000 population (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_PDAN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_PDAN/measure> rdfs:label "Number of people whose damaged dwellings were attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_PDLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_PDLN/measure> rdfs:label "Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_PDYN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_PDYN/measure> rdfs:label "Number of people whose destroyed dwellings were attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_AGLH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_AGLH/measure> rdfs:label "Direct agriculture loss attributed to disasters, by hazard type (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_AGLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_AGLN/measure> rdfs:label "Direct agriculture loss attributed to disasters (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_CHLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_CHLN/measure> rdfs:label "Direct economic loss to cultural heritage damaged or destroyed attributed to disasters (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_CILN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_CILN/measure> rdfs:label "Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_DDPA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_DDPA/measure> rdfs:label "Direct economic loss to other damaged or destroyed productive assets attributed to disasters (current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_GDPLS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_GDPLS/measure> rdfs:label "Direct economic loss attributed to disasters (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_HOLH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_HOLH/measure> rdfs:label "Direct economic loss in the housing sector attributed to disasters, by hazard type (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_HOLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_HOLN/measure> rdfs:label "Direct economic loss in the housing sector attributed to disasters (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_LSGP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_LSGP/measure> rdfs:label "Direct economic loss attributed to disasters relative to GDP (%)"@en .
-<http://data.un.org/kos/sdg/SG_DSR_LGRGSR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_DSR_LGRGSR/measure> rdfs:label "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"@en .
-<http://data.un.org/kos/sdg/SG_DSR_SILN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_DSR_SILN/measure> rdfs:label "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)"@en .
-<http://data.un.org/kos/sdg/SG_DSR_SILS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_DSR_SILS/measure> rdfs:label "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)"@en .
-<http://data.un.org/kos/sdg/SG_GOV_LOGV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GOV_LOGV/measure> rdfs:label "Number of local governments (number)"@en .
-<http://data.un.org/kos/sdg/SD_XPD_ESED/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SD_XPD_ESED/measure> rdfs:label "Proportion of total government spending on essential services, education (%)"@en .
-<http://data.un.org/kos/sdg/SI_HEI_BTN40/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_HEI_BTN40/measure> rdfs:label "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population (%)"@en .
-<http://data.un.org/kos/sdg/SI_HEI_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_HEI_TOTL/measure> rdfs:label "Growth rates of household expenditure or income per capita (%)"@en .
-<http://data.un.org/kos/sdg/SL_EMP_GTOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_EMP_GTOTL/measure> rdfs:label "Labour share of GDP, comprising wages and social protection transfers (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSANL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSANL/measure> rdfs:label "Non-performing loans to total gross loans (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSERA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSERA/measure> rdfs:label "Return on assets (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSKA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSKA/measure> rdfs:label "Regulatory capital to assets (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSKNL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSKNL/measure> rdfs:label "Non-performing loans net of provisions to capital (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSKRTC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSKRTC/measure> rdfs:label "Regulatory Tier 1 capital to risk-weighted assets (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSLS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSLS/measure> rdfs:label "Liquid assets to short term liabilities (%)"@en .
-<http://data.un.org/kos/sdg/FI_FSI_FSSNO/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FI_FSI_FSSNO/measure> rdfs:label "Net open position in foreign exchange to capital (%)"@en .
-<http://data.un.org/kos/sdg/SG_INT_MBRDEV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_INT_MBRDEV/measure> rdfs:label "Proportion of members of developing countries in international organizations, by organization (%)"@en .
-<http://data.un.org/kos/sdg/SG_INT_VRTDEV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_INT_VRTDEV/measure> rdfs:label "Proportion of voting rights of developing countries in international organizations, by organization (%)"@en .
-<http://data.un.org/kos/sdg/TM_TRF_ZERO/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/TM_TRF_ZERO/measure> rdfs:label "Proportion of tariff lines applied to imports with zero-tariff (%)"@en .
-<http://data.un.org/kos/sdg/DC_TRF_TOTDL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TRF_TOTDL/measure> rdfs:label "Total assistance for development, by donor countries (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_TRF_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TRF_TOTL/measure> rdfs:label "Total assistance for development, by recipient countries (millions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/SI_RMT_COST/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_RMT_COST/measure> rdfs:label "Remittance costs as a proportion of the amount remitted (%)"@en .
-<http://data.un.org/kos/sdg/EN_LND_SLUM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_LND_SLUM/measure> rdfs:label "Proportion of urban population living in slums (%)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_BSDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_BSDN/measure> rdfs:label "Number of disruptions to basic services attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_CDAN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_CDAN/measure> rdfs:label "Number of damaged critical infrastructure attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_CDYN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_CDYN/measure> rdfs:label "Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_EFDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_EFDN/measure> rdfs:label "Number of destroyed or damaged educational facilities attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_ESDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_ESDN/measure> rdfs:label "Number of disruptions to educational services attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_HFDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_HFDN/measure> rdfs:label "Number of destroyed or damaged health facilities attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_HSDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_HSDN/measure> rdfs:label "Number of disruptions to health services attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/VC_DSR_OBDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_DSR_OBDN/measure> rdfs:label "Number of disruptions to other basic services attributed to disasters (number)"@en .
-<http://data.un.org/kos/sdg/EN_REF_WASCOL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_REF_WASCOL/measure> rdfs:label "Municipal Solid Waste collection coverage, by cities (%)"@en .
-<http://data.un.org/kos/sdg/EN_ATM_PM25/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_ATM_PM25/measure> rdfs:label "Annual mean levels of fine particulate matter in cities, urban population (micrograms per cubic meter)"@en .
-<http://data.un.org/kos/sdg/SG_SCP_CNTRY/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_SCP_CNTRY/measure> rdfs:label "Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_SCP_CORMEC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_SCP_CORMEC/measure> rdfs:label "Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_SCP_MACPOL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_SCP_MACPOL/measure> rdfs:label "Countries with macro policy for sustainable consumption and production (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_SCP_POLINS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_SCP_POLINS/measure> rdfs:label "Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPC/measure> rdfs:label "Domestic material consumption per capita, by type of raw material (tonnes)"@en .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPG/measure> rdfs:label "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2010 United States dollars)"@en .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_MAT_DOMCMPT/measure> rdfs:label "Domestic material consumption, by type of raw material (tonnes)"@en .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRBASEL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRBASEL/measure> rdfs:label "Compliance with the Basel Convention on hazardous waste and other chemicals"@en .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRMNTRL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRMNTRL/measure> rdfs:label "Compliance with the Montreal Protocol on hazardous waste and other chemicals"@en .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRROTDAM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRROTDAM/measure> rdfs:label "Compliance with the Rotterdam Convention on hazardous waste and other chemicals"@en .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRSTHOLM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_HAZ_CMRSTHOLM/measure> rdfs:label "Compliance with the Stockholm Convention on hazardous waste and other chemicals"@en .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSPC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSPC/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) per capita (current United States dollars)"@en .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSPR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSPR/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) as a proportion of total GDP (%)"@en .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSST/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_FFS_PRTSST/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) (billions of current United States dollars)"@en .
-<http://data.un.org/kos/sdg/ER_MRN_MARIN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MRN_MARIN/measure> rdfs:label "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (%)"@en .
-<http://data.un.org/kos/sdg/ER_MRN_MARINT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MRN_MARINT/measure> rdfs:label "Protected marine area (Exclusive Economic Zones) (square kilometres)"@en .
-<http://data.un.org/kos/sdg/ER_MRN_MPA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MRN_MPA/measure> rdfs:label "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
-<http://data.un.org/kos/sdg/ER_REG_UNFCIM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_REG_UNFCIM/measure> rdfs:label "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"@en .
-<http://data.un.org/kos/sdg/ER_RDE_OSEX/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_RDE_OSEX/measure> rdfs:label "National ocean science expenditure as a share of total research and development funding (%)"@en .
-<http://data.un.org/kos/sdg/ER_REG_SSFRAR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_REG_SSFRAR/measure> rdfs:label "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRST/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRST/measure> rdfs:label "Forest area as a proportion of total land area (%)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTN/measure> rdfs:label "Forest area (thousands of hectares)"@en .
-<http://data.un.org/kos/sdg/AG_LND_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_TOTL/measure> rdfs:label "Land area (thousands of hectares)"@en .
-<http://data.un.org/kos/sdg/ER_PTD_FRWRT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_PTD_FRWRT/measure> rdfs:label "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
-<http://data.un.org/kos/sdg/ER_PTD_TERRS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_PTD_TERRS/measure> rdfs:label "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTBIOPHA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTBIOPHA/measure> rdfs:label "Above-ground biomass in forest per hectare (tonnes per hectare)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTCERT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTCERT/measure> rdfs:label "Forest area certified under an independently verified certification scheme (thousands of hectares)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTCHG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTCHG/measure> rdfs:label "Forest area net change rate (%)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTMGT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTMGT/measure> rdfs:label "Proportion of forest area with a long-term management plan (%)"@en .
-<http://data.un.org/kos/sdg/AG_LND_FRSTPRCT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_FRSTPRCT/measure> rdfs:label "Proportion of forest area within legally established protected areas (%)"@en .
-<http://data.un.org/kos/sdg/AG_LND_DGRD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_LND_DGRD/measure> rdfs:label "Proportion of land that is degraded over total land area (%)"@en .
-<http://data.un.org/kos/sdg/ER_PTD_MOTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_PTD_MOTN/measure> rdfs:label "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
-<http://data.un.org/kos/sdg/ER_MTN_GRNCOV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MTN_GRNCOV/measure> rdfs:label "Mountain green cover area (square kilometres)"@en .
-<http://data.un.org/kos/sdg/ER_MTN_GRNCVI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MTN_GRNCVI/measure> rdfs:label "Mountain Green Cover Index"@en .
-<http://data.un.org/kos/sdg/ER_MTN_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_MTN_TOTL/measure> rdfs:label "Mountain area (square kilometres)"@en .
-<http://data.un.org/kos/sdg/ER_RSK_LSTI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_RSK_LSTI/measure> rdfs:label "Red List Index"@en .
-<http://data.un.org/kos/sdg/ER_CBD_ABSCLRHS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_CBD_ABSCLRHS/measure> rdfs:label "Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/ER_CBD_NAGOYA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_CBD_NAGOYA/measure> rdfs:label "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/ER_CBD_ORSPGRFA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_CBD_ORSPGRFA/measure> rdfs:label "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/ER_CBD_PTYPGRFA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_CBD_PTYPGRFA/measure> rdfs:label "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/ER_CBD_SMTA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_CBD_SMTA/measure> rdfs:label "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_BDVDL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_BDVDL/measure> rdfs:label "Total official development assistance for biodiversity, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_BDVL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_BDVL/measure> rdfs:label "Total official development assistance for biodiversity, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/VC_IHR_PSRC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_IHR_PSRC/measure> rdfs:label "Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/VC_IHR_PSRCN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_IHR_PSRCN/measure> rdfs:label "Number of victims of intentional homicide, by sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_VOV_PHYL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VOV_PHYL/measure> rdfs:label "Proportion of population subjected to physical violence in the previous 12 months, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_VOV_ROBB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VOV_ROBB/measure> rdfs:label "Proportion of population subjected to robbery in the previous 12 months, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_VOV_SEXL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VOV_SEXL/measure> rdfs:label "Proportion of population subjected to sexual violence in the previous 12 months, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_SNS_WALN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_SNS_WALN/measure> rdfs:label "Proportion of population that feel safe walking alone around the area they live (%)"@en .
-<http://data.un.org/kos/sdg/SG_INF_ACCSS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_INF_ACCSS/measure> rdfs:label "Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"@en .
-<http://data.un.org/kos/sdg/VC_VAW_PHYPYV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VAW_PHYPYV/measure> rdfs:label "Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month (% of children aged 1-14 years)"@en .
-<http://data.un.org/kos/sdg/VC_HTF_DETV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_HTF_DETV/measure> rdfs:label "Detected victims of human trafficking, by age and sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_HTF_DETVFL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_HTF_DETVFL/measure> rdfs:label "Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_HTF_DETVOG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_HTF_DETVOG/measure> rdfs:label "Detected victims of human trafficking for removal of organ, by age and sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_HTF_DETVOP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_HTF_DETVOP/measure> rdfs:label "Detected victims of human trafficking for other purposes, by age and sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_HTF_DETVSX/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_HTF_DETVSX/measure> rdfs:label "Detected victims of human trafficking for sexual exploitaton, by age and sex (number)"@en .
-<http://data.un.org/kos/sdg/VC_VAW_SXVLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VAW_SXVLN/measure> rdfs:label "Proportion of population aged 18-29 years who experienced sexual violence by age 18, by sex (% of population aged 18-29)"@en .
-<http://data.un.org/kos/sdg/VC_PRR_PHYV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_PRR_PHYV/measure> rdfs:label "Police reporting rate for physical assault, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_PRR_ROBB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_PRR_ROBB/measure> rdfs:label "Police reporting rate for robbery, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_PRR_SEXV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_PRR_SEXV/measure> rdfs:label "Police reporting rate for sexual assault, by sex (%)"@en .
-<http://data.un.org/kos/sdg/VC_PRS_UNSEC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_PRS_UNSEC/measure> rdfs:label "Unsentenced detainees as a proportion of overall prison population (%)"@en .
-<http://data.un.org/kos/sdg/IU_COR_BRIB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IU_COR_BRIB/measure> rdfs:label "Prevalence rate of bribery, by sex (%)"@en .
-<http://data.un.org/kos/sdg/IC_FRM_BRIB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IC_FRM_BRIB/measure> rdfs:label "Bribery incidence (% of firms experiencing at least one bribe payment request)"@en .
-<http://data.un.org/kos/sdg/GF_XPD_GBPC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/GF_XPD_GBPC/measure> rdfs:label "Primary government expenditures as a proportion of original approved budget (%)"@en .
-<http://data.un.org/kos/sdg/SG_REG_BRTH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_REG_BRTH/measure> rdfs:label "Proportion of children under 5 years of age whose births have been registered with a civil authority (% of children under 5 years of age)"@en .
-<http://data.un.org/kos/sdg/SG_NHR_IMPLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_NHR_IMPLN/measure> rdfs:label "Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_NHR_INTEXSTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_NHR_INTEXSTN/measure> rdfs:label "Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_NHR_NOAPPLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_NHR_NOAPPLN/measure> rdfs:label "Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_NHR_NOSTUSN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_NHR_NOSTUSN/measure> rdfs:label "Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/GR_G14_GDP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/GR_G14_GDP/measure> rdfs:label "Total government revenue (budgetary central government) as a proportion of GDP (%)"@en .
-<http://data.un.org/kos/sdg/GC_GOB_TAXD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/GC_GOB_TAXD/measure> rdfs:label "Proportion of domestic budget funded by domestic taxes (% of GDP)"@en .
-<http://data.un.org/kos/sdg/TM_TAX_WWTAV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/TM_TAX_WWTAV/measure> rdfs:label "Worldwide weighted tariff-average (weighted mean), by type of product and trade regime (%)"@en .
-<http://data.un.org/kos/sdg/TM_TAX_ATRFD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/TM_TAX_ATRFD/measure> rdfs:label "Average tariff applied by developed countries, by type of product (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_PRPOLRES/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_PRPOLRES/measure> rdfs:label "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%) "@en .
-<http://data.un.org/kos/sdg/SG_PLN_PRVNDI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_PRVNDI/measure> rdfs:label "Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_PRVRICTRY/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_PRVRICTRY/measure> rdfs:label "Proportion of results indicators drawn from country-led results frameworks - data by provider (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_PRVRIMON/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_PRVRIMON/measure> rdfs:label "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_RECNDI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_RECNDI/measure> rdfs:label "Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_RECRICTRY/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_RECRICTRY/measure> rdfs:label "Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_RECRIMON/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_RECRIMON/measure> rdfs:label "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)"@en .
-<http://data.un.org/kos/sdg/SG_PLN_REPOLRES/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_REPOLRES/measure> rdfs:label "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%) "@en .
-<http://data.un.org/kos/sdg/SG_PLN_MSTKSDG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_PLN_MSTKSDG/measure> rdfs:label "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_FPOS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_FPOS/measure> rdfs:label "Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDDNR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDDNR/measure> rdfs:label "Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDGVT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDGVT/measure> rdfs:label "Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDOTHR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFDOTHR/measure> rdfs:label "Countries with national statistical plans with funding from others (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFND/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_NSDSFND/measure> rdfs:label "Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_NSDSIMPL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_NSDSIMPL/measure> rdfs:label "Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_STT_CAPTY/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_STT_CAPTY/measure> rdfs:label "Dollar value of all resources made available to strengthen statistical capacity in developing countries (current United States dollars)"@en .
-<http://data.un.org/kos/sdg/SG_REG_BRTH90N/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_REG_BRTH90N/measure> rdfs:label "Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_REG_CENSUSN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_REG_CENSUSN/measure> rdfs:label "Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/SG_REG_DETH75N/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_REG_DETH75N/measure> rdfs:label "Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_LDCG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_LDCG/measure> rdfs:label "Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_LDCS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_LDCS/measure> rdfs:label "Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_LLDC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_LLDC/measure> rdfs:label "Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_LLDCG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_LLDCG/measure> rdfs:label "Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_SIDS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_SIDS/measure> rdfs:label "Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_SIDSG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_SIDSG/measure> rdfs:label "Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_TOTG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_TOTG/measure> rdfs:label "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_TOTGGE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_TOTGGE/measure> rdfs:label "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI (grant equivalent methodology), by donor countries (%)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_TOTL/measure> rdfs:label "Net official development assistance (ODA) from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_ODA_TOTLGE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_ODA_TOTLGE/measure> rdfs:label "Net official development assistance (ODA) from OECD-DAC countries (grant equivalent methodology), by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/BX_TRF_PWKR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/BX_TRF_PWKR/measure> rdfs:label "Volume of remittances (in United States dollars) as a proportion of total GDP (%)"@en .
-<http://data.un.org/kos/sdg/DT_TDS_DECT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DT_TDS_DECT/measure> rdfs:label "Debt service as a proportion of exports of goods and services (%)"@en .
-<http://data.un.org/kos/sdg/IT_NET_BBN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IT_NET_BBN/measure> rdfs:label "Number of fixed Internet broadband subscriptions, by speed (number)"@en .
-<http://data.un.org/kos/sdg/IT_NET_BBP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IT_NET_BBP/measure> rdfs:label "Fixed Internet broadband subscriptions per 100 inhabitants, by speed (per 100 inhabitants)"@en .
-<http://data.un.org/kos/sdg/IT_USE_ii99/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IT_USE_ii99/measure> rdfs:label "Internet users per 100 inhabitants"@en .
-<http://data.un.org/kos/sdg/DC_FTA_TOTAL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_FTA_TOTAL/measure> rdfs:label "Total official development assistance (gross disbursement) for technical cooperation (millions of 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/SN_ITK_DEFC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SN_ITK_DEFC/measure> rdfs:label "Prevalence of undernourishment (%)"@en .
-<http://data.un.org/kos/sdg/SN_ITK_DEFCN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SN_ITK_DEFCN/measure> rdfs:label "Number of undernourish people (millions)"@en .
-<http://data.un.org/kos/sdg/AG_PRD_FIESSI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_PRD_FIESSI/measure> rdfs:label "Prevalence of severe food insecurity in the adult population (%)"@en .
-<http://data.un.org/kos/sdg/AG_PRD_FIESSIN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_PRD_FIESSIN/measure> rdfs:label "Total population in severe food insecurity (thousands of people)"@en .
-<http://data.un.org/kos/sdg/SH_STA_STUNT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_STUNT/measure> rdfs:label "Proportion of children moderately or severely stunted (%)"@en .
-<http://data.un.org/kos/sdg/SH_STA_STUNTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_STUNTN/measure> rdfs:label "Children moderately or severely stunted (millions)"@en .
-<http://data.un.org/kos/sdg/SH_STA_OVRWGT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_OVRWGT/measure> rdfs:label "Proportion of children moderately or severely overweight (%)"@en .
-<http://data.un.org/kos/sdg/SH_STA_WASTE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_WASTE/measure> rdfs:label "Proportion of children moderately or severely wasted (%)"@en .
-<http://data.un.org/kos/sdg/SH_STA_WASTEN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_WASTEN/measure> rdfs:label "Children moderately or severely wasted (millions)"@en .
-<http://data.un.org/kos/sdg/PD_AGR_SSFP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/PD_AGR_SSFP/measure> rdfs:label "Productivity of small-scale food producers (agricultural output per labour day, PPP) (constant 2011 international $)"@en .
-<http://data.un.org/kos/sdg/SI_AGR_SSFP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SI_AGR_SSFP/measure> rdfs:label "Average income of small-scale food producers, PPP (constant 2011 international $)"@en .
-<http://data.un.org/kos/sdg/ER_GRF_ANIMRCNT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_GRF_ANIMRCNT/measure> rdfs:label "Proportion of local breeds for which sufficient genetic resources are stored for reconstitution (%)"@en .
-<http://data.un.org/kos/sdg/ER_GRF_PLNTSTOR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_GRF_PLNTSTOR/measure> rdfs:label "Plant breeds for which sufficient genetic resources are stored (number)"@en .
-<http://data.un.org/kos/sdg/ER_RSK_LBREDS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_RSK_LBREDS/measure> rdfs:label "Proportion of local breeds classified as being at risk as a share of local breeds with known level of extinction risk (%)"@en .
-<http://data.un.org/kos/sdg/AG_PRD_AGVAS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_PRD_AGVAS/measure> rdfs:label "Agriculture value added share of GDP (%)"@en .
-<http://data.un.org/kos/sdg/AG_PRD_ORTIND/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_PRD_ORTIND/measure> rdfs:label "Agriculture orientation index for government expenditures"@en .
-<http://data.un.org/kos/sdg/AG_XPD_AGSGB/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_XPD_AGSGB/measure> rdfs:label "Agriculture share of Government Expenditure (%)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_AGRL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_AGRL/measure> rdfs:label "Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/AG_FPA_CFPI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_FPA_CFPI/measure> rdfs:label "Consumer Food Price Index"@en .
-<http://data.un.org/kos/sdg/AG_FPA_COMM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/AG_FPA_COMM/measure> rdfs:label "Indicator of Food Price Anomalies (IFPA), by type of product"@en .
-<http://data.un.org/kos/sdg/SH_STA_MMR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_MMR/measure> rdfs:label "Maternal mortality ratio"@en .
-<http://data.un.org/kos/sdg/SH_STA_BRTC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_BRTC/measure> rdfs:label "Proportion of births attended by skilled health personnel (%)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_IMRT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_IMRT/measure> rdfs:label "Infant mortality rate (deaths per 1,000 live births)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_IMRTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_IMRTN/measure> rdfs:label "Infant deaths (number)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_MORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_MORT/measure> rdfs:label "Under-five mortality rate, by sex (deaths per 1,000 live births)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_MORTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_MORTN/measure> rdfs:label "Under-five deaths (number)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_NMRT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_NMRT/measure> rdfs:label "Neonatal mortality rate (deaths per 1,000 live births)"@en .
-<http://data.un.org/kos/sdg/SH_DYN_NMRTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DYN_NMRTN/measure> rdfs:label "Neonatal deaths (number)"@en .
-<http://data.un.org/kos/sdg/SH_HIV_INCD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_HIV_INCD/measure> rdfs:label "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)"@en .
-<http://data.un.org/kos/sdg/SH_TBS_INCID/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_TBS_INCID/measure> rdfs:label "Tuberculosis incidence (per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_MALR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_MALR/measure> rdfs:label "Malaria incidence per 1,000 population at risk (per 1,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_HAP_HBSAG/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_HAP_HBSAG/measure> rdfs:label "Prevalence of hepatitis B surface antigen (HBsAg) (%)"@en .
-<http://data.un.org/kos/sdg/SH_TRP_INTVN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_TRP_INTVN/measure> rdfs:label "Number of people requiring interventions against neglected tropical diseases (number)"@en .
-<http://data.un.org/kos/sdg/SH_DTH_NCOM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DTH_NCOM/measure> rdfs:label "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)"@en .
-<http://data.un.org/kos/sdg/SH_DTH_RNCOM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_DTH_RNCOM/measure> rdfs:label "Number of deaths attributed to non-communicable diseases, by type of disease and sex (number)"@en .
-<http://data.un.org/kos/sdg/SH_STA_SCIDE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_SCIDE/measure> rdfs:label "Suicide mortality rate, by sex (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_SCIDEN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_SCIDEN/measure> rdfs:label "Number of deaths attributed to suicide, by sex (number)"@en .
-<http://data.un.org/kos/sdg/SH_ALC_CONSPT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_ALC_CONSPT/measure> rdfs:label "Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol)"@en .
-<http://data.un.org/kos/sdg/SH_STA_TRAF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_TRAF/measure> rdfs:label "Death rate due to road traffic injuries (per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_FPL_MTMM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_FPL_MTMM/measure> rdfs:label "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (% of women aged 15-49 years)"@en .
-<http://data.un.org/kos/sdg/SP_DYN_ADKL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SP_DYN_ADKL/measure> rdfs:label "Adolescent birth rate (per 1,000 women aged 15-19 years)"@en .
-<http://data.un.org/kos/sdg/SH_ACS_UNHC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_ACS_UNHC/measure> rdfs:label "Universal health coverage (UHC) service coverage index"@en .
-<http://data.un.org/kos/sdg/SH_XPD_EARN10/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_XPD_EARN10/measure> rdfs:label "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income (%)"@en .
-<http://data.un.org/kos/sdg/SH_XPD_EARN25/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_XPD_EARN25/measure> rdfs:label "Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income (%)"@en .
-<http://data.un.org/kos/sdg/SH_AAP_ASMORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_AAP_ASMORT/measure> rdfs:label "Age-standardized mortality rate attributed to ambient air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_AAP_MORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_AAP_MORT/measure> rdfs:label "Crude death rate attributed to ambient air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_HAP_ASMORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_HAP_ASMORT/measure> rdfs:label "Age-standardized mortality rate attributed to household air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_HAP_MORT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_HAP_MORT/measure> rdfs:label "Crude death rate attributed to household air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_AIRP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_AIRP/measure> rdfs:label "Crude death rate attributed to household and ambient air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_ASAIRP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_ASAIRP/measure> rdfs:label "Age-standardized mortality rate attributed to household and ambient air pollution (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_WASH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_WASH/measure> rdfs:label "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_STA_POISN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_POISN/measure> rdfs:label "Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_PRV_SMOK/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_PRV_SMOK/measure> rdfs:label "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SH_ACS_DTP3/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_ACS_DTP3/measure> rdfs:label "Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3) (%)"@en .
-<http://data.un.org/kos/sdg/SH_ACS_MCV2/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_ACS_MCV2/measure> rdfs:label "Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2) (%)"@en .
-<http://data.un.org/kos/sdg/SH_ACS_PCV3/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_ACS_PCV3/measure> rdfs:label "Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3) (%)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_HLTHL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_HLTHL/measure> rdfs:label "Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_HLTHNT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_HLTHNT/measure> rdfs:label "Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/SH_MED_HEAWOR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_MED_HEAWOR/measure> rdfs:label "Health worker density, by type of occupation (per 10,000 population)"@en .
-<http://data.un.org/kos/sdg/SH_IHR_CAPS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_IHR_CAPS/measure> rdfs:label "International Health Regulations (IHR) capacity, by type of IHR capacity (%)"@en .
-<http://data.un.org/kos/sdg/SE_MAT_PROF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_MAT_PROF/measure> rdfs:label "Minimum proficiency in mathematics, by education level and sex (%)"@en .
-<http://data.un.org/kos/sdg/SE_REA_PROF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_REA_PROF/measure> rdfs:label "Minimum proficiency in reading, by education level and sex (%)"@en .
-<http://data.un.org/kos/sdg/SE_DEV_ONTRK/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_DEV_ONTRK/measure> rdfs:label "Proportion of children aged 36−59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning (% of children aged 36-59 months)"@en .
-<http://data.un.org/kos/sdg/SE_PRE_PARTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_PRE_PARTN/measure> rdfs:label "Participation rate in organized learning (one year before the official primary entry age), by sex (%)"@en .
-<http://data.un.org/kos/sdg/SE_ADT_EDUCTRN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ADT_EDUCTRN/measure> rdfs:label "Participation rate in formal and non-formal education and training, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SE_ADT_ACTS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ADT_ACTS/measure> rdfs:label "Proportion of youth and adults with information and communications technology (ICT) skills, by sex and type of skill (%)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_FUNPROF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_FUNPROF/measure> rdfs:label "Gender parity index achieving at least a fixed level of proficiency in functional literacy skills (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_ICTS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_ICTS/measure> rdfs:label "Gender parity index for youth/adults with information and communications technology (ICT) skills, by type of skill (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_MATACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_MATACH/measure> rdfs:label "Gender parity index for achievement in mathematics, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_PART/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_PART/measure> rdfs:label "Gender parity index for participation rate in formal and non-formal education and training (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_REAACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_REAACH/measure> rdfs:label "Gender parity index for achievement in reading, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_GPI_TRATEA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_GPI_TRATEA/measure> rdfs:label "Gender parity index of trained teachers, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_IMP_FPOF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_IMP_FPOF/measure> rdfs:label "Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_LGP_ACHIMA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_LGP_ACHIMA/measure> rdfs:label "Language test parity index for achievement in mathematics, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_LGP_ACHIRE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_LGP_ACHIRE/measure> rdfs:label "Language test parity index for achievement in reading, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_NAP_ACHIMA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_NAP_ACHIMA/measure> rdfs:label "Native parity index for achievement in mathematics, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_NAP_ACHIRE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_NAP_ACHIRE/measure> rdfs:label "Native parity index for achievement in reading, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_PRE_GPIPARTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_PRE_GPIPARTN/measure> rdfs:label "Gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_SEP_FUNPROF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_SEP_FUNPROF/measure> rdfs:label "Low to high socio-economic parity status index achieving at least a fixed level of proficiency in functional numeracy skills  (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_SEP_MATACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_SEP_MATACH/measure> rdfs:label "Low to high socio-economic parity status index for achievement in mathematics, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_SEP_REAACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_SEP_REAACH/measure> rdfs:label "Low to high socio-economic parity status index for achievement in reading, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_URP_MATACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_URP_MATACH/measure> rdfs:label "Rural to urban parity index for achievement in mathematics, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_URP_REAACH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_URP_REAACH/measure> rdfs:label "Rural to urban parity index for achievement in reading, by education level (ratio)"@en .
-<http://data.un.org/kos/sdg/SE_ADT_FUNS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ADT_FUNS/measure> rdfs:label "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_COMP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_COMP/measure> rdfs:label "Schools with access to computers for pedagogical purposes, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_DWAT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_DWAT/measure> rdfs:label "Schools with access to basic drinking water, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_ELEC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_ELEC/measure> rdfs:label "Schools with access to electricity, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_HNWA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_HNWA/measure> rdfs:label "Schools with basic handwashing facilities, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_INTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_INTN/measure> rdfs:label "Schools with access to the internet for pedagogical purposes, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_ACC_SANI/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_ACC_SANI/measure> rdfs:label "Schools with access to access to single-sex basic sanitation, by education level (%)"@en .
-<http://data.un.org/kos/sdg/SE_INF_DSBL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_INF_DSBL/measure> rdfs:label "Proportion of schools with access to adapted infrastructure and materials for students with disabilities, by education level (%)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_SCHIPSL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_SCHIPSL/measure> rdfs:label "Total official flows for scholarships, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/SE_TRA_GRDL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SE_TRA_GRDL/measure> rdfs:label "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country, by sex and education level (%)"@en .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQEMP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQEMP/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits"@en .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQLFP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQLFP/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life"@en .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQMAR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQMAR/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family"@en .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQVAW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_LGL_GENEQVAW/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) --  Area 2: violence against women"@en .
-<http://data.un.org/kos/sdg/VC_VAW_MARR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/VC_VAW_MARR/measure> rdfs:label "Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age (%)"@en .
-<http://data.un.org/kos/sdg/SP_DYN_MRBF15/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SP_DYN_MRBF15/measure> rdfs:label "Proportion of women aged 20-24 years who were married or in a union before age 15 (%)"@en .
-<http://data.un.org/kos/sdg/SP_DYN_MRBF18/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SP_DYN_MRBF18/measure> rdfs:label "Proportion of women aged 20-24 years who were married or in a union before age 18 (%)"@en .
-<http://data.un.org/kos/sdg/SH_STA_FGMS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_STA_FGMS/measure> rdfs:label "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age (%)"@en .
-<http://data.un.org/kos/sdg/SL_DOM_TSPD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_DOM_TSPD/measure> rdfs:label "Proportion of time spent on unpaid domestic chores and care work, by sex, age and location (%)"@en .
-<http://data.un.org/kos/sdg/SL_DOM_TSPDCW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_DOM_TSPDCW/measure> rdfs:label "Proportion of time spent on unpaid care work, by sex, age and location (%)"@en .
-<http://data.un.org/kos/sdg/SL_DOM_TSPDDC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_DOM_TSPDDC/measure> rdfs:label "Proportion of time spent on unpaid domestic chores, by sex, age and location (%)"@en .
-<http://data.un.org/kos/sdg/SG_GEN_LOCGELS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GEN_LOCGELS/measure> rdfs:label "Proportion of elected seats held by women in deliberative bodies of local government (%)"@en .
-<http://data.un.org/kos/sdg/SG_GEN_PARL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GEN_PARL/measure> rdfs:label "Proportion of seats held by women in national parliaments (% of total number of seats)"@en .
-<http://data.un.org/kos/sdg/SG_GEN_PARLN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GEN_PARLN/measure> rdfs:label "Number of seats held by women in national parliaments (number)"@en .
-<http://data.un.org/kos/sdg/SG_GEN_PARLNT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GEN_PARLNT/measure> rdfs:label "Number of seats in national parliaments (number)"@en .
-<http://data.un.org/kos/sdg/IC_GEN_MGTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IC_GEN_MGTL/measure> rdfs:label "Proportion of women in managerial positions (%)"@en .
-<http://data.un.org/kos/sdg/IC_GEN_MGTN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IC_GEN_MGTN/measure> rdfs:label "Proportion of women in senior and middle management positions (%)"@en .
-<http://data.un.org/kos/sdg/SH_FPL_INFM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_FPL_INFM/measure> rdfs:label "Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)"@en .
-<http://data.un.org/kos/sdg/SH_FPL_INFMCU/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_FPL_INFMCU/measure> rdfs:label "Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)"@en .
-<http://data.un.org/kos/sdg/SH_FPL_INFMRH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_FPL_INFMRH/measure> rdfs:label "Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)"@en .
-<http://data.un.org/kos/sdg/SH_FPL_INFMSR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_FPL_INFMSR/measure> rdfs:label "Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)"@en .
-<http://data.un.org/kos/sdg/IT_MOB_OWN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IT_MOB_OWN/measure> rdfs:label "Proportion of individuals who own a mobile telephone, by sex (%)"@en .
-<http://data.un.org/kos/sdg/SG_GEN_EQPWN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SG_GEN_EQPWN/measure> rdfs:label "Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment (%)"@en .
-<http://data.un.org/kos/sdg/SH_H2O_SAFE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_H2O_SAFE/measure> rdfs:label "Proportion of population using safely managed drinking water services, by urban/rural (%)"@en .
-<http://data.un.org/kos/sdg/SH_SAN_DEFECT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_SAN_DEFECT/measure> rdfs:label "Proportion of population practicing open defecation, by urban/rural (%)"@en .
-<http://data.un.org/kos/sdg/SH_SAN_HNDWSH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_SAN_HNDWSH/measure> rdfs:label "Proportion of population with basic handwashing facilities on premises, by urban/rural (%)"@en .
-<http://data.un.org/kos/sdg/SH_SAN_SAFE/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SH_SAN_SAFE/measure> rdfs:label "Proportion of population using safely managed sanitation services, by urban/rural (%)"@en .
-<http://data.un.org/kos/sdg/EN_WWT_WWDS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WWT_WWDS/measure> rdfs:label "Proportion of safely treated domestic wastewater flows (%)"@en .
-<http://data.un.org/kos/sdg/EN_H2O_GRAMBQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_H2O_GRAMBQ/measure> rdfs:label "Proportion of groundwater bodies with good ambient water quality (%)"@en .
-<http://data.un.org/kos/sdg/EN_H2O_OPAMBQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_H2O_OPAMBQ/measure> rdfs:label "Proportion of open water bodies with good ambient water quality (%)"@en .
-<http://data.un.org/kos/sdg/EN_H2O_RVAMBQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_H2O_RVAMBQ/measure> rdfs:label "Proportion of river water bodies with good ambient water quality (%)"@en .
-<http://data.un.org/kos/sdg/EN_H2O_WBAMBQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_H2O_WBAMBQ/measure> rdfs:label "Proportion of bodies of water with good ambient water quality (%)"@en .
-<http://data.un.org/kos/sdg/ER_H2O_WUEYST/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_H2O_WUEYST/measure> rdfs:label "Water Use Efficiency (United States dollars per cubic meter)"@en .
-<http://data.un.org/kos/sdg/ER_H2O_STRESS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_H2O_STRESS/measure> rdfs:label "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)"@en .
-<http://data.un.org/kos/sdg/ER_H2O_IWRMD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_H2O_IWRMD/measure> rdfs:label "Degree of integrated water resources management implementation (%)"@en .
-<http://data.un.org/kos/sdg/EG_TBA_H2CO/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_TBA_H2CO/measure> rdfs:label "Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%)"@en .
-<http://data.un.org/kos/sdg/EG_TBA_H2COAQ/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_TBA_H2COAQ/measure> rdfs:label "Proportion of transboundary aquifers with an operational arrangement for water cooperation (%)"@en .
-<http://data.un.org/kos/sdg/EG_TBA_H2CORL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_TBA_H2CORL/measure> rdfs:label "Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDETOT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDETOT/measure> rdfs:label "Nationally derived total extent (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDOPW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDOPW/measure> rdfs:label "Nationally derived extent of open water bodies (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLGRW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLGRW/measure> rdfs:label "Nationally derived quality of groundwater (%)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLOPW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLOPW/measure> rdfs:label "Nationally derived quality of open water bodies(%)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLRVR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLRVR/measure> rdfs:label "Nationally derived quality of river(%)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLTOT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQLTOT/measure> rdfs:label "Nationally derived proportion of water bodies with good quality (%)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTGRW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTGRW/measure> rdfs:label "Nationally derived quantity of groundwater (millions of cubic metres per annum)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTOPW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTOPW/measure> rdfs:label "Nationally derived quantity of open water bodies (million of cubic metres per annum)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTRVR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTRVR/measure> rdfs:label "Nationally derived quantity of rivers (million of cubic metres per annum)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTTOT/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDQTTOT/measure> rdfs:label "Nationally derived total quantity (millions of cubic metres per annum)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDRV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDRV/measure> rdfs:label "Nationally derived extend of rivers (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_NDWTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_NDWTL/measure> rdfs:label "Nationally derived extent of wetlands (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_PMNR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_PMNR/measure> rdfs:label "Water body extent (permanent) (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_PMPN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_PMPN/measure> rdfs:label "Water body extent (permanent and maybe permanent) (square kilometres)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_PMPP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_PMPP/measure> rdfs:label "Water body extent (permanent and maybe permanent) (% of total land area)"@en .
-<http://data.un.org/kos/sdg/EN_WBE_PMPR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_WBE_PMPR/measure> rdfs:label "Water body extent (permanent) (% of total land area)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_WASHL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_WASHL/measure> rdfs:label "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/ER_H2O_PRDU/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_H2O_PRDU/measure> rdfs:label "Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"@en .
-<http://data.un.org/kos/sdg/ER_H2O_RURP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_H2O_RURP/measure> rdfs:label "Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"@en .
-<http://data.un.org/kos/sdg/ER_WAT_PART/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_WAT_PART/measure> rdfs:label "Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"@en .
-<http://data.un.org/kos/sdg/ER_WAT_PRDU/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/ER_WAT_PRDU/measure> rdfs:label "Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"@en .
-<http://data.un.org/kos/sdg/EG_ELC_ACCS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_ELC_ACCS/measure> rdfs:label "Proportion of population with access to electricity, by urban/rural (%)"@en .
-<http://data.un.org/kos/sdg/EG_EGY_CLEAN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_EGY_CLEAN/measure> rdfs:label "Proportion of population with primary reliance on clean fuels and technology (%)"@en .
-<http://data.un.org/kos/sdg/EG_FEC_RNEW/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_FEC_RNEW/measure> rdfs:label "Renewable energy share in the total final energy consumption (%)"@en .
-<http://data.un.org/kos/sdg/EG_EGY_PRIM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_EGY_PRIM/measure> rdfs:label "Energy intensity level of primary energy (megajoules per constant 2011 purchasing power parity GDP)"@en .
-<http://data.un.org/kos/sdg/EG_IFF_RANDN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EG_IFF_RANDN/measure> rdfs:label "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant 2016 United States dollars)"@en .
-<http://data.un.org/kos/sdg/NY_GDP_PCAP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/NY_GDP_PCAP/measure> rdfs:label "Annual growth rate of real GDP per capita (%)"@en .
-<http://data.un.org/kos/sdg/FB_ATM_TOTL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FB_ATM_TOTL/measure> rdfs:label "Number of automated teller machines (ATMs) per 100,000 adults"@en .
-<http://data.un.org/kos/sdg/FB_CBK_BRCH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FB_CBK_BRCH/measure> rdfs:label "Number of commercial bank branches per 100,000 adults"@en .
-<http://data.un.org/kos/sdg/FB_BNK_ACCSS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FB_BNK_ACCSS/measure> rdfs:label "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older)"@en .
-<http://data.un.org/kos/sdg/SL_EMP_PCAP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_EMP_PCAP/measure> rdfs:label "Annual growth rate of real GDP per employed person (%)"@en .
-<http://data.un.org/kos/sdg/SL_ISV_IFRM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_ISV_IFRM/measure> rdfs:label "Proportion of informal employment in non-agriculture employment, by sex (ILO harmonized estimates) (%)"@en .
-<http://data.un.org/kos/sdg/SL_EMP_AEARN/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_EMP_AEARN/measure> rdfs:label "Average hourly earnings of managers (ISCO-08) (local currency)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_UEM/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_UEM/measure> rdfs:label "Unemployment rate, by sex and age (%)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_UEMDIS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_UEMDIS/measure> rdfs:label "Unemployment rate, by sex and disability (%)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_NEET/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_NEET/measure> rdfs:label "Proportion of youth not in education, employment or training, by sex and age (%)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_CHLDEA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_CHLDEA/measure> rdfs:label "Proportion of children engaged in economic activity, by sex and age  (%)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_CHLDEC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_CHLDEC/measure> rdfs:label "Proportion of children engaged in economic activity and household chores, by sex and age (%)"@en .
-<http://data.un.org/kos/sdg/SL_EMP_FTLINJUR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_EMP_FTLINJUR/measure> rdfs:label "Fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)"@en .
-<http://data.un.org/kos/sdg/SL_EMP_INJUR/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_EMP_INJUR/measure> rdfs:label "Non-fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_TRDCMDL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_TRDCMDL/measure> rdfs:label "Total official flows (commitments) for Aid for Trade, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_TRDCML/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_TRDCML/measure> rdfs:label "Total official flows (commitments) for Aid for Trade, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_TRDDBMDL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_TRDDBMDL/measure> rdfs:label "Total official flows (disbursement) for Aid for Trade, by donor countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_TRDDBML/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_TRDDBML/measure> rdfs:label "Total official flows (disbursement) for Aid for Trade, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/IS_RDP_FRGVOL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IS_RDP_FRGVOL/measure> rdfs:label "Freight volume, by mode of transport (tonne kilometres)"@en .
-<http://data.un.org/kos/sdg/IS_RDP_PFVOL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IS_RDP_PFVOL/measure> rdfs:label "Passenger volume (passenger kilometres), by mode of transport"@en .
-<http://data.un.org/kos/sdg/NV_IND_MANF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/NV_IND_MANF/measure> rdfs:label "Manufacturing value added as a proportion of GDP (%)"@en .
-<http://data.un.org/kos/sdg/NV_IND_MANFPC/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/NV_IND_MANFPC/measure> rdfs:label "Manufacturing value added per capita (constant 2010 United States dollars)"@en .
-<http://data.un.org/kos/sdg/SL_TLF_MANF/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/SL_TLF_MANF/measure> rdfs:label "Manufacturing employment as a proportion of total employment (%)"@en .
-<http://data.un.org/kos/sdg/NV_IND_SSIS/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/NV_IND_SSIS/measure> rdfs:label "Proportion of small-scale industries in total industry value added (%)"@en .
-<http://data.un.org/kos/sdg/FC_ACC_SSID/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/FC_ACC_SSID/measure> rdfs:label "Proportion of small-scale industries with a loan or line of credit (%)"@en .
-<http://data.un.org/kos/sdg/EN_ATM_CO2/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_ATM_CO2/measure> rdfs:label "Carbon dioxide emissions from fuel combustion (millions of tonnes)"@en .
-<http://data.un.org/kos/sdg/EN_ATM_CO2GDP/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_ATM_CO2GDP/measure> rdfs:label "Carbon dioxide emissions per unit of GDP (kilogrammes of CO2 per constant 2010 United States dollars)"@en .
-<http://data.un.org/kos/sdg/EN_ATM_CO2MVA/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/EN_ATM_CO2MVA/measure> rdfs:label "Carbon dioxide emissions per unit of manufacturing value added (kilogrammes of CO2 per constant 2010 United States dollars)"@en .
-<http://data.un.org/kos/sdg/GB_XPD_RSDV/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/GB_XPD_RSDV/measure> rdfs:label "Research and development expenditure as a proportion of GDP (%)"@en .
-<http://data.un.org/kos/sdg/GB_POP_SCIERD/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/GB_POP_SCIERD/measure> rdfs:label "Researchers (in full-time equivalent) per million inhabitants (per 1,000,000 population)"@en .
-<http://data.un.org/kos/sdg/DC_TOF_INFRAL/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/DC_TOF_INFRAL/measure> rdfs:label "Total official flows for infrastructure, by recipient countries (millions of constant 2017 United States dollars)"@en .
-<http://data.un.org/kos/sdg/NV_IND_TECH/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/NV_IND_TECH/measure> rdfs:label "Proportion of medium and high-tech industry value added in total value added (%)"@en .
-<http://data.un.org/kos/sdg/IT_MOB_NTWK/measure> a qb:MeasureProperty .
-<http://data.un.org/kos/sdg/IT_MOB_NTWK/measure> rdfs:label "Proportion of population covered by a mobile network, by technology (%)"@en .
+<http://metadata.un.org/sdg/SI_POV_DAY1/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_POV_DAY1/measure> rdfs:label "Proportion of population below international poverty line (%)"@en .
+<http://metadata.un.org/sdg/SI_POV_EMP1/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_POV_EMP1/measure> rdfs:label "Employed population below international poverty line, by sex and age (%)"@en .
+<http://metadata.un.org/sdg/SI_POV_NAHC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_POV_NAHC/measure> rdfs:label "Proportion of population living below the national poverty line (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_BENFTS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_BENFTS/measure> rdfs:label "[ILO] Proportion of population covered by at least one social protection benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_CHLD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_CHLD/measure> rdfs:label "[ILO] Proportion of children/households receiving child/family cash benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_DISAB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_DISAB/measure> rdfs:label "[ILO] Proportion of population with severe disabilities receiving disability cash benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_LMKT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_LMKT/measure> rdfs:label "[World Bank] Proportion of population covered by labour market programs (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_LMKTPQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_LMKTPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by labour market programs (%) "@en .
+<http://metadata.un.org/sdg/SI_COV_MATNL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_MATNL/measure> rdfs:label "[ILO] Proportion of mothers with newborns receiving maternity cash benefit (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_PENSN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_PENSN/measure> rdfs:label "[ILO] Proportion of population above statutory pensionable age receiving a pension, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_POOR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_POOR/measure> rdfs:label "[ILO] Proportion of poor population receiving social assistance cash benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_SOCAST/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_SOCAST/measure> rdfs:label "[World Bank] Proportion of population covered by social assistance programs (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_SOCASTPQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_SOCASTPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by social assistance programs (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_SOCINS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_SOCINS/measure> rdfs:label "[World Bank] Proportion of population covered by social insurance programs (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_SOCINSPQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_SOCINSPQ/measure> rdfs:label "[World Bank] Poorest quintile covered by social insurance programs (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_UEMP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_UEMP/measure> rdfs:label "[ILO] Proportion of unemployed persons receiving unemployment cash benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_VULN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_VULN/measure> rdfs:label "[ILO] Proportion of vulnerable population receiving social assistance cash benefit, by sex (%)"@en .
+<http://metadata.un.org/sdg/SI_COV_WKINJRY/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_COV_WKINJRY/measure> rdfs:label "[ILO] Proportion of employed population covered in the event of work injury, by sex (%)"@en .
+<http://metadata.un.org/sdg/SP_ACS_BSRVH2O/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SP_ACS_BSRVH2O/measure> rdfs:label "Proportion of population using basic drinking water services, by location (%)"@en .
+<http://metadata.un.org/sdg/SP_ACS_BSRVSAN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SP_ACS_BSRVSAN/measure> rdfs:label "Proportion of population using basic sanitation services, by location (%)"@en .
+<http://metadata.un.org/sdg/VC_DSR_AFFCT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_AFFCT/measure> rdfs:label "Number of people affected by disaster (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_DAFF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_DAFF/measure> rdfs:label "Number of directly affected persons attributed to disasters per 100,000 population (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_DDHN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_DDHN/measure> rdfs:label "Number damaged dwellings attributed to disasters, by hazard type (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_DYHN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_DYHN/measure> rdfs:label "Number destroyed dwellings attributed to disasters, by hazard type (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_IJILN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_IJILN/measure> rdfs:label "Number of injured or ill people attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_MISS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_MISS/measure> rdfs:label "Number of missing persons due to disaster (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_MMHN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_MMHN/measure> rdfs:label "Number of deaths and missing persons attributed to disasters, by hazard type (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_MORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_MORT/measure> rdfs:label "Number of deaths due to disaster (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_MTMN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_MTMN/measure> rdfs:label "Number of deaths and missing persons attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_MTMP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_MTMP/measure> rdfs:label "Number of deaths and missing persons attributed to disasters per 100,000 population (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_PDAN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_PDAN/measure> rdfs:label "Number of people whose damaged dwellings were attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_PDLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_PDLN/measure> rdfs:label "Number of people whose livelihoods were disrupted or destroyed, attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_PDYN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_PDYN/measure> rdfs:label "Number of people whose destroyed dwellings were attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_AGLH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_AGLH/measure> rdfs:label "Direct agriculture loss attributed to disasters, by hazard type (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_AGLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_AGLN/measure> rdfs:label "Direct agriculture loss attributed to disasters (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_CHLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_CHLN/measure> rdfs:label "Direct economic loss to cultural heritage damaged or destroyed attributed to disasters (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_CILN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_CILN/measure> rdfs:label "Direct economic loss resulting from damaged or destroyed critical infrastructure attributed to disasters (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_DDPA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_DDPA/measure> rdfs:label "Direct economic loss to other damaged or destroyed productive assets attributed to disasters (current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_GDPLS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_GDPLS/measure> rdfs:label "Direct economic loss attributed to disasters (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_HOLH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_HOLH/measure> rdfs:label "Direct economic loss in the housing sector attributed to disasters, by hazard type (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_HOLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_HOLN/measure> rdfs:label "Direct economic loss in the housing sector attributed to disasters (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_DSR_LSGP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_LSGP/measure> rdfs:label "Direct economic loss attributed to disasters relative to GDP (%)"@en .
+<http://metadata.un.org/sdg/SG_DSR_LGRGSR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_DSR_LGRGSR/measure> rdfs:label "Score of adoption and implementation of national DRR strategies in line with the Sendai Framework"@en .
+<http://metadata.un.org/sdg/SG_DSR_SILN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_DSR_SILN/measure> rdfs:label "Number of local governments that adopt and implement local DRR strategies in line with national strategies (number)"@en .
+<http://metadata.un.org/sdg/SG_DSR_SILS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_DSR_SILS/measure> rdfs:label "Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies (%)"@en .
+<http://metadata.un.org/sdg/SG_GOV_LOGV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GOV_LOGV/measure> rdfs:label "Number of local governments (number)"@en .
+<http://metadata.un.org/sdg/SD_XPD_ESED/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SD_XPD_ESED/measure> rdfs:label "Proportion of total government spending on essential services, education (%)"@en .
+<http://metadata.un.org/sdg/SI_HEI_BTN40/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_HEI_BTN40/measure> rdfs:label "Growth rates of household expenditure or income per capita among the bottom 40 per cent of the population (%)"@en .
+<http://metadata.un.org/sdg/SI_HEI_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_HEI_TOTL/measure> rdfs:label "Growth rates of household expenditure or income per capita (%)"@en .
+<http://metadata.un.org/sdg/SL_EMP_GTOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_EMP_GTOTL/measure> rdfs:label "Labour share of GDP, comprising wages and social protection transfers (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSANL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSANL/measure> rdfs:label "Non-performing loans to total gross loans (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSERA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSERA/measure> rdfs:label "Return on assets (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSKA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSKA/measure> rdfs:label "Regulatory capital to assets (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSKNL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSKNL/measure> rdfs:label "Non-performing loans net of provisions to capital (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSKRTC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSKRTC/measure> rdfs:label "Regulatory Tier 1 capital to risk-weighted assets (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSLS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSLS/measure> rdfs:label "Liquid assets to short term liabilities (%)"@en .
+<http://metadata.un.org/sdg/FI_FSI_FSSNO/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FI_FSI_FSSNO/measure> rdfs:label "Net open position in foreign exchange to capital (%)"@en .
+<http://metadata.un.org/sdg/SG_INT_MBRDEV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_INT_MBRDEV/measure> rdfs:label "Proportion of members of developing countries in international organizations, by organization (%)"@en .
+<http://metadata.un.org/sdg/SG_INT_VRTDEV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_INT_VRTDEV/measure> rdfs:label "Proportion of voting rights of developing countries in international organizations, by organization (%)"@en .
+<http://metadata.un.org/sdg/TM_TRF_ZERO/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/TM_TRF_ZERO/measure> rdfs:label "Proportion of tariff lines applied to imports with zero-tariff (%)"@en .
+<http://metadata.un.org/sdg/DC_TRF_TOTDL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TRF_TOTDL/measure> rdfs:label "Total assistance for development, by donor countries (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_TRF_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TRF_TOTL/measure> rdfs:label "Total assistance for development, by recipient countries (millions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/SI_RMT_COST/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_RMT_COST/measure> rdfs:label "Remittance costs as a proportion of the amount remitted (%)"@en .
+<http://metadata.un.org/sdg/EN_LND_SLUM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_LND_SLUM/measure> rdfs:label "Proportion of urban population living in slums (%)"@en .
+<http://metadata.un.org/sdg/VC_DSR_BSDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_BSDN/measure> rdfs:label "Number of disruptions to basic services attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_CDAN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_CDAN/measure> rdfs:label "Number of damaged critical infrastructure attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_CDYN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_CDYN/measure> rdfs:label "Number of other destroyed or damaged critical infrastructure units and facilities attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_EFDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_EFDN/measure> rdfs:label "Number of destroyed or damaged educational facilities attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_ESDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_ESDN/measure> rdfs:label "Number of disruptions to educational services attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_HFDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_HFDN/measure> rdfs:label "Number of destroyed or damaged health facilities attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_HSDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_HSDN/measure> rdfs:label "Number of disruptions to health services attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/VC_DSR_OBDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_DSR_OBDN/measure> rdfs:label "Number of disruptions to other basic services attributed to disasters (number)"@en .
+<http://metadata.un.org/sdg/EN_REF_WASCOL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_REF_WASCOL/measure> rdfs:label "Municipal Solid Waste collection coverage, by cities (%)"@en .
+<http://metadata.un.org/sdg/EN_ATM_PM25/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_ATM_PM25/measure> rdfs:label "Annual mean levels of fine particulate matter in cities, urban population (micrograms per cubic meter)"@en .
+<http://metadata.un.org/sdg/SG_SCP_CNTRY/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_SCP_CNTRY/measure> rdfs:label "Countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or target into national policies (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_SCP_CORMEC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_SCP_CORMEC/measure> rdfs:label "Countries with coordination mechanism for sustainable consumption and production (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_SCP_MACPOL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_SCP_MACPOL/measure> rdfs:label "Countries with macro policy for sustainable consumption and production (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_SCP_POLINS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_SCP_POLINS/measure> rdfs:label "Countries with policy instrument for sustainable consumption and production (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPC/measure> rdfs:label "Domestic material consumption per capita, by type of raw material (tonnes)"@en .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPG/measure> rdfs:label "Domestic material consumption per unit of GDP, by type of raw material (kilograms per constant 2010 United States dollars)"@en .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_MAT_DOMCMPT/measure> rdfs:label "Domestic material consumption, by type of raw material (tonnes)"@en .
+<http://metadata.un.org/sdg/SG_HAZ_CMRBASEL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_HAZ_CMRBASEL/measure> rdfs:label "Compliance with the Basel Convention on hazardous waste and other chemicals"@en .
+<http://metadata.un.org/sdg/SG_HAZ_CMRMNTRL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_HAZ_CMRMNTRL/measure> rdfs:label "Compliance with the Montreal Protocol on hazardous waste and other chemicals"@en .
+<http://metadata.un.org/sdg/SG_HAZ_CMRROTDAM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_HAZ_CMRROTDAM/measure> rdfs:label "Compliance with the Rotterdam Convention on hazardous waste and other chemicals"@en .
+<http://metadata.un.org/sdg/SG_HAZ_CMRSTHOLM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_HAZ_CMRSTHOLM/measure> rdfs:label "Compliance with the Stockholm Convention on hazardous waste and other chemicals"@en .
+<http://metadata.un.org/sdg/ER_FFS_PRTSPC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_FFS_PRTSPC/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) per capita (current United States dollars)"@en .
+<http://metadata.un.org/sdg/ER_FFS_PRTSPR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_FFS_PRTSPR/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) as a proportion of total GDP (%)"@en .
+<http://metadata.un.org/sdg/ER_FFS_PRTSST/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_FFS_PRTSST/measure> rdfs:label "Fossil-fuel pre-tax subsidies (consumption and production) (billions of current United States dollars)"@en .
+<http://metadata.un.org/sdg/ER_MRN_MARIN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MRN_MARIN/measure> rdfs:label "Coverage of protected areas in relation to marine areas (Exclusive Economic Zones) (%)"@en .
+<http://metadata.un.org/sdg/ER_MRN_MARINT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MRN_MARINT/measure> rdfs:label "Protected marine area (Exclusive Economic Zones) (square kilometres)"@en .
+<http://metadata.un.org/sdg/ER_MRN_MPA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MRN_MPA/measure> rdfs:label "Average proportion of Marine Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
+<http://metadata.un.org/sdg/ER_REG_UNFCIM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_REG_UNFCIM/measure> rdfs:label "Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing (level of implementation: 1 lowest to 5 highest)"@en .
+<http://metadata.un.org/sdg/ER_RDE_OSEX/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_RDE_OSEX/measure> rdfs:label "National ocean science expenditure as a share of total research and development funding (%)"@en .
+<http://metadata.un.org/sdg/ER_REG_SSFRAR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_REG_SSFRAR/measure> rdfs:label "Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRST/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRST/measure> rdfs:label "Forest area as a proportion of total land area (%)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTN/measure> rdfs:label "Forest area (thousands of hectares)"@en .
+<http://metadata.un.org/sdg/AG_LND_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_TOTL/measure> rdfs:label "Land area (thousands of hectares)"@en .
+<http://metadata.un.org/sdg/ER_PTD_FRWRT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_PTD_FRWRT/measure> rdfs:label "Average proportion of Freshwater Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
+<http://metadata.un.org/sdg/ER_PTD_TERRS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_PTD_TERRS/measure> rdfs:label "Average proportion of Terrestrial Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTBIOPHA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTBIOPHA/measure> rdfs:label "Above-ground biomass in forest per hectare (tonnes per hectare)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTCERT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTCERT/measure> rdfs:label "Forest area certified under an independently verified certification scheme (thousands of hectares)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTCHG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTCHG/measure> rdfs:label "Forest area net change rate (%)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTMGT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTMGT/measure> rdfs:label "Proportion of forest area with a long-term management plan (%)"@en .
+<http://metadata.un.org/sdg/AG_LND_FRSTPRCT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_FRSTPRCT/measure> rdfs:label "Proportion of forest area within legally established protected areas (%)"@en .
+<http://metadata.un.org/sdg/AG_LND_DGRD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_LND_DGRD/measure> rdfs:label "Proportion of land that is degraded over total land area (%)"@en .
+<http://metadata.un.org/sdg/ER_PTD_MOTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_PTD_MOTN/measure> rdfs:label "Average proportion of Mountain Key Biodiversity Areas (KBAs) covered by protected areas (%)"@en .
+<http://metadata.un.org/sdg/ER_MTN_GRNCOV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MTN_GRNCOV/measure> rdfs:label "Mountain green cover area (square kilometres)"@en .
+<http://metadata.un.org/sdg/ER_MTN_GRNCVI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MTN_GRNCVI/measure> rdfs:label "Mountain Green Cover Index"@en .
+<http://metadata.un.org/sdg/ER_MTN_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_MTN_TOTL/measure> rdfs:label "Mountain area (square kilometres)"@en .
+<http://metadata.un.org/sdg/ER_RSK_LSTI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_RSK_LSTI/measure> rdfs:label "Red List Index"@en .
+<http://metadata.un.org/sdg/ER_CBD_ABSCLRHS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_CBD_ABSCLRHS/measure> rdfs:label "Countries that have legislative, administrative and policy framework or measures reported to the Access and Benefit-Sharing Clearing-House (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/ER_CBD_NAGOYA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_CBD_NAGOYA/measure> rdfs:label "Countries that are parties to the Nagoya Protocol (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/ER_CBD_ORSPGRFA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_CBD_ORSPGRFA/measure> rdfs:label "Countries that have legislative, administrative and policy framework or measures reported through the Online Reporting System on Compliance  of the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/ER_CBD_PTYPGRFA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_CBD_PTYPGRFA/measure> rdfs:label "Countries that are contracting Parties to the International Treaty on Plant Genetic Resources for Food and Agriculture (PGRFA) (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/ER_CBD_SMTA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_CBD_SMTA/measure> rdfs:label "Total reported number of Standard Material Transfer Agreements (SMTAs) transferring plant genetic resources for food and agriculture to the country (number)"@en .
+<http://metadata.un.org/sdg/DC_ODA_BDVDL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_BDVDL/measure> rdfs:label "Total official development assistance for biodiversity, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_ODA_BDVL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_BDVL/measure> rdfs:label "Total official development assistance for biodiversity, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/VC_IHR_PSRC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_IHR_PSRC/measure> rdfs:label "Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)"@en .
+<http://metadata.un.org/sdg/VC_IHR_PSRCN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_IHR_PSRCN/measure> rdfs:label "Number of victims of intentional homicide, by sex (number)"@en .
+<http://metadata.un.org/sdg/VC_VOV_PHYL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VOV_PHYL/measure> rdfs:label "Proportion of population subjected to physical violence in the previous 12 months, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_VOV_ROBB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VOV_ROBB/measure> rdfs:label "Proportion of population subjected to robbery in the previous 12 months, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_VOV_SEXL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VOV_SEXL/measure> rdfs:label "Proportion of population subjected to sexual violence in the previous 12 months, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_SNS_WALN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_SNS_WALN/measure> rdfs:label "Proportion of population that feel safe walking alone around the area they live (%)"@en .
+<http://metadata.un.org/sdg/SG_INF_ACCSS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_INF_ACCSS/measure> rdfs:label "Countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information"@en .
+<http://metadata.un.org/sdg/VC_VAW_PHYPYV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VAW_PHYPYV/measure> rdfs:label "Proportion of children aged 1-14 years who experienced physical punishment and/or psychological aggression by caregivers in last month (% of children aged 1-14 years)"@en .
+<http://metadata.un.org/sdg/VC_HTF_DETV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_HTF_DETV/measure> rdfs:label "Detected victims of human trafficking, by age and sex (number)"@en .
+<http://metadata.un.org/sdg/VC_HTF_DETVFL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_HTF_DETVFL/measure> rdfs:label "Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (number)"@en .
+<http://metadata.un.org/sdg/VC_HTF_DETVOG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_HTF_DETVOG/measure> rdfs:label "Detected victims of human trafficking for removal of organ, by age and sex (number)"@en .
+<http://metadata.un.org/sdg/VC_HTF_DETVOP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_HTF_DETVOP/measure> rdfs:label "Detected victims of human trafficking for other purposes, by age and sex (number)"@en .
+<http://metadata.un.org/sdg/VC_HTF_DETVSX/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_HTF_DETVSX/measure> rdfs:label "Detected victims of human trafficking for sexual exploitaton, by age and sex (number)"@en .
+<http://metadata.un.org/sdg/VC_VAW_SXVLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VAW_SXVLN/measure> rdfs:label "Proportion of population aged 18-29 years who experienced sexual violence by age 18, by sex (% of population aged 18-29)"@en .
+<http://metadata.un.org/sdg/VC_PRR_PHYV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_PRR_PHYV/measure> rdfs:label "Police reporting rate for physical assault, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_PRR_ROBB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_PRR_ROBB/measure> rdfs:label "Police reporting rate for robbery, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_PRR_SEXV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_PRR_SEXV/measure> rdfs:label "Police reporting rate for sexual assault, by sex (%)"@en .
+<http://metadata.un.org/sdg/VC_PRS_UNSEC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_PRS_UNSEC/measure> rdfs:label "Unsentenced detainees as a proportion of overall prison population (%)"@en .
+<http://metadata.un.org/sdg/IU_COR_BRIB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IU_COR_BRIB/measure> rdfs:label "Prevalence rate of bribery, by sex (%)"@en .
+<http://metadata.un.org/sdg/IC_FRM_BRIB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IC_FRM_BRIB/measure> rdfs:label "Bribery incidence (% of firms experiencing at least one bribe payment request)"@en .
+<http://metadata.un.org/sdg/GF_XPD_GBPC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/GF_XPD_GBPC/measure> rdfs:label "Primary government expenditures as a proportion of original approved budget (%)"@en .
+<http://metadata.un.org/sdg/SG_REG_BRTH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_REG_BRTH/measure> rdfs:label "Proportion of children under 5 years of age whose births have been registered with a civil authority (% of children under 5 years of age)"@en .
+<http://metadata.un.org/sdg/SG_NHR_IMPLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_NHR_IMPLN/measure> rdfs:label "Countries with National Human Rights Institutions in compliance with the Paris Principles, A status (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_NHR_INTEXSTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_NHR_INTEXSTN/measure> rdfs:label "Countries with National Human Rights Institutions not fully compliant with the Paris Principles, B status (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_NHR_NOAPPLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_NHR_NOAPPLN/measure> rdfs:label "Countries with no application for accreditation with the Paris Principles, D status  (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_NHR_NOSTUSN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_NHR_NOSTUSN/measure> rdfs:label "Countries with National Human Rights Institutions and no status with the Paris Principles, C status (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/GR_G14_GDP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/GR_G14_GDP/measure> rdfs:label "Total government revenue (budgetary central government) as a proportion of GDP (%)"@en .
+<http://metadata.un.org/sdg/GC_GOB_TAXD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/GC_GOB_TAXD/measure> rdfs:label "Proportion of domestic budget funded by domestic taxes (% of GDP)"@en .
+<http://metadata.un.org/sdg/TM_TAX_WWTAV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/TM_TAX_WWTAV/measure> rdfs:label "Worldwide weighted tariff-average (weighted mean), by type of product and trade regime (%)"@en .
+<http://metadata.un.org/sdg/TM_TAX_ATRFD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/TM_TAX_ATRFD/measure> rdfs:label "Average tariff applied by developed countries, by type of product (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_PRPOLRES/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_PRPOLRES/measure> rdfs:label "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by provider (%) "@en .
+<http://metadata.un.org/sdg/SG_PLN_PRVNDI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_PRVNDI/measure> rdfs:label "Proportion of new development interventions drawn from country-led result frameworks - data by provider (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_PRVRICTRY/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_PRVRICTRY/measure> rdfs:label "Proportion of results indicators drawn from country-led results frameworks - data by provider (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_PRVRIMON/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_PRVRIMON/measure> rdfs:label "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by provider (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_RECNDI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_RECNDI/measure> rdfs:label "Proportion of new development interventions drawn from country-led result frameworks - data by recipient (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_RECRICTRY/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_RECRICTRY/measure> rdfs:label "Proportion of results indicators drawn from country-led results frameworks - data by recipient (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_RECRIMON/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_RECRIMON/measure> rdfs:label "Proportion of results indicators which will be monitored using government sources and monitoring systems - data by recipient (%)"@en .
+<http://metadata.un.org/sdg/SG_PLN_REPOLRES/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_REPOLRES/measure> rdfs:label "Extent of use of country-owned results frameworks and planning tools by providers of development cooperation - data by recipient (%) "@en .
+<http://metadata.un.org/sdg/SG_PLN_MSTKSDG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_PLN_MSTKSDG/measure> rdfs:label "Progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_FPOS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_FPOS/measure> rdfs:label "Countries with national statistical legislation exists that complies with the Fundamental Principles of Official Statistics (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDDNR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDDNR/measure> rdfs:label "Countries with national statistical plans with funding from donors (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDGVT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDGVT/measure> rdfs:label "Countries with national statistical plans with funding from Government (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDOTHR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_NSDSFDOTHR/measure> rdfs:label "Countries with national statistical plans with funding from others (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_NSDSFND/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_NSDSFND/measure> rdfs:label "Countries with national statistical plans that are fully funded (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_NSDSIMPL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_NSDSIMPL/measure> rdfs:label "Countries with national statistical plans that are under implementation (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_STT_CAPTY/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_STT_CAPTY/measure> rdfs:label "Dollar value of all resources made available to strengthen statistical capacity in developing countries (current United States dollars)"@en .
+<http://metadata.un.org/sdg/SG_REG_BRTH90N/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_REG_BRTH90N/measure> rdfs:label "Countries with birth registration data that are at least 90 percent complete (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_REG_CENSUSN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_REG_CENSUSN/measure> rdfs:label "Countries that have conducted at least one population and housing census in the last 10 years (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/SG_REG_DETH75N/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_REG_DETH75N/measure> rdfs:label "Countries with death registration data that are at least 75 percent complete (1 = YES; 0 = NO)"@en .
+<http://metadata.un.org/sdg/DC_ODA_LDCG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_LDCG/measure> rdfs:label "Net official development assistance (ODA) to LDCs as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
+<http://metadata.un.org/sdg/DC_ODA_LDCS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_LDCS/measure> rdfs:label "Net official development assistance (ODA) to LDCs from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_ODA_LLDC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_LLDC/measure> rdfs:label "Net official development assistance (ODA) to landlocked developing countries from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_ODA_LLDCG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_LLDCG/measure> rdfs:label "Net official development assistance (ODA) to landlocked developing countries as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
+<http://metadata.un.org/sdg/DC_ODA_SIDS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_SIDS/measure> rdfs:label "Net official development assistance (ODA) to small island states (SIDS) from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_ODA_SIDSG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_SIDSG/measure> rdfs:label "Net official development assistance (ODA) to small island states (SIDS) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
+<http://metadata.un.org/sdg/DC_ODA_TOTG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_TOTG/measure> rdfs:label "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI, by donor countries (%)"@en .
+<http://metadata.un.org/sdg/DC_ODA_TOTGGE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_TOTGGE/measure> rdfs:label "Net official development assistance (ODA) as a percentage of OECD-DAC donors' GNI (grant equivalent methodology), by donor countries (%)"@en .
+<http://metadata.un.org/sdg/DC_ODA_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_TOTL/measure> rdfs:label "Net official development assistance (ODA) from OECD-DAC countries, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_ODA_TOTLGE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_ODA_TOTLGE/measure> rdfs:label "Net official development assistance (ODA) from OECD-DAC countries (grant equivalent methodology), by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/BX_TRF_PWKR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/BX_TRF_PWKR/measure> rdfs:label "Volume of remittances (in United States dollars) as a proportion of total GDP (%)"@en .
+<http://metadata.un.org/sdg/DT_TDS_DECT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DT_TDS_DECT/measure> rdfs:label "Debt service as a proportion of exports of goods and services (%)"@en .
+<http://metadata.un.org/sdg/IT_NET_BBN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IT_NET_BBN/measure> rdfs:label "Number of fixed Internet broadband subscriptions, by speed (number)"@en .
+<http://metadata.un.org/sdg/IT_NET_BBP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IT_NET_BBP/measure> rdfs:label "Fixed Internet broadband subscriptions per 100 inhabitants, by speed (per 100 inhabitants)"@en .
+<http://metadata.un.org/sdg/IT_USE_ii99/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IT_USE_ii99/measure> rdfs:label "Internet users per 100 inhabitants"@en .
+<http://metadata.un.org/sdg/DC_FTA_TOTAL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_FTA_TOTAL/measure> rdfs:label "Total official development assistance (gross disbursement) for technical cooperation (millions of 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/SN_ITK_DEFC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SN_ITK_DEFC/measure> rdfs:label "Prevalence of undernourishment (%)"@en .
+<http://metadata.un.org/sdg/SN_ITK_DEFCN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SN_ITK_DEFCN/measure> rdfs:label "Number of undernourish people (millions)"@en .
+<http://metadata.un.org/sdg/AG_PRD_FIESSI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_PRD_FIESSI/measure> rdfs:label "Prevalence of severe food insecurity in the adult population (%)"@en .
+<http://metadata.un.org/sdg/AG_PRD_FIESSIN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_PRD_FIESSIN/measure> rdfs:label "Total population in severe food insecurity (thousands of people)"@en .
+<http://metadata.un.org/sdg/SH_STA_STUNT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_STUNT/measure> rdfs:label "Proportion of children moderately or severely stunted (%)"@en .
+<http://metadata.un.org/sdg/SH_STA_STUNTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_STUNTN/measure> rdfs:label "Children moderately or severely stunted (millions)"@en .
+<http://metadata.un.org/sdg/SH_STA_OVRWGT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_OVRWGT/measure> rdfs:label "Proportion of children moderately or severely overweight (%)"@en .
+<http://metadata.un.org/sdg/SH_STA_WASTE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_WASTE/measure> rdfs:label "Proportion of children moderately or severely wasted (%)"@en .
+<http://metadata.un.org/sdg/SH_STA_WASTEN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_WASTEN/measure> rdfs:label "Children moderately or severely wasted (millions)"@en .
+<http://metadata.un.org/sdg/PD_AGR_SSFP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/PD_AGR_SSFP/measure> rdfs:label "Productivity of small-scale food producers (agricultural output per labour day, PPP) (constant 2011 international $)"@en .
+<http://metadata.un.org/sdg/SI_AGR_SSFP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SI_AGR_SSFP/measure> rdfs:label "Average income of small-scale food producers, PPP (constant 2011 international $)"@en .
+<http://metadata.un.org/sdg/ER_GRF_ANIMRCNT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_GRF_ANIMRCNT/measure> rdfs:label "Proportion of local breeds for which sufficient genetic resources are stored for reconstitution (%)"@en .
+<http://metadata.un.org/sdg/ER_GRF_PLNTSTOR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_GRF_PLNTSTOR/measure> rdfs:label "Plant breeds for which sufficient genetic resources are stored (number)"@en .
+<http://metadata.un.org/sdg/ER_RSK_LBREDS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_RSK_LBREDS/measure> rdfs:label "Proportion of local breeds classified as being at risk as a share of local breeds with known level of extinction risk (%)"@en .
+<http://metadata.un.org/sdg/AG_PRD_AGVAS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_PRD_AGVAS/measure> rdfs:label "Agriculture value added share of GDP (%)"@en .
+<http://metadata.un.org/sdg/AG_PRD_ORTIND/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_PRD_ORTIND/measure> rdfs:label "Agriculture orientation index for government expenditures"@en .
+<http://metadata.un.org/sdg/AG_XPD_AGSGB/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_XPD_AGSGB/measure> rdfs:label "Agriculture share of Government Expenditure (%)"@en .
+<http://metadata.un.org/sdg/DC_TOF_AGRL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_AGRL/measure> rdfs:label "Total official flows (disbursements) for agriculture, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/AG_FPA_CFPI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_FPA_CFPI/measure> rdfs:label "Consumer Food Price Index"@en .
+<http://metadata.un.org/sdg/AG_FPA_COMM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/AG_FPA_COMM/measure> rdfs:label "Indicator of Food Price Anomalies (IFPA), by type of product"@en .
+<http://metadata.un.org/sdg/SH_STA_MMR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_MMR/measure> rdfs:label "Maternal mortality ratio"@en .
+<http://metadata.un.org/sdg/SH_STA_BRTC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_BRTC/measure> rdfs:label "Proportion of births attended by skilled health personnel (%)"@en .
+<http://metadata.un.org/sdg/SH_DYN_IMRT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_IMRT/measure> rdfs:label "Infant mortality rate (deaths per 1,000 live births)"@en .
+<http://metadata.un.org/sdg/SH_DYN_IMRTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_IMRTN/measure> rdfs:label "Infant deaths (number)"@en .
+<http://metadata.un.org/sdg/SH_DYN_MORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_MORT/measure> rdfs:label "Under-five mortality rate, by sex (deaths per 1,000 live births)"@en .
+<http://metadata.un.org/sdg/SH_DYN_MORTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_MORTN/measure> rdfs:label "Under-five deaths (number)"@en .
+<http://metadata.un.org/sdg/SH_DYN_NMRT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_NMRT/measure> rdfs:label "Neonatal mortality rate (deaths per 1,000 live births)"@en .
+<http://metadata.un.org/sdg/SH_DYN_NMRTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DYN_NMRTN/measure> rdfs:label "Neonatal deaths (number)"@en .
+<http://metadata.un.org/sdg/SH_HIV_INCD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_HIV_INCD/measure> rdfs:label "Number of new HIV infections per 1,000 uninfected population, by sex and age (per 1,000 uninfected population)"@en .
+<http://metadata.un.org/sdg/SH_TBS_INCID/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_TBS_INCID/measure> rdfs:label "Tuberculosis incidence (per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_MALR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_MALR/measure> rdfs:label "Malaria incidence per 1,000 population at risk (per 1,000 population)"@en .
+<http://metadata.un.org/sdg/SH_HAP_HBSAG/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_HAP_HBSAG/measure> rdfs:label "Prevalence of hepatitis B surface antigen (HBsAg) (%)"@en .
+<http://metadata.un.org/sdg/SH_TRP_INTVN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_TRP_INTVN/measure> rdfs:label "Number of people requiring interventions against neglected tropical diseases (number)"@en .
+<http://metadata.un.org/sdg/SH_DTH_NCOM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DTH_NCOM/measure> rdfs:label "Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease (probability)"@en .
+<http://metadata.un.org/sdg/SH_DTH_RNCOM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_DTH_RNCOM/measure> rdfs:label "Number of deaths attributed to non-communicable diseases, by type of disease and sex (number)"@en .
+<http://metadata.un.org/sdg/SH_STA_SCIDE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_SCIDE/measure> rdfs:label "Suicide mortality rate, by sex (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_SCIDEN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_SCIDEN/measure> rdfs:label "Number of deaths attributed to suicide, by sex (number)"@en .
+<http://metadata.un.org/sdg/SH_ALC_CONSPT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_ALC_CONSPT/measure> rdfs:label "Alcohol consumption per capita (aged 15 years and older) within a calendar year (litres of pure alcohol)"@en .
+<http://metadata.un.org/sdg/SH_STA_TRAF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_TRAF/measure> rdfs:label "Death rate due to road traffic injuries (per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_FPL_MTMM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_FPL_MTMM/measure> rdfs:label "Proportion of women of reproductive age (aged 15-49 years) who have their need for family planning satisfied with modern methods (% of women aged 15-49 years)"@en .
+<http://metadata.un.org/sdg/SP_DYN_ADKL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SP_DYN_ADKL/measure> rdfs:label "Adolescent birth rate (per 1,000 women aged 15-19 years)"@en .
+<http://metadata.un.org/sdg/SH_ACS_UNHC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_ACS_UNHC/measure> rdfs:label "Universal health coverage (UHC) service coverage index"@en .
+<http://metadata.un.org/sdg/SH_XPD_EARN10/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_XPD_EARN10/measure> rdfs:label "Proportion of population with large household expenditures on health (greater than 10%) as a share of total household expenditure or income (%)"@en .
+<http://metadata.un.org/sdg/SH_XPD_EARN25/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_XPD_EARN25/measure> rdfs:label "Proportion of population with large household expenditures on health (greater than 25%) as a share of total household expenditure or income (%)"@en .
+<http://metadata.un.org/sdg/SH_AAP_ASMORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_AAP_ASMORT/measure> rdfs:label "Age-standardized mortality rate attributed to ambient air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_AAP_MORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_AAP_MORT/measure> rdfs:label "Crude death rate attributed to ambient air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_HAP_ASMORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_HAP_ASMORT/measure> rdfs:label "Age-standardized mortality rate attributed to household air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_HAP_MORT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_HAP_MORT/measure> rdfs:label "Crude death rate attributed to household air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_AIRP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_AIRP/measure> rdfs:label "Crude death rate attributed to household and ambient air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_ASAIRP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_ASAIRP/measure> rdfs:label "Age-standardized mortality rate attributed to household and ambient air pollution (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_WASH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_WASH/measure> rdfs:label "Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_STA_POISN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_POISN/measure> rdfs:label "Mortality rate attributed to unintentional poisonings, by sex (deaths per 100,000 population)"@en .
+<http://metadata.un.org/sdg/SH_PRV_SMOK/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_PRV_SMOK/measure> rdfs:label "Age-standardized prevalence of current tobacco use among persons aged 15 years and older, by sex (%)"@en .
+<http://metadata.un.org/sdg/SH_ACS_DTP3/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_ACS_DTP3/measure> rdfs:label "Proportion of the target population with access to 3 doses of diphtheria-tetanus-pertussis (DTP3) (%)"@en .
+<http://metadata.un.org/sdg/SH_ACS_MCV2/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_ACS_MCV2/measure> rdfs:label "Proportion of the target population with access to measles-containing-vaccine second-dose (MCV2) (%)"@en .
+<http://metadata.un.org/sdg/SH_ACS_PCV3/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_ACS_PCV3/measure> rdfs:label "Proportion of the target population with access to pneumococcal conjugate 3rd dose (PCV3) (%)"@en .
+<http://metadata.un.org/sdg/DC_TOF_HLTHL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_HLTHL/measure> rdfs:label "Total official development assistance to medical research and basic heath sectors, gross disbursement, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_TOF_HLTHNT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_HLTHNT/measure> rdfs:label "Total official development assistance to medical research and basic heath sectors, net disbursement, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/SH_MED_HEAWOR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_MED_HEAWOR/measure> rdfs:label "Health worker density, by type of occupation (per 10,000 population)"@en .
+<http://metadata.un.org/sdg/SH_IHR_CAPS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_IHR_CAPS/measure> rdfs:label "International Health Regulations (IHR) capacity, by type of IHR capacity (%)"@en .
+<http://metadata.un.org/sdg/SE_MAT_PROF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_MAT_PROF/measure> rdfs:label "Minimum proficiency in mathematics, by education level and sex (%)"@en .
+<http://metadata.un.org/sdg/SE_REA_PROF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_REA_PROF/measure> rdfs:label "Minimum proficiency in reading, by education level and sex (%)"@en .
+<http://metadata.un.org/sdg/SE_DEV_ONTRK/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_DEV_ONTRK/measure> rdfs:label "Proportion of children aged 36−59 months who are developmentally on track in at least three of the following domains: literacy-numeracy, physical development, social-emotional development, and learning (% of children aged 36-59 months)"@en .
+<http://metadata.un.org/sdg/SE_PRE_PARTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_PRE_PARTN/measure> rdfs:label "Participation rate in organized learning (one year before the official primary entry age), by sex (%)"@en .
+<http://metadata.un.org/sdg/SE_ADT_EDUCTRN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ADT_EDUCTRN/measure> rdfs:label "Participation rate in formal and non-formal education and training, by sex (%)"@en .
+<http://metadata.un.org/sdg/SE_ADT_ACTS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ADT_ACTS/measure> rdfs:label "Proportion of youth and adults with information and communications technology (ICT) skills, by sex and type of skill (%)"@en .
+<http://metadata.un.org/sdg/SE_GPI_FUNPROF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_FUNPROF/measure> rdfs:label "Gender parity index achieving at least a fixed level of proficiency in functional literacy skills (ratio)"@en .
+<http://metadata.un.org/sdg/SE_GPI_ICTS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_ICTS/measure> rdfs:label "Gender parity index for youth/adults with information and communications technology (ICT) skills, by type of skill (ratio)"@en .
+<http://metadata.un.org/sdg/SE_GPI_MATACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_MATACH/measure> rdfs:label "Gender parity index for achievement in mathematics, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_GPI_PART/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_PART/measure> rdfs:label "Gender parity index for participation rate in formal and non-formal education and training (ratio)"@en .
+<http://metadata.un.org/sdg/SE_GPI_REAACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_REAACH/measure> rdfs:label "Gender parity index for achievement in reading, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_GPI_TRATEA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_GPI_TRATEA/measure> rdfs:label "Gender parity index of trained teachers, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_IMP_FPOF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_IMP_FPOF/measure> rdfs:label "Immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)"@en .
+<http://metadata.un.org/sdg/SE_LGP_ACHIMA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_LGP_ACHIMA/measure> rdfs:label "Language test parity index for achievement in mathematics, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_LGP_ACHIRE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_LGP_ACHIRE/measure> rdfs:label "Language test parity index for achievement in reading, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_NAP_ACHIMA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_NAP_ACHIMA/measure> rdfs:label "Native parity index for achievement in mathematics, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_NAP_ACHIRE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_NAP_ACHIRE/measure> rdfs:label "Native parity index for achievement in reading, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_PRE_GPIPARTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_PRE_GPIPARTN/measure> rdfs:label "Gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio)"@en .
+<http://metadata.un.org/sdg/SE_SEP_FUNPROF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_SEP_FUNPROF/measure> rdfs:label "Low to high socio-economic parity status index achieving at least a fixed level of proficiency in functional numeracy skills  (ratio)"@en .
+<http://metadata.un.org/sdg/SE_SEP_MATACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_SEP_MATACH/measure> rdfs:label "Low to high socio-economic parity status index for achievement in mathematics, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_SEP_REAACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_SEP_REAACH/measure> rdfs:label "Low to high socio-economic parity status index for achievement in reading, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_URP_MATACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_URP_MATACH/measure> rdfs:label "Rural to urban parity index for achievement in mathematics, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_URP_REAACH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_URP_REAACH/measure> rdfs:label "Rural to urban parity index for achievement in reading, by education level (ratio)"@en .
+<http://metadata.un.org/sdg/SE_ADT_FUNS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ADT_FUNS/measure> rdfs:label "Proportion of population achieving at least a fixed level of proficiency in functional skills, by sex, age and type of skill (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_COMP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_COMP/measure> rdfs:label "Schools with access to computers for pedagogical purposes, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_DWAT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_DWAT/measure> rdfs:label "Schools with access to basic drinking water, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_ELEC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_ELEC/measure> rdfs:label "Schools with access to electricity, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_HNWA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_HNWA/measure> rdfs:label "Schools with basic handwashing facilities, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_INTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_INTN/measure> rdfs:label "Schools with access to the internet for pedagogical purposes, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_ACC_SANI/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_ACC_SANI/measure> rdfs:label "Schools with access to access to single-sex basic sanitation, by education level (%)"@en .
+<http://metadata.un.org/sdg/SE_INF_DSBL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_INF_DSBL/measure> rdfs:label "Proportion of schools with access to adapted infrastructure and materials for students with disabilities, by education level (%)"@en .
+<http://metadata.un.org/sdg/DC_TOF_SCHIPSL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_SCHIPSL/measure> rdfs:label "Total official flows for scholarships, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/SE_TRA_GRDL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SE_TRA_GRDL/measure> rdfs:label "Proportion of teachers who have received at least the minimum organized teacher training (e.g. pedagogical training) pre-service or in-service required for teaching at the relevant level in a given country, by sex and education level (%)"@en .
+<http://metadata.un.org/sdg/SG_LGL_GENEQEMP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_LGL_GENEQEMP/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 3: employment and economic benefits"@en .
+<http://metadata.un.org/sdg/SG_LGL_GENEQLFP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_LGL_GENEQLFP/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 1: overarching legal frameworks and public life"@en .
+<http://metadata.un.org/sdg/SG_LGL_GENEQMAR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_LGL_GENEQMAR/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) -- Area 4: marriage and family"@en .
+<http://metadata.un.org/sdg/SG_LGL_GENEQVAW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_LGL_GENEQVAW/measure> rdfs:label "Legal frameworks that promote, enforce and monitor gender equality (percentage of achievement, 0 - 100) --  Area 2: violence against women"@en .
+<http://metadata.un.org/sdg/VC_VAW_MARR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/VC_VAW_MARR/measure> rdfs:label "Proportion of ever-partnered women and girls subjected to physical and/or sexual violence by a current or former intimate partner in the previous 12 months, by age (%)"@en .
+<http://metadata.un.org/sdg/SP_DYN_MRBF15/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SP_DYN_MRBF15/measure> rdfs:label "Proportion of women aged 20-24 years who were married or in a union before age 15 (%)"@en .
+<http://metadata.un.org/sdg/SP_DYN_MRBF18/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SP_DYN_MRBF18/measure> rdfs:label "Proportion of women aged 20-24 years who were married or in a union before age 18 (%)"@en .
+<http://metadata.un.org/sdg/SH_STA_FGMS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_STA_FGMS/measure> rdfs:label "Proportion of girls and women aged 15-49 years who have undergone female genital mutilation/cutting, by age (%)"@en .
+<http://metadata.un.org/sdg/SL_DOM_TSPD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_DOM_TSPD/measure> rdfs:label "Proportion of time spent on unpaid domestic chores and care work, by sex, age and location (%)"@en .
+<http://metadata.un.org/sdg/SL_DOM_TSPDCW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_DOM_TSPDCW/measure> rdfs:label "Proportion of time spent on unpaid care work, by sex, age and location (%)"@en .
+<http://metadata.un.org/sdg/SL_DOM_TSPDDC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_DOM_TSPDDC/measure> rdfs:label "Proportion of time spent on unpaid domestic chores, by sex, age and location (%)"@en .
+<http://metadata.un.org/sdg/SG_GEN_LOCGELS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GEN_LOCGELS/measure> rdfs:label "Proportion of elected seats held by women in deliberative bodies of local government (%)"@en .
+<http://metadata.un.org/sdg/SG_GEN_PARL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GEN_PARL/measure> rdfs:label "Proportion of seats held by women in national parliaments (% of total number of seats)"@en .
+<http://metadata.un.org/sdg/SG_GEN_PARLN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GEN_PARLN/measure> rdfs:label "Number of seats held by women in national parliaments (number)"@en .
+<http://metadata.un.org/sdg/SG_GEN_PARLNT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GEN_PARLNT/measure> rdfs:label "Number of seats in national parliaments (number)"@en .
+<http://metadata.un.org/sdg/IC_GEN_MGTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IC_GEN_MGTL/measure> rdfs:label "Proportion of women in managerial positions (%)"@en .
+<http://metadata.un.org/sdg/IC_GEN_MGTN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IC_GEN_MGTN/measure> rdfs:label "Proportion of women in senior and middle management positions (%)"@en .
+<http://metadata.un.org/sdg/SH_FPL_INFM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_FPL_INFM/measure> rdfs:label "Proportion of women who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care (% of women aged 15-49 years)"@en .
+<http://metadata.un.org/sdg/SH_FPL_INFMCU/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_FPL_INFMCU/measure> rdfs:label "Proportion of women who make their own informed decisions regarding contraceptive use (% of women aged 15-49 years)"@en .
+<http://metadata.un.org/sdg/SH_FPL_INFMRH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_FPL_INFMRH/measure> rdfs:label "Proportion of women who make their own informed decisions regarding reproductive health care (% of women aged 15-49 years)"@en .
+<http://metadata.un.org/sdg/SH_FPL_INFMSR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_FPL_INFMSR/measure> rdfs:label "Proportion of women who make their own informed decisions regarding sexual relations (% of women aged 15-49 years)"@en .
+<http://metadata.un.org/sdg/IT_MOB_OWN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IT_MOB_OWN/measure> rdfs:label "Proportion of individuals who own a mobile telephone, by sex (%)"@en .
+<http://metadata.un.org/sdg/SG_GEN_EQPWN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SG_GEN_EQPWN/measure> rdfs:label "Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment (%)"@en .
+<http://metadata.un.org/sdg/SH_H2O_SAFE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_H2O_SAFE/measure> rdfs:label "Proportion of population using safely managed drinking water services, by urban/rural (%)"@en .
+<http://metadata.un.org/sdg/SH_SAN_DEFECT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_SAN_DEFECT/measure> rdfs:label "Proportion of population practicing open defecation, by urban/rural (%)"@en .
+<http://metadata.un.org/sdg/SH_SAN_HNDWSH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_SAN_HNDWSH/measure> rdfs:label "Proportion of population with basic handwashing facilities on premises, by urban/rural (%)"@en .
+<http://metadata.un.org/sdg/SH_SAN_SAFE/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SH_SAN_SAFE/measure> rdfs:label "Proportion of population using safely managed sanitation services, by urban/rural (%)"@en .
+<http://metadata.un.org/sdg/EN_WWT_WWDS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WWT_WWDS/measure> rdfs:label "Proportion of safely treated domestic wastewater flows (%)"@en .
+<http://metadata.un.org/sdg/EN_H2O_GRAMBQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_H2O_GRAMBQ/measure> rdfs:label "Proportion of groundwater bodies with good ambient water quality (%)"@en .
+<http://metadata.un.org/sdg/EN_H2O_OPAMBQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_H2O_OPAMBQ/measure> rdfs:label "Proportion of open water bodies with good ambient water quality (%)"@en .
+<http://metadata.un.org/sdg/EN_H2O_RVAMBQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_H2O_RVAMBQ/measure> rdfs:label "Proportion of river water bodies with good ambient water quality (%)"@en .
+<http://metadata.un.org/sdg/EN_H2O_WBAMBQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_H2O_WBAMBQ/measure> rdfs:label "Proportion of bodies of water with good ambient water quality (%)"@en .
+<http://metadata.un.org/sdg/ER_H2O_WUEYST/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_H2O_WUEYST/measure> rdfs:label "Water Use Efficiency (United States dollars per cubic meter)"@en .
+<http://metadata.un.org/sdg/ER_H2O_STRESS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_H2O_STRESS/measure> rdfs:label "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources (%)"@en .
+<http://metadata.un.org/sdg/ER_H2O_IWRMD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_H2O_IWRMD/measure> rdfs:label "Degree of integrated water resources management implementation (%)"@en .
+<http://metadata.un.org/sdg/EG_TBA_H2CO/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_TBA_H2CO/measure> rdfs:label "Proportion of transboundary basins (river and lake basins and aquifers) with an operational arrangement for water cooperation (%)"@en .
+<http://metadata.un.org/sdg/EG_TBA_H2COAQ/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_TBA_H2COAQ/measure> rdfs:label "Proportion of transboundary aquifers with an operational arrangement for water cooperation (%)"@en .
+<http://metadata.un.org/sdg/EG_TBA_H2CORL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_TBA_H2CORL/measure> rdfs:label "Proportion of transboundary river and lake basins with an operational arrangement for water cooperation (%)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDETOT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDETOT/measure> rdfs:label "Nationally derived total extent (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDOPW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDOPW/measure> rdfs:label "Nationally derived extent of open water bodies (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQLGRW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQLGRW/measure> rdfs:label "Nationally derived quality of groundwater (%)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQLOPW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQLOPW/measure> rdfs:label "Nationally derived quality of open water bodies(%)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQLRVR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQLRVR/measure> rdfs:label "Nationally derived quality of river(%)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQLTOT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQLTOT/measure> rdfs:label "Nationally derived proportion of water bodies with good quality (%)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQTGRW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQTGRW/measure> rdfs:label "Nationally derived quantity of groundwater (millions of cubic metres per annum)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQTOPW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQTOPW/measure> rdfs:label "Nationally derived quantity of open water bodies (million of cubic metres per annum)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQTRVR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQTRVR/measure> rdfs:label "Nationally derived quantity of rivers (million of cubic metres per annum)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDQTTOT/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDQTTOT/measure> rdfs:label "Nationally derived total quantity (millions of cubic metres per annum)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDRV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDRV/measure> rdfs:label "Nationally derived extend of rivers (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_NDWTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_NDWTL/measure> rdfs:label "Nationally derived extent of wetlands (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_PMNR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_PMNR/measure> rdfs:label "Water body extent (permanent) (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_PMPN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_PMPN/measure> rdfs:label "Water body extent (permanent and maybe permanent) (square kilometres)"@en .
+<http://metadata.un.org/sdg/EN_WBE_PMPP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_PMPP/measure> rdfs:label "Water body extent (permanent and maybe permanent) (% of total land area)"@en .
+<http://metadata.un.org/sdg/EN_WBE_PMPR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_WBE_PMPR/measure> rdfs:label "Water body extent (permanent) (% of total land area)"@en .
+<http://metadata.un.org/sdg/DC_TOF_WASHL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_WASHL/measure> rdfs:label "Total official development assistance (gross disbursement) for water supply and sanitation, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/ER_H2O_PRDU/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_H2O_PRDU/measure> rdfs:label "Countries with procedures in law or policy for participation by service users/communities in planning program in rural drinking-water supply, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"@en .
+<http://metadata.un.org/sdg/ER_H2O_RURP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_H2O_RURP/measure> rdfs:label "Countries with users/communities participating in planning programs in rural drinking-water supply, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"@en .
+<http://metadata.un.org/sdg/ER_WAT_PART/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_WAT_PART/measure> rdfs:label "Countries with users/communities participating in planning programs in water resources planning and management, by level of participation (3 = High; 2 = Moderate; 1 = Low; 0 = NA)"@en .
+<http://metadata.un.org/sdg/ER_WAT_PRDU/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/ER_WAT_PRDU/measure> rdfs:label "Countries with procedures in law or policy for participation by service users/communities in planning program in water resources planning and management, by level of definition in procedures (10 = Clearly defined; 5 = Not clearly defined ; 0 = NA)"@en .
+<http://metadata.un.org/sdg/EG_ELC_ACCS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_ELC_ACCS/measure> rdfs:label "Proportion of population with access to electricity, by urban/rural (%)"@en .
+<http://metadata.un.org/sdg/EG_EGY_CLEAN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_EGY_CLEAN/measure> rdfs:label "Proportion of population with primary reliance on clean fuels and technology (%)"@en .
+<http://metadata.un.org/sdg/EG_FEC_RNEW/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_FEC_RNEW/measure> rdfs:label "Renewable energy share in the total final energy consumption (%)"@en .
+<http://metadata.un.org/sdg/EG_EGY_PRIM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_EGY_PRIM/measure> rdfs:label "Energy intensity level of primary energy (megajoules per constant 2011 purchasing power parity GDP)"@en .
+<http://metadata.un.org/sdg/EG_IFF_RANDN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EG_IFF_RANDN/measure> rdfs:label "International financial flows to developing countries in support of clean energy research and development and renewable energy production, including in hybrid systems (millions of constant 2016 United States dollars)"@en .
+<http://metadata.un.org/sdg/NY_GDP_PCAP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/NY_GDP_PCAP/measure> rdfs:label "Annual growth rate of real GDP per capita (%)"@en .
+<http://metadata.un.org/sdg/FB_ATM_TOTL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FB_ATM_TOTL/measure> rdfs:label "Number of automated teller machines (ATMs) per 100,000 adults"@en .
+<http://metadata.un.org/sdg/FB_CBK_BRCH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FB_CBK_BRCH/measure> rdfs:label "Number of commercial bank branches per 100,000 adults"@en .
+<http://metadata.un.org/sdg/FB_BNK_ACCSS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FB_BNK_ACCSS/measure> rdfs:label "Proportion of adults (15 years and older) with an account at a financial institution or mobile-money-service provider, by sex (% of adults aged 15 years and older)"@en .
+<http://metadata.un.org/sdg/SL_EMP_PCAP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_EMP_PCAP/measure> rdfs:label "Annual growth rate of real GDP per employed person (%)"@en .
+<http://metadata.un.org/sdg/SL_ISV_IFRM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_ISV_IFRM/measure> rdfs:label "Proportion of informal employment in non-agriculture employment, by sex (ILO harmonized estimates) (%)"@en .
+<http://metadata.un.org/sdg/SL_EMP_AEARN/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_EMP_AEARN/measure> rdfs:label "Average hourly earnings of managers (ISCO-08) (local currency)"@en .
+<http://metadata.un.org/sdg/SL_TLF_UEM/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_UEM/measure> rdfs:label "Unemployment rate, by sex and age (%)"@en .
+<http://metadata.un.org/sdg/SL_TLF_UEMDIS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_UEMDIS/measure> rdfs:label "Unemployment rate, by sex and disability (%)"@en .
+<http://metadata.un.org/sdg/SL_TLF_NEET/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_NEET/measure> rdfs:label "Proportion of youth not in education, employment or training, by sex and age (%)"@en .
+<http://metadata.un.org/sdg/SL_TLF_CHLDEA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_CHLDEA/measure> rdfs:label "Proportion of children engaged in economic activity, by sex and age  (%)"@en .
+<http://metadata.un.org/sdg/SL_TLF_CHLDEC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_CHLDEC/measure> rdfs:label "Proportion of children engaged in economic activity and household chores, by sex and age (%)"@en .
+<http://metadata.un.org/sdg/SL_EMP_FTLINJUR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_EMP_FTLINJUR/measure> rdfs:label "Fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)"@en .
+<http://metadata.un.org/sdg/SL_EMP_INJUR/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_EMP_INJUR/measure> rdfs:label "Non-fatal occupational injuries among employees, by sex and migrant status (per 100,000 employees)"@en .
+<http://metadata.un.org/sdg/DC_TOF_TRDCMDL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_TRDCMDL/measure> rdfs:label "Total official flows (commitments) for Aid for Trade, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_TOF_TRDCML/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_TRDCML/measure> rdfs:label "Total official flows (commitments) for Aid for Trade, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_TOF_TRDDBMDL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_TRDDBMDL/measure> rdfs:label "Total official flows (disbursement) for Aid for Trade, by donor countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/DC_TOF_TRDDBML/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_TRDDBML/measure> rdfs:label "Total official flows (disbursement) for Aid for Trade, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/IS_RDP_FRGVOL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IS_RDP_FRGVOL/measure> rdfs:label "Freight volume, by mode of transport (tonne kilometres)"@en .
+<http://metadata.un.org/sdg/IS_RDP_PFVOL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IS_RDP_PFVOL/measure> rdfs:label "Passenger volume (passenger kilometres), by mode of transport"@en .
+<http://metadata.un.org/sdg/NV_IND_MANF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/NV_IND_MANF/measure> rdfs:label "Manufacturing value added as a proportion of GDP (%)"@en .
+<http://metadata.un.org/sdg/NV_IND_MANFPC/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/NV_IND_MANFPC/measure> rdfs:label "Manufacturing value added per capita (constant 2010 United States dollars)"@en .
+<http://metadata.un.org/sdg/SL_TLF_MANF/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/SL_TLF_MANF/measure> rdfs:label "Manufacturing employment as a proportion of total employment (%)"@en .
+<http://metadata.un.org/sdg/NV_IND_SSIS/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/NV_IND_SSIS/measure> rdfs:label "Proportion of small-scale industries in total industry value added (%)"@en .
+<http://metadata.un.org/sdg/FC_ACC_SSID/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/FC_ACC_SSID/measure> rdfs:label "Proportion of small-scale industries with a loan or line of credit (%)"@en .
+<http://metadata.un.org/sdg/EN_ATM_CO2/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_ATM_CO2/measure> rdfs:label "Carbon dioxide emissions from fuel combustion (millions of tonnes)"@en .
+<http://metadata.un.org/sdg/EN_ATM_CO2GDP/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_ATM_CO2GDP/measure> rdfs:label "Carbon dioxide emissions per unit of GDP (kilogrammes of CO2 per constant 2010 United States dollars)"@en .
+<http://metadata.un.org/sdg/EN_ATM_CO2MVA/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/EN_ATM_CO2MVA/measure> rdfs:label "Carbon dioxide emissions per unit of manufacturing value added (kilogrammes of CO2 per constant 2010 United States dollars)"@en .
+<http://metadata.un.org/sdg/GB_XPD_RSDV/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/GB_XPD_RSDV/measure> rdfs:label "Research and development expenditure as a proportion of GDP (%)"@en .
+<http://metadata.un.org/sdg/GB_POP_SCIERD/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/GB_POP_SCIERD/measure> rdfs:label "Researchers (in full-time equivalent) per million inhabitants (per 1,000,000 population)"@en .
+<http://metadata.un.org/sdg/DC_TOF_INFRAL/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/DC_TOF_INFRAL/measure> rdfs:label "Total official flows for infrastructure, by recipient countries (millions of constant 2017 United States dollars)"@en .
+<http://metadata.un.org/sdg/NV_IND_TECH/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/NV_IND_TECH/measure> rdfs:label "Proportion of medium and high-tech industry value added in total value added (%)"@en .
+<http://metadata.un.org/sdg/IT_MOB_NTWK/measure> a qb:MeasureProperty .
+<http://metadata.un.org/sdg/IT_MOB_NTWK/measure> rdfs:label "Proportion of population covered by a mobile network, by technology (%)"@en .

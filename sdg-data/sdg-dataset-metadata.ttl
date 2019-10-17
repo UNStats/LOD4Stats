@@ -1,10 +1,10 @@
 @prefix schema: <http://schema.org/> .
-@prefix sdg: <http://data.un.org/kos/sdg/> .
-@prefix sdgo: <http://data.un.org/ontology/sdg#> .
+@prefix sdg: <http://metadata.un.org/sdg/> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
 
 sdg:unsd a schema:Organization .
 
-<http://data.un.org/kos/sdg/unsd/contactPoint> a schema:ContactPoint .
+<http://metadata.un.org/sdg/unsd/contactPoint> a schema:ContactPoint .
 
 sdg:data-catalog a schema:DataCatalog .
 
@@ -2718,14 +2718,14 @@ sdg:SG_SCP_MACPOL schema:url "http://www.sdg.org/datasets/indicator-12-1-1-count
 
 sdg:SG_SCP_POLINS schema:url "http://www.sdg.org/datasets/indicator-12-1-1-countries-with-policy-instrument-for-sustainable-consumption-and-production-1-yes-0-no" .
 
-sdg:unsd schema:contactPoint <http://data.un.org/kos/sdg/unsd/contactPoint>;
+sdg:unsd schema:contactPoint <http://metadata.un.org/sdg/unsd/contactPoint>;
   schema:name "United Nations Statistics Division Statistical Services Branch"@en;
   schema:url "https://unstats.un.org" .
 
 sdg:data-catalog schema:name "Open SDG Data Hub";
   schema:url "http://www.sdg.org/#catalog" .
 
-<http://data.un.org/kos/sdg/unsd/contactPoint> schema:contactType "customer service";
+<http://metadata.un.org/sdg/unsd/contactPoint> schema:contactType "customer service";
   schema:email "statistics@un.org";
   schema:telephone "+1 (212) 963 9851" .
 

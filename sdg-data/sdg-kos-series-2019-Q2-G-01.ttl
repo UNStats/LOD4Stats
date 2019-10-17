@@ -1,6 +1,6 @@
 @prefix schema: <http://schema.org/> .
-@prefix sdg: <http://data.un.org/kos/sdg/> .
-@prefix sdgo: <http://data.un.org/ontology/sdg#> .
+@prefix sdg: <http://metadata.un.org/sdg/> .
+@prefix sdgo: <http://metadata.un.org/sdg/ontology#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 sdg:SI_POV_DAY1 a sdgo:Series, skos:Concept .
