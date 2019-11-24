@@ -1,5 +1,5 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix qb: <http://purl.org/linked-data/cube#>
+@prefix qb: <http://purl.org/linked-data/cube#> .
 
 <http://metadata.un.org/sdg/codes/age> a qb:DimensionProperty .
 <http://metadata.un.org/sdg/codes/sex> a qb:DimensionProperty .
