@@ -39,19 +39,40 @@
   rdfs:domain :Goal;
   rdfs:label "has target"@en;
   rdfs:range :Target;
+  owl:inverseOf :isTargetOf;
   rdfs:subPropertyOf skos:narrower .
 
 :hasIndicator a owl:ObjectProperty;
   rdfs:domain :Target;
   rdfs:label "has indicator"@en;
   rdfs:range :Indicator;
+  owl:inverseOf :isIndicatorOf;
   rdfs:subPropertyOf skos:narrower .
 
 :hasSeries a owl:ObjectProperty;
   rdfs:domain :Indicator;
   rdfs:label "has series"@en;
   rdfs:range :Series;
+  owl:inverseOf :isSeriesOf;
   rdfs:subPropertyOf skos:narrower .
+
+:isTargetOf a owl:ObjectProperty;
+  rdfs:domain :Target;
+  rdfs:label "is target of"@en;
+  rdfs:range :Goal;
+  rdfs:subPropertyOf skos:broader .
+
+:isIndicatorOf a owl:ObjectProperty;
+  rdfs:domain :Indicator;
+  rdfs:label "is indicator of"@en;
+  rdfs:range :Target;
+  rdfs:subPropertyOf skos:broader .
+
+:isSeriesOf a owl:ObjectProperty;
+  rdfs:domain :Series;
+  rdfs:label "is series of"@en;
+  rdfs:range :Indicator;
+  rdfs:subPropertyOf skos:broader .
 
 :custodianAgency a owl:DatatypeProperty;
   rdfs:domain :Indicator;
