@@ -3271,10 +3271,15 @@ sdg:C171201 skos:prefLabel "Average tariffs faced by developing countries, least
 
 sdg:17.13 skos:prefLabel "Aumentar la estabilidad macroeconómica mundial, incluso mediante la coordinación y coherencia de las políticas"@es,
     "Enhance global macroeconomic stability, including through policy coordination and policy coherence"@en,
-    "Renforcer la stabilité macroéconomique mondiale, notamment en favorisant la coordination et la  and domestic material consumption per GDP"@en .
+    "Renforcer la stabilité macroéconomique mondiale, notamment en favorisant la coordination et la  and domestic material consumption per GDP"@fr .
 
 sdg:17.14 skos:prefLabel "Enhance policy coherence for sustainable development"@en,
-    "Mejorar la coherencia de las políticas para el desarrollo sostenible"@es, "Renforcer la cohérence des politiques de développement durable"@fr .
+    "Mejorar la coherencia de las políticas para el desarrollo sostenible"@es, 
+    "Renforcer la cohérence des politiques de développement durable"@fr .
+
+sdg:C171301 skos:prefLabel "Tableau de bord macroéconomique"@fr,
+    "Macroeconomic Dashboard"@en,
+    "Tablero macroeconómico"@es .
 
 sdg:C171401 skos:prefLabel "Nombre de pays ayant mis en place des mécanismes pour renforcer la cohérence des politiques de développement durable"@fr,
     "Number of countries with mechanisms in place to enhance policy coherence of sustainable development"@en,
