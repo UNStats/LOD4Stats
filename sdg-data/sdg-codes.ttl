@@ -5520,7 +5520,7 @@
 
 <http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease> skos:prefLabel "name of non-communicable disease"@en .
 
-<http://metadata.un.org/sdg/codes/freq> skos:prefLabel "freq"@en .
+<http://metadata.un.org/sdg/codes/freq> skos:prefLabel "frequency"@en .
 
 <http://metadata.un.org/sdg/codes/sex> skos:prefLabel "sex"@en .
 
