@@ -69,7 +69,7 @@
     <http://metadata.un.org/sdg/codes#sdmxDSDcode> "COMPOSITE_BREAKDOWN" .
 
 <http://metadata.un.org/sdg/codes/age> a rdfs:Class, rdf:Property,  skos:Concept ;
-    <http://metadata.un.org/sdg/codes#sdmxDSDcode> "SEX" ;
+    <http://metadata.un.org/sdg/codes#sdmxDSDcode> "AGE" ;
     rdfs:subPropertyOf sdmx-dimension:age .
 
 <http://metadata.un.org/sdg/codes/typeOfProduct> a rdfs:Class, rdf:Property,  skos:Concept ;
