@@ -55,11 +55,13 @@
         "prefLabel": "http://www.w3.org/2004/02/skos/core#prefLabel",
         "notation": "http://www.w3.org/2004/02/skos/core#notation",
         "codeList": "http://purl.org/linked-data/cube#codeList",
-        "codes": "http://purl.org/umu/uneskos#contains",
         "sdmxDSDcode": "http://metadata.un.org/sdg/codes#sdmxDSDcode",
+        "codes": {
+            "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+        }
         "codeIDs": {
-            "@id": "http://purl.org/umu/uneskos#contains",
-            "@type": "@id"
+            "@type": "@id",
+            "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
         }
     }
 }
