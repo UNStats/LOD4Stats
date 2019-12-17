@@ -58,7 +58,7 @@
         "sdmxDSDcode": "http://metadata.un.org/sdg/codes#sdmxDSDcode",
         "codes": {
             "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
-        }
+        },
         "codeIDs": {
             "@type": "@id",
             "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
