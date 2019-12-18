@@ -16,6 +16,7 @@
         "ComponentSpecification": "http://purl.org/linked-data/cube#ComponentSpecification",
         "SliceKey": "http://purl.org/linked-data/cube#SliceKey",
         "Concept": "http://www.w3.org/2004/02/skos/core#Concept",
+        "Code": "http://www.w3.org/2004/02/skos/core#Concept",
         "CodeScheme": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
         "dataSet": "http://purl.org/linked-data/cube#dataSet",
         "observation": "http://purl.org/linked-data/cube#observation",
