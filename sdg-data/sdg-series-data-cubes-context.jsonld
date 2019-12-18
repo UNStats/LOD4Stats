@@ -4,6 +4,7 @@
         "_value": "@value",
         "_type": "@type",
         "DataSet": "http://purl.org/linked-data/cube#DataSet",
+        "DataSetInfo": "http://purl.org/linked-data/cube#DataSet",
         "Observation": "http://purl.org/linked-data/cube#Observation",
         "ObservationGroup": "http://purl.org/linked-data/cube#ObservationGroup",
         "Slice": "http://purl.org/linked-data/cube#Slice",
