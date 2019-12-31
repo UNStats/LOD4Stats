@@ -1,0 +1,3515 @@
+{
+    "unitsCode": {
+        "uri": "http://metadata.un.org/sdg/codes/units",
+        "label": "units",
+        "codes": {
+            "CON_10USD": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CON_10USD",
+                "label": "Constant 2010 United States dollars"
+            },
+            "CON_USD": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CON_USD",
+                "label": "Constant USD"
+            },
+            "CUR_LCU": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CUR_LCU",
+                "label": "Current local currency"
+            },
+            "CU_USD_B": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CU_USD_B",
+                "label": "Billions of current United States dollars"
+            },
+            "CU_USD_M": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CU_USD_M",
+                "label": "Millions of current United States dollars"
+            },
+            "GPERM3": {
+                "uri": "http://metadata.un.org/sdg/codes/units/GPERM3",
+                "label": "Micrograms per cubic meter"
+            },
+            "HA_TH": {
+                "uri": "http://metadata.un.org/sdg/codes/units/HA_TH",
+                "label": "Thousands of hectares"
+            },
+            "INDEX": {
+                "uri": "http://metadata.un.org/sdg/codes/units/INDEX",
+                "label": "Index"
+            },
+            "KG_PER_CON_USD": {
+                "uri": "http://metadata.un.org/sdg/codes/units/KG_PER_CON_USD",
+                "label": "Kilograms per constant USD"
+            },
+            "KM2": {
+                "uri": "http://metadata.un.org/sdg/codes/units/KM2",
+                "label": "Square kilometers"
+            },
+            "LITRES_PURE_ALCOHOL": {
+                "uri": "http://metadata.un.org/sdg/codes/units/LITRES_PURE_ALCOHOL",
+                "label": "Litres pure alcohol"
+            },
+            "MJ_PER_GDP_CON_PPP_USD": {
+                "uri": "http://metadata.un.org/sdg/codes/units/MJ_PER_GDP_CON_PPP_USD",
+                "label": "Megajoules per USD constant 2011 PPP GDP"
+            },
+            "M_M3_PER_YR": {
+                "uri": "http://metadata.un.org/sdg/codes/units/M_M3_PER_YR",
+                "label": "Million of cubic metres per annum"
+            },
+            "NA": {
+                "uri": "http://metadata.un.org/sdg/codes/units/NA",
+                "label": "Not applicable"
+            },
+            "NUMBER": {
+                "uri": "http://metadata.un.org/sdg/codes/units/NUMBER",
+                "label": "Number"
+            },
+            "NUM_M": {
+                "uri": "http://metadata.un.org/sdg/codes/units/NUM_M",
+                "label": "Millions"
+            },
+            "NUM_TH": {
+                "uri": "http://metadata.un.org/sdg/codes/units/NUM_TH",
+                "label": "Thousands"
+            },
+            "PERCENT": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PERCENT",
+                "label": "Percentage"
+            },
+            "PER_1000000_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_1000000_POP",
+                "label": "Per million population"
+            },
+            "PER_100000_EMP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_100000_EMP",
+                "label": "Per 100,000 employees"
+            },
+            "PER_100000_LIVE_BIRTHS": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_100000_LIVE_BIRTHS",
+                "label": "Per 100,000 live births"
+            },
+            "PER_100000_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_100000_POP",
+                "label": "Per 100,000 population"
+            },
+            "PER_10000_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_10000_POP",
+                "label": "Per 10,000 population"
+            },
+            "PER_1000_LIVE_BIRTHS": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_1000_LIVE_BIRTHS",
+                "label": "Per 1,000 live births"
+            },
+            "PER_1000_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_1000_POP",
+                "label": "Per 1,000 population"
+            },
+            "PER_1000_UNINFECTED_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_1000_UNINFECTED_POP",
+                "label": "Per 1,000 uninfected population"
+            },
+            "PER_100_POP": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_100_POP",
+                "label": "Per 100 population"
+            },
+            "PER_MARW_20T24Y": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_MARW_20T24Y",
+                "label": "% of married women aged 20-24 years"
+            },
+            "PER_POP_U5": {
+                "uri": "http://metadata.un.org/sdg/codes/units/PER_POP_U5",
+                "label": "% of children aged 0-59 months"
+            },
+            "P_KM": {
+                "uri": "http://metadata.un.org/sdg/codes/units/P_KM",
+                "label": "Passenger kilometres"
+            },
+            "RATIO": {
+                "uri": "http://metadata.un.org/sdg/codes/units/RATIO",
+                "label": "Ratio"
+            },
+            "TONNES": {
+                "uri": "http://metadata.un.org/sdg/codes/units/TONNES",
+                "label": "Tonnes"
+            },
+            "TONNES_M": {
+                "uri": "http://metadata.un.org/sdg/codes/units/TONNES_M",
+                "label": "Millions of tonnes"
+            },
+            "T_KM": {
+                "uri": "http://metadata.un.org/sdg/codes/units/T_KM",
+                "label": "Tonne kilometres"
+            },
+            "T_PER_HA": {
+                "uri": "http://metadata.un.org/sdg/codes/units/T_PER_HA",
+                "label": "Tonnes per hectare"
+            },
+            "USD": {
+                "uri": "http://metadata.un.org/sdg/codes/units/USD",
+                "label": "USD"
+            },
+            "USD_PER_M3": {
+                "uri": "http://metadata.un.org/sdg/codes/units/USD_PER_M3",
+                "label": "United States dollars per cubic metre"
+            },
+            "NUM_U5_M": {
+                "uri": "http://metadata.un.org/sdg/codes/units/NUM_U5_M",
+                "label": "Millions of children aged 0-59 months"
+            },
+            "CON_USD_M": {
+                "uri": "http://metadata.un.org/sdg/codes/units/CON_USD_M",
+                "label": "Millions of constant 2015 United States dollars"
+            }
+        }
+    },
+    "geoAreaCode": {
+        "uri": "http://metadata.un.org/sdg/codes/geoArea",
+        "label": "geographical area",
+        "codes": {
+            "162": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/162",
+                "label": "Christmas Island"
+            },
+            "392": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/392",
+                "label": "Japan"
+            },
+            "150": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/150",
+                "label": "Europe"
+            },
+            "380": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/380",
+                "label": "Italy"
+            },
+            "174": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/174",
+                "label": "Comoros"
+            },
+            "760": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/760",
+                "label": "Syrian Arab Republic"
+            },
+            "704": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/704",
+                "label": "Viet Nam"
+            },
+            "716": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/716",
+                "label": "Zimbabwe"
+            },
+            "728": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/728",
+                "label": "South Sudan"
+            },
+            "203": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/203",
+                "label": "Czechia"
+            },
+            "772": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/772",
+                "label": "Tokelau"
+            },
+            "663": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/663",
+                "label": "Saint Martin (French Part)"
+            },
+            "312": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/312",
+                "label": "Guadeloupe"
+            },
+            "784": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/784",
+                "label": "United Arab Emirates"
+            },
+            "530": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/530",
+                "label": "Netherlands Antilles (pre-2011)"
+            },
+            "324": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/324",
+                "label": "Guinea"
+            },
+            "796": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/796",
+                "label": "Turks and Caicos Islands"
+            },
+            "566": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/566",
+                "label": "Nigeria"
+            },
+            "300": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/300",
+                "label": "Greece"
+            },
+            "554": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/554",
+                "label": "New Zealand"
+            },
+            "239": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/239",
+                "label": "South Georgia and the South Sandwich Islands"
+            },
+            "009": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/009",
+                "label": "Oceania"
+            },
+            "578": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/578",
+                "label": "Norway"
+            },
+            "336": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/336",
+                "label": "Holy See"
+            },
+            "348": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/348",
+                "label": "Hungary"
+            },
+            "052": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/052",
+                "label": "Barbados"
+            },
+            "040": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/040",
+                "label": "Austria"
+            },
+            "270": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/270",
+                "label": "Gambia"
+            },
+            "076": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/076",
+                "label": "Brazil"
+            },
+            "064": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/064",
+                "label": "Bhutan"
+            },
+            "703": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/703",
+                "label": "Slovakia"
+            },
+            "674": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/674",
+                "label": "San Marino"
+            },
+            "214": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/214",
+                "label": "Dominican Republic"
+            },
+            "202": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/202",
+                "label": "Sub-Saharan Africa"
+            },
+            "795": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/795",
+                "label": "Turkmenistan"
+            },
+            "662": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/662",
+                "label": "Saint Lucia"
+            },
+            "686": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/686",
+                "label": "Senegal"
+            },
+            "008": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/008",
+                "label": "Albania"
+            },
+            "800": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/800",
+                "label": "Uganda"
+            },
+            "226": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/226",
+                "label": "Equatorial Guinea"
+            },
+            "238": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/238",
+                "label": "Falkland Islands (Malvinas)"
+            },
+            "140": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/140",
+                "label": "Central African Republic"
+            },
+            "188": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/188",
+                "label": "Costa Rica"
+            },
+            "152": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/152",
+                "label": "Chile"
+            },
+            "031": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/031",
+                "label": "Azerbaijan"
+            },
+            "706": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/706",
+                "label": "Somalia"
+            },
+            "520": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/520",
+                "label": "Nauru"
+            },
+            "762": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/762",
+                "label": "Tajikistan"
+            },
+            "798": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/798",
+                "label": "Tuvalu"
+            },
+            "108": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/108",
+                "label": "Burundi"
+            },
+            "260": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/260",
+                "label": "French Southern Territories"
+            },
+            "175": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/175",
+                "label": "Mayotte"
+            },
+            "296": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/296",
+                "label": "Kiribati"
+            },
+            "826": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/826",
+                "label": "United Kingdom of Great Britain and Northern Ireland"
+            },
+            "705": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/705",
+                "label": "Slovenia"
+            },
+            "729": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/729",
+                "label": "Sudan"
+            },
+            "608": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/608",
+                "label": "Philippines"
+            },
+            "882": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/882",
+                "label": "Samoa"
+            },
+            "652": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/652",
+                "label": "Saint Barth\u00e9lemy"
+            },
+            "531": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/531",
+                "label": "Cura\u00e7ao"
+            },
+            "422": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/422",
+                "label": "Lebanon"
+            },
+            "894": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/894",
+                "label": "Zambia"
+            },
+            "434": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/434",
+                "label": "Libya"
+            },
+            "410": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/410",
+                "label": "Republic of Korea"
+            },
+            "688": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/688",
+                "label": "Serbia"
+            },
+            "446": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/446",
+                "label": "China, Macao Special Administrative Region"
+            },
+            "458": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/458",
+                "label": "Malaysia"
+            },
+            "204": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/204",
+                "label": "Benin"
+            },
+            "360": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/360",
+                "label": "Indonesia"
+            },
+            "275": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/275",
+                "label": "State of Palestine"
+            },
+            "166": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/166",
+                "label": "Cocos (Keeling) Islands"
+            },
+            "154": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/154",
+                "label": "Northern Europe"
+            },
+            "142": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/142",
+                "label": "Asia"
+            },
+            "372": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/372",
+                "label": "Ireland"
+            },
+            "384": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/384",
+                "label": "C\u00f4te d\u2019Ivoire"
+            },
+            "740": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/740",
+                "label": "Suriname"
+            },
+            "752": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/752",
+                "label": "Sweden"
+            },
+            "643": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/643",
+                "label": "Russian Federation"
+            },
+            "178": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/178",
+                "label": "Congo"
+            },
+            "764": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/764",
+                "label": "Thailand"
+            },
+            "776": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/776",
+                "label": "Tonga"
+            },
+            "316": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/316",
+                "label": "Guam"
+            },
+            "328": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/328",
+                "label": "Guyana"
+            },
+            "788": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/788",
+                "label": "Tunisia"
+            },
+            "534": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/534",
+                "label": "Sint Maarten (Dutch part)"
+            },
+            "304": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/304",
+                "label": "Greenland"
+            },
+            "558": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/558",
+                "label": "Nicaragua"
+            },
+            "480": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/480",
+                "label": "Mauritius"
+            },
+            "250": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/250",
+                "label": "France"
+            },
+            "492": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/492",
+                "label": "Monaco"
+            },
+            "056": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/056",
+                "label": "Belgium"
+            },
+            "044": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/044",
+                "label": "Bahamas"
+            },
+            "262": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/262",
+                "label": "Djibouti"
+            },
+            "032": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/032",
+                "label": "Argentina"
+            },
+            "020": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/020",
+                "label": "Andorra"
+            },
+            "804": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/804",
+                "label": "Ukraine"
+            },
+            "860": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/860",
+                "label": "Uzbekistan"
+            },
+            "630": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/630",
+                "label": "Puerto Rico"
+            },
+            "400": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/400",
+                "label": "Jordan"
+            },
+            "654": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/654",
+                "label": "Saint Helena"
+            },
+            "533": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/533",
+                "label": "Aruba"
+            },
+            "068": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/068",
+                "label": "Bolivia (Plurinational State of)"
+            },
+            "642": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/642",
+                "label": "Romania"
+            },
+            "678": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/678",
+                "label": "Sao Tome and Principe"
+            },
+            "218": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/218",
+                "label": "Ecuador"
+            },
+            "666": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/666",
+                "label": "Saint Pierre and Miquelon"
+            },
+            "580": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/580",
+                "label": "Northern Mariana Islands"
+            },
+            "144": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/144",
+                "label": "Sri Lanka"
+            },
+            "132": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/132",
+                "label": "Cabo Verde"
+            },
+            "011": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/011",
+                "label": "Western Africa"
+            },
+            "120": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/120",
+                "label": "Cameroon"
+            },
+            "807": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/807",
+                "label": "North Macedonia"
+            },
+            "398": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/398",
+                "label": "Kazakhstan"
+            },
+            "500": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/500",
+                "label": "Montserrat"
+            },
+            "156": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/156",
+                "label": "China"
+            },
+            "524": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/524",
+                "label": "Nepal"
+            },
+            "512": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/512",
+                "label": "Oman"
+            },
+            "887": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/887",
+                "label": "Yemen"
+            },
+            "548": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/548",
+                "label": "Vanuatu"
+            },
+            "470": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/470",
+                "label": "Malta"
+            },
+            "591": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/591",
+                "label": "Panama"
+            },
+            "276": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/276",
+                "label": "Germany"
+            },
+            "010": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/010",
+                "label": "Antarctica"
+            },
+            "090": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/090",
+                "label": "Solomon Islands"
+            },
+            "208": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/208",
+                "label": "Denmark"
+            },
+            "818": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/818",
+                "label": "Egypt"
+            },
+            "850": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/850",
+                "label": "United States Virgin Islands"
+            },
+            "288": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/288",
+                "label": "Ghana"
+            },
+            "862": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/862",
+                "label": "Venezuela (Bolivarian Republic of)"
+            },
+            "620": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/620",
+                "label": "Portugal"
+            },
+            "535": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/535",
+                "label": "Bonaire, Sint Eustatius and Saba"
+            },
+            "426": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/426",
+                "label": "Lesotho"
+            },
+            "438": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/438",
+                "label": "Liechtenstein"
+            },
+            "414": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/414",
+                "label": "Kuwait"
+            },
+            "352": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/352",
+                "label": "Iceland"
+            },
+            "231": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/231",
+                "label": "Ethiopia"
+            },
+            "001": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/001",
+                "label": "World"
+            },
+            "364": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/364",
+                "label": "Iran (Islamic Republic of)"
+            },
+            "570": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/570",
+                "label": "Niue"
+            },
+            "340": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/340",
+                "label": "Honduras"
+            },
+            "659": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/659",
+                "label": "Saint Kitts and Nevis"
+            },
+            "417": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/417",
+                "label": "Kyrgyzstan"
+            },
+            "308": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/308",
+                "label": "Grenada"
+            },
+            "376": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/376",
+                "label": "Israel"
+            },
+            "388": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/388",
+                "label": "Jamaica"
+            },
+            "013": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/013",
+                "label": "Central America"
+            },
+            "732": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/732",
+                "label": "Western Sahara"
+            },
+            "744": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/744",
+                "label": "Svalbard and Jan Mayen Islands"
+            },
+            "756": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/756",
+                "label": "Switzerland"
+            },
+            "768": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/768",
+                "label": "Togo"
+            },
+            "690": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/690",
+                "label": "Seychelles"
+            },
+            "242": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/242",
+                "label": "Fiji"
+            },
+            "484": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/484",
+                "label": "Mexico"
+            },
+            "012": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/012",
+                "label": "Algeria"
+            },
+            "254": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/254",
+                "label": "French Guiana"
+            },
+            "581": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/581",
+                "label": "United States Minor Outlying Islands"
+            },
+            "496": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/496",
+                "label": "Mongolia"
+            },
+            "092": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/092",
+                "label": "British Virgin Islands"
+            },
+            "428": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/428",
+                "label": "Latvia"
+            },
+            "048": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/048",
+                "label": "Bahrain"
+            },
+            "036": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/036",
+                "label": "Australia"
+            },
+            "840": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/840",
+                "label": "United States of America"
+            },
+            "266": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/266",
+                "label": "Gabon"
+            },
+            "024": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/024",
+                "label": "Angola"
+            },
+            "404": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/404",
+                "label": "Kenya"
+            },
+            "634": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/634",
+                "label": "Qatar"
+            },
+            "876": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/876",
+                "label": "Wallis and Futuna Islands"
+            },
+            "646": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/646",
+                "label": "Rwanda"
+            },
+            "192": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/192",
+                "label": "Cuba"
+            },
+            "100": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/100",
+                "label": "Bulgaria"
+            },
+            "584": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/584",
+                "label": "Marshall Islands"
+            },
+            "180": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/180",
+                "label": "Democratic Republic of the Congo"
+            },
+            "528": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/528",
+                "label": "Netherlands"
+            },
+            "419": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/419",
+                "label": "Latin America and the Caribbean"
+            },
+            "516": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/516",
+                "label": "Namibia"
+            },
+            "148": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/148",
+                "label": "Chad"
+            },
+            "136": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/136",
+                "label": "Cayman Islands"
+            },
+            "124": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/124",
+                "label": "Canada"
+            },
+            "233": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/233",
+                "label": "Estonia"
+            },
+            "112": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/112",
+                "label": "Belarus"
+            },
+            "499": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/499",
+                "label": "Montenegro"
+            },
+            "831": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/831",
+                "label": "Guernsey"
+            },
+            "710": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/710",
+                "label": "South Africa"
+            },
+            "504": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/504",
+                "label": "Morocco"
+            },
+            "462": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/462",
+                "label": "Maldives"
+            },
+            "474": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/474",
+                "label": "Martinique"
+            },
+            "232": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/232",
+                "label": "Eritrea"
+            },
+            "680": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/680",
+                "label": "Sark"
+            },
+            "450": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/450",
+                "label": "Madagascar"
+            },
+            "583": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/583",
+                "label": "Micronesia (Federated States of)"
+            },
+            "191": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/191",
+                "label": "Croatia"
+            },
+            "070": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/070",
+                "label": "Bosnia and Herzegovina"
+            },
+            "418": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/418",
+                "label": "Lao People's Democratic Republic"
+            },
+            "498": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/498",
+                "label": "Republic of Moldova"
+            },
+            "268": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/268",
+                "label": "Georgia"
+            },
+            "014": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/014",
+                "label": "Eastern Africa"
+            },
+            "830": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/830",
+                "label": "Channel Islands"
+            },
+            "002": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/002",
+                "label": "Africa"
+            },
+            "612": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/612",
+                "label": "Pitcairn"
+            },
+            "854": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/854",
+                "label": "Burkina Faso"
+            },
+            "600": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/600",
+                "label": "Paraguay"
+            },
+            "624": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/624",
+                "label": "Guinea-Bissau"
+            },
+            "170": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/170",
+                "label": "Colombia"
+            },
+            "780": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/780",
+                "label": "Trinidad and Tobago"
+            },
+            "320": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/320",
+                "label": "Guatemala"
+            },
+            "792": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/792",
+                "label": "Turkey"
+            },
+            "562": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/562",
+                "label": "Niger"
+            },
+            "736": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/736",
+                "label": "Sudan (pre-2011)"
+            },
+            "748": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/748",
+                "label": "Eswatini"
+            },
+            "586": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/586",
+                "label": "Pakistan"
+            },
+            "356": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/356",
+                "label": "India"
+            },
+            "005": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/005",
+                "label": "South America"
+            },
+            "574": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/574",
+                "label": "Norfolk Island"
+            },
+            "368": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/368",
+                "label": "Iraq"
+            },
+            "332": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/332",
+                "label": "Haiti"
+            },
+            "344": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/344",
+                "label": "China, Hong Kong Special Administrative Region"
+            },
+            "598": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/598",
+                "label": "Papua New Guinea"
+            },
+            "833": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/833",
+                "label": "Isle of Man"
+            },
+            "029": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/029",
+                "label": "Caribbean"
+            },
+            "724": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/724",
+                "label": "Spain"
+            },
+            "017": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/017",
+                "label": "Middle Africa"
+            },
+            "096": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/096",
+                "label": "Brunei Darussalam"
+            },
+            "084": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/084",
+                "label": "Belize"
+            },
+            "072": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/072",
+                "label": "Botswana"
+            },
+            "060": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/060",
+                "label": "Bermuda"
+            },
+            "670": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/670",
+                "label": "Saint Vincent and the Grenadines"
+            },
+            "440": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/440",
+                "label": "Lithuania"
+            },
+            "694": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/694",
+                "label": "Sierra Leone"
+            },
+            "682": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/682",
+                "label": "Saudi Arabia"
+            },
+            "408": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/408",
+                "label": "Democratic People's Republic of Korea"
+            },
+            "638": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/638",
+                "label": "R\u00e9union"
+            },
+            "626": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/626",
+                "label": "Timor-Leste"
+            },
+            "246": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/246",
+                "label": "Finland"
+            },
+            "016": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/016",
+                "label": "American Samoa"
+            },
+            "258": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/258",
+                "label": "French Polynesia"
+            },
+            "004": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/004",
+                "label": "Afghanistan"
+            },
+            "585": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/585",
+                "label": "Palau"
+            },
+            "234": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/234",
+                "label": "Faroe Islands"
+            },
+            "222": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/222",
+                "label": "El Salvador"
+            },
+            "832": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/832",
+                "label": "Jersey"
+            },
+            "028": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/028",
+                "label": "Antigua and Barbuda"
+            },
+            "184": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/184",
+                "label": "Cook Islands"
+            },
+            "051": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/051",
+                "label": "Armenia"
+            },
+            "540": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/540",
+                "label": "New Caledonia"
+            },
+            "196": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/196",
+                "label": "Cyprus"
+            },
+            "508": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/508",
+                "label": "Mozambique"
+            },
+            "104": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/104",
+                "label": "Myanmar"
+            },
+            "334": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/334",
+                "label": "Heard Island and McDonald Islands"
+            },
+            "019": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/019",
+                "label": "Americas"
+            },
+            "116": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/116",
+                "label": "Cambodia"
+            },
+            "702": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/702",
+                "label": "Singapore"
+            },
+            "074": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/074",
+                "label": "Bouvet Island"
+            },
+            "050": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/050",
+                "label": "Bangladesh"
+            },
+            "292": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/292",
+                "label": "Gibraltar"
+            },
+            "430": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/430",
+                "label": "Liberia"
+            },
+            "086": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/086",
+                "label": "British Indian Ocean Territory"
+            },
+            "660": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/660",
+                "label": "Anguilla"
+            },
+            "616": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/616",
+                "label": "Poland"
+            },
+            "858": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/858",
+                "label": "Uruguay"
+            },
+            "604": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/604",
+                "label": "Peru"
+            },
+            "466": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/466",
+                "label": "Mali"
+            },
+            "478": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/478",
+                "label": "Mauritania"
+            },
+            "442": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/442",
+                "label": "Luxembourg"
+            },
+            "212": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/212",
+                "label": "Dominica"
+            },
+            "454": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/454",
+                "label": "Malawi"
+            },
+            "248": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/248",
+                "label": "\u00c5land Islands"
+            },
+            "018": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/018",
+                "label": "Southern Africa"
+            },
+            "834": {
+                "uri": "http://metadata.un.org/sdg/codes/geoArea/834",
+                "label": "United Republic of Tanzania"
+            }
+        }
+    },
+    "disabilityStatusCode": {
+        "uri": "http://metadata.un.org/sdg/codes/disabilityStatus",
+        "label": "disability status",
+        "codes": {
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/disabilityStatus/_T",
+                "label": "No breakdown by disability"
+            },
+            "PD": {
+                "uri": "http://metadata.un.org/sdg/codes/disabilityStatus/PD",
+                "label": "Persons with disability"
+            },
+            "PWD": {
+                "uri": "http://metadata.un.org/sdg/codes/disabilityStatus/PWD",
+                "label": "Persons without disability"
+            }
+        }
+    },
+    "boundCode": {
+        "uri": "http://metadata.un.org/sdg/codes/bound",
+        "label": "bound",
+        "codes": {
+            "LB": {
+                "uri": "http://metadata.un.org/sdg/codes/bound/LB",
+                "label": "Lower bound"
+            },
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/bound/_T",
+                "label": "Mid-point"
+            },
+            "UB": {
+                "uri": "http://metadata.un.org/sdg/codes/bound/UB",
+                "label": "Upper bound"
+            }
+        }
+    },
+    "modeOfTransportationCode": {
+        "uri": "http://metadata.un.org/sdg/codes/modeOfTransportation",
+        "label": "mode of transportation",
+        "codes": {
+            "RAI": {
+                "uri": "http://metadata.un.org/sdg/codes/modeOfTransportation/RAI",
+                "label": "Rail transport"
+            },
+            "AIR": {
+                "uri": "http://metadata.un.org/sdg/codes/modeOfTransportation/AIR",
+                "label": "Air transport"
+            },
+            "ROA": {
+                "uri": "http://metadata.un.org/sdg/codes/modeOfTransportation/ROA",
+                "label": "Road transport"
+            }
+        }
+    },
+    "hazardTypeCode": {
+        "uri": "http://metadata.un.org/sdg/codes/hazardType",
+        "label": "hazard type",
+        "codes": {
+            "FROST": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FROST",
+                "label": "Frost"
+            },
+            "NUCIN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/NUCIN",
+                "label": "Nuclear Incident"
+            },
+            "SNSTM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/SNSTM",
+                "label": "Snowstorm"
+            },
+            "CSOLD": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/CSOLD",
+                "label": "Consolidate"
+            },
+            "GLCFL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/GLCFL",
+                "label": "Glacial Lake Outburst Flood"
+            },
+            "FOGXX": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FOGXX",
+                "label": "Fog"
+            },
+            "SANDS": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/SANDS",
+                "label": "Sand Storm"
+            },
+            "CYCLN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/CYCLN",
+                "label": "Cyclone"
+            },
+            "PANIC": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/PANIC",
+                "label": "Panic"
+            },
+            "HETWA": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/HETWA",
+                "label": "Heat Wave"
+            },
+            "PESTX": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/PESTX",
+                "label": "Pest"
+            },
+            "DFRST": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/DFRST",
+                "label": "Deforestation"
+            },
+            "LAHAR": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/LAHAR",
+                "label": "Lahar"
+            },
+            "COSER": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/COSER",
+                "label": "Coastal Erosion"
+            },
+            "AVALE": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/AVALE",
+                "label": "Avalanche"
+            },
+            "PEATX": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/PEATX",
+                "label": "Peat"
+            },
+            "HAILS": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/HAILS",
+                "label": "Hailstorm"
+            },
+            "HEVRN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/HEVRN",
+                "label": "Heavy Rain"
+            },
+            "FIREX": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FIREX",
+                "label": "Fire"
+            },
+            "COSFL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/COSFL",
+                "label": "Coastal Flood"
+            },
+            "FLOOD": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FLOOD",
+                "label": "Flood"
+            },
+            "DZUD": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/DZUD",
+                "label": "Dzud"
+            },
+            "CHESP": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/CHESP",
+                "label": "Chemical Spill"
+            },
+            "ACIDR": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ACIDR",
+                "label": "Acid rain"
+            },
+            "TECHH": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/TECHH",
+                "label": "Technological Hazard"
+            },
+            "LNDSL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/LNDSL",
+                "label": "Landslide"
+            },
+            "FRZRN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FRZRN",
+                "label": "Freezing Rain"
+            },
+            "EPIDM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/EPIDM",
+                "label": "Epidemics"
+            },
+            "ALLUV": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ALLUV",
+                "label": "Alluvion"
+            },
+            "PLGUE": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/PLGUE",
+                "label": "Plague"
+            },
+            "SUBSD": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/SUBSD",
+                "label": "Subsidence"
+            },
+            "LIQFN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/LIQFN",
+                "label": "Liquefaction"
+            },
+            "SEDMN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/SEDMN",
+                "label": "Sedimentation"
+            },
+            "VOLER": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/VOLER",
+                "label": "Volcanic Eruption"
+            },
+            "BIOGL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/BIOGL",
+                "label": "Biological"
+            },
+            "EPIZT": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/EPIZT",
+                "label": "Epizootic"
+            },
+            "OTHER": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/OTHER",
+                "label": "Other"
+            },
+            "ANIAK": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ANIAK",
+                "label": "Animal Attack"
+            },
+            "EXTEM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/EXTEM",
+                "label": "Extreme Temperature"
+            },
+            "ELEST": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ELEST",
+                "label": "Electric Storm"
+            },
+            "WLDFR": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/WLDFR",
+                "label": "Wild Fire"
+            },
+            "INTOX": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/INTOX",
+                "label": "Intoxication"
+            },
+            "ERQAK": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ERQAK",
+                "label": "Earthquake"
+            },
+            "WNDST": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/WNDST",
+                "label": "Windstorm"
+            },
+            "LNDRG": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/LNDRG",
+                "label": "Land Degradation"
+            },
+            "POLUT": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/POLUT",
+                "label": "Pollution"
+            },
+            "STORM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/STORM",
+                "label": "Storm"
+            },
+            "TSUNM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/TSUNM",
+                "label": "Tsunami"
+            },
+            "TORND": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/TORND",
+                "label": "Tornado"
+            },
+            "COLDW": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/COLDW",
+                "label": "Cold Wave"
+            },
+            "EROSN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/EROSN",
+                "label": "Erosion"
+            },
+            "DROUG": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/DROUG",
+                "label": "Drought"
+            },
+            "STCOL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/STCOL",
+                "label": "Structural Collapse"
+            },
+            "STUCK": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/STUCK",
+                "label": "Stuck"
+            },
+            "INFET": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/INFET",
+                "label": "Insect Infestation"
+            },
+            "ACIDT": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/ACIDT",
+                "label": "Accident"
+            },
+            "EXPLN": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/EXPLN",
+                "label": "Explosion"
+            },
+            "FLSFL": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/FLSFL",
+                "label": "Flash Flood"
+            },
+            "CONTM": {
+                "uri": "http://metadata.un.org/sdg/codes/hazardType/CONTM",
+                "label": "Contamination"
+            }
+        }
+    },
+    "typeOfOccupationCode": {
+        "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation",
+        "label": "type of occupation",
+        "codes": {
+            "isco88-8": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-8",
+                "label": "Plant and machine operators and assemblers (isco-88)"
+            },
+            "isco88-6": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-6",
+                "label": "Skilled agricultural and fishery workers (isco-88)"
+            },
+            "isco88": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88",
+                "label": "All occupations (isco-88)"
+            },
+            "isco08-3": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-3",
+                "label": "Technicians and associate professionals (isco-08)"
+            },
+            "isco08-1": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-1",
+                "label": "Managers (isco-08)"
+            },
+            "isco08-7": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-7",
+                "label": "Craft and related trades workers (isco-08)"
+            },
+            "isco08-X": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-X",
+                "label": "Not elsewhere classified (isco-08)"
+            },
+            "isco08-5": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-5",
+                "label": "Service and sales workers (isco-08)"
+            },
+            "isco88-3": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-3",
+                "label": "Technicians and associate professionals (isco-88)"
+            },
+            "isco08-9": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-9",
+                "label": "Elementary occupations (isco-08)"
+            },
+            "isco88-1": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-1",
+                "label": "Legislators, senior officials and managers (isco-88)"
+            },
+            "isco88-7": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-7",
+                "label": "Craft and related trades workers (isco-88)"
+            },
+            "isco88-X": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-X",
+                "label": "Not elsewhere classified (isco-88)"
+            },
+            "isco88-5": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-5",
+                "label": "Service workers and shop and market sales workers (isco-88)"
+            },
+            "DENT": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/DENT",
+                "label": "Dentists"
+            },
+            "isco88-9": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-9",
+                "label": "Elementary occupations (isco-88)"
+            },
+            "PHAR": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/PHAR",
+                "label": "Pharmacists"
+            },
+            "isco08-0": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-0",
+                "label": "Armed forces occupations (isco-08)"
+            },
+            "PHYS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/PHYS",
+                "label": "Medical doctors"
+            },
+            "isco08-4": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-4",
+                "label": "Clerical support workers (isco-08)"
+            },
+            "isco08-2": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-2",
+                "label": "Professionals (isco-08)"
+            },
+            "isco08": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08",
+                "label": "All occupations (isco-08)"
+            },
+            "isco08-8": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-8",
+                "label": "Plant and machine operators, and assemblers (isco-08)"
+            },
+            "isco88-0": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-0",
+                "label": "Armed forces (isco-88)"
+            },
+            "isco08-6": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco08-6",
+                "label": "Skilled agricultural, forestry and fishery workers (isco-08)"
+            },
+            "isco88-4": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-4",
+                "label": "Clerks (isco-88)"
+            },
+            "NURS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/NURS",
+                "label": "Nursing and midwifery personnel"
+            },
+            "isco88-2": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfOccupation/isco88-2",
+                "label": "Professionals (isco-88)"
+            }
+        }
+    },
+    "yearCode": {
+        "uri": "http://metadata.un.org/sdg/codes/year",
+        "label": "year",
+        "codes": {
+            "value_1985": "1985",
+            "value_1986": "1986",
+            "value_1987": "1987",
+            "value_1988": "1988",
+            "value_1989": "1989",
+            "value_1990": "1990",
+            "value_1991": "1991",
+            "value_1992": "1992",
+            "value_1993": "1993",
+            "value_1994": "1994",
+            "value_1995": "1995",
+            "value_1996": "1996",
+            "value_1997": "1997",
+            "value_1998": "1998",
+            "value_1999": "1999",
+            "value_2000": "2000",
+            "value_2001": "2001",
+            "value_2002": "2002",
+            "value_2003": "2003",
+            "value_2004": "2004",
+            "value_2005": "2005",
+            "value_2006": "2006",
+            "value_2007": "2007",
+            "value_2008": "2008",
+            "value_2009": "2009",
+            "value_2010": "2010",
+            "value_2011": "2011",
+            "value_2012": "2012",
+            "value_2013": "2013",
+            "value_2014": "2014",
+            "value_2015": "2015",
+            "value_2016": "2016",
+            "value_2017": "2017",
+            "value_2018": "2018",
+            "value_2019": "2019"
+        }
+    },
+    "nameOfInternationalInstitutionCode": {
+        "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution",
+        "label": "name of international institution",
+        "codes": {
+            "IMF": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/IMF",
+                "label": "International Monetary Fund"
+            },
+            "UNGA": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/UNGA",
+                "label": "UN General Assembly"
+            },
+            "WTO": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/WTO",
+                "label": "World Trade Organisation"
+            },
+            "ADB": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/ADB",
+                "label": "Asian Development Bank"
+            },
+            "UNSC": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/UNSC",
+                "label": "UN Security Council"
+            },
+            "AFDB": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/AFDB",
+                "label": "African Development Bank"
+            },
+            "IFC": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/IFC",
+                "label": "International Finance Corporation"
+            },
+            "IBRD": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/IBRD",
+                "label": "International Bank for Reconstruction and Development"
+            },
+            "IABD": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/IABD",
+                "label": "Inter-American Development Bank"
+            },
+            "FSB": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/FSB",
+                "label": "Financial Stability Board"
+            },
+            "ECOSOC": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfInternationalInstitution/ECOSOC",
+                "label": "UN Economic and Social Council"
+            }
+        }
+    },
+    "educationLevelCode": {
+        "uri": "http://metadata.un.org/sdg/codes/educationLevel",
+        "label": "education level",
+        "codes": {
+            "PRIMAR": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/PRIMAR",
+                "label": "Primary"
+            },
+            "LOWSEC": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/LOWSEC",
+                "label": "Lower secondary"
+            },
+            "PREPRI": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/PREPRI",
+                "label": "Pre-primary"
+            },
+            "GRAD23": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/GRAD23",
+                "label": "Grades 2/3"
+            },
+            "SECOND": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/SECOND",
+                "label": "Secondary"
+            },
+            "UPPSEC": {
+                "uri": "http://metadata.un.org/sdg/codes/educationLevel/UPPSEC",
+                "label": "Upper secondary"
+            }
+        }
+    },
+    "locationCode": {
+        "uri": "http://metadata.un.org/sdg/codes/location",
+        "label": "location",
+        "codes": {
+            "U": {
+                "uri": "http://metadata.un.org/sdg/codes/location/U",
+                "label": "Urban"
+            },
+            "R": {
+                "uri": "http://metadata.un.org/sdg/codes/location/R",
+                "label": "Rural"
+            },
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/location/_T",
+                "label": "All areas"
+            }
+        }
+    },
+    "ihrCapacityCode": {
+        "uri": "http://metadata.un.org/sdg/codes/ihrCapacity",
+        "label": "IHR capacity",
+        "codes": {
+            "IHR08": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR08",
+                "label": "Laboratory"
+            },
+            "IHR09": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR09",
+                "label": "Points of entry"
+            },
+            "IHR02": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR02",
+                "label": "Coordination and National Focal Point communications"
+            },
+            "IHR13": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR13",
+                "label": "Radionuclear emergencies"
+            },
+            "IHR03": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR03",
+                "label": "Surveillance"
+            },
+            "IHR11": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR11",
+                "label": "Food safety"
+            },
+            "IHR12": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR12",
+                "label": "Chemical events"
+            },
+            "IHR01": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR01",
+                "label": "National legislation, policy and financing"
+            },
+            "IHR06": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR06",
+                "label": "Risk communication"
+            },
+            "IHR07": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR07",
+                "label": "Human resources"
+            },
+            "IHR04": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR04",
+                "label": "Response"
+            },
+            "IHR05": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR05",
+                "label": "Preparedness"
+            },
+            "IHR10": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/IHR10",
+                "label": " Zoonotic events"
+            },
+            "SPAR07": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR07",
+                "label": "Human resources"
+            },
+            "SPAR06": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR06",
+                "label": "Surveillance"
+            },
+            "SPAR05": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR05",
+                "label": "Laboratory"
+            },
+            "SPAR04": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR04",
+                "label": "Food safety"
+            },
+            "SPAR03": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR03",
+                "label": "Zoonotic events and the human\u2013animal interface"
+            },
+            "SPAR02": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR02",
+                "label": "IHR Coordination and National IHR Focal Point Functions"
+            },
+            "SPAR01": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR01",
+                "label": "Legislation and Financing"
+            },
+            "SPAR09": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR09",
+                "label": "Health Service Provision"
+            },
+            "SPAR11": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR11",
+                "label": "Points of entry"
+            },
+            "SPAR13": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR13",
+                "label": "Radiation emergencies"
+            },
+            "SPAR12": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR12",
+                "label": "Chemical events"
+            },
+            "SPAR10": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR10",
+                "label": "Risk Communication"
+            },
+            "SPAR08": {
+                "uri": "http://metadata.un.org/sdg/codes/ihrCapacity/SPAR08",
+                "label": "National Health Emergency Framework"
+            }
+        }
+    },
+    "typeOfSkillCode": {
+        "uri": "http://metadata.un.org/sdg/codes/typeOfSkill",
+        "label": "type of skill",
+        "codes": {
+            "EMAIL": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/EMAIL",
+                "label": "Sending e-mails with attached files"
+            },
+            "LITE": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/LITE",
+                "label": "Literacy"
+            },
+            "INST": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/INST",
+                "label": "Connecting and installing new devices"
+            },
+            "COPA": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/COPA",
+                "label": "Using copy and paste tools to duplicate or move information within a document"
+            },
+            "PCPR": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/PCPR",
+                "label": "Writing a computer program using a specialized programming language"
+            },
+            "NUME": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/NUME",
+                "label": "Numeracy"
+            },
+            "EPRS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/EPRS",
+                "label": "Creating electronic presentations with presentation software"
+            },
+            "CMFL": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/CMFL",
+                "label": "Copying or moving a file or folder"
+            },
+            "TRAF": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/TRAF",
+                "label": "Transferring files between a computer and other devices"
+            },
+            "SOFT": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/SOFT",
+                "label": "Finding, downloading, installing and configuring software"
+            },
+            "ARSP": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSkill/ARSP",
+                "label": "Using basic arithmetic formula in a spreadsheet"
+            }
+        }
+    },
+    "citiesCode": {
+        "uri": "http://metadata.un.org/sdg/codes/cities",
+        "label": "cities",
+        "codes": {
+            "CALLAO_CALLAOCERCADO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CALLAO_CALLAOCERCADO",
+                "label": "Callao, Callao Cercado"
+            },
+            "PARIS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PARIS",
+                "label": "Paris"
+            },
+            "NIAMEY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NIAMEY",
+                "label": "Niamey"
+            },
+            "SANTODOMINGODELOSCOLORADOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANTODOMINGODELOSCOLORADOS",
+                "label": "Santo Domingo de los Colorados"
+            },
+            "MILAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MILAN",
+                "label": "Milan"
+            },
+            "RIYADH": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/RIYADH",
+                "label": "Riyadh"
+            },
+            "BUDAPEST": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BUDAPEST",
+                "label": "Budapest"
+            },
+            "CONAKRY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CONAKRY",
+                "label": "Conakry"
+            },
+            "MINSK": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MINSK",
+                "label": "Minsk"
+            },
+            "CUAUHTEMOC_CHIHUAHUA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CUAUHTEMOC_CHIHUAHUA",
+                "label": "Cuauhtemoc, Chihuahua"
+            },
+            "KATHMANDU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KATHMANDU",
+                "label": "Kathmandu"
+            },
+            "CHIHUAHUA_CHIHUAHUA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHIHUAHUA_CHIHUAHUA",
+                "label": "Chihuahua, Chihuahua"
+            },
+            "SANSALVADOR_APOPA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANSALVADOR_APOPA",
+                "label": "San Salvador - Apopa"
+            },
+            "SINGAPORE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SINGAPORE",
+                "label": "Singapore"
+            },
+            "COATZACOALCOS_VERACRUZ": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COATZACOALCOS_VERACRUZ",
+                "label": "Coatzacoalcos, Veracruz"
+            },
+            "GUADALUPE_ZACATECAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUADALUPE_ZACATECAS",
+                "label": "Guadalupe, Zacatecas"
+            },
+            "BOGOTA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BOGOTA",
+                "label": "Bogota"
+            },
+            "MANCHESTER": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MANCHESTER",
+                "label": "Manchester"
+            },
+            "SANSALVADOR_ILOPANGO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANSALVADOR_ILOPANGO",
+                "label": "San Salvador - Ilopango,"
+            },
+            "CHETUMAL_OTHONP_BLANCO_QUINTANAROO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHETUMAL_OTHONP_BLANCO_QUINTANAROO",
+                "label": "Chetumal, Othon P. Blanco, Quintana Roo"
+            },
+            "GABORONE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GABORONE",
+                "label": "Gaborone"
+            },
+            "LOSLAGOS_PUERTOMONTT": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LOSLAGOS_PUERTOMONTT",
+                "label": "Los Lagos, Puerto Montt"
+            },
+            "MASERU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MASERU",
+                "label": "Maseru"
+            },
+            "PRAIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PRAIA",
+                "label": "Praia"
+            },
+            "KUWAIT": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KUWAIT",
+                "label": "Kuwait"
+            },
+            "VIENNA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/VIENNA",
+                "label": "Vienna"
+            },
+            "PARAKOU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PARAKOU",
+                "label": "Parakou "
+            },
+            "ZAPOPAN_JALISCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZAPOPAN_JALISCO",
+                "label": "Zapopan, Jalisco"
+            },
+            "BERLIN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BERLIN",
+                "label": "Berlin"
+            },
+            "MEXICOCITY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MEXICOCITY",
+                "label": "Mexico City"
+            },
+            "IGUALA_GUERRERO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/IGUALA_GUERRERO",
+                "label": "Iguala, Guerrero"
+            },
+            "DEHIWALA-MOUNTLAVINIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DEHIWALA-MOUNTLAVINIA",
+                "label": "Dehiwala-Mount Lavinia"
+            },
+            "BUCARAMANGA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BUCARAMANGA",
+                "label": "Bucaramanga"
+            },
+            "ZACATECAS_ZACATECAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZACATECAS_ZACATECAS",
+                "label": "Zacatecas, Zacatecas"
+            },
+            "ITAGUI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ITAGUI",
+                "label": "Itagui"
+            },
+            "BELMOPAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BELMOPAN",
+                "label": "Belmopan"
+            },
+            "PANAMACITY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PANAMACITY",
+                "label": "Panama City"
+            },
+            "PERTH": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PERTH",
+                "label": "Perth"
+            },
+            "OSLO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/OSLO",
+                "label": "Oslo"
+            },
+            "UCAYALI_CALLERIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/UCAYALI_CALLERIA",
+                "label": "Ucayali, Calleria"
+            },
+            "APATZINGAN_MICHOACAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/APATZINGAN_MICHOACAN",
+                "label": "Apatzingan, Michoacan"
+            },
+            "VICTORIA_TAMAULIPAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/VICTORIA_TAMAULIPAS",
+                "label": "Victoria, Tamaulipas"
+            },
+            "GOLDCOAST": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GOLDCOAST",
+                "label": "Gold Coast"
+            },
+            "BUENAVENTURA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BUENAVENTURA",
+                "label": "Buenaventura"
+            },
+            "DAKAR": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DAKAR",
+                "label": "Dakar"
+            },
+            "VILLAHERMOSA_CENTRO_TABASCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/VILLAHERMOSA_CENTRO_TABASCO",
+                "label": "Villahermosa, Centro, Tabasco"
+            },
+            "SANTIAGO_SANTIAGO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANTIAGO_SANTIAGO",
+                "label": "Santiago, Santiago"
+            },
+            "ABIDJAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ABIDJAN",
+                "label": "Abidjan"
+            },
+            "CHALCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHALCO",
+                "label": "Chalco, Mexico"
+            },
+            "HIDALGODELPARRAL_CHIHUAHUA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HIDALGODELPARRAL_CHIHUAHUA",
+                "label": "Hidalgo del Parral, Chihuahua"
+            },
+            "BELLO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BELLO",
+                "label": "Bello"
+            },
+            "TARAPACA_ARICA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TARAPACA_ARICA",
+                "label": "Tarapaca, Arica"
+            },
+            "DAMASCUS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DAMASCUS",
+                "label": "Damascus"
+            },
+            "ACUNA_COAHUILA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ACUNA_COAHUILA",
+                "label": "Acuna, Coahuila"
+            },
+            "DARESSALAAM": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DARESSALAAM",
+                "label": "Dar es Salaam"
+            },
+            "NEWYORK": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NEWYORK",
+                "label": "New York"
+            },
+            "SANMIGUEL_SANMIGUEL": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANMIGUEL_SANMIGUEL",
+                "label": "San Miguel, San Miguel"
+            },
+            "ANGUILLA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ANGUILLA",
+                "label": "Anguilla"
+            },
+            "HAVANA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HAVANA",
+                "label": "Havana"
+            },
+            "CORDOBA_VERACRUZ": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CORDOBA_VERACRUZ",
+                "label": "Cordoba, Veracruz"
+            },
+            "SANSALVADOR_MEJICANOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANSALVADOR_MEJICANOS",
+                "label": "San Salvador - Mejicanos"
+            },
+            "LAPAZ": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LAPAZ",
+                "label": "La Paz "
+            },
+            "LISBON": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LISBON",
+                "label": "Lisbon"
+            },
+            "SANTAANA_SANTAANA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANTAANA_SANTAANA",
+                "label": "Santa Ana, Santa Ana"
+            },
+            "ADDIS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ADDIS",
+                "label": "Addis"
+            },
+            "LIMA_LOSOLIVOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_LOSOLIVOS",
+                "label": "Lima, Los Olivos"
+            },
+            "CARDENAS_TABASCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CARDENAS_TABASCO",
+                "label": "Cardenas, Tabasco"
+            },
+            "MONTREAL": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MONTREAL",
+                "label": "Montreal"
+            },
+            "CUCUTA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CUCUTA",
+                "label": "Cucuta"
+            },
+            "ULAANBAATAR": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ULAANBAATAR",
+                "label": "Ulaanbaatar"
+            },
+            "COQUIMBO_COQUIMBO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COQUIMBO_COQUIMBO",
+                "label": "Coquimbo, Coquimbo"
+            },
+            "KAMPALA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KAMPALA",
+                "label": "Kampala"
+            },
+            "QUITO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/QUITO",
+                "label": "Quito"
+            },
+            "MEDELLIN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MEDELLIN",
+                "label": "Medellin"
+            },
+            "ANTIGUA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ANTIGUA",
+                "label": "Antigua"
+            },
+            "CUAUTLA_MORELOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CUAUTLA_MORELOS",
+                "label": "Cuautla, Morelos"
+            },
+            "ANTANANARIVO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ANTANANARIVO",
+                "label": "Antananarivo"
+            },
+            "STOCKHOLM": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/STOCKHOLM",
+                "label": "Stockholm"
+            },
+            "HUIXQUILUCAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HUIXQUILUCAN",
+                "label": "Huixquilucan, Mexico"
+            },
+            "MALDIVES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MALDIVES",
+                "label": "Maldives"
+            },
+            "GEORGETOWN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GEORGETOWN",
+                "label": "Georgetown"
+            },
+            "AMSTERDAM-UTRECHT": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/AMSTERDAM-UTRECHT",
+                "label": "Amsterdam-Utrecht"
+            },
+            "DUBLIN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DUBLIN",
+                "label": "Dublin"
+            },
+            "ZAGREB": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZAGREB",
+                "label": "Zagreb"
+            },
+            "SANSALVADOR_SANSALVADOR": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANSALVADOR_SANSALVADOR",
+                "label": "San Salvador, San Salvador"
+            },
+            "BANGKOK": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BANGKOK",
+                "label": "Bangkok"
+            },
+            "OSAKA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/OSAKA",
+                "label": "Osaka"
+            },
+            "MONROVIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MONROVIA",
+                "label": "Monrovia"
+            },
+            "NEIVA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NEIVA",
+                "label": "Neiva"
+            },
+            "PORT-AU-PRINCE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PORT-AU-PRINCE",
+                "label": "Port-au-Prince"
+            },
+            "GUADALAJARA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUADALAJARA",
+                "label": "Guadalajara"
+            },
+            "MAGALLANES_PUNTAARENAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MAGALLANES_PUNTAARENAS",
+                "label": "Magallanes, Punta Arenas"
+            },
+            "TORONTO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TORONTO",
+                "label": "Toronto"
+            },
+            "BAYAMO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BAYAMO",
+                "label": "Bayamo"
+            },
+            "CIEGODEAVILA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CIEGODEAVILA",
+                "label": "Ciego de avila"
+            },
+            "LIMA_CARABAYLLO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_CARABAYLLO",
+                "label": "Lima, Carabayllo"
+            },
+            "HELSINKI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HELSINKI",
+                "label": "Helsinki"
+            },
+            "WINDHOEK": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/WINDHOEK",
+                "label": "Windhoek"
+            },
+            "JAKARTA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/JAKARTA",
+                "label": "Jakarta"
+            },
+            "CANBERRA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CANBERRA",
+                "label": "Canberra"
+            },
+            "MANILA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MANILA",
+                "label": "Manila"
+            },
+            "CANCUN_BENITOJUAREZ_QUINTANAROO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CANCUN_BENITOJUAREZ_QUINTANAROO",
+                "label": "Cancun, Benito Juarez, Quintana Roo"
+            },
+            "TBILISI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TBILISI",
+                "label": "Tbilisi"
+            },
+            "LIMA_VILLAMARIADELTRIUNFO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_VILLAMARIADELTRIUNFO",
+                "label": "Lima, Villa Maria del Triunfo"
+            },
+            "CAPETOWN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CAPETOWN",
+                "label": "Cape Town"
+            },
+            "ADELAIDE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ADELAIDE",
+                "label": "Adelaide"
+            },
+            "VALPARAISO_VALPARAISO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/VALPARAISO_VALPARAISO",
+                "label": "Valparaiso, Valparaiso"
+            },
+            "SANTIAGO_PROVIDENCIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANTIAGO_PROVIDENCIA",
+                "label": "Santiago, Providencia"
+            },
+            "AGUASCALIENTES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/AGUASCALIENTES",
+                "label": "Aguascalientes, Aguascalientes"
+            },
+            "THIMPHU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/THIMPHU",
+                "label": "Thimphu"
+            },
+            "TOKYO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TOKYO",
+                "label": "Tokyo"
+            },
+            "BATUMI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BATUMI",
+                "label": "Batumi"
+            },
+            "CAMAGUEY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CAMAGUEY",
+                "label": "Camaguey"
+            },
+            "MADRID": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MADRID",
+                "label": "Madrid"
+            },
+            "SANAA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANAA",
+                "label": "Sanaa"
+            },
+            "HERMOSILLO_SONORA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HERMOSILLO_SONORA",
+                "label": "Hermosillo, Sonora"
+            },
+            "CALI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CALI",
+                "label": "Cali"
+            },
+            "LIMA_SANJUANDELURIGANCHO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_SANJUANDELURIGANCHO",
+                "label": "Lima, San Juan de Lurigancho"
+            },
+            "IRAPUATO_GUANAJUATO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/IRAPUATO_GUANAJUATO",
+                "label": "Irapuato, Guanajuato"
+            },
+            "XALAPA_VERACRUZ": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/XALAPA_VERACRUZ",
+                "label": "Xalapa, Veracruz"
+            },
+            "ALTAMIRA_TAMAULIPAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ALTAMIRA_TAMAULIPAS",
+                "label": "Altamira, Tamaulipas"
+            },
+            "LIMA_LURIGANCHO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_LURIGANCHO",
+                "label": "Lima, Lurigancho"
+            },
+            "CORREGIDORA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CORREGIDORA",
+                "label": "Corregidora"
+            },
+            "CARMEN_CAMPECHE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CARMEN_CAMPECHE",
+                "label": "Carmen, Campeche"
+            },
+            "ALGIERS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ALGIERS",
+                "label": "Algiers"
+            },
+            "ZURICH": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZURICH",
+                "label": "Zurich"
+            },
+            "BARCELONA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BARCELONA",
+                "label": "Barcelona"
+            },
+            "BUENOSAIRES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BUENOSAIRES",
+                "label": "Buenos Aires"
+            },
+            "PEREIRA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PEREIRA",
+                "label": "Pereira"
+            },
+            "TUNIS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TUNIS",
+                "label": "Tunis"
+            },
+            "BRISBANE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BRISBANE",
+                "label": "Brisbane"
+            },
+            "BUGA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BUGA",
+                "label": "Buga"
+            },
+            "DOSQUEBRADAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DOSQUEBRADAS",
+                "label": "Dosquebradas"
+            },
+            "ZITACUARO_MICHOACN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZITACUARO_MICHOACN",
+                "label": "Zitacuaro, Michoacan"
+            },
+            "OUAGADOUGOU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/OUAGADOUGOU",
+                "label": "Ouagadougou"
+            },
+            "GUASAVE_SINALOA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUASAVE_SINALOA",
+                "label": "Guasave, Sinaloa"
+            },
+            "LIMA_ATE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_ATE",
+                "label": "Lima, Ate"
+            },
+            "HIDALGO_MICHOACAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HIDALGO_MICHOACAN",
+                "label": "Hidalgo, Michoacan"
+            },
+            "DUNEDIN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DUNEDIN",
+                "label": "Dunedin"
+            },
+            "COTONOU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COTONOU",
+                "label": "Cotonou"
+            },
+            "COMITANDEDOMINGUEZ_CHIAPAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COMITANDEDOMINGUEZ_CHIAPAS",
+                "label": "Comitan de Dominguez, Chiapas"
+            },
+            "TIRANA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TIRANA",
+                "label": "Tirana"
+            },
+            "ACCRA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ACCRA",
+                "label": "Accra"
+            },
+            "BAMAKO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BAMAKO",
+                "label": "Bamako"
+            },
+            "BAGHDAD": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BAGHDAD",
+                "label": "Baghdad"
+            },
+            "YAOUNDE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/YAOUNDE",
+                "label": "Yaounde"
+            },
+            "BERMUDA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BERMUDA",
+                "label": "Bermuda"
+            },
+            "DARWIN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DARWIN",
+                "label": "Darwin"
+            },
+            "ACAPULCO_GUERRERO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ACAPULCO_GUERRERO",
+                "label": "Acapulco, Guerrero"
+            },
+            "SAINTMARC": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SAINTMARC",
+                "label": "Saint Marc"
+            },
+            "COLIMA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COLIMA",
+                "label": "Colima, Colima"
+            },
+            "NOUAKCHOTT": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NOUAKCHOTT",
+                "label": "Nouakchott"
+            },
+            "SYDNEY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SYDNEY",
+                "label": "Sydney"
+            },
+            "CIUDADOBREGON": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CIUDADOBREGON",
+                "label": "Ciudad Obregon"
+            },
+            "JOHANNESBURG": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/JOHANNESBURG",
+                "label": "Johannesburg"
+            },
+            "CARTAGENA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CARTAGENA",
+                "label": "Cartagena"
+            },
+            "CAMPECHE_CAMPECHE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CAMPECHE_CAMPECHE",
+                "label": "Campeche, Campeche"
+            },
+            "LIMA_PUENTEPIEDRA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_PUENTEPIEDRA",
+                "label": "Lima, Puente Piedra"
+            },
+            "ANTOFAGASTA_ANTOFAGASTA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ANTOFAGASTA_ANTOFAGASTA",
+                "label": "Antofagasta, Antofagasta"
+            },
+            "HARARE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HARARE",
+                "label": "Harare"
+            },
+            "LAGOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LAGOS",
+                "label": "Lagos"
+            },
+            "KUTAISI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KUTAISI",
+                "label": "Kutaisi"
+            },
+            "LIMA_CHORRILLOS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_CHORRILLOS",
+                "label": "Lima, Chorrillos"
+            },
+            "NOCITI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NOCITI",
+                "label": "All areas or breakdown by cities not available"
+            },
+            "MARSHALLISLANDS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MARSHALLISLANDS",
+                "label": "Marshall islands"
+            },
+            "ZINDER": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZINDER",
+                "label": "Zinder"
+            },
+            "JUNIN_ELTAMBO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/JUNIN_ELTAMBO",
+                "label": "Junin, El Tambo"
+            },
+            "MORATUWA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MORATUWA",
+                "label": "Moratuwa"
+            },
+            "PETIONVILLE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PETIONVILLE",
+                "label": "Petion Ville"
+            },
+            "MELBOURNE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MELBOURNE",
+                "label": "Melbourne"
+            },
+            "WARSAW": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/WARSAW",
+                "label": "Warsaw"
+            },
+            "BRUSSELS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BRUSSELS",
+                "label": "Brussels"
+            },
+            "CELAYA_GUANAJUATO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CELAYA_GUANAJUATO",
+                "label": "Celaya, Guanajuato"
+            },
+            "LOME": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LOME",
+                "label": "Lome"
+            },
+            "LONDON": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LONDON",
+                "label": "London"
+            },
+            "LUSAKA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LUSAKA",
+                "label": "Lusaka"
+            },
+            "PIURA_CASTILLA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PIURA_CASTILLA",
+                "label": "Piura, Castilla"
+            },
+            "GUADALAJARA_JALISCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUADALAJARA_JALISCO",
+                "label": "Guadalajara, Jalisco"
+            },
+            "LESCAYES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LESCAYES",
+                "label": "Les Cayes"
+            },
+            "GUANAJUATO_GUANAJUATO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUANAJUATO_GUANAJUATO",
+                "label": "Guanajuato, Guanajuato"
+            },
+            "KIGALI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KIGALI",
+                "label": "Kigali"
+            },
+            "SANJOSE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANJOSE",
+                "label": "San Jose"
+            },
+            "SAOPAULO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SAOPAULO",
+                "label": "Sao Paulo"
+            },
+            "LIMA_COMAS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_COMAS",
+                "label": "Lima, Comas"
+            },
+            "PRAGUE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PRAGUE",
+                "label": "Prague"
+            },
+            "LALIBERTAD_NUEVASANSALVADOR": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LALIBERTAD_NUEVASANSALVADOR",
+                "label": "La Libertad - Nueva San Salvador"
+            },
+            "WELLINGTON": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/WELLINGTON",
+                "label": "Wellington"
+            },
+            "CHILPANCINGO_GUERRERO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHILPANCINGO_GUERRERO",
+                "label": "Chilpancingo, Guerrero"
+            },
+            "PORTLOUIS": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/PORTLOUIS",
+                "label": "Port Louis"
+            },
+            "TEGUCIGALPA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TEGUCIGALPA",
+                "label": "Tegucigalpa"
+            },
+            "MANAGUA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MANAGUA",
+                "label": "Managua"
+            },
+            "LIMA_SANBORJA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LIMA_SANBORJA",
+                "label": "Lima, San Borja"
+            },
+            "COPENHAGEN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/COPENHAGEN",
+                "label": "Copenhagen"
+            },
+            "ZAMORA_MICHOACAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZAMORA_MICHOACAN",
+                "label": "Zamora, Michoacan"
+            },
+            "SANSALVADOR_SOYAPANGO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANSALVADOR_SOYAPANGO",
+                "label": "San Salvador - Soyapango"
+            },
+            "HOBART": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HOBART",
+                "label": "Hobart"
+            },
+            "GUAYMAS_SONORA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUAYMAS_SONORA",
+                "label": "Guaymas, Sonora"
+            },
+            "GUADALUPE_NUEVOLEON": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GUADALUPE_NUEVOLEON",
+                "label": "Guadalupe, Nuevo Leon"
+            },
+            "SANTADOMINGO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANTADOMINGO",
+                "label": "Santa Domingo"
+            },
+            "DOHA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DOHA",
+                "label": "Doha"
+            },
+            "LOSLAGOS_OSORNO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LOSLAGOS_OSORNO",
+                "label": "Los Lagos, Osorno"
+            },
+            "NAIROBI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/NAIROBI",
+                "label": "Nairobi"
+            },
+            "DURBAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DURBAN",
+                "label": "Durban"
+            },
+            "CHRISTCHURCH": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHRISTCHURCH",
+                "label": "Christchurch"
+            },
+            "CAIRO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CAIRO",
+                "label": "Cairo"
+            },
+            "DHAKA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DHAKA",
+                "label": "Dhaka"
+            },
+            "CIGRES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CIGRES",
+                "label": "Cigres"
+            },
+            "BELOHORIZONTE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BELOHORIZONTE",
+                "label": "Belo Horizonte"
+            },
+            "VARNA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/VARNA",
+                "label": "Varna"
+            },
+            "SOFIA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SOFIA",
+                "label": "Sofia"
+            },
+            "CANET": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CANET",
+                "label": "Canet"
+            },
+            "KUNMING": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/KUNMING",
+                "label": "Kunming"
+            },
+            "SUZHOU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SUZHOU",
+                "label": "Suzhou"
+            },
+            "LANZHOU": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LANZHOU",
+                "label": "Lanzhou"
+            },
+            "ATHENSGAA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ATHENSGAA",
+                "label": "Athens (GAA)"
+            },
+            "DELHI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/DELHI",
+                "label": "Delhi"
+            },
+            "BANGALORE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BANGALORE",
+                "label": "Bangalore"
+            },
+            "WARANGAL": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/WARANGAL",
+                "label": "Warangal"
+            },
+            "SURAT": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SURAT",
+                "label": "Surat"
+            },
+            "BISHEKEK": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BISHEKEK",
+                "label": "Bishekek"
+            },
+            "CUREPIPE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CUREPIPE",
+                "label": "curepipe"
+            },
+            "HUIXQUILUCAN_MEXICO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/HUIXQUILUCAN_MEXICO",
+                "label": "Huixquilucan, Mexico"
+            },
+            "CARDENAST_TABASCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CARDENAST_TABASCO",
+                "label": "Cardenas, Tabasco"
+            },
+            "CANCUN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CANCUN",
+                "label": "Cancun, Benito Juarez, Quintana Roo"
+            },
+            "CHALCOMEX": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CHALCOMEX",
+                "label": "Chalco, Mexico"
+            },
+            "ACUNACOAHUILA": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ACUNACOAHUILA",
+                "label": "Acuna, Coahuila"
+            },
+            "ZITACUARO_MICHOACAN": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ZITACUARO_MICHOACAN",
+                "label": "Zitacuaro, Michoacan"
+            },
+            "MAPUTO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MAPUTO",
+                "label": "Maputo"
+            },
+            "GHORAI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/GHORAI",
+                "label": "Ghorai"
+            },
+            "ROTTERDAM": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/ROTTERDAM",
+                "label": "Rotterdam"
+            },
+            "LAHORE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/LAHORE",
+                "label": "Lahore"
+            },
+            "CASTRIES": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/CASTRIES",
+                "label": "Castries"
+            },
+            "STEVE_TSHWETE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/STEVE_TSHWETE",
+                "label": "Steve Tshwete"
+            },
+            "SOUSSE": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SOUSSE",
+                "label": "Sousse"
+            },
+            "BELFAST": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/BELFAST",
+                "label": "Belfast"
+            },
+            "MOSHI": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/MOSHI",
+                "label": "Moshi"
+            },
+            "SANFRANSCISCO": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/SANFRANSCISCO",
+                "label": "San Franscisco"
+            },
+            "TOMPKINS_COUNTY": {
+                "uri": "http://metadata.un.org/sdg/codes/cities/TOMPKINS_COUNTY",
+                "label": "Tompkins county"
+            }
+        }
+    },
+    "nameOfNonCommunicableDiseaseCode": {
+        "uri": "http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease",
+        "label": "name of non-communicable disease",
+        "codes": {
+            "RES": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease/RES",
+                "label": "Chronic respiratory disease"
+            },
+            "DIA": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease/DIA",
+                "label": "Diabetes"
+            },
+            "CAR": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease/CAR",
+                "label": "Cardiovascular disease"
+            },
+            "CAN": {
+                "uri": "http://metadata.un.org/sdg/codes/nameOfNonCommunicableDisease/CAN",
+                "label": "Cancer"
+            }
+        }
+    },
+    "freqCode": {
+        "uri": "http://metadata.un.org/sdg/codes/freq",
+        "label": "frequency",
+        "codes": {
+            "ANNUAL": {
+                "uri": "http://metadata.un.org/sdg/codes/freq/A",
+                "label": "Annual"
+            }
+        }
+    },
+    "sexCode": {
+        "uri": "http://metadata.un.org/sdg/codes/sex",
+        "label": "sex",
+        "codes": {
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/sex/_T",
+                "label": "Both sexes"
+            },
+            "M": {
+                "uri": "http://metadata.un.org/sdg/codes/sex/M",
+                "label": "Male"
+            },
+            "F": {
+                "uri": "http://metadata.un.org/sdg/codes/sex/F",
+                "label": "Female"
+            }
+        }
+    },
+    "typeOfMobileTechnologyCode": {
+        "uri": "http://metadata.un.org/sdg/codes/typeOfMobileTechnology",
+        "label": "type of mobile technology",
+        "codes": {
+            "AL4G": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfMobileTechnology/AL4G",
+                "label": "At least 4G mobile network"
+            },
+            "AL3G": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfMobileTechnology/AL3G",
+                "label": "At least 3G mobile network"
+            },
+            "AL2G": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfMobileTechnology/AL2G",
+                "label": "At least 2G mobile network"
+            }
+        }
+    },
+    "levelStatusCode": {
+        "uri": "http://metadata.un.org/sdg/codes/levelStatus",
+        "label": "level status",
+        "codes": {
+            "LOWIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/LOWIMP",
+                "label": "Low level of implementation"
+            },
+            "VHIGIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/VHIGIMP",
+                "label": "Very high level of implementation"
+            },
+            "MOPAR": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/MOPAR",
+                "label": "Moderate level of participation"
+            },
+            "NA": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/NA",
+                "label": "Not applicable"
+            },
+            "CLDPR": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/CLDPR",
+                "label": "Clearly defined procedures"
+            },
+            "HIPAR": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/HIPAR",
+                "label": "High level of participation"
+            },
+            "NODATA": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/NODATA",
+                "label": "No data available"
+            },
+            "MHIGIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/MHIGIMP",
+                "label": "Medium-high level of implementation"
+            },
+            "NCDPR": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/NCDPR",
+                "label": "Not clearly defined procedures"
+            },
+            "HIGIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/HIGIMP",
+                "label": "High level of implementation"
+            },
+            "VLOWIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/VLOWIMP",
+                "label": "Very low level of implementation"
+            },
+            "MLOWIMP": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/MLOWIMP",
+                "label": "Medium-low level of implementation"
+            },
+            "LOPAR": {
+                "uri": "http://metadata.un.org/sdg/codes/levelStatus/LOPAR",
+                "label": "Low level of participation"
+            }
+        }
+    },
+    "ageCode": {
+        "uri": "http://metadata.un.org/sdg/codes/age",
+        "label": "age",
+        "codes": {
+            "Y16T65": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y16T65",
+                "label": "16 to 65 years old"
+            },
+            "Y2T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y2T14",
+                "label": "2 to 14 years old"
+            },
+            "Y0": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0",
+                "label": "under 1 year old"
+            },
+            "Y_GE16": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE16",
+                "label": "16 years old and over"
+            },
+            "Y0T4": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0T4",
+                "label": "under 5 years old"
+            },
+            "Y18T74": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T74",
+                "label": "18 to 74 years old"
+            },
+            "Y_GE12": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE12",
+                "label": "12 years old and over"
+            },
+            "M6T59": {
+                "uri": "http://metadata.un.org/sdg/codes/age/M6T59",
+                "label": "6 to 59 months old"
+            },
+            "Y40T49": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y40T49",
+                "label": "40 to 49 years old"
+            },
+            "Y_GE20": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE20",
+                "label": "20 years old and over"
+            },
+            "Y14T28": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y14T28",
+                "label": "14 to 28 years old"
+            },
+            "Y15T64": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T64",
+                "label": "15 to 64 years old"
+            },
+            "Y25T29": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y25T29",
+                "label": "25 to 29 years old"
+            },
+            "Y40T44": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y40T44",
+                "label": "40 to 44 years old"
+            },
+            "Y15T44": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T44",
+                "label": "15 to 44 years old"
+            },
+            "Y18T50": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T50",
+                "label": "18 to 50 years old"
+            },
+            "Y15T28": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T28",
+                "label": "15 to 28 years old"
+            },
+            "Y15T24": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T24",
+                "label": "15 to 24 years old"
+            },
+            "Y45T54": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y45T54",
+                "label": "45 to 54 years old"
+            },
+            "Y30T35": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y30T35",
+                "label": "30 to 35 years old"
+            },
+            "Y16T24": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y16T24",
+                "label": "16 to 24 years old"
+            },
+            "Y18T19": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T19",
+                "label": "18 to 19 years old"
+            },
+            "Y30T39": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y30T39",
+                "label": "30 to 39 years old"
+            },
+            "Y35T39": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y35T39",
+                "label": "35 to 39 years old"
+            },
+            "Y0T7": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0T7",
+                "label": "under 8 years old"
+            },
+            "Y1T4": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y1T4",
+                "label": "1 to 4 years old"
+            },
+            "Y_GE25": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE25",
+                "label": "25 years old and over"
+            },
+            "Y20T24": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y20T24",
+                "label": "20 to 24 years old"
+            },
+            "Y7T17": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y7T17",
+                "label": "7 to 17 years old"
+            },
+            "Y_GE65": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE65",
+                "label": "65 years old and over"
+            },
+            "Y5T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y5T14",
+                "label": "5 to 14 years old"
+            },
+            "Y20T64": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y20T64",
+                "label": "20 to 64 years old"
+            },
+            "Y20T29": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y20T29",
+                "label": "20 to 29 years old"
+            },
+            "Y30T70": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y30T70",
+                "label": "30 to 70 years old"
+            },
+            "Y25T34": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y25T34",
+                "label": "25 to 34 years old"
+            },
+            "Y15T29": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T29",
+                "label": "15 to 29 years old"
+            },
+            "Y45T49": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y45T49",
+                "label": "45 to 49 years old"
+            },
+            "Y15T49": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T49",
+                "label": "15 to 49 years old"
+            },
+            "Y30T34": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y30T34",
+                "label": "30 to 34 years old"
+            },
+            "Y35T44": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y35T44",
+                "label": "35 to 44 years old"
+            },
+            "Y_GE18": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE18",
+                "label": "18 years old and over"
+            },
+            "Y_GE14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE14",
+                "label": "14 years old and over"
+            },
+            "Y10T17": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y10T17",
+                "label": "10 to 17 years old"
+            },
+            "Y_GE10": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE10",
+                "label": "10 years old and over"
+            },
+            "Y5T17": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y5T17",
+                "label": "5 to 17 years old"
+            },
+            "Y18T24": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T24",
+                "label": "18 to 24 years old"
+            },
+            "M36T59": {
+                "uri": "http://metadata.un.org/sdg/codes/age/M36T59",
+                "label": "36 to 59 months old"
+            },
+            "M36T47": {
+                "uri": "http://metadata.un.org/sdg/codes/age/M36T47",
+                "label": "36 to 47 months old"
+            },
+            "Y45T64": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y45T64",
+                "label": "45 to 64 years old"
+            },
+            "Y_GE6": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE6",
+                "label": "6 years old and over"
+            },
+            "Y6T17": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y6T17",
+                "label": "6 to 17 years old"
+            },
+            "Y18T29": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T29",
+                "label": "18 to 29 years old"
+            },
+            "Y18T49": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y18T49",
+                "label": "18 to 49 years old"
+            },
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/age/_T",
+                "label": "All age ranges or no breaks by age"
+            },
+            "Y0T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0T14",
+                "label": "under 15 years old"
+            },
+            "Y0T5": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0T5",
+                "label": "under 6 years old"
+            },
+            "Y55T64": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y55T64",
+                "label": "55 to 64 years old"
+            },
+            "Y_GE15": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE15",
+                "label": "15 years old and over"
+            },
+            "Y20T74": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y20T74",
+                "label": "20 to 74 years old"
+            },
+            "Y_GE50": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE50",
+                "label": "50 years old and over"
+            },
+            "Y1T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y1T14",
+                "label": "1 to 14 years old"
+            },
+            "M0": {
+                "uri": "http://metadata.un.org/sdg/codes/age/M0",
+                "label": "under 1 month old"
+            },
+            "Y12T24": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y12T24",
+                "label": "12 to 24 years old"
+            },
+            "Y25T44": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y25T44",
+                "label": "25 to 44 years old"
+            },
+            "Y45T59": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y45T59",
+                "label": "45 to 59 years old"
+            },
+            "Y_GE5": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE5",
+                "label": "5 years old and over"
+            },
+            "Y15T19": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y15T19",
+                "label": "15 to 19 years old"
+            },
+            "T6T65": {
+                "uri": "http://metadata.un.org/sdg/codes/age/T6T65",
+                "label": "6 to 65 years old"
+            },
+            "Y0T17": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y0T17",
+                "label": "under 18 years old"
+            },
+            "Y65T74": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y65T74",
+                "label": "65 to 74 years old"
+            },
+            "Y75T84": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y75T84",
+                "label": "75 to 84 years old"
+            },
+            "Y_GE85": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y_GE85",
+                "label": "85 years old and over"
+            },
+            "Y12T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y12T14",
+                "label": "12 to 14 years old"
+            },
+            "Y10T14": {
+                "uri": "http://metadata.un.org/sdg/codes/age/Y10T14",
+                "label": "10 to 14 years old"
+            }
+        }
+    },
+    "typeOfProductCode": {
+        "uri": "http://metadata.un.org/sdg/codes/typeOfProduct",
+        "label": "type of product",
+        "codes": {
+            "RIC": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/RIC",
+                "label": "Rice"
+            },
+            "FEO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/FEO",
+                "label": "Ferrous ores"
+            },
+            "MIL": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/MIL",
+                "label": "Millet"
+            },
+            "NMM": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/NMM",
+                "label": "Non-metallic minerals"
+            },
+            "NMC": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/NMC",
+                "label": "Non-metallic minerals - construction dominant"
+            },
+            "NMA": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/NMA",
+                "label": "Non-metallic minerals - industrial or agricultural dominant"
+            },
+            "BIM": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/BIM",
+                "label": "Biomass"
+            },
+            "CPR": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/CPR",
+                "label": "Crop residues"
+            },
+            "WOD": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/WOD",
+                "label": "Wood"
+            },
+            "RAW": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/RAW",
+                "label": "All raw materials"
+            },
+            "MAZ": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/MAZ",
+                "label": "Maize"
+            },
+            "CRO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/CRO",
+                "label": "Crops"
+            },
+            "COL": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/COL",
+                "label": "Coal"
+            },
+            "SOR": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/SOR",
+                "label": "Sorghum"
+            },
+            "PET": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/PET",
+                "label": "Petroleum"
+            },
+            "WHE": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/WHE",
+                "label": "Wheat"
+            },
+            "FOF": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/FOF",
+                "label": "Fossil fuels"
+            },
+            "GAS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/GAS",
+                "label": "Natural gas"
+            },
+            "ONT": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/ONT",
+                "label": "Oil shale and tar sands"
+            },
+            "WCH": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/WCH",
+                "label": "Wild catch and harvest"
+            },
+            "NFO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/NFO",
+                "label": "Non-ferrous ores"
+            },
+            "MEO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/MEO",
+                "label": "Metal ores"
+            },
+            "GBO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/GBO",
+                "label": "Grazed biomass and fodder crops"
+            },
+            "AGR": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/AGR",
+                "label": "Agricultural products"
+            },
+            "ALP": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/ALP",
+                "label": "All products"
+            },
+            "CLO": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/CLO",
+                "label": "Clothing"
+            },
+            "IND": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/IND",
+                "label": "Industrial products"
+            },
+            "TEX": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/TEX",
+                "label": "Textiles"
+            },
+            "ARM": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/ARM",
+                "label": "Arms"
+            },
+            "OIL": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfProduct/OIL",
+                "label": "Oil"
+            }
+        }
+    },
+    "migratoryStatusCode": {
+        "uri": "http://metadata.un.org/sdg/codes/migratoryStatus",
+        "label": "migratory status",
+        "codes": {
+            "MS_EUMIGRANT": {
+                "uri": "http://metadata.un.org/sdg/codes/migratoryStatus/MS_EUMIGRANT",
+                "label": "EU Migrants"
+            },
+            "MS_NONEUMIGRANT": {
+                "uri": "http://metadata.un.org/sdg/codes/migratoryStatus/MS_NONEUMIGRANT",
+                "label": "Non-EU Migrants"
+            },
+            "NONMIG": {
+                "uri": "http://metadata.un.org/sdg/codes/migratoryStatus/NONMIG",
+                "label": "Non-migrant"
+            },
+            "_T": {
+                "uri": "http://metadata.un.org/sdg/codes/migratoryStatus/_T",
+                "label": "No breakdown"
+            },
+            "MIGPER": {
+                "uri": "http://metadata.un.org/sdg/codes/migratoryStatus/MIGPER",
+                "label": "Migrants"
+            }
+        }
+    },
+    "typeOfSpeedCode": {
+        "uri": "http://metadata.un.org/sdg/codes/typeOfSpeed",
+        "label": "type of speed",
+        "codes": {
+            "256KT2MBPS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSpeed/256KT2MBPS",
+                "label": "Between 256 kbps and 2 mbps"
+            },
+            "10MBPS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSpeed/10MBPS",
+                "label": "10 mbps and over"
+            },
+            "2MT10MBPS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSpeed/2MT10MBPS",
+                "label": "Between 2 mbps and 10 mbps"
+            },
+            "ANYS": {
+                "uri": "http://metadata.un.org/sdg/codes/typeOfSpeed/ANYS",
+                "label": "Any speed"
+            }
+        }
+    }
+}
