@@ -6,15 +6,10 @@
         "DataSet": "http://purl.org/linked-data/cube#DataSet",
         "DataSetInfo": "http://purl.org/linked-data/cube#DataSet",
         "Observation": "http://purl.org/linked-data/cube#Observation",
-        "ObservationGroup": "http://purl.org/linked-data/cube#ObservationGroup",
         "Slice": "http://purl.org/linked-data/cube#Slice",
-        "ComponentSet": "http://purl.org/linked-data/cube#ComponentSet",
         "DimensionProperty": "http://purl.org/linked-data/cube#DimensionProperty",
         "MeasureProperty": "http://purl.org/linked-data/cube#MeasureProperty",
-        "ComponentProperty": "http://purl.org/linked-data/cube#ComponentProperty",
         "DataStructureDefinition": "http://purl.org/linked-data/cube#DataStructureDefinition",
-        "ComponentSpecification": "http://purl.org/linked-data/cube#ComponentSpecification",
-        "SliceKey": "http://purl.org/linked-data/cube#SliceKey",
         "Concept": "http://www.w3.org/2004/02/skos/core#Concept",
         "Code": "http://www.w3.org/2004/02/skos/core#Concept",
         "CodeScheme": "http://www.w3.org/2004/02/skos/core#ConceptScheme",
@@ -59,10 +54,6 @@
         "codeList": "http://purl.org/linked-data/cube#codeList",
         "sdmxDSDcode": "http://metadata.un.org/sdg/codes#sdmxDSDcode",
         "codes": {
-            "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
-        },
-        "codeIDs": {
-            "@type": "@id",
             "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
         }
     }
