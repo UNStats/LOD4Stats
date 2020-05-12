@@ -3169,793 +3169,793 @@ sdg:EN_MAT_FTPRPG skos:prefLabel "Material footprint per unit of GDP, by type of
 
 sdg:EN_MAT_FTPRTN skos:prefLabel "Material footprint, by type of raw material (tonnes)"@en .
 
-sdg:SI_POV_DAY1 skos:notation "SI_POV_DAY1" .
+sdg:SI_POV_DAY1 skos:notation "SI_POV_DAY1"^^sdgo:SDGCode .
 
-sdg:SI_POV_EMP1 skos:notation "SI_POV_EMP1" .
+sdg:SI_POV_EMP1 skos:notation "SI_POV_EMP1"^^sdgo:SDGCode .
 
-sdg:SI_POV_NAHC skos:notation "SI_POV_NAHC" .
+sdg:SI_POV_NAHC skos:notation "SI_POV_NAHC"^^sdgo:SDGCode .
 
-sdg:SI_COV_BENFTS skos:notation "SI_COV_BENFTS" .
+sdg:SI_COV_BENFTS skos:notation "SI_COV_BENFTS"^^sdgo:SDGCode .
 
-sdg:SI_COV_CHLD skos:notation "SI_COV_CHLD" .
+sdg:SI_COV_CHLD skos:notation "SI_COV_CHLD"^^sdgo:SDGCode .
 
-sdg:SI_COV_DISAB skos:notation "SI_COV_DISAB" .
+sdg:SI_COV_DISAB skos:notation "SI_COV_DISAB"^^sdgo:SDGCode .
 
-sdg:SI_COV_LMKT skos:notation "SI_COV_LMKT" .
+sdg:SI_COV_LMKT skos:notation "SI_COV_LMKT"^^sdgo:SDGCode .
 
-sdg:SI_COV_LMKTPQ skos:notation "SI_COV_LMKTPQ" .
+sdg:SI_COV_LMKTPQ skos:notation "SI_COV_LMKTPQ"^^sdgo:SDGCode .
 
-sdg:SI_COV_MATNL skos:notation "SI_COV_MATNL" .
+sdg:SI_COV_MATNL skos:notation "SI_COV_MATNL"^^sdgo:SDGCode .
 
-sdg:SI_COV_PENSN skos:notation "SI_COV_PENSN" .
+sdg:SI_COV_PENSN skos:notation "SI_COV_PENSN"^^sdgo:SDGCode .
 
-sdg:SI_COV_POOR skos:notation "SI_COV_POOR" .
+sdg:SI_COV_POOR skos:notation "SI_COV_POOR"^^sdgo:SDGCode .
 
-sdg:SI_COV_SOCAST skos:notation "SI_COV_SOCAST" .
+sdg:SI_COV_SOCAST skos:notation "SI_COV_SOCAST"^^sdgo:SDGCode .
 
-sdg:SI_COV_SOCASTPQ skos:notation "SI_COV_SOCASTPQ" .
+sdg:SI_COV_SOCASTPQ skos:notation "SI_COV_SOCASTPQ"^^sdgo:SDGCode .
 
-sdg:SI_COV_SOCINS skos:notation "SI_COV_SOCINS" .
+sdg:SI_COV_SOCINS skos:notation "SI_COV_SOCINS"^^sdgo:SDGCode .
 
-sdg:SI_COV_SOCINSPQ skos:notation "SI_COV_SOCINSPQ" .
+sdg:SI_COV_SOCINSPQ skos:notation "SI_COV_SOCINSPQ"^^sdgo:SDGCode .
 
-sdg:SI_COV_UEMP skos:notation "SI_COV_UEMP" .
+sdg:SI_COV_UEMP skos:notation "SI_COV_UEMP"^^sdgo:SDGCode .
 
-sdg:SI_COV_VULN skos:notation "SI_COV_VULN" .
+sdg:SI_COV_VULN skos:notation "SI_COV_VULN"^^sdgo:SDGCode .
 
-sdg:SI_COV_WKINJRY skos:notation "SI_COV_WKINJRY" .
+sdg:SI_COV_WKINJRY skos:notation "SI_COV_WKINJRY"^^sdgo:SDGCode .
 
-sdg:SP_ACS_BSRVH2O skos:notation "SP_ACS_BSRVH2O" .
+sdg:SP_ACS_BSRVH2O skos:notation "SP_ACS_BSRVH2O"^^sdgo:SDGCode .
 
-sdg:SP_ACS_BSRVSAN skos:notation "SP_ACS_BSRVSAN" .
+sdg:SP_ACS_BSRVSAN skos:notation "SP_ACS_BSRVSAN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_AFFCT skos:notation "VC_DSR_AFFCT" .
+sdg:VC_DSR_AFFCT skos:notation "VC_DSR_AFFCT"^^sdgo:SDGCode .
 
-sdg:VC_DSR_DAFF skos:notation "VC_DSR_DAFF" .
+sdg:VC_DSR_DAFF skos:notation "VC_DSR_DAFF"^^sdgo:SDGCode .
 
-sdg:VC_DSR_DDHN skos:notation "VC_DSR_DDHN" .
+sdg:VC_DSR_DDHN skos:notation "VC_DSR_DDHN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_DYHN skos:notation "VC_DSR_DYHN" .
+sdg:VC_DSR_DYHN skos:notation "VC_DSR_DYHN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_IJILN skos:notation "VC_DSR_IJILN" .
+sdg:VC_DSR_IJILN skos:notation "VC_DSR_IJILN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_MISS skos:notation "VC_DSR_MISS" .
+sdg:VC_DSR_MISS skos:notation "VC_DSR_MISS"^^sdgo:SDGCode .
 
-sdg:VC_DSR_MMHN skos:notation "VC_DSR_MMHN" .
+sdg:VC_DSR_MMHN skos:notation "VC_DSR_MMHN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_MORT skos:notation "VC_DSR_MORT" .
+sdg:VC_DSR_MORT skos:notation "VC_DSR_MORT"^^sdgo:SDGCode .
 
-sdg:VC_DSR_MTMN skos:notation "VC_DSR_MTMN" .
+sdg:VC_DSR_MTMN skos:notation "VC_DSR_MTMN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_MTMP skos:notation "VC_DSR_MTMP" .
+sdg:VC_DSR_MTMP skos:notation "VC_DSR_MTMP"^^sdgo:SDGCode .
 
-sdg:VC_DSR_PDAN skos:notation "VC_DSR_PDAN" .
+sdg:VC_DSR_PDAN skos:notation "VC_DSR_PDAN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_PDLN skos:notation "VC_DSR_PDLN" .
+sdg:VC_DSR_PDLN skos:notation "VC_DSR_PDLN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_PDYN skos:notation "VC_DSR_PDYN" .
+sdg:VC_DSR_PDYN skos:notation "VC_DSR_PDYN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_AGLH skos:notation "VC_DSR_AGLH" .
+sdg:VC_DSR_AGLH skos:notation "VC_DSR_AGLH"^^sdgo:SDGCode .
 
-sdg:VC_DSR_AGLN skos:notation "VC_DSR_AGLN" .
+sdg:VC_DSR_AGLN skos:notation "VC_DSR_AGLN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_CHLN skos:notation "VC_DSR_CHLN" .
+sdg:VC_DSR_CHLN skos:notation "VC_DSR_CHLN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_CILN skos:notation "VC_DSR_CILN" .
+sdg:VC_DSR_CILN skos:notation "VC_DSR_CILN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_DDPA skos:notation "VC_DSR_DDPA" .
+sdg:VC_DSR_DDPA skos:notation "VC_DSR_DDPA"^^sdgo:SDGCode .
 
-sdg:VC_DSR_GDPLS skos:notation "VC_DSR_GDPLS" .
+sdg:VC_DSR_GDPLS skos:notation "VC_DSR_GDPLS"^^sdgo:SDGCode .
 
-sdg:VC_DSR_HOLH skos:notation "VC_DSR_HOLH" .
+sdg:VC_DSR_HOLH skos:notation "VC_DSR_HOLH"^^sdgo:SDGCode .
 
-sdg:VC_DSR_HOLN skos:notation "VC_DSR_HOLN" .
+sdg:VC_DSR_HOLN skos:notation "VC_DSR_HOLN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_LSGP skos:notation "VC_DSR_LSGP" .
+sdg:VC_DSR_LSGP skos:notation "VC_DSR_LSGP"^^sdgo:SDGCode .
 
-sdg:SG_DSR_LGRGSR skos:notation "SG_DSR_LGRGSR" .
+sdg:SG_DSR_LGRGSR skos:notation "SG_DSR_LGRGSR"^^sdgo:SDGCode .
 
-sdg:SG_DSR_SILN skos:notation "SG_DSR_SILN" .
+sdg:SG_DSR_SILN skos:notation "SG_DSR_SILN"^^sdgo:SDGCode .
 
-sdg:SG_DSR_SILS skos:notation "SG_DSR_SILS" .
+sdg:SG_DSR_SILS skos:notation "SG_DSR_SILS"^^sdgo:SDGCode .
 
-sdg:SG_GOV_LOGV skos:notation "SG_GOV_LOGV" .
+sdg:SG_GOV_LOGV skos:notation "SG_GOV_LOGV"^^sdgo:SDGCode .
 
-sdg:SD_XPD_ESED skos:notation "SD_XPD_ESED" .
+sdg:SD_XPD_ESED skos:notation "SD_XPD_ESED"^^sdgo:SDGCode .
 
-sdg:SI_HEI_BTN40 skos:notation "SI_HEI_BTN40" .
+sdg:SI_HEI_BTN40 skos:notation "SI_HEI_BTN40"^^sdgo:SDGCode .
 
-sdg:SI_HEI_TOTL skos:notation "SI_HEI_TOTL" .
+sdg:SI_HEI_TOTL skos:notation "SI_HEI_TOTL"^^sdgo:SDGCode .
 
-sdg:SL_EMP_GTOTL skos:notation "SL_EMP_GTOTL" .
+sdg:SL_EMP_GTOTL skos:notation "SL_EMP_GTOTL"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSANL skos:notation "FI_FSI_FSANL" .
+sdg:FI_FSI_FSANL skos:notation "FI_FSI_FSANL"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSERA skos:notation "FI_FSI_FSERA" .
+sdg:FI_FSI_FSERA skos:notation "FI_FSI_FSERA"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSKA skos:notation "FI_FSI_FSKA" .
+sdg:FI_FSI_FSKA skos:notation "FI_FSI_FSKA"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSKNL skos:notation "FI_FSI_FSKNL" .
+sdg:FI_FSI_FSKNL skos:notation "FI_FSI_FSKNL"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSKRTC skos:notation "FI_FSI_FSKRTC" .
+sdg:FI_FSI_FSKRTC skos:notation "FI_FSI_FSKRTC"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSLS skos:notation "FI_FSI_FSLS" .
+sdg:FI_FSI_FSLS skos:notation "FI_FSI_FSLS"^^sdgo:SDGCode .
 
-sdg:FI_FSI_FSSNO skos:notation "FI_FSI_FSSNO" .
+sdg:FI_FSI_FSSNO skos:notation "FI_FSI_FSSNO"^^sdgo:SDGCode .
 
-sdg:SG_INT_MBRDEV skos:notation "SG_INT_MBRDEV" .
+sdg:SG_INT_MBRDEV skos:notation "SG_INT_MBRDEV"^^sdgo:SDGCode .
 
-sdg:SG_INT_VRTDEV skos:notation "SG_INT_VRTDEV" .
+sdg:SG_INT_VRTDEV skos:notation "SG_INT_VRTDEV"^^sdgo:SDGCode .
 
-sdg:TM_TRF_ZERO skos:notation "TM_TRF_ZERO" .
+sdg:TM_TRF_ZERO skos:notation "TM_TRF_ZERO"^^sdgo:SDGCode .
 
-sdg:DC_TRF_TOTDL skos:notation "DC_TRF_TOTDL" .
+sdg:DC_TRF_TOTDL skos:notation "DC_TRF_TOTDL"^^sdgo:SDGCode .
 
-sdg:DC_TRF_TOTL skos:notation "DC_TRF_TOTL" .
+sdg:DC_TRF_TOTL skos:notation "DC_TRF_TOTL"^^sdgo:SDGCode .
 
-sdg:SI_RMT_COST skos:notation "SI_RMT_COST" .
+sdg:SI_RMT_COST skos:notation "SI_RMT_COST"^^sdgo:SDGCode .
 
-sdg:EN_LND_SLUM skos:notation "EN_LND_SLUM" .
+sdg:EN_LND_SLUM skos:notation "EN_LND_SLUM"^^sdgo:SDGCode .
 
-sdg:VC_DSR_BSDN skos:notation "VC_DSR_BSDN" .
+sdg:VC_DSR_BSDN skos:notation "VC_DSR_BSDN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_CDAN skos:notation "VC_DSR_CDAN" .
+sdg:VC_DSR_CDAN skos:notation "VC_DSR_CDAN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_CDYN skos:notation "VC_DSR_CDYN" .
+sdg:VC_DSR_CDYN skos:notation "VC_DSR_CDYN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_EFDN skos:notation "VC_DSR_EFDN" .
+sdg:VC_DSR_EFDN skos:notation "VC_DSR_EFDN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_ESDN skos:notation "VC_DSR_ESDN" .
+sdg:VC_DSR_ESDN skos:notation "VC_DSR_ESDN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_HFDN skos:notation "VC_DSR_HFDN" .
+sdg:VC_DSR_HFDN skos:notation "VC_DSR_HFDN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_HSDN skos:notation "VC_DSR_HSDN" .
+sdg:VC_DSR_HSDN skos:notation "VC_DSR_HSDN"^^sdgo:SDGCode .
 
-sdg:VC_DSR_OBDN skos:notation "VC_DSR_OBDN" .
+sdg:VC_DSR_OBDN skos:notation "VC_DSR_OBDN"^^sdgo:SDGCode .
 
-sdg:EN_REF_WASCOL skos:notation "EN_REF_WASCOL" .
+sdg:EN_REF_WASCOL skos:notation "EN_REF_WASCOL"^^sdgo:SDGCode .
 
-sdg:EN_ATM_PM25 skos:notation "EN_ATM_PM25" .
+sdg:EN_ATM_PM25 skos:notation "EN_ATM_PM25"^^sdgo:SDGCode .
 
-sdg:SG_SCP_CNTRY skos:notation "SG_SCP_CNTRY" .
+sdg:SG_SCP_CNTRY skos:notation "SG_SCP_CNTRY"^^sdgo:SDGCode .
 
-sdg:SG_SCP_CORMEC skos:notation "SG_SCP_CORMEC" .
+sdg:SG_SCP_CORMEC skos:notation "SG_SCP_CORMEC"^^sdgo:SDGCode .
 
-sdg:SG_SCP_MACPOL skos:notation "SG_SCP_MACPOL" .
+sdg:SG_SCP_MACPOL skos:notation "SG_SCP_MACPOL"^^sdgo:SDGCode .
 
-sdg:SG_SCP_POLINS skos:notation "SG_SCP_POLINS" .
+sdg:SG_SCP_POLINS skos:notation "SG_SCP_POLINS"^^sdgo:SDGCode .
 
-sdg:EN_MAT_DOMCMPC skos:notation "EN_MAT_DOMCMPC" .
+sdg:EN_MAT_DOMCMPC skos:notation "EN_MAT_DOMCMPC"^^sdgo:SDGCode .
 
-sdg:EN_MAT_DOMCMPG skos:notation "EN_MAT_DOMCMPG" .
+sdg:EN_MAT_DOMCMPG skos:notation "EN_MAT_DOMCMPG"^^sdgo:SDGCode .
 
-sdg:EN_MAT_DOMCMPT skos:notation "EN_MAT_DOMCMPT" .
+sdg:EN_MAT_DOMCMPT skos:notation "EN_MAT_DOMCMPT"^^sdgo:SDGCode .
 
-sdg:SG_HAZ_CMRBASEL skos:notation "SG_HAZ_CMRBASEL" .
+sdg:SG_HAZ_CMRBASEL skos:notation "SG_HAZ_CMRBASEL"^^sdgo:SDGCode .
 
-sdg:SG_HAZ_CMRMNTRL skos:notation "SG_HAZ_CMRMNTRL" .
+sdg:SG_HAZ_CMRMNTRL skos:notation "SG_HAZ_CMRMNTRL"^^sdgo:SDGCode .
 
-sdg:SG_HAZ_CMRROTDAM skos:notation "SG_HAZ_CMRROTDAM" .
+sdg:SG_HAZ_CMRROTDAM skos:notation "SG_HAZ_CMRROTDAM"^^sdgo:SDGCode .
 
-sdg:SG_HAZ_CMRSTHOLM skos:notation "SG_HAZ_CMRSTHOLM" .
+sdg:SG_HAZ_CMRSTHOLM skos:notation "SG_HAZ_CMRSTHOLM"^^sdgo:SDGCode .
 
-sdg:ER_FFS_PRTSPC skos:notation "ER_FFS_PRTSPC" .
+sdg:ER_FFS_PRTSPC skos:notation "ER_FFS_PRTSPC"^^sdgo:SDGCode .
 
-sdg:ER_FFS_PRTSPR skos:notation "ER_FFS_PRTSPR" .
+sdg:ER_FFS_PRTSPR skos:notation "ER_FFS_PRTSPR"^^sdgo:SDGCode .
 
-sdg:ER_FFS_PRTSST skos:notation "ER_FFS_PRTSST" .
+sdg:ER_FFS_PRTSST skos:notation "ER_FFS_PRTSST"^^sdgo:SDGCode .
 
-sdg:ER_MRN_MARIN skos:notation "ER_MRN_MARIN" .
+sdg:ER_MRN_MARIN skos:notation "ER_MRN_MARIN"^^sdgo:SDGCode .
 
-sdg:ER_MRN_MARINT skos:notation "ER_MRN_MARINT" .
+sdg:ER_MRN_MARINT skos:notation "ER_MRN_MARINT"^^sdgo:SDGCode .
 
-sdg:ER_MRN_MPA skos:notation "ER_MRN_MPA" .
+sdg:ER_MRN_MPA skos:notation "ER_MRN_MPA"^^sdgo:SDGCode .
 
-sdg:ER_REG_UNFCIM skos:notation "ER_REG_UNFCIM" .
+sdg:ER_REG_UNFCIM skos:notation "ER_REG_UNFCIM"^^sdgo:SDGCode .
 
-sdg:ER_RDE_OSEX skos:notation "ER_RDE_OSEX" .
+sdg:ER_RDE_OSEX skos:notation "ER_RDE_OSEX"^^sdgo:SDGCode .
 
-sdg:ER_REG_SSFRAR skos:notation "ER_REG_SSFRAR" .
+sdg:ER_REG_SSFRAR skos:notation "ER_REG_SSFRAR"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRST skos:notation "AG_LND_FRST" .
+sdg:AG_LND_FRST skos:notation "AG_LND_FRST"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTN skos:notation "AG_LND_FRSTN" .
+sdg:AG_LND_FRSTN skos:notation "AG_LND_FRSTN"^^sdgo:SDGCode .
 
-sdg:AG_LND_TOTL skos:notation "AG_LND_TOTL" .
+sdg:AG_LND_TOTL skos:notation "AG_LND_TOTL"^^sdgo:SDGCode .
 
-sdg:ER_PTD_FRWRT skos:notation "ER_PTD_FRWRT" .
+sdg:ER_PTD_FRWRT skos:notation "ER_PTD_FRWRT"^^sdgo:SDGCode .
 
-sdg:ER_PTD_TERRS skos:notation "ER_PTD_TERRS" .
+sdg:ER_PTD_TERRS skos:notation "ER_PTD_TERRS"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTBIOPHA skos:notation "AG_LND_FRSTBIOPHA" .
+sdg:AG_LND_FRSTBIOPHA skos:notation "AG_LND_FRSTBIOPHA"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTCERT skos:notation "AG_LND_FRSTCERT" .
+sdg:AG_LND_FRSTCERT skos:notation "AG_LND_FRSTCERT"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTCHG skos:notation "AG_LND_FRSTCHG" .
+sdg:AG_LND_FRSTCHG skos:notation "AG_LND_FRSTCHG"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTMGT skos:notation "AG_LND_FRSTMGT" .
+sdg:AG_LND_FRSTMGT skos:notation "AG_LND_FRSTMGT"^^sdgo:SDGCode .
 
-sdg:AG_LND_FRSTPRCT skos:notation "AG_LND_FRSTPRCT" .
+sdg:AG_LND_FRSTPRCT skos:notation "AG_LND_FRSTPRCT"^^sdgo:SDGCode .
 
-sdg:AG_LND_DGRD skos:notation "AG_LND_DGRD" .
+sdg:AG_LND_DGRD skos:notation "AG_LND_DGRD"^^sdgo:SDGCode .
 
-sdg:ER_PTD_MOTN skos:notation "ER_PTD_MOTN" .
+sdg:ER_PTD_MOTN skos:notation "ER_PTD_MOTN"^^sdgo:SDGCode .
 
-sdg:ER_MTN_GRNCOV skos:notation "ER_MTN_GRNCOV" .
+sdg:ER_MTN_GRNCOV skos:notation "ER_MTN_GRNCOV"^^sdgo:SDGCode .
 
-sdg:ER_MTN_GRNCVI skos:notation "ER_MTN_GRNCVI" .
+sdg:ER_MTN_GRNCVI skos:notation "ER_MTN_GRNCVI"^^sdgo:SDGCode .
 
-sdg:ER_MTN_TOTL skos:notation "ER_MTN_TOTL" .
+sdg:ER_MTN_TOTL skos:notation "ER_MTN_TOTL"^^sdgo:SDGCode .
 
-sdg:ER_RSK_LSTI skos:notation "ER_RSK_LSTI" .
+sdg:ER_RSK_LSTI skos:notation "ER_RSK_LSTI"^^sdgo:SDGCode .
 
-sdg:ER_CBD_ABSCLRHS skos:notation "ER_CBD_ABSCLRHS" .
+sdg:ER_CBD_ABSCLRHS skos:notation "ER_CBD_ABSCLRHS"^^sdgo:SDGCode .
 
-sdg:ER_CBD_NAGOYA skos:notation "ER_CBD_NAGOYA" .
+sdg:ER_CBD_NAGOYA skos:notation "ER_CBD_NAGOYA"^^sdgo:SDGCode .
 
-sdg:ER_CBD_ORSPGRFA skos:notation "ER_CBD_ORSPGRFA" .
+sdg:ER_CBD_ORSPGRFA skos:notation "ER_CBD_ORSPGRFA"^^sdgo:SDGCode .
 
-sdg:ER_CBD_PTYPGRFA skos:notation "ER_CBD_PTYPGRFA" .
+sdg:ER_CBD_PTYPGRFA skos:notation "ER_CBD_PTYPGRFA"^^sdgo:SDGCode .
 
-sdg:ER_CBD_SMTA skos:notation "ER_CBD_SMTA" .
+sdg:ER_CBD_SMTA skos:notation "ER_CBD_SMTA"^^sdgo:SDGCode .
 
-sdg:DC_ODA_BDVDL skos:notation "DC_ODA_BDVDL" .
+sdg:DC_ODA_BDVDL skos:notation "DC_ODA_BDVDL"^^sdgo:SDGCode .
 
-sdg:DC_ODA_BDVL skos:notation "DC_ODA_BDVL" .
+sdg:DC_ODA_BDVL skos:notation "DC_ODA_BDVL"^^sdgo:SDGCode .
 
-sdg:VC_IHR_PSRC skos:notation "VC_IHR_PSRC" .
+sdg:VC_IHR_PSRC skos:notation "VC_IHR_PSRC"^^sdgo:SDGCode .
 
-sdg:VC_IHR_PSRCN skos:notation "VC_IHR_PSRCN" .
+sdg:VC_IHR_PSRCN skos:notation "VC_IHR_PSRCN"^^sdgo:SDGCode .
 
-sdg:VC_VOV_PHYL skos:notation "VC_VOV_PHYL" .
+sdg:VC_VOV_PHYL skos:notation "VC_VOV_PHYL"^^sdgo:SDGCode .
 
-sdg:VC_VOV_ROBB skos:notation "VC_VOV_ROBB" .
+sdg:VC_VOV_ROBB skos:notation "VC_VOV_ROBB"^^sdgo:SDGCode .
 
-sdg:VC_VOV_SEXL skos:notation "VC_VOV_SEXL" .
+sdg:VC_VOV_SEXL skos:notation "VC_VOV_SEXL"^^sdgo:SDGCode .
 
-sdg:VC_SNS_WALN skos:notation "VC_SNS_WALN" .
+sdg:VC_SNS_WALN skos:notation "VC_SNS_WALN"^^sdgo:SDGCode .
 
-sdg:SG_INF_ACCSS skos:notation "SG_INF_ACCSS" .
+sdg:SG_INF_ACCSS skos:notation "SG_INF_ACCSS"^^sdgo:SDGCode .
 
-sdg:VC_VAW_PHYPYV skos:notation "VC_VAW_PHYPYV" .
+sdg:VC_VAW_PHYPYV skos:notation "VC_VAW_PHYPYV"^^sdgo:SDGCode .
 
-sdg:VC_HTF_DETV skos:notation "VC_HTF_DETV" .
+sdg:VC_HTF_DETV skos:notation "VC_HTF_DETV"^^sdgo:SDGCode .
 
-sdg:VC_HTF_DETVFL skos:notation "VC_HTF_DETVFL" .
+sdg:VC_HTF_DETVFL skos:notation "VC_HTF_DETVFL"^^sdgo:SDGCode .
 
-sdg:VC_HTF_DETVOG skos:notation "VC_HTF_DETVOG" .
+sdg:VC_HTF_DETVOG skos:notation "VC_HTF_DETVOG"^^sdgo:SDGCode .
 
-sdg:VC_HTF_DETVOP skos:notation "VC_HTF_DETVOP" .
+sdg:VC_HTF_DETVOP skos:notation "VC_HTF_DETVOP"^^sdgo:SDGCode .
 
-sdg:VC_HTF_DETVSX skos:notation "VC_HTF_DETVSX" .
+sdg:VC_HTF_DETVSX skos:notation "VC_HTF_DETVSX"^^sdgo:SDGCode .
 
-sdg:VC_VAW_SXVLN skos:notation "VC_VAW_SXVLN" .
+sdg:VC_VAW_SXVLN skos:notation "VC_VAW_SXVLN"^^sdgo:SDGCode .
 
-sdg:VC_PRR_PHYV skos:notation "VC_PRR_PHYV" .
+sdg:VC_PRR_PHYV skos:notation "VC_PRR_PHYV"^^sdgo:SDGCode .
 
-sdg:VC_PRR_ROBB skos:notation "VC_PRR_ROBB" .
+sdg:VC_PRR_ROBB skos:notation "VC_PRR_ROBB"^^sdgo:SDGCode .
 
-sdg:VC_PRR_SEXV skos:notation "VC_PRR_SEXV" .
+sdg:VC_PRR_SEXV skos:notation "VC_PRR_SEXV"^^sdgo:SDGCode .
 
-sdg:VC_PRS_UNSEC skos:notation "VC_PRS_UNSEC" .
+sdg:VC_PRS_UNSEC skos:notation "VC_PRS_UNSEC"^^sdgo:SDGCode .
 
-sdg:IU_COR_BRIB skos:notation "IU_COR_BRIB" .
+sdg:IU_COR_BRIB skos:notation "IU_COR_BRIB"^^sdgo:SDGCode .
 
-sdg:IC_FRM_BRIB skos:notation "IC_FRM_BRIB" .
+sdg:IC_FRM_BRIB skos:notation "IC_FRM_BRIB"^^sdgo:SDGCode .
 
-sdg:GF_XPD_GBPC skos:notation "GF_XPD_GBPC" .
+sdg:GF_XPD_GBPC skos:notation "GF_XPD_GBPC"^^sdgo:SDGCode .
 
-sdg:SG_REG_BRTH skos:notation "SG_REG_BRTH" .
+sdg:SG_REG_BRTH skos:notation "SG_REG_BRTH"^^sdgo:SDGCode .
 
-sdg:SG_NHR_IMPLN skos:notation "SG_NHR_IMPLN" .
+sdg:SG_NHR_IMPLN skos:notation "SG_NHR_IMPLN"^^sdgo:SDGCode .
 
-sdg:SG_NHR_INTEXSTN skos:notation "SG_NHR_INTEXSTN" .
+sdg:SG_NHR_INTEXSTN skos:notation "SG_NHR_INTEXSTN"^^sdgo:SDGCode .
 
-sdg:SG_NHR_NOAPPLN skos:notation "SG_NHR_NOAPPLN" .
+sdg:SG_NHR_NOAPPLN skos:notation "SG_NHR_NOAPPLN"^^sdgo:SDGCode .
 
-sdg:SG_NHR_NOSTUSN skos:notation "SG_NHR_NOSTUSN" .
+sdg:SG_NHR_NOSTUSN skos:notation "SG_NHR_NOSTUSN"^^sdgo:SDGCode .
 
-sdg:GR_G14_GDP skos:notation "GR_G14_GDP" .
+sdg:GR_G14_GDP skos:notation "GR_G14_GDP"^^sdgo:SDGCode .
 
-sdg:GC_GOB_TAXD skos:notation "GC_GOB_TAXD" .
+sdg:GC_GOB_TAXD skos:notation "GC_GOB_TAXD"^^sdgo:SDGCode .
 
-sdg:TM_TAX_WWTAV skos:notation "TM_TAX_WWTAV" .
+sdg:TM_TAX_WWTAV skos:notation "TM_TAX_WWTAV"^^sdgo:SDGCode .
 
-sdg:TM_TAX_ATRFD skos:notation "TM_TAX_ATRFD" .
+sdg:TM_TAX_ATRFD skos:notation "TM_TAX_ATRFD"^^sdgo:SDGCode .
 
-sdg:SG_PLN_PRPOLRES skos:notation "SG_PLN_PRPOLRES" .
+sdg:SG_PLN_PRPOLRES skos:notation "SG_PLN_PRPOLRES"^^sdgo:SDGCode .
 
-sdg:SG_PLN_PRVNDI skos:notation "SG_PLN_PRVNDI" .
+sdg:SG_PLN_PRVNDI skos:notation "SG_PLN_PRVNDI"^^sdgo:SDGCode .
 
-sdg:SG_PLN_PRVRICTRY skos:notation "SG_PLN_PRVRICTRY" .
+sdg:SG_PLN_PRVRICTRY skos:notation "SG_PLN_PRVRICTRY"^^sdgo:SDGCode .
 
-sdg:SG_PLN_PRVRIMON skos:notation "SG_PLN_PRVRIMON" .
+sdg:SG_PLN_PRVRIMON skos:notation "SG_PLN_PRVRIMON"^^sdgo:SDGCode .
 
-sdg:SG_PLN_RECNDI skos:notation "SG_PLN_RECNDI" .
+sdg:SG_PLN_RECNDI skos:notation "SG_PLN_RECNDI"^^sdgo:SDGCode .
 
-sdg:SG_PLN_RECRICTRY skos:notation "SG_PLN_RECRICTRY" .
+sdg:SG_PLN_RECRICTRY skos:notation "SG_PLN_RECRICTRY"^^sdgo:SDGCode .
 
-sdg:SG_PLN_RECRIMON skos:notation "SG_PLN_RECRIMON" .
+sdg:SG_PLN_RECRIMON skos:notation "SG_PLN_RECRIMON"^^sdgo:SDGCode .
 
-sdg:SG_PLN_REPOLRES skos:notation "SG_PLN_REPOLRES" .
+sdg:SG_PLN_REPOLRES skos:notation "SG_PLN_REPOLRES"^^sdgo:SDGCode .
 
-sdg:SG_PLN_MSTKSDG skos:notation "SG_PLN_MSTKSDG" .
+sdg:SG_PLN_MSTKSDG skos:notation "SG_PLN_MSTKSDG"^^sdgo:SDGCode .
 
-sdg:SG_STT_FPOS skos:notation "SG_STT_FPOS" .
+sdg:SG_STT_FPOS skos:notation "SG_STT_FPOS"^^sdgo:SDGCode .
 
-sdg:SG_STT_NSDSFDDNR skos:notation "SG_STT_NSDSFDDNR" .
+sdg:SG_STT_NSDSFDDNR skos:notation "SG_STT_NSDSFDDNR"^^sdgo:SDGCode .
 
-sdg:SG_STT_NSDSFDGVT skos:notation "SG_STT_NSDSFDGVT" .
+sdg:SG_STT_NSDSFDGVT skos:notation "SG_STT_NSDSFDGVT"^^sdgo:SDGCode .
 
-sdg:SG_STT_NSDSFDOTHR skos:notation "SG_STT_NSDSFDOTHR" .
+sdg:SG_STT_NSDSFDOTHR skos:notation "SG_STT_NSDSFDOTHR"^^sdgo:SDGCode .
 
-sdg:SG_STT_NSDSFND skos:notation "SG_STT_NSDSFND" .
+sdg:SG_STT_NSDSFND skos:notation "SG_STT_NSDSFND"^^sdgo:SDGCode .
 
-sdg:SG_STT_NSDSIMPL skos:notation "SG_STT_NSDSIMPL" .
+sdg:SG_STT_NSDSIMPL skos:notation "SG_STT_NSDSIMPL"^^sdgo:SDGCode .
 
-sdg:SG_STT_CAPTY skos:notation "SG_STT_CAPTY" .
+sdg:SG_STT_CAPTY skos:notation "SG_STT_CAPTY"^^sdgo:SDGCode .
 
-sdg:SG_REG_BRTH90N skos:notation "SG_REG_BRTH90N" .
+sdg:SG_REG_BRTH90N skos:notation "SG_REG_BRTH90N"^^sdgo:SDGCode .
 
-sdg:SG_REG_CENSUSN skos:notation "SG_REG_CENSUSN" .
+sdg:SG_REG_CENSUSN skos:notation "SG_REG_CENSUSN"^^sdgo:SDGCode .
 
-sdg:SG_REG_DETH75N skos:notation "SG_REG_DETH75N" .
+sdg:SG_REG_DETH75N skos:notation "SG_REG_DETH75N"^^sdgo:SDGCode .
 
-sdg:DC_ODA_LDCG skos:notation "DC_ODA_LDCG" .
+sdg:DC_ODA_LDCG skos:notation "DC_ODA_LDCG"^^sdgo:SDGCode .
 
-sdg:DC_ODA_LDCS skos:notation "DC_ODA_LDCS" .
+sdg:DC_ODA_LDCS skos:notation "DC_ODA_LDCS"^^sdgo:SDGCode .
 
-sdg:DC_ODA_LLDC skos:notation "DC_ODA_LLDC" .
+sdg:DC_ODA_LLDC skos:notation "DC_ODA_LLDC"^^sdgo:SDGCode .
 
-sdg:DC_ODA_LLDCG skos:notation "DC_ODA_LLDCG" .
+sdg:DC_ODA_LLDCG skos:notation "DC_ODA_LLDCG"^^sdgo:SDGCode .
 
-sdg:DC_ODA_SIDS skos:notation "DC_ODA_SIDS" .
+sdg:DC_ODA_SIDS skos:notation "DC_ODA_SIDS"^^sdgo:SDGCode .
 
-sdg:DC_ODA_SIDSG skos:notation "DC_ODA_SIDSG" .
+sdg:DC_ODA_SIDSG skos:notation "DC_ODA_SIDSG"^^sdgo:SDGCode .
 
-sdg:DC_ODA_TOTG skos:notation "DC_ODA_TOTG" .
+sdg:DC_ODA_TOTG skos:notation "DC_ODA_TOTG"^^sdgo:SDGCode .
 
-sdg:DC_ODA_TOTGGE skos:notation "DC_ODA_TOTGGE" .
+sdg:DC_ODA_TOTGGE skos:notation "DC_ODA_TOTGGE"^^sdgo:SDGCode .
 
-sdg:DC_ODA_TOTL skos:notation "DC_ODA_TOTL" .
+sdg:DC_ODA_TOTL skos:notation "DC_ODA_TOTL"^^sdgo:SDGCode .
 
-sdg:DC_ODA_TOTLGE skos:notation "DC_ODA_TOTLGE" .
+sdg:DC_ODA_TOTLGE skos:notation "DC_ODA_TOTLGE"^^sdgo:SDGCode .
 
-sdg:BX_TRF_PWKR skos:notation "BX_TRF_PWKR" .
+sdg:BX_TRF_PWKR skos:notation "BX_TRF_PWKR"^^sdgo:SDGCode .
 
-sdg:DT_TDS_DECT skos:notation "DT_TDS_DECT" .
+sdg:DT_TDS_DECT skos:notation "DT_TDS_DECT"^^sdgo:SDGCode .
 
-sdg:IT_NET_BBN skos:notation "IT_NET_BBN" .
+sdg:IT_NET_BBN skos:notation "IT_NET_BBN"^^sdgo:SDGCode .
 
-sdg:IT_NET_BBP skos:notation "IT_NET_BBP" .
+sdg:IT_NET_BBP skos:notation "IT_NET_BBP"^^sdgo:SDGCode .
 
-sdg:IT_USE_ii99 skos:notation "IT_USE_ii99" .
+sdg:IT_USE_ii99 skos:notation "IT_USE_ii99"^^sdgo:SDGCode .
 
-sdg:DC_FTA_TOTAL skos:notation "DC_FTA_TOTAL" .
+sdg:DC_FTA_TOTAL skos:notation "DC_FTA_TOTAL"^^sdgo:SDGCode .
 
-sdg:SN_ITK_DEFC skos:notation "SN_ITK_DEFC" .
+sdg:SN_ITK_DEFC skos:notation "SN_ITK_DEFC"^^sdgo:SDGCode .
 
-sdg:SN_ITK_DEFCN skos:notation "SN_ITK_DEFCN" .
+sdg:SN_ITK_DEFCN skos:notation "SN_ITK_DEFCN"^^sdgo:SDGCode .
 
-sdg:AG_PRD_FIESSI skos:notation "AG_PRD_FIESSI" .
+sdg:AG_PRD_FIESSI skos:notation "AG_PRD_FIESSI"^^sdgo:SDGCode .
 
-sdg:AG_PRD_FIESSIN skos:notation "AG_PRD_FIESSIN" .
+sdg:AG_PRD_FIESSIN skos:notation "AG_PRD_FIESSIN"^^sdgo:SDGCode .
 
-sdg:SH_STA_STUNT skos:notation "SH_STA_STUNT" .
+sdg:SH_STA_STUNT skos:notation "SH_STA_STUNT"^^sdgo:SDGCode .
 
-sdg:SH_STA_STUNTN skos:notation "SH_STA_STUNTN" .
+sdg:SH_STA_STUNTN skos:notation "SH_STA_STUNTN"^^sdgo:SDGCode .
 
-sdg:SH_STA_OVRWGT skos:notation "SH_STA_OVRWGT" .
+sdg:SH_STA_OVRWGT skos:notation "SH_STA_OVRWGT"^^sdgo:SDGCode .
 
-sdg:SH_STA_WASTE skos:notation "SH_STA_WASTE" .
+sdg:SH_STA_WASTE skos:notation "SH_STA_WASTE"^^sdgo:SDGCode .
 
-sdg:SH_STA_WASTEN skos:notation "SH_STA_WASTEN" .
+sdg:SH_STA_WASTEN skos:notation "SH_STA_WASTEN"^^sdgo:SDGCode .
 
-sdg:PD_AGR_SSFP skos:notation "PD_AGR_SSFP" .
+sdg:PD_AGR_SSFP skos:notation "PD_AGR_SSFP"^^sdgo:SDGCode .
 
-sdg:SI_AGR_SSFP skos:notation "SI_AGR_SSFP" .
+sdg:SI_AGR_SSFP skos:notation "SI_AGR_SSFP"^^sdgo:SDGCode .
 
-sdg:ER_GRF_ANIMRCNT skos:notation "ER_GRF_ANIMRCNT" .
+sdg:ER_GRF_ANIMRCNT skos:notation "ER_GRF_ANIMRCNT"^^sdgo:SDGCode .
 
-sdg:ER_GRF_PLNTSTOR skos:notation "ER_GRF_PLNTSTOR" .
+sdg:ER_GRF_PLNTSTOR skos:notation "ER_GRF_PLNTSTOR"^^sdgo:SDGCode .
 
-sdg:ER_RSK_LBREDS skos:notation "ER_RSK_LBREDS" .
+sdg:ER_RSK_LBREDS skos:notation "ER_RSK_LBREDS"^^sdgo:SDGCode .
 
-sdg:AG_PRD_AGVAS skos:notation "AG_PRD_AGVAS" .
+sdg:AG_PRD_AGVAS skos:notation "AG_PRD_AGVAS"^^sdgo:SDGCode .
 
-sdg:AG_PRD_ORTIND skos:notation "AG_PRD_ORTIND" .
+sdg:AG_PRD_ORTIND skos:notation "AG_PRD_ORTIND"^^sdgo:SDGCode .
 
-sdg:AG_XPD_AGSGB skos:notation "AG_XPD_AGSGB" .
+sdg:AG_XPD_AGSGB skos:notation "AG_XPD_AGSGB"^^sdgo:SDGCode .
 
-sdg:DC_TOF_AGRL skos:notation "DC_TOF_AGRL" .
+sdg:DC_TOF_AGRL skos:notation "DC_TOF_AGRL"^^sdgo:SDGCode .
 
-sdg:AG_FPA_CFPI skos:notation "AG_FPA_CFPI" .
+sdg:AG_FPA_CFPI skos:notation "AG_FPA_CFPI"^^sdgo:SDGCode .
 
-sdg:AG_FPA_COMM skos:notation "AG_FPA_COMM" .
+sdg:AG_FPA_COMM skos:notation "AG_FPA_COMM"^^sdgo:SDGCode .
 
-sdg:SH_STA_MMR skos:notation "SH_STA_MMR" .
+sdg:SH_STA_MMR skos:notation "SH_STA_MMR"^^sdgo:SDGCode .
 
-sdg:SH_STA_BRTC skos:notation "SH_STA_BRTC" .
+sdg:SH_STA_BRTC skos:notation "SH_STA_BRTC"^^sdgo:SDGCode .
 
-sdg:SH_DYN_IMRT skos:notation "SH_DYN_IMRT" .
+sdg:SH_DYN_IMRT skos:notation "SH_DYN_IMRT"^^sdgo:SDGCode .
 
-sdg:SH_DYN_IMRTN skos:notation "SH_DYN_IMRTN" .
+sdg:SH_DYN_IMRTN skos:notation "SH_DYN_IMRTN"^^sdgo:SDGCode .
 
-sdg:SH_DYN_MORT skos:notation "SH_DYN_MORT" .
+sdg:SH_DYN_MORT skos:notation "SH_DYN_MORT"^^sdgo:SDGCode .
 
-sdg:SH_DYN_MORTN skos:notation "SH_DYN_MORTN" .
+sdg:SH_DYN_MORTN skos:notation "SH_DYN_MORTN"^^sdgo:SDGCode .
 
-sdg:SH_DYN_NMRT skos:notation "SH_DYN_NMRT" .
+sdg:SH_DYN_NMRT skos:notation "SH_DYN_NMRT"^^sdgo:SDGCode .
 
-sdg:SH_DYN_NMRTN skos:notation "SH_DYN_NMRTN" .
+sdg:SH_DYN_NMRTN skos:notation "SH_DYN_NMRTN"^^sdgo:SDGCode .
 
-sdg:SH_HIV_INCD skos:notation "SH_HIV_INCD" .
+sdg:SH_HIV_INCD skos:notation "SH_HIV_INCD"^^sdgo:SDGCode .
 
-sdg:SH_TBS_INCID skos:notation "SH_TBS_INCID" .
+sdg:SH_TBS_INCID skos:notation "SH_TBS_INCID"^^sdgo:SDGCode .
 
-sdg:SH_STA_MALR skos:notation "SH_STA_MALR" .
+sdg:SH_STA_MALR skos:notation "SH_STA_MALR"^^sdgo:SDGCode .
 
-sdg:SH_HAP_HBSAG skos:notation "SH_HAP_HBSAG" .
+sdg:SH_HAP_HBSAG skos:notation "SH_HAP_HBSAG"^^sdgo:SDGCode .
 
-sdg:SH_TRP_INTVN skos:notation "SH_TRP_INTVN" .
+sdg:SH_TRP_INTVN skos:notation "SH_TRP_INTVN"^^sdgo:SDGCode .
 
-sdg:SH_DTH_NCOM skos:notation "SH_DTH_NCOM" .
+sdg:SH_DTH_NCOM skos:notation "SH_DTH_NCOM"^^sdgo:SDGCode .
 
-sdg:SH_DTH_RNCOM skos:notation "SH_DTH_RNCOM" .
+sdg:SH_DTH_RNCOM skos:notation "SH_DTH_RNCOM"^^sdgo:SDGCode .
 
-sdg:SH_STA_SCIDE skos:notation "SH_STA_SCIDE" .
+sdg:SH_STA_SCIDE skos:notation "SH_STA_SCIDE"^^sdgo:SDGCode .
 
-sdg:SH_STA_SCIDEN skos:notation "SH_STA_SCIDEN" .
+sdg:SH_STA_SCIDEN skos:notation "SH_STA_SCIDEN"^^sdgo:SDGCode .
 
-sdg:SH_ALC_CONSPT skos:notation "SH_ALC_CONSPT" .
+sdg:SH_ALC_CONSPT skos:notation "SH_ALC_CONSPT"^^sdgo:SDGCode .
 
-sdg:SH_STA_TRAF skos:notation "SH_STA_TRAF" .
+sdg:SH_STA_TRAF skos:notation "SH_STA_TRAF"^^sdgo:SDGCode .
 
-sdg:SH_FPL_MTMM skos:notation "SH_FPL_MTMM" .
+sdg:SH_FPL_MTMM skos:notation "SH_FPL_MTMM"^^sdgo:SDGCode .
 
-sdg:SP_DYN_ADKL skos:notation "SP_DYN_ADKL" .
+sdg:SP_DYN_ADKL skos:notation "SP_DYN_ADKL"^^sdgo:SDGCode .
 
-sdg:SH_ACS_UNHC skos:notation "SH_ACS_UNHC" .
+sdg:SH_ACS_UNHC skos:notation "SH_ACS_UNHC"^^sdgo:SDGCode .
 
-sdg:SH_XPD_EARN10 skos:notation "SH_XPD_EARN10" .
+sdg:SH_XPD_EARN10 skos:notation "SH_XPD_EARN10"^^sdgo:SDGCode .
 
-sdg:SH_XPD_EARN25 skos:notation "SH_XPD_EARN25" .
+sdg:SH_XPD_EARN25 skos:notation "SH_XPD_EARN25"^^sdgo:SDGCode .
 
-sdg:SH_AAP_ASMORT skos:notation "SH_AAP_ASMORT" .
+sdg:SH_AAP_ASMORT skos:notation "SH_AAP_ASMORT"^^sdgo:SDGCode .
 
-sdg:SH_AAP_MORT skos:notation "SH_AAP_MORT" .
+sdg:SH_AAP_MORT skos:notation "SH_AAP_MORT"^^sdgo:SDGCode .
 
-sdg:SH_HAP_ASMORT skos:notation "SH_HAP_ASMORT" .
+sdg:SH_HAP_ASMORT skos:notation "SH_HAP_ASMORT"^^sdgo:SDGCode .
 
-sdg:SH_HAP_MORT skos:notation "SH_HAP_MORT" .
+sdg:SH_HAP_MORT skos:notation "SH_HAP_MORT"^^sdgo:SDGCode .
 
-sdg:SH_STA_AIRP skos:notation "SH_STA_AIRP" .
+sdg:SH_STA_AIRP skos:notation "SH_STA_AIRP"^^sdgo:SDGCode .
 
-sdg:SH_STA_ASAIRP skos:notation "SH_STA_ASAIRP" .
+sdg:SH_STA_ASAIRP skos:notation "SH_STA_ASAIRP"^^sdgo:SDGCode .
 
-sdg:SH_STA_WASH skos:notation "SH_STA_WASH" .
+sdg:SH_STA_WASH skos:notation "SH_STA_WASH"^^sdgo:SDGCode .
 
-sdg:SH_STA_POISN skos:notation "SH_STA_POISN" .
+sdg:SH_STA_POISN skos:notation "SH_STA_POISN"^^sdgo:SDGCode .
 
-sdg:SH_PRV_SMOK skos:notation "SH_PRV_SMOK" .
+sdg:SH_PRV_SMOK skos:notation "SH_PRV_SMOK"^^sdgo:SDGCode .
 
-sdg:SH_ACS_DTP3 skos:notation "SH_ACS_DTP3" .
+sdg:SH_ACS_DTP3 skos:notation "SH_ACS_DTP3"^^sdgo:SDGCode .
 
-sdg:SH_ACS_MCV2 skos:notation "SH_ACS_MCV2" .
+sdg:SH_ACS_MCV2 skos:notation "SH_ACS_MCV2"^^sdgo:SDGCode .
 
-sdg:SH_ACS_PCV3 skos:notation "SH_ACS_PCV3" .
+sdg:SH_ACS_PCV3 skos:notation "SH_ACS_PCV3"^^sdgo:SDGCode .
 
-sdg:DC_TOF_HLTHL skos:notation "DC_TOF_HLTHL" .
+sdg:DC_TOF_HLTHL skos:notation "DC_TOF_HLTHL"^^sdgo:SDGCode .
 
-sdg:DC_TOF_HLTHNT skos:notation "DC_TOF_HLTHNT" .
+sdg:DC_TOF_HLTHNT skos:notation "DC_TOF_HLTHNT"^^sdgo:SDGCode .
 
-sdg:SH_MED_HEAWOR skos:notation "SH_MED_HEAWOR" .
+sdg:SH_MED_HEAWOR skos:notation "SH_MED_HEAWOR"^^sdgo:SDGCode .
 
-sdg:SH_IHR_CAPS skos:notation "SH_IHR_CAPS" .
+sdg:SH_IHR_CAPS skos:notation "SH_IHR_CAPS"^^sdgo:SDGCode .
 
-sdg:SE_MAT_PROF skos:notation "SE_MAT_PROF" .
+sdg:SE_MAT_PROF skos:notation "SE_MAT_PROF"^^sdgo:SDGCode .
 
-sdg:SE_REA_PROF skos:notation "SE_REA_PROF" .
+sdg:SE_REA_PROF skos:notation "SE_REA_PROF"^^sdgo:SDGCode .
 
-sdg:SE_DEV_ONTRK skos:notation "SE_DEV_ONTRK" .
+sdg:SE_DEV_ONTRK skos:notation "SE_DEV_ONTRK"^^sdgo:SDGCode .
 
-sdg:SE_PRE_PARTN skos:notation "SE_PRE_PARTN" .
+sdg:SE_PRE_PARTN skos:notation "SE_PRE_PARTN"^^sdgo:SDGCode .
 
-sdg:SE_ADT_EDUCTRN skos:notation "SE_ADT_EDUCTRN" .
+sdg:SE_ADT_EDUCTRN skos:notation "SE_ADT_EDUCTRN"^^sdgo:SDGCode .
 
-sdg:SE_ADT_ACTS skos:notation "SE_ADT_ACTS" .
+sdg:SE_ADT_ACTS skos:notation "SE_ADT_ACTS"^^sdgo:SDGCode .
 
-sdg:SE_GPI_FUNPROF skos:notation "SE_GPI_FUNPROF" .
+sdg:SE_GPI_FUNPROF skos:notation "SE_GPI_FUNPROF"^^sdgo:SDGCode .
 
-sdg:SE_GPI_ICTS skos:notation "SE_GPI_ICTS" .
+sdg:SE_GPI_ICTS skos:notation "SE_GPI_ICTS"^^sdgo:SDGCode .
 
-sdg:SE_GPI_MATACH skos:notation "SE_GPI_MATACH" .
+sdg:SE_GPI_MATACH skos:notation "SE_GPI_MATACH"^^sdgo:SDGCode .
 
-sdg:SE_GPI_PART skos:notation "SE_GPI_PART" .
+sdg:SE_GPI_PART skos:notation "SE_GPI_PART"^^sdgo:SDGCode .
 
-sdg:SE_GPI_REAACH skos:notation "SE_GPI_REAACH" .
+sdg:SE_GPI_REAACH skos:notation "SE_GPI_REAACH"^^sdgo:SDGCode .
 
-sdg:SE_GPI_TRATEA skos:notation "SE_GPI_TRATEA" .
+sdg:SE_GPI_TRATEA skos:notation "SE_GPI_TRATEA"^^sdgo:SDGCode .
 
-sdg:SE_IMP_FPOF skos:notation "SE_IMP_FPOF" .
+sdg:SE_IMP_FPOF skos:notation "SE_IMP_FPOF"^^sdgo:SDGCode .
 
-sdg:SE_LGP_ACHIMA skos:notation "SE_LGP_ACHIMA" .
+sdg:SE_LGP_ACHIMA skos:notation "SE_LGP_ACHIMA"^^sdgo:SDGCode .
 
-sdg:SE_LGP_ACHIRE skos:notation "SE_LGP_ACHIRE" .
+sdg:SE_LGP_ACHIRE skos:notation "SE_LGP_ACHIRE"^^sdgo:SDGCode .
 
-sdg:SE_NAP_ACHIMA skos:notation "SE_NAP_ACHIMA" .
+sdg:SE_NAP_ACHIMA skos:notation "SE_NAP_ACHIMA"^^sdgo:SDGCode .
 
-sdg:SE_NAP_ACHIRE skos:notation "SE_NAP_ACHIRE" .
+sdg:SE_NAP_ACHIRE skos:notation "SE_NAP_ACHIRE"^^sdgo:SDGCode .
 
-sdg:SE_PRE_GPIPARTN skos:notation "SE_PRE_GPIPARTN" .
+sdg:SE_PRE_GPIPARTN skos:notation "SE_PRE_GPIPARTN"^^sdgo:SDGCode .
 
-sdg:SE_SEP_FUNPROF skos:notation "SE_SEP_FUNPROF" .
+sdg:SE_SEP_FUNPROF skos:notation "SE_SEP_FUNPROF"^^sdgo:SDGCode .
 
-sdg:SE_SEP_MATACH skos:notation "SE_SEP_MATACH" .
+sdg:SE_SEP_MATACH skos:notation "SE_SEP_MATACH"^^sdgo:SDGCode .
 
-sdg:SE_SEP_REAACH skos:notation "SE_SEP_REAACH" .
+sdg:SE_SEP_REAACH skos:notation "SE_SEP_REAACH"^^sdgo:SDGCode .
 
-sdg:SE_URP_MATACH skos:notation "SE_URP_MATACH" .
+sdg:SE_URP_MATACH skos:notation "SE_URP_MATACH"^^sdgo:SDGCode .
 
-sdg:SE_URP_REAACH skos:notation "SE_URP_REAACH" .
+sdg:SE_URP_REAACH skos:notation "SE_URP_REAACH"^^sdgo:SDGCode .
 
-sdg:SE_ADT_FUNS skos:notation "SE_ADT_FUNS" .
+sdg:SE_ADT_FUNS skos:notation "SE_ADT_FUNS"^^sdgo:SDGCode .
 
-sdg:SE_ACC_COMP skos:notation "SE_ACC_COMP" .
+sdg:SE_ACC_COMP skos:notation "SE_ACC_COMP"^^sdgo:SDGCode .
 
-sdg:SE_ACC_DWAT skos:notation "SE_ACC_DWAT" .
+sdg:SE_ACC_DWAT skos:notation "SE_ACC_DWAT"^^sdgo:SDGCode .
 
-sdg:SE_ACC_ELEC skos:notation "SE_ACC_ELEC" .
+sdg:SE_ACC_ELEC skos:notation "SE_ACC_ELEC"^^sdgo:SDGCode .
 
-sdg:SE_ACC_HNWA skos:notation "SE_ACC_HNWA" .
+sdg:SE_ACC_HNWA skos:notation "SE_ACC_HNWA"^^sdgo:SDGCode .
 
-sdg:SE_ACC_INTN skos:notation "SE_ACC_INTN" .
+sdg:SE_ACC_INTN skos:notation "SE_ACC_INTN"^^sdgo:SDGCode .
 
-sdg:SE_ACC_SANI skos:notation "SE_ACC_SANI" .
+sdg:SE_ACC_SANI skos:notation "SE_ACC_SANI"^^sdgo:SDGCode .
 
-sdg:SE_INF_DSBL skos:notation "SE_INF_DSBL" .
+sdg:SE_INF_DSBL skos:notation "SE_INF_DSBL"^^sdgo:SDGCode .
 
-sdg:DC_TOF_SCHIPSL skos:notation "DC_TOF_SCHIPSL" .
+sdg:DC_TOF_SCHIPSL skos:notation "DC_TOF_SCHIPSL"^^sdgo:SDGCode .
 
-sdg:SE_TRA_GRDL skos:notation "SE_TRA_GRDL" .
+sdg:SE_TRA_GRDL skos:notation "SE_TRA_GRDL"^^sdgo:SDGCode .
 
-sdg:SG_LGL_GENEQEMP skos:notation "SG_LGL_GENEQEMP" .
+sdg:SG_LGL_GENEQEMP skos:notation "SG_LGL_GENEQEMP"^^sdgo:SDGCode .
 
-sdg:SG_LGL_GENEQLFP skos:notation "SG_LGL_GENEQLFP" .
+sdg:SG_LGL_GENEQLFP skos:notation "SG_LGL_GENEQLFP"^^sdgo:SDGCode .
 
-sdg:SG_LGL_GENEQMAR skos:notation "SG_LGL_GENEQMAR" .
+sdg:SG_LGL_GENEQMAR skos:notation "SG_LGL_GENEQMAR"^^sdgo:SDGCode .
 
-sdg:SG_LGL_GENEQVAW skos:notation "SG_LGL_GENEQVAW" .
+sdg:SG_LGL_GENEQVAW skos:notation "SG_LGL_GENEQVAW"^^sdgo:SDGCode .
 
-sdg:VC_VAW_MARR skos:notation "VC_VAW_MARR" .
+sdg:VC_VAW_MARR skos:notation "VC_VAW_MARR"^^sdgo:SDGCode .
 
-sdg:SP_DYN_MRBF15 skos:notation "SP_DYN_MRBF15" .
+sdg:SP_DYN_MRBF15 skos:notation "SP_DYN_MRBF15"^^sdgo:SDGCode .
 
-sdg:SP_DYN_MRBF18 skos:notation "SP_DYN_MRBF18" .
+sdg:SP_DYN_MRBF18 skos:notation "SP_DYN_MRBF18"^^sdgo:SDGCode .
 
-sdg:SH_STA_FGMS skos:notation "SH_STA_FGMS" .
+sdg:SH_STA_FGMS skos:notation "SH_STA_FGMS"^^sdgo:SDGCode .
 
-sdg:SL_DOM_TSPD skos:notation "SL_DOM_TSPD" .
+sdg:SL_DOM_TSPD skos:notation "SL_DOM_TSPD"^^sdgo:SDGCode .
 
-sdg:SL_DOM_TSPDCW skos:notation "SL_DOM_TSPDCW" .
+sdg:SL_DOM_TSPDCW skos:notation "SL_DOM_TSPDCW"^^sdgo:SDGCode .
 
-sdg:SL_DOM_TSPDDC skos:notation "SL_DOM_TSPDDC" .
+sdg:SL_DOM_TSPDDC skos:notation "SL_DOM_TSPDDC"^^sdgo:SDGCode .
 
-sdg:SG_GEN_LOCGELS skos:notation "SG_GEN_LOCGELS" .
+sdg:SG_GEN_LOCGELS skos:notation "SG_GEN_LOCGELS"^^sdgo:SDGCode .
 
-sdg:SG_GEN_PARL skos:notation "SG_GEN_PARL" .
+sdg:SG_GEN_PARL skos:notation "SG_GEN_PARL"^^sdgo:SDGCode .
 
-sdg:SG_GEN_PARLN skos:notation "SG_GEN_PARLN" .
+sdg:SG_GEN_PARLN skos:notation "SG_GEN_PARLN"^^sdgo:SDGCode .
 
-sdg:SG_GEN_PARLNT skos:notation "SG_GEN_PARLNT" .
+sdg:SG_GEN_PARLNT skos:notation "SG_GEN_PARLNT"^^sdgo:SDGCode .
 
-sdg:IC_GEN_MGTL skos:notation "IC_GEN_MGTL" .
+sdg:IC_GEN_MGTL skos:notation "IC_GEN_MGTL"^^sdgo:SDGCode .
 
-sdg:IC_GEN_MGTN skos:notation "IC_GEN_MGTN" .
+sdg:IC_GEN_MGTN skos:notation "IC_GEN_MGTN"^^sdgo:SDGCode .
 
-sdg:SH_FPL_INFM skos:notation "SH_FPL_INFM" .
+sdg:SH_FPL_INFM skos:notation "SH_FPL_INFM"^^sdgo:SDGCode .
 
-sdg:SH_FPL_INFMCU skos:notation "SH_FPL_INFMCU" .
+sdg:SH_FPL_INFMCU skos:notation "SH_FPL_INFMCU"^^sdgo:SDGCode .
 
-sdg:SH_FPL_INFMRH skos:notation "SH_FPL_INFMRH" .
+sdg:SH_FPL_INFMRH skos:notation "SH_FPL_INFMRH"^^sdgo:SDGCode .
 
-sdg:SH_FPL_INFMSR skos:notation "SH_FPL_INFMSR" .
+sdg:SH_FPL_INFMSR skos:notation "SH_FPL_INFMSR"^^sdgo:SDGCode .
 
-sdg:IT_MOB_OWN skos:notation "IT_MOB_OWN" .
+sdg:IT_MOB_OWN skos:notation "IT_MOB_OWN"^^sdgo:SDGCode .
 
-sdg:SG_GEN_EQPWN skos:notation "SG_GEN_EQPWN" .
+sdg:SG_GEN_EQPWN skos:notation "SG_GEN_EQPWN"^^sdgo:SDGCode .
 
-sdg:SH_H2O_SAFE skos:notation "SH_H2O_SAFE" .
+sdg:SH_H2O_SAFE skos:notation "SH_H2O_SAFE"^^sdgo:SDGCode .
 
-sdg:SH_SAN_DEFECT skos:notation "SH_SAN_DEFECT" .
+sdg:SH_SAN_DEFECT skos:notation "SH_SAN_DEFECT"^^sdgo:SDGCode .
 
-sdg:SH_SAN_HNDWSH skos:notation "SH_SAN_HNDWSH" .
+sdg:SH_SAN_HNDWSH skos:notation "SH_SAN_HNDWSH"^^sdgo:SDGCode .
 
-sdg:SH_SAN_SAFE skos:notation "SH_SAN_SAFE" .
+sdg:SH_SAN_SAFE skos:notation "SH_SAN_SAFE"^^sdgo:SDGCode .
 
-sdg:EN_WWT_WWDS skos:notation "EN_WWT_WWDS" .
+sdg:EN_WWT_WWDS skos:notation "EN_WWT_WWDS"^^sdgo:SDGCode .
 
-sdg:EN_H2O_GRAMBQ skos:notation "EN_H2O_GRAMBQ" .
+sdg:EN_H2O_GRAMBQ skos:notation "EN_H2O_GRAMBQ"^^sdgo:SDGCode .
 
-sdg:EN_H2O_OPAMBQ skos:notation "EN_H2O_OPAMBQ" .
+sdg:EN_H2O_OPAMBQ skos:notation "EN_H2O_OPAMBQ"^^sdgo:SDGCode .
 
-sdg:EN_H2O_RVAMBQ skos:notation "EN_H2O_RVAMBQ" .
+sdg:EN_H2O_RVAMBQ skos:notation "EN_H2O_RVAMBQ"^^sdgo:SDGCode .
 
-sdg:EN_H2O_WBAMBQ skos:notation "EN_H2O_WBAMBQ" .
+sdg:EN_H2O_WBAMBQ skos:notation "EN_H2O_WBAMBQ"^^sdgo:SDGCode .
 
-sdg:ER_H2O_WUEYST skos:notation "ER_H2O_WUEYST" .
+sdg:ER_H2O_WUEYST skos:notation "ER_H2O_WUEYST"^^sdgo:SDGCode .
 
-sdg:ER_H2O_STRESS skos:notation "ER_H2O_STRESS" .
+sdg:ER_H2O_STRESS skos:notation "ER_H2O_STRESS"^^sdgo:SDGCode .
 
-sdg:ER_H2O_IWRMD skos:notation "ER_H2O_IWRMD" .
+sdg:ER_H2O_IWRMD skos:notation "ER_H2O_IWRMD"^^sdgo:SDGCode .
 
-sdg:EG_TBA_H2CO skos:notation "EG_TBA_H2CO" .
+sdg:EG_TBA_H2CO skos:notation "EG_TBA_H2CO"^^sdgo:SDGCode .
 
-sdg:EG_TBA_H2COAQ skos:notation "EG_TBA_H2COAQ" .
+sdg:EG_TBA_H2COAQ skos:notation "EG_TBA_H2COAQ"^^sdgo:SDGCode .
 
-sdg:EG_TBA_H2CORL skos:notation "EG_TBA_H2CORL" .
+sdg:EG_TBA_H2CORL skos:notation "EG_TBA_H2CORL"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDETOT skos:notation "EN_WBE_NDETOT" .
+sdg:EN_WBE_NDETOT skos:notation "EN_WBE_NDETOT"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDOPW skos:notation "EN_WBE_NDOPW" .
+sdg:EN_WBE_NDOPW skos:notation "EN_WBE_NDOPW"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQLGRW skos:notation "EN_WBE_NDQLGRW" .
+sdg:EN_WBE_NDQLGRW skos:notation "EN_WBE_NDQLGRW"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQLOPW skos:notation "EN_WBE_NDQLOPW" .
+sdg:EN_WBE_NDQLOPW skos:notation "EN_WBE_NDQLOPW"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQLRVR skos:notation "EN_WBE_NDQLRVR" .
+sdg:EN_WBE_NDQLRVR skos:notation "EN_WBE_NDQLRVR"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQLTOT skos:notation "EN_WBE_NDQLTOT" .
+sdg:EN_WBE_NDQLTOT skos:notation "EN_WBE_NDQLTOT"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQTGRW skos:notation "EN_WBE_NDQTGRW" .
+sdg:EN_WBE_NDQTGRW skos:notation "EN_WBE_NDQTGRW"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQTOPW skos:notation "EN_WBE_NDQTOPW" .
+sdg:EN_WBE_NDQTOPW skos:notation "EN_WBE_NDQTOPW"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQTRVR skos:notation "EN_WBE_NDQTRVR" .
+sdg:EN_WBE_NDQTRVR skos:notation "EN_WBE_NDQTRVR"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDQTTOT skos:notation "EN_WBE_NDQTTOT" .
+sdg:EN_WBE_NDQTTOT skos:notation "EN_WBE_NDQTTOT"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDRV skos:notation "EN_WBE_NDRV" .
+sdg:EN_WBE_NDRV skos:notation "EN_WBE_NDRV"^^sdgo:SDGCode .
 
-sdg:EN_WBE_NDWTL skos:notation "EN_WBE_NDWTL" .
+sdg:EN_WBE_NDWTL skos:notation "EN_WBE_NDWTL"^^sdgo:SDGCode .
 
-sdg:EN_WBE_PMNR skos:notation "EN_WBE_PMNR" .
+sdg:EN_WBE_PMNR skos:notation "EN_WBE_PMNR"^^sdgo:SDGCode .
 
-sdg:EN_WBE_PMPN skos:notation "EN_WBE_PMPN" .
+sdg:EN_WBE_PMPN skos:notation "EN_WBE_PMPN"^^sdgo:SDGCode .
 
-sdg:EN_WBE_PMPP skos:notation "EN_WBE_PMPP" .
+sdg:EN_WBE_PMPP skos:notation "EN_WBE_PMPP"^^sdgo:SDGCode .
 
-sdg:EN_WBE_PMPR skos:notation "EN_WBE_PMPR" .
+sdg:EN_WBE_PMPR skos:notation "EN_WBE_PMPR"^^sdgo:SDGCode .
 
-sdg:DC_TOF_WASHL skos:notation "DC_TOF_WASHL" .
+sdg:DC_TOF_WASHL skos:notation "DC_TOF_WASHL"^^sdgo:SDGCode .
 
-sdg:ER_H2O_PRDU skos:notation "ER_H2O_PRDU" .
+sdg:ER_H2O_PRDU skos:notation "ER_H2O_PRDU"^^sdgo:SDGCode .
 
-sdg:ER_H2O_RURP skos:notation "ER_H2O_RURP" .
+sdg:ER_H2O_RURP skos:notation "ER_H2O_RURP"^^sdgo:SDGCode .
 
-sdg:ER_WAT_PART skos:notation "ER_WAT_PART" .
+sdg:ER_WAT_PART skos:notation "ER_WAT_PART"^^sdgo:SDGCode .
 
-sdg:ER_WAT_PRDU skos:notation "ER_WAT_PRDU" .
+sdg:ER_WAT_PRDU skos:notation "ER_WAT_PRDU"^^sdgo:SDGCode .
 
-sdg:EG_ELC_ACCS skos:notation "EG_ELC_ACCS" .
+sdg:EG_ELC_ACCS skos:notation "EG_ELC_ACCS"^^sdgo:SDGCode .
 
-sdg:EG_EGY_CLEAN skos:notation "EG_EGY_CLEAN" .
+sdg:EG_EGY_CLEAN skos:notation "EG_EGY_CLEAN"^^sdgo:SDGCode .
 
-sdg:EG_FEC_RNEW skos:notation "EG_FEC_RNEW" .
+sdg:EG_FEC_RNEW skos:notation "EG_FEC_RNEW"^^sdgo:SDGCode .
 
-sdg:EG_EGY_PRIM skos:notation "EG_EGY_PRIM" .
+sdg:EG_EGY_PRIM skos:notation "EG_EGY_PRIM"^^sdgo:SDGCode .
 
-sdg:EG_IFF_RANDN skos:notation "EG_IFF_RANDN" .
+sdg:EG_IFF_RANDN skos:notation "EG_IFF_RANDN"^^sdgo:SDGCode .
 
-sdg:NY_GDP_PCAP skos:notation "NY_GDP_PCAP" .
+sdg:NY_GDP_PCAP skos:notation "NY_GDP_PCAP"^^sdgo:SDGCode .
 
-sdg:FB_ATM_TOTL skos:notation "FB_ATM_TOTL" .
+sdg:FB_ATM_TOTL skos:notation "FB_ATM_TOTL"^^sdgo:SDGCode .
 
-sdg:FB_CBK_BRCH skos:notation "FB_CBK_BRCH" .
+sdg:FB_CBK_BRCH skos:notation "FB_CBK_BRCH"^^sdgo:SDGCode .
 
-sdg:FB_BNK_ACCSS skos:notation "FB_BNK_ACCSS" .
+sdg:FB_BNK_ACCSS skos:notation "FB_BNK_ACCSS"^^sdgo:SDGCode .
 
-sdg:SL_EMP_PCAP skos:notation "SL_EMP_PCAP" .
+sdg:SL_EMP_PCAP skos:notation "SL_EMP_PCAP"^^sdgo:SDGCode .
 
-sdg:SL_ISV_IFRM skos:notation "SL_ISV_IFRM" .
+sdg:SL_ISV_IFRM skos:notation "SL_ISV_IFRM"^^sdgo:SDGCode .
 
-sdg:SL_EMP_AEARN skos:notation "SL_EMP_AEARN" .
+sdg:SL_EMP_AEARN skos:notation "SL_EMP_AEARN"^^sdgo:SDGCode .
 
-sdg:SL_TLF_UEM skos:notation "SL_TLF_UEM" .
+sdg:SL_TLF_UEM skos:notation "SL_TLF_UEM"^^sdgo:SDGCode .
 
-sdg:SL_TLF_UEMDIS skos:notation "SL_TLF_UEMDIS" .
+sdg:SL_TLF_UEMDIS skos:notation "SL_TLF_UEMDIS"^^sdgo:SDGCode .
 
-sdg:SL_TLF_NEET skos:notation "SL_TLF_NEET" .
+sdg:SL_TLF_NEET skos:notation "SL_TLF_NEET"^^sdgo:SDGCode .
 
-sdg:SL_TLF_CHLDEA skos:notation "SL_TLF_CHLDEA" .
+sdg:SL_TLF_CHLDEA skos:notation "SL_TLF_CHLDEA"^^sdgo:SDGCode .
 
-sdg:SL_TLF_CHLDEC skos:notation "SL_TLF_CHLDEC" .
+sdg:SL_TLF_CHLDEC skos:notation "SL_TLF_CHLDEC"^^sdgo:SDGCode .
 
-sdg:SL_EMP_FTLINJUR skos:notation "SL_EMP_FTLINJUR" .
+sdg:SL_EMP_FTLINJUR skos:notation "SL_EMP_FTLINJUR"^^sdgo:SDGCode .
 
-sdg:SL_EMP_INJUR skos:notation "SL_EMP_INJUR" .
+sdg:SL_EMP_INJUR skos:notation "SL_EMP_INJUR"^^sdgo:SDGCode .
 
-sdg:DC_TOF_TRDCMDL skos:notation "DC_TOF_TRDCMDL" .
+sdg:DC_TOF_TRDCMDL skos:notation "DC_TOF_TRDCMDL"^^sdgo:SDGCode .
 
-sdg:DC_TOF_TRDCML skos:notation "DC_TOF_TRDCML" .
+sdg:DC_TOF_TRDCML skos:notation "DC_TOF_TRDCML"^^sdgo:SDGCode .
 
-sdg:DC_TOF_TRDDBMDL skos:notation "DC_TOF_TRDDBMDL" .
+sdg:DC_TOF_TRDDBMDL skos:notation "DC_TOF_TRDDBMDL"^^sdgo:SDGCode .
 
-sdg:DC_TOF_TRDDBML skos:notation "DC_TOF_TRDDBML" .
+sdg:DC_TOF_TRDDBML skos:notation "DC_TOF_TRDDBML"^^sdgo:SDGCode .
 
-sdg:IS_RDP_FRGVOL skos:notation "IS_RDP_FRGVOL" .
+sdg:IS_RDP_FRGVOL skos:notation "IS_RDP_FRGVOL"^^sdgo:SDGCode .
 
-sdg:IS_RDP_PFVOL skos:notation "IS_RDP_PFVOL" .
+sdg:IS_RDP_PFVOL skos:notation "IS_RDP_PFVOL"^^sdgo:SDGCode .
 
-sdg:NV_IND_MANF skos:notation "NV_IND_MANF" .
+sdg:NV_IND_MANF skos:notation "NV_IND_MANF"^^sdgo:SDGCode .
 
-sdg:NV_IND_MANFPC skos:notation "NV_IND_MANFPC" .
+sdg:NV_IND_MANFPC skos:notation "NV_IND_MANFPC"^^sdgo:SDGCode .
 
-sdg:SL_TLF_MANF skos:notation "SL_TLF_MANF" .
+sdg:SL_TLF_MANF skos:notation "SL_TLF_MANF"^^sdgo:SDGCode .
 
-sdg:NV_IND_SSIS skos:notation "NV_IND_SSIS" .
+sdg:NV_IND_SSIS skos:notation "NV_IND_SSIS"^^sdgo:SDGCode .
 
-sdg:FC_ACC_SSID skos:notation "FC_ACC_SSID" .
+sdg:FC_ACC_SSID skos:notation "FC_ACC_SSID"^^sdgo:SDGCode .
 
-sdg:EN_ATM_CO2 skos:notation "EN_ATM_CO2" .
+sdg:EN_ATM_CO2 skos:notation "EN_ATM_CO2"^^sdgo:SDGCode .
 
-sdg:EN_ATM_CO2GDP skos:notation "EN_ATM_CO2GDP" .
+sdg:EN_ATM_CO2GDP skos:notation "EN_ATM_CO2GDP"^^sdgo:SDGCode .
 
-sdg:EN_ATM_CO2MVA skos:notation "EN_ATM_CO2MVA" .
+sdg:EN_ATM_CO2MVA skos:notation "EN_ATM_CO2MVA"^^sdgo:SDGCode .
 
-sdg:GB_XPD_RSDV skos:notation "GB_XPD_RSDV" .
+sdg:GB_XPD_RSDV skos:notation "GB_XPD_RSDV"^^sdgo:SDGCode .
 
-sdg:GB_POP_SCIERD skos:notation "GB_POP_SCIERD" .
+sdg:GB_POP_SCIERD skos:notation "GB_POP_SCIERD"^^sdgo:SDGCode .
 
-sdg:DC_TOF_INFRAL skos:notation "DC_TOF_INFRAL" .
+sdg:DC_TOF_INFRAL skos:notation "DC_TOF_INFRAL"^^sdgo:SDGCode .
 
-sdg:NV_IND_TECH skos:notation "NV_IND_TECH" .
+sdg:NV_IND_TECH skos:notation "NV_IND_TECH"^^sdgo:SDGCode .
 
-sdg:IT_MOB_NTWK skos:notation "IT_MOB_NTWK" .
+sdg:IT_MOB_NTWK skos:notation "IT_MOB_NTWK"^^sdgo:SDGCode .
 
-sdg:DC_TRF_TFDV skos:notation "DC_TRF_TFDV" .
+sdg:DC_TRF_TFDV skos:notation "DC_TRF_TFDV"^^sdgo:SDGCode .
 
-sdg:AG_PRD_XSUBDY skos:notation "AG_PRD_XSUBDY" .
+sdg:AG_PRD_XSUBDY skos:notation "AG_PRD_XSUBDY"^^sdgo:SDGCode .
 
-sdg:SH_STA_OVRWGTN skos:notation "SH_STA_OVRWGTN" .
+sdg:SH_STA_OVRWGTN skos:notation "SH_STA_OVRWGTN"^^sdgo:SDGCode .
 
-sdg:ER_H2O_IWRMP skos:notation "ER_H2O_IWRMP" .
+sdg:ER_H2O_IWRMP skos:notation "ER_H2O_IWRMP"^^sdgo:SDGCode .
 
-sdg:ER_H2O_PARTIC skos:notation "ER_H2O_PARTIC" .
+sdg:ER_H2O_PARTIC skos:notation "ER_H2O_PARTIC"^^sdgo:SDGCode .
 
-sdg:ER_H2O_PROCED skos:notation "ER_H2O_PROCED" .
+sdg:ER_H2O_PROCED skos:notation "ER_H2O_PROCED"^^sdgo:SDGCode .
 
-sdg:ER_WAT_PARTIC skos:notation "ER_WAT_PARTIC" .
+sdg:ER_WAT_PARTIC skos:notation "ER_WAT_PARTIC"^^sdgo:SDGCode .
 
-sdg:ER_WAT_PROCED skos:notation "ER_WAT_PROCED" .
+sdg:ER_WAT_PROCED skos:notation "ER_WAT_PROCED"^^sdgo:SDGCode .
 
-sdg:ER_H2O_FWTL skos:notation "ER_H2O_FWTL" .
+sdg:ER_H2O_FWTL skos:notation "ER_H2O_FWTL"^^sdgo:SDGCode .
 
-sdg:SG_NHR_IMPL skos:notation "SG_NHR_IMPL" .
+sdg:SG_NHR_IMPL skos:notation "SG_NHR_IMPL"^^sdgo:SDGCode .
 
-sdg:SG_NHR_INTEXST skos:notation "SG_NHR_INTEXST" .
+sdg:SG_NHR_INTEXST skos:notation "SG_NHR_INTEXST"^^sdgo:SDGCode .
 
-sdg:VC_VAW_MTUHRA skos:notation "VC_VAW_MTUHRA" .
+sdg:VC_VAW_MTUHRA skos:notation "VC_VAW_MTUHRA"^^sdgo:SDGCode .
 
-sdg:TX_EXP_GBMRCH skos:notation "TX_EXP_GBMRCH" .
+sdg:TX_EXP_GBMRCH skos:notation "TX_EXP_GBMRCH"^^sdgo:SDGCode .
 
-sdg:TX_EXP_GBSVR skos:notation "TX_EXP_GBSVR" .
+sdg:TX_EXP_GBSVR skos:notation "TX_EXP_GBSVR"^^sdgo:SDGCode .
 
-sdg:TX_IMP_GBMRCH skos:notation "TX_IMP_GBMRCH" .
+sdg:TX_IMP_GBMRCH skos:notation "TX_IMP_GBMRCH"^^sdgo:SDGCode .
 
-sdg:TX_IMP_GBSVR skos:notation "TX_IMP_GBSVR" .
+sdg:TX_IMP_GBSVR skos:notation "TX_IMP_GBSVR"^^sdgo:SDGCode .
 
-sdg:SG_REG_BRTH90 skos:notation "SG_REG_BRTH90" .
+sdg:SG_REG_BRTH90 skos:notation "SG_REG_BRTH90"^^sdgo:SDGCode .
 
-sdg:SG_REG_CENSUS skos:notation "SG_REG_CENSUS" .
+sdg:SG_REG_CENSUS skos:notation "SG_REG_CENSUS"^^sdgo:SDGCode .
 
-sdg:SG_REG_DETH75 skos:notation "SG_REG_DETH75" .
+sdg:SG_REG_DETH75 skos:notation "SG_REG_DETH75"^^sdgo:SDGCode .
 
-sdg:EN_MAT_FTPRPC skos:notation "EN_MAT_FTPRPC" .
+sdg:EN_MAT_FTPRPC skos:notation "EN_MAT_FTPRPC"^^sdgo:SDGCode .
 
-sdg:EN_MAT_FTPRPG skos:notation "EN_MAT_FTPRPG" .
+sdg:EN_MAT_FTPRPG skos:notation "EN_MAT_FTPRPG"^^sdgo:SDGCode .
 
-sdg:EN_MAT_FTPRTN skos:notation "EN_MAT_FTPRTN" .
+sdg:EN_MAT_FTPRTN skos:notation "EN_MAT_FTPRTN"^^sdgo:SDGCode .
 
 sdg:SI_POV_DAY1 skos:historyNote "2019.Q2.G.01" .
 

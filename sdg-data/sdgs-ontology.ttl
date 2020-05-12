@@ -84,6 +84,16 @@
   rdfs:label "tier"@en ;
   rdfs:range :Tier .
 
+## Datatypes
+
+:SDGCode a rdfs:Datatype ;
+  rdfs:label "Standard SDG code"@en .
+
+:SDGCodeCompact a rdfs:Datatype ;
+  rdfs:label "Standard SDG code in the compact format"@en .
+
+:SDGCodePerm a rdfs:Datatype ;
+  rdfs:label "Permanent SDG indicator code"@en .
 
 ## Mappings and constraints on imported vocabulary items ##
 
