@@ -4112,844 +4112,841 @@ sdg:C090c01 skos:prefLabel "Proporción de la población con cobertura de red m�
 
 <http://metadata.un.org/sdg> skos:prefLabel "Sustainable Development Goals Taxonomy"@en .
 
-sdg:1 skos:notation "01", "1" .
+sdg:1 skos:notation "01"^^sdgo:SDGCode , "1"^^sdgo:SDGCodeCompact .
 
-sdg:2 skos:notation "02", "2" .
+sdg:2 skos:notation "02"^^sdgo:SDGCode , "2"^^sdgo:SDGCodeCompact .
 
-sdg:3 skos:notation "03", "3" .
+sdg:3 skos:notation "03"^^sdgo:SDGCode , "3"^^sdgo:SDGCodeCompact .
 
-sdg:4 skos:notation "04", "4" .
+sdg:4 skos:notation "04"^^sdgo:SDGCode , "4"^^sdgo:SDGCodeCompact .
 
-sdg:5 skos:notation "05", "5" .
+sdg:5 skos:notation "05"^^sdgo:SDGCode , "5"^^sdgo:SDGCodeCompact .
 
-sdg:6 skos:notation "06", "6" .
+sdg:6 skos:notation "06"^^sdgo:SDGCode , "6"^^sdgo:SDGCodeCompact .
 
-sdg:7 skos:notation "07", "7" .
+sdg:7 skos:notation "07"^^sdgo:SDGCode , "7"^^sdgo:SDGCodeCompact .
 
-sdg:8 skos:notation "08", "8" .
+sdg:8 skos:notation "08"^^sdgo:SDGCode , "8"^^sdgo:SDGCodeCompact .
 
-sdg:9 skos:notation "09", "9" .
+sdg:9 skos:notation "09"^^sdgo:SDGCode , "9"^^sdgo:SDGCodeCompact .
 
-sdg:10 skos:notation "10" .
+sdg:10 skos:notation "10"^^sdgo:SDGCode , "10"^^sdgo:SDGCodeCompact .
 
-sdg:11 skos:notation "11" .
+sdg:11 skos:notation "11"^^sdgo:SDGCode , "11"^^sdgo:SDGCodeCompact .
 
-sdg:12 skos:notation "12" .
+sdg:12 skos:notation "12"^^sdgo:SDGCode , "12"^^sdgo:SDGCodeCompact .
 
-sdg:13 skos:notation "13" .
+sdg:13 skos:notation "13"^^sdgo:SDGCode , "13"^^sdgo:SDGCodeCompact .
 
-sdg:14 skos:notation "14" .
+sdg:14 skos:notation "14"^^sdgo:SDGCode , "14"^^sdgo:SDGCodeCompact .
 
-sdg:15 skos:notation "15" .
+sdg:15 skos:notation "15"^^sdgo:SDGCode , "15"^^sdgo:SDGCodeCompact .
 
-sdg:16 skos:notation "16" .
+sdg:16 skos:notation "16"^^sdgo:SDGCode , "16"^^sdgo:SDGCodeCompact .
 
-sdg:17 skos:notation "17" .
+sdg:17 skos:notation "17"^^sdgo:SDGCode , "17"^^sdgo:SDGCodeCompact .
 
-sdg:1.1 skos:notation "01.01", "1.1" .
+sdg:1.1 skos:notation "01.01"^^sdgo:SDGCode , "1.1"^^sdgo:SDGCodeCompact .
 
-sdg:C010101 skos:notation "01.01.01", "1.1.1", "C010101" .
+sdg:1.2 skos:notation "01.02"^^sdgo:SDGCode , "1.2"^^sdgo:SDGCodeCompact .
 
-sdg:1.2 skos:notation "01.02", "1.2" .
+sdg:1.3 skos:notation "01.03"^^sdgo:SDGCode , "1.3"^^sdgo:SDGCodeCompact .
 
-sdg:C010201 skos:notation "01.02.01", "1.2.1", "C010201" .
+sdg:1.4 skos:notation "01.04"^^sdgo:SDGCode , "1.4"^^sdgo:SDGCodeCompact .
 
-sdg:C010202 skos:notation "01.02.02", "1.2.2", "C010202" .
+sdg:1.5 skos:notation "01.05"^^sdgo:SDGCode , "1.5"^^sdgo:SDGCodeCompact .
 
-sdg:1.3 skos:notation "01.03", "1.3" .
+sdg:1.a skos:notation "01.0a"^^sdgo:SDGCode , "1.a"^^sdgo:SDGCodeCompact .
 
-sdg:C010301 skos:notation "01.03.01", "1.3.1", "C010301" .
+sdg:1.b skos:notation "01.0b"^^sdgo:SDGCode , "1.b"^^sdgo:SDGCodeCompact .
 
-sdg:1.4 skos:notation "01.04", "1.4" .
+sdg:10.1 skos:notation "10.01"^^sdgo:SDGCode , "10.1"^^sdgo:SDGCodeCompact .
 
-sdg:C010401 skos:notation "01.04.01", "1.4.1", "C010401" .
+sdg:10.2 skos:notation "10.02"^^sdgo:SDGCode , "10.2"^^sdgo:SDGCodeCompact .
 
-sdg:C010402 skos:notation "01.04.02", "1.4.2", "C010402" .
+sdg:10.3 skos:notation "10.03"^^sdgo:SDGCode , "10.3"^^sdgo:SDGCodeCompact .
 
-sdg:1.5 skos:notation "01.05", "1.5" .
+sdg:10.4 skos:notation "10.04"^^sdgo:SDGCode , "10.4"^^sdgo:SDGCodeCompact .
 
-sdg:C010502 skos:notation "01.05.02", "1.5.2", "C010502" .
+sdg:10.5 skos:notation "10.05"^^sdgo:SDGCode , "10.5"^^sdgo:SDGCodeCompact .
 
-sdg:C200303 skos:notation "01.05.01", "1.5.1", "11.05.01", "11.5.1", "13.01.01", "13.1.1",
-    "C200303" .
+sdg:10.6 skos:notation "10.06"^^sdgo:SDGCode , "10.6"^^sdgo:SDGCodeCompact .
 
-sdg:C200304 skos:notation "01.05.03", "1.5.3", "11.0b.01", "11.b.1", "13.01.02", "13.1.2",
-    "C200304" .
+sdg:10.7 skos:notation "10.07"^^sdgo:SDGCode , "10.7"^^sdgo:SDGCodeCompact .
 
-sdg:C200305 skos:notation "01.05.04", "1.5.4", "11.0b.02", "11.b.2", "13.01.03", "13.1.3",
-    "C200305" .
+sdg:10.a skos:notation "10.0a"^^sdgo:SDGCode , "10.a"^^sdgo:SDGCodeCompact .
 
-sdg:1.a skos:notation "01.0a", "1.a" .
+sdg:10.b skos:notation "10.0b"^^sdgo:SDGCode , "10.b"^^sdgo:SDGCodeCompact .
 
-sdg:C010a01 skos:notation "01.0a.01", "1.a.1", "C010a01" .
+sdg:10.c skos:notation "10.0c"^^sdgo:SDGCode , "10.c"^^sdgo:SDGCodeCompact .
 
-sdg:C010a02 skos:notation "01.0a.02", "1.a.2", "C010a02" .
+sdg:11.1 skos:notation "11.01"^^sdgo:SDGCode , "11.1"^^sdgo:SDGCodeCompact .
 
-sdg:C010a03 skos:notation "01.0a.03", "1.a.3", "C010a03" .
+sdg:11.2 skos:notation "11.02"^^sdgo:SDGCode , "11.2"^^sdgo:SDGCodeCompact .
 
-sdg:1.b skos:notation "01.0b", "1.b" .
+sdg:11.3 skos:notation "11.03"^^sdgo:SDGCode , "11.3"^^sdgo:SDGCodeCompact .
 
-sdg:C010b01 skos:notation "01.0b.01", "1.b.1", "C010b01" .
+sdg:11.4 skos:notation "11.04"^^sdgo:SDGCode , "11.4"^^sdgo:SDGCodeCompact .
 
-sdg:10.1 skos:notation "10.01", "10.1" .
+sdg:11.5 skos:notation "11.05"^^sdgo:SDGCode , "11.5"^^sdgo:SDGCodeCompact .
 
-sdg:C100101 skos:notation "10.01.01", "10.1.1", "C100101" .
+sdg:11.6 skos:notation "11.06"^^sdgo:SDGCode , "11.6"^^sdgo:SDGCodeCompact .
 
-sdg:10.2 skos:notation "10.02", "10.2" .
+sdg:11.7 skos:notation "11.07"^^sdgo:SDGCode , "11.7"^^sdgo:SDGCodeCompact .
 
-sdg:C100201 skos:notation "10.02.01", "10.2.1", "C100201" .
+sdg:11.a skos:notation "11.0a"^^sdgo:SDGCode , "11.a"^^sdgo:SDGCodeCompact .
 
-sdg:10.3 skos:notation "10.03", "10.3" .
+sdg:11.b skos:notation "11.0b"^^sdgo:SDGCode , "11.b"^^sdgo:SDGCodeCompact .
 
-sdg:C200204 skos:notation "10.03.01", "10.3.1", "16.0b.01", "16.b.1", "C200204" .
+sdg:11.c skos:notation "11.0c"^^sdgo:SDGCode , "11.c"^^sdgo:SDGCodeCompact .
 
-sdg:10.4 skos:notation "10.04", "10.4" .
+sdg:12.1 skos:notation "12.01"^^sdgo:SDGCode , "12.1"^^sdgo:SDGCodeCompact .
 
-sdg:C100401 skos:notation "10.04.01", "10.4.1", "C100401" .
+sdg:12.2 skos:notation "12.02"^^sdgo:SDGCode , "12.2"^^sdgo:SDGCodeCompact .
 
-sdg:10.5 skos:notation "10.05", "10.5" .
+sdg:12.3 skos:notation "12.03"^^sdgo:SDGCode , "12.3"^^sdgo:SDGCodeCompact .
 
-sdg:C100501 skos:notation "10.05.01", "10.5.1", "C100501" .
+sdg:12.4 skos:notation "12.04"^^sdgo:SDGCode , "12.4"^^sdgo:SDGCodeCompact .
 
-sdg:10.6 skos:notation "10.06", "10.6" .
+sdg:12.5 skos:notation "12.05"^^sdgo:SDGCode , "12.5"^^sdgo:SDGCodeCompact .
 
-sdg:C200205 skos:notation "10.06.01", "10.6.1", "16.08.01", "16.8.1", "C200205" .
+sdg:12.6 skos:notation "12.06"^^sdgo:SDGCode , "12.6"^^sdgo:SDGCodeCompact .
 
-sdg:10.7 skos:notation "10.07", "10.7" .
+sdg:12.7 skos:notation "12.07"^^sdgo:SDGCode , "12.7"^^sdgo:SDGCodeCompact .
 
-sdg:C100701 skos:notation "10.07.01", "10.7.1", "C100701" .
+sdg:12.8 skos:notation "12.08"^^sdgo:SDGCode , "12.8"^^sdgo:SDGCodeCompact .
 
-sdg:C100702 skos:notation "10.07.02", "10.7.2", "C100702" .
+sdg:12.a skos:notation "12.0a"^^sdgo:SDGCode , "12.a"^^sdgo:SDGCodeCompact .
 
-sdg:10.a skos:notation "10.0a", "10.a" .
+sdg:12.b skos:notation "12.0b"^^sdgo:SDGCode , "12.b"^^sdgo:SDGCodeCompact .
 
-sdg:C100a01 skos:notation "10.0a.01", "10.a.1", "C100a01" .
+sdg:12.c skos:notation "12.0c"^^sdgo:SDGCode , "12.c"^^sdgo:SDGCodeCompact .
 
-sdg:10.b skos:notation "10.0b", "10.b" .
+sdg:13.1 skos:notation "13.01"^^sdgo:SDGCode , "13.1"^^sdgo:SDGCodeCompact .
 
-sdg:C100b01 skos:notation "10.0b.01", "10.b.1", "C100b01" .
+sdg:13.2 skos:notation "13.02"^^sdgo:SDGCode , "13.2"^^sdgo:SDGCodeCompact .
 
-sdg:10.c skos:notation "10.0c", "10.c" .
+sdg:13.3 skos:notation "13.03"^^sdgo:SDGCode , "13.3"^^sdgo:SDGCodeCompact .
 
-sdg:C100c01 skos:notation "10.0c.01", "10.c.1", "C100c01" .
+sdg:13.a skos:notation "13.0a"^^sdgo:SDGCode , "13.a"^^sdgo:SDGCodeCompact .
 
-sdg:11.1 skos:notation "11.01", "11.1" .
+sdg:13.b skos:notation "13.0b"^^sdgo:SDGCode , "13.b"^^sdgo:SDGCodeCompact .
 
-sdg:C110101 skos:notation "11.01.01", "11.1.1", "C110101" .
+sdg:14.1 skos:notation "14.01"^^sdgo:SDGCode , "14.1"^^sdgo:SDGCodeCompact .
 
-sdg:11.2 skos:notation "11.02", "11.2" .
+sdg:14.2 skos:notation "14.02"^^sdgo:SDGCode , "14.2"^^sdgo:SDGCodeCompact .
 
-sdg:C110201 skos:notation "11.02.01", "11.2.1", "C110201" .
+sdg:14.3 skos:notation "14.03"^^sdgo:SDGCode , "14.3"^^sdgo:SDGCodeCompact .
 
-sdg:11.3 skos:notation "11.03", "11.3" .
+sdg:14.4 skos:notation "14.04"^^sdgo:SDGCode , "14.4"^^sdgo:SDGCodeCompact .
 
-sdg:C110301 skos:notation "11.03.01", "11.3.1", "C110301" .
+sdg:14.5 skos:notation "14.05"^^sdgo:SDGCode , "14.5"^^sdgo:SDGCodeCompact .
 
-sdg:C110302 skos:notation "11.03.02", "11.3.2", "C110302" .
+sdg:14.6 skos:notation "14.06"^^sdgo:SDGCode , "14.6"^^sdgo:SDGCodeCompact .
 
-sdg:11.4 skos:notation "11.04", "11.4" .
+sdg:14.7 skos:notation "14.07"^^sdgo:SDGCode , "14.7"^^sdgo:SDGCodeCompact .
 
-sdg:C110401 skos:notation "11.04.01", "11.4.1", "C110401" .
+sdg:14.a skos:notation "14.0a"^^sdgo:SDGCode , "14.a"^^sdgo:SDGCodeCompact .
 
-sdg:11.5 skos:notation "11.05", "11.5" .
+sdg:14.b skos:notation "14.0b"^^sdgo:SDGCode , "14.b"^^sdgo:SDGCodeCompact .
 
-sdg:C110502 skos:notation "11.05.02", "11.5.2", "C110502" .
+sdg:14.c skos:notation "14.0c"^^sdgo:SDGCode , "14.c"^^sdgo:SDGCodeCompact .
 
-sdg:11.6 skos:notation "11.06", "11.6" .
+sdg:15.1 skos:notation "15.01"^^sdgo:SDGCode , "15.1"^^sdgo:SDGCodeCompact .
 
-sdg:C110601 skos:notation "11.06.01", "11.6.1", "C110601" .
+sdg:15.2 skos:notation "15.02"^^sdgo:SDGCode , "15.2"^^sdgo:SDGCodeCompact .
 
-sdg:C110602 skos:notation "11.06.02", "11.6.2", "C110602" .
+sdg:15.3 skos:notation "15.03"^^sdgo:SDGCode , "15.3"^^sdgo:SDGCodeCompact .
 
-sdg:11.7 skos:notation "11.07", "11.7" .
+sdg:15.4 skos:notation "15.04"^^sdgo:SDGCode , "15.4"^^sdgo:SDGCodeCompact .
 
-sdg:C110701 skos:notation "11.07.01", "11.7.1", "C110701" .
+sdg:15.5 skos:notation "15.05"^^sdgo:SDGCode , "15.5"^^sdgo:SDGCodeCompact .
 
-sdg:C110702 skos:notation "11.07.02", "11.7.2", "C110702" .
+sdg:15.6 skos:notation "15.06"^^sdgo:SDGCode , "15.6"^^sdgo:SDGCodeCompact .
 
-sdg:11.a skos:notation "11.0a", "11.a" .
+sdg:15.7 skos:notation "15.07"^^sdgo:SDGCode , "15.7"^^sdgo:SDGCodeCompact .
 
-sdg:C110a01 skos:notation "11.0a.01", "11.a.1", "C110a01" .
+sdg:15.8 skos:notation "15.08"^^sdgo:SDGCode , "15.8"^^sdgo:SDGCodeCompact .
 
-sdg:11.b skos:notation "11.0b", "11.b" .
+sdg:15.9 skos:notation "15.09"^^sdgo:SDGCode , "15.9"^^sdgo:SDGCodeCompact .
 
-sdg:11.c skos:notation "11.0c", "11.c" .
+sdg:15.a skos:notation "15.0a"^^sdgo:SDGCode , "15.a"^^sdgo:SDGCodeCompact .
 
-sdg:C110c01 skos:notation "11.0c.01", "11.c.1", "C110c01" .
+sdg:15.b skos:notation "15.0b"^^sdgo:SDGCode , "15.b"^^sdgo:SDGCodeCompact .
 
-sdg:12.1 skos:notation "12.01", "12.1" .
+sdg:15.c skos:notation "15.0c"^^sdgo:SDGCode , "15.c"^^sdgo:SDGCodeCompact .
 
-sdg:C120101 skos:notation "12.01.01", "12.1.1", "C120101" .
+sdg:16.10 skos:notation "16.10"^^sdgo:SDGCode , "16.10"^^sdgo:SDGCodeCompact .
 
-sdg:12.2 skos:notation "12.02", "12.2" .
+sdg:16.1 skos:notation "16.01"^^sdgo:SDGCode , "16.1"^^sdgo:SDGCodeCompact .
 
-sdg:C200202 skos:notation "08.04.01", "12.02.01", "12.2.1", "8.4.1", "C200202" .
+sdg:16.2 skos:notation "16.02"^^sdgo:SDGCode , "16.2"^^sdgo:SDGCodeCompact .
 
-sdg:C200203 skos:notation "08.04.02", "12.02.02", "12.2.2", "8.4.2", "C200203" .
+sdg:16.3 skos:notation "16.03"^^sdgo:SDGCode , "16.3"^^sdgo:SDGCodeCompact .
 
-sdg:12.3 skos:notation "12.03", "12.3" .
+sdg:16.4 skos:notation "16.04"^^sdgo:SDGCode , "16.4"^^sdgo:SDGCodeCompact .
 
-sdg:C120301 skos:notation "12.03.01", "12.3.1", "C120301" .
+sdg:16.5 skos:notation "16.05"^^sdgo:SDGCode , "16.5"^^sdgo:SDGCodeCompact .
 
-sdg:12.4 skos:notation "12.04", "12.4" .
+sdg:16.6 skos:notation "16.06"^^sdgo:SDGCode , "16.6"^^sdgo:SDGCodeCompact .
 
-sdg:C120401 skos:notation "12.04.01", "12.4.1", "C120401" .
+sdg:16.7 skos:notation "16.07"^^sdgo:SDGCode , "16.7"^^sdgo:SDGCodeCompact .
 
-sdg:C120402 skos:notation "12.04.02", "12.4.2", "C120402" .
+sdg:16.8 skos:notation "16.08"^^sdgo:SDGCode , "16.8"^^sdgo:SDGCodeCompact .
 
-sdg:12.5 skos:notation "12.05", "12.5" .
+sdg:16.9 skos:notation "16.09"^^sdgo:SDGCode , "16.9"^^sdgo:SDGCodeCompact .
 
-sdg:C120501 skos:notation "12.05.01", "12.5.1", "C120501" .
+sdg:16.a skos:notation "16.0a"^^sdgo:SDGCode , "16.a"^^sdgo:SDGCodeCompact .
 
-sdg:12.6 skos:notation "12.06", "12.6" .
+sdg:16.b skos:notation "16.0b"^^sdgo:SDGCode , "16.b"^^sdgo:SDGCodeCompact .
 
-sdg:C120601 skos:notation "12.06.01", "12.6.1", "C120601" .
+sdg:17.10 skos:notation "17.10"^^sdgo:SDGCode , "17.10"^^sdgo:SDGCodeCompact .
 
-sdg:12.7 skos:notation "12.07", "12.7" .
+sdg:17.11 skos:notation "17.11"^^sdgo:SDGCode , "17.11"^^sdgo:SDGCodeCompact .
 
-sdg:C120701 skos:notation "12.07.01", "12.7.1", "C120701" .
+sdg:17.12 skos:notation "17.12"^^sdgo:SDGCode , "17.12"^^sdgo:SDGCodeCompact .
 
-sdg:12.8 skos:notation "12.08", "12.8" .
+sdg:17.13 skos:notation "17.13"^^sdgo:SDGCode , "17.13"^^sdgo:SDGCodeCompact .
 
-sdg:C120801 skos:notation "12.08.01", "12.8.1", "C120801" .
+sdg:17.14 skos:notation "17.14"^^sdgo:SDGCode , "17.14"^^sdgo:SDGCodeCompact .
 
-sdg:12.a skos:notation "12.0a", "12.a" .
+sdg:17.15 skos:notation "17.15"^^sdgo:SDGCode , "17.15"^^sdgo:SDGCodeCompact .
 
-sdg:C120a01 skos:notation "12.0a.01", "12.a.1", "C120a01" .
+sdg:17.16 skos:notation "17.16"^^sdgo:SDGCode , "17.16"^^sdgo:SDGCodeCompact .
 
-sdg:12.b skos:notation "12.0b", "12.b" .
+sdg:17.17 skos:notation "17.17"^^sdgo:SDGCode , "17.17"^^sdgo:SDGCodeCompact .
 
-sdg:C120b01 skos:notation "12.0b.01", "12.b.1", "C120b01" .
+sdg:17.18 skos:notation "17.18"^^sdgo:SDGCode , "17.18"^^sdgo:SDGCodeCompact .
 
-sdg:12.c skos:notation "12.0c", "12.c" .
+sdg:17.19 skos:notation "17.19"^^sdgo:SDGCode , "17.19"^^sdgo:SDGCodeCompact .
 
-sdg:C120c01 skos:notation "12.0c.01", "12.c.1", "C120c01" .
+sdg:17.1 skos:notation "17.01"^^sdgo:SDGCode , "17.1"^^sdgo:SDGCodeCompact .
 
-sdg:13.1 skos:notation "13.01", "13.1" .
+sdg:17.2 skos:notation "17.02"^^sdgo:SDGCode , "17.2"^^sdgo:SDGCodeCompact .
 
-sdg:13.2 skos:notation "13.02", "13.2" .
+sdg:17.3 skos:notation "17.03"^^sdgo:SDGCode , "17.3"^^sdgo:SDGCodeCompact .
 
-sdg:C130201 skos:notation "13.02.01", "13.2.1", "C130201" .
+sdg:17.4 skos:notation "17.04"^^sdgo:SDGCode , "17.4"^^sdgo:SDGCodeCompact .
 
-sdg:13.3 skos:notation "13.03", "13.3" .
+sdg:17.5 skos:notation "17.05"^^sdgo:SDGCode , "17.5"^^sdgo:SDGCodeCompact .
 
-sdg:C130301 skos:notation "13.03.01", "13.3.1", "C130301" .
+sdg:17.6 skos:notation "17.06"^^sdgo:SDGCode , "17.6"^^sdgo:SDGCodeCompact .
 
-sdg:C130302 skos:notation "13.03.02", "13.3.2", "C130302" .
+sdg:17.7 skos:notation "17.07"^^sdgo:SDGCode , "17.7"^^sdgo:SDGCodeCompact .
 
-sdg:13.a skos:notation "13.0a", "13.a" .
+sdg:17.8 skos:notation "17.08"^^sdgo:SDGCode , "17.8"^^sdgo:SDGCodeCompact .
 
-sdg:C130a01 skos:notation "13.0a.01", "13.a.1", "C130a01" .
+sdg:17.9 skos:notation "17.09"^^sdgo:SDGCode , "17.9"^^sdgo:SDGCodeCompact .
 
-sdg:13.b skos:notation "13.0b", "13.b" .
+sdg:2.1 skos:notation "02.01"^^sdgo:SDGCode , "2.1"^^sdgo:SDGCodeCompact .
 
-sdg:C130b01 skos:notation "13.0b.01", "13.b.1", "C130b01" .
+sdg:2.2 skos:notation "02.02"^^sdgo:SDGCode , "2.2"^^sdgo:SDGCodeCompact .
 
-sdg:14.1 skos:notation "14.01", "14.1" .
+sdg:2.3 skos:notation "02.03"^^sdgo:SDGCode , "2.3"^^sdgo:SDGCodeCompact .
 
-sdg:C140101 skos:notation "14.01.01", "14.1.1", "C140101" .
+sdg:2.4 skos:notation "02.04"^^sdgo:SDGCode , "2.4"^^sdgo:SDGCodeCompact .
 
-sdg:14.2 skos:notation "14.02", "14.2" .
+sdg:2.5 skos:notation "02.05"^^sdgo:SDGCode , "2.5"^^sdgo:SDGCodeCompact .
 
-sdg:C140201 skos:notation "14.02.01", "14.2.1", "C140201" .
+sdg:2.a skos:notation "02.0a"^^sdgo:SDGCode , "2.a"^^sdgo:SDGCodeCompact .
 
-sdg:14.3 skos:notation "14.03", "14.3" .
+sdg:2.b skos:notation "02.0b"^^sdgo:SDGCode , "2.b"^^sdgo:SDGCodeCompact .
 
-sdg:C140301 skos:notation "14.03.01", "14.3.1", "C140301" .
+sdg:2.c skos:notation "02.0c"^^sdgo:SDGCode , "2.c"^^sdgo:SDGCodeCompact .
 
-sdg:14.4 skos:notation "14.04", "14.4" .
+sdg:3.1 skos:notation "03.01"^^sdgo:SDGCode , "3.1"^^sdgo:SDGCodeCompact .
 
-sdg:C140401 skos:notation "14.04.01", "14.4.1", "C140401" .
+sdg:3.2 skos:notation "03.02"^^sdgo:SDGCode , "3.2"^^sdgo:SDGCodeCompact .
 
-sdg:14.5 skos:notation "14.05", "14.5" .
+sdg:3.3 skos:notation "03.03"^^sdgo:SDGCode , "3.3"^^sdgo:SDGCodeCompact .
 
-sdg:C140501 skos:notation "14.05.01", "14.5.1", "C140501" .
+sdg:3.4 skos:notation "03.04"^^sdgo:SDGCode , "3.4"^^sdgo:SDGCodeCompact .
 
-sdg:14.6 skos:notation "14.06", "14.6" .
+sdg:3.5 skos:notation "03.05"^^sdgo:SDGCode , "3.5"^^sdgo:SDGCodeCompact .
 
-sdg:C140601 skos:notation "14.06.01", "14.6.1", "C140601" .
+sdg:3.6 skos:notation "03.06"^^sdgo:SDGCode , "3.6"^^sdgo:SDGCodeCompact .
 
-sdg:14.7 skos:notation "14.07", "14.7" .
+sdg:3.7 skos:notation "03.07"^^sdgo:SDGCode , "3.7"^^sdgo:SDGCodeCompact .
 
-sdg:C140701 skos:notation "14.07.01", "14.7.1", "C140701" .
+sdg:3.8 skos:notation "03.08"^^sdgo:SDGCode , "3.8"^^sdgo:SDGCodeCompact .
 
-sdg:14.a skos:notation "14.0a", "14.a" .
+sdg:3.9 skos:notation "03.09"^^sdgo:SDGCode , "3.9"^^sdgo:SDGCodeCompact .
 
-sdg:C140a01 skos:notation "14.0a.01", "14.a.1", "C140a01" .
+sdg:3.a skos:notation "03.0a"^^sdgo:SDGCode , "3.a"^^sdgo:SDGCodeCompact .
 
-sdg:14.b skos:notation "14.0b", "14.b" .
+sdg:3.b skos:notation "03.0b"^^sdgo:SDGCode , "3.b"^^sdgo:SDGCodeCompact .
 
-sdg:C140b01 skos:notation "14.0b.01", "14.b.1", "C140b01" .
+sdg:3.c skos:notation "03.0c"^^sdgo:SDGCode , "3.c"^^sdgo:SDGCodeCompact .
 
-sdg:14.c skos:notation "14.0c", "14.c" .
+sdg:3.d skos:notation "03.0d"^^sdgo:SDGCode , "3.d"^^sdgo:SDGCodeCompact .
 
-sdg:C140c01 skos:notation "14.0c.01", "14.c.1", "C140c01" .
+sdg:4.1 skos:notation "04.01"^^sdgo:SDGCode , "4.1"^^sdgo:SDGCodeCompact .
 
-sdg:15.1 skos:notation "15.01", "15.1" .
+sdg:4.2 skos:notation "04.02"^^sdgo:SDGCode , "4.2"^^sdgo:SDGCodeCompact .
 
-sdg:C150101 skos:notation "15.01.01", "15.1.1", "C150101" .
+sdg:4.3 skos:notation "04.03"^^sdgo:SDGCode , "4.3"^^sdgo:SDGCodeCompact .
 
-sdg:C150102 skos:notation "15.01.02", "15.1.2", "C150102" .
+sdg:4.4 skos:notation "04.04"^^sdgo:SDGCode , "4.4"^^sdgo:SDGCodeCompact .
 
-sdg:15.2 skos:notation "15.02", "15.2" .
+sdg:4.5 skos:notation "04.05"^^sdgo:SDGCode , "4.5"^^sdgo:SDGCodeCompact .
 
-sdg:C150201 skos:notation "15.02.01", "15.2.1", "C150201" .
+sdg:4.6 skos:notation "04.06"^^sdgo:SDGCode , "4.6"^^sdgo:SDGCodeCompact .
 
-sdg:15.3 skos:notation "15.03", "15.3" .
+sdg:4.7 skos:notation "04.07"^^sdgo:SDGCode , "4.7"^^sdgo:SDGCodeCompact .
 
-sdg:C150301 skos:notation "15.03.01", "15.3.1", "C150301" .
+sdg:4.a skos:notation "04.0a"^^sdgo:SDGCode , "4.a"^^sdgo:SDGCodeCompact .
 
-sdg:15.4 skos:notation "15.04", "15.4" .
+sdg:4.b skos:notation "04.0b"^^sdgo:SDGCode , "4.b"^^sdgo:SDGCodeCompact .
 
-sdg:C150401 skos:notation "15.04.01", "15.4.1", "C150401" .
+sdg:4.c skos:notation "04.0c"^^sdgo:SDGCode , "4.c"^^sdgo:SDGCodeCompact .
 
-sdg:C150402 skos:notation "15.04.02", "15.4.2", "C150402" .
+sdg:5.1 skos:notation "05.01"^^sdgo:SDGCode , "5.1"^^sdgo:SDGCodeCompact .
 
-sdg:15.5 skos:notation "15.05", "15.5" .
+sdg:5.2 skos:notation "05.02"^^sdgo:SDGCode , "5.2"^^sdgo:SDGCodeCompact .
 
-sdg:C150501 skos:notation "15.05.01", "15.5.1", "C150501" .
+sdg:5.3 skos:notation "05.03"^^sdgo:SDGCode , "5.3"^^sdgo:SDGCodeCompact .
 
-sdg:15.6 skos:notation "15.06", "15.6" .
+sdg:5.4 skos:notation "05.04"^^sdgo:SDGCode , "5.4"^^sdgo:SDGCodeCompact .
 
-sdg:C150601 skos:notation "15.06.01", "15.6.1", "C150601" .
+sdg:5.5 skos:notation "05.05"^^sdgo:SDGCode , "5.5"^^sdgo:SDGCodeCompact .
 
-sdg:15.7 skos:notation "15.07", "15.7" .
+sdg:5.6 skos:notation "05.06"^^sdgo:SDGCode , "5.6"^^sdgo:SDGCodeCompact .
 
-sdg:C200206 skos:notation "15.07.01", "15.0c.01", "15.7.1", "15.c.1", "C200206" .
+sdg:5.a skos:notation "05.0a"^^sdgo:SDGCode , "5.a"^^sdgo:SDGCodeCompact .
 
-sdg:15.8 skos:notation "15.08", "15.8" .
+sdg:5.b skos:notation "05.0b"^^sdgo:SDGCode , "5.b"^^sdgo:SDGCodeCompact .
 
-sdg:C150801 skos:notation "15.08.01", "15.8.1", "C150801" .
+sdg:5.c skos:notation "05.0c"^^sdgo:SDGCode , "5.c"^^sdgo:SDGCodeCompact .
 
-sdg:15.9 skos:notation "15.09", "15.9" .
+sdg:6.1 skos:notation "06.01"^^sdgo:SDGCode , "6.1"^^sdgo:SDGCodeCompact .
 
-sdg:C150901 skos:notation "15.09.01", "15.9.1", "C150901" .
+sdg:6.2 skos:notation "06.02"^^sdgo:SDGCode , "6.2"^^sdgo:SDGCodeCompact .
 
-sdg:15.a skos:notation "15.0a", "15.a" .
+sdg:6.3 skos:notation "06.03"^^sdgo:SDGCode , "6.3"^^sdgo:SDGCodeCompact .
 
-sdg:C200207 skos:notation "15.0a.01", "15.0b.01", "15.a.1", "15.b.1", "C200207" .
+sdg:6.4 skos:notation "06.04"^^sdgo:SDGCode , "6.4"^^sdgo:SDGCodeCompact .
 
-sdg:15.b skos:notation "15.0b", "15.b" .
+sdg:6.5 skos:notation "06.05"^^sdgo:SDGCode , "6.5"^^sdgo:SDGCodeCompact .
 
-sdg:15.c skos:notation "15.0c", "15.c" .
+sdg:6.6 skos:notation "06.06"^^sdgo:SDGCode , "6.6"^^sdgo:SDGCodeCompact .
 
-sdg:16.10 skos:notation "16.10" .
+sdg:6.a skos:notation "06.0a"^^sdgo:SDGCode , "6.a"^^sdgo:SDGCodeCompact .
 
-sdg:C161001 skos:notation "16.10.01", "16.10.1", "C161001" .
+sdg:6.b skos:notation "06.0b"^^sdgo:SDGCode , "6.b"^^sdgo:SDGCodeCompact .
 
-sdg:C161002 skos:notation "16.10.02", "16.10.2", "C161002" .
+sdg:7.1 skos:notation "07.01"^^sdgo:SDGCode , "7.1"^^sdgo:SDGCodeCompact .
 
-sdg:16.1 skos:notation "16.01", "16.1" .
+sdg:7.2 skos:notation "07.02"^^sdgo:SDGCode , "7.2"^^sdgo:SDGCodeCompact .
 
-sdg:C160101 skos:notation "16.01.01", "16.1.1", "C160101" .
+sdg:7.3 skos:notation "07.03"^^sdgo:SDGCode , "7.3"^^sdgo:SDGCodeCompact .
 
-sdg:C160102 skos:notation "16.01.02", "16.1.2", "C160102" .
+sdg:7.a skos:notation "07.0a"^^sdgo:SDGCode , "7.a"^^sdgo:SDGCodeCompact .
 
-sdg:C160103 skos:notation "16.01.03", "16.1.3", "C160103" .
+sdg:7.b skos:notation "07.0b"^^sdgo:SDGCode , "7.b"^^sdgo:SDGCodeCompact .
 
-sdg:C160104 skos:notation "16.01.04", "16.1.4", "C160104" .
+sdg:8.10 skos:notation "08.10"^^sdgo:SDGCode , "8.10"^^sdgo:SDGCodeCompact .
 
-sdg:16.2 skos:notation "16.02", "16.2" .
+sdg:8.1 skos:notation "08.01"^^sdgo:SDGCode , "8.1"^^sdgo:SDGCodeCompact .
 
-sdg:C160201 skos:notation "16.02.01", "16.2.1", "C160201" .
+sdg:8.2 skos:notation "08.02"^^sdgo:SDGCode , "8.2"^^sdgo:SDGCodeCompact .
 
-sdg:C160202 skos:notation "16.02.02", "16.2.2", "C160202" .
+sdg:8.3 skos:notation "08.03"^^sdgo:SDGCode , "8.3"^^sdgo:SDGCodeCompact .
 
-sdg:C160203 skos:notation "16.02.03", "16.2.3", "C160203" .
+sdg:8.4 skos:notation "08.04"^^sdgo:SDGCode , "8.4"^^sdgo:SDGCodeCompact .
 
-sdg:16.3 skos:notation "16.03", "16.3" .
+sdg:8.5 skos:notation "08.05"^^sdgo:SDGCode , "8.5"^^sdgo:SDGCodeCompact .
 
-sdg:C160301 skos:notation "16.03.01", "16.3.1", "C160301" .
+sdg:8.6 skos:notation "08.06"^^sdgo:SDGCode , "8.6"^^sdgo:SDGCodeCompact .
 
-sdg:C160302 skos:notation "16.03.02", "16.3.2", "C160302" .
+sdg:8.7 skos:notation "08.07"^^sdgo:SDGCode , "8.7"^^sdgo:SDGCodeCompact .
 
-sdg:16.4 skos:notation "16.04", "16.4" .
+sdg:8.8 skos:notation "08.08"^^sdgo:SDGCode , "8.8"^^sdgo:SDGCodeCompact .
 
-sdg:C160401 skos:notation "16.04.01", "16.4.1", "C160401" .
+sdg:8.9 skos:notation "08.09"^^sdgo:SDGCode , "8.9"^^sdgo:SDGCodeCompact .
 
-sdg:C160402 skos:notation "16.04.02", "16.4.2", "C160402" .
+sdg:8.a skos:notation "08.0a"^^sdgo:SDGCode , "8.a"^^sdgo:SDGCodeCompact .
 
-sdg:16.5 skos:notation "16.05", "16.5" .
+sdg:8.b skos:notation "08.0b"^^sdgo:SDGCode , "8.b"^^sdgo:SDGCodeCompact .
 
-sdg:C160501 skos:notation "16.05.01", "16.5.1", "C160501" .
+sdg:9.1 skos:notation "09.01"^^sdgo:SDGCode , "9.1"^^sdgo:SDGCodeCompact .
 
-sdg:C160502 skos:notation "16.05.02", "16.5.2", "C160502" .
+sdg:9.2 skos:notation "09.02"^^sdgo:SDGCode , "9.2"^^sdgo:SDGCodeCompact .
 
-sdg:16.6 skos:notation "16.06", "16.6" .
+sdg:9.3 skos:notation "09.03"^^sdgo:SDGCode , "9.3"^^sdgo:SDGCodeCompact .
 
-sdg:C160601 skos:notation "16.06.01", "16.6.1", "C160601" .
+sdg:9.4 skos:notation "09.04"^^sdgo:SDGCode , "9.4"^^sdgo:SDGCodeCompact .
 
-sdg:C160602 skos:notation "16.06.02", "16.6.2", "C160602" .
+sdg:9.5 skos:notation "09.05"^^sdgo:SDGCode , "9.5"^^sdgo:SDGCodeCompact .
 
-sdg:16.7 skos:notation "16.07", "16.7" .
+sdg:9.a skos:notation "09.0a"^^sdgo:SDGCode , "9.a"^^sdgo:SDGCodeCompact .
 
-sdg:C160701 skos:notation "16.07.01", "16.7.1", "C160701" .
+sdg:9.b skos:notation "09.0b"^^sdgo:SDGCode , "9.b"^^sdgo:SDGCodeCompact .
 
-sdg:C160702 skos:notation "16.07.02", "16.7.2", "C160702" .
+sdg:9.c skos:notation "09.0c"^^sdgo:SDGCode , "9.c"^^sdgo:SDGCodeCompact .
 
-sdg:16.8 skos:notation "16.08", "16.8" .
+sdg:C010101 skos:notation "01.01.01"^^sdgo:SDGCode , "1.1.1"^^sdgo:SDGCodeCompact , "C010101"^^sdgo:SDGCodePerm .
 
-sdg:16.9 skos:notation "16.09", "16.9" .
+sdg:C010201 skos:notation "01.02.01"^^sdgo:SDGCode , "1.2.1"^^sdgo:SDGCodeCompact , "C010201"^^sdgo:SDGCodePerm .
 
-sdg:C160901 skos:notation "16.09.01", "16.9.1", "C160901" .
+sdg:C010202 skos:notation "01.02.02"^^sdgo:SDGCode , "1.2.2"^^sdgo:SDGCodeCompact , "C010202"^^sdgo:SDGCodePerm .
 
-sdg:16.a skos:notation "16.0a", "16.a" .
+sdg:C010301 skos:notation "01.03.01"^^sdgo:SDGCode , "1.3.1"^^sdgo:SDGCodeCompact , "C010301"^^sdgo:SDGCodePerm .
 
-sdg:C160a01 skos:notation "16.0a.01", "16.a.1", "C160a01" .
+sdg:C010401 skos:notation "01.04.01"^^sdgo:SDGCode , "1.4.1"^^sdgo:SDGCodeCompact , "C010401"^^sdgo:SDGCodePerm .
 
-sdg:16.b skos:notation "16.0b", "16.b" .
+sdg:C010402 skos:notation "01.04.02"^^sdgo:SDGCode , "1.4.2"^^sdgo:SDGCodeCompact , "C010402"^^sdgo:SDGCodePerm .
 
-sdg:17.10 skos:notation "17.10" .
+sdg:C010502 skos:notation "01.05.02"^^sdgo:SDGCode , "1.5.2"^^sdgo:SDGCodeCompact , "C010502"^^sdgo:SDGCodePerm .
 
-sdg:C171001 skos:notation "17.10.01", "17.10.1", "C171001" .
+sdg:C200303 skos:notation "01.05.01"^^sdgo:SDGCode , "1.5.1"^^sdgo:SDGCodeCompact , "11.05.01"^^sdgo:SDGCode , "11.5.1"^^sdgo:SDGCodeCompact , "13.01.01"^^sdgo:SDGCode , "13.1.1"^^sdgo:SDGCodeCompact , "C200303"^^sdgo:SDGCodePerm .
 
-sdg:17.11 skos:notation "17.11" .
+sdg:C200304 skos:notation "01.05.03"^^sdgo:SDGCode , "1.5.3"^^sdgo:SDGCodeCompact , "11.0b.01"^^sdgo:SDGCode , "11.b.1"^^sdgo:SDGCodeCompact , "13.01.02"^^sdgo:SDGCode , "13.1.2"^^sdgo:SDGCodeCompact , "C200304"^^sdgo:SDGCodePerm .
 
-sdg:C171101 skos:notation "17.11.01", "17.11.1", "C171101" .
+sdg:C200305 skos:notation "01.05.04"^^sdgo:SDGCode , "1.5.4"^^sdgo:SDGCodeCompact , "11.0b.02"^^sdgo:SDGCode , "11.b.2"^^sdgo:SDGCodeCompact , "13.01.03"^^sdgo:SDGCode , "13.1.3"^^sdgo:SDGCodeCompact , "C200305"^^sdgo:SDGCodePerm .
 
-sdg:17.12 skos:notation "17.12" .
+sdg:C010a01 skos:notation "01.0a.01"^^sdgo:SDGCode , "1.a.1"^^sdgo:SDGCodeCompact , "C010a01"^^sdgo:SDGCodePerm .
 
-sdg:C171201 skos:notation "17.12.01", "17.12.1", "C171201" .
+sdg:C010a02 skos:notation "01.0a.02"^^sdgo:SDGCode , "1.a.2"^^sdgo:SDGCodeCompact , "C010a02"^^sdgo:SDGCodePerm .
 
-sdg:17.13 skos:notation "17.13" .
+sdg:C010a03 skos:notation "01.0a.03"^^sdgo:SDGCode , "1.a.3"^^sdgo:SDGCodeCompact , "C010a03"^^sdgo:SDGCodePerm .
 
-sdg:C171301 skos:notation "17.13.01", "17.13.1", "C171301" .
+sdg:C010b01 skos:notation "01.0b.01"^^sdgo:SDGCode , "1.b.1"^^sdgo:SDGCodeCompact , "C010b01"^^sdgo:SDGCodePerm .
 
-sdg:17.14 skos:notation "17.14" .
+sdg:C100101 skos:notation "10.01.01"^^sdgo:SDGCode , "10.1.1"^^sdgo:SDGCodeCompact , "C100101"^^sdgo:SDGCodePerm .
 
-sdg:C171401 skos:notation "17.14.01", "17.14.1", "C171401" .
+sdg:C100201 skos:notation "10.02.01"^^sdgo:SDGCode , "10.2.1"^^sdgo:SDGCodeCompact , "C100201"^^sdgo:SDGCodePerm .
 
-sdg:17.15 skos:notation "17.15" .
+sdg:C200204 skos:notation "10.03.01"^^sdgo:SDGCode , "10.3.1"^^sdgo:SDGCodeCompact , "16.0b.01"^^sdgo:SDGCode , "16.b.1"^^sdgo:SDGCodeCompact , "C200204"^^sdgo:SDGCodePerm .
 
-sdg:C171501 skos:notation "17.15.01", "17.15.1", "C171501" .
+sdg:C100401 skos:notation "10.04.01"^^sdgo:SDGCode , "10.4.1"^^sdgo:SDGCodeCompact , "C100401"^^sdgo:SDGCodePerm .
 
-sdg:17.16 skos:notation "17.16" .
+sdg:C100501 skos:notation "10.05.01"^^sdgo:SDGCode , "10.5.1"^^sdgo:SDGCodeCompact , "C100501"^^sdgo:SDGCodePerm .
 
-sdg:C171601 skos:notation "17.16.01", "17.16.1", "C171601" .
+sdg:C200205 skos:notation "10.06.01"^^sdgo:SDGCode , "10.6.1"^^sdgo:SDGCodeCompact , "16.08.01"^^sdgo:SDGCode , "16.8.1"^^sdgo:SDGCodeCompact , "C200205"^^sdgo:SDGCodePerm .
 
-sdg:17.17 skos:notation "17.17" .
+sdg:C100701 skos:notation "10.07.01"^^sdgo:SDGCode , "10.7.1"^^sdgo:SDGCodeCompact , "C100701"^^sdgo:SDGCodePerm .
 
-sdg:C171701 skos:notation "17.17.01", "17.17.1", "C171701" .
+sdg:C100702 skos:notation "10.07.02"^^sdgo:SDGCode , "10.7.2"^^sdgo:SDGCodeCompact , "C100702"^^sdgo:SDGCodePerm .
 
-sdg:17.18 skos:notation "17.18" .
+sdg:C100a01 skos:notation "10.0a.01"^^sdgo:SDGCode , "10.a.1"^^sdgo:SDGCodeCompact , "C100a01"^^sdgo:SDGCodePerm .
 
-sdg:C171801 skos:notation "17.18.01", "17.18.1", "C171801" .
+sdg:C100b01 skos:notation "10.0b.01"^^sdgo:SDGCode , "10.b.1"^^sdgo:SDGCodeCompact , "C100b01"^^sdgo:SDGCodePerm .
 
-sdg:C171802 skos:notation "17.18.02", "17.18.2", "C171802" .
+sdg:C100c01 skos:notation "10.0c.01"^^sdgo:SDGCode , "10.c.1"^^sdgo:SDGCodeCompact , "C100c01"^^sdgo:SDGCodePerm .
 
-sdg:C171803 skos:notation "17.18.03", "17.18.3", "C171803" .
+sdg:C110101 skos:notation "11.01.01"^^sdgo:SDGCode , "11.1.1"^^sdgo:SDGCodeCompact , "C110101"^^sdgo:SDGCodePerm .
 
-sdg:17.19 skos:notation "17.19" .
+sdg:C110201 skos:notation "11.02.01"^^sdgo:SDGCode , "11.2.1"^^sdgo:SDGCodeCompact , "C110201"^^sdgo:SDGCodePerm .
 
-sdg:C171901 skos:notation "17.19.01", "17.19.1", "C171901" .
+sdg:C110301 skos:notation "11.03.01"^^sdgo:SDGCode , "11.3.1"^^sdgo:SDGCodeCompact , "C110301"^^sdgo:SDGCodePerm .
 
-sdg:C171902 skos:notation "17.19.02", "17.19.2", "C171902" .
+sdg:C110302 skos:notation "11.03.02"^^sdgo:SDGCode , "11.3.2"^^sdgo:SDGCodeCompact , "C110302"^^sdgo:SDGCodePerm .
 
-sdg:17.1 skos:notation "17.01", "17.1" .
+sdg:C110401 skos:notation "11.04.01"^^sdgo:SDGCode , "11.4.1"^^sdgo:SDGCodeCompact , "C110401"^^sdgo:SDGCodePerm .
 
-sdg:C170101 skos:notation "17.01.01", "17.1.1", "C170101" .
+sdg:C110502 skos:notation "11.05.02"^^sdgo:SDGCode , "11.5.2"^^sdgo:SDGCodeCompact , "C110502"^^sdgo:SDGCodePerm .
 
-sdg:C170102 skos:notation "17.01.02", "17.1.2", "C170102" .
+sdg:C110601 skos:notation "11.06.01"^^sdgo:SDGCode , "11.6.1"^^sdgo:SDGCodeCompact , "C110601"^^sdgo:SDGCodePerm .
 
-sdg:17.2 skos:notation "17.02", "17.2" .
+sdg:C110602 skos:notation "11.06.02"^^sdgo:SDGCode , "11.6.2"^^sdgo:SDGCodeCompact , "C110602"^^sdgo:SDGCodePerm .
 
-sdg:C170201 skos:notation "17.02.01", "17.2.1", "C170201" .
+sdg:C110701 skos:notation "11.07.01"^^sdgo:SDGCode , "11.7.1"^^sdgo:SDGCodeCompact , "C110701"^^sdgo:SDGCodePerm .
 
-sdg:17.3 skos:notation "17.03", "17.3" .
+sdg:C110702 skos:notation "11.07.02"^^sdgo:SDGCode , "11.7.2"^^sdgo:SDGCodeCompact , "C110702"^^sdgo:SDGCodePerm .
 
-sdg:C170301 skos:notation "17.03.01", "17.3.1", "C170301" .
+sdg:C110a01 skos:notation "11.0a.01"^^sdgo:SDGCode , "11.a.1"^^sdgo:SDGCodeCompact , "C110a01"^^sdgo:SDGCodePerm .
 
-sdg:C170302 skos:notation "17.03.02", "17.3.2", "C170302" .
+sdg:C110c01 skos:notation "11.0c.01"^^sdgo:SDGCode , "11.c.1"^^sdgo:SDGCodeCompact , "C110c01"^^sdgo:SDGCodePerm .
 
-sdg:17.4 skos:notation "17.04", "17.4" .
+sdg:C120101 skos:notation "12.01.01"^^sdgo:SDGCode , "12.1.1"^^sdgo:SDGCodeCompact , "C120101"^^sdgo:SDGCodePerm .
 
-sdg:C170401 skos:notation "17.04.01", "17.4.1", "C170401" .
+sdg:C200202 skos:notation "08.04.01"^^sdgo:SDGCode , "12.02.01"^^sdgo:SDGCode , "12.2.1"^^sdgo:SDGCodeCompact , "8.4.1"^^sdgo:SDGCodeCompact , "C200202"^^sdgo:SDGCodePerm .
 
-sdg:17.5 skos:notation "17.05", "17.5" .
+sdg:C200203 skos:notation "08.04.02"^^sdgo:SDGCode , "12.02.02"^^sdgo:SDGCode , "12.2.2"^^sdgo:SDGCodeCompact , "8.4.2"^^sdgo:SDGCodeCompact , "C200203"^^sdgo:SDGCodePerm .
 
-sdg:C170501 skos:notation "17.05.01", "17.5.1", "C170501" .
+sdg:C120301 skos:notation "12.03.01"^^sdgo:SDGCode , "12.3.1"^^sdgo:SDGCodeCompact , "C120301"^^sdgo:SDGCodePerm .
 
-sdg:17.6 skos:notation "17.06", "17.6" .
+sdg:C120401 skos:notation "12.04.01"^^sdgo:SDGCode , "12.4.1"^^sdgo:SDGCodeCompact , "C120401"^^sdgo:SDGCodePerm .
 
-sdg:C170601 skos:notation "17.06.01", "17.6.1", "C170601" .
+sdg:C120402 skos:notation "12.04.02"^^sdgo:SDGCode , "12.4.2"^^sdgo:SDGCodeCompact , "C120402"^^sdgo:SDGCodePerm .
 
-sdg:C170602 skos:notation "17.06.02", "17.6.2", "C170602" .
+sdg:C120501 skos:notation "12.05.01"^^sdgo:SDGCode , "12.5.1"^^sdgo:SDGCodeCompact , "C120501"^^sdgo:SDGCodePerm .
 
-sdg:17.7 skos:notation "17.07", "17.7" .
+sdg:C120601 skos:notation "12.06.01"^^sdgo:SDGCode , "12.6.1"^^sdgo:SDGCodeCompact , "C120601"^^sdgo:SDGCodePerm .
 
-sdg:C170701 skos:notation "17.07.01", "17.7.1", "C170701" .
+sdg:C120701 skos:notation "12.07.01"^^sdgo:SDGCode , "12.7.1"^^sdgo:SDGCodeCompact , "C120701"^^sdgo:SDGCodePerm .
 
-sdg:17.8 skos:notation "17.08", "17.8" .
+sdg:C120801 skos:notation "12.08.01"^^sdgo:SDGCode , "12.8.1"^^sdgo:SDGCodeCompact , "C120801"^^sdgo:SDGCodePerm .
 
-sdg:C170801 skos:notation "17.08.01", "17.8.1", "C170801" .
+sdg:C120a01 skos:notation "12.0a.01"^^sdgo:SDGCode , "12.a.1"^^sdgo:SDGCodeCompact , "C120a01"^^sdgo:SDGCodePerm .
 
-sdg:17.9 skos:notation "17.09", "17.9" .
+sdg:C120b01 skos:notation "12.0b.01"^^sdgo:SDGCode , "12.b.1"^^sdgo:SDGCodeCompact , "C120b01"^^sdgo:SDGCodePerm .
 
-sdg:C170901 skos:notation "17.09.01", "17.9.1", "C170901" .
+sdg:C120c01 skos:notation "12.0c.01"^^sdgo:SDGCode , "12.c.1"^^sdgo:SDGCodeCompact , "C120c01"^^sdgo:SDGCodePerm .
 
-sdg:2.1 skos:notation "02.01", "2.1" .
+sdg:C130201 skos:notation "13.02.01"^^sdgo:SDGCode , "13.2.1"^^sdgo:SDGCodeCompact , "C130201"^^sdgo:SDGCodePerm .
 
-sdg:C020101 skos:notation "02.01.01", "2.1.1", "C020101" .
+sdg:C130301 skos:notation "13.03.01"^^sdgo:SDGCode , "13.3.1"^^sdgo:SDGCodeCompact , "C130301"^^sdgo:SDGCodePerm .
 
-sdg:C020102 skos:notation "02.01.02", "2.1.2", "C020102" .
+sdg:C130302 skos:notation "13.03.02"^^sdgo:SDGCode , "13.3.2"^^sdgo:SDGCodeCompact , "C130302"^^sdgo:SDGCodePerm .
 
-sdg:2.2 skos:notation "02.02", "2.2" .
+sdg:C130a01 skos:notation "13.0a.01"^^sdgo:SDGCode , "13.a.1"^^sdgo:SDGCodeCompact , "C130a01"^^sdgo:SDGCodePerm .
 
-sdg:C020201 skos:notation "02.02.01", "2.2.1", "C020201" .
+sdg:C130b01 skos:notation "13.0b.01"^^sdgo:SDGCode , "13.b.1"^^sdgo:SDGCodeCompact , "C130b01"^^sdgo:SDGCodePerm .
 
-sdg:C020202 skos:notation "02.02.02", "2.2.2", "C020202" .
+sdg:C140101 skos:notation "14.01.01"^^sdgo:SDGCode , "14.1.1"^^sdgo:SDGCodeCompact , "C140101"^^sdgo:SDGCodePerm .
 
-sdg:2.3 skos:notation "02.03", "2.3" .
+sdg:C140201 skos:notation "14.02.01"^^sdgo:SDGCode , "14.2.1"^^sdgo:SDGCodeCompact , "C140201"^^sdgo:SDGCodePerm .
 
-sdg:C020301 skos:notation "02.03.01", "2.3.1", "C020301" .
+sdg:C140301 skos:notation "14.03.01"^^sdgo:SDGCode , "14.3.1"^^sdgo:SDGCodeCompact , "C140301"^^sdgo:SDGCodePerm .
 
-sdg:C020302 skos:notation "02.03.02", "2.3.2", "C020302" .
+sdg:C140401 skos:notation "14.04.01"^^sdgo:SDGCode , "14.4.1"^^sdgo:SDGCodeCompact , "C140401"^^sdgo:SDGCodePerm .
 
-sdg:2.4 skos:notation "02.04", "2.4" .
+sdg:C140501 skos:notation "14.05.01"^^sdgo:SDGCode , "14.5.1"^^sdgo:SDGCodeCompact , "C140501"^^sdgo:SDGCodePerm .
 
-sdg:C020401 skos:notation "02.04.01", "2.4.1", "C020401" .
+sdg:C140601 skos:notation "14.06.01"^^sdgo:SDGCode , "14.6.1"^^sdgo:SDGCodeCompact , "C140601"^^sdgo:SDGCodePerm .
 
-sdg:2.5 skos:notation "02.05", "2.5" .
+sdg:C140701 skos:notation "14.07.01"^^sdgo:SDGCode , "14.7.1"^^sdgo:SDGCodeCompact , "C140701"^^sdgo:SDGCodePerm .
 
-sdg:C020501 skos:notation "02.05.01", "2.5.1", "C020501" .
+sdg:C140a01 skos:notation "14.0a.01"^^sdgo:SDGCode , "14.a.1"^^sdgo:SDGCodeCompact , "C140a01"^^sdgo:SDGCodePerm .
 
-sdg:C020502 skos:notation "02.05.02", "2.5.2", "C020502" .
+sdg:C140b01 skos:notation "14.0b.01"^^sdgo:SDGCode , "14.b.1"^^sdgo:SDGCodeCompact , "C140b01"^^sdgo:SDGCodePerm .
 
-sdg:2.a skos:notation "02.0a", "2.a" .
+sdg:C140c01 skos:notation "14.0c.01"^^sdgo:SDGCode , "14.c.1"^^sdgo:SDGCodeCompact , "C140c01"^^sdgo:SDGCodePerm .
 
-sdg:C020a01 skos:notation "02.0a.01", "2.a.1", "C020a01" .
+sdg:C150101 skos:notation "15.01.01"^^sdgo:SDGCode , "15.1.1"^^sdgo:SDGCodeCompact , "C150101"^^sdgo:SDGCodePerm .
 
-sdg:C020a02 skos:notation "02.0a.02", "2.a.2", "C020a02" .
+sdg:C150102 skos:notation "15.01.02"^^sdgo:SDGCode , "15.1.2"^^sdgo:SDGCodeCompact , "C150102"^^sdgo:SDGCodePerm .
 
-sdg:2.b skos:notation "02.0b", "2.b" .
+sdg:C150201 skos:notation "15.02.01"^^sdgo:SDGCode , "15.2.1"^^sdgo:SDGCodeCompact , "C150201"^^sdgo:SDGCodePerm .
 
-sdg:C020b02 skos:notation "02.0b.01", "2.b.1", "C020b02" .
+sdg:C150301 skos:notation "15.03.01"^^sdgo:SDGCode , "15.3.1"^^sdgo:SDGCodeCompact , "C150301"^^sdgo:SDGCodePerm .
 
-sdg:2.c skos:notation "02.0c", "2.c" .
+sdg:C150401 skos:notation "15.04.01"^^sdgo:SDGCode , "15.4.1"^^sdgo:SDGCodeCompact , "C150401"^^sdgo:SDGCodePerm .
 
-sdg:C020c01 skos:notation "02.0c.01", "2.c.1", "C020c01" .
+sdg:C150402 skos:notation "15.04.02"^^sdgo:SDGCode , "15.4.2"^^sdgo:SDGCodeCompact , "C150402"^^sdgo:SDGCodePerm .
 
-sdg:3.1 skos:notation "03.01", "3.1" .
+sdg:C150501 skos:notation "15.05.01"^^sdgo:SDGCode , "15.5.1"^^sdgo:SDGCodeCompact , "C150501"^^sdgo:SDGCodePerm .
 
-sdg:C030101 skos:notation "03.01.01", "3.1.1", "C030101" .
+sdg:C150601 skos:notation "15.06.01"^^sdgo:SDGCode , "15.6.1"^^sdgo:SDGCodeCompact , "C150601"^^sdgo:SDGCodePerm .
 
-sdg:C030102 skos:notation "03.01.02", "3.1.2", "C030102" .
+sdg:C200206 skos:notation "15.07.01"^^sdgo:SDGCode , "15.0c.01"^^sdgo:SDGCode , "15.7.1"^^sdgo:SDGCodeCompact , "15.c.1"^^sdgo:SDGCodeCompact , "C200206"^^sdgo:SDGCodePerm .
 
-sdg:3.2 skos:notation "03.02", "3.2" .
+sdg:C150801 skos:notation "15.08.01"^^sdgo:SDGCode , "15.8.1"^^sdgo:SDGCodeCompact , "C150801"^^sdgo:SDGCodePerm .
 
-sdg:C030201 skos:notation "03.02.01", "3.2.1", "C030201" .
+sdg:C150901 skos:notation "15.09.01"^^sdgo:SDGCode , "15.9.1"^^sdgo:SDGCodeCompact , "C150901"^^sdgo:SDGCodePerm .
 
-sdg:C030202 skos:notation "03.02.02", "3.2.2", "C030202" .
+sdg:C200207 skos:notation "15.0a.01"^^sdgo:SDGCode , "15.0b.01"^^sdgo:SDGCode , "15.a.1"^^sdgo:SDGCodeCompact , "15.b.1"^^sdgo:SDGCodeCompact , "C200207"^^sdgo:SDGCodePerm .
 
-sdg:3.3 skos:notation "03.03", "3.3" .
+sdg:C161001 skos:notation "16.10.01"^^sdgo:SDGCode , "16.10.1"^^sdgo:SDGCodeCompact , "C161001"^^sdgo:SDGCodePerm .
 
-sdg:C030301 skos:notation "03.03.01", "3.3.1", "C030301" .
+sdg:C161002 skos:notation "16.10.02"^^sdgo:SDGCode , "16.10.2"^^sdgo:SDGCodeCompact , "C161002"^^sdgo:SDGCodePerm .
 
-sdg:C030302 skos:notation "03.03.02", "3.3.2", "C030302" .
+sdg:C160101 skos:notation "16.01.01"^^sdgo:SDGCode , "16.1.1"^^sdgo:SDGCodeCompact , "C160101"^^sdgo:SDGCodePerm .
 
-sdg:C030303 skos:notation "03.03.03", "3.3.3", "C030303" .
+sdg:C160102 skos:notation "16.01.02"^^sdgo:SDGCode , "16.1.2"^^sdgo:SDGCodeCompact , "C160102"^^sdgo:SDGCodePerm .
 
-sdg:C030304 skos:notation "03.03.04", "3.3.4", "C030304" .
+sdg:C160103 skos:notation "16.01.03"^^sdgo:SDGCode , "16.1.3"^^sdgo:SDGCodeCompact , "C160103"^^sdgo:SDGCodePerm .
 
-sdg:C030305 skos:notation "03.03.05", "3.3.5", "C030305" .
+sdg:C160104 skos:notation "16.01.04"^^sdgo:SDGCode , "16.1.4"^^sdgo:SDGCodeCompact , "C160104"^^sdgo:SDGCodePerm .
 
-sdg:3.4 skos:notation "03.04", "3.4" .
+sdg:C160201 skos:notation "16.02.01"^^sdgo:SDGCode , "16.2.1"^^sdgo:SDGCodeCompact , "C160201"^^sdgo:SDGCodePerm .
 
-sdg:C030401 skos:notation "03.04.01", "3.4.1", "C030401" .
+sdg:C160202 skos:notation "16.02.02"^^sdgo:SDGCode , "16.2.2"^^sdgo:SDGCodeCompact , "C160202"^^sdgo:SDGCodePerm .
 
-sdg:C030402 skos:notation "03.04.02", "3.4.2", "C030402" .
+sdg:C160203 skos:notation "16.02.03"^^sdgo:SDGCode , "16.2.3"^^sdgo:SDGCodeCompact , "C160203"^^sdgo:SDGCodePerm .
 
-sdg:3.5 skos:notation "03.05", "3.5" .
+sdg:C160301 skos:notation "16.03.01"^^sdgo:SDGCode , "16.3.1"^^sdgo:SDGCodeCompact , "C160301"^^sdgo:SDGCodePerm .
 
-sdg:C030501 skos:notation "03.05.01", "3.5.1", "C030501" .
+sdg:C160302 skos:notation "16.03.02"^^sdgo:SDGCode , "16.3.2"^^sdgo:SDGCodeCompact , "C160302"^^sdgo:SDGCodePerm .
 
-sdg:C030502 skos:notation "03.05.02", "3.5.2", "C030502" .
+sdg:C160401 skos:notation "16.04.01"^^sdgo:SDGCode , "16.4.1"^^sdgo:SDGCodeCompact , "C160401"^^sdgo:SDGCodePerm .
 
-sdg:3.6 skos:notation "03.06", "3.6" .
+sdg:C160402 skos:notation "16.04.02"^^sdgo:SDGCode , "16.4.2"^^sdgo:SDGCodeCompact , "C160402"^^sdgo:SDGCodePerm .
 
-sdg:C030601 skos:notation "03.06.01", "3.6.1", "C030601" .
+sdg:C160501 skos:notation "16.05.01"^^sdgo:SDGCode , "16.5.1"^^sdgo:SDGCodeCompact , "C160501"^^sdgo:SDGCodePerm .
 
-sdg:3.7 skos:notation "03.07", "3.7" .
+sdg:C160502 skos:notation "16.05.02"^^sdgo:SDGCode , "16.5.2"^^sdgo:SDGCodeCompact , "C160502"^^sdgo:SDGCodePerm .
 
-sdg:C030701 skos:notation "03.07.01", "3.7.1", "C030701" .
+sdg:C160601 skos:notation "16.06.01"^^sdgo:SDGCode , "16.6.1"^^sdgo:SDGCodeCompact , "C160601"^^sdgo:SDGCodePerm .
 
-sdg:C030702 skos:notation "03.07.02", "3.7.2", "C030702" .
+sdg:C160602 skos:notation "16.06.02"^^sdgo:SDGCode , "16.6.2"^^sdgo:SDGCodeCompact , "C160602"^^sdgo:SDGCodePerm .
 
-sdg:3.8 skos:notation "03.08", "3.8" .
+sdg:C160701 skos:notation "16.07.01"^^sdgo:SDGCode , "16.7.1"^^sdgo:SDGCodeCompact , "C160701"^^sdgo:SDGCodePerm .
 
-sdg:C030801 skos:notation "03.08.01", "3.8.1", "C030801" .
+sdg:C160702 skos:notation "16.07.02"^^sdgo:SDGCode , "16.7.2"^^sdgo:SDGCodeCompact , "C160702"^^sdgo:SDGCodePerm .
 
-sdg:C030802 skos:notation "03.08.02", "3.8.2", "C030802" .
+sdg:C160901 skos:notation "16.09.01"^^sdgo:SDGCode , "16.9.1"^^sdgo:SDGCodeCompact , "C160901"^^sdgo:SDGCodePerm .
 
-sdg:3.9 skos:notation "03.09", "3.9" .
+sdg:C160a01 skos:notation "16.0a.01"^^sdgo:SDGCode , "16.a.1"^^sdgo:SDGCodeCompact , "C160a01"^^sdgo:SDGCodePerm .
 
-sdg:C030901 skos:notation "03.09.01", "3.9.1", "C030901" .
+sdg:C171001 skos:notation "17.10.01"^^sdgo:SDGCode , "17.10.1"^^sdgo:SDGCodeCompact , "C171001"^^sdgo:SDGCodePerm .
 
-sdg:C030902 skos:notation "03.09.02", "3.9.2", "C030902" .
+sdg:C171101 skos:notation "17.11.01"^^sdgo:SDGCode , "17.11.1"^^sdgo:SDGCodeCompact , "C171101"^^sdgo:SDGCodePerm .
 
-sdg:C030903 skos:notation "03.09.03", "3.9.3", "C030903" .
+sdg:C171201 skos:notation "17.12.01"^^sdgo:SDGCode , "17.12.1"^^sdgo:SDGCodeCompact , "C171201"^^sdgo:SDGCodePerm .
 
-sdg:3.a skos:notation "03.0a", "3.a" .
+sdg:C171301 skos:notation "17.13.01"^^sdgo:SDGCode , "17.13.1"^^sdgo:SDGCodeCompact , "C171301"^^sdgo:SDGCodePerm .
 
-sdg:C030a01 skos:notation "03.0a.01", "3.a.1", "C030a01" .
+sdg:C171401 skos:notation "17.14.01"^^sdgo:SDGCode , "17.14.1"^^sdgo:SDGCodeCompact , "C171401"^^sdgo:SDGCodePerm .
 
-sdg:3.b skos:notation "03.0b", "3.b" .
+sdg:C171501 skos:notation "17.15.01"^^sdgo:SDGCode , "17.15.1"^^sdgo:SDGCodeCompact , "C171501"^^sdgo:SDGCodePerm .
 
-sdg:C030b01 skos:notation "03.0b.01", "3.b.1", "C030b01" .
+sdg:C171601 skos:notation "17.16.01"^^sdgo:SDGCode , "17.16.1"^^sdgo:SDGCodeCompact , "C171601"^^sdgo:SDGCodePerm .
 
-sdg:C030b02 skos:notation "03.0b.02", "3.b.2", "C030b02" .
+sdg:C171701 skos:notation "17.17.01"^^sdgo:SDGCode , "17.17.1"^^sdgo:SDGCodeCompact , "C171701"^^sdgo:SDGCodePerm .
 
-sdg:C030b03 skos:notation "03.0b.03", "3.b.3", "C030b03" .
+sdg:C171801 skos:notation "17.18.01"^^sdgo:SDGCode , "17.18.1"^^sdgo:SDGCodeCompact , "C171801"^^sdgo:SDGCodePerm .
 
-sdg:3.c skos:notation "03.0c", "3.c" .
+sdg:C171802 skos:notation "17.18.02"^^sdgo:SDGCode , "17.18.2"^^sdgo:SDGCodeCompact , "C171802"^^sdgo:SDGCodePerm .
 
-sdg:C030c01 skos:notation "03.0c.01", "3.c.1", "C030c01" .
+sdg:C171803 skos:notation "17.18.03"^^sdgo:SDGCode , "17.18.3"^^sdgo:SDGCodeCompact , "C171803"^^sdgo:SDGCodePerm .
 
-sdg:3.d skos:notation "03.0d", "3.d" .
+sdg:C171901 skos:notation "17.19.01"^^sdgo:SDGCode , "17.19.1"^^sdgo:SDGCodeCompact , "C171901"^^sdgo:SDGCodePerm .
 
-sdg:C030d01 skos:notation "03.0d.01", "3.d.1", "C030d01" .
+sdg:C171902 skos:notation "17.19.02"^^sdgo:SDGCode , "17.19.2"^^sdgo:SDGCodeCompact , "C171902"^^sdgo:SDGCodePerm .
 
-sdg:4.1 skos:notation "04.01", "4.1" .
+sdg:C170101 skos:notation "17.01.01"^^sdgo:SDGCode , "17.1.1"^^sdgo:SDGCodeCompact , "C170101"^^sdgo:SDGCodePerm .
 
-sdg:C040101 skos:notation "04.01.01", "4.1.1", "C040101" .
+sdg:C170102 skos:notation "17.01.02"^^sdgo:SDGCode , "17.1.2"^^sdgo:SDGCodeCompact , "C170102"^^sdgo:SDGCodePerm .
 
-sdg:4.2 skos:notation "04.02", "4.2" .
+sdg:C170201 skos:notation "17.02.01"^^sdgo:SDGCode , "17.2.1"^^sdgo:SDGCodeCompact , "C170201"^^sdgo:SDGCodePerm .
 
-sdg:C040201 skos:notation "04.02.01", "4.2.1", "C040201" .
+sdg:C170301 skos:notation "17.03.01"^^sdgo:SDGCode , "17.3.1"^^sdgo:SDGCodeCompact , "C170301"^^sdgo:SDGCodePerm .
 
-sdg:C040202 skos:notation "04.02.02", "4.2.2", "C040202" .
+sdg:C170302 skos:notation "17.03.02"^^sdgo:SDGCode , "17.3.2"^^sdgo:SDGCodeCompact , "C170302"^^sdgo:SDGCodePerm .
 
-sdg:4.3 skos:notation "04.03", "4.3" .
+sdg:C170401 skos:notation "17.04.01"^^sdgo:SDGCode , "17.4.1"^^sdgo:SDGCodeCompact , "C170401"^^sdgo:SDGCodePerm .
 
-sdg:C040301 skos:notation "04.03.01", "4.3.1", "C040301" .
+sdg:C170501 skos:notation "17.05.01"^^sdgo:SDGCode , "17.5.1"^^sdgo:SDGCodeCompact , "C170501"^^sdgo:SDGCodePerm .
 
-sdg:4.4 skos:notation "04.04", "4.4" .
+sdg:C170601 skos:notation "17.06.01"^^sdgo:SDGCode , "17.6.1"^^sdgo:SDGCodeCompact , "C170601"^^sdgo:SDGCodePerm .
 
-sdg:C040401 skos:notation "04.04.01", "4.4.1", "C040401" .
+sdg:C170602 skos:notation "17.06.02"^^sdgo:SDGCode , "17.6.2"^^sdgo:SDGCodeCompact , "C170602"^^sdgo:SDGCodePerm .
 
-sdg:4.5 skos:notation "04.05", "4.5" .
+sdg:C170701 skos:notation "17.07.01"^^sdgo:SDGCode , "17.7.1"^^sdgo:SDGCodeCompact , "C170701"^^sdgo:SDGCodePerm .
 
-sdg:C040501 skos:notation "04.05.01", "4.5.1", "C040501" .
+sdg:C170801 skos:notation "17.08.01"^^sdgo:SDGCode , "17.8.1"^^sdgo:SDGCodeCompact , "C170801"^^sdgo:SDGCodePerm .
 
-sdg:4.6 skos:notation "04.06", "4.6" .
+sdg:C170901 skos:notation "17.09.01"^^sdgo:SDGCode , "17.9.1"^^sdgo:SDGCodeCompact , "C170901"^^sdgo:SDGCodePerm .
 
-sdg:C040601 skos:notation "04.06.01", "4.6.1", "C040601" .
+sdg:C020101 skos:notation "02.01.01"^^sdgo:SDGCode , "2.1.1"^^sdgo:SDGCodeCompact , "C020101"^^sdgo:SDGCodePerm .
 
-sdg:4.7 skos:notation "04.07", "4.7" .
+sdg:C020102 skos:notation "02.01.02"^^sdgo:SDGCode , "2.1.2"^^sdgo:SDGCodeCompact , "C020102"^^sdgo:SDGCodePerm .
 
-sdg:C040701 skos:notation "04.07.01", "4.7.1", "C040701" .
+sdg:C020201 skos:notation "02.02.01"^^sdgo:SDGCode , "2.2.1"^^sdgo:SDGCodeCompact , "C020201"^^sdgo:SDGCodePerm .
 
-sdg:4.a skos:notation "04.0a", "4.a" .
+sdg:C020202 skos:notation "02.02.02"^^sdgo:SDGCode , "2.2.2"^^sdgo:SDGCodeCompact , "C020202"^^sdgo:SDGCodePerm .
 
-sdg:C040a01 skos:notation "04.0a.01", "4.a.1", "C040a01" .
+sdg:C020301 skos:notation "02.03.01"^^sdgo:SDGCode , "2.3.1"^^sdgo:SDGCodeCompact , "C020301"^^sdgo:SDGCodePerm .
 
-sdg:4.b skos:notation "04.0b", "4.b" .
+sdg:C020302 skos:notation "02.03.02"^^sdgo:SDGCode , "2.3.2"^^sdgo:SDGCodeCompact , "C020302"^^sdgo:SDGCodePerm .
 
-sdg:C040b01 skos:notation "04.0b.01", "4.b.1", "C040b01" .
+sdg:C020401 skos:notation "02.04.01"^^sdgo:SDGCode , "2.4.1"^^sdgo:SDGCodeCompact , "C020401"^^sdgo:SDGCodePerm .
 
-sdg:4.c skos:notation "04.0c", "4.c" .
+sdg:C020501 skos:notation "02.05.01"^^sdgo:SDGCode , "2.5.1"^^sdgo:SDGCodeCompact , "C020501"^^sdgo:SDGCodePerm .
 
-sdg:C040c01 skos:notation "04.0c.01", "4.c.1", "C040c01" .
+sdg:C020502 skos:notation "02.05.02"^^sdgo:SDGCode , "2.5.2"^^sdgo:SDGCodeCompact , "C020502"^^sdgo:SDGCodePerm .
 
-sdg:5.1 skos:notation "05.01", "5.1" .
+sdg:C020a01 skos:notation "02.0a.01"^^sdgo:SDGCode , "2.a.1"^^sdgo:SDGCodeCompact , "C020a01"^^sdgo:SDGCodePerm .
 
-sdg:C050101 skos:notation "05.01.01", "5.1.1", "C050101" .
+sdg:C020a02 skos:notation "02.0a.02"^^sdgo:SDGCode , "2.a.2"^^sdgo:SDGCodeCompact , "C020a02"^^sdgo:SDGCodePerm .
 
-sdg:5.2 skos:notation "05.02", "5.2" .
+sdg:C020b02 skos:notation "02.0b.01"^^sdgo:SDGCode , "2.b.1"^^sdgo:SDGCodeCompact , "C020b02"^^sdgo:SDGCodePerm .
 
-sdg:C050201 skos:notation "05.02.01", "5.2.1", "C050201" .
+sdg:C020c01 skos:notation "02.0c.01"^^sdgo:SDGCode , "2.c.1"^^sdgo:SDGCodeCompact , "C020c01"^^sdgo:SDGCodePerm .
 
-sdg:C050202 skos:notation "05.02.02", "5.2.2", "C050202" .
+sdg:C030101 skos:notation "03.01.01"^^sdgo:SDGCode , "3.1.1"^^sdgo:SDGCodeCompact , "C030101"^^sdgo:SDGCodePerm .
 
-sdg:5.3 skos:notation "05.03", "5.3" .
+sdg:C030102 skos:notation "03.01.02"^^sdgo:SDGCode , "3.1.2"^^sdgo:SDGCodeCompact , "C030102"^^sdgo:SDGCodePerm .
 
-sdg:C050301 skos:notation "05.03.01", "5.3.1", "C050301" .
+sdg:C030201 skos:notation "03.02.01"^^sdgo:SDGCode , "3.2.1"^^sdgo:SDGCodeCompact , "C030201"^^sdgo:SDGCodePerm .
 
-sdg:C050302 skos:notation "05.03.02", "5.3.2", "C050302" .
+sdg:C030202 skos:notation "03.02.02"^^sdgo:SDGCode , "3.2.2"^^sdgo:SDGCodeCompact , "C030202"^^sdgo:SDGCodePerm .
 
-sdg:5.4 skos:notation "05.04", "5.4" .
+sdg:C030301 skos:notation "03.03.01"^^sdgo:SDGCode , "3.3.1"^^sdgo:SDGCodeCompact , "C030301"^^sdgo:SDGCodePerm .
 
-sdg:C050401 skos:notation "05.04.01", "5.4.1", "C050401" .
+sdg:C030302 skos:notation "03.03.02"^^sdgo:SDGCode , "3.3.2"^^sdgo:SDGCodeCompact , "C030302"^^sdgo:SDGCodePerm .
 
-sdg:5.5 skos:notation "05.05", "5.5" .
+sdg:C030303 skos:notation "03.03.03"^^sdgo:SDGCode , "3.3.3"^^sdgo:SDGCodeCompact , "C030303"^^sdgo:SDGCodePerm .
 
-sdg:C050501 skos:notation "05.05.01", "5.5.1", "C050501" .
+sdg:C030304 skos:notation "03.03.04"^^sdgo:SDGCode , "3.3.4"^^sdgo:SDGCodeCompact , "C030304"^^sdgo:SDGCodePerm .
 
-sdg:C050502 skos:notation "05.05.02", "5.5.2", "C050502" .
+sdg:C030305 skos:notation "03.03.05"^^sdgo:SDGCode , "3.3.5"^^sdgo:SDGCodeCompact , "C030305"^^sdgo:SDGCodePerm .
 
-sdg:5.6 skos:notation "05.06", "5.6" .
+sdg:C030401 skos:notation "03.04.01"^^sdgo:SDGCode , "3.4.1"^^sdgo:SDGCodeCompact , "C030401"^^sdgo:SDGCodePerm .
 
-sdg:C050601 skos:notation "05.06.01", "5.6.1", "C050601" .
+sdg:C030402 skos:notation "03.04.02"^^sdgo:SDGCode , "3.4.2"^^sdgo:SDGCodeCompact , "C030402"^^sdgo:SDGCodePerm .
 
-sdg:C050602 skos:notation "05.06.02", "5.6.2", "C050602" .
+sdg:C030501 skos:notation "03.05.01"^^sdgo:SDGCode , "3.5.1"^^sdgo:SDGCodeCompact , "C030501"^^sdgo:SDGCodePerm .
 
-sdg:5.a skos:notation "05.0a", "5.a" .
+sdg:C030502 skos:notation "03.05.02"^^sdgo:SDGCode , "3.5.2"^^sdgo:SDGCodeCompact , "C030502"^^sdgo:SDGCodePerm .
 
-sdg:C050a01 skos:notation "05.0a.01", "5.a.1", "C050a01" .
+sdg:C030601 skos:notation "03.06.01"^^sdgo:SDGCode , "3.6.1"^^sdgo:SDGCodeCompact , "C030601"^^sdgo:SDGCodePerm .
 
-sdg:C050a02 skos:notation "05.0a.02", "5.a.2", "C050a02" .
+sdg:C030701 skos:notation "03.07.01"^^sdgo:SDGCode , "3.7.1"^^sdgo:SDGCodeCompact , "C030701"^^sdgo:SDGCodePerm .
 
-sdg:5.b skos:notation "05.0b", "5.b" .
+sdg:C030702 skos:notation "03.07.02"^^sdgo:SDGCode , "3.7.2"^^sdgo:SDGCodeCompact , "C030702"^^sdgo:SDGCodePerm .
 
-sdg:C050b01 skos:notation "05.0b.01", "5.b.1", "C050b01" .
+sdg:C030801 skos:notation "03.08.01"^^sdgo:SDGCode , "3.8.1"^^sdgo:SDGCodeCompact , "C030801"^^sdgo:SDGCodePerm .
 
-sdg:5.c skos:notation "05.0c", "5.c" .
+sdg:C030802 skos:notation "03.08.02"^^sdgo:SDGCode , "3.8.2"^^sdgo:SDGCodeCompact , "C030802"^^sdgo:SDGCodePerm .
 
-sdg:C050c01 skos:notation "05.0c.01", "5.c.1", "C050c01" .
+sdg:C030901 skos:notation "03.09.01"^^sdgo:SDGCode , "3.9.1"^^sdgo:SDGCodeCompact , "C030901"^^sdgo:SDGCodePerm .
 
-sdg:6.1 skos:notation "06.01", "6.1" .
+sdg:C030902 skos:notation "03.09.02"^^sdgo:SDGCode , "3.9.2"^^sdgo:SDGCodeCompact , "C030902"^^sdgo:SDGCodePerm .
 
-sdg:C060101 skos:notation "06.01.01", "6.1.1", "C060101" .
+sdg:C030903 skos:notation "03.09.03"^^sdgo:SDGCode , "3.9.3"^^sdgo:SDGCodeCompact , "C030903"^^sdgo:SDGCodePerm .
 
-sdg:6.2 skos:notation "06.02", "6.2" .
+sdg:C030a01 skos:notation "03.0a.01"^^sdgo:SDGCode , "3.a.1"^^sdgo:SDGCodeCompact , "C030a01"^^sdgo:SDGCodePerm .
 
-sdg:C060201 skos:notation "06.02.01", "6.2.1", "C060201" .
+sdg:C030b01 skos:notation "03.0b.01"^^sdgo:SDGCode , "3.b.1"^^sdgo:SDGCodeCompact , "C030b01"^^sdgo:SDGCodePerm .
 
-sdg:6.3 skos:notation "06.03", "6.3" .
+sdg:C030b02 skos:notation "03.0b.02"^^sdgo:SDGCode , "3.b.2"^^sdgo:SDGCodeCompact , "C030b02"^^sdgo:SDGCodePerm .
 
-sdg:C060301 skos:notation "06.03.01", "6.3.1", "C060301" .
+sdg:C030b03 skos:notation "03.0b.03"^^sdgo:SDGCode , "3.b.3"^^sdgo:SDGCodeCompact , "C030b03"^^sdgo:SDGCodePerm .
 
-sdg:C060302 skos:notation "06.03.02", "6.3.2", "C060302" .
+sdg:C030c01 skos:notation "03.0c.01"^^sdgo:SDGCode , "3.c.1"^^sdgo:SDGCodeCompact , "C030c01"^^sdgo:SDGCodePerm .
 
-sdg:6.4 skos:notation "06.04", "6.4" .
+sdg:C030d01 skos:notation "03.0d.01"^^sdgo:SDGCode , "3.d.1"^^sdgo:SDGCodeCompact , "C030d01"^^sdgo:SDGCodePerm .
 
-sdg:C060401 skos:notation "06.04.01", "6.4.1", "C060401" .
+sdg:C040101 skos:notation "04.01.01"^^sdgo:SDGCode , "4.1.1"^^sdgo:SDGCodeCompact , "C040101"^^sdgo:SDGCodePerm .
 
-sdg:C060402 skos:notation "06.04.02", "6.4.2", "C060402" .
+sdg:C040201 skos:notation "04.02.01"^^sdgo:SDGCode , "4.2.1"^^sdgo:SDGCodeCompact , "C040201"^^sdgo:SDGCodePerm .
 
-sdg:6.5 skos:notation "06.05", "6.5" .
+sdg:C040202 skos:notation "04.02.02"^^sdgo:SDGCode , "4.2.2"^^sdgo:SDGCodeCompact , "C040202"^^sdgo:SDGCodePerm .
 
-sdg:C060501 skos:notation "06.05.01", "6.5.1", "C060501" .
+sdg:C040301 skos:notation "04.03.01"^^sdgo:SDGCode , "4.3.1"^^sdgo:SDGCodeCompact , "C040301"^^sdgo:SDGCodePerm .
 
-sdg:C060502 skos:notation "06.05.02", "6.5.2", "C060502" .
+sdg:C040401 skos:notation "04.04.01"^^sdgo:SDGCode , "4.4.1"^^sdgo:SDGCodeCompact , "C040401"^^sdgo:SDGCodePerm .
 
-sdg:6.6 skos:notation "06.06", "6.6" .
+sdg:C040501 skos:notation "04.05.01"^^sdgo:SDGCode , "4.5.1"^^sdgo:SDGCodeCompact , "C040501"^^sdgo:SDGCodePerm .
 
-sdg:C060601 skos:notation "06.06.01", "6.6.1", "C060601" .
+sdg:C040601 skos:notation "04.06.01"^^sdgo:SDGCode , "4.6.1"^^sdgo:SDGCodeCompact , "C040601"^^sdgo:SDGCodePerm .
 
-sdg:6.a skos:notation "06.0a", "6.a" .
+sdg:C040701 skos:notation "04.07.01"^^sdgo:SDGCode , "4.7.1"^^sdgo:SDGCodeCompact , "C040701"^^sdgo:SDGCodePerm .
 
-sdg:C060a01 skos:notation "06.0a.01", "6.a.1", "C060a01" .
+sdg:C040a01 skos:notation "04.0a.01"^^sdgo:SDGCode , "4.a.1"^^sdgo:SDGCodeCompact , "C040a01"^^sdgo:SDGCodePerm .
 
-sdg:6.b skos:notation "06.0b", "6.b" .
+sdg:C040b01 skos:notation "04.0b.01"^^sdgo:SDGCode , "4.b.1"^^sdgo:SDGCodeCompact , "C040b01"^^sdgo:SDGCodePerm .
 
-sdg:C060b01 skos:notation "06.0b.01", "6.b.1", "C060b01" .
+sdg:C040c01 skos:notation "04.0c.01"^^sdgo:SDGCode , "4.c.1"^^sdgo:SDGCodeCompact , "C040c01"^^sdgo:SDGCodePerm .
 
-sdg:7.1 skos:notation "07.01", "7.1" .
+sdg:C050101 skos:notation "05.01.01"^^sdgo:SDGCode , "5.1.1"^^sdgo:SDGCodeCompact , "C050101"^^sdgo:SDGCodePerm .
 
-sdg:C070101 skos:notation "07.01.01", "7.1.1", "C070101" .
+sdg:C050201 skos:notation "05.02.01"^^sdgo:SDGCode , "5.2.1"^^sdgo:SDGCodeCompact , "C050201"^^sdgo:SDGCodePerm .
 
-sdg:C070102 skos:notation "07.01.02", "7.1.2", "C070102" .
+sdg:C050202 skos:notation "05.02.02"^^sdgo:SDGCode , "5.2.2"^^sdgo:SDGCodeCompact , "C050202"^^sdgo:SDGCodePerm .
 
-sdg:7.2 skos:notation "07.02", "7.2" .
+sdg:C050301 skos:notation "05.03.01"^^sdgo:SDGCode , "5.3.1"^^sdgo:SDGCodeCompact , "C050301"^^sdgo:SDGCodePerm .
 
-sdg:C070201 skos:notation "07.02.01", "7.2.1", "C070201" .
+sdg:C050302 skos:notation "05.03.02"^^sdgo:SDGCode , "5.3.2"^^sdgo:SDGCodeCompact , "C050302"^^sdgo:SDGCodePerm .
 
-sdg:7.3 skos:notation "07.03", "7.3" .
+sdg:C050401 skos:notation "05.04.01"^^sdgo:SDGCode , "5.4.1"^^sdgo:SDGCodeCompact , "C050401"^^sdgo:SDGCodePerm .
 
-sdg:C070301 skos:notation "07.03.01", "7.3.1", "C070301" .
+sdg:C050501 skos:notation "05.05.01"^^sdgo:SDGCode , "5.5.1"^^sdgo:SDGCodeCompact , "C050501"^^sdgo:SDGCodePerm .
 
-sdg:7.a skos:notation "07.0a", "7.a" .
+sdg:C050502 skos:notation "05.05.02"^^sdgo:SDGCode , "5.5.2"^^sdgo:SDGCodeCompact , "C050502"^^sdgo:SDGCodePerm .
 
-sdg:C070a01 skos:notation "07.0a.01", "7.a.1", "C070a01" .
+sdg:C050601 skos:notation "05.06.01"^^sdgo:SDGCode , "5.6.1"^^sdgo:SDGCodeCompact , "C050601"^^sdgo:SDGCodePerm .
 
-sdg:7.b skos:notation "07.0b", "7.b" .
+sdg:C050602 skos:notation "05.06.02"^^sdgo:SDGCode , "5.6.2"^^sdgo:SDGCodeCompact , "C050602"^^sdgo:SDGCodePerm .
 
-sdg:C070b01 skos:notation "07.0b.01", "7.b.1", "C070b01" .
+sdg:C050a01 skos:notation "05.0a.01"^^sdgo:SDGCode , "5.a.1"^^sdgo:SDGCodeCompact , "C050a01"^^sdgo:SDGCodePerm .
 
-sdg:8.10 skos:notation "08.10", "8.10" .
+sdg:C050a02 skos:notation "05.0a.02"^^sdgo:SDGCode , "5.a.2"^^sdgo:SDGCodeCompact , "C050a02"^^sdgo:SDGCodePerm .
 
-sdg:C081001 skos:notation "08.10.01", "8.10.1", "C081001" .
+sdg:C050b01 skos:notation "05.0b.01"^^sdgo:SDGCode , "5.b.1"^^sdgo:SDGCodeCompact , "C050b01"^^sdgo:SDGCodePerm .
 
-sdg:C081002 skos:notation "08.10.02", "8.10.2", "C081002" .
+sdg:C050c01 skos:notation "05.0c.01"^^sdgo:SDGCode , "5.c.1"^^sdgo:SDGCodeCompact , "C050c01"^^sdgo:SDGCodePerm .
 
-sdg:8.1 skos:notation "08.01", "8.1" .
+sdg:C060101 skos:notation "06.01.01"^^sdgo:SDGCode , "6.1.1"^^sdgo:SDGCodeCompact , "C060101"^^sdgo:SDGCodePerm .
 
-sdg:C080101 skos:notation "08.01.01", "8.1.1", "C080101" .
+sdg:C060201 skos:notation "06.02.01"^^sdgo:SDGCode , "6.2.1"^^sdgo:SDGCodeCompact , "C060201"^^sdgo:SDGCodePerm .
 
-sdg:8.2 skos:notation "08.02", "8.2" .
+sdg:C060301 skos:notation "06.03.01"^^sdgo:SDGCode , "6.3.1"^^sdgo:SDGCodeCompact , "C060301"^^sdgo:SDGCodePerm .
 
-sdg:C080201 skos:notation "08.02.01", "8.2.1", "C080201" .
+sdg:C060302 skos:notation "06.03.02"^^sdgo:SDGCode , "6.3.2"^^sdgo:SDGCodeCompact , "C060302"^^sdgo:SDGCodePerm .
 
-sdg:8.3 skos:notation "08.03", "8.3" .
+sdg:C060401 skos:notation "06.04.01"^^sdgo:SDGCode , "6.4.1"^^sdgo:SDGCodeCompact , "C060401"^^sdgo:SDGCodePerm .
 
-sdg:C080301 skos:notation "08.03.01", "8.3.1", "C080301" .
+sdg:C060402 skos:notation "06.04.02"^^sdgo:SDGCode , "6.4.2"^^sdgo:SDGCodeCompact , "C060402"^^sdgo:SDGCodePerm .
 
-sdg:8.4 skos:notation "08.04", "8.4" .
+sdg:C060501 skos:notation "06.05.01"^^sdgo:SDGCode , "6.5.1"^^sdgo:SDGCodeCompact , "C060501"^^sdgo:SDGCodePerm .
 
-sdg:8.5 skos:notation "08.05", "8.5" .
+sdg:C060502 skos:notation "06.05.02"^^sdgo:SDGCode , "6.5.2"^^sdgo:SDGCodeCompact , "C060502"^^sdgo:SDGCodePerm .
 
-sdg:C080501 skos:notation "08.05.01", "8.5.1", "C080501" .
+sdg:C060601 skos:notation "06.06.01"^^sdgo:SDGCode , "6.6.1"^^sdgo:SDGCodeCompact , "C060601"^^sdgo:SDGCodePerm .
 
-sdg:C080502 skos:notation "08.05.02", "8.5.2", "C080502" .
+sdg:C060a01 skos:notation "06.0a.01"^^sdgo:SDGCode , "6.a.1"^^sdgo:SDGCodeCompact , "C060a01"^^sdgo:SDGCodePerm .
 
-sdg:8.6 skos:notation "08.06", "8.6" .
+sdg:C060b01 skos:notation "06.0b.01"^^sdgo:SDGCode , "6.b.1"^^sdgo:SDGCodeCompact , "C060b01"^^sdgo:SDGCodePerm .
 
-sdg:C080601 skos:notation "08.06.01", "8.6.1", "C080601" .
+sdg:C070101 skos:notation "07.01.01"^^sdgo:SDGCode , "7.1.1"^^sdgo:SDGCodeCompact , "C070101"^^sdgo:SDGCodePerm .
 
-sdg:8.7 skos:notation "08.07", "8.7" .
+sdg:C070102 skos:notation "07.01.02"^^sdgo:SDGCode , "7.1.2"^^sdgo:SDGCodeCompact , "C070102"^^sdgo:SDGCodePerm .
 
-sdg:C080701 skos:notation "08.07.01", "8.7.1", "C080701" .
+sdg:C070201 skos:notation "07.02.01"^^sdgo:SDGCode , "7.2.1"^^sdgo:SDGCodeCompact , "C070201"^^sdgo:SDGCodePerm .
 
-sdg:8.8 skos:notation "08.08", "8.8" .
+sdg:C070301 skos:notation "07.03.01"^^sdgo:SDGCode , "7.3.1"^^sdgo:SDGCodeCompact , "C070301"^^sdgo:SDGCodePerm .
 
-sdg:C080801 skos:notation "08.08.01", "8.8.1", "C080801" .
+sdg:C070a01 skos:notation "07.0a.01"^^sdgo:SDGCode , "7.a.1"^^sdgo:SDGCodeCompact , "C070a01"^^sdgo:SDGCodePerm .
 
-sdg:C080802 skos:notation "08.08.02", "8.8.2", "C080802" .
+sdg:C070b01 skos:notation "07.0b.01"^^sdgo:SDGCode , "7.b.1"^^sdgo:SDGCodeCompact , "C070b01"^^sdgo:SDGCodePerm .
 
-sdg:8.9 skos:notation "08.09", "8.9" .
+sdg:C081001 skos:notation "08.10.01"^^sdgo:SDGCode , "8.10.1"^^sdgo:SDGCodeCompact , "C081001"^^sdgo:SDGCodePerm .
 
-sdg:C080901 skos:notation "08.09.01", "8.9.1", "C080901" .
+sdg:C081002 skos:notation "08.10.02"^^sdgo:SDGCode , "8.10.2"^^sdgo:SDGCodeCompact , "C081002"^^sdgo:SDGCodePerm .
 
-sdg:C080902 skos:notation "08.09.02", "8.9.2", "C080902" .
+sdg:C080101 skos:notation "08.01.01"^^sdgo:SDGCode , "8.1.1"^^sdgo:SDGCodeCompact , "C080101"^^sdgo:SDGCodePerm .
 
-sdg:8.a skos:notation "08.0a", "8.a" .
+sdg:C080201 skos:notation "08.02.01"^^sdgo:SDGCode , "8.2.1"^^sdgo:SDGCodeCompact , "C080201"^^sdgo:SDGCodePerm .
 
-sdg:C080a01 skos:notation "08.0a.01", "8.a.1", "C080a01" .
+sdg:C080301 skos:notation "08.03.01"^^sdgo:SDGCode , "8.3.1"^^sdgo:SDGCodeCompact , "C080301"^^sdgo:SDGCodePerm .
 
-sdg:8.b skos:notation "08.0b", "8.b" .
+sdg:C080501 skos:notation "08.05.01"^^sdgo:SDGCode , "8.5.1"^^sdgo:SDGCodeCompact , "C080501"^^sdgo:SDGCodePerm .
 
-sdg:C080b01 skos:notation "08.0b.01", "8.b.1", "C080b01" .
+sdg:C080502 skos:notation "08.05.02"^^sdgo:SDGCode , "8.5.2"^^sdgo:SDGCodeCompact , "C080502"^^sdgo:SDGCodePerm .
 
-sdg:9.1 skos:notation "09.01", "9.1" .
+sdg:C080601 skos:notation "08.06.01"^^sdgo:SDGCode , "8.6.1"^^sdgo:SDGCodeCompact , "C080601"^^sdgo:SDGCodePerm .
 
-sdg:C090101 skos:notation "09.01.01", "9.1.1", "C090101" .
+sdg:C080701 skos:notation "08.07.01"^^sdgo:SDGCode , "8.7.1"^^sdgo:SDGCodeCompact , "C080701"^^sdgo:SDGCodePerm .
 
-sdg:C090102 skos:notation "09.01.02", "9.1.2", "C090102" .
+sdg:C080801 skos:notation "08.08.01"^^sdgo:SDGCode , "8.8.1"^^sdgo:SDGCodeCompact , "C080801"^^sdgo:SDGCodePerm .
 
-sdg:9.2 skos:notation "09.02", "9.2" .
+sdg:C080802 skos:notation "08.08.02"^^sdgo:SDGCode , "8.8.2"^^sdgo:SDGCodeCompact , "C080802"^^sdgo:SDGCodePerm .
 
-sdg:C090201 skos:notation "09.02.01", "9.2.1", "C090201" .
+sdg:C080901 skos:notation "08.09.01"^^sdgo:SDGCode , "8.9.1"^^sdgo:SDGCodeCompact , "C080901"^^sdgo:SDGCodePerm .
 
-sdg:C090202 skos:notation "09.02.02", "9.2.2", "C090202" .
+sdg:C080902 skos:notation "08.09.02"^^sdgo:SDGCode , "8.9.2"^^sdgo:SDGCodeCompact , "C080902"^^sdgo:SDGCodePerm .
 
-sdg:9.3 skos:notation "09.03", "9.3" .
+sdg:C080a01 skos:notation "08.0a.01"^^sdgo:SDGCode , "8.a.1"^^sdgo:SDGCodeCompact , "C080a01"^^sdgo:SDGCodePerm .
 
-sdg:C090301 skos:notation "09.03.01", "9.3.1", "C090301" .
+sdg:C080b01 skos:notation "08.0b.01"^^sdgo:SDGCode , "8.b.1"^^sdgo:SDGCodeCompact , "C080b01"^^sdgo:SDGCodePerm .
 
-sdg:C090302 skos:notation "09.03.02", "9.3.2", "C090302" .
+sdg:C090101 skos:notation "09.01.01"^^sdgo:SDGCode , "9.1.1"^^sdgo:SDGCodeCompact , "C090101"^^sdgo:SDGCodePerm .
 
-sdg:9.4 skos:notation "09.04", "9.4" .
+sdg:C090102 skos:notation "09.01.02"^^sdgo:SDGCode , "9.1.2"^^sdgo:SDGCodeCompact , "C090102"^^sdgo:SDGCodePerm .
 
-sdg:C090401 skos:notation "09.04.01", "9.4.1", "C090401" .
+sdg:C090201 skos:notation "09.02.01"^^sdgo:SDGCode , "9.2.1"^^sdgo:SDGCodeCompact , "C090201"^^sdgo:SDGCodePerm .
 
-sdg:9.5 skos:notation "09.05", "9.5" .
+sdg:C090202 skos:notation "09.02.02"^^sdgo:SDGCode , "9.2.2"^^sdgo:SDGCodeCompact , "C090202"^^sdgo:SDGCodePerm .
 
-sdg:C090501 skos:notation "09.05.01", "9.5.1", "C090501" .
+sdg:C090301 skos:notation "09.03.01"^^sdgo:SDGCode , "9.3.1"^^sdgo:SDGCodeCompact , "C090301"^^sdgo:SDGCodePerm .
 
-sdg:C090502 skos:notation "09.05.02", "9.5.2", "C090502" .
+sdg:C090302 skos:notation "09.03.02"^^sdgo:SDGCode , "9.3.2"^^sdgo:SDGCodeCompact , "C090302"^^sdgo:SDGCodePerm .
 
-sdg:9.a skos:notation "09.0a", "9.a" .
+sdg:C090401 skos:notation "09.04.01"^^sdgo:SDGCode , "9.4.1"^^sdgo:SDGCodeCompact , "C090401"^^sdgo:SDGCodePerm .
 
-sdg:C090a01 skos:notation "09.0a.01", "9.a.1", "C090a01" .
+sdg:C090501 skos:notation "09.05.01"^^sdgo:SDGCode , "9.5.1"^^sdgo:SDGCodeCompact , "C090501"^^sdgo:SDGCodePerm .
 
-sdg:9.b skos:notation "09.0b", "9.b" .
+sdg:C090502 skos:notation "09.05.02"^^sdgo:SDGCode , "9.5.2"^^sdgo:SDGCodeCompact , "C090502"^^sdgo:SDGCodePerm .
 
-sdg:C090b01 skos:notation "09.0b.01", "9.b.1", "C090b01" .
+sdg:C090a01 skos:notation "09.0a.01"^^sdgo:SDGCode , "9.a.1"^^sdgo:SDGCodeCompact , "C090a01"^^sdgo:SDGCodePerm .
 
-sdg:9.c skos:notation "09.0c", "9.c" .
+sdg:C090b01 skos:notation "09.0b.01"^^sdgo:SDGCode , "9.b.1"^^sdgo:SDGCodeCompact , "C090b01"^^sdgo:SDGCodePerm .
 
-sdg:C090c01 skos:notation "09.0c.01", "9.c.1", "C090c01" .
+sdg:C090c01 skos:notation "09.0c.01"^^sdgo:SDGCode , "9.c.1"^^sdgo:SDGCodeCompact , "C090c01"^^sdgo:SDGCodePerm .
 
 <http://metadata.un.org/sdg> skos:hasTopConcept sdg:1, sdg:10, sdg:11, sdg:12, sdg:13,
     sdg:14, sdg:15, sdg:16, sdg:17, sdg:2, sdg:3, sdg:4, sdg:5, sdg:6, sdg:7, sdg:8, sdg:9 .
