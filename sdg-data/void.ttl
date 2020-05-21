@@ -1,0 +1,148 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix lime: <http://www.w3.org/ns/lemon/lime#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://metadata.un.org/sdg/void.ttl> a void:DatasetDescription;
+  foaf:primaryTopic <http://metadata.un.org/sdg/void.ttl#SDG> .
+
+<http://metadata.un.org/sdg/void.ttl#SDG> a void:Dataset;
+  dcterms:conformsTo <http://www.w3.org/2004/02/skos/core>;
+  dcterms:creator <http://un.org>;
+  dcterms:contributor <http://un.org>;
+  dcterms:description "Fill here with a description for SDG";
+  dcterms:date "2020-05-09"^^xsd:date;
+  dcterms:created "2020-05-09"^^xsd:date;
+  dcterms:issued "2020-05-09"^^xsd:date;
+  dcterms:modified "2020-05-09"^^xsd:date;
+  dcterms:license <http://insert.license>;
+  dcterms:publisher <http://un.org>;
+  dcterms:source <http://metadata.un.org/sdg/>;
+  dcterms:subject <http://www.w3.org/ns/formats/put-subject-shere>;
+  dcterms:title "Fill here with a title for SDG";
+  void:classPartition _:node1e8k3fsg2x595 .
+
+_:node1e8k3fsg2x595 void:class <http://www.w3.org/2004/02/skos/core#Concept>;
+  void:entities 812 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG> void:classPartition _:node1e8k3fsg2x596 .
+
+_:node1e8k3fsg2x596 void:class <http://www.w3.org/2004/02/skos/core#Collection>;
+  void:entities 1 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG> void:classPartition _:node1e8k3fsg2x597 .
+
+_:node1e8k3fsg2x597 void:class <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+  void:entities 1 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG> void:dataDump <https://github.com/UNStats/LOD4Stats/blob/master/sdg-data/sdg-ontology-with-taxonomy.ttl>;
+  void:distinctObjects 6842;
+  void:distinctSubjects 1002;
+  void:entities 814;
+  void:feature <http://www.w3.org/ns/formats/Turtle>;
+  void:sparqlEndpoint <http://there-s.no.endpoint>;
+  void:subset <http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853_ad02babb-f55d-4ed1-ab46-4618d7599d4f_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_64520d55-d42d-4596-be51-2103cf8740a1_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_ad02babb-f55d-4ed1-ab46-4618d7599d4f_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_e3c5a0a6-f738-488f-ac95-a3a3be4446ed_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_en_lexicalization_set>, <http://metadata.un.org/sdg/void.ttl#SDG_es_lexicalization_set>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_fr_lexicalization_set>;
+  void:triples 14645;
+  void:uriSpace "http://metadata.un.org/sdg/";
+  rdfs:label "Fill here with a title for SDG";
+  foaf:homepage <http://metadata.un.org/sdg> .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_fr_lexicalization_set> a lime:LexicalizationSet;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/fr>, <http://lexvo.org/id/iso639-3/fra>;
+  lime:avgNumOfLexicalizations 0.519;
+  lime:language "fr";
+  lime:lexicalizationModel <http://www.w3.org/2004/02/skos/core>;
+  lime:lexicalizations 422;
+  lime:percentage 0.514;
+  lime:referenceDataset <http://metadata.un.org/sdg/void.ttl#SDG>;
+  lime:references 418 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_en_lexicalization_set> a lime:LexicalizationSet;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>, <http://lexvo.org/id/iso639-3/eng>;
+  lime:avgNumOfLexicalizations 1.021;
+  lime:language "en";
+  lime:lexicalizationModel <http://www.w3.org/2004/02/skos/core>;
+  lime:lexicalizations 831;
+  lime:percentage 0.999;
+  lime:referenceDataset <http://metadata.un.org/sdg/void.ttl#SDG>;
+  lime:references 813 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_es_lexicalization_set> a lime:LexicalizationSet;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/es>, <http://lexvo.org/id/iso639-3/spa>;
+  lime:avgNumOfLexicalizations 0.516;
+  lime:language "es";
+  lime:lexicalizationModel <http://www.w3.org/2004/02/skos/core>;
+  lime:lexicalizations 420;
+  lime:percentage 0.514;
+  lime:referenceDataset <http://metadata.un.org/sdg/void.ttl#SDG>;
+  lime:references 418 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_ad02babb-f55d-4ed1-ab46-4618d7599d4f_linkset>
+  a void:Linkset;
+  void:linkPredicate rdfs:subClassOf;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#ad02babb-f55d-4ed1-ab46-4618d7599d4f>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:triples 1 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_e3c5a0a6-f738-488f-ac95-a3a3be4446ed_linkset>
+  a void:Linkset;
+  void:linkPredicate <http://www.w3.org/2004/02/skos/core#exactMatch>;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#e3c5a0a6-f738-488f-ac95-a3a3be4446ed>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:triples 418 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_subPropertyOf_linkset>
+  a void:Linkset;
+  void:linkPredicate rdfs:subPropertyOf;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:triples 6 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_linkset>
+  a void:Linkset;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:subset <http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_subClassOf_linkset>,
+    <http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_subPropertyOf_linkset>;
+  void:triples 10 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_8efcf460-832f-454b-ab1c-02c882195853_subClassOf_linkset>
+  a void:Linkset;
+  void:linkPredicate rdfs:subClassOf;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:triples 4 .
+
+<http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853_ad02babb-f55d-4ed1-ab46-4618d7599d4f_linkset>
+  a void:Linkset;
+  void:linkPredicate rdfs:subPropertyOf;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#ad02babb-f55d-4ed1-ab46-4618d7599d4f>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853>;
+  void:triples 3 .
+
+<http://metadata.un.org/sdg/void.ttl#SDG_64520d55-d42d-4596-be51-2103cf8740a1_linkset>
+  a void:Linkset;
+  void:linkPredicate <http://www.w3.org/2004/02/skos/core#exactMatch>;
+  void:objectsTarget <http://metadata.un.org/sdg/void.ttl#64520d55-d42d-4596-be51-2103cf8740a1>;
+  void:subjectsTarget <http://metadata.un.org/sdg/void.ttl#SDG>;
+  void:triples 17 .
+
+<http://metadata.un.org/sdg/void.ttl#e3c5a0a6-f738-488f-ac95-a3a3be4446ed> a void:Dataset;
+  void:uriSpace "http://purl.unep.org/sdg/" .
+
+<http://metadata.un.org/sdg/void.ttl#64520d55-d42d-4596-be51-2103cf8740a1> a void:Dataset;
+  void:uriSpace "http://www.wikidata.org/entity/" .
+
+<http://metadata.un.org/sdg/void.ttl#8efcf460-832f-454b-ab1c-02c882195853> a void:Dataset;
+  void:uriSpace "http://www.w3.org/2004/02/skos/core#" .
+
+<http://metadata.un.org/sdg/void.ttl#ad02babb-f55d-4ed1-ab46-4618d7599d4f> a void:Dataset;
+  void:uriSpace "http://schema.org/" .
