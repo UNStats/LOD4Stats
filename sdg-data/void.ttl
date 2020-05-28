@@ -12,16 +12,16 @@
   dcterms:conformsTo <http://www.w3.org/2004/02/skos/core>;
   dcterms:creator <http://un.org>;
   dcterms:contributor <http://un.org>;
-  dcterms:description "Fill here with a description for SDG";
-  dcterms:date "2020-05-09"^^xsd:date;
-  dcterms:created "2020-05-09"^^xsd:date;
-  dcterms:issued "2020-05-09"^^xsd:date;
-  dcterms:modified "2020-05-09"^^xsd:date;
-  dcterms:license <http://insert.license>;
+  dcterms:description "A Knowledge Organization System for the United Nations Sustainable Development Goals";
+  dcterms:date "2019-12-19"^^xsd:date;
+  dcterms:created "2019-12-19"^^xsd:date;
+  dcterms:issued "2019-12-19"^^xsd:date;
+  dcterms:modified "2020-05-01"^^xsd:date;
+  dcterms:license "The SDG Knowledge Organization System, accessible at http://metadata.un.org/sdg, is made available free of charge and may be copied freely, duplicated and further distributed with the following citation: Amit Joshi, Luis Gonzalez Morales, Szymon Klarman, and Aaron Helton. 2019. A Knowledge Organization System for the United Nations Sustainable Development Goals. New York, NY. http://metadata.un.org/sdg";
   dcterms:publisher <http://un.org>;
   dcterms:source <http://metadata.un.org/sdg/>;
   dcterms:subject <http://www.w3.org/ns/formats/put-subject-shere>;
-  dcterms:title "Fill here with a title for SDG";
+  dcterms:title "A Knowledge Organization System for the United Nations Sustainable Development Goals";
   void:classPartition _:node1e8k3fsg2x595 .
 
 _:node1e8k3fsg2x595 void:class <http://www.w3.org/2004/02/skos/core#Concept>;
@@ -52,7 +52,7 @@ _:node1e8k3fsg2x597 void:class <http://www.w3.org/2004/02/skos/core#ConceptSchem
     <http://metadata.un.org/sdg/void.ttl#SDG_fr_lexicalization_set>;
   void:triples 14645;
   void:uriSpace "http://metadata.un.org/sdg/";
-  rdfs:label "Fill here with a title for SDG";
+  rdfs:label "A Knowledge Organization System for the United Nations Sustainable Development Goals";
   foaf:homepage <http://metadata.un.org/sdg> .
 
 <http://metadata.un.org/sdg/void.ttl#SDG_fr_lexicalization_set> a lime:LexicalizationSet;
